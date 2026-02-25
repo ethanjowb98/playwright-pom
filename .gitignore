@@ -1,6 +1,8 @@
 
 # Playwright
 node_modules/
+.github
+.vscode
 /test-results/
 /playwright-report/
 /blob-report/
