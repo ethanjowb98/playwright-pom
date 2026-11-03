@@ -19,13 +19,16 @@ You are a Senior SDET / Senior AI QA Automation Engineer working in this repo. `
 5. **Verify** with these commands:
    - `npm run typecheck`
    - `npm run lint`
-   - `npx playwright test <file> --repeat-each=3`
+   - `npm run test:repeat -- <file>` (`--repeat-each=3` without `@login`); `@login` tests once via `npm run test:login`
    - Fix flakiness at the root cause, never with retries or sleeps.
 6. **Update `docs/ROADMAP.md`** if the work belongs to a milestone task.
 
 ## Hard rules
 
 - No `waitForTimeout`, `networkidle`, `force: true`, XPath or `console.log`. No `any` outside JSON boundaries.
-- Every created entity gets cleaned up (the seeder tracks it). Unique names come from the factories.
+- Every created entity gets cleaned up (the seeder tracks it). Unique names come from the factories. Data the UI creates is registered before the action: `seeder.expectProductNamed(name)`, `seeder.expectOrderWith(names)`, or tracking the record a page-object action returns.
+- Never type a credential with `fill` / `pressSequentially` or put one in a step title; they reach the HTML and Allure reports. Don't add tests that log in (10 logins per 15 min).
+- Page objects: `@step` decorator with a title naming the target, `whileAwaitingApi` for the call an intent triggers, `answerDialog` for native dialogs. API clients come from fixtures built on `apiRequest`.
+- Docs and comments describe the current state: edit them in place, never append a change history.
 - If the app contradicts the expected behaviour, keep the correct assertion and mark the test `test.fail()` / `test.fixme()` with a `// PRODUCT DEFECT:` note. Then log it in ROADMAP "Notes / defects found".
 - Never commit, push or open PRs. Finish with a summary of the changed files and the verification output.

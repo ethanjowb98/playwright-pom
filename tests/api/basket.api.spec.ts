@@ -29,7 +29,7 @@ const overStockAfterAdd: {
   },
 ];
 
-// The basket is account-wide, so this whole file runs in the single-worker api-stateful project.
+// The basket is account-wide, so this whole file runs in the single-worker stateful project.
 test.describe('Basket API', { tag: [TAGS.api, TAGS.stateful] }, () => {
   test.beforeEach(async () => {
     await labels({ feature: 'Basket' });

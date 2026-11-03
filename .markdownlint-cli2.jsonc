@@ -6,6 +6,13 @@
     "MD033": false,
     "MD041": false,
   },
-  "globs": ["*.md", "docs/**/*.md", "specs/**/*.md", "templates/**/*.md", ".github/**/*.md"],
+  "globs": [
+    "*.md",
+    "docs/**/*.md",
+    "specs/**/*.md",
+    "templates/**/*.md",
+    ".github/**/*.md",
+    ".claude/**/*.md",
+  ],
   "ignores": ["node_modules/**", "CHANGELOG.md"],
 }

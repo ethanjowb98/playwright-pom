@@ -57,17 +57,22 @@ test.describe('Auth API', { tag: [TAGS.api] }, () => {
     },
   );
 
-  for (const { condition, body, status } of badLogins) {
-    test(
-      `should reject the login with ${status} when ${condition}`,
-      { tag: [TAGS.regression] },
-      async ({ authApi }) => {
-        await labels({ story: 'Login', severity: Severity.CRITICAL });
+  test.describe('Login', () => {
+    // A retry would spend another rate-limited login.
+    test.describe.configure({ retries: 0 });
 
-        await expect(authApi.login(...body())).rejects.toMatchObject({ status });
-      },
-    );
-  }
+    for (const { condition, body, status } of badLogins) {
+      test(
+        `should reject the login with ${status} when ${condition}`,
+        { tag: [TAGS.regression, TAGS.login] },
+        async ({ authApi }) => {
+          await labels({ story: 'Login', severity: Severity.CRITICAL });
+
+          await expect(authApi.login(...body())).rejects.toMatchObject({ status });
+        },
+      );
+    }
+  });
 
   test(
     'should reject the profile request with 401 when there is no session',

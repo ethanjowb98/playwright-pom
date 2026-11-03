@@ -1,6 +1,6 @@
 import { readFileSync } from 'node:fs';
 
-import { test as base, expect } from '@playwright/test';
+import { type APIRequestContext, test as base, expect } from '@playwright/test';
 
 import { AuthApi } from '@api/AuthApi';
 import { BasketApi } from '@api/BasketApi';
@@ -10,6 +10,8 @@ import { OrdersApi } from '@api/OrdersApi';
 import { ProductsApi } from '@api/ProductsApi';
 import { AUTH } from '@config/constants';
 import { DataSeeder } from '@data/DataSeeder';
+import { LoginPage } from '@pages/LoginPage';
+import { MarketPage } from '@pages/MarketPage';
 
 /** The api-key clients, built for an arbitrary key (or none) for 401 tests. */
 export interface KeyedApiClients {
@@ -19,6 +21,11 @@ export interface KeyedApiClients {
 }
 
 interface ApiFixtures {
+  /**
+   * Cookie-less request context behind every api-key client. The built-in `request` inherits the project's
+   * storageState (the browser session in the `stateful` project), so it would authenticate twice.
+   */
+  apiRequest: APIRequestContext;
   /** Builds clients that send `apiKey` (`null` sends no `Authorization` header). */
   apiClientsFor: (apiKey: string | null) => KeyedApiClients;
   /** Swagger-documented paths, for contract tests. */
@@ -35,12 +42,19 @@ interface ApiFixtures {
   seeder: DataSeeder;
 }
 
+interface PageFixtures {
+  /** Home page with the login modal. Use with an empty storageState; each submit spends a rate-limited login. */
+  loginPage: LoginPage;
+  /** Market app, not yet opened: seed through the API first, then `open()`. */
+  marketPage: MarketPage;
+}
+
 interface WorkerFixtures {
   /** Market api key written by tests/setup/auth.setup.ts. */
   apiKey: string;
 }
 
-export const test = base.extend<ApiFixtures, WorkerFixtures>({
+export const test = base.extend<ApiFixtures & PageFixtures, WorkerFixtures>({
   apiKey: [
     // eslint-disable-next-line no-empty-pattern -- Playwright requires a destructured first argument
     async ({}, use) => {
@@ -52,18 +66,26 @@ export const test = base.extend<ApiFixtures, WorkerFixtures>({
     },
     { scope: 'worker' },
   ],
-  apiClientsFor: async ({ request }, use) => {
+  apiRequest: async ({ playwright, baseURL }, use) => {
+    const context = await playwright.request.newContext({
+      baseURL,
+      storageState: { cookies: [], origins: [] },
+    });
+    await use(context);
+    await context.dispose();
+  },
+  apiClientsFor: async ({ apiRequest }, use) => {
     await use((apiKey) => ({
-      productsApi: new ProductsApi(request, apiKey),
-      basketApi: new BasketApi(request, apiKey),
-      ordersApi: new OrdersApi(request, apiKey),
+      productsApi: new ProductsApi(apiRequest, apiKey),
+      basketApi: new BasketApi(apiRequest, apiKey),
+      ordersApi: new OrdersApi(apiRequest, apiKey),
     }));
   },
-  documentedApi: async ({ request, apiKey }, use) => {
-    await use(new DocumentedApi(request, apiKey));
+  documentedApi: async ({ apiRequest, apiKey }, use) => {
+    await use(new DocumentedApi(apiRequest, apiKey));
   },
-  authApi: async ({ request }, use) => {
-    await use(new AuthApi(request, null));
+  authApi: async ({ apiRequest }, use) => {
+    await use(new AuthApi(apiRequest, null));
   },
   sessionAuthApi: async ({ playwright, baseURL }, use) => {
     const context = await playwright.request.newContext({
@@ -73,22 +95,28 @@ export const test = base.extend<ApiFixtures, WorkerFixtures>({
     await use(new AuthApi(context, null));
     await context.dispose();
   },
-  productsApi: async ({ request, apiKey }, use) => {
-    await use(new ProductsApi(request, apiKey));
+  productsApi: async ({ apiRequest, apiKey }, use) => {
+    await use(new ProductsApi(apiRequest, apiKey));
   },
-  basketApi: async ({ request, apiKey }, use) => {
-    await use(new BasketApi(request, apiKey));
+  basketApi: async ({ apiRequest, apiKey }, use) => {
+    await use(new BasketApi(apiRequest, apiKey));
   },
-  ordersApi: async ({ request, apiKey }, use) => {
-    await use(new OrdersApi(request, apiKey));
+  ordersApi: async ({ apiRequest, apiKey }, use) => {
+    await use(new OrdersApi(apiRequest, apiKey));
   },
-  maintenanceApi: async ({ request, apiKey }, use) => {
-    await use(new MaintenanceApi(request, apiKey));
+  maintenanceApi: async ({ apiRequest, apiKey }, use) => {
+    await use(new MaintenanceApi(apiRequest, apiKey));
   },
   seeder: async ({ productsApi, basketApi, ordersApi }, use) => {
     const seeder = new DataSeeder(productsApi, basketApi, ordersApi);
     await use(seeder);
     await seeder.cleanup();
+  },
+  loginPage: async ({ page }, use) => {
+    await use(new LoginPage(page));
+  },
+  marketPage: async ({ page }, use) => {
+    await use(new MarketPage(page));
   },
 });
 

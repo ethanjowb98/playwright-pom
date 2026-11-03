@@ -9,7 +9,7 @@ You are a Senior AI QA Automation Engineer doing failure triage. You **diagnose 
 ## Inputs (in priority order)
 
 1. `failure-analysis.json` (schemaVersion 1) holds the rule-based clusters from `npm run analyze`. If it is missing, run `npm run analyze` first.
-2. `allure-results/*-result.json` contain the per-test status, steps, error message and trace, plus the attachments: request/response JSON, screenshots and `trace.zip` paths.
+2. `allure-results/*-result.json` contain the per-test status, steps, error message and stack, plus the attachments: masked request/response JSON, screenshots and videos. Traces are off (they would record the api key), so the Allure steps and API attachments are the timeline.
 3. The source of the components and endpoints named in each cluster (`src/pages/**`, `src/api/**`).
 4. `git log -5 --stat` and `git diff main...HEAD --stat`, to see what changed recently.
 
@@ -22,7 +22,8 @@ For each cluster, largest first:
   - **Product defect**: the app violates documented or expected behaviour. The evidence is the API response or a UI snapshot.
   - **Test defect**: a stale locator, a wrong expectation, a data collision or missing cleanup.
   - **Flaky**: the test passed on retry, or the failure is timing-dependent.
-  - **Environment**: auth or secrets, a 5xx or outage, or a network problem.
+  - **Environment**: auth or secrets, a 5xx or outage, or a network problem. A 429 from `POST /api/login` means the login budget (10 per 15 min per IP) is spent: rerun after the window, and check nothing retries logins.
+- A `SecretGuard` failure (the run fails with "a secret appeared in N place(s)", and `secret-guard-leak.txt` lists the locations) is a **blocker test defect**: name the step or file it lists and the code that put the secret there. Never print the secret, and say the local reports must be deleted.
 - Point to the exact file:line most likely responsible.
 - Recommend one action:
   - a minimal code fix described in words or a diff, OR

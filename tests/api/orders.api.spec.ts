@@ -1,6 +1,6 @@
 import { type OrdersApi } from '@api/OrdersApi';
 import { type OrderStatus } from '@api/types';
-import { ORDER_STATUSES, TAGS, TEST_DATA } from '@config/constants';
+import { ORDER_STATUSES, TAGS, TERMINAL_ORDER_STATUSES, TEST_DATA } from '@config/constants';
 import { expect, test } from '@fixtures';
 import { labels, Severity } from '@utils/allure';
 import { expectOrderTotals } from '@utils/assertions';
@@ -15,7 +15,7 @@ const allowedTransitions: { from: OrderStatus; to: OrderStatus }[] = [
   { from: 'shipped', to: 'cancelled' },
 ];
 
-const terminalStatuses = (['delivered', 'cancelled'] as const).map((status) => ({
+const terminalStatuses = TERMINAL_ORDER_STATUSES.map((status) => ({
   status,
   others: ORDER_STATUSES.filter((other) => other !== status),
 }));
@@ -26,7 +26,7 @@ const unknownOrderCalls: { action: string; call: (api: OrdersApi) => Promise<unk
   { action: 'deleted', call: (api) => api.remove(TEST_DATA.unknownId) },
 ];
 
-// Placing an order consumes the account-wide basket: single-worker api-stateful project.
+// Placing an order consumes the account-wide basket: single-worker stateful project.
 test.describe('Orders API', { tag: [TAGS.api, TAGS.stateful] }, () => {
   test.beforeEach(async () => {
     await labels({ feature: 'Orders' });

@@ -12,13 +12,13 @@ Workflow: one branch and one PR per milestone (`feat/m<N>-<slug>` → `main`). C
 | M1  | Foundation, linting & templates  | ✅     | `feat/m1-foundation`       |     | 2026-11-03 |
 | M2  | API layer + test data generation | ✅     | `feat/m2-api-layer`        |     | 2026-11-03 |
 | M3  | API test suite                   | ✅     | `feat/m3-api-tests`        |     | 2026-11-03 |
-| M4  | Page objects + E2E suite         | ⬜     | `feat/m4-e2e`              |     |            |
+| M4  | Page objects + E2E suite         | ✅     | `feat/m4-e2e`              |     | 2026-11-03 |
 | M5  | Allure reporting                 | ⬜     | `feat/m5-allure`           |     |            |
 | M6  | Failure analysis                 | ⬜     | `feat/m6-failure-analysis` |     |            |
 | M7  | CI/CD pipeline                   | ⬜     | `feat/m7-ci`               |     |            |
 | M8  | Final polish & hardening         | ⬜     | `feat/m8-hardening`        |     |            |
 
-Progress: **49 / 88 tasks**
+Progress: **61 / 89 tasks**
 
 ---
 
@@ -33,7 +33,7 @@ Progress: **49 / 88 tasks**
 - [x] Skills: `/new-page-object`, `/new-api-client`, `/triage`, `/coverage-gaps`
 - [x] Playwright Test Agents (`init-agents --loop=claude`): planner/generator/healer + `.mcp.json`, with project guardrails appended
 - [x] `.gitignore`: ignore `.claude/settings.local.json`
-- [x] Bump Playwright to 1.64.1 (CI `ubuntu-latest` is now Ubuntu 26.04)
+- [x] Bump Playwright to 1.64.1 (matches CI `ubuntu-latest`, Ubuntu 26.04)
 - [x] **Exit:** maintainer has reviewed and merged the M0 PR
 
 ## M1: Foundation, linting & templates ✅
@@ -63,7 +63,7 @@ Progress: **49 / 88 tasks**
 - [x] `AuthApi`, `ProductsApi`, `BasketApi`, `OrdersApi`, `MaintenanceApi`
 - [x] `productFactory` (faker, overrides, unique worker-scoped names)
 - [x] `DataSeeder` (seedProducts, seedBasket, seedOrder) with tracked cleanup (orders → basket → products)
-- [x] `api-stateful` project (`@stateful`, 1 worker) for tests that use the account-wide basket
+- [x] `stateful` project (`@stateful`, 1 worker) for tests that use the account-wide basket
 - [x] `src/fixtures/index.ts` (API clients, apiKey, seeder with auto-teardown)
 - [x] Smoke API spec proving that seeding and cleanup leave no leftovers
 - [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
@@ -83,24 +83,24 @@ Progress: **49 / 88 tasks**
 - [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
 - [x] **Exit:** `test:api` green (known product defects marked and logged) with `--repeat-each=3`
 
-## M4: Page objects + E2E suite ⬜
+## M4: Page objects + E2E suite ✅
 
-- [ ] `BasePage` (navigation, ready-wait, alert, dialog helper), `LoginPage`, `MarketPage`
-- [ ] Components: `ProductGrid`, `ProductModal`, `FilterSidebar`, `ItemDetailsModal`, `BasketPanel`, `OrdersPanel`
-- [ ] Page-object fixtures
-- [ ] E2E products: add via modal, edit, delete, view details
-- [ ] E2E search / sort / filters
-- [ ] E2E basket: add, +/-, remove, clear, out-of-stock disables ADD, count badge matches the API
-- [ ] E2E checkout: success modal → order shown in Orders tab, basket emptied
-- [ ] E2E orders: change status, delete
-- [ ] E2E login: valid / invalid (no storageState project)
-- [ ] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
-- [ ] **Exit:** `test:e2e` green with `--repeat-each=3 --workers=4`
+- [x] `BasePage` (navigation, ready-wait), dialog helper (`src/pages/dialogs.ts`), `LoginPage`, `MarketPage` (header, alert, tabs)
+- [x] Components: `ProductGrid`, `ProductModal`, `FilterSidebar`, `ItemDetailsModal`, `BasketPanel`, `OrdersPanel` (+ `OrderSuccessModal`)
+- [x] Page-object fixtures
+- [x] E2E products: add via modal, edit, delete, view details
+- [x] E2E search / sort / filters
+- [x] E2E basket: add, +/-, remove, clear, out-of-stock disables ADD, count badge matches the API
+- [x] E2E checkout: success modal → order shown in Orders tab, basket emptied
+- [x] E2E orders: change status, delete
+- [x] E2E login: valid / invalid / no session (empty `storageState` via `test.use`)
+- [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
+- [x] **Exit:** `test:e2e` green with `--repeat-each=3 --workers=4` (`@login` tests once)
 
 ## M5: Allure reporting ⬜
 
-- [ ] `src/utils/allure.ts` helpers (epic/feature/story/severity/owner, step wrapper). `labels()` landed in M3; add owner + step wrapper
-- [ ] Steps on all page-object and API-client methods; request/response attachments
+- [ ] `src/utils/allure.ts` helpers (epic/feature/story/severity/owner, step wrapper). `labels()` and the `@step` decorator exist; add owner
+- [x] Steps on all page-object and API-client methods; request/response attachments
 - [ ] `categories.json` (Product defect, Test defect, Locator not found, Timeout, API 4xx, API 5xx, Auth)
 - [ ] `environment.properties` + `executor.json`
 - [ ] Allure CLI dependency + scripts `allure:generate`, `allure:open`
@@ -134,6 +134,7 @@ Progress: **49 / 88 tasks**
 - [ ] Final docs pass: README, ARCHITECTURE, CONTRIBUTING reflect the finished suite (reports, analysis, CI)
 - [ ] Flake sweep: full suite `--repeat-each=5`
 - [ ] `/coverage-gaps` run; close or log the gaps
+- [ ] UI negative paths left open by the M4 review: invalid product edit (cleared name, price ≤ 0), Place Order with an empty basket, dismissing Clear All keeps the basket, cancelling the delete-order modal keeps the order, empty login form
 - [ ] `test-reviewer` agent pass over the whole repo; findings addressed
 - [ ] **Exit:** every box above ticked
 
@@ -141,22 +142,22 @@ Progress: **49 / 88 tasks**
 
 ## Notes / defects found
 
-| Date       | Milestone | Type           | Note                                                                                                                                                                                                                                    |
-| ---------- | --------- | -------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-11-03 | M0        | Doc drift      | Swagger `/market/docs` documents `/api/groceries` and `/api/basket/items`, but the UI calls `/api/products` and `/api/basket`. To be covered by the M3 contract test.                                                                   |
-| 2026-11-03 | M0        | Security       | The legacy `tests/milestone.spec.ts` and `response.json` contain a real BPOSeats login and profile data. They get removed in M1, but **the password stays in git history: rotate it.**                                                  |
-| 2026-11-03 | M1        | Tooling        | TypeScript pinned to `~6.0` because typescript-eslint 8.x supports TS < 6.1 (TS 7 is the native port). npm blocked esbuild's postinstall; `tsx` works without it.                                                                       |
-| 2026-11-03 | M2        | Design         | The basket is account-wide and `POST /api/orders` consumes all of it. Basket/order tests are tagged `@stateful` and run in the single-worker `api-stateful` project. M4 must keep E2E basket tests from overlapping it.                 |
-| 2026-11-03 | M2        | Defect?        | `POST /api/products` accepts `price: -1` (201). To be asserted in the M3 negatives; mark `test.fixme()` if confirmed.                                                                                                                   |
-| 2026-11-03 | M2        | Doc drift      | `GET /api/products/filter` returns rows with `name` instead of `product_name` (a bare array, not `{ products }`). `ProductsApi.filter` keeps the raw shape for M3.                                                                      |
-| 2026-11-03 | M2        | CI             | Bumped `actions/checkout`, `setup-node` and `upload-artifact` from v4 to v7 (Node 24 runtime), clearing the Node 20 deprecation warning.                                                                                                |
-| 2026-11-03 | M3        | Product defect | `POST /api/products` accepts `price: -1` (201). Confirms the M2 note. `products.api.spec.ts` → `test.fixme`.                                                                                                                            |
-| 2026-11-03 | M3        | Product defect | Checkout oversells: when stock drops below a basket quantity before checkout, `POST /api/orders` still returns 201 and clamps stock to 0. Expected 400 with no order and no stock change. `order-integrity.api.spec.ts` → `test.fixme`. |
-| 2026-11-03 | M3        | Product defect | Concurrent `POST /api/basket` for the same product returns 500 for some requests (5 parallel adds: three 500s, final qty 2). `basket.api.spec.ts` → `test.fixme`.                                                                       |
-| 2026-11-03 | M3        | Product defect | `GET /api/products/filter` rows use `name`, not `product_name`, unlike every other product endpoint. `product-search.api.spec.ts` → `test.fixme`.                                                                                       |
-| 2026-11-03 | M3        | Doc drift      | Documented `POST /api/basket/items` returns 404. `contract.api.spec.ts` → `test.fixme`. Documented `/api/groceries` works as an alias of `/api/products` (passing test).                                                                |
-| 2026-11-03 | M3        | Security       | 400 responses leak raw Postgres errors (`invalid input syntax for type numeric`, check-constraint names). Not asserted; raise with the app owner.                                                                                       |
-| 2026-11-03 | M3        | Question       | Open orders can move backwards (shipped → pending/processing). Tests assert the forward flow, cancellation and the terminal states only.                                                                                                |
-| 2026-11-03 | M3        | Question       | Deleting an order does not restore stock (cancelling does). Not asserted until the intended behaviour is confirmed.                                                                                                                     |
-| 2026-11-03 | M3        | Question       | `price: 0` is rejected with the misleading message "product_name/name, price, and category are required" (truthiness check). Not asserted.                                                                                              |
-| 2026-11-03 | M3        | Environment    | `POST /api/login` is rate-limited to 10 per 15 min per IP. The first `--repeat-each=3` run hit 429 on 8 auth tests. Fixed by reusing the setup session (`sessionAuthApi`) and keeping only 2 negative login tests (3 logins per run).   |
+| Date       | Milestone | Type           | Note                                                                                                                                                                                                                                                                       |
+| ---------- | --------- | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-11-03 | M0        | Security       | The password of the legacy BPOSeats login is in git history (old `tests/milestone.spec.ts` and `response.json`). **Rotate it.**                                                                                                                                            |
+| 2026-11-03 | M1        | Tooling        | TypeScript pinned to `~6.0` because typescript-eslint 8.x supports TS < 6.1 (TS 7 is the native port). npm blocked esbuild's postinstall; `tsx` works without it.                                                                                                          |
+| 2026-11-03 | M2        | Design         | The basket is account-wide and `POST /api/orders` consumes all of it. Basket/order tests (API and E2E) are tagged `@stateful` and run in the single-worker `stateful` project, so they never overlap. `test:api` / `test:e2e` narrow it with `--grep`.                     |
+| 2026-11-03 | M3        | Product defect | `POST /api/products` accepts `price: -1` (201). `products.api.spec.ts` → `test.fixme`.                                                                                                                                                                                     |
+| 2026-11-03 | M3        | Product defect | Checkout oversells: when stock drops below a basket quantity before checkout, `POST /api/orders` still returns 201 and clamps stock to 0. Expected 400 with no order and no stock change. `order-integrity.api.spec.ts` → `test.fixme`.                                    |
+| 2026-11-03 | M3        | Product defect | Concurrent `POST /api/basket` for the same product returns 500 for some requests (5 parallel adds: three 500s, final qty 2). `basket.api.spec.ts` → `test.fixme`.                                                                                                          |
+| 2026-11-03 | M3        | Product defect | `GET /api/products/filter` rows use `name`, not `product_name`, unlike every other product endpoint. `product-search.api.spec.ts` → `test.fixme`.                                                                                                                          |
+| 2026-11-03 | M3        | Doc drift      | Documented `POST /api/basket/items` returns 404. `contract.api.spec.ts` → `test.fixme`. Documented `/api/groceries` works as an alias of `/api/products` (passing test).                                                                                                   |
+| 2026-11-03 | M3        | Security       | 400 responses leak raw Postgres errors (`invalid input syntax for type numeric`, check-constraint names). Not asserted; raise with the app owner.                                                                                                                          |
+| 2026-11-03 | M3        | Question       | Open orders can move backwards (shipped → pending/processing). Tests assert the forward flow, cancellation and the terminal states only.                                                                                                                                   |
+| 2026-11-03 | M3        | Question       | Deleting an order does not restore stock (cancelling does). Not asserted until the intended behaviour is confirmed.                                                                                                                                                        |
+| 2026-11-03 | M3        | Question       | `price: 0` is rejected with the misleading message "product_name/name, price, and category are required" (truthiness check). Not asserted.                                                                                                                                 |
+| 2026-11-03 | M4        | Product defect | Stored XSS: the grid (and basket, orders, details) render product names via `innerHTML` unescaped. A product named `<i>markup</i>` renders as italic text. `products.spec.ts` → `test.fixme`. Severity: critical on a shared account.                                      |
+| 2026-11-03 | M4        | Question       | The Add / Edit Product modal has no temperature zone or weighted inputs, so the UI cannot set them (the API can). Zone / weighted filters are tested with API-seeded products.                                                                                             |
+| 2026-11-03 | M4        | Question       | The header basket badge counts lines, not units (2 products × 2 units shows `2`). The `Basket Units` stat shows units. Tested as implemented.                                                                                                                              |
+| 2026-11-03 | M4        | Defect?        | Typo in the empty basket state: "Your basket is empty. Start marketping!". Cosmetic; not asserted.                                                                                                                                                                         |
+| 2026-11-03 | M4        | Environment    | `POST /api/login` is rate-limited to 10 per 15 min per IP (429 after). A full run spends 4 logins (the `@login` tests: 2 API + 2 E2E); setup reuses a valid `.auth/` session. `npm run test:repeat` leaves `@login` out. A UI login does not invalidate the setup session. |

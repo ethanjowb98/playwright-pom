@@ -8,7 +8,8 @@
 
    ```bash
    npm run check
-   npx playwright test <changed spec> --repeat-each=3        # add --workers=4 for e2e
+   npm run test:repeat -- <changed spec>                     # --repeat-each=3 without @login; add --workers=4 for e2e
+   npm run test:login                                        # only if you touched login: runs the @login tests once
    ```
 
 4. Update [docs/ROADMAP.md](ROADMAP.md), plus the README and docs if you added a command, folder or convention.
@@ -42,7 +43,10 @@ Checklist for every test:
 - [ ] Data seeded via API and cleaned up; unique names from factories
 - [ ] Touches the basket or places an order → tagged `@stateful` (see [ARCHITECTURE](ARCHITECTURE.md#isolation-the-basket-is-account-wide))
 - [ ] No raw locators or HTTP calls in the spec; no hard waits
-- [ ] Passes `--repeat-each=3`
+- [ ] E2E: page-object intents are `@step`-decorated and wait for the API call they trigger; cards and rows are found by unique name, never by index
+- [ ] Iterating locally: setup reuses a valid `.auth/` session, so only the login tests spend the budget (10 per 15 min)
+- [ ] No credential in a `@step` title, `fill` or `pressSequentially` (`SecretGuard` fails the run)
+- [ ] Passes `npm run test:repeat` (`@login` tests once via `npm run test:login`)
 
 ## When a test fails
 

@@ -93,6 +93,8 @@ export interface BasketItem {
   updated_at: string;
 }
 
+export type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
+
 export interface OrderItem {
   /** Present on `GET /api/orders/:id`, absent on list and place responses. */
   product_id?: string;

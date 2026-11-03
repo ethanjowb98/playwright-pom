@@ -15,6 +15,7 @@ Act as a **Senior SDET / Senior AI QA Automation Engineer**. Optimise for reliab
   - a PR title `[M<N>] <title>`
   - a PR body filled in from `.github/pull_request_template.md`
 - Update `docs/ROADMAP.md` (checkboxes, status, notes) at the end of every work session.
+- Docs, comments and ROADMAP notes describe the **current state**. Edit them in place; never append a change history or "was / now / renamed" wording (git keeps the history). Remove a note once it is resolved or superseded.
 
 ## Target app: qacloud.dev Market
 
@@ -30,7 +31,7 @@ Act as a **Senior SDET / Senior AI QA Automation Engineer**. Optimise for reliab
   - `GET /api/orders`, `POST /api/orders`
   - `GET /api/orders/:id`, `PUT /api/orders/:id` (`status`: pending|processing|shipped|delivered|cancelled), `DELETE /api/orders/:id`
   - `POST /api/reset` wipes the whole account. Only a serial `@maintenance` test may call it.
-- Delete and reset actions open `confirm()` dialogs, so accept them through the `BasePage` dialog helper.
+- Product delete, basket clear and reset open `confirm()` dialogs, so answer them with the `answerDialog` helper in `src/pages/dialogs.ts`. Order delete and final status changes use in-page modals.
 - Credentials come only from `.env` (local) or GitHub Secrets (CI): `QACLOUD_BASE_URL`, `QACLOUD_USERNAME`, `QACLOUD_PASSWORD`. Never read `.env` or `.auth/`, and never print secrets.
 
 ## Architecture
@@ -38,10 +39,11 @@ Act as a **Senior SDET / Senior AI QA Automation Engineer**. Optimise for reliab
 ```text
 src/config      env + constants (timeouts, enums), with no magic numbers elsewhere
 src/api         ApiClient base (auth header, JSON, Allure attachments) + one client per resource + types.ts
-src/pages       BasePage, LoginPage, MarketPage; components/ for widgets (ProductGrid, ProductModal, BasketPanel, OrdersPanel, FilterSidebar, ItemDetailsModal)
+src/pages       BasePage, LoginPage, MarketPage; components/ for widgets (ProductGrid, ProductModal, BasketPanel, OrdersPanel, OrderSuccessModal, FilterSidebar, ItemDetailsModal)
 src/data        factories/ (faker builders with overrides) + DataSeeder (API test-data generation with tracked cleanup)
-src/fixtures    test.extend: api clients, seeder, page objects, all injected
-tests/setup     auth.setup.ts: logs in once and saves storageState + api key
+src/fixtures    test.extend: api clients (on a cookie-less apiRequest), seeder, page objects, all injected
+src/reporters   SecretGuard: fails the run if the password or api key reaches a report
+tests/setup     auth.setup.ts: reuses a valid saved session or logs in once; saves storageState + api key
 tests/api       *.api.spec.ts
 tests/e2e       *.spec.ts
 scripts/        analyze-failures.ts (rule-based failure clustering)
@@ -79,9 +81,23 @@ docs/ROADMAP.md milestone tracker
     - the basket is empty after an order
     - stock decreases by the quantity ordered
     - the UI matches the API
-  - **Isolation:** unique per-worker data names and no dependence on test order, so `fullyParallel` stays on. The basket is account-wide, so any test that uses the basket or places an order is tagged `@stateful` and runs in the single-worker `api-stateful` project.
+  - **Isolation:** unique per-worker data names and no dependence on test order, so `fullyParallel` stays on. The basket is account-wide, so any test that uses the basket or places an order is tagged `@stateful` and runs in the single-worker `stateful` project.
   - **Durability:** re-read after a write (fresh GET or reload).
-- **Allure:** epic `Market`, a feature per domain, and `step` wrappers in page and API methods. Requests and responses are attached.
+- **Allure:** epic `Market`, a feature per domain. Requests and responses are attached.
+  - Steps need a running test: `@step` methods cannot run in global setup or worker-scoped fixtures. Specs never call `test.step` directly (ESLint).
+  - Steps come only from the `@step` decorator (`@utils/allure`) on page, API-client and seeder methods. Titles name the target, built from the arguments: ``@step((name: string) => `Delete "${name}" from its card`)``.
+  - An expected failure (a 4xx in a negative test, a 404 in cleanup) must not show as a failed step: throw after the step completes.
+- **Secrets in reports:** Playwright titles `fill` / `pressSequentially` steps with the typed value, and the HTML and Allure reports list them.
+  - Never type a credential that way or put one in a step title; set it with `locator.evaluate()` (see `LoginPage`). ESLint blocks the common cases.
+  - Traces are off everywhere: every request context is traced, so a trace would carry the `Authorization` header. Login tests and the setup project run with `retries: 0`; the E2E login spec also records no video or screenshots.
+  - The `SecretGuard` reporter fails any run whose reports show the password or api key, and writes `secret-guard-leak.txt` (locations only), which stops the CI report upload. If it fires, delete `playwright-report/`, `allure-results/` and `test-results/`.
+- **Login budget:** `POST /api/login` allows 10 per 15 min per IP. Don't add tests that log in. Tests that do are tagged `@login`, have `retries: 0`, and run once (`npm run test:login`), never with `--repeat-each`. Setup reuses a valid saved session.
+- **API auth:** API clients are built on the cookie-less `apiRequest` fixture, never the built-in `request`, which inherits the project's `storageState` (the session cookie in the `stateful` project).
+- **Cleanup of UI-created data:** register it _before_ the action, so a failure between create and track can't leak it.
+  - Products: `seeder.expectProductNamed(name)` before submitting the form.
+  - Orders: `seeder.expectOrderWith(productNames)` before checkout, then `seeder.trackOrder(await basket.placeOrder())`. Page-object actions that create return the created record from the response.
+- **Page-object waits:** each intent waits for the API call it triggers with `whileAwaitingApi`, which throws on a non-2xx. Native dialogs go through `answerDialog`. Never branch on a one-off `isVisible()`; retry with `expect(...).toPass()`.
+- **Assertions:** derive expected values from the seeded data, not literals. For a form the browser blocks, assert its `validationMessage` before checking that nothing was created.
 
 ## Commands
 
@@ -89,6 +105,8 @@ docs/ROADMAP.md milestone tracker
 | ------------------- | ------------------------------------------------------------------------------------------ |
 | All tests           | `npm test`                                                                                 |
 | API / E2E / smoke   | `npm run test:api` / `npm run test:e2e` / `npm run test:smoke`                             |
+| Flakiness check     | `npm run test:repeat -- <spec>` (`--repeat-each=3` without `@login`)                       |
+| Login tests         | `npm run test:login` (spends rate-limited logins: run once)                                |
 | Lint, format, types | `npm run lint`, `npm run format:check`, `npm run typecheck`, `npm run check` (all of them) |
 | Allure              | `npm run allure:generate`, `npm run allure:open`                                           |
 | Failure clustering  | `npm run analyze` writes `failure-analysis.md` and `.json`                                 |
@@ -96,8 +114,8 @@ docs/ROADMAP.md milestone tracker
 ## Definition of done (every new or changed test)
 
 1. `npm run check` passes.
-2. `npx playwright test <file> --repeat-each=3` passes. Use `--workers=4` for E2E.
-3. Allure metadata and tags are present, and the data is seeded and cleaned up through `seeder`.
+2. `npm run test:repeat -- <file>` passes (`--repeat-each=3` without `@login`; add `--workers=4` for E2E). `@login` tests pass once via `npm run test:login`.
+3. Allure metadata and tags are present, and the data is seeded and cleaned up through `seeder` (UI-created data registered before the action).
 4. The ROADMAP task is ticked.
 5. README and `docs/` are updated for any new command, folder, convention or decision.
 
@@ -108,6 +126,7 @@ Use `/triage`, which runs the tests, then `npm run analyze`, then the `failure-t
 - Start with the largest cluster, because one root cause often explains many failures.
 - Classify each cause as product defect, test defect, flaky or environment.
 - For a product defect, keep the correct assertion, mark the test `test.fixme()` with a `// PRODUCT DEFECT:` comment, and log it in ROADMAP.
+- A `SecretGuard` failure is a blocker test defect: fix the leak and delete the local reports. A 429 from `/api/login` is environment: wait out the 15-minute window.
 
 ## Claude tooling in this repo
 
