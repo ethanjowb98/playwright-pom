@@ -1,14 +1,30 @@
-
-# Playwright
+# Dependencies
 node_modules/
-.github
-.vscode
+
+# Secrets & auth state (never commit)
+.env
+.env.*
+!.env.example
+.auth/
+
+# Playwright output
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
-/playwright/.auth/
-/test-data/global.ts
-/test-data/users.ts
+
+# Allure + failure analysis output
+/allure-results/
+/allure-report/
+failure-analysis.md
+failure-analysis.json
+
+# Editor / OS
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.DS_Store
+Thumbs.db
+
 # Claude Code (personal overrides)
 .claude/settings.local.json

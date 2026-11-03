@@ -1,0 +1,56 @@
+name: Product defect (found by automation)
+description: The Market app behaves differently from its expected or documented behaviour.
+title: '[Bug] <area>: <short description>'
+labels: [bug, product-defect]
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options: [Products, Basket, Orders, Auth, API docs / contract, Other]
+    validations:
+      required: true
+  - type: dropdown
+    id: layer
+    attributes:
+      label: Layer
+      options: [API, UI, Both]
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include the endpoint and payload for API defects.
+      placeholder: |
+        1. POST /api/products with {...}
+        2. GET /api/products/:id
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual
+      description: Status codes, response bodies, screenshots.
+    validations:
+      required: true
+  - type: input
+    id: test
+    attributes:
+      label: Failing test
+      placeholder: tests/api/orders.api.spec.ts › should …
+  - type: input
+    id: cluster
+    attributes:
+      label: Failure-analysis cluster ID
+      placeholder: C1 (from failure-analysis.md)
+  - type: input
+    id: report
+    attributes:
+      label: Allure report / CI run link

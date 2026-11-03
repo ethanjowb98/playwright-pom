@@ -1,84 +1,55 @@
 import { defineConfig, devices } from '@playwright/test';
 
-/**
- * Read environment variables from file.
- * https://github.com/motdotla/dotenv
- */
-// import dotenv from 'dotenv';
-// import path from 'path';
-// dotenv.config({ path: path.resolve(__dirname, '.env') });
+import { AUTH, TIMEOUTS } from './src/config/constants';
+import { env } from './src/config/env';
 
 /**
- * See https://playwright.dev/docs/test-configuration.
+ * Projects:
+ *  - setup         logs in once via API and stores session + api key in .auth/
+ *  - api           API specs (tests/api), no browser
+ *  - e2e-chromium  UI specs (tests/e2e) + agent seed, authenticated via storageState
+ * See https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
   testDir: './tests',
-  /* Run tests in files in parallel */
   fullyParallel: true,
-  /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
-  timeout: 0,
-  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  forbidOnly: env.isCI,
+  retries: env.isCI ? 2 : 0,
+  workers: env.isCI ? 4 : undefined,
+  timeout: TIMEOUTS.test,
+  expect: { timeout: TIMEOUTS.expect },
+  reporter: [
+    ['list'],
+    ['html', { open: 'never' }],
+    ['allure-playwright', { resultsDir: 'allure-results', detail: true, suiteTitle: true }],
+  ],
   use: {
-    /* Base URL to use in actions like `await page.goto('')`. */
-    // baseURL: 'http://localhost:3000',
-
-    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
-    
-    screenshot: 'only-on-failure',
-    video: 'retain-on-failure', // or 'on'
+    baseURL: env.baseURL,
+    actionTimeout: TIMEOUTS.action,
+    navigationTimeout: TIMEOUTS.navigation,
     trace: 'on-first-retry',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
   },
-
-  /* Configure projects for major browsers */
   projects: [
-    // {
-    //   name: 'chromium',
-    //   use: { ...devices['Desktop Chrome'] },
-    // },
-
-    // {
-    //   name: 'firefox',
-    //   use: { ...devices['Desktop Firefox'] },
-    // },
-
-    // {
-    //   name: 'webkit',
-    //   use: { ...devices['Desktop Safari'] },
-    // },
-
-    /* Test against mobile viewports. */
-    // {
-    //   name: 'Mobile Chrome',
-    //   use: { ...devices['Pixel 5'] },
-    // },
-    // {
-    //   name: 'Mobile Safari',
-    //   use: { ...devices['iPhone 12'] },
-    // },
-
-    /* Test against branded browsers. */
-    // {
-    //   name: 'Microsoft Edge',
-    //   use: { ...devices['Desktop Edge'], channel: 'msedge' },
-    // },
     {
-      name: 'Google Chrome',
+      name: 'setup',
+      testMatch: /setup[\\/].+\.setup\.ts$/,
+    },
+    {
+      name: 'api',
+      testMatch: /api[\\/].+\.api\.spec\.ts$/,
+      dependencies: ['setup'],
+    },
+    {
+      name: 'e2e-chromium',
+      testMatch: /(e2e[\\/].+\.spec\.ts|seed\.spec\.ts)$/,
+      dependencies: ['setup'],
       use: {
         ...devices['Desktop Chrome'],
-        channel: 'chrome',
         viewport: { width: 1920, height: 1080 },
-        launchOptions: {
-          args: ['--start-maximized']
-        }
+        storageState: AUTH.storageState,
       },
     },
   ],
-
-  /* Run your local dev server before starting the tests */
-  // webServer: {
-  //   command: 'npm run start',
-  //   url: 'http://localhost:3000',
-  //   reuseExistingServer: !process.env.CI,
-  // },
 });

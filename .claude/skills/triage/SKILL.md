@@ -9,6 +9,7 @@ description: Run the suite (or a subset), cluster failures with the rule-based a
    - a path: `npx playwright test <path>`
 
    Clear `allure-results/` first so the analysis only covers this run.
+
 2. Run `npm run analyze`, which writes `failure-analysis.md` and `failure-analysis.json`.
 3. If everything passed, say so and stop.
 4. Otherwise, delegate to the `failure-triager` agent with the run's paths. Return its report verbatim, in the fixed format.

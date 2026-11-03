@@ -1,0 +1,31 @@
+name: Test task / coverage gap
+description: A new test, page object, API client or coverage gap to close.
+title: '[Test] <area>: <behaviour>'
+labels: [test-automation]
+body:
+  - type: textarea
+    id: behaviour
+    attributes:
+      label: Behaviour to cover
+      placeholder: should <behaviour> when <condition>
+    validations:
+      required: true
+  - type: checkboxes
+    id: coverage
+    attributes:
+      label: Coverage
+      options:
+        - label: API
+        - label: UI (E2E)
+        - label: Negative case
+        - label: ACID invariant
+  - type: input
+    id: target
+    attributes:
+      label: Target file
+      placeholder: tests/api/basket.api.spec.ts
+  - type: input
+    id: milestone
+    attributes:
+      label: Milestone
+      placeholder: M3

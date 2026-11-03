@@ -1,116 +1,136 @@
-# Playwright Project
+# playwright-pom
 
-## System Requirements
-- Node.js: latest 20.x, 22.x or 24.x.
-- Windows 11+, Windows Server 2019+ or Windows Subsystem for Linux (WSL).
-- macOS 14 (Ventura) or later.
-- Debian 12 / 13, Ubuntu 22.04 / 24.04 (x86-64 or arm64).
+Playwright + TypeScript test automation for the [qacloud.dev Market](https://www.qacloud.dev/market.html) app, built on the Page Object Model. It covers the **API** and **E2E (UI)** layers and generates its test data through the API. Results are reported with Allure, and a rule-based analysis groups failures by shared root cause.
 
-## Installation
+> Status: under construction, delivered in milestones. See [docs/ROADMAP.md](docs/ROADMAP.md) for what is done and what is next.
 
-```bash
-npm install -D @playwright/test
-```
+## Contents
 
-## Project Setup
+- [Requirements](#requirements)
+- [Build-out (first-time setup)](#build-out-first-time-setup)
+- [Running tests](#running-tests)
+- [Code quality](#code-quality)
+- [Project structure](#project-structure)
+- [CI](#ci)
+- [Claude Code tooling](#claude-code-tooling)
+- [Further documentation](#further-documentation)
 
-Initialize Playwright configuration:
+## Requirements
 
-```bash
-npx playwright install
-```
+| Tool    | Version                                                                      |
+| ------- | ---------------------------------------------------------------------------- |
+| Node.js | 22 LTS or newer                                                              |
+| npm     | 10+                                                                          |
+| Git     | any recent version                                                           |
+| Account | A verified [qacloud.dev](https://www.qacloud.dev) user (username + password) |
 
-## Writing Tests
-
-Create test files in the `tests/` directory with `.spec.ts` or `.spec.js` extension:
-
-```typescript
-import { test, expect } from '@playwright/test';
-
-test('example test', async ({ page }) => {
-    await page.goto('https://example.com');
-    await expect(page).toHaveTitle('Example');
-});
-```
-
-## Running Tests
-
-Run all tests:
+## Build-out (first-time setup)
 
 ```bash
-npx playwright test
+# 1. Install dependencies. This also installs the git hooks (husky).
+npm ci
+
+# 2. Install the browser used by the e2e project
+npx playwright install --with-deps chromium
+
+# 3. Configure credentials
+cp .env.example .env
+#    then edit .env and set QACLOUD_USERNAME / QACLOUD_PASSWORD
+
+# 4. Verify: log in via API and write .auth/ (session + api key)
+npm run test:setup
+
+# 5. Verify static checks
+npm run check
 ```
 
-Run tests in a specific file:
+| Variable           | Required | Default                   | Purpose               |
+| ------------------ | -------- | ------------------------- | --------------------- |
+| `QACLOUD_BASE_URL` | no       | `https://www.qacloud.dev` | Target environment    |
+| `QACLOUD_USERNAME` | yes      | –                         | Test account username |
+| `QACLOUD_PASSWORD` | yes      | –                         | Test account password |
 
-```bash
-npx playwright test tests/example.spec.ts
+`.env` and `.auth/` are gitignored, so never commit them. The test account is shared by every test, so tests create and clean up their own data and never call `/api/reset`, except in the serial `@maintenance` test.
+
+## Running tests
+
+| Command              | What it runs                                     |
+| -------------------- | ------------------------------------------------ |
+| `npm test`           | Everything (setup → api + e2e)                   |
+| `npm run test:setup` | Only the auth setup project                      |
+| `npm run test:api`   | API specs (`tests/api/**/*.api.spec.ts`)         |
+| `npm run test:e2e`   | E2E specs (`tests/e2e/**/*.spec.ts`) in Chromium |
+| `npm run test:smoke` | Tests tagged `@smoke`                            |
+| `npm run report`     | Open the last Playwright HTML report             |
+
+Useful flags: `--headed`, `--ui`, `--debug`, `--grep "<title>"`, `--repeat-each=3` (flakiness check).
+
+Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@maintenance`.
+
+## Code quality
+
+| Command                | Checks                                                  |
+| ---------------------- | ------------------------------------------------------- |
+| `npm run typecheck`    | TypeScript strict (`tsc --noEmit`)                      |
+| `npm run lint`         | ESLint: type-checked TS, Playwright rules, import order |
+| `npm run format:check` | Prettier                                                |
+| `npm run lint:md`      | markdownlint                                            |
+| `npm run check`        | All of the above (what CI runs)                         |
+
+Git hooks run automatically:
+
+- **pre-commit:** ESLint `--fix` and Prettier on staged files (lint-staged).
+- **commit-msg:** commitlint, which allows only **one-line** Conventional Commits, e.g. `feat(m2): add data seeder` (max 72 characters, no body).
+
+## Project structure
+
+```text
+src/
+  config/       env.ts (typed env vars), constants.ts (timeouts, routes, endpoints, tags)
+  api/          API clients (M2)
+  pages/        page objects + components/ (M4)
+  data/         factories + DataSeeder for API test-data generation (M2)
+  fixtures/     test.extend fixtures (M2/M4)
+tests/
+  setup/        auth.setup.ts: API login → .auth/
+  api/          *.api.spec.ts
+  e2e/          *.spec.ts
+  seed.spec.ts  seed for the Playwright test agents
+templates/      code scaffolds (page object, component, API client, factory, specs)
+specs/          Markdown test plans
+docs/           roadmap, architecture, contributing
+.claude/        Claude Code agents, skills, hooks, settings
+.github/        CI workflow, PR and issue templates
 ```
 
-Run tests in headed mode (see browser):
+See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the layers fit together.
 
-```bash
-npx playwright test --headed
-```
+## CI
 
-Run tests in debug mode:
+GitHub Actions ([.github/workflows/playwright.yml](.github/workflows/playwright.yml)) runs on pushes and PRs to `main`:
 
-```bash
-npx playwright test --debug
-```
+1. **check**: `npm run check`
+2. **test**: installs Chromium and runs `npx playwright test`, then uploads the HTML report as an artifact
 
-Run tests in UI mode:
+Repository secrets required: `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional: `QACLOUD_BASE_URL`). Allure publishing to GitHub Pages and failure analysis arrive in M7. The repo is public, so standard GitHub-hosted runners are free.
 
-```bash
-npx playwright test --ui
-```
+## Claude Code tooling
 
-## View Test Report
+This repo ships a Claude Code setup for test-automation work. See [CLAUDE.md](CLAUDE.md).
 
-After running tests:
+- **Agents:**
+  - `sdet-test-author`, `failure-triager`, `test-reviewer`
+  - Playwright's `planner`, `generator` and `healer`
+- **Skills:** `/new-page-object`, `/new-api-client`, `/triage`, `/coverage-gaps`
+- **Guardrails:** Claude cannot commit, push or open PRs (enforced by a hook). It lints every edited file and typechecks before finishing.
 
-```bash
-npx playwright show-report
-```
+## Further documentation
 
-## Configuration
-
-Create a `playwright.config.ts` file in the project root:
-
-```typescript
-import { defineConfig, devices } from '@playwright/test';
-
-export default defineConfig({
-    testDir: './tests',
-    fullyParallel: true,
-    forbidOnly: !!process.env.CI,
-    retries: process.env.CI ? 2 : 0,
-    workers: process.env.CI ? 1 : undefined,
-    reporter: 'html',
-    use: {
-        baseURL: 'http://localhost:3000',
-        trace: 'on-first-retry',
-    },
-    projects: [
-        {
-            name: 'chromium',
-            use: { ...devices['Desktop Chrome'] },
-        },
-        {
-            name: 'firefox',
-            use: { ...devices['Desktop Firefox'] },
-        },
-        {
-            name: 'webkit',
-            use: { ...devices['Desktop Safari'] },
-        },
-    ],
-    webServer: {
-        command: 'npm run dev',
-        url: 'http://localhost:3000',
-        reuseExistingServer: !process.env.CI,
-    },
-});
-```
-
-Customize options like `retries`, `workers`, `baseURL`, and `projects` based on your testing needs.
+| Doc                                          | Contents                                              |
+| -------------------------------------------- | ----------------------------------------------------- |
+| [docs/ROADMAP.md](docs/ROADMAP.md)           | Milestones, checklist, progress, defects found        |
+| [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) | Layers, auth flow, data strategy, design decisions    |
+| [docs/CONTRIBUTING.md](docs/CONTRIBUTING.md) | Workflow, branching, commits, adding tests, standards |
+| [CLAUDE.md](CLAUDE.md)                       | Standards contract for humans and Claude              |
+| [templates/README.md](templates/README.md)   | Code scaffolds                                        |
+| [specs/README.md](specs/README.md)           | Test plans                                            |

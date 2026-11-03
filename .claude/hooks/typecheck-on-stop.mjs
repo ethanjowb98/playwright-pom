@@ -25,7 +25,9 @@ const result = spawnSync(process.execPath, [tscBin, '--noEmit', '-p', projectDir
   encoding: 'utf8',
 });
 if (result.status !== 0) {
-  process.stderr.write(`Typecheck failed. Fix these before finishing:\n${result.stdout}${result.stderr}`);
+  process.stderr.write(
+    `Typecheck failed. Fix these before finishing:\n${result.stdout}${result.stderr}`,
+  );
   process.exit(2);
 }
 process.exit(0);

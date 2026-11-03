@@ -1,0 +1,32 @@
+name: Flaky test
+description: A test that passes and fails without code changes.
+title: '[Flaky] <test title>'
+labels: [flaky]
+body:
+  - type: input
+    id: test
+    attributes:
+      label: Test
+      placeholder: tests/e2e/basket.spec.ts › should …
+    validations:
+      required: true
+  - type: input
+    id: rate
+    attributes:
+      label: Failure rate
+      placeholder: 2 / 10 runs (--repeat-each=10)
+  - type: textarea
+    id: error
+    attributes:
+      label: Error and failing step
+    validations:
+      required: true
+  - type: textarea
+    id: hypothesis
+    attributes:
+      label: Suspected cause
+      description: Timing, data collision, shared state, environment…
+  - type: input
+    id: runs
+    attributes:
+      label: CI run / Allure links
