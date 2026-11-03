@@ -1,0 +1,10 @@
+node_modules/
+package-lock.json
+test-results/
+playwright-report/
+blob-report/
+allure-results/
+allure-report/
+.auth/
+templates/*.tpl
+.claude/agents/playwright-test-*.md
