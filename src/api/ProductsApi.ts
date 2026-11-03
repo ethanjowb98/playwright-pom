@@ -33,6 +33,16 @@ export class ProductsApi extends ApiClient {
     return this.put<Product>(`${ENDPOINTS.products}/${id}`, input);
   }
 
+  /** Sends an untyped body, for invalid-payload (400) tests. */
+  createRaw(payload: Record<string, unknown>): Promise<Product> {
+    return this.post<Product>(ENDPOINTS.products, payload);
+  }
+
+  /** Sends an untyped body, for invalid-payload (400) tests. */
+  updateRaw(id: string, payload: Record<string, unknown>): Promise<Product> {
+    return this.put<Product>(`${ENDPOINTS.products}/${id}`, payload);
+  }
+
   remove(id: string): Promise<ApiMessage> {
     return this.delete(`${ENDPOINTS.products}/${id}`);
   }

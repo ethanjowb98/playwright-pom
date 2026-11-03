@@ -38,7 +38,7 @@ Checklist for every test:
 
 - [ ] Title: `should <behaviour> when <condition>`
 - [ ] Tags: `@api`/`@e2e` + `@smoke`/`@regression`
-- [ ] Allure: epic `Market`, feature, story, severity
+- [ ] Allure: epic `Market`, feature, story, severity (via `labels()` from `@utils/allure`)
 - [ ] Data seeded via API and cleaned up; unique names from factories
 - [ ] Touches the basket or places an order → tagged `@stateful` (see [ARCHITECTURE](ARCHITECTURE.md#isolation-the-basket-is-account-wide))
 - [ ] No raw locators or HTTP calls in the spec; no hard waits

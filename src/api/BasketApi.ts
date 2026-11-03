@@ -21,6 +21,12 @@ export class BasketApi extends ApiClient {
     return body.data;
   }
 
+  /** Sends an untyped body, for invalid-payload (400) tests. */
+  async addRaw(payload: Record<string, unknown>): Promise<BasketLine> {
+    const body = await this.post<{ data: BasketLine }>(ENDPOINTS.basket, payload);
+    return body.data;
+  }
+
   /** Sets the absolute quantity of a product already in the basket. */
   async setQuantity(productId: string, quantity: number): Promise<BasketLine> {
     const body = await this.put<{ data: BasketLine }>(ENDPOINTS.basket, {
