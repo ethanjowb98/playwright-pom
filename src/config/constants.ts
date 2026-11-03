@@ -29,6 +29,12 @@ export const ENDPOINTS = {
   reset: '/api/reset',
 } as const;
 
+/** Paths as documented in Swagger (`/market/docs`), which differ from what the UI calls. Contract tests only. */
+export const DOCUMENTED_ENDPOINTS = {
+  groceries: '/api/groceries',
+  basketItems: '/api/basket/items',
+} as const;
+
 export const TAGS = {
   api: '@api',
   e2e: '@e2e',
@@ -72,4 +78,11 @@ export const TEST_DATA = {
   price: { min: 1, max: 50 },
   stock: { min: 10, max: 50 },
   basketQuantity: { min: 1, max: 3 },
+  /** Well-formed UUID that never exists, for 404 tests. */
+  unknownId: '00000000-0000-0000-0000-000000000000',
+  invalidApiKey: 'qac_live_invalid',
+} as const;
+
+export const ALLURE = {
+  epic: 'Market',
 } as const;

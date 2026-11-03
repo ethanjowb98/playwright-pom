@@ -1,21 +1,18 @@
-import * as allure from 'allure-js-commons';
-
 import { TAGS } from '@config/constants';
 import { expect, test } from '@fixtures';
+import { labels, Severity } from '@utils/allure';
 
 // Proves the M2 data layer: everything DataSeeder creates is readable, and gone after cleanup.
 test.describe('Test data seeding', () => {
   test.beforeEach(async () => {
-    await allure.epic('Market');
-    await allure.feature('Test data');
-    await allure.severity(allure.Severity.CRITICAL);
+    await labels({ feature: 'Test data', severity: Severity.CRITICAL });
   });
 
   test(
     'should delete seeded products when the seeder cleans up',
     { tag: [TAGS.api, TAGS.smoke] },
     async ({ seeder, productsApi }) => {
-      await allure.story('Product seeding');
+      await labels({ story: 'Product seeding' });
 
       // Arrange
       const seeded = await seeder.seedProducts(2);
@@ -37,7 +34,7 @@ test.describe('Test data seeding', () => {
     'should leave no order, basket item or product behind when a seeded order is cleaned up',
     { tag: [TAGS.api, TAGS.smoke, TAGS.stateful] },
     async ({ seeder, productsApi, basketApi, ordersApi }) => {
-      await allure.story('Order seeding');
+      await labels({ story: 'Order seeding' });
 
       // Arrange
       const { order, lines } = await seeder.seedOrder({ items: 2 });

@@ -89,6 +89,7 @@ src/
   config/       env.ts (typed env vars), constants.ts (timeouts, routes, endpoints, tags, enums, test-data bounds)
   api/          ApiClient base, one client per resource (Auth, Products, Basket, Orders, Maintenance), types.ts
   pages/        page objects + components/ (M4)
+  utils/        allure.ts (labels helper), assertions.ts (shared expect helpers)
   data/         factories/ (faker builders), uniqueName, DataSeeder (API seeding with tracked cleanup)
   fixtures/     test.extend fixtures: apiKey, API clients, seeder (page objects in M4)
 tests/

@@ -48,6 +48,14 @@ Projects `api`, `api-stateful` and `e2e-chromium` depend on `setup`, so a single
 - Resource clients (`AuthApi`, `ProductsApi`, `BasketApi`, `OrdersApi`, `MaintenanceApi`) have one method per endpoint, unwrap the response envelope (`{ products }`, `{ items }`, `{ data }`, `{ order }`), and never assert.
 - Negative tests assert on the rejection: `await expect(productsApi.getById(id)).rejects.toMatchObject({ status: 404 })`. A client built with `apiKey: null` sends no header (401 tests; `AuthApi` uses the session cookie instead).
 - `src/api/types.ts` holds the shapes observed on the live API, because Swagger has no response schemas.
+- Invalid-payload (400) tests use the `*Raw` methods (`createRaw`, `updateRaw`, `addRaw`), which take an untyped body, so the typed methods stay strict. When an invalid call might wrongly succeed, the spec chains `.then((p) => seeder.trackProduct(p))` so the leak is still cleaned up.
+- 401 tests build clients with the `apiClientsFor(apiKey | null)` fixture. Contract tests use `DocumentedApi`, which calls the Swagger paths verbatim.
+
+## Spec helpers (`src/utils`)
+
+- `labels({ feature, story, severity })` sets Allure labels (epic `Market` comes with `feature`). Each spec sets the feature in `beforeEach` and the story and severity in the test.
+- `expectProductShape(product, input?)` and `expectOrderTotals(order, lines?)` are the shared assertions. `expectOrderTotals` checks order total = Σ price × qty and that the items match the basket lines.
+- Parameterised cases are tables at the top of the spec, looped into one `test()` each.
 
 ## Test data strategy
 
@@ -66,11 +74,23 @@ Products are owned per record, but the basket belongs to the account, and `POST 
 - `seedOrder` checks that the basket holds only the items it seeded, and fails with a clear message otherwise.
 - E2E basket and checkout tests (M4) must not run at the same time as `api-stateful`.
 
+## Login rate limit
+
+`POST /api/login` allows **10 requests per 15 minutes per IP** (`ratelimit-policy: 10;w=900`). Failed and malformed logins count too. Once the budget is spent, every login returns 429 (including the setup project), and the whole run fails until `Retry-After` passes.
+
+- A run spends 3 logins: setup (1) and the two negative login tests. `--repeat-each=3` spends 7.
+- Tests that need a logged-in session use the `sessionAuthApi` fixture, which reuses the setup cookie instead of logging in again.
+- Do not add tests that log in. Two full `--repeat-each=3` runs within 15 minutes will exceed the budget. If the auth tests or setup fail with 429, classify it as **environment** and rerun after the window resets.
+
 ## Known app quirks
 
 - The Swagger docs (`/market/docs`) describe `/api/groceries` and `/api/basket/items`, but the UI calls `/api/products` and `/api/basket`. The suite targets what the UI calls, and a contract test tracks the difference.
 - `GET /api/products/filter` returns a bare array whose rows use `name`, while every other product endpoint returns `product_name`. `ProductsApi.filter` returns the raw rows (`FilteredProduct`) so tests see the difference.
 - Deleting and resetting use native `confirm()` dialogs, so page objects accept them through a `BasePage` helper.
+
+## Product defects found by the suite
+
+Tests for known product defects keep the correct assertion and are marked `test.fixme()` with a `// PRODUCT DEFECT:` comment. They are listed in the ROADMAP notes: negative price accepted, checkout oversell, 500s on concurrent basket adds, `name` vs `product_name` in the filter, and the 404 on the documented `/api/basket/items`.
 
 ## Reporting (M5–M7)
 

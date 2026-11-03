@@ -5,7 +5,13 @@ import { ApiError } from '@api/ApiClient';
 import { type BasketApi } from '@api/BasketApi';
 import { type OrdersApi } from '@api/OrdersApi';
 import { type ProductsApi } from '@api/ProductsApi';
-import { type Order, type Product, type ProductInput } from '@api/types';
+import {
+  type BasketLine,
+  type Order,
+  type OrderStatus,
+  type Product,
+  type ProductInput,
+} from '@api/types';
 import { TEST_DATA } from '@config/constants';
 import { buildProduct } from '@data/factories/productFactory';
 
@@ -76,28 +82,38 @@ export class DataSeeder {
       // Sequential: concurrent writes to one basket are an M3 isolation scenario, not a seeding concern.
       for (const product of products) {
         const line = { product, quantity: quantity ?? faker.number.int(TEST_DATA.basketQuantity) };
-        this.trackBasketItem(product.id);
-        await this.basket.add(product.id, line.quantity);
+        await this.addToBasket(product.id, line.quantity);
         lines.push(line);
       }
       return lines;
     });
   }
 
+  /** Adds an existing product to the basket and tracks it for cleanup (tracked before the call, so a partial failure is still cleaned). */
+  async addToBasket(productId: string, quantity: number): Promise<BasketLine> {
+    this.trackBasketItem(productId);
+    return await this.basket.add(productId, quantity);
+  }
+
   /**
-   * Seeds a basket and places an order from it. Fails fast if the basket holds anything else,
-   * because the order would silently absorb those foreign items.
+   * Seeds a basket and places an order from it, then moves it to `status` if given (re-read from the API).
+   * Fails fast if the basket holds anything else, because the order would silently absorb those foreign items.
    */
   async seedOrder({
     notes,
+    status,
     ...basket
-  }: BasketSeedOptions & { notes?: string } = {}): Promise<SeededOrder> {
+  }: BasketSeedOptions & { notes?: string; status?: OrderStatus } = {}): Promise<SeededOrder> {
     return await step('Seed order', async () => {
       const lines = await this.seedBasket(basket);
       await this.assertBasketHoldsOnly(lines);
-      const order = this.trackOrder(await this.orders.place(notes));
+      const placed = this.trackOrder(await this.orders.place(notes));
       for (const { product } of lines) this.basketProductIds.delete(product.id);
-      return { order, lines };
+      if (status && status !== placed.status) {
+        await this.orders.update(placed.id, { status });
+        return { order: await this.orders.getById(placed.id), lines };
+      }
+      return { order: placed, lines };
     });
   }
 

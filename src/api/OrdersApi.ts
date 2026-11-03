@@ -26,6 +26,12 @@ export class OrdersApi extends ApiClient {
     return body.order;
   }
 
+  /** Sends an untyped body, for invalid-payload (400) tests. */
+  async updateRaw(id: string, payload: Record<string, unknown>): Promise<OrderRecord> {
+    const body = await this.put<{ order: OrderRecord }>(`${ENDPOINTS.orders}/${id}`, payload);
+    return body.order;
+  }
+
   remove(id: string): Promise<ApiMessage> {
     return this.delete(`${ENDPOINTS.orders}/${id}`);
   }
