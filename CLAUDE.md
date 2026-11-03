@@ -79,7 +79,7 @@ docs/ROADMAP.md milestone tracker
     - the basket is empty after an order
     - stock decreases by the quantity ordered
     - the UI matches the API
-  - **Isolation:** unique per-worker data names and no dependence on test order, so `fullyParallel` stays on.
+  - **Isolation:** unique per-worker data names and no dependence on test order, so `fullyParallel` stays on. The basket is account-wide, so any test that uses the basket or places an order is tagged `@stateful` and runs in the single-worker `api-stateful` project.
   - **Durability:** re-read after a write (fresh GET or reload).
 - **Allure:** epic `Market`, a feature per domain, and `step` wrappers in page and API methods. Requests and responses are attached.
 

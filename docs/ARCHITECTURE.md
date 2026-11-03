@@ -40,18 +40,36 @@ ESLint enforces the spec rules (`no-restricted-syntax` blocks `page.locator`/`ge
 3. The session cookies are written to `.auth/user.json` (the browser's `storageState`), and the api key to `.auth/apikey.json`.
 4. The `e2e-chromium` project starts every page already logged in. API clients send `Authorization: <api_key>`.
 
-Projects `api` and `e2e-chromium` depend on `setup`, so a single login serves the whole run.
+Projects `api`, `api-stateful` and `e2e-chromium` depend on `setup`, so a single login serves the whole run.
+
+## API layer
+
+- `ApiClient` (`src/api/ApiClient.ts`) is the only place that sends HTTP. It adds `Authorization: <api_key>`, sends and parses JSON, wraps every call in an Allure step (`POST /api/products`) with `request` and `response <status>` attachments (passwords and keys masked), and throws `ApiError { method, path, status, body }` on any non-2xx.
+- Resource clients (`AuthApi`, `ProductsApi`, `BasketApi`, `OrdersApi`, `MaintenanceApi`) have one method per endpoint, unwrap the response envelope (`{ products }`, `{ items }`, `{ data }`, `{ order }`), and never assert.
+- Negative tests assert on the rejection: `await expect(productsApi.getById(id)).rejects.toMatchObject({ status: 404 })`. A client built with `apiKey: null` sends no header (401 tests; `AuthApi` uses the session cookie instead).
+- `src/api/types.ts` holds the shapes observed on the live API, because Swagger has no response schemas.
 
 ## Test data strategy
 
-- Tests never depend on pre-existing data. Each test creates what it needs through the API, using `DataSeeder` (M2).
-- Names are unique per worker and run (`QA-<worker>-<uuid>`), so parallel workers never collide.
-- The seeder deletes everything it created in fixture teardown, in dependency order (orders → basket → products). Teardown runs even when the test fails.
+- Tests never depend on pre-existing data. Each test creates what it needs through the API with the `seeder` fixture (`DataSeeder`): `seedProduct(s)`, `seedBasket`, `seedOrder`.
+- Factories (`src/data/factories`) build valid payloads with faker; tests override only the fields they care about.
+- Names are unique per worker and call (`QA-<worker>-<id> <label>`), so parallel workers never collide and suite data is recognisable by its `QA-` prefix.
+- The seeder deletes everything it created in fixture teardown, in dependency order (orders → basket items → products). Teardown runs even when the test fails, treats a 404 as already deleted, and fails the test if anything else is left behind. Records a test creates directly go through `seeder.trackProduct/trackOrder/trackBasketItem`.
 - `/api/reset` wipes the whole account, so only a serial `@maintenance` test may call it.
+
+## Isolation: the basket is account-wide
+
+Products are owned per record, but the basket belongs to the account, and `POST /api/orders` consumes the **whole** basket. Two workers that use the basket at once corrupt each other's orders. So:
+
+- Any test that touches the basket or places an order is tagged `@stateful`.
+- `@stateful` tests run in the `api-stateful` project with `workers: 1`. The `api` project excludes them and stays fully parallel.
+- `seedOrder` checks that the basket holds only the items it seeded, and fails with a clear message otherwise.
+- E2E basket and checkout tests (M4) must not run at the same time as `api-stateful`.
 
 ## Known app quirks
 
 - The Swagger docs (`/market/docs`) describe `/api/groceries` and `/api/basket/items`, but the UI calls `/api/products` and `/api/basket`. The suite targets what the UI calls, and a contract test tracks the difference.
+- `GET /api/products/filter` returns a bare array whose rows use `name`, while every other product endpoint returns `product_name`. `ProductsApi.filter` returns the raw rows (`FilteredProduct`) so tests see the difference.
 - Deleting and resetting use native `confirm()` dialogs, so page objects accept them through a `BasePage` helper.
 
 ## Reporting (M5–M7)
@@ -62,10 +80,12 @@ Projects `api` and `e2e-chromium` depend on `setup`, so a single login serves th
 
 ## Key decisions
 
-| Decision                              | Why                                                       |
-| ------------------------------------- | --------------------------------------------------------- |
-| API login in a setup project          | Fast, and avoids repeating UI login in every test         |
-| Data seeded via API, verified via UI  | Fast and deterministic; UI tests focus on UI behaviour    |
-| Rule-based failure analysis (no LLM)  | Deterministic and free; no API key needed in CI           |
-| TypeScript pinned to 6.0.x            | typescript-eslint supports TS < 6.1                       |
-| Bundled Chromium (not branded Chrome) | Runs on every CI image; one `playwright install chromium` |
+| Decision                              | Why                                                        |
+| ------------------------------------- | ---------------------------------------------------------- |
+| API login in a setup project          | Fast, and avoids repeating UI login in every test          |
+| `@stateful` single-worker project     | The basket is account-wide; everything else stays parallel |
+| Clients throw `ApiError` on non-2xx   | Happy paths stay terse; negatives assert on `status`       |
+| Data seeded via API, verified via UI  | Fast and deterministic; UI tests focus on UI behaviour     |
+| Rule-based failure analysis (no LLM)  | Deterministic and free; no API key needed in CI            |
+| TypeScript pinned to 6.0.x            | typescript-eslint supports TS < 6.1                        |
+| Bundled Chromium (not branded Chrome) | Runs on every CI image; one `playwright install chromium`  |
