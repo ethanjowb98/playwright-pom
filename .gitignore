@@ -10,3 +10,5 @@ node_modules/
 /playwright/.auth/
 /test-data/global.ts
 /test-data/users.ts
+# Claude Code (personal overrides)
+.claude/settings.local.json
