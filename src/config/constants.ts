@@ -4,6 +4,8 @@ export const TIMEOUTS = {
   expect: 5_000,
   action: 10_000,
   navigation: 15_000,
+  /** How long a click-to-toggle panel may take to open before the page object retries the click. */
+  toggle: 1_000,
 } as const;
 
 /** Auth artefacts written by tests/setup/auth.setup.ts (gitignored). */
@@ -15,6 +17,8 @@ export const AUTH = {
 export const ROUTES = {
   home: '/',
   market: '/market.html',
+  /** Where a successful login lands. */
+  profile: '/profile.html',
 } as const;
 
 export const ENDPOINTS = {
@@ -41,8 +45,10 @@ export const TAGS = {
   smoke: '@smoke',
   regression: '@regression',
   maintenance: '@maintenance',
-  /** Uses the account-wide basket; runs in the single-worker `api-stateful` project. */
+  /** Uses the account-wide basket; runs in the single-worker `stateful` project. */
   stateful: '@stateful',
+  /** Spends a rate-limited login (10 per 15 min per IP): run once, never with --repeat-each. */
+  login: '@login',
 } as const;
 
 /** Enum values as the app accepts them (UI selects + Swagger). Types are derived in src/api/types.ts. */
@@ -57,6 +63,9 @@ export const ORDER_STATUSES = [
   'delivered',
   'cancelled',
 ] as const;
+
+/** Statuses that can never change again (the API returns 400; the UI disables the select). */
+export const TERMINAL_ORDER_STATUSES = ['delivered', 'cancelled'] as const;
 
 export const PRODUCT_CATEGORIES = [
   'fresh-produce',
@@ -85,4 +94,13 @@ export const TEST_DATA = {
 
 export const ALLURE = {
   epic: 'Market',
+  resultsDir: 'allure-results',
+} as const;
+
+/** src/reporters/SecretGuard.ts */
+export const SECRET_GUARD = {
+  /** Written (leak locations only) when the guard fires; CI skips the report upload while it exists. */
+  leakFile: 'secret-guard-leak.txt',
+  /** Shorter secrets would match ordinary text and raise false alarms. */
+  minSecretLength: 6,
 } as const;

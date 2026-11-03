@@ -54,18 +54,22 @@ npm run check
 
 ## Running tests
 
-| Command              | What it runs                                                                |
-| -------------------- | --------------------------------------------------------------------------- |
-| `npm test`           | Everything (setup → api + api-stateful + e2e)                               |
-| `npm run test:setup` | Only the auth setup project                                                 |
-| `npm run test:api`   | API specs (`tests/api/**/*.api.spec.ts`): projects `api` and `api-stateful` |
-| `npm run test:e2e`   | E2E specs (`tests/e2e/**/*.spec.ts`) in Chromium                            |
-| `npm run test:smoke` | Tests tagged `@smoke`                                                       |
-| `npm run report`     | Open the last Playwright HTML report                                        |
+| Command                         | What it runs                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------- |
+| `npm test`                      | Everything (setup → api + stateful + e2e-chromium)                              |
+| `npm run test:setup`            | Only the auth setup project                                                     |
+| `npm run test:repeat -- <spec>` | Flakiness check: `--repeat-each=3`, without the `@login` tests                  |
+| `npm run test:login`            | The `@login` tests (they spend rate-limited logins): run once                   |
+| `npm run test:api`              | API specs (`tests/api/**/*.api.spec.ts`): projects `api` and `stateful`         |
+| `npm run test:e2e`              | E2E specs (`tests/e2e/**/*.spec.ts`) in Chromium: `e2e-chromium` and `stateful` |
+| `npm run test:smoke`            | Tests tagged `@smoke`                                                           |
+| `npm run report`                | Open the last Playwright HTML report                                            |
 
-Useful flags: `--headed`, `--ui`, `--debug`, `--grep "<title>"`, `--repeat-each=3` (flakiness check).
+Useful flags: `--headed`, `--ui`, `--debug`, `--grep "<title>"`, `--repeat-each=3` (flakiness check; use `test:repeat`, which leaves out `@login`), `--no-deps` (skip the setup project; setup already reuses a valid `.auth/` session).
 
-Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@maintenance`, `@stateful` (uses the account-wide basket, so it runs in the single-worker `api-stateful` project).
+Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@maintenance`, `@stateful` (uses the account-wide basket, so it runs in the single-worker `stateful` project, API and E2E alike).
+
+`POST /api/login` is rate-limited to 10 requests per 15 minutes per IP. Setup reuses the saved `.auth/` session while it is still valid and logs in only when it has expired, so a run spends the 4 logins in the `@login` tests (2 API, 2 E2E), plus 1 when the session needs renewing. Repeat runs leave them out (`npm run test:repeat`); run them once with `npm run test:login`.
 
 ## Code quality
 
@@ -88,12 +92,13 @@ Git hooks run automatically:
 src/
   config/       env.ts (typed env vars), constants.ts (timeouts, routes, endpoints, tags, enums, test-data bounds)
   api/          ApiClient base, one client per resource (Auth, Products, Basket, Orders, Maintenance), types.ts
-  pages/        page objects + components/ (M4)
-  utils/        allure.ts (labels helper), assertions.ts (shared expect helpers)
+  pages/        BasePage, LoginPage, MarketPage, components/ (grid, filters, modals, basket, orders), dialogs + network wait helpers
+  utils/        allure.ts (labels helper, @step decorator), assertions.ts (shared expect helpers), format.ts
+  reporters/    SecretGuard.ts (fails the run if a secret reaches a report)
   data/         factories/ (faker builders), uniqueName, DataSeeder (API seeding with tracked cleanup)
-  fixtures/     test.extend fixtures: apiKey, API clients, seeder (page objects in M4)
+  fixtures/     test.extend fixtures: apiKey, apiRequest (cookie-less), API clients, seeder, loginPage, marketPage
 tests/
-  setup/        auth.setup.ts: API login → .auth/
+  setup/        auth.setup.ts: reuse valid .auth/ session or API login → .auth/
   api/          *.api.spec.ts
   e2e/          *.spec.ts
   seed.spec.ts  seed for the Playwright test agents

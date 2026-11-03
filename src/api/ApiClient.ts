@@ -1,9 +1,9 @@
 import { type APIRequestContext } from '@playwright/test';
-import { attachment, ContentType, step } from 'allure-js-commons';
+import { attachment, ContentType } from 'allure-js-commons';
 
-import { type ApiMessage } from '@api/types';
+import { type ApiMessage, type HttpMethod } from '@api/types';
+import { step } from '@utils/allure';
 
-type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE';
 export type QueryParams = Record<string, string | number | boolean | undefined>;
 
 const SECRET_KEYS = new Set(['password', 'api_key', 'apiKey', 'Authorization']);
@@ -21,7 +21,7 @@ export class ApiError extends Error {
     readonly status: number,
     readonly body: unknown,
   ) {
-    super(`${method} ${path} returned ${status}: ${JSON.stringify(body)}`);
+    super(`${method} ${path} returned ${status}: ${redact(body)}`);
     this.name = 'ApiError';
   }
 }
@@ -39,45 +39,55 @@ export abstract class ApiClient {
   ) {}
 
   protected get<T>(path: string, params?: QueryParams): Promise<T> {
-    return this.send<T>('GET', path, { params });
+    return this.send('GET', path, { params }) as Promise<T>;
   }
 
   protected post<T>(path: string, data?: unknown): Promise<T> {
-    return this.send<T>('POST', path, { data });
+    return this.send('POST', path, { data }) as Promise<T>;
   }
 
   protected put<T>(path: string, data?: unknown): Promise<T> {
-    return this.send<T>('PUT', path, { data });
+    return this.send('PUT', path, { data }) as Promise<T>;
   }
 
   protected delete<T = ApiMessage>(path: string): Promise<T> {
-    return this.send<T>('DELETE', path, {});
+    return this.send('DELETE', path, {}) as Promise<T>;
   }
 
-  private async send<T>(
+  /**
+   * Returns the parsed JSON body; the typed wrappers above narrow it (JSON boundary). Throws `ApiError`
+   * after the step has completed, so an expected 4xx in a passing negative test is not a failed step.
+   */
+  private async send(
+    method: HttpMethod,
+    path: string,
+    options: { data?: unknown; params?: QueryParams },
+  ): Promise<unknown> {
+    const { status, ok, body } = await this.exchange(method, path, options);
+    if (!ok) throw new ApiError(method, path, status, body);
+    return body;
+  }
+
+  /** One HTTP round trip as an Allure step, with masked request and response attachments. */
+  @step((method: HttpMethod, path: string) => `${method} ${path}`)
+  private async exchange(
     method: HttpMethod,
     path: string,
     { data, params }: { data?: unknown; params?: QueryParams },
-  ): Promise<T> {
+  ): Promise<{ status: number; ok: boolean; body: unknown }> {
     const query = params && definedParams(params);
-    return step(`${method} ${path}`, async () => {
-      await attachment('request', redact({ method, path, query, body: data }), ContentType.JSON);
+    await attachment('request', redact({ method, path, query, body: data }), ContentType.JSON);
 
-      const response = await this.request.fetch(path, {
-        method,
-        headers: this.apiKey === null ? {} : { Authorization: this.apiKey },
-        data,
-        params: query,
-        failOnStatusCode: false,
-      });
-      const body = parseBody(await response.text());
-      await attachment(`response ${response.status()}`, redact(body), ContentType.JSON);
-
-      if (!response.ok()) {
-        throw new ApiError(method, path, response.status(), body);
-      }
-      return body as T;
+    const response = await this.request.fetch(path, {
+      method,
+      headers: this.apiKey === null ? {} : { Authorization: this.apiKey },
+      data,
+      params: query,
+      failOnStatusCode: false,
     });
+    const body = parseBody(await response.text());
+    await attachment(`response ${response.status()}`, redact(body), ContentType.JSON);
+    return { status: response.status(), ok: response.ok(), body };
   }
 }
 

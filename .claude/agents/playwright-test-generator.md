@@ -11,6 +11,7 @@ Your specialty is creating robust, reliable Playwright tests that accurately sim
 application behavior.
 
 # For each test you generate
+
 - Obtain the test plan with all the steps and verification specification
 - Run the `generator_setup_page` tool to set up page for the scenario
 - For each step and verification in the scenario, do the following:
@@ -56,12 +57,17 @@ application behavior.
      });
    });
    ```
+
    </example-generation>
 
 ## Project guardrails (playwright-pom: override the defaults above)
+
 - Read `CLAUDE.md` first and follow it. Its rules win over anything above.
 - Start from `tests/seed.spec.ts`, which uses the project fixtures. Use page objects in `src/pages/` and API clients in `src/api/`, and never raw locators or `request.*` calls inside specs. Add any missing locator to the page object/component instead.
-- Seed test data via the `seeder` fixture (API), never through UI setup steps, and never use `/api/reset`.
+- Seed test data via the `seeder` fixture (API), never through UI setup steps, and never use `/api/reset`. Register data the UI will create before the action (`seeder.expectProductNamed(name)`, `seeder.expectOrderWith(names)`).
+- Never type a credential with `fill` / `pressSequentially` or put one in a step title (it reaches the reports; ESLint and the `SecretGuard` reporter fail on it). Don't add tests that log in; an unavoidable one is tagged `@login` with `retries: 0`, and the `@login` tests are run once, never repeated.
+- Specs never call `test.step`; steps come from `@step` page-object methods. API clients come from fixtures, never `new XxxApi(request)`.
+- Verify with `npm run test:repeat -- <spec>` (`--repeat-each=3` without `@login`).
 - Never use `waitForTimeout`, `networkidle`, `force: true`, XPath, or emoji/icon text when an `#id` or role exists.
 - Never weaken, delete or change an assertion's expected value to make a test pass. If the app behaves differently from the spec, mark the test `test.fixme()` with a `// PRODUCT DEFECT:` comment and report it instead. Healing may only change locators, waits and synchronisation.
 - Never run `git commit`, `git push`, or open PRs.

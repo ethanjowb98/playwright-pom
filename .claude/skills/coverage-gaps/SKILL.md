@@ -5,7 +5,7 @@ description: Compare the CRUD coverage matrix, ACID invariants and Market API do
 
 1. Build the expected inventory from the following sources:
    - the "CRUD coverage matrix" and "ACID" sections of `CLAUDE.md`
-   - every endpoint and method in https://www.qacloud.dev/market/docs and in `src/api/*Api.ts`
+   - every endpoint and method in <https://www.qacloud.dev/market/docs> and in `src/api/*Api.ts`
    - the UI features in `src/pages/**`
 2. Build the actual inventory:
    - Run `npx playwright test --list --reporter=json` to get every test title, file and tag.

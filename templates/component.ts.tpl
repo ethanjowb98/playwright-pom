@@ -1,5 +1,6 @@
 import { type Locator, type Page } from '@playwright/test';
 
+import { whileAwaitingApi } from '@pages/network';
 import { step } from '@utils/allure';
 
 /**
@@ -12,9 +13,12 @@ export class __NAME__ {
     this.root = page.locator('__ROOT_SELECTOR__');
   }
 
-  @step('__NAME__: example action')
-  async exampleAction(): Promise<this> {
-    await this.root.getByRole('button', { name: 'Example' }).click();
+  /** Title names the target (never a credential); wait for the API call the action triggers. */
+  @step((name: string) => `__NAME__: example action on "${name}"`)
+  async exampleAction(name: string): Promise<this> {
+    await whileAwaitingApi(this.page, 'POST', '__API_PATH__', () =>
+      this.root.getByRole('button', { name }).click(),
+    );
     return this;
   }
 }

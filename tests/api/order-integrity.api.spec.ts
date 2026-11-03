@@ -12,7 +12,7 @@ async function stockOf(productsApi: ProductsApi, id: string): Promise<number> {
   return (await productsApi.getById(id)).stock;
 }
 
-// ACID invariants of checkout. Uses the account-wide basket: single-worker api-stateful project.
+// ACID invariants of checkout. Uses the account-wide basket: single-worker stateful project.
 test.describe('Order integrity API', { tag: [TAGS.api, TAGS.stateful] }, () => {
   test.beforeEach(async () => {
     await labels({ feature: 'Order integrity' });

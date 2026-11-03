@@ -4,6 +4,7 @@ import { buildProduct } from '@data/factories/productFactory';
 import { expect, test } from '@fixtures';
 import { labels, Severity } from '@utils/allure';
 import { expectProductShape } from '@utils/assertions';
+import { roundMoney } from '@utils/format';
 
 /** A valid product payload without one field, for "missing field" cases. */
 function productWithout(field: string): Record<string, unknown> {
@@ -138,7 +139,7 @@ test.describe('Products API', { tag: [TAGS.api] }, () => {
       async ({ seeder, productsApi }) => {
         await labels({ story: 'Update', severity: Severity.CRITICAL });
         const product = await seeder.seedProduct();
-        const changes = { price: product.price + 1, stock: product.stock + 1 };
+        const changes = { price: roundMoney(product.price + 1), stock: product.stock + 1 };
 
         const updated = await productsApi.update(product.id, changes);
 
