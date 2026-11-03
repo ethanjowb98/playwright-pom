@@ -10,7 +10,7 @@ Workflow: one branch and one PR per milestone (`feat/m<N>-<slug>` → `main`). C
 | --- | -------------------------------- | ------ | -------------------------- | --- | ---------- |
 | M0  | Tracking + Claude environment    | ✅     | `feat/m0-claude-env`       |     | 2026-11-03 |
 | M1  | Foundation, linting & templates  | ✅     | `feat/m1-foundation`       |     | 2026-11-03 |
-| M2  | API layer + test data generation | ⬜     | `feat/m2-api-layer`        |     |            |
+| M2  | API layer + test data generation | ✅     | `feat/m2-api-layer`        |     | 2026-11-03 |
 | M3  | API test suite                   | ⬜     | `feat/m3-api-tests`        |     |            |
 | M4  | Page objects + E2E suite         | ⬜     | `feat/m4-e2e`              |     |            |
 | M5  | Allure reporting                 | ⬜     | `feat/m5-allure`           |     |            |
@@ -18,7 +18,7 @@ Workflow: one branch and one PR per milestone (`feat/m<N>-<slug>` → `main`). C
 | M7  | CI/CD pipeline                   | ⬜     | `feat/m7-ci`               |     |            |
 | M8  | Final polish & hardening         | ⬜     | `feat/m8-hardening`        |     |            |
 
-Progress: **28 / 87 tasks**
+Progress: **38 / 88 tasks**
 
 ---
 
@@ -56,17 +56,18 @@ Progress: **28 / 87 tasks**
 - [x] Docs: README (requirements, build-out, scripts, structure, CI), `docs/ARCHITECTURE.md`, `docs/CONTRIBUTING.md`, `templates/README.md`
 - [x] **Exit:** `npm run check` passes; commitlint rejects bad messages; setup logs in via API and the seed test passes with the stored session (`--repeat-each=3`)
 
-## M2: API layer + test data generation ⬜
+## M2: API layer + test data generation ✅
 
-- [ ] `src/api/types.ts` (Product, BasketItem, Order, OrderStatus, Profile)
-- [ ] `ApiClient` base (auth header, JSON, error handling, Allure request/response attachments)
-- [ ] `AuthApi`, `ProductsApi`, `BasketApi`, `OrdersApi`, `MaintenanceApi`
-- [ ] `productFactory` (faker, overrides, unique worker-scoped names)
-- [ ] `DataSeeder` (seedProducts, seedBasket, seedOrder) with tracked cleanup (orders → basket → products)
-- [ ] `src/fixtures/index.ts` (API clients, apiKey, seeder with auto-teardown)
-- [ ] Smoke API spec proving that seeding and cleanup leave no leftovers
-- [ ] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
-- [ ] **Exit:** smoke spec green with `--repeat-each=3`
+- [x] `src/api/types.ts` (Product, BasketItem, Order, OrderStatus, Profile)
+- [x] `ApiClient` base (auth header, JSON, error handling, Allure request/response attachments)
+- [x] `AuthApi`, `ProductsApi`, `BasketApi`, `OrdersApi`, `MaintenanceApi`
+- [x] `productFactory` (faker, overrides, unique worker-scoped names)
+- [x] `DataSeeder` (seedProducts, seedBasket, seedOrder) with tracked cleanup (orders → basket → products)
+- [x] `api-stateful` project (`@stateful`, 1 worker) for tests that use the account-wide basket
+- [x] `src/fixtures/index.ts` (API clients, apiKey, seeder with auto-teardown)
+- [x] Smoke API spec proving that seeding and cleanup leave no leftovers
+- [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
+- [x] **Exit:** smoke spec green with `--repeat-each=3`
 
 ## M3: API test suite ⬜
 
@@ -140,8 +141,11 @@ Progress: **28 / 87 tasks**
 
 ## Notes / defects found
 
-| Date       | Milestone | Type      | Note                                                                                                                                                                                   |
-| ---------- | --------- | --------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-11-03 | M0        | Doc drift | Swagger `/market/docs` documents `/api/groceries` and `/api/basket/items`, but the UI calls `/api/products` and `/api/basket`. To be covered by the M3 contract test.                  |
-| 2026-11-03 | M0        | Security  | The legacy `tests/milestone.spec.ts` and `response.json` contain a real BPOSeats login and profile data. They get removed in M1, but **the password stays in git history: rotate it.** |
-| 2026-11-03 | M1        | Tooling   | TypeScript pinned to `~6.0` because typescript-eslint 8.x supports TS < 6.1 (TS 7 is the native port). npm blocked esbuild's postinstall; `tsx` works without it.                      |
+| Date       | Milestone | Type      | Note                                                                                                                                                                                                                    |
+| ---------- | --------- | --------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026-11-03 | M0        | Doc drift | Swagger `/market/docs` documents `/api/groceries` and `/api/basket/items`, but the UI calls `/api/products` and `/api/basket`. To be covered by the M3 contract test.                                                   |
+| 2026-11-03 | M0        | Security  | The legacy `tests/milestone.spec.ts` and `response.json` contain a real BPOSeats login and profile data. They get removed in M1, but **the password stays in git history: rotate it.**                                  |
+| 2026-11-03 | M1        | Tooling   | TypeScript pinned to `~6.0` because typescript-eslint 8.x supports TS < 6.1 (TS 7 is the native port). npm blocked esbuild's postinstall; `tsx` works without it.                                                       |
+| 2026-11-03 | M2        | Design    | The basket is account-wide and `POST /api/orders` consumes all of it. Basket/order tests are tagged `@stateful` and run in the single-worker `api-stateful` project. M4 must keep E2E basket tests from overlapping it. |
+| 2026-11-03 | M2        | Defect?   | `POST /api/products` accepts `price: -1` (201). To be asserted in the M3 negatives; mark `test.fixme()` if confirmed.                                                                                                   |
+| 2026-11-03 | M2        | Doc drift | `GET /api/products/filter` returns rows with `name` instead of `product_name` (a bare array, not `{ products }`). `ProductsApi.filter` keeps the raw shape for M3.                                                      |

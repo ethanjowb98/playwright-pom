@@ -12,7 +12,7 @@ test.describe('__FEATURE__ API', () => {
     const input = build__NAME__();
 
     // Act
-    const created = await seeder.track(await __name__Api.create(input));
+    const created = await seeder.track__NAME__(await __name__Api.create(input));
 
     // Assert (durability: re-read from the API)
     const fetched = await __name__Api.getById(created.id);

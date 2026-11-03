@@ -54,18 +54,18 @@ npm run check
 
 ## Running tests
 
-| Command              | What it runs                                     |
-| -------------------- | ------------------------------------------------ |
-| `npm test`           | Everything (setup → api + e2e)                   |
-| `npm run test:setup` | Only the auth setup project                      |
-| `npm run test:api`   | API specs (`tests/api/**/*.api.spec.ts`)         |
-| `npm run test:e2e`   | E2E specs (`tests/e2e/**/*.spec.ts`) in Chromium |
-| `npm run test:smoke` | Tests tagged `@smoke`                            |
-| `npm run report`     | Open the last Playwright HTML report             |
+| Command              | What it runs                                                                |
+| -------------------- | --------------------------------------------------------------------------- |
+| `npm test`           | Everything (setup → api + api-stateful + e2e)                               |
+| `npm run test:setup` | Only the auth setup project                                                 |
+| `npm run test:api`   | API specs (`tests/api/**/*.api.spec.ts`): projects `api` and `api-stateful` |
+| `npm run test:e2e`   | E2E specs (`tests/e2e/**/*.spec.ts`) in Chromium                            |
+| `npm run test:smoke` | Tests tagged `@smoke`                                                       |
+| `npm run report`     | Open the last Playwright HTML report                                        |
 
 Useful flags: `--headed`, `--ui`, `--debug`, `--grep "<title>"`, `--repeat-each=3` (flakiness check).
 
-Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@maintenance`.
+Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@maintenance`, `@stateful` (uses the account-wide basket, so it runs in the single-worker `api-stateful` project).
 
 ## Code quality
 
@@ -86,11 +86,11 @@ Git hooks run automatically:
 
 ```text
 src/
-  config/       env.ts (typed env vars), constants.ts (timeouts, routes, endpoints, tags)
-  api/          API clients (M2)
+  config/       env.ts (typed env vars), constants.ts (timeouts, routes, endpoints, tags, enums, test-data bounds)
+  api/          ApiClient base, one client per resource (Auth, Products, Basket, Orders, Maintenance), types.ts
   pages/        page objects + components/ (M4)
-  data/         factories + DataSeeder for API test-data generation (M2)
-  fixtures/     test.extend fixtures (M2/M4)
+  data/         factories/ (faker builders), uniqueName, DataSeeder (API seeding with tracked cleanup)
+  fixtures/     test.extend fixtures: apiKey, API clients, seeder (page objects in M4)
 tests/
   setup/        auth.setup.ts: API login → .auth/
   api/          *.api.spec.ts
