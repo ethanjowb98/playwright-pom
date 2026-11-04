@@ -11,6 +11,9 @@ import { ALLURE } from './src/config/constants';
 export default defineConfig({
   name: 'Market test report',
   output: ALLURE.reportDir,
+  // Each `allure generate` appends this run; the trend and history tabs read the last runs back.
+  historyPath: `./${ALLURE.historyFile}`,
+  historyLimit: ALLURE.historyLimit,
   categories: ALLURE_CATEGORIES,
   plugins: {
     awesome: {

@@ -16,6 +16,7 @@ node_modules/
 # Allure + failure analysis output
 /allure-results/
 /allure-report/
+/allure-history.jsonl
 failure-analysis.md
 failure-analysis.json
 failure-analysis.previous.json

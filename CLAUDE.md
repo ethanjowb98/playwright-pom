@@ -46,7 +46,8 @@ src/reporters   AllureRunInfo: clears allure-results, writes environment + execu
 tests/setup     auth.setup.ts: reuses a valid saved session or logs in once; saves storageState + api key
 tests/api       *.api.spec.ts
 tests/e2e       *.spec.ts
-scripts/        analyze-failures.ts + failure-analysis/ (rule-based failure clustering, unit-tested with node:test)
+scripts/        analyze-failures.ts + failure-analysis/ (rule-based failure clustering); report-site.ts + report-site/ (CI Pages site); unit-tested with node:test
+.github/        playwright.yml (check → api / e2e ×2 / stateful → report + Pages) + composite actions setup, run-tests
 templates/      scaffolds for page objects, components, API clients, factories and specs
 specs/          Markdown test plans (Playwright planner agent)
 docs/ROADMAP.md milestone tracker
