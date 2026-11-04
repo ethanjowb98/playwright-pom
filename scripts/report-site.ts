@@ -6,6 +6,7 @@
  *    `ALLURE.historyLimit` reports and rewrites the index page.
  * The workflow commits and pushes the site; this script only changes files.
  */
+import { appendFileSync } from 'node:fs';
 import { parseArgs } from 'node:util';
 
 import { publishRun, restoreHistory } from './report-site/site';
@@ -34,21 +35,31 @@ if (command === 'restore') {
   );
 } else if (command === 'publish') {
   const repoUrl = `${githubEnv('GITHUB_SERVER_URL')}/${githubEnv('GITHUB_REPOSITORY')}`;
+  const id = `${githubEnv('GITHUB_RUN_NUMBER')}-${githubEnv('GITHUB_RUN_ATTEMPT')}`;
   const runs = publishRun({
     site,
     report: ALLURE.reportDir,
     workDir: '.',
     keep: ALLURE.historyLimit,
     entry: {
-      id: `${githubEnv('GITHUB_RUN_NUMBER')}-${githubEnv('GITHUB_RUN_ATTEMPT')}`,
+      id,
       publishedAt: new Date().toISOString(),
       branch: githubEnv('GITHUB_REF_NAME'),
       commit: githubEnv('GITHUB_SHA'),
       event: githubEnv('GITHUB_EVENT_NAME'),
+      suite: process.env.SUITE || 'all',
       runUrl: `${repoUrl}/actions/runs/${githubEnv('GITHUB_RUN_ID')}`,
     },
   });
-  process.stdout.write(`Published run ${runs[0]?.id ?? '?'}; ${runs.length} reports kept.\n`);
+  // A re-run of an old run can sort outside the newest reports and be dropped in the same publish.
+  const kept = runs.some((run) => run.id === id);
+  process.stdout.write(
+    kept
+      ? `Published run ${id}; ${runs.length} reports kept.\n`
+      : `Run ${id} is older than the newest ${runs.length} reports, so it is not kept.\n`,
+  );
+  const output = process.env.GITHUB_OUTPUT;
+  if (output) appendFileSync(output, `kept=${kept}\n`);
 } else {
   process.stderr.write('Usage: report-site <restore|publish> [--site <dir>]\n');
   process.exitCode = 1;

@@ -1,0 +1,106 @@
+name: Build the Allure report
+description: >-
+  Merges every slice's Allure results, restores the history from gh-pages, runs the failure analysis,
+  generates the Allure report and uploads it. Leaves SITE (the fetched site) and SITE_SHA (its commit,
+  empty when gh-pages does not exist yet) in the job environment for publishing.
+
+inputs:
+  report-url:
+    description: Where this run's report will be published; empty when it is not published.
+    default: ''
+  expected-slices:
+    description: >-
+      Slices (run-tests names) whose results must all be present, space-separated; the job fails when one
+      is missing. Empty accepts whatever arrived.
+    default: ''
+
+runs:
+  using: composite
+  steps:
+    - uses: ./.github/actions/setup
+
+    - name: Download the Allure results
+      uses: actions/download-artifact@v8
+      with:
+        pattern: allure-results-*
+        path: allure-slices
+
+    # A slice that failed before uploading (install error, timeout, SecretGuard leak) would otherwise
+    # leave a report that looks complete, with its tests simply missing.
+    - name: Merge the Allure results
+      shell: bash
+      env:
+        EXPECTED: ${{ inputs.expected-slices }}
+      run: |
+        mkdir -p allure-slices allure-results
+        missing=()
+        for slice in $EXPECTED; do
+          [ -d "allure-slices/allure-results-${slice}" ] || missing+=("$slice")
+        done
+        if [ "${#missing[@]}" -gt 0 ]; then
+          echo "::error::No Allure results from: ${missing[*]}. A partial report is not published."
+          exit 1
+        fi
+        for dir in allure-slices/*/; do
+          if [ -d "$dir" ]; then cp -r "${dir}." allure-results/; fi
+        done
+
+    - name: Prepare the run info
+      shell: bash
+      env:
+        REPORT_URL: ${{ inputs.report-url }}
+      run: |
+        # Every slice wrote the same run info except its shard.
+        if [ -f allure-results/environment.properties ]; then
+          sed -i '/^Shard=/d' allure-results/environment.properties
+        fi
+        # Links this run's point in the Allure history to its published report. Set here, not in the
+        # test jobs, so "Re-run failed jobs" links the attempt that is actually published.
+        if [ -n "$REPORT_URL" ] && [ -f allure-results/executor.json ]; then
+          jq --arg url "$REPORT_URL" '.reportUrl = $url' allure-results/executor.json > "$RUNNER_TEMP/executor.json"
+          mv "$RUNNER_TEMP/executor.json" allure-results/executor.json
+        fi
+
+    # Read on every run (trend and baseline); written only by the publish job.
+    - name: Fetch the report site
+      shell: bash
+      run: |
+        SITE="$RUNNER_TEMP/gh-pages"
+        mkdir -p "$SITE"
+        # Exit code 2 means the branch does not exist yet. Any other failure stops the job: taking it
+        # for "no site yet" would publish a one-run site over the real one.
+        status=0
+        git ls-remote --exit-code origin refs/heads/gh-pages > /dev/null || status=$?
+        case "$status" in
+          0)
+            git fetch --depth=1 origin refs/heads/gh-pages
+            sha="$(git rev-parse FETCH_HEAD)"
+            git archive FETCH_HEAD | tar -x -C "$SITE"
+            ;;
+          2)
+            sha=''
+            echo "No gh-pages branch yet: this run starts the site."
+            ;;
+          *) exit "$status" ;;
+        esac
+        { echo "SITE=$SITE"; echo "SITE_SHA=$sha"; } >> "$GITHUB_ENV"
+        npm run report:site -- restore --site "$SITE"
+
+    - name: Analyse failures
+      shell: bash
+      run: npm run analyze
+
+    # Still built when an earlier step failed, for the artifact; the publish job then skips publishing.
+    - name: Generate the Allure report
+      if: ${{ !cancelled() }}
+      shell: bash
+      run: npm run allure:generate
+
+    - name: Upload the Allure report
+      if: ${{ !cancelled() }}
+      uses: actions/upload-artifact@v7
+      with:
+        name: allure-report
+        path: allure-report/
+        retention-days: 14
+        if-no-files-found: ignore

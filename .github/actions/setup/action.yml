@@ -24,10 +24,10 @@ runs:
       shell: bash
       run: echo "version=$(node -p "require('@playwright/test/package.json').version")" >> "$GITHUB_OUTPUT"
 
-    - name: Cache Playwright browsers
+    - name: Restore Playwright browsers
       if: inputs.browsers == 'true'
       id: browser-cache
-      uses: actions/cache@v6
+      uses: actions/cache/restore@v6
       with:
         path: ~/.cache/ms-playwright
         key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}-chromium
@@ -36,6 +36,15 @@ runs:
       if: inputs.browsers == 'true' && steps.browser-cache.outputs.cache-hit != 'true'
       shell: bash
       run: npx playwright install --with-deps chromium
+
+    # Saved right after the install, not at job end: actions/cache skips saving when the job fails,
+    # and a red test run would leave the cache empty.
+    - name: Save Playwright browsers
+      if: inputs.browsers == 'true' && steps.browser-cache.outputs.cache-hit != 'true'
+      uses: actions/cache/save@v6
+      with:
+        path: ~/.cache/ms-playwright
+        key: ${{ steps.browser-cache.outputs.cache-primary-key }}
 
     # The cache holds the browser only; its system libraries still need installing.
     - name: Install Chromium system dependencies

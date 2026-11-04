@@ -15,7 +15,6 @@ interface Executor {
   buildOrder?: number;
   buildName: string;
   buildUrl?: string;
-  reportUrl?: string;
 }
 
 /**
@@ -75,8 +74,6 @@ function executor(): Executor {
       // Unique per run and re-run attempt: the failure analysis uses it as the run id.
       buildName: `${process.env.GITHUB_WORKFLOW ?? 'CI'} #${GITHUB_RUN_NUMBER ?? GITHUB_RUN_ID}${attempt}`,
       buildUrl: `${repoUrl}/actions/runs/${GITHUB_RUN_ID}`,
-      // Set by CI on runs it publishes to GitHub Pages: the history links each point to its report.
-      reportUrl: process.env.ALLURE_REPORT_URL || undefined,
     };
   }
   return { name: 'Local', type: 'local', buildName: `Local run ${new Date().toISOString()}` };

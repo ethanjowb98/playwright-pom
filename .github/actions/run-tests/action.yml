@@ -19,7 +19,7 @@ runs:
       with:
         browsers: ${{ inputs.browsers }}
 
-    # Each job's setup project logs in once (the login budget is per IP, and every runner has its own).
+    # The setup project logs in once per job, on top of the @login tests (2 in api, 2 in e2e).
     - name: Run Playwright tests
       shell: bash
       env:

@@ -23,6 +23,8 @@ export interface RunEntry {
   branch: string;
   commit: string;
   event: string;
+  /** The `suite` the run tested (all, api, e2e, smoke): partial runs read differently from full ones. */
+  suite: string;
   /** The GitHub Actions run. */
   runUrl: string;
   /** From `failure-analysis.json`; `null` when the analysis did not run. */
@@ -55,15 +57,34 @@ export function restoreHistory(site: string, workDir: string): string[] {
 const newestFirst = (a: RunEntry, b: RunEntry): number =>
   b.id.localeCompare(a.id, 'en', { numeric: true });
 
+/** A run known only from its folder: the manifest that described it was unreadable. */
+const UNKNOWN = 'unknown';
+const folderEntry = (id: string): RunEntry => ({
+  id,
+  publishedAt: UNKNOWN,
+  branch: UNKNOWN,
+  commit: UNKNOWN,
+  event: UNKNOWN,
+  suite: UNKNOWN,
+  runUrl: '',
+  summary: null,
+});
+
+/**
+ * The published runs. An unreadable manifest is rebuilt from the `runs/` folders, so a corrupt
+ * `runs.json` costs the index its details, never the reports themselves.
+ */
 function readManifest(site: string): RunEntry[] {
   const path = join(site, REPORT_SITE.manifestFile);
   if (!existsSync(path)) return [];
   try {
     const entries = JSON.parse(readFileSync(path, 'utf8')) as unknown;
-    return Array.isArray(entries) ? (entries as RunEntry[]) : [];
+    if (Array.isArray(entries)) return entries as RunEntry[];
   } catch {
-    return [];
+    // Rebuilt below.
   }
+  const runsDir = join(site, REPORT_SITE.runsDir);
+  return existsSync(runsDir) ? readdirSync(runsDir).map(folderEntry) : [];
 }
 
 function readSummary(workDir: string): RunEntry['summary'] {
@@ -134,14 +155,17 @@ function resultCell(summary: RunEntry['summary']): string {
 
 function renderRow(run: RunEntry): string {
   const id = escapeHtml(run.id);
+  const published =
+    run.publishedAt === UNKNOWN ? UNKNOWN : `${run.publishedAt.replace('T', ' ').slice(0, 16)} UTC`;
   return [
     '<tr>',
     `<td><a href="${REPORT_SITE.runsDir}/${id}/">#${id}</a></td>`,
-    `<td>${escapeHtml(run.publishedAt.replace('T', ' ').slice(0, 16))} UTC</td>`,
+    `<td>${escapeHtml(published)}</td>`,
     `<td>${escapeHtml(run.branch)} <code>${escapeHtml(run.commit.slice(0, 7))}</code></td>`,
     `<td>${escapeHtml(run.event)}</td>`,
+    `<td>${escapeHtml(run.suite)}</td>`,
     `<td>${escapeHtml(resultCell(run.summary))}</td>`,
-    `<td><a href="${escapeHtml(run.runUrl)}">workflow run</a></td>`,
+    `<td>${run.runUrl ? `<a href="${escapeHtml(run.runUrl)}">workflow run</a>` : ''}</td>`,
     '</tr>',
   ].join('');
 }
@@ -164,7 +188,7 @@ export function renderIndex(runs: readonly RunEntry[]): string {
 <h1>Market test reports</h1>
 <p><a href="${REPORT_SITE.latestDir}/">Latest report</a> · the last ${runs.length} published runs, newest first.</p>
 <table>
-<thead><tr><th>Run</th><th>Published</th><th>Branch</th><th>Event</th><th>Result</th><th></th></tr></thead>
+<thead><tr><th>Run</th><th>Published</th><th>Branch</th><th>Event</th><th>Suite</th><th>Result</th><th></th></tr></thead>
 <tbody>
 ${runs.map(renderRow).join('\n')}
 </tbody>
