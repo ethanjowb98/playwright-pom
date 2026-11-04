@@ -46,7 +46,7 @@ src/reporters   AllureRunInfo: clears allure-results, writes environment + execu
 tests/setup     auth.setup.ts: reuses a valid saved session or logs in once; saves storageState + api key
 tests/api       *.api.spec.ts
 tests/e2e       *.spec.ts
-scripts/        analyze-failures.ts (rule-based failure clustering)
+scripts/        analyze-failures.ts + failure-analysis/ (rule-based failure clustering, unit-tested with node:test)
 templates/      scaffolds for page objects, components, API clients, factories and specs
 specs/          Markdown test plans (Playwright planner agent)
 docs/ROADMAP.md milestone tracker
@@ -108,8 +108,9 @@ docs/ROADMAP.md milestone tracker
 | Flakiness check     | `npm run test:repeat -- <spec>` (`--repeat-each=3` without `@login`)                       |
 | Login tests         | `npm run test:login` (spends rate-limited logins: run once)                                |
 | Lint, format, types | `npm run lint`, `npm run format:check`, `npm run typecheck`, `npm run check` (all of them) |
+| Analyzer unit tests | `npm run test:unit` (also in `npm run check`)                                              |
 | Allure              | `npm run allure:generate`, `npm run allure:open`                                           |
-| Failure clustering  | `npm run analyze` writes `failure-analysis.md` and `.json`                                 |
+| Failure clustering  | `npm run analyze [-- --results <dir>]` writes `failure-analysis.md` and `.json`            |
 
 ## Definition of done (every new or changed test)
 

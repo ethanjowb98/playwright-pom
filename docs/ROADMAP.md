@@ -14,11 +14,11 @@ Workflow: one branch and one PR per milestone (`feat/m<N>-<slug>` → `main`). C
 | M3  | API test suite                   | ✅     | `feat/m3-api-tests`        |     | 2026-11-03 |
 | M4  | Page objects + E2E suite         | ✅     | `feat/m4-e2e`              |     | 2026-11-03 |
 | M5  | Allure reporting                 | ✅     | `feat/m5-allure`           |     | 2026-11-04 |
-| M6  | Failure analysis                 | ⬜     | `feat/m6-failure-analysis` |     |            |
+| M6  | Failure analysis                 | ✅     | `feat/m6-failure-analysis` |     | 2026-11-04 |
 | M7  | CI/CD pipeline                   | ⬜     | `feat/m7-ci`               |     |            |
 | M8  | Final polish & hardening         | ⬜     | `feat/m8-hardening`        |     |            |
 
-Progress: **67 / 89 tasks**
+Progress: **76 / 90 tasks**
 
 ---
 
@@ -107,16 +107,17 @@ Progress: **67 / 89 tasks**
 - [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
 - [x] **Exit:** local report shows the epic/feature tree, steps, attachments and categories
 
-## M6: Failure analysis ⬜
+## M6: Failure analysis ✅
 
-- [ ] `scripts/analyze-failures.ts`: parse results, normalise error signatures
-- [ ] Extract component (stack frame), endpoint + status (attachments), locator, failing step
-- [ ] Cluster + classify + rank; flag "likely shared root cause" and flaky (passed on retry)
-- [ ] `failure-analysis.md` (fixed format) + `failure-analysis.json` (schemaVersion 1)
-- [ ] New-vs-recurring comparison against the previous run
-- [ ] `npm run analyze` script
-- [ ] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
-- [ ] **Exit:** a deliberately broken locator/endpoint produces a single cluster naming the cause
+- [x] `scripts/analyze-failures.ts` + `scripts/failure-analysis/`: parse results, normalise error signatures (names, ids, numbers masked)
+- [x] Extract component (page-object or API-client line from the locator / endpoint, else a `src/` stack frame), endpoint + status (error message), locator, failing step
+- [x] Cluster + classify + rank; flag "likely shared root cause" and flaky (passed on retry)
+- [x] `failure-analysis.md` (fixed format) + `failure-analysis.json` (schemaVersion 1)
+- [x] New-vs-recurring comparison against the previous run
+- [x] `npm run analyze` script
+- [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
+- [x] Unit tests (`node:test`, `npm run test:unit`, part of `npm run check`)
+- [x] **Exit:** a deliberately broken locator/endpoint produces a single cluster naming the cause (`.price` → 1 cluster at `ProductGrid.ts`; filter endpoint → 1 cluster at `ProductsApi.ts`)
 
 ## M7: CI/CD pipeline ⬜
 

@@ -10,6 +10,7 @@ Playwright + TypeScript test automation for the [qacloud.dev Market](https://www
 - [Build-out (first-time setup)](#build-out-first-time-setup)
 - [Running tests](#running-tests)
 - [Reports](#reports)
+- [Failure analysis](#failure-analysis)
 - [Code quality](#code-quality)
 - [Project structure](#project-structure)
 - [CI](#ci)
@@ -86,6 +87,15 @@ Every run clears `allure-results/` first, so the report shows the last run only,
 - failure categories: Known product defect, Auth, API 5xx, API 4xx, Test defect, Locator not found, Timeout; anything else lands in Allure's built-in Product errors (usually an assertion mismatch)
 - the environment (base URL, Playwright, browsers, projects, workers, Node, OS) and the executor (local, or the GitHub Actions run)
 
+## Failure analysis
+
+After a red run, `npm run analyze` groups the failures by shared root cause (rule-based: no LLM, no network) and writes `failure-analysis.md` and `failure-analysis.json`. `npm run analyze -- --results <dir>` reads another results folder.
+
+- Each cluster names its cause (the locator, the `METHOD path → status`, or the normalised error), the category, the source line most likely responsible, the failing step, and its tests, largest cluster first. Two or more tests in one cluster are flagged as a likely shared root cause.
+- Tests that passed on retry are listed as flaky, and `test.fixme` product defects as known defects.
+- Each cluster is marked **new** or **recurring** against the previous analysis, and clusters that stopped failing are listed as resolved.
+- `/triage` runs the tests, this analysis and the `failure-triager` agent in one go.
+
 ## Code quality
 
 | Command                | Checks                                                  |
@@ -94,6 +104,7 @@ Every run clears `allure-results/` first, so the report shows the last run only,
 | `npm run lint`         | ESLint: type-checked TS, Playwright rules, import order |
 | `npm run format:check` | Prettier                                                |
 | `npm run lint:md`      | markdownlint                                            |
+| `npm run test:unit`    | Unit tests for the failure analyzer (`node:test`)       |
 | `npm run check`        | All of the above (what CI runs)                         |
 
 Git hooks run automatically:
@@ -109,7 +120,8 @@ src/
                 allureCategories.ts (Allure failure categories)
   api/          ApiClient base, one client per resource (Auth, Products, Basket, Orders, Maintenance), types.ts
   pages/        BasePage, LoginPage, MarketPage, components/ (grid, filters, modals, basket, orders), dialogs + network wait helpers
-  utils/        allure.ts (labels, productDefect, @step decorator), assertions.ts (shared expect helpers), format.ts
+  utils/        allure.ts (labels, productDefect, @step decorator), assertions.ts (shared expect helpers), format.ts,
+                secrets.ts (reads and masks the password and api key)
   reporters/    AllureRunInfo.ts (clears allure-results, writes environment + executor),
                 SecretGuard.ts (fails the run if a secret reaches a report)
   data/         factories/ (faker builders), uniqueName, DataSeeder (API seeding with tracked cleanup)
@@ -119,6 +131,7 @@ tests/
   api/          *.api.spec.ts
   e2e/          *.spec.ts
   seed.spec.ts  seed for the Playwright test agents
+scripts/        analyze-failures.ts (npm run analyze) + failure-analysis/ (load, signals, source lookup, clustering, report; unit-tested)
 templates/      code scaffolds (page object, component, API client, factory, specs)
 specs/          Markdown test plans
 allurerc.ts     Allure 3 report config (tree grouping, categories)

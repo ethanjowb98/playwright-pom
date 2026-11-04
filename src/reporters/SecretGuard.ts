@@ -1,8 +1,8 @@
 import { existsSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
-import { ALLURE, AUTH, SECRET_GUARD } from '../config/constants';
-import { env } from '../config/env';
+import { ALLURE, SECRET_GUARD } from '../config/constants';
+import { readApiKey, readPassword, secretNeedles } from '../utils/secrets';
 
 import type {
   FullResult,
@@ -86,33 +86,10 @@ export default class SecretGuard implements Reporter {
     }
   }
 
-  /** Each secret as typed, JSON-escaped (allure .json files) and URL-encoded. */
+  /** The api key is read lazily: the setup project writes it during the run. */
   private needles(): string[] {
     this.apiKey ??= readApiKey();
-    return [this.password, this.apiKey]
-      .filter((secret): secret is string => (secret?.length ?? 0) >= SECRET_GUARD.minSecretLength)
-      .flatMap((secret) => [
-        secret,
-        JSON.stringify(secret).slice(1, -1),
-        encodeURIComponent(secret),
-      ]);
-  }
-}
-
-function readPassword(): string | undefined {
-  try {
-    return env.password;
-  } catch {
-    return undefined; // No password configured: nothing can leak it.
-  }
-}
-
-/** The api key once the setup project has written it; `undefined` while missing or unreadable. */
-function readApiKey(): string | undefined {
-  try {
-    return (JSON.parse(readFileSync(AUTH.apiKeyFile, 'utf8')) as { apiKey?: string }).apiKey;
-  } catch {
-    return undefined;
+    return secretNeedles([this.password, this.apiKey]);
   }
 }
 

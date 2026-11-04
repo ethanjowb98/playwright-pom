@@ -50,7 +50,7 @@ Checklist for every test:
 
 ## When a test fails
 
-1. Run `/triage`, or `npm run analyze` (M6), and look at the **largest cluster** first.
+1. Run `/triage`, or `npm run analyze` after a red run, and look at the **largest cluster** first (`failure-analysis.md`).
 2. Classify the cause: product defect, test defect, flaky, or environment.
 3. Product defect: keep the correct assertion, mark the test `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<what the app does wrong>') }, body)`, open a **Product defect** issue, and log it in ROADMAP.
 4. Flaky test: open a **Flaky test** issue and fix the root cause. Never add sleeps or extra retries.

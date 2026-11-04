@@ -64,12 +64,15 @@ function executor(): Executor {
     process.env;
   if (GITHUB_ACTIONS && GITHUB_SERVER_URL && GITHUB_REPOSITORY && GITHUB_RUN_ID) {
     const repoUrl = `${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}`;
+    const runAttempt = process.env.GITHUB_RUN_ATTEMPT;
+    const attempt = runAttempt && runAttempt !== '1' ? ` (attempt ${runAttempt})` : '';
     return {
       name: 'GitHub Actions',
       type: 'github',
       url: `${repoUrl}/actions`,
       buildOrder: Number(GITHUB_RUN_NUMBER),
-      buildName: `${process.env.GITHUB_WORKFLOW ?? 'CI'} #${GITHUB_RUN_NUMBER ?? GITHUB_RUN_ID}`,
+      // Unique per run and re-run attempt: the failure analysis uses it as the run id.
+      buildName: `${process.env.GITHUB_WORKFLOW ?? 'CI'} #${GITHUB_RUN_NUMBER ?? GITHUB_RUN_ID}${attempt}`,
       buildUrl: `${repoUrl}/actions/runs/${GITHUB_RUN_ID}`,
     };
   }

@@ -102,6 +102,23 @@ export const ALLURE = {
   productDefectPrefix: 'PRODUCT DEFECT:',
 } as const;
 
+/** scripts/analyze-failures.ts (`npm run analyze`) */
+export const ANALYSIS = {
+  schemaVersion: 1,
+  markdownFile: 'failure-analysis.md',
+  jsonFile: 'failure-analysis.json',
+  /** The analysis of the run before, kept for the new-vs-recurring comparison. */
+  previousFile: 'failure-analysis.previous.json',
+  /** Clusters of at least this many tests are flagged as a likely shared root cause. */
+  sharedRootCauseMinTests: 2,
+  /** Characters of the first member's error kept in the report. */
+  messageExcerptLength: 600,
+  /** Characters of the normalised first error line kept as a signature. */
+  signatureLength: 200,
+  /** Characters of a signature shown in a cluster title. */
+  titleLength: 100,
+} as const;
+
 /** src/reporters/SecretGuard.ts */
 export const SECRET_GUARD = {
   /** Written (leak locations only) when the guard fires; CI skips the report upload while it exists. */

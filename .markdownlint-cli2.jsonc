@@ -14,5 +14,5 @@
     ".github/**/*.md",
     ".claude/**/*.md",
   ],
-  "ignores": ["node_modules/**", "CHANGELOG.md"],
+  "ignores": ["node_modules/**", "CHANGELOG.md", "failure-analysis.md"],
 }
