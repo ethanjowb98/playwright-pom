@@ -129,7 +129,35 @@ Reporters, in order: `list`, `html`, `AllureRunInfo`, `allure-playwright`, `Secr
 - The regexes are searched anywhere in the message (Allure 3). Never wrap them in `.*` for Allure 2's full-match: a `toHaveText` failure can carry a 100k-character diff, and the wrapping backtracks quadratically and hangs report generation.
 - The Allure CLI is the npm `allure` package (Allure 3, no Java). `allurerc.ts` groups the tree by epic → feature → story and passes the same categories, because its Awesome report reads categories from the config, not from `allure-results/categories.json`.
 - `SecretGuard` fails any run whose reports would show a secret (see [Secrets in reports](#secrets-in-reports)). It also scans `environment.properties` and `executor.json`.
-- Planned: `scripts/analyze-failures.ts` clusters failures by component and normalised error into `failure-analysis.md`/`.json` (M6); CI publishes the Allure report with history to GitHub Pages (M7).
+- Planned (M7): CI publishes the Allure report with history to GitHub Pages.
+
+## Failure analysis
+
+`npm run analyze` (`scripts/analyze-failures.ts`) reads one run's `allure-results` and writes `failure-analysis.md` and `failure-analysis.json` (`schemaVersion` 1). It is rule-based and offline, so it is deterministic and free to run in CI.
+
+1. **Load** (`load.ts`): one outcome per test run: `fullName` + project, plus the `Repetition` parameter under `--repeat-each` (each repetition counts as its own run). Retries are separate results with an excluded `Retry` parameter; a test that failed and then passed on retry is **flaky**. An unreadable result file is skipped and reported. The run id is the executor's build name (`AllureRunInfo`: the CI run number and attempt, or the local start time).
+2. **Signals** (`signals.ts`, pure functions) from the final failed attempt:
+   - the category, with the same rules as the Allure report (`src/config/allureCategories.ts`)
+   - the locator chain, from `Locator: …`, the call log, or a strict-mode violation. Text values a page object does not write as literals (an order number in `getByText(…)`) become `<text>`
+   - the endpoint and status, from the `<METHOD> <path> returned <status>` message that `ApiError` and `whileAwaitingApi` share; ids become `:id`
+   - the failed step path (the page-object intent, then its action) and the spec line
+   - a signature: the first error line with generated names (`QA-<worker>-<id>` → `<name>`), uuids and numbers masked, so the same cause reads the same in every test
+
+   An error can carry a 100k-character diff, so stack frames are parsed one `at …` line at a time, repo paths are found by string search (from the last `src/` or `tests/` segment), and the patterns avoid nested or overlapping repeats.
+
+3. **Component** (`source.ts`): where the cause most likely lives.
+   - A locator maps to the `src/pages` file holding the most of its literals, at the deepest one's line.
+   - An `ApiError` maps to the `ENDPOINTS` (or `DOCUMENTED_ENDPOINTS`) entry its path matches, then the `src/api` line using that entry in the same form (plain or with an id) with the same verb.
+   - A plain-`Error` API failure comes from a page object's `whileAwaitingApi`. Several page objects often wait on the same call, so the failing step decides: the wait whose `@step` title (or, for a wait in an undecorated helper, the titles of the decorated methods calling it) matches the outermost failing step. With no match among several candidates, the component is left empty rather than guessed.
+   - Otherwise the first `src/` stack frame outside `node_modules`. A frame in the shared `ApiClient.ts` names the client class instead (`ProductsApi.send` → `src/api/ProductsApi.ts`).
+
+   Boxed `@step` failures carry only the calling spec frame, so these lookups, not the stack, name the page object.
+
+4. **Cluster** (`cluster.ts`): the key is category + locator, else endpoint, else signature. A signature alone is too generic (`expect(received).toBe(expected)`, `Test timeout of Nms exceeded.`), so it is anchored: to the failing step path alone when that is a page-object, client, seeder or hook step (one broken step is one cause, whichever spec calls it), else to the step plus the suite line (a shared helper) or the spec line (a spec-level `expect`). Step titles built from arguments other than names, ids and numbers (`Filter by category bakery`) still separate per value. Clusters are ranked by size, then category (auth and 5xx first). A cluster of 2+ tests is flagged as a likely shared root cause, and each gets a likely class (product defect, test defect, flaky, environment) and a hint.
+5. **Compare** (`baseline.ts`): the baseline is the newest of `failure-analysis.json` and `failure-analysis.previous.json` that is not the current run and did not start after it. When that is `failure-analysis.json`, it is kept as `failure-analysis.previous.json`. So re-analysing a run keeps its baseline, and analysing an older results folder (`--results`) neither rotates anything nor becomes the baseline of the next newer run. A run is never its own baseline. Clusters whose key appears in the baseline are **recurring**, the rest **new**, and baseline clusters that no longer fail are **resolved**.
+6. **Report** (`render.ts`): a fixed Markdown format (summary, cluster table, one section per cluster, flaky, known product defects, resolved), which the `failure-triager` agent reads (and the CI summary will, in M7).
+
+The error text is masked before it is parsed or shortened, and every string value of the finished analysis gets one more `redactSecrets` pass (`src/utils/secrets.ts`, shared with `SecretGuard`), so no string in `failure-analysis.*` or the console output (step names, test titles, defect reasons, titles carried over from the baseline) can carry the password or api key. When `QACLOUD_PASSWORD` or `.auth/apikey.json` is missing, or the password is too short to match safely, `analyze` warns that it cannot mask that secret. The pure parts are unit-tested with `node:test` (`npm run test:unit`, part of `npm run check`).
 
 ## Key decisions
 

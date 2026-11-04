@@ -18,6 +18,7 @@ node_modules/
 /allure-report/
 failure-analysis.md
 failure-analysis.json
+failure-analysis.previous.json
 secret-guard-leak.txt
 
 # Editor / OS

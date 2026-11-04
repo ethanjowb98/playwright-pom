@@ -146,6 +146,11 @@ export default tseslint.config(
     rules: { 'no-restricted-syntax': ['error', ...NO_CREDENTIALS_IN_REPORTS] },
   },
   {
+    // node:test tracks the promises describe() and it() return.
+    files: ['scripts/**/*.test.ts'],
+    rules: { '@typescript-eslint/no-floating-promises': 'off' },
+  },
+  {
     files: ['src/pages/**/*.ts'],
     rules: {
       'no-restricted-syntax': [
