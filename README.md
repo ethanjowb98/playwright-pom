@@ -139,7 +139,7 @@ specs/          Markdown test plans
 allurerc.ts     Allure 3 report config (tree grouping, categories)
 docs/           roadmap, architecture, contributing
 .claude/        Claude Code agents, skills, hooks, settings
-.github/        CI workflow + composite actions (setup, run-tests), PR and issue templates
+.github/        CI workflow + composite actions (setup, run-tests, report), PR and issue templates
 ```
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the layers fit together.
@@ -148,16 +148,16 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the layers fit together
 
 GitHub Actions ([.github/workflows/playwright.yml](.github/workflows/playwright.yml)) runs on pushes and PRs to `main`, nightly at 03:00 UTC, and on demand (**Run workflow**, with a `suite` of all, api, e2e or smoke):
 
-1. **check**: `npm run check` and actionlint
-2. **api**, **e2e** (2 shards) and **stateful** (basket and order tests, one at a time across runs) in parallel, each uploading its Allure results
-3. **report**: merges the results, runs `npm run analyze`, generates the Allure report with the history of earlier runs, and posts the analysis to the job summary and (on a PR) one sticky comment
+1. **check**: actionlint and `npm run check`
+2. **api**, **e2e** (2 shards) and **stateful** (basket and order tests, one at a time across runs) in parallel, each uploading its Allure results. Pull requests from forks and Dependabot skip the tests: they get no repository secrets.
+3. **report** or **publish**: merges the results, runs `npm run analyze`, generates the Allure report with the history of earlier runs, and writes the analysis to the job summary (and, on a PR, one sticky comment)
 
-Runs outside pull requests publish the report to GitHub Pages: the run list at `https://<owner>.github.io/<repo>/`, the newest report at `latest/`, and the last 20 reports with their trends. On a PR, the report is the `allure-report` artifact of the run.
+Every run except pull requests (pushes to `main`, the nightly, and manual runs of any branch or suite) **publishes** the report to GitHub Pages, failing and skipped tests included: the run list at `https://<owner>.github.io/<repo>/` (with each run's branch, suite and results), the newest report at `latest/`, and the last 20 reports with their trends. Pull requests keep the report as the run's `allure-report` artifact.
 
 Repository setup:
 
-- Secrets: `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional: `QACLOUD_BASE_URL`).
-- Pages: after the first run on `main` (or a manual run) has created the `gh-pages` branch, set **Settings → Pages → Deploy from a branch → `gh-pages` / `(root)`**. For a custom domain, set the repository variable `REPORT_SITE_URL`.
+- Secrets: `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional: `QACLOUD_BASE_URL`). The username shows in the published reports; only the password and api key are kept out.
+- Pages: after the first published run (a push to `main`, or a manual run) has created the `gh-pages` branch, set **Settings → Pages → Deploy from a branch → `gh-pages` / `(root)`**. For a custom domain, set the repository variable `REPORT_SITE_URL`.
 
 The repo is public, so standard GitHub-hosted runners are free. Details: [docs/ARCHITECTURE.md#ci](docs/ARCHITECTURE.md#ci).
 

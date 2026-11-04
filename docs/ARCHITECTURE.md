@@ -123,7 +123,7 @@ Tests for known product defects keep the correct assertion and are parked with `
 
 Reporters, in order: `list`, `html`, `AllureRunInfo`, `allure-playwright`, `SecretGuard`.
 
-- `AllureRunInfo` (`src/reporters/AllureRunInfo.ts`) clears `allure-results/` when a run begins, so the report covers that run only, then writes `environment.properties` (base URL, Playwright, browsers, projects, workers, shard, Node, OS, CI) and `executor.json` (GitHub Actions run with build URL, or a local run; on CI runs that publish, also `reportUrl` from `ALLURE_REPORT_URL`, so each history point links to its report). Never add a credential to either file.
+- `AllureRunInfo` (`src/reporters/AllureRunInfo.ts`) clears `allure-results/` when a run begins, so the report covers that run only, then writes `environment.properties` (base URL, Playwright, browsers, projects, workers, shard, Node, OS, CI) and `executor.json` (GitHub Actions run with build URL, or a local run; CI's publish job adds `reportUrl`). Never add a credential to either file.
 - `allure-playwright` writes a result per test: epic/feature/story/severity/owner labels, the `@step` tree with request/response attachments, screenshots and videos of failures, and `categories.json`.
 - Categories (`src/config/allureCategories.ts`, first match wins): **Known product defect** (skipped with a `PRODUCT DEFECT:` reason), **Auth** (401/403, login failure or 429, missing credentials or api key), **API 5xx**, **API 4xx** (from the `<METHOD> <path> returned <status>:` message that `ApiError` and `whileAwaitingApi` share), **Test defect** (JavaScript error or strict-mode violation), **Locator not found** (`element(s) not found`, or an action timeout whose call log never resolved the locator) and **Timeout**. A failure no rule matches lands in Allure's built-in **Product errors**: usually an assertion mismatch, to triage.
 - The regexes are searched anywhere in the message (Allure 3). Never wrap them in `.*` for Allure 2's full-match: a `toHaveText` failure can carry a 100k-character diff, and the wrapping backtracks quadratically and hangs report generation.
@@ -161,28 +161,34 @@ The error text is masked before it is parsed or shortened, and every string valu
 
 ## CI
 
-[.github/workflows/playwright.yml](../.github/workflows/playwright.yml) runs on pushes and pull requests to `main`, nightly (03:00 UTC), and on demand (`workflow_dispatch` with a `suite` input: all, api, e2e, smoke).
+[.github/workflows/playwright.yml](../.github/workflows/playwright.yml) runs on pushes and pull requests to `main`, nightly (03:00 UTC), and on demand (`workflow_dispatch` with a `suite` input: all, api, e2e, smoke). Every `run:` step uses bash with `pipefail`.
 
 ```text
 check ──┬── api ───────────────┐
-        ├── e2e (shard 1/2) ───┤
-        ├── e2e (shard 2/2) ───┼── report
-        └── stateful ──────────┘
+        ├── e2e (shard 1/2) ───┤   ┌── report   (everything else: read-only)
+        ├── e2e (shard 2/2) ───┼───┤
+        └── stateful ──────────┘   └── publish  (every other run: GitHub Pages)
 ```
 
-- **check:** `npm run check` and actionlint. It also resolves where this run's report will be published (the next jobs write it into `executor.json`).
-- **api**, **e2e** (2 shards) and **stateful** run in parallel, each through `.github/actions/run-tests` (setup, `playwright test <slice>`, upload `allure-results-<slice>`, and the HTML report on failure). `.github/actions/setup` caches npm and the Playwright browser, keyed on the installed Playwright version. Every job's setup project logs in once; runners have their own IPs, so the login budget is per job.
-- **stateful** is a job of its own because the basket is account-wide. Its `qacloud-account-basket` concurrency group also stops two runs (a pull request and `main`, say) from using the basket at the same time. GitHub keeps one pending job per group, so a third run queued behind them has its stateful job cancelled.
-- **report** (after the test jobs, even when they fail):
-  1. downloads and merges every slice's `allure-results` (dropping the per-slice `Shard` line from the environment)
-  2. restores `allure-history.jsonl` and the last `failure-analysis.json` from `gh-pages` (`npm run report:site -- restore`)
-  3. runs `npm run analyze` and `npm run allure:generate`, and uploads the report as the `allure-report` artifact
-  4. on runs outside pull requests: `npm run report:site -- publish` adds the report under `runs/<run number>-<attempt>/`, saves the history, keeps the newest 20 reports and rewrites `index.html` (the run list) and `latest/`. The site is pushed as a single commit replacing `gh-pages`, so old reports leave the repository too. Publishing runs take turns (concurrency group `report-site`).
-  5. writes the analysis to the job summary and, on a pull request from this repository, to one comment that each run edits (marked `<!-- failure-analysis -->`)
-- Pull requests read the history (their trend and new-vs-recurring compare against the last published run) but never publish. A cancelled pull-request run can leave seeded data behind, which is why only pull requests cancel superseded runs.
-- Secrets: the test jobs get `QACLOUD_*` from repository secrets; the report job gets only the password, to mask it in the analysis. The api key cannot reach it: each test job's `SecretGuard` checked its results, and a job whose reports leaked uploads nothing.
+- **check:** actionlint (a pinned, checksum-verified release; it lints the workflow, not the composite actions), then `npm run check`. It decides what the run does:
+  - `run-tests` is false for pull requests from forks and from Dependabot, which get no repository secrets. Then no test or report job runs.
+  - `publish` is true for every run except pull requests: pushes to `main`, the nightly, and manual runs of any branch or suite. Failing and skipped tests are part of every published report. Partial suites and other branches therefore feed the same trend and analysis baseline as full runs of `main`; the index lists each run's branch and suite to tell them apart.
+- **api**, **e2e** (2 shards) and **stateful** run in parallel, each through `.github/actions/run-tests`: setup, `playwright test <slice>`, upload `allure-results-<slice>`, and the HTML report on failure (nothing when `SecretGuard` found a leak).
+  - `.github/actions/setup` caches npm and Chromium, keyed on the installed Playwright version. The browser cache is saved right after the install, so a red test run still fills it.
+  - Each job's setup project logs in once, and the `@login` tests spend 4 more logins (2 in api, 2 in e2e), against 10 per 15 minutes per IP.
+- **stateful** is a job of its own because the basket is account-wide. Its `qacloud-account-basket` concurrency group stops two runs (a pull request and `main`, say) from using the basket at the same time. GitHub keeps one waiting job per group: when a third run's stateful job queues, the one already waiting is cancelled, and that run neither reports nor publishes (re-run it).
+- **Cancelling:** a new push to a pull request cancels its superseded **api** and **e2e** jobs, never **stateful** (cancelled mid-order, it would leave basket or order data on the account). A run with a cancelled job, or a failed **check**, skips its report. Other runs are never cancelled by a newer one.
+- **report** and **publish** share `.github/actions/report`:
+  1. download and merge every slice's `allure-results`, dropping the per-slice `Shard` line from the environment. **publish** requires every slice the suite runs (all four for `all` and `smoke`; `api` + `stateful` for `api`; both e2e shards + `stateful` for `e2e`) and fails when one uploaded nothing (an install error, a timeout, a `SecretGuard` leak), so a report with tests missing is never published. **publish** also writes the report URL into `executor.json` here, so each Allure history point links to its report; doing it in this job, not the test jobs, makes **Re-run failed jobs** link the attempt it publishes.
+  2. fetch `gh-pages` and restore `allure-history.jsonl` and the last analysis (`npm run report:site -- restore`). Only a missing branch (`git ls-remote` exit code 2) counts as "no site yet"; any other fetch failure stops the job.
+  3. `npm run analyze` and `npm run allure:generate`, and upload the report as the `allure-report` artifact (built even after a failed step)
+- **report** (pull requests) has a read-only token plus `pull-requests: write`. It writes the analysis to the job summary and, on a pull request, to one comment that each run edits (marked `<!-- failure-analysis -->`, cut at a line boundary past 60,000 characters). Pull requests read the history, so their trend and new-vs-recurring compare against the last published run, but never write it.
+- **publish** (every run except pull requests) has `contents: write` and takes turns with other publishing runs (concurrency group `report-site`; as with **stateful**, a third run arriving cancels the one already waiting, which is then never published). It publishes only after every report step succeeded (never with a missing slice, a missing history or a stale analysis):
+  - `npm run report:site -- publish` adds the report under `runs/<run number>-<attempt>/`, saves the history, keeps the newest 20 reports, and rewrites `index.html` (the run list) and `latest/`. An unreadable `runs.json` is rebuilt from the `runs/` folders, never emptied. A re-run of a run older than the newest 20 is dropped at once (its point still lands at the end of the Allure history), and the job summary then links no report.
+  - The site is pushed as one commit replacing `gh-pages`, so earlier commits and their reports are no longer referenced. The push uses `--force-with-lease` against the fetched commit: if `gh-pages` moved (or appeared) meanwhile, it fails instead of overwriting.
+- **Secrets:** the test jobs get `QACLOUD_*` from repository secrets. The report jobs get only the password, to mask it in the analysis. The api key cannot reach them, because each test job's `SecretGuard` checked its results and a job whose reports leaked uploads nothing. The username is not secret: the login tests type it with `fill`, so it shows in the published reports.
 
-Repository setup: the secrets `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional `QACLOUD_BASE_URL`), and GitHub Pages set to **Deploy from a branch**, `gh-pages`, `/ (root)`, after the first run outside a pull request has created the branch. For a custom Pages domain, set the repository variable `REPORT_SITE_URL`.
+Repository setup: the secrets `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional `QACLOUD_BASE_URL`), and GitHub Pages set to **Deploy from a branch**, `gh-pages`, `/ (root)`, after the first published run (a push to `main`, or a manual run) has created the branch. For a custom Pages domain, set the repository variable `REPORT_SITE_URL`.
 
 ## Key decisions
 
@@ -202,6 +208,7 @@ Repository setup: the secrets `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional `
 | `allure-results` cleared every run    | The report matches the run, like the HTML report; history lives in `allure-history.jsonl` (CI: on `gh-pages`)              |
 | Pages from a one-commit `gh-pages`    | Free hosting with the history beside the reports; replacing the commit keeps the repository from growing with every report |
 | `stateful` as its own CI job          | API and E2E basket tests share one account basket; a concurrency group serialises it across runs                           |
+| Every run except PRs publishes        | Every run, failing and skipped tests included, can be inspected on Pages; PR runs keep a read-only token                   |
 | Rule-based failure analysis (no LLM)  | Deterministic and free; no API key needed in CI                                                                            |
 | TypeScript pinned to 6.0.x            | typescript-eslint supports TS < 6.1                                                                                        |
 | Bundled Chromium (not branded Chrome) | Runs on every CI image; one `playwright install chromium`                                                                  |

@@ -47,7 +47,7 @@ tests/setup     auth.setup.ts: reuses a valid saved session or logs in once; sav
 tests/api       *.api.spec.ts
 tests/e2e       *.spec.ts
 scripts/        analyze-failures.ts + failure-analysis/ (rule-based failure clustering); report-site.ts + report-site/ (CI Pages site); unit-tested with node:test
-.github/        playwright.yml (check → api / e2e ×2 / stateful → report + Pages) + composite actions setup, run-tests
+.github/        playwright.yml (check → api / e2e ×2 / stateful → publish to Pages, or report on pull requests) + composite actions setup, run-tests, report
 templates/      scaffolds for page objects, components, API clients, factories and specs
 specs/          Markdown test plans (Playwright planner agent)
 docs/ROADMAP.md milestone tracker
