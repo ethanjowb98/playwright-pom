@@ -15,10 +15,10 @@ Workflow: one branch and one PR per milestone (`feat/m<N>-<slug>` → `main`). C
 | M4  | Page objects + E2E suite         | ✅     | `feat/m4-e2e`              |     | 2026-11-03 |
 | M5  | Allure reporting                 | ✅     | `feat/m5-allure`           |     | 2026-11-04 |
 | M6  | Failure analysis                 | ✅     | `feat/m6-failure-analysis` |     | 2026-11-04 |
-| M7  | CI/CD pipeline                   | ⬜     | `feat/m7-ci`               |     |            |
+| M7  | CI/CD pipeline                   | 🟡     | `feat/m7-ci`               |     |            |
 | M8  | Final polish & hardening         | ⬜     | `feat/m8-hardening`        |     |            |
 
-Progress: **76 / 90 tasks**
+Progress: **83 / 90 tasks**
 
 ---
 
@@ -119,15 +119,15 @@ Progress: **76 / 90 tasks**
 - [x] Unit tests (`node:test`, `npm run test:unit`, part of `npm run check`)
 - [x] **Exit:** a deliberately broken locator/endpoint produces a single cluster naming the cause (`.price` → 1 cluster at `ProductGrid.ts`; filter endpoint → 1 cluster at `ProductsApi.ts`)
 
-## M7: CI/CD pipeline ⬜
+## M7: CI/CD pipeline 🟡
 
-- [ ] Workflow triggers: push/PR to main, `workflow_dispatch` (suite input), nightly cron
-- [ ] Jobs: `check` (lint/format/types + actionlint), `api`, `e2e` (2 shards), `report`
-- [ ] npm + Playwright browser caching; secrets wired
-- [ ] Allure history from `gh-pages`, generate, deploy to Pages (keep last 20)
-- [ ] Analysis to `$GITHUB_STEP_SUMMARY` + sticky PR comment
-- [ ] Repo setup documented: secrets, Pages enabled
-- [ ] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
+- [x] Workflow triggers: push/PR to main, `workflow_dispatch` (suite input), nightly cron
+- [x] Jobs: `check` (lint/format/types/unit + actionlint), `api`, `e2e` (2 shards), `stateful` (account-wide concurrency group), `report`
+- [x] npm + Playwright browser caching; secrets wired (composite actions `setup`, `run-tests`)
+- [x] Allure history from `gh-pages`, generate, deploy to Pages (keep last 20): `scripts/report-site.ts`, unit-tested
+- [x] Analysis to `$GITHUB_STEP_SUMMARY` + sticky PR comment
+- [x] Repo setup documented: secrets, Pages enabled
+- [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
 - [ ] **Exit:** PR run green, Pages report live, trend visible after the 2nd run
 
 ## M8: Final polish & hardening ⬜
@@ -162,3 +162,4 @@ Progress: **76 / 90 tasks**
 | 2026-11-03 | M4        | Question       | The header basket badge counts lines, not units (2 products × 2 units shows `2`). The `Basket Units` stat shows units. Tested as implemented.                                                                                                                              |
 | 2026-11-03 | M4        | Defect?        | Typo in the empty basket state: "Your basket is empty. Start marketping!". Cosmetic; not asserted.                                                                                                                                                                         |
 | 2026-11-03 | M4        | Environment    | `POST /api/login` is rate-limited to 10 per 15 min per IP (429 after). A full run spends 4 logins (the `@login` tests: 2 API + 2 E2E); setup reuses a valid `.auth/` session. `npm run test:repeat` leaves `@login` out. A UI login does not invalidate the setup session. |
+| 2026-11-04 | M7        | Design         | CI `stateful` jobs share the concurrency group `qacloud-account-basket`, so two runs never use the basket at once. GitHub keeps one pending job per group: a third overlapping run has its stateful job cancelled (re-run it).                                             |

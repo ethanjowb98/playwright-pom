@@ -1,0 +1,44 @@
+name: Set up the suite
+description: Node with the npm cache, npm ci, and (optionally) Chromium from the Playwright browser cache.
+
+inputs:
+  browsers:
+    description: Install Chromium for the UI projects.
+    default: 'false'
+
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@v7
+      with:
+        node-version: lts/*
+        cache: npm
+
+    - run: npm ci
+      shell: bash
+
+    # Keyed on the installed Playwright version: a Playwright bump downloads the matching browser.
+    - name: Read the Playwright version
+      if: inputs.browsers == 'true'
+      id: playwright
+      shell: bash
+      run: echo "version=$(node -p "require('@playwright/test/package.json').version")" >> "$GITHUB_OUTPUT"
+
+    - name: Cache Playwright browsers
+      if: inputs.browsers == 'true'
+      id: browser-cache
+      uses: actions/cache@v6
+      with:
+        path: ~/.cache/ms-playwright
+        key: playwright-${{ runner.os }}-${{ steps.playwright.outputs.version }}-chromium
+
+    - name: Install Chromium
+      if: inputs.browsers == 'true' && steps.browser-cache.outputs.cache-hit != 'true'
+      shell: bash
+      run: npx playwright install --with-deps chromium
+
+    # The cache holds the browser only; its system libraries still need installing.
+    - name: Install Chromium system dependencies
+      if: inputs.browsers == 'true' && steps.browser-cache.outputs.cache-hit == 'true'
+      shell: bash
+      run: npx playwright install-deps chromium

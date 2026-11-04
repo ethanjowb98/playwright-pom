@@ -98,6 +98,10 @@ export const ALLURE = {
   owner: 'QA Automation',
   resultsDir: 'allure-results',
   reportDir: 'allure-report',
+  /** Run history behind the report's trend charts; CI keeps it on the `gh-pages` branch. */
+  historyFile: 'allure-history.jsonl',
+  /** Runs kept in the history and, in CI, reports kept on GitHub Pages. */
+  historyLimit: 20,
   /** Starts the `fixme` reason of a known product defect; the `Known product defect` category matches it. */
   productDefectPrefix: 'PRODUCT DEFECT:',
 } as const;
@@ -117,6 +121,18 @@ export const ANALYSIS = {
   signatureLength: 200,
   /** Characters of a signature shown in a cluster title. */
   titleLength: 100,
+} as const;
+
+/** scripts/report-site.ts: the GitHub Pages site on the `gh-pages` branch. */
+export const REPORT_SITE = {
+  /** One Allure report per CI run, `runs/<run number>-<attempt>/`. */
+  runsDir: 'runs',
+  /** Allure history and the failure analysis carried from run to run. */
+  historyDir: 'history',
+  /** The runs listed on the index page, newest first. */
+  manifestFile: 'runs.json',
+  /** Redirects to the newest report. */
+  latestDir: 'latest',
 } as const;
 
 /** src/reporters/SecretGuard.ts */

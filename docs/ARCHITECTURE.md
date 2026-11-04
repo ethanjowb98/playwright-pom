@@ -123,13 +123,13 @@ Tests for known product defects keep the correct assertion and are parked with `
 
 Reporters, in order: `list`, `html`, `AllureRunInfo`, `allure-playwright`, `SecretGuard`.
 
-- `AllureRunInfo` (`src/reporters/AllureRunInfo.ts`) clears `allure-results/` when a run begins, so the report covers that run only, then writes `environment.properties` (base URL, Playwright, browsers, projects, workers, shard, Node, OS, CI) and `executor.json` (GitHub Actions run with build URL, or a local run). Never add a credential to either file.
+- `AllureRunInfo` (`src/reporters/AllureRunInfo.ts`) clears `allure-results/` when a run begins, so the report covers that run only, then writes `environment.properties` (base URL, Playwright, browsers, projects, workers, shard, Node, OS, CI) and `executor.json` (GitHub Actions run with build URL, or a local run; on CI runs that publish, also `reportUrl` from `ALLURE_REPORT_URL`, so each history point links to its report). Never add a credential to either file.
 - `allure-playwright` writes a result per test: epic/feature/story/severity/owner labels, the `@step` tree with request/response attachments, screenshots and videos of failures, and `categories.json`.
 - Categories (`src/config/allureCategories.ts`, first match wins): **Known product defect** (skipped with a `PRODUCT DEFECT:` reason), **Auth** (401/403, login failure or 429, missing credentials or api key), **API 5xx**, **API 4xx** (from the `<METHOD> <path> returned <status>:` message that `ApiError` and `whileAwaitingApi` share), **Test defect** (JavaScript error or strict-mode violation), **Locator not found** (`element(s) not found`, or an action timeout whose call log never resolved the locator) and **Timeout**. A failure no rule matches lands in Allure's built-in **Product errors**: usually an assertion mismatch, to triage.
 - The regexes are searched anywhere in the message (Allure 3). Never wrap them in `.*` for Allure 2's full-match: a `toHaveText` failure can carry a 100k-character diff, and the wrapping backtracks quadratically and hangs report generation.
 - The Allure CLI is the npm `allure` package (Allure 3, no Java). `allurerc.ts` groups the tree by epic → feature → story and passes the same categories, because its Awesome report reads categories from the config, not from `allure-results/categories.json`.
+- History: every `allure generate` appends the run to `allure-history.jsonl` (`historyPath`, last `ALLURE.historyLimit` = 20 runs), which feeds the trend charts and each test's history tab. Locally the file builds up across your own runs (gitignored); CI carries it on the `gh-pages` branch (see [CI](#ci)).
 - `SecretGuard` fails any run whose reports would show a secret (see [Secrets in reports](#secrets-in-reports)). It also scans `environment.properties` and `executor.json`.
-- Planned (M7): CI publishes the Allure report with history to GitHub Pages.
 
 ## Failure analysis
 
@@ -155,9 +155,34 @@ Reporters, in order: `list`, `html`, `AllureRunInfo`, `allure-playwright`, `Secr
 
 4. **Cluster** (`cluster.ts`): the key is category + locator, else endpoint, else signature. A signature alone is too generic (`expect(received).toBe(expected)`, `Test timeout of Nms exceeded.`), so it is anchored: to the failing step path alone when that is a page-object, client, seeder or hook step (one broken step is one cause, whichever spec calls it), else to the step plus the suite line (a shared helper) or the spec line (a spec-level `expect`). Step titles built from arguments other than names, ids and numbers (`Filter by category bakery`) still separate per value. Clusters are ranked by size, then category (auth and 5xx first). A cluster of 2+ tests is flagged as a likely shared root cause, and each gets a likely class (product defect, test defect, flaky, environment) and a hint.
 5. **Compare** (`baseline.ts`): the baseline is the newest of `failure-analysis.json` and `failure-analysis.previous.json` that is not the current run and did not start after it. When that is `failure-analysis.json`, it is kept as `failure-analysis.previous.json`. So re-analysing a run keeps its baseline, and analysing an older results folder (`--results`) neither rotates anything nor becomes the baseline of the next newer run. A run is never its own baseline. Clusters whose key appears in the baseline are **recurring**, the rest **new**, and baseline clusters that no longer fail are **resolved**.
-6. **Report** (`render.ts`): a fixed Markdown format (summary, cluster table, one section per cluster, flaky, known product defects, resolved), which the `failure-triager` agent reads (and the CI summary will, in M7).
+6. **Report** (`render.ts`): a fixed Markdown format (summary, cluster table, one section per cluster, flaky, known product defects, resolved), which the `failure-triager` agent reads and CI posts to the job summary and the pull request.
 
 The error text is masked before it is parsed or shortened, and every string value of the finished analysis gets one more `redactSecrets` pass (`src/utils/secrets.ts`, shared with `SecretGuard`), so no string in `failure-analysis.*` or the console output (step names, test titles, defect reasons, titles carried over from the baseline) can carry the password or api key. When `QACLOUD_PASSWORD` or `.auth/apikey.json` is missing, or the password is too short to match safely, `analyze` warns that it cannot mask that secret. The pure parts are unit-tested with `node:test` (`npm run test:unit`, part of `npm run check`).
+
+## CI
+
+[.github/workflows/playwright.yml](../.github/workflows/playwright.yml) runs on pushes and pull requests to `main`, nightly (03:00 UTC), and on demand (`workflow_dispatch` with a `suite` input: all, api, e2e, smoke).
+
+```text
+check ──┬── api ───────────────┐
+        ├── e2e (shard 1/2) ───┤
+        ├── e2e (shard 2/2) ───┼── report
+        └── stateful ──────────┘
+```
+
+- **check:** `npm run check` and actionlint. It also resolves where this run's report will be published (the next jobs write it into `executor.json`).
+- **api**, **e2e** (2 shards) and **stateful** run in parallel, each through `.github/actions/run-tests` (setup, `playwright test <slice>`, upload `allure-results-<slice>`, and the HTML report on failure). `.github/actions/setup` caches npm and the Playwright browser, keyed on the installed Playwright version. Every job's setup project logs in once; runners have their own IPs, so the login budget is per job.
+- **stateful** is a job of its own because the basket is account-wide. Its `qacloud-account-basket` concurrency group also stops two runs (a pull request and `main`, say) from using the basket at the same time. GitHub keeps one pending job per group, so a third run queued behind them has its stateful job cancelled.
+- **report** (after the test jobs, even when they fail):
+  1. downloads and merges every slice's `allure-results` (dropping the per-slice `Shard` line from the environment)
+  2. restores `allure-history.jsonl` and the last `failure-analysis.json` from `gh-pages` (`npm run report:site -- restore`)
+  3. runs `npm run analyze` and `npm run allure:generate`, and uploads the report as the `allure-report` artifact
+  4. on runs outside pull requests: `npm run report:site -- publish` adds the report under `runs/<run number>-<attempt>/`, saves the history, keeps the newest 20 reports and rewrites `index.html` (the run list) and `latest/`. The site is pushed as a single commit replacing `gh-pages`, so old reports leave the repository too. Publishing runs take turns (concurrency group `report-site`).
+  5. writes the analysis to the job summary and, on a pull request from this repository, to one comment that each run edits (marked `<!-- failure-analysis -->`)
+- Pull requests read the history (their trend and new-vs-recurring compare against the last published run) but never publish. A cancelled pull-request run can leave seeded data behind, which is why only pull requests cancel superseded runs.
+- Secrets: the test jobs get `QACLOUD_*` from repository secrets; the report job gets only the password, to mask it in the analysis. The api key cannot reach it: each test job's `SecretGuard` checked its results, and a job whose reports leaked uploads nothing.
+
+Repository setup: the secrets `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional `QACLOUD_BASE_URL`), and GitHub Pages set to **Deploy from a branch**, `gh-pages`, `/ (root)`, after the first run outside a pull request has created the branch. For a custom Pages domain, set the repository variable `REPORT_SITE_URL`.
 
 ## Key decisions
 
@@ -174,7 +199,9 @@ The error text is masked before it is parsed or shortened, and every string valu
 | Expected 4xx thrown after the step    | Passing negative tests show no failed steps                                                                                |
 | Intents wait for their API response   | The UI re-renders after each fetch; no sleeps needed                                                                       |
 | Allure 3 CLI (npm `allure`)           | No Java on dev machines or CI; reads the same `allure-results` format                                                      |
-| `allure-results` cleared every run    | The report matches the run, like the HTML report; CI history comes from Pages (M7)                                         |
+| `allure-results` cleared every run    | The report matches the run, like the HTML report; history lives in `allure-history.jsonl` (CI: on `gh-pages`)              |
+| Pages from a one-commit `gh-pages`    | Free hosting with the history beside the reports; replacing the commit keeps the repository from growing with every report |
+| `stateful` as its own CI job          | API and E2E basket tests share one account basket; a concurrency group serialises it across runs                           |
 | Rule-based failure analysis (no LLM)  | Deterministic and free; no API key needed in CI                                                                            |
 | TypeScript pinned to 6.0.x            | typescript-eslint supports TS < 6.1                                                                                        |
 | Bundled Chromium (not branded Chrome) | Runs on every CI image; one `playwright install chromium`                                                                  |

@@ -86,6 +86,7 @@ Every run clears `allure-results/` first, so the report shows the last run only,
 - a step for every page-object, API-client and seeder call, with masked request/response attachments, plus screenshots and videos of failures
 - failure categories: Known product defect, Auth, API 5xx, API 4xx, Test defect, Locator not found, Timeout; anything else lands in Allure's built-in Product errors (usually an assertion mismatch)
 - the environment (base URL, Playwright, browsers, projects, workers, Node, OS) and the executor (local, or the GitHub Actions run)
+- trends over the last 20 runs, from `allure-history.jsonl`, which every `allure:generate` appends to (in CI it lives on GitHub Pages)
 
 ## Failure analysis
 
@@ -104,7 +105,7 @@ After a red run, `npm run analyze` groups the failures by shared root cause (rul
 | `npm run lint`         | ESLint: type-checked TS, Playwright rules, import order |
 | `npm run format:check` | Prettier                                                |
 | `npm run lint:md`      | markdownlint                                            |
-| `npm run test:unit`    | Unit tests for the failure analyzer (`node:test`)       |
+| `npm run test:unit`    | Unit tests for `scripts/` (`node:test`)                 |
 | `npm run check`        | All of the above (what CI runs)                         |
 
 Git hooks run automatically:
@@ -131,25 +132,34 @@ tests/
   api/          *.api.spec.ts
   e2e/          *.spec.ts
   seed.spec.ts  seed for the Playwright test agents
-scripts/        analyze-failures.ts (npm run analyze) + failure-analysis/ (load, signals, source lookup, clustering, report; unit-tested)
+scripts/        analyze-failures.ts (npm run analyze) + failure-analysis/ (load, signals, source lookup, clustering, report),
+                report-site.ts + report-site/ (CI: the GitHub Pages report site); all unit-tested
 templates/      code scaffolds (page object, component, API client, factory, specs)
 specs/          Markdown test plans
 allurerc.ts     Allure 3 report config (tree grouping, categories)
 docs/           roadmap, architecture, contributing
 .claude/        Claude Code agents, skills, hooks, settings
-.github/        CI workflow, PR and issue templates
+.github/        CI workflow + composite actions (setup, run-tests), PR and issue templates
 ```
 
 See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the layers fit together.
 
 ## CI
 
-GitHub Actions ([.github/workflows/playwright.yml](.github/workflows/playwright.yml)) runs on pushes and PRs to `main`:
+GitHub Actions ([.github/workflows/playwright.yml](.github/workflows/playwright.yml)) runs on pushes and PRs to `main`, nightly at 03:00 UTC, and on demand (**Run workflow**, with a `suite` of all, api, e2e or smoke):
 
-1. **check**: `npm run check`
-2. **test**: installs Chromium and runs `npx playwright test`, then uploads the HTML report as an artifact
+1. **check**: `npm run check` and actionlint
+2. **api**, **e2e** (2 shards) and **stateful** (basket and order tests, one at a time across runs) in parallel, each uploading its Allure results
+3. **report**: merges the results, runs `npm run analyze`, generates the Allure report with the history of earlier runs, and posts the analysis to the job summary and (on a PR) one sticky comment
 
-Repository secrets required: `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional: `QACLOUD_BASE_URL`). Allure publishing to GitHub Pages and failure analysis arrive in M7. The repo is public, so standard GitHub-hosted runners are free.
+Runs outside pull requests publish the report to GitHub Pages: the run list at `https://<owner>.github.io/<repo>/`, the newest report at `latest/`, and the last 20 reports with their trends. On a PR, the report is the `allure-report` artifact of the run.
+
+Repository setup:
+
+- Secrets: `QACLOUD_USERNAME`, `QACLOUD_PASSWORD` (optional: `QACLOUD_BASE_URL`).
+- Pages: after the first run on `main` (or a manual run) has created the `gh-pages` branch, set **Settings → Pages → Deploy from a branch → `gh-pages` / `(root)`**. For a custom domain, set the repository variable `REPORT_SITE_URL`.
+
+The repo is public, so standard GitHub-hosted runners are free. Details: [docs/ARCHITECTURE.md#ci](docs/ARCHITECTURE.md#ci).
 
 ## Claude Code tooling
 

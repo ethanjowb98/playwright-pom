@@ -1,0 +1,47 @@
+name: Run Playwright tests
+description: Sets up the suite, runs one slice of it, and uploads its Allure results and (on failure) its Playwright report.
+
+inputs:
+  name:
+    description: Artifact suffix, unique per job and shard (api, e2e-1, stateful…).
+    required: true
+  args:
+    description: Arguments for `playwright test` (projects, shard, grep).
+    required: true
+  browsers:
+    description: Install Chromium (the UI projects).
+    default: 'false'
+
+runs:
+  using: composite
+  steps:
+    - uses: ./.github/actions/setup
+      with:
+        browsers: ${{ inputs.browsers }}
+
+    # Each job's setup project logs in once (the login budget is per IP, and every runner has its own).
+    - name: Run Playwright tests
+      shell: bash
+      env:
+        ARGS: ${{ inputs.args }}
+      # ARGS is several arguments: word splitting is intended.
+      run: npx playwright test $ARGS --pass-with-no-tests
+
+    # SecretGuard writes secret-guard-leak.txt when a secret reached the reports: never upload those.
+    - name: Upload Allure results
+      if: ${{ !cancelled() && hashFiles('secret-guard-leak.txt') == '' }}
+      uses: actions/upload-artifact@v7
+      with:
+        name: allure-results-${{ inputs.name }}
+        path: allure-results/
+        retention-days: 7
+        if-no-files-found: ignore
+
+    - name: Upload Playwright report
+      if: ${{ failure() && hashFiles('secret-guard-leak.txt') == '' }}
+      uses: actions/upload-artifact@v7
+      with:
+        name: playwright-report-${{ inputs.name }}
+        path: playwright-report/
+        retention-days: 14
+        if-no-files-found: ignore

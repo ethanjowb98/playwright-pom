@@ -23,7 +23,7 @@
 
    Types: `feat`, `fix`, `test`, `refactor`, `docs`, `build`, `ci`, `chore`, `perf`, `style`, `revert`.
 
-6. Open a PR titled `[M<N>] <title>` (or a plain title outside milestones) and fill in the PR template. One milestone per PR.
+6. Open a PR titled `[M<N>] <title>` (or a plain title outside milestones) and fill in the PR template. One milestone per PR. CI comments the failure analysis on the PR (one comment, edited on every run); the Allure report is the run's `allure-report` artifact.
 
 ## Adding tests
 
@@ -50,7 +50,7 @@ Checklist for every test:
 
 ## When a test fails
 
-1. Run `/triage`, or `npm run analyze` after a red run, and look at the **largest cluster** first (`failure-analysis.md`).
+1. Run `/triage`, or `npm run analyze` after a red run, and look at the **largest cluster** first (`failure-analysis.md`). For a CI run, the same analysis is in the job summary and the PR comment.
 2. Classify the cause: product defect, test defect, flaky, or environment.
 3. Product defect: keep the correct assertion, mark the test `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<what the app does wrong>') }, body)`, open a **Product defect** issue, and log it in ROADMAP.
 4. Flaky test: open a **Flaky test** issue and fix the root cause. Never add sleeps or extra retries.
