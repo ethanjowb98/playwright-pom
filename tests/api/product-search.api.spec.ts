@@ -2,7 +2,7 @@ import { type FilteredProduct, type ProductFilter, type ProductInput } from '@ap
 import { TAGS } from '@config/constants';
 import { uniqueName } from '@data/uniqueName';
 import { expect, test } from '@fixtures';
-import { labels, Severity } from '@utils/allure';
+import { labels, productDefect, Severity } from '@utils/allure';
 
 const sortCases = [
   { sort: 'asc', expected: ['Alpha', 'Bravo', 'Charlie'] },
@@ -123,10 +123,15 @@ test.describe('Product search API', { tag: [TAGS.api] }, () => {
     );
   }
 
-  // PRODUCT DEFECT: /api/products/filter rows use `name` instead of `product_name` (see ROADMAP notes).
   test.fixme(
     'should return the same product fields as the catalogue when filtering',
-    { tag: [TAGS.regression] },
+    {
+      tag: [TAGS.regression],
+      annotation: productDefect(
+        'Product search',
+        '/api/products/filter rows use `name` instead of `product_name`',
+      ),
+    },
     async ({ seeder, productsApi }) => {
       await labels({ story: 'Filter', severity: Severity.MINOR });
       const product = await seeder.seedProduct({ category: 'household' });

@@ -73,7 +73,8 @@ Tests that log in are tagged `@login` and run with `retries: 0` (a retry spends 
 
 ## Spec helpers (`src/utils`)
 
-- `labels({ feature, story, severity })` sets Allure labels (epic `Market` comes with `feature`). Each spec sets the feature in `beforeEach` and the story and severity in the test.
+- `labels({ feature, story, severity, owner })` sets Allure labels (epic `Market` and the default owner `QA Automation` come with `feature`). Each spec sets the feature in `beforeEach` and the story and severity in the test.
+- `productDefect(feature, reason)` returns the annotations for a test parked on a known product defect: the `fixme` reason (`PRODUCT DEFECT: …`, which the Allure category matches) plus the epic, feature and owner labels, because a fixme test never runs `beforeEach`.
 - `money(n)` formats an amount the way the UI renders it (`$12.50`). `roundMoney(n)` rounds computed prices to cents, as the API stores them, so exact comparisons never fail on floating-point noise.
 - `expectProductShape(product, input?)` and `expectOrderTotals(order, lines?)` are the shared assertions. `expectOrderTotals` checks order total = Σ price × qty and that the items match the basket lines.
 - Parameterised cases are tables at the top of the spec, looped into one `test()` each.
@@ -116,14 +117,19 @@ Products are owned per record, but the basket belongs to the account, and `POST 
 
 ## Product defects found by the suite
 
-Tests for known product defects keep the correct assertion and are marked `test.fixme()` with a `// PRODUCT DEFECT:` comment. They are listed in the ROADMAP notes: negative price accepted, checkout oversell, 500s on concurrent basket adds, `name` vs `product_name` in the filter, the 404 on the documented `/api/basket/items`, and unescaped product names in the UI (stored XSS).
+Tests for known product defects keep the correct assertion and are parked with `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<reason>') }, body)`. The reason shows in the report under the **Known product defect** category. They are listed in the ROADMAP notes: negative price accepted, checkout oversell, 500s on concurrent basket adds, `name` vs `product_name` in the filter, the 404 on the documented `/api/basket/items`, and unescaped product names in the UI (stored XSS).
 
-## Reporting (M5–M7)
+## Reporting
 
-- Allure (`allure-playwright`) adds epic/feature/story labels, steps for page and API methods, and request/response attachments.
-- `SecretGuard` fails any run whose reports would show a secret (see [Secrets in reports](#secrets-in-reports)).
-- `scripts/analyze-failures.ts` clusters failures by component and normalised error into `failure-analysis.md`/`.json`.
-- CI publishes the Allure report with history to GitHub Pages.
+Reporters, in order: `list`, `html`, `AllureRunInfo`, `allure-playwright`, `SecretGuard`.
+
+- `AllureRunInfo` (`src/reporters/AllureRunInfo.ts`) clears `allure-results/` when a run begins, so the report covers that run only, then writes `environment.properties` (base URL, Playwright, browsers, projects, workers, shard, Node, OS, CI) and `executor.json` (GitHub Actions run with build URL, or a local run). Never add a credential to either file.
+- `allure-playwright` writes a result per test: epic/feature/story/severity/owner labels, the `@step` tree with request/response attachments, screenshots and videos of failures, and `categories.json`.
+- Categories (`src/config/allureCategories.ts`, first match wins): **Known product defect** (skipped with a `PRODUCT DEFECT:` reason), **Auth** (401/403, login failure or 429, missing credentials or api key), **API 5xx**, **API 4xx** (from the `<METHOD> <path> returned <status>:` message that `ApiError` and `whileAwaitingApi` share), **Test defect** (JavaScript error or strict-mode violation), **Locator not found** (`element(s) not found`, or an action timeout whose call log never resolved the locator) and **Timeout**. A failure no rule matches lands in Allure's built-in **Product errors**: usually an assertion mismatch, to triage.
+- The regexes are searched anywhere in the message (Allure 3). Never wrap them in `.*` for Allure 2's full-match: a `toHaveText` failure can carry a 100k-character diff, and the wrapping backtracks quadratically and hangs report generation.
+- The Allure CLI is the npm `allure` package (Allure 3, no Java). `allurerc.ts` groups the tree by epic → feature → story and passes the same categories, because its Awesome report reads categories from the config, not from `allure-results/categories.json`.
+- `SecretGuard` fails any run whose reports would show a secret (see [Secrets in reports](#secrets-in-reports)). It also scans `environment.properties` and `executor.json`.
+- Planned: `scripts/analyze-failures.ts` clusters failures by component and normalised error into `failure-analysis.md`/`.json` (M6); CI publishes the Allure report with history to GitHub Pages (M7).
 
 ## Key decisions
 
@@ -139,6 +145,8 @@ Tests for known product defects keep the correct assertion and are marked `test.
 | `@login` tag, `retries: 0`            | Login is rate-limited (10 per 15 min); repeat runs leave these tests out                                                   |
 | Expected 4xx thrown after the step    | Passing negative tests show no failed steps                                                                                |
 | Intents wait for their API response   | The UI re-renders after each fetch; no sleeps needed                                                                       |
+| Allure 3 CLI (npm `allure`)           | No Java on dev machines or CI; reads the same `allure-results` format                                                      |
+| `allure-results` cleared every run    | The report matches the run, like the HTML report; CI history comes from Pages (M7)                                         |
 | Rule-based failure analysis (no LLM)  | Deterministic and free; no API key needed in CI                                                                            |
 | TypeScript pinned to 6.0.x            | typescript-eslint supports TS < 6.1                                                                                        |
 | Bundled Chromium (not branded Chrome) | Runs on every CI image; one `playwright install chromium`                                                                  |

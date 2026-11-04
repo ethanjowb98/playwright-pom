@@ -39,7 +39,7 @@ Checklist for every test:
 
 - [ ] Title: `should <behaviour> when <condition>`
 - [ ] Tags: `@api`/`@e2e` + `@smoke`/`@regression`
-- [ ] Allure: epic `Market`, feature, story, severity (via `labels()` from `@utils/allure`)
+- [ ] Allure: epic `Market`, feature, story, severity, owner (via `labels()` from `@utils/allure`)
 - [ ] Data seeded via API and cleaned up; unique names from factories
 - [ ] Touches the basket or places an order → tagged `@stateful` (see [ARCHITECTURE](ARCHITECTURE.md#isolation-the-basket-is-account-wide))
 - [ ] No raw locators or HTTP calls in the spec; no hard waits
@@ -52,7 +52,7 @@ Checklist for every test:
 
 1. Run `/triage`, or `npm run analyze` (M6), and look at the **largest cluster** first.
 2. Classify the cause: product defect, test defect, flaky, or environment.
-3. Product defect: keep the correct assertion, mark the test `test.fixme()` with `// PRODUCT DEFECT: …`, open a **Product defect** issue, and log it in ROADMAP.
+3. Product defect: keep the correct assertion, mark the test `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<what the app does wrong>') }, body)`, open a **Product defect** issue, and log it in ROADMAP.
 4. Flaky test: open a **Flaky test** issue and fix the root cause. Never add sleeps or extra retries.
 
 ## Code style

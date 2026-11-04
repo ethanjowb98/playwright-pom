@@ -8,7 +8,7 @@ description: Run the suite (or a subset), cluster failures with the rule-based a
    - `api` / `e2e` / `smoke`: `npm run test:<arg>`
    - a path: `npx playwright test <path>`
 
-   Clear `allure-results/` first so the analysis only covers this run. A full run spends 4 rate-limited logins (the `@login` tests; 10 per 15 min), so when re-running to confirm a fix, add `--grep-invert @login` unless the fix is in login code.
+   Every run clears `allure-results/` itself, so the analysis only covers this run. A full run spends 4 rate-limited logins (the `@login` tests; 10 per 15 min), so when re-running to confirm a fix, add `--grep-invert @login` unless the fix is in login code.
 
 2. Run `npm run analyze`, which writes `failure-analysis.md` and `failure-analysis.json`.
 3. If everything passed, say so and stop. If `SecretGuard` failed the run (`secret-guard-leak.txt` exists), report it first as a blocker with the locations from that file, and tell the user to delete `playwright-report/`, `allure-results/` and `test-results/`; never print the secret.
@@ -16,6 +16,6 @@ description: Run the suite (or a subset), cluster failures with the rule-based a
 5. Offer next steps, without doing them unprompted:
    - fix the test defects
    - draft a bug report from `.github/ISSUE_TEMPLATE/bug_report.yml` for each product defect
-   - mark product defects as `test.fixme()`
+   - mark product defects with `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<reason>') }, body)`
 
 Never commit.

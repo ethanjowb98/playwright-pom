@@ -9,6 +9,7 @@ Playwright + TypeScript test automation for the [qacloud.dev Market](https://www
 - [Requirements](#requirements)
 - [Build-out (first-time setup)](#build-out-first-time-setup)
 - [Running tests](#running-tests)
+- [Reports](#reports)
 - [Code quality](#code-quality)
 - [Project structure](#project-structure)
 - [CI](#ci)
@@ -63,13 +64,27 @@ npm run check
 | `npm run test:api`              | API specs (`tests/api/**/*.api.spec.ts`): projects `api` and `stateful`         |
 | `npm run test:e2e`              | E2E specs (`tests/e2e/**/*.spec.ts`) in Chromium: `e2e-chromium` and `stateful` |
 | `npm run test:smoke`            | Tests tagged `@smoke`                                                           |
-| `npm run report`                | Open the last Playwright HTML report                                            |
 
 Useful flags: `--headed`, `--ui`, `--debug`, `--grep "<title>"`, `--repeat-each=3` (flakiness check; use `test:repeat`, which leaves out `@login`), `--no-deps` (skip the setup project; setup already reuses a valid `.auth/` session).
 
 Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@maintenance`, `@stateful` (uses the account-wide basket, so it runs in the single-worker `stateful` project, API and E2E alike).
 
 `POST /api/login` is rate-limited to 10 requests per 15 minutes per IP. Setup reuses the saved `.auth/` session while it is still valid and logs in only when it has expired, so a run spends the 4 logins in the `@login` tests (2 API, 2 E2E), plus 1 when the session needs renewing. Repeat runs leave them out (`npm run test:repeat`); run them once with `npm run test:login`.
+
+## Reports
+
+| Command                   | What it does                                                                  |
+| ------------------------- | ----------------------------------------------------------------------------- |
+| `npm run report`          | Open the last Playwright HTML report                                          |
+| `npm run allure:generate` | Build the Allure report from `allure-results/` into `allure-report/`          |
+| `npm run allure:open`     | Serve `allure-report/` and open it in the browser (generates it when missing) |
+
+Every run clears `allure-results/` first, so the report shows the last run only, like the HTML report. The Allure CLI is the npm `allure` package (Allure 3), so no Java is needed. The report shows:
+
+- a tree by epic (`Market`) → feature → story, with severity and owner labels
+- a step for every page-object, API-client and seeder call, with masked request/response attachments, plus screenshots and videos of failures
+- failure categories: Known product defect, Auth, API 5xx, API 4xx, Test defect, Locator not found, Timeout; anything else lands in Allure's built-in Product errors (usually an assertion mismatch)
+- the environment (base URL, Playwright, browsers, projects, workers, Node, OS) and the executor (local, or the GitHub Actions run)
 
 ## Code quality
 
@@ -90,11 +105,13 @@ Git hooks run automatically:
 
 ```text
 src/
-  config/       env.ts (typed env vars), constants.ts (timeouts, routes, endpoints, tags, enums, test-data bounds)
+  config/       env.ts (typed env vars), constants.ts (timeouts, routes, endpoints, tags, enums, test-data bounds),
+                allureCategories.ts (Allure failure categories)
   api/          ApiClient base, one client per resource (Auth, Products, Basket, Orders, Maintenance), types.ts
   pages/        BasePage, LoginPage, MarketPage, components/ (grid, filters, modals, basket, orders), dialogs + network wait helpers
-  utils/        allure.ts (labels helper, @step decorator), assertions.ts (shared expect helpers), format.ts
-  reporters/    SecretGuard.ts (fails the run if a secret reaches a report)
+  utils/        allure.ts (labels, productDefect, @step decorator), assertions.ts (shared expect helpers), format.ts
+  reporters/    AllureRunInfo.ts (clears allure-results, writes environment + executor),
+                SecretGuard.ts (fails the run if a secret reaches a report)
   data/         factories/ (faker builders), uniqueName, DataSeeder (API seeding with tracked cleanup)
   fixtures/     test.extend fixtures: apiKey, apiRequest (cookie-less), API clients, seeder, loginPage, marketPage
 tests/
@@ -104,6 +121,7 @@ tests/
   seed.spec.ts  seed for the Playwright test agents
 templates/      code scaffolds (page object, component, API client, factory, specs)
 specs/          Markdown test plans
+allurerc.ts     Allure 3 report config (tree grouping, categories)
 docs/           roadmap, architecture, contributing
 .claude/        Claude Code agents, skills, hooks, settings
 .github/        CI workflow, PR and issue templates

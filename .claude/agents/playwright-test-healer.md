@@ -55,5 +55,5 @@ Key principles:
 - Specs never call `test.step`; steps come from `@step` page-object methods. API clients come from fixtures, never `new XxxApi(request)`.
 - Verify with `npm run test:repeat -- <spec>` (`--repeat-each=3` without `@login`).
 - Never use `waitForTimeout`, `networkidle`, `force: true`, XPath, or emoji/icon text when an `#id` or role exists.
-- Never weaken, delete or change an assertion's expected value to make a test pass. If the app behaves differently from the spec, mark the test `test.fixme()` with a `// PRODUCT DEFECT:` comment and report it instead. Healing may only change locators, waits and synchronisation.
+- Never weaken, delete or change an assertion's expected value to make a test pass. If the app behaves differently from the spec, mark the test `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<reason>') }, body)` and report it instead. Healing may only change locators, waits and synchronisation.
 - Never run `git commit`, `git push`, or open PRs.

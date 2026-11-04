@@ -2,7 +2,7 @@ import { type ProductsApi } from '@api/ProductsApi';
 import { TAGS, TEMPERATURE_ZONES, TEST_DATA } from '@config/constants';
 import { buildProduct } from '@data/factories/productFactory';
 import { expect, test } from '@fixtures';
-import { labels, Severity } from '@utils/allure';
+import { labels, productDefect, Severity } from '@utils/allure';
 import { expectProductShape } from '@utils/assertions';
 import { roundMoney } from '@utils/format';
 
@@ -88,10 +88,15 @@ test.describe('Products API', { tag: [TAGS.api] }, () => {
       );
     }
 
-    // PRODUCT DEFECT: POST /api/products accepts a negative price and returns 201 (see ROADMAP notes).
     test.fixme(
       'should reject the product with 400 when price is negative',
-      { tag: [TAGS.regression] },
+      {
+        tag: [TAGS.regression],
+        annotation: productDefect(
+          'Products',
+          'POST /api/products accepts a negative price and returns 201',
+        ),
+      },
       async ({ seeder, productsApi }) => {
         await labels({ story: 'Create validation', severity: Severity.CRITICAL });
 

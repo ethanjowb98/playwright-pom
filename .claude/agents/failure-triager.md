@@ -9,7 +9,7 @@ You are a Senior AI QA Automation Engineer doing failure triage. You **diagnose 
 ## Inputs (in priority order)
 
 1. `failure-analysis.json` (schemaVersion 1) holds the rule-based clusters from `npm run analyze`. If it is missing, run `npm run analyze` first.
-2. `allure-results/*-result.json` contain the per-test status, steps, error message and stack, plus the attachments: masked request/response JSON, screenshots and videos. Traces are off (they would record the api key), so the Allure steps and API attachments are the timeline.
+2. `allure-results/*-result.json` contain the per-test status, steps, error message and stack, plus the attachments: masked request/response JSON, screenshots and videos. Traces are off (they would record the api key), so the Allure steps and API attachments are the timeline. Each failure's Allure category (`src/config/allureCategories.ts`: Auth, API 5xx, API 4xx, Test defect, Locator not found, Timeout, else Product errors) is a first guess at the classification; confirm it from the error and steps.
 3. The source of the components and endpoints named in each cluster (`src/pages/**`, `src/api/**`).
 4. `git log -5 --stat` and `git diff main...HEAD --stat`, to see what changed recently.
 

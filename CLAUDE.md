@@ -42,7 +42,7 @@ src/api         ApiClient base (auth header, JSON, Allure attachments) + one cli
 src/pages       BasePage, LoginPage, MarketPage; components/ for widgets (ProductGrid, ProductModal, BasketPanel, OrdersPanel, OrderSuccessModal, FilterSidebar, ItemDetailsModal)
 src/data        factories/ (faker builders with overrides) + DataSeeder (API test-data generation with tracked cleanup)
 src/fixtures    test.extend: api clients (on a cookie-less apiRequest), seeder, page objects, all injected
-src/reporters   SecretGuard: fails the run if the password or api key reaches a report
+src/reporters   AllureRunInfo: clears allure-results, writes environment + executor; SecretGuard: fails the run if a secret reaches a report
 tests/setup     auth.setup.ts: reuses a valid saved session or logs in once; saves storageState + api key
 tests/api       *.api.spec.ts
 tests/e2e       *.spec.ts
@@ -83,7 +83,7 @@ docs/ROADMAP.md milestone tracker
     - the UI matches the API
   - **Isolation:** unique per-worker data names and no dependence on test order, so `fullyParallel` stays on. The basket is account-wide, so any test that uses the basket or places an order is tagged `@stateful` and runs in the single-worker `stateful` project.
   - **Durability:** re-read after a write (fresh GET or reload).
-- **Allure:** epic `Market`, a feature per domain. Requests and responses are attached.
+- **Allure:** epic `Market`, a feature per domain, owner `QA Automation` (all set by `labels({ feature })`). Requests and responses are attached. Failure categories live in `src/config/allureCategories.ts`: patterns are searched, never wrapped in `.*` (that hangs report generation on long messages).
   - Steps need a running test: `@step` methods cannot run in global setup or worker-scoped fixtures. Specs never call `test.step` directly (ESLint).
   - Steps come only from the `@step` decorator (`@utils/allure`) on page, API-client and seeder methods. Titles name the target, built from the arguments: ``@step((name: string) => `Delete "${name}" from its card`)``.
   - An expected failure (a 4xx in a negative test, a 404 in cleanup) must not show as a failed step: throw after the step completes.
@@ -125,7 +125,7 @@ Use `/triage`, which runs the tests, then `npm run analyze`, then the `failure-t
 
 - Start with the largest cluster, because one root cause often explains many failures.
 - Classify each cause as product defect, test defect, flaky or environment.
-- For a product defect, keep the correct assertion, mark the test `test.fixme()` with a `// PRODUCT DEFECT:` comment, and log it in ROADMAP.
+- For a product defect, keep the correct assertion, mark the test `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<what the app does wrong>') }, body)`, and log it in ROADMAP. The reason lands in the Allure **Known product defect** category.
 - A `SecretGuard` failure is a blocker test defect: fix the leak and delete the local reports. A 429 from `/api/login` is environment: wait out the 15-minute window.
 
 ## Claude tooling in this repo

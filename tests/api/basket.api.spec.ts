@@ -2,7 +2,7 @@ import { type BasketApi } from '@api/BasketApi';
 import { TAGS, TEST_DATA } from '@config/constants';
 import { type BasketSeed } from '@data/DataSeeder';
 import { expect, test } from '@fixtures';
-import { labels, Severity } from '@utils/allure';
+import { labels, productDefect, Severity } from '@utils/allure';
 
 const LOW_STOCK = 2;
 const RACING_QUANTITIES = [1, 2, 3, 4, 5];
@@ -242,10 +242,15 @@ test.describe('Basket API', { tag: [TAGS.api, TAGS.stateful] }, () => {
       },
     );
 
-    // PRODUCT DEFECT: concurrent POST /api/basket for one product returns 500 for some requests (see ROADMAP notes).
     test.fixme(
       'should count every unit when the same product is added concurrently',
-      { tag: [TAGS.regression] },
+      {
+        tag: [TAGS.regression],
+        annotation: productDefect(
+          'Basket',
+          'concurrent POST /api/basket for one product returns 500 for some requests',
+        ),
+      },
       async ({ seeder, basketApi }) => {
         await labels({ story: 'Concurrency', severity: Severity.CRITICAL });
         const product = await seeder.seedProduct();
