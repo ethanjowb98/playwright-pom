@@ -13,12 +13,12 @@ Workflow: one branch and one PR per milestone (`feat/m<N>-<slug>` → `main`). C
 | M2  | API layer + test data generation | ✅     | `feat/m2-api-layer`        |     | 2026-11-03 |
 | M3  | API test suite                   | ✅     | `feat/m3-api-tests`        |     | 2026-11-03 |
 | M4  | Page objects + E2E suite         | ✅     | `feat/m4-e2e`              |     | 2026-11-03 |
-| M5  | Allure reporting                 | ⬜     | `feat/m5-allure`           |     |            |
+| M5  | Allure reporting                 | ✅     | `feat/m5-allure`           |     | 2026-11-04 |
 | M6  | Failure analysis                 | ⬜     | `feat/m6-failure-analysis` |     |            |
 | M7  | CI/CD pipeline                   | ⬜     | `feat/m7-ci`               |     |            |
 | M8  | Final polish & hardening         | ⬜     | `feat/m8-hardening`        |     |            |
 
-Progress: **61 / 89 tasks**
+Progress: **67 / 89 tasks**
 
 ---
 
@@ -97,15 +97,15 @@ Progress: **61 / 89 tasks**
 - [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
 - [x] **Exit:** `test:e2e` green with `--repeat-each=3 --workers=4` (`@login` tests once)
 
-## M5: Allure reporting ⬜
+## M5: Allure reporting ✅
 
-- [ ] `src/utils/allure.ts` helpers (epic/feature/story/severity/owner, step wrapper). `labels()` and the `@step` decorator exist; add owner
+- [x] `src/utils/allure.ts` helpers: `labels()` (epic/feature/story/severity/owner), `productDefect()`, the `@step` decorator
 - [x] Steps on all page-object and API-client methods; request/response attachments
-- [ ] `categories.json` (Product defect, Test defect, Locator not found, Timeout, API 4xx, API 5xx, Auth)
-- [ ] `environment.properties` + `executor.json`
-- [ ] Allure CLI dependency + scripts `allure:generate`, `allure:open`
-- [ ] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
-- [ ] **Exit:** local report shows the epic/feature tree, steps, attachments and categories
+- [x] `categories.json` from `src/config/allureCategories.ts` (Known product defect, Auth, API 5xx, API 4xx, Test defect, Locator not found, Timeout), each verified against a real failure
+- [x] `environment.properties` + `executor.json` (`AllureRunInfo` reporter, which also clears `allure-results/` per run)
+- [x] Allure CLI dependency (npm `allure` 3.x, no Java) + `allurerc.ts` + scripts `allure:generate`, `allure:open`
+- [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
+- [x] **Exit:** local report shows the epic/feature tree, steps, attachments and categories
 
 ## M6: Failure analysis ⬜
 

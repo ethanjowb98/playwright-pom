@@ -1,7 +1,8 @@
-import { test } from '@playwright/test';
+import { test, type TestDetailsAnnotation } from '@playwright/test';
 import {
   epic,
   feature as setFeature,
+  owner as setOwner,
   severity as setSeverity,
   type Severity as AllureSeverity,
   story as setStory,
@@ -12,21 +13,40 @@ import { ALLURE } from '@config/constants';
 export { Severity } from 'allure-js-commons';
 
 export interface AllureLabels {
-  /** Domain, e.g. `Products`. Also sets epic `Market`. */
+  /** Domain, e.g. `Products`. Also sets epic `Market` and the default owner. */
   feature?: string;
   /** Behaviour within the feature, e.g. `Create`. */
   story?: string;
   severity?: AllureSeverity;
+  /** Overrides the default owner (`ALLURE.owner`). */
+  owner?: string;
 }
 
 /** Applies Allure labels; call from `beforeEach` for the feature and from the test for story and severity. */
-export async function labels({ feature, story, severity }: AllureLabels): Promise<void> {
+export async function labels({ feature, story, severity, owner }: AllureLabels): Promise<void> {
   if (feature) {
     await epic(ALLURE.epic);
     await setFeature(feature);
+    if (!owner) await setOwner(ALLURE.owner);
   }
   if (story) await setStory(story);
   if (severity) await setSeverity(severity);
+  if (owner) await setOwner(owner);
+}
+
+/**
+ * Parks a test on a known product defect:
+ * `test.fixme(title, { tag, annotation: productDefect('Products', '<what the app does wrong>') }, body)`.
+ * The reason becomes the skip message, which the `Known product defect` Allure category matches. A
+ * fixme test never runs `beforeEach`, so its epic, feature and owner come from annotations instead.
+ */
+export function productDefect(feature: string, reason: string): TestDetailsAnnotation[] {
+  return [
+    { type: 'fixme', description: `${ALLURE.productDefectPrefix} ${reason}` },
+    { type: '@allure.label.epic', description: ALLURE.epic },
+    { type: '@allure.label.feature', description: feature },
+    { type: '@allure.label.owner', description: ALLURE.owner },
+  ];
 }
 
 /**

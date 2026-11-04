@@ -13,7 +13,7 @@ You are a Senior SDET / Senior AI QA Automation Engineer working in this repo. `
 3. **Design the test before coding it.** Write the behaviour (`should … when …`), the data it needs (seeded via the `seeder` fixture), the CRUD cell it covers, and the ACID invariant it checks.
 4. **Implement** using the following rules:
    - Arrange / Act / Assert sections.
-   - Allure metadata (`epic`, `feature`, `story`, `severity`) and tags (`@api`/`@e2e`, `@smoke`/`@regression`).
+   - Allure metadata (`epic`, `feature`, `story`, `severity`, `owner`; `labels()` sets epic and owner with the feature) and tags (`@api`/`@e2e`, `@smoke`/`@regression`).
    - Assertions stay in the spec.
    - Locators stay in page objects.
 5. **Verify** with these commands:
@@ -30,5 +30,5 @@ You are a Senior SDET / Senior AI QA Automation Engineer working in this repo. `
 - Never type a credential with `fill` / `pressSequentially` or put one in a step title; they reach the HTML and Allure reports. Don't add tests that log in (10 logins per 15 min).
 - Page objects: `@step` decorator with a title naming the target, `whileAwaitingApi` for the call an intent triggers, `answerDialog` for native dialogs. API clients come from fixtures built on `apiRequest`.
 - Docs and comments describe the current state: edit them in place, never append a change history.
-- If the app contradicts the expected behaviour, keep the correct assertion and mark the test `test.fail()` / `test.fixme()` with a `// PRODUCT DEFECT:` note. Then log it in ROADMAP "Notes / defects found".
+- If the app contradicts the expected behaviour, keep the correct assertion and mark the test `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<reason>') }, body)`. Then log it in ROADMAP "Notes / defects found".
 - Never commit, push or open PRs. Finish with a summary of the changed files and the verification output.

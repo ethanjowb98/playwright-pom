@@ -94,7 +94,12 @@ export const TEST_DATA = {
 
 export const ALLURE = {
   epic: 'Market',
+  /** Default `owner` label; a test may override it through `labels({ owner })`. */
+  owner: 'QA Automation',
   resultsDir: 'allure-results',
+  reportDir: 'allure-report',
+  /** Starts the `fixme` reason of a known product defect; the `Known product defect` category matches it. */
+  productDefectPrefix: 'PRODUCT DEFECT:',
 } as const;
 
 /** src/reporters/SecretGuard.ts */

@@ -35,7 +35,8 @@ interface Source {
  */
 export default class SecretGuard implements Reporter {
   private readonly leaks = new Set<string>();
-  private startedAt = 0;
+  /** Set before any reporter's onBegin, so the files AllureRunInfo writes there are scanned too. */
+  private readonly startedAt = Date.now();
   private password: string | undefined;
   private apiKey: string | undefined;
 
@@ -44,7 +45,6 @@ export default class SecretGuard implements Reporter {
   }
 
   onBegin(): void {
-    this.startedAt = Date.now();
     rmSync(SECRET_GUARD.leakFile, { force: true });
     this.password = readPassword();
     if (this.password !== undefined && this.password.length < SECRET_GUARD.minSecretLength) {
@@ -158,11 +158,14 @@ function resultSources(test: TestCase, result: TestResult): Source[] {
   return sources;
 }
 
-/** allure-results is never cleaned between runs, so only this run's files are scanned. */
+/**
+ * This run's text files only. AllureRunInfo clears the folder at the start of a run; the time filter
+ * keeps the scan to this run if another reporter list leaves old results behind.
+ */
 function allureFilesSince(startedAt: number): string[] {
   if (!existsSync(ALLURE.resultsDir)) return [];
   return readdirSync(ALLURE.resultsDir)
-    .filter((file) => /\.(json|txt|xml)$/.test(file))
+    .filter((file) => /\.(json|txt|xml|properties)$/.test(file))
     .map((file) => join(ALLURE.resultsDir, file))
     .filter((file) => statSync(file).mtimeMs >= startedAt);
 }

@@ -10,6 +10,7 @@ import {
 
 import { AUTH, ENDPOINTS } from '@config/constants';
 import { env } from '@config/env';
+import { labels, Severity } from '@utils/allure';
 
 interface Profile {
   username: string;
@@ -74,6 +75,7 @@ async function ensureSession(
 setup(
   'should authenticate via API and persist session and api key',
   async ({ playwright, baseURL, request }) => {
+    await labels({ feature: 'Auth', story: 'Session setup', severity: Severity.BLOCKER });
     const description = await ensureSession(playwright, request, baseURL);
     setup.info().annotations.push({ type: 'auth', description });
 

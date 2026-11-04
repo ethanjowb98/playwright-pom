@@ -3,7 +3,7 @@ import { type Product } from '@api/types';
 import { TAGS } from '@config/constants';
 import { type BasketSeed } from '@data/DataSeeder';
 import { expect, test } from '@fixtures';
-import { labels, Severity } from '@utils/allure';
+import { labels, productDefect, Severity } from '@utils/allure';
 import { expectOrderTotals } from '@utils/assertions';
 
 const ORIGINAL_STOCK = 5;
@@ -55,10 +55,15 @@ test.describe('Order integrity API', { tag: [TAGS.api, TAGS.stateful] }, () => {
     },
   );
 
-  // PRODUCT DEFECT: POST /api/orders accepts a basket quantity above current stock, creates the order and clamps stock to 0 (see ROADMAP notes).
   test.fixme(
     'should reject the order and change nothing when stock fell below a basket quantity',
-    { tag: [TAGS.regression] },
+    {
+      tag: [TAGS.regression],
+      annotation: productDefect(
+        'Order integrity',
+        'POST /api/orders accepts a basket quantity above current stock, creates the order and clamps stock to 0',
+      ),
+    },
     async ({ seeder, ordersApi, basketApi, productsApi }) => {
       await labels({ story: 'Atomicity', severity: Severity.CRITICAL });
       // Arrange: two lines, then the second product's stock drops below its basket quantity

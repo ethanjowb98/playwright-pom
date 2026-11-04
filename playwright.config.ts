@@ -1,5 +1,6 @@
 import { defineConfig, devices } from '@playwright/test';
 
+import { ALLURE_CATEGORIES } from './src/config/allureCategories';
 import { ALLURE, AUTH, TAGS, TIMEOUTS } from './src/config/constants';
 import { env } from './src/config/env';
 
@@ -33,7 +34,17 @@ export default defineConfig({
   reporter: [
     ['list'],
     ['html', { open: 'never' }],
-    ['allure-playwright', { resultsDir: ALLURE.resultsDir, detail: true, suiteTitle: true }],
+    // Clears allure-results/ and writes environment.properties + executor.json before allure-playwright runs.
+    ['./src/reporters/AllureRunInfo.ts'],
+    [
+      'allure-playwright',
+      {
+        resultsDir: ALLURE.resultsDir,
+        detail: true,
+        suiteTitle: true,
+        categories: ALLURE_CATEGORIES,
+      },
+    ],
     // Last, so it can scan what the reporters above wrote: fails the run if a secret reached a report.
     ['./src/reporters/SecretGuard.ts'],
   ],

@@ -2,7 +2,7 @@ import { TAGS } from '@config/constants';
 import { buildProduct } from '@data/factories/productFactory';
 import { uniqueName } from '@data/uniqueName';
 import { expect, test } from '@fixtures';
-import { labels, Severity } from '@utils/allure';
+import { labels, productDefect, Severity } from '@utils/allure';
 import { money, roundMoney } from '@utils/format';
 
 test.describe('Products UI', { tag: [TAGS.e2e] }, () => {
@@ -144,10 +144,15 @@ test.describe('Products UI', { tag: [TAGS.e2e] }, () => {
     },
   );
 
-  // PRODUCT DEFECT: the grid injects product names into innerHTML unescaped (stored XSS); see ROADMAP notes.
   test.fixme(
     'should render the product name as plain text when it contains markup',
-    { tag: [TAGS.regression] },
+    {
+      tag: [TAGS.regression],
+      annotation: productDefect(
+        'Products',
+        'the grid injects product names into innerHTML unescaped (stored XSS)',
+      ),
+    },
     async ({ seeder, marketPage }) => {
       await labels({ story: 'Read', severity: Severity.CRITICAL });
       const product = await seeder.seedProduct({ product_name: uniqueName('<i>markup</i>') });

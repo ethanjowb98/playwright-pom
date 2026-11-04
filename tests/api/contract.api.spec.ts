@@ -1,6 +1,6 @@
 import { TAGS } from '@config/constants';
 import { expect, test } from '@fixtures';
-import { labels, Severity } from '@utils/allure';
+import { labels, productDefect, Severity } from '@utils/allure';
 
 // Swagger (/market/docs) documents /api/groceries and /api/basket/items; the UI calls /api/products and /api/basket.
 test.describe('API contract', { tag: [TAGS.api] }, () => {
@@ -21,10 +21,15 @@ test.describe('API contract', { tag: [TAGS.api] }, () => {
     },
   );
 
-  // PRODUCT DEFECT: the documented POST /api/basket/items returns 404; only /api/basket exists (see ROADMAP notes).
   test.fixme(
     'should add a basket item at the documented basket items path when it is called',
-    { tag: [TAGS.regression, TAGS.stateful] },
+    {
+      tag: [TAGS.regression, TAGS.stateful],
+      annotation: productDefect(
+        'API contract',
+        'the documented POST /api/basket/items returns 404; only /api/basket exists',
+      ),
+    },
     async ({ seeder, documentedApi }) => {
       await labels({ story: 'Documented paths', severity: Severity.NORMAL });
       const product = await seeder.seedProduct();
