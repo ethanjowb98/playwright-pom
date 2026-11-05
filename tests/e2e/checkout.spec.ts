@@ -47,6 +47,23 @@ test.describe('Checkout UI', { tag: [TAGS.e2e, TAGS.stateful] }, () => {
   );
 
   test(
+    'should offer no Place Order button when the basket is empty',
+    { tag: [TAGS.regression] },
+    async ({ basketApi, marketPage }) => {
+      await labels({ story: 'Place order', severity: Severity.NORMAL });
+      // The basket is account-wide; this project runs alone, so clearing it only removes leftovers
+      await basketApi.clear();
+      await marketPage.open();
+
+      const basket = await marketPage.openBasket();
+
+      // The UI offers no way to place it, so no order can be created (the API rejects it: orders.api)
+      await expect(basket.emptyState).toBeVisible();
+      await expect(basket.placeOrderButton).toHaveCount(0);
+    },
+  );
+
+  test(
     'should show the reduced stock on the product card when an order has been placed',
     { tag: [TAGS.regression] },
     async ({ seeder, marketPage }) => {

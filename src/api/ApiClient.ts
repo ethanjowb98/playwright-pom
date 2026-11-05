@@ -1,6 +1,7 @@
 import { type APIRequestContext } from '@playwright/test';
 import { attachment, ContentType } from 'allure-js-commons';
 
+import { withoutCallLog } from '@api/requestErrors';
 import { type ApiMessage, type HttpMethod } from '@api/types';
 import { step } from '@utils/allure';
 
@@ -78,13 +79,15 @@ export abstract class ApiClient {
     const query = params && definedParams(params);
     await attachment('request', redact({ method, path, query, body: data }), ContentType.JSON);
 
-    const response = await this.request.fetch(path, {
-      method,
-      headers: this.apiKey === null ? {} : { Authorization: this.apiKey },
-      data,
-      params: query,
-      failOnStatusCode: false,
-    });
+    const response = await withoutCallLog(
+      this.request.fetch(path, {
+        method,
+        headers: this.apiKey === null ? {} : { Authorization: this.apiKey },
+        data,
+        params: query,
+        failOnStatusCode: false,
+      }),
+    );
     const body = parseBody(await response.text());
     await attachment(`response ${response.status()}`, redact(body), ContentType.JSON);
     return { status: response.status(), ok: response.ok(), body };

@@ -61,7 +61,7 @@ export interface Product {
 
 /**
  * Row returned by `GET /api/products/filter`: a bare array whose rows use `name`, not `product_name`.
- * Kept raw on purpose so the inconsistency stays visible to M3 tests.
+ * Kept raw on purpose so the inconsistency stays visible to the product-search tests.
  */
 export type FilteredProduct = Omit<Product, 'product_name'> & { name: string };
 
@@ -125,8 +125,7 @@ export interface OrderUpdate {
   notes?: string;
 }
 
+/** `POST /api/reset` as served: the restored template products. Swagger documents counts instead. */
 export interface ResetResult extends ApiMessage {
-  groceries: number;
-  basket: number;
-  orders: number;
+  products: Product[];
 }

@@ -15,10 +15,10 @@ Workflow: one branch and one PR per milestone (`feat/m<N>-<slug>` → `main`). C
 | M4  | Page objects + E2E suite         | ✅     | `feat/m4-e2e`              |     | 2026-11-03 |
 | M5  | Allure reporting                 | ✅     | `feat/m5-allure`           |     | 2026-11-04 |
 | M6  | Failure analysis                 | ✅     | `feat/m6-failure-analysis` |     | 2026-11-04 |
-| M7  | CI/CD pipeline                   | 🟡     | `feat/m7-ci`               |     |            |
-| M8  | Final polish & hardening         | ⬜     | `feat/m8-hardening`        |     |            |
+| M7  | CI/CD pipeline                   | ✅     | `feat/m7-ci`               |     | 2026-11-04 |
+| M8  | Final polish & hardening         | ✅     | `feat/m8-hardening`        |     | 2026-11-05 |
 
-Progress: **83 / 90 tasks**
+Progress: **91 / 91 tasks**
 
 ---
 
@@ -119,7 +119,7 @@ Progress: **83 / 90 tasks**
 - [x] Unit tests (`node:test`, `npm run test:unit`, part of `npm run check`)
 - [x] **Exit:** a deliberately broken locator/endpoint produces a single cluster naming the cause (`.price` → 1 cluster at `ProductGrid.ts`; filter endpoint → 1 cluster at `ProductsApi.ts`)
 
-## M7: CI/CD pipeline 🟡
+## M7: CI/CD pipeline ✅
 
 - [x] Workflow triggers: push/PR to main, `workflow_dispatch` (suite input), nightly cron
 - [x] Jobs: `check` (lint/format/types/unit + actionlint), `api`, `e2e` (2 shards), `stateful` (account-wide concurrency group), `report` (pull requests, read-only) / `publish` (every other run, failing and skipped tests included)
@@ -128,16 +128,18 @@ Progress: **83 / 90 tasks**
 - [x] Analysis to `$GITHUB_STEP_SUMMARY` + sticky PR comment
 - [x] Repo setup documented: secrets, Pages enabled
 - [x] Docs updated (README commands/structure, ARCHITECTURE, CONTRIBUTING as relevant)
-- [ ] **Exit:** PR run green, Pages report live, trend visible after the 2nd run
+- [x] **Exit:** PR run green, Pages report live, trend visible after the 2nd run (runs 28 and 29 on `https://ethanjowb98.github.io/playwright-pom/`)
 
-## M8: Final polish & hardening ⬜
+## M8: Final polish & hardening ✅
 
-- [ ] Final docs pass: README, ARCHITECTURE, CONTRIBUTING reflect the finished suite (reports, analysis, CI)
-- [ ] Flake sweep: full suite `--repeat-each=5`
-- [ ] `/coverage-gaps` run; close or log the gaps
-- [ ] UI negative paths left open by the M4 review: invalid product edit (cleared name, price ≤ 0), Place Order with an empty basket, dismissing Clear All keeps the basket, cancelling the delete-order modal keeps the order, empty login form
-- [ ] `test-reviewer` agent pass over the whole repo; findings addressed
-- [ ] **Exit:** every box above ticked
+- [x] CI login budget: `@login` tests run in the nightly run only (run 29 hit 429)
+- [x] Final docs pass: README, ARCHITECTURE, CONTRIBUTING reflect the finished suite (reports, analysis, CI)
+- [x] Flake sweep: full suite `--repeat-each=5` (831 runs, 4 workers, without `@login`: 766 passed, 0 failed, 65 skipped = 13 known defects × 5). Specs changed after the sweep (the basket update validation, the review fixes) passed `--repeat-each=3 --workers=4`; the one failure in those runs was the local network suspending (`ERR_NETWORK_IO_SUSPENDED`), and that test passed its other runs
+- [x] `/coverage-gaps` run; close or log the gaps (closed, or logged in the notes below when there is no route)
+- [x] UI negative paths left open by the M4 review: invalid product edit (cleared name, price ≤ 0), Place Order with an empty basket, dismissing Clear All keeps the basket, cancelling the delete-order modal keeps the order, empty login form
+- [x] `test-reviewer` agent pass over the whole repo; findings addressed
+- [x] Failed requests: a timeout leaves the `Authorization` header only in the HTML report (Playwright's request-step call log); `SecretGuard` holds that report back without failing the run or the Allure upload (probed: a forced timeout, and a timeout that passes on retry)
+- [x] **Exit:** every box above ticked
 
 ---
 
@@ -163,3 +165,10 @@ Progress: **83 / 90 tasks**
 | 2026-11-03 | M4        | Defect?        | Typo in the empty basket state: "Your basket is empty. Start marketping!". Cosmetic; not asserted.                                                                                                                                                                                                                                                                |
 | 2026-11-03 | M4        | Environment    | `POST /api/login` is rate-limited to 10 per 15 min per IP (429 after). A full run spends 4 logins (the `@login` tests: 2 API + 2 E2E); setup reuses a valid `.auth/` session. `npm run test:repeat` leaves `@login` out. A UI login does not invalidate the setup session.                                                                                        |
 | 2026-11-04 | M7        | Design         | CI `stateful` jobs share the concurrency group `qacloud-account-basket`, so two runs never use the basket at once. GitHub keeps one waiting job per group: when a third run's stateful job queues, the one already waiting is cancelled, and that run neither reports nor publishes (re-run it). The `report-site` group of the publish job behaves the same way. |
+| 2026-11-04 | M8        | Environment    | CI run 29 (push to `main`) hit `POST /api/login` 429: a run spent 8 logins (4 job setups + 4 `@login` tests) and run 28 started minutes earlier. GitHub runners share outgoing IPs, so the budget is shared across jobs and runs. The `@login` tests run in the nightly run only, so other runs spend 4 logins.                                                   |
+| 2026-11-04 | M8        | Product defect | `PUT /api/products/:id` saves a price of 0 or below (200), while `POST` rejects 0 (400). The Edit Product form sends 0 (the browser blocks negatives with `min="0"`). `products.spec.ts`, `products.api.spec.ts` → `test.fixme`.                                                                                                                                  |
+| 2026-11-04 | M8        | Product defect | Deleting a product that is in an order returns `404 "Not found"` while `GET` still returns it; expected 409. The product and the order stay intact (tested). `order-integrity.api.spec.ts` → `test.fixme`.                                                                                                                                                        |
+| 2026-11-04 | M8        | Doc drift      | The documented `DELETE /api/basket`, `PUT /api/basket/items/{id}` and `DELETE /api/basket/items/{id}` return 404; the UI uses `DELETE /api/basket/clear` and `PUT` / `DELETE /api/basket`. `contract.api.spec.ts` → `test.fixme`.                                                                                                                                 |
+| 2026-11-04 | M8        | Gap (logged)   | Not tested, no route: `GET /api/products?sort=<unknown>` returns 200 in default order, but `sort` is not documented, so there is no expected behaviour to assert. `/api/logout` is neither documented nor offered on the market page.                                                                                                                             |
+| 2026-11-04 | M8        | Doc drift      | `POST /api/reset` returns `{ message, products[] }` (the restored template products), not the documented `{ message, groceries, basket, orders }` counts. The reset itself works: 34 template products at stock 10, empty basket and orders. `reset.maintenance.spec.ts` → `test.fixme`.                                                                          |
+| 2026-11-05 | M8        | Product defect | `PUT /api/basket` answers a non-integer quantity (`"x"`, `1.5`) with 500 and a raw Postgres error instead of 400; the basket is unchanged. `basket.api.spec.ts` → `test.fixme`.                                                                                                                                                                                   |

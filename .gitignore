@@ -21,6 +21,7 @@ failure-analysis.md
 failure-analysis.json
 failure-analysis.previous.json
 secret-guard-leak.txt
+secret-guard-blocking-leak.txt
 
 # Editor / OS
 .vscode/*

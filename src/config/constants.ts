@@ -36,6 +36,8 @@ export const ENDPOINTS = {
 /** Paths as documented in Swagger (`/market/docs`), which differ from what the UI calls. Contract tests only. */
 export const DOCUMENTED_ENDPOINTS = {
   groceries: '/api/groceries',
+  /** `DELETE` clears the basket (the UI uses `DELETE /api/basket/clear`). */
+  basket: '/api/basket',
   basketItems: '/api/basket/items',
 } as const;
 
@@ -90,6 +92,12 @@ export const TEST_DATA = {
   /** Well-formed UUID that never exists, for 404 tests. */
   unknownId: '00000000-0000-0000-0000-000000000000',
   invalidApiKey: 'qac_live_invalid',
+  /** Stock for over-stock tests: small enough that the basket can exceed it. */
+  lowStock: 2,
+  /** Stock both products start with in the checkout-oversell test. */
+  oversellStock: 5,
+  /** Quantities sent at once in the basket concurrency tests. */
+  racingQuantities: [1, 2, 3, 4, 5],
 } as const;
 
 export const ALLURE = {
@@ -123,6 +131,17 @@ export const ANALYSIS = {
   titleLength: 100,
 } as const;
 
+/**
+ * `POST /api/reset` wipes the whole account: only the `maintenance` project may call it, and that
+ * project exists only when the npm script below runs (playwright.config.ts).
+ */
+export const MAINTENANCE = {
+  project: 'maintenance',
+  script: 'test:maintenance',
+  /** Stock of every template product the reset restores (the UI's reset confirmation says so). */
+  templateStock: 10,
+} as const;
+
 /** scripts/report-site.ts: the GitHub Pages site on the `gh-pages` branch. */
 export const REPORT_SITE = {
   /** One Allure report per CI run, `runs/<run number>-<attempt>/`. */
@@ -137,8 +156,10 @@ export const REPORT_SITE = {
 
 /** src/reporters/SecretGuard.ts */
 export const SECRET_GUARD = {
-  /** Written (leak locations only) when the guard fires; CI skips the report upload while it exists. */
+  /** Every leak location (never the secret); CI skips the Playwright report upload while it exists. */
   leakFile: 'secret-guard-leak.txt',
+  /** Written when a leak is more than a failed request's call log; CI then skips the Allure upload too. */
+  blockingLeakFile: 'secret-guard-blocking-leak.txt',
   /** Shorter secrets would match ordinary text and raise false alarms. */
   minSecretLength: 6,
 } as const;

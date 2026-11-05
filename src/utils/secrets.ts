@@ -24,6 +24,22 @@ export function readApiKey(): string | undefined {
 }
 
 /**
+ * The session cookie values in the saved `storageState` (setup writes it during the run). The session
+ * unlocks `GET /api/profile`, which returns the api key, so it is a secret like the key itself. Empty
+ * while missing or unreadable.
+ */
+export function readSessionCookies(): string[] {
+  try {
+    const { cookies = [] } = JSON.parse(readFileSync(AUTH.storageState, 'utf8')) as {
+      cookies?: { value?: string }[];
+    };
+    return cookies.map(({ value }) => value).filter((value): value is string => Boolean(value));
+  } catch {
+    return [];
+  }
+}
+
+/**
  * Each secret as typed, JSON-escaped (allure .json files) and URL-encoded. Secrets shorter than
  * `SECRET_GUARD.minSecretLength` are left out: they would match ordinary text.
  */

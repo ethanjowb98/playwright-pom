@@ -113,7 +113,10 @@ export function extractEndpoint(message: string): Endpoint | null {
   return { method: match[1], path: normalisePath(match[2]), status: Number(match[3]) };
 }
 
-/** The first failed step at each level, outermost first: the page-object intent, then its action. */
+/**
+ * The first failed step at each level, outermost first: the page-object intent, then its action when the
+ * results include Playwright's action steps (allure `detail: true`; this suite runs with `detail: false`).
+ */
 export function failingStepPath(steps: readonly AllureStep[]): string | null {
   const path: string[] = [];
   let level: readonly AllureStep[] | undefined = steps;

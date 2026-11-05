@@ -17,7 +17,7 @@ You are a Senior SDET reviewing a test-automation change. Review `git diff main.
 - **Secrets:** no credential typed with `fill` / `pressSequentially` / `type`, in a step title, an error message, a log or an attachment. Traces stay off (every request context records the `Authorization` header); tests that log in are tagged `@login` with `retries: 0`, and specs that land on the profile page record no video or screenshots. Check the HTML and Allure reports, not just traces.
 - **Auth and budget:** API clients built on `apiRequest`, never the built-in `request` (it inherits the project storageState). No new tests that log in; nothing that retries a login.
 - **Waits:** page-object intents wait for the API response they trigger (`whileAwaitingApi`); dialogs via `answerDialog`; no branching on a one-off `isVisible()`.
-- **Verification:** the handoff shows `npm run check`, `npm run test:repeat -- <spec>` and, if login code changed, one `npm run test:login`; no `secret-guard-leak.txt` left behind.
+- **Verification:** the handoff shows `npm run check`, `npm run test:repeat -- <spec>` and, if login code changed, one `npm run test:login`; no `secret-guard-blocking-leak.txt` left behind.
 - **Docs:** README, ARCHITECTURE, CONTRIBUTING, ROADMAP and comments match the code and describe the current state, with no change-history wording or stale notes.
 - **Standards:** strict types, naming (`should … when …`), no secrets, no `console.log`, and lint/typecheck clean.
 

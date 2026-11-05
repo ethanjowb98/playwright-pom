@@ -2,7 +2,7 @@ import { existsSync, readdirSync, readFileSync, rmSync, statSync, writeFileSync 
 import { join } from 'node:path';
 
 import { ALLURE, SECRET_GUARD } from '../config/constants';
-import { readApiKey, readPassword, secretNeedles } from '../utils/secrets';
+import { readApiKey, readPassword, readSessionCookies, secretNeedles } from '../utils/secrets';
 
 import type {
   FullResult,
@@ -15,30 +15,47 @@ import type {
 
 /** Attachments worth scanning; screenshots and videos cannot carry typed text. */
 const TEXT_CONTENT_TYPE = /^(text\/|application\/(json|xml))/;
+/** allure-results files that cannot carry text: everything else there is scanned. */
+const BINARY_FILE = /\.(png|jpe?g|gif|webm|mp4|zip)$/i;
+/** A failed Playwright request lists every request header (the api key) after this line. */
+const CALL_LOG = /\n\s*Call log:/;
+
+/**
+ * `callLog`: only in the call log of a failed Playwright step, which the HTML report shows and Allure
+ * (`detail: false`) does not. `blocking`: anything else, Allure included.
+ */
+type LeakKind = 'callLog' | 'blocking';
 
 interface Source {
   where: string;
   text: string;
+  /** A Playwright step's error: a secret only in its call log is a `callLog` leak. */
+  stepError?: boolean;
 }
 
 /**
- * Fails the run if a secret (the account password or api key) reached what the reports show from the
- * test results: step titles and params (including Playwright's own `Fill "<value>"` steps), errors,
+ * Checks what the reports show from the test results for a secret (the account password, api key or
+ * session cookie): step titles and params (including Playwright's own `Fill "<value>"` steps), errors,
  * annotations, stdout/stderr, text attachments, and this run's allure-results files. Each secret is
  * also matched JSON-escaped and URL-encoded.
  *
+ * Every leak location (never the secret) goes to `SECRET_GUARD.leakFile`, and CI skips the Playwright
+ * report upload. A request that fails (a timeout, a dropped connection) leaves the `Authorization`
+ * header in its Playwright step's call log: that is expected, so it only keeps the HTML report back.
+ * Any other leak is a test defect: it fails the run and writes `SECRET_GUARD.blockingLeakFile`, and CI
+ * skips the Allure upload too.
+ *
  * Out of scope: binary attachments (screenshots, videos) and trace zips. Traces are off for that
  * reason (every request context, the seeder's included, would record the `Authorization` header).
- *
- * When it fires it writes the leak locations (never the secret) to `SECRET_GUARD.leakFile`; CI skips
- * the report upload while that file exists. Listed last in the reporters.
+ * Listed last in the reporters.
  */
 export default class SecretGuard implements Reporter {
-  private readonly leaks = new Set<string>();
+  private readonly leaks = new Map<string, LeakKind>();
   /** Set before any reporter's onBegin, so the files AllureRunInfo writes there are scanned too. */
   private readonly startedAt = Date.now();
   private password: string | undefined;
   private apiKey: string | undefined;
+  private sessionCookies: string[] = [];
 
   printsToStdio(): boolean {
     return false;
@@ -46,6 +63,7 @@ export default class SecretGuard implements Reporter {
 
   onBegin(): void {
     rmSync(SECRET_GUARD.leakFile, { force: true });
+    rmSync(SECRET_GUARD.blockingLeakFile, { force: true });
     this.password = readPassword();
     if (this.password !== undefined && this.password.length < SECRET_GUARD.minSecretLength) {
       process.stderr.write(
@@ -55,23 +73,34 @@ export default class SecretGuard implements Reporter {
   }
 
   onError(error: TestError): void {
-    this.check('global error', errorTexts(error));
+    for (const text of errorTexts(error)) this.check({ where: 'global error', text });
   }
 
   onTestEnd(test: TestCase, result: TestResult): void {
     const name = test.titlePath().filter(Boolean).join(' › ');
-    for (const { where, text } of resultSources(test, result))
-      this.check(`${name}: ${where}`, [text]);
+    for (const source of resultSources(test, result)) {
+      this.check({ ...source, where: `${name}: ${source.where}` });
+    }
   }
 
   onEnd(): Promise<{ status: FullResult['status'] } | undefined> {
     for (const file of allureFilesSince(this.startedAt)) {
-      this.check(file, [readFileSync(file, 'utf8')]);
+      this.check({ where: file, text: readFileSync(file, 'utf8') });
     }
     if (this.leaks.size === 0) return Promise.resolve(undefined);
 
-    const locations = [...this.leaks].map((leak) => `  - ${leak}`).join('\n');
+    const locations = [...this.leaks]
+      .map(([where, kind]) => `  - ${kind === 'callLog' ? '[request call log] ' : ''}${where}`)
+      .join('\n');
     writeFileSync(SECRET_GUARD.leakFile, `${locations}\n`);
+    if (![...this.leaks.values()].includes('blocking')) {
+      process.stderr.write(
+        `\nSecretGuard: ${this.leaks.size} failed request(s) left the Authorization header in their call log, ` +
+          `which playwright-report/ shows. Allure is clean. Do not upload or share playwright-report/:\n${locations}\n`,
+      );
+      return Promise.resolve(undefined);
+    }
+    writeFileSync(SECRET_GUARD.blockingLeakFile, `${locations}\n`);
     process.stderr.write(
       `\nSecretGuard: a secret appeared in ${this.leaks.size} place(s) the reports show. ` +
         `Do not upload or share playwright-report/, ${ALLURE.resultsDir}/ or test-results/:\n${locations}\n`,
@@ -79,17 +108,20 @@ export default class SecretGuard implements Reporter {
     return Promise.resolve({ status: 'failed' });
   }
 
-  private check(where: string, texts: string[]): void {
+  private check({ where, text, stepError = false }: Source): void {
     const needles = this.needles();
-    if (texts.some((text) => needles.some((needle) => text.includes(needle)))) {
-      this.leaks.add(where);
-    }
+    const contains = (part: string): boolean => needles.some((needle) => part.includes(needle));
+    if (!contains(text)) return;
+    const [summary = text] = text.split(CALL_LOG);
+    const kind = stepError && summary !== text && !contains(summary) ? 'callLog' : 'blocking';
+    if (this.leaks.get(where) !== 'blocking') this.leaks.set(where, kind);
   }
 
-  /** The api key is read lazily: the setup project writes it during the run. */
+  /** The api key and session cookie are read lazily: the setup project writes them during the run. */
   private needles(): string[] {
     this.apiKey ??= readApiKey();
-    return secretNeedles([this.password, this.apiKey]);
+    if (this.sessionCookies.length === 0) this.sessionCookies = readSessionCookies();
+    return secretNeedles([this.password, this.apiKey, ...this.sessionCookies]);
   }
 }
 
@@ -109,7 +141,9 @@ function resultSources(test: TestCase, result: TestResult): Source[] {
         text: JSON.stringify(step.params ?? {}),
       });
       if (step.error) {
-        for (const text of errorTexts(step.error)) sources.push({ where: 'step error', text });
+        for (const text of errorTexts(step.error)) {
+          sources.push({ where: `step "${step.category}" error`, text, stepError: true });
+        }
       }
       walk(step.steps);
     }
@@ -136,13 +170,14 @@ function resultSources(test: TestCase, result: TestResult): Source[] {
 }
 
 /**
- * This run's text files only. AllureRunInfo clears the folder at the start of a run; the time filter
- * keeps the scan to this run if another reporter list leaves old results behind.
+ * This run's text files only (attachments keep their own extension, e.g. `.md`). AllureRunInfo clears
+ * the folder at the start of a run; the time filter keeps the scan to this run if another reporter
+ * list leaves old results behind.
  */
 function allureFilesSince(startedAt: number): string[] {
   if (!existsSync(ALLURE.resultsDir)) return [];
   return readdirSync(ALLURE.resultsDir)
-    .filter((file) => /\.(json|txt|xml|properties)$/.test(file))
+    .filter((file) => !BINARY_FILE.test(file))
     .map((file) => join(ALLURE.resultsDir, file))
-    .filter((file) => statSync(file).mtimeMs >= startedAt);
+    .filter((file) => statSync(file).isFile() && statSync(file).mtimeMs >= startedAt);
 }

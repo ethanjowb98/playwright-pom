@@ -20,7 +20,7 @@ test.describe('Orders UI', { tag: [TAGS.e2e, TAGS.stateful] }, () => {
       const orders = await marketPage.openOrders();
       await orders.expand(order.order_number);
 
-      await expect(orders.status(order.order_number)).toHaveText('pending');
+      await expect(orders.status(order.order_number)).toHaveText(order.status);
       await expect(orders.total(order.order_number)).toHaveText(money(order.total_amount));
       await expect(orders.items(order.order_number)).toHaveCount(lines.length);
       for (const { product, quantity } of lines) {
@@ -96,9 +96,9 @@ test.describe('Orders UI', { tag: [TAGS.e2e, TAGS.stateful] }, () => {
 
       await orders.abandonStatusChange(order.order_number, 'delivered');
 
-      await expect(orders.statusSelect(order.order_number)).toHaveValue('pending');
-      await expect(orders.status(order.order_number)).toHaveText('pending');
-      expect((await ordersApi.getById(order.id)).status).toBe('pending');
+      await expect(orders.statusSelect(order.order_number)).toHaveValue(order.status);
+      await expect(orders.status(order.order_number)).toHaveText(order.status);
+      expect((await ordersApi.getById(order.id)).status).toBe(order.status);
     },
   );
 
@@ -115,6 +115,22 @@ test.describe('Orders UI', { tag: [TAGS.e2e, TAGS.stateful] }, () => {
 
       await expect(orders.card(order.order_number)).toHaveCount(0);
       await expect(ordersApi.getById(order.id)).rejects.toMatchObject({ status: 404 });
+    },
+  );
+
+  test(
+    'should keep the order when the delete is cancelled',
+    { tag: [TAGS.regression] },
+    async ({ seeder, ordersApi, marketPage }) => {
+      await labels({ story: 'Delete', severity: Severity.NORMAL });
+      const { order } = await seeder.seedOrder();
+      await marketPage.open();
+      const orders = await marketPage.openOrders();
+
+      await orders.abandonDelete(order.order_number);
+
+      await expect(orders.card(order.order_number)).toBeVisible();
+      expect((await ordersApi.getById(order.id)).status).toBe(order.status);
     },
   );
 });

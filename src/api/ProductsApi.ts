@@ -21,6 +21,11 @@ export class ProductsApi extends ApiClient {
     return this.get<FilteredProduct[]>(ENDPOINTS.productsFilter, { ...filter });
   }
 
+  /** Sends untyped query values, for invalid-filter (400) tests. */
+  filterRaw(params: Record<string, string>): Promise<FilteredProduct[]> {
+    return this.get<FilteredProduct[]>(ENDPOINTS.productsFilter, params);
+  }
+
   getById(id: string): Promise<Product> {
     return this.get<Product>(`${ENDPOINTS.products}/${id}`);
   }

@@ -30,9 +30,9 @@ Act as a **Senior SDET / Senior AI QA Automation Engineer**. Optimise for reliab
   - `DELETE /api/basket/:productId`, `DELETE /api/basket/clear`
   - `GET /api/orders`, `POST /api/orders`
   - `GET /api/orders/:id`, `PUT /api/orders/:id` (`status`: pending|processing|shipped|delivered|cancelled), `DELETE /api/orders/:id`
-  - `POST /api/reset` wipes the whole account. Only a serial `@maintenance` test may call it.
+  - `POST /api/reset` wipes the whole account. Only a serial `@maintenance` test in `tests/maintenance` may call it; that folder runs only via `npm run test:maintenance`, never with the suite or in CI.
 - Product delete, basket clear and reset open `confirm()` dialogs, so answer them with the `answerDialog` helper in `src/pages/dialogs.ts`. Order delete and final status changes use in-page modals.
-- Credentials come only from `.env` (local) or GitHub Secrets (CI): `QACLOUD_BASE_URL`, `QACLOUD_USERNAME`, `QACLOUD_PASSWORD`. Never read `.env` or `.auth/`, and never print secrets.
+- Credentials come only from `.env` (local) or GitHub Secrets (CI): `QACLOUD_BASE_URL`, `QACLOUD_USERNAME`, `QACLOUD_PASSWORD`. Never read `.env` or `.auth/`, and never print secrets. The secrets are the password and the api key; the username is not one (it shows in published reports).
 
 ## Architecture
 
@@ -46,6 +46,7 @@ src/reporters   AllureRunInfo: clears allure-results, writes environment + execu
 tests/setup     auth.setup.ts: reuses a valid saved session or logs in once; saves storageState + api key
 tests/api       *.api.spec.ts
 tests/e2e       *.spec.ts
+tests/maintenance  *.maintenance.spec.ts: the account reset, only via npm run test:maintenance
 scripts/        analyze-failures.ts + failure-analysis/ (rule-based failure clustering); report-site.ts + report-site/ (CI Pages site); unit-tested with node:test
 .github/        playwright.yml (check → api / e2e ×2 / stateful → publish to Pages, or report on pull requests) + composite actions setup, run-tests, report
 templates/      scaffolds for page objects, components, API clients, factories and specs
@@ -91,13 +92,13 @@ docs/ROADMAP.md milestone tracker
 - **Secrets in reports:** Playwright titles `fill` / `pressSequentially` steps with the typed value, and the HTML and Allure reports list them.
   - Never type a credential that way or put one in a step title; set it with `locator.evaluate()` (see `LoginPage`). ESLint blocks the common cases.
   - Traces are off everywhere: every request context is traced, so a trace would carry the `Authorization` header. Login tests and the setup project run with `retries: 0`; the E2E login spec also records no video or screenshots.
-  - The `SecretGuard` reporter fails any run whose reports show the password or api key, and writes `secret-guard-leak.txt` (locations only), which stops the CI report upload. If it fires, delete `playwright-report/`, `allure-results/` and `test-results/`.
+  - The `SecretGuard` reporter lists every place the reports show the password, api key or session cookie in `secret-guard-leak.txt` (locations only), which stops the CI Playwright report upload. A failed request (timeout, dropped connection) always leaves the `Authorization` header in its Playwright step's call log, which only the HTML report shows: that is marked `[request call log]` and does not fail the run. Any other leak fails the run and writes `secret-guard-blocking-leak.txt`, which stops the Allure upload too; delete `playwright-report/`, `allure-results/` and `test-results/`.
 - **Login budget:** `POST /api/login` allows 10 per 15 min per IP. Don't add tests that log in. Tests that do are tagged `@login`, have `retries: 0`, and run once (`npm run test:login`), never with `--repeat-each`. Setup reuses a valid saved session.
 - **API auth:** API clients are built on the cookie-less `apiRequest` fixture, never the built-in `request`, which inherits the project's `storageState` (the session cookie in the `stateful` project).
 - **Cleanup of UI-created data:** register it _before_ the action, so a failure between create and track can't leak it.
   - Products: `seeder.expectProductNamed(name)` before submitting the form.
   - Orders: `seeder.expectOrderWith(productNames)` before checkout, then `seeder.trackOrder(await basket.placeOrder())`. Page-object actions that create return the created record from the response.
-- **Page-object waits:** each intent waits for the API call it triggers with `whileAwaitingApi`, which throws on a non-2xx. Native dialogs go through `answerDialog`. Never branch on a one-off `isVisible()`; retry with `expect(...).toPass()`.
+- **Page-object waits:** each intent waits for the API call it triggers with `whileAwaitingApi`, which throws on a non-2xx. An intent whose call the test expects the API to reject uses `awaitApiResponse` and returns the status (`ProductModal.saveRejected()`). Native dialogs go through `answerDialog`. Never branch on a one-off `isVisible()`; retry with `expect(...).toPass()`.
 - **Assertions:** derive expected values from the seeded data, not literals. For a form the browser blocks, assert its `validationMessage` before checking that nothing was created.
 
 ## Commands
@@ -108,6 +109,7 @@ docs/ROADMAP.md milestone tracker
 | API / E2E / smoke   | `npm run test:api` / `npm run test:e2e` / `npm run test:smoke`                             |
 | Flakiness check     | `npm run test:repeat -- <spec>` (`--repeat-each=3` without `@login`)                       |
 | Login tests         | `npm run test:login` (spends rate-limited logins: run once)                                |
+| Account reset tests | `npm run test:maintenance` (`POST /api/reset` wipes the account: run alone, never in CI)   |
 | Lint, format, types | `npm run lint`, `npm run format:check`, `npm run typecheck`, `npm run check` (all of them) |
 | Analyzer unit tests | `npm run test:unit` (also in `npm run check`)                                              |
 | Allure              | `npm run allure:generate`, `npm run allure:open`                                           |
@@ -128,7 +130,7 @@ Use `/triage`, which runs the tests, then `npm run analyze`, then the `failure-t
 - Start with the largest cluster, because one root cause often explains many failures.
 - Classify each cause as product defect, test defect, flaky or environment.
 - For a product defect, keep the correct assertion, mark the test `test.fixme(title, { tag, annotation: productDefect('<Feature>', '<what the app does wrong>') }, body)`, and log it in ROADMAP. The reason lands in the Allure **Known product defect** category.
-- A `SecretGuard` failure is a blocker test defect: fix the leak and delete the local reports. A 429 from `/api/login` is environment: wait out the 15-minute window.
+- A `SecretGuard` failure (`secret-guard-blocking-leak.txt`) is a blocker test defect: fix the leak and delete the local reports. `[request call log]` lines alone are not: triage the failed request, and delete `playwright-report/` before sharing it. A 429 from `/api/login` is environment: wait out the 15-minute window.
 
 ## Claude tooling in this repo
 

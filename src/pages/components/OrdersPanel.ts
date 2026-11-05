@@ -98,13 +98,27 @@ export class OrdersPanel {
     return this;
   }
 
+  deleteButton(orderNumber: string): Locator {
+    return this.card(orderNumber).getByRole('button', { name: 'Delete Order', exact: true });
+  }
+
   @step((orderNumber: string) => `Delete order ${orderNumber}`)
   async deleteOrder(orderNumber: string): Promise<this> {
     await this.expand(orderNumber);
-    await this.card(orderNumber).getByRole('button', { name: 'Delete Order', exact: true }).click();
+    await this.deleteButton(orderNumber).click();
     await whileAwaitingApi(this.page, 'DELETE', ENDPOINTS.orders, () =>
       this.confirmDeleteButton.click(),
     );
+    return this;
+  }
+
+  /** Clicks Delete Order, then backs out of the confirm modal. No request is sent. */
+  @step((orderNumber: string) => `Start deleting order ${orderNumber}, then cancel`)
+  async abandonDelete(orderNumber: string): Promise<this> {
+    await this.expand(orderNumber);
+    await this.deleteButton(orderNumber).click();
+    await this.deleteModal.getByRole('button', { name: 'Cancel', exact: true }).click();
+    await this.deleteModal.waitFor({ state: 'hidden' });
     return this;
   }
 }

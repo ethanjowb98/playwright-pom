@@ -13,6 +13,7 @@ import {
 } from '@api/types';
 import { TEST_DATA } from '@config/constants';
 import { buildProduct } from '@data/factories/productFactory';
+import { SORT_SEED_SUFFIXES } from '@data/sortCases';
 import { step } from '@utils/allure';
 
 export interface BasketSeed {
@@ -97,6 +98,18 @@ export class DataSeeder {
     return this.trackProduct(await this.products.create(buildProduct(overrides)));
   }
 
+  /**
+   * Seeds one product per `SORT_SEED_SUFFIXES`, named `<token> <suffix>`. Pass a `uniqueName` token, so
+   * other workers' data cannot interleave; filter or search by it afterwards.
+   */
+  @step((token: string) => `Seed products to sort under "${token}"`)
+  async seedSortSet(token: string): Promise<string> {
+    await Promise.all(
+      SORT_SEED_SUFFIXES.map((suffix) => this.seedProduct({ product_name: `${token} ${suffix}` })),
+    );
+    return token;
+  }
+
   seedProducts(count: number, overrides: Partial<ProductInput> = {}): Promise<Product[]> {
     return Promise.all(Array.from({ length: count }, () => this.seedProduct(overrides)));
   }
@@ -113,7 +126,7 @@ export class DataSeeder {
   async seedBasket({ items = 1, quantity }: BasketSeedOptions = {}): Promise<BasketSeed[]> {
     const products = await this.seedProducts(items);
     const lines: BasketSeed[] = [];
-    // Sequential: concurrent writes to one basket are an M3 isolation scenario, not a seeding concern.
+    // Sequential: concurrent writes to one basket are what the basket isolation tests exercise, not seeding.
     for (const product of products) {
       const line = { product, quantity: quantity ?? faker.number.int(TEST_DATA.basketQuantity) };
       await this.addToBasket(product.id, line.quantity);

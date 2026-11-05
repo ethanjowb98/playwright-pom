@@ -23,7 +23,7 @@ For each cluster, largest first:
   - **Test defect**: a stale locator, a wrong expectation, a data collision or missing cleanup.
   - **Flaky**: the test passed on retry, or the failure is timing-dependent.
   - **Environment**: auth or secrets, a 5xx or outage, or a network problem. A 429 from `POST /api/login` means the login budget (10 per 15 min per IP) is spent: rerun after the window, and check nothing retries logins.
-- A `SecretGuard` failure (the run fails with "a secret appeared in N place(s)", and `secret-guard-leak.txt` lists the locations) is a **blocker test defect**: name the step or file it lists and the code that put the secret there. Never print the secret, and say the local reports must be deleted.
+- A `SecretGuard` failure (the run fails with "a secret appeared in N place(s)", and `secret-guard-blocking-leak.txt` lists the locations) is a **blocker test defect**: name the step or file it lists and the code that put the secret there. Never print the secret, and say the local reports must be deleted.
 - Point to the exact file:line most likely responsible.
 - Recommend one action:
   - a minimal code fix described in words or a diff, OR

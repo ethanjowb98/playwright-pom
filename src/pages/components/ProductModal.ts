@@ -2,7 +2,8 @@ import { type Locator, type Page } from '@playwright/test';
 
 import { type ProductInput } from '@api/types';
 import { ENDPOINTS } from '@config/constants';
-import { whileAwaitingApi } from '@pages/network';
+import { validationMessage } from '@pages/forms';
+import { awaitApiResponse, whileAwaitingApi } from '@pages/network';
 import { step } from '@utils/allure';
 
 /** Fields the Add / Edit Product modal offers. It has no temperature zone or weighted inputs. */
@@ -76,9 +77,21 @@ export class ProductModal {
     return this;
   }
 
-  /** The browser's native validation message for a required field; empty when the field is valid. */
+  /** The browser's native validation message for a field; empty when the field is valid. */
   validationMessage(field: Locator): Promise<string> {
-    return field.evaluate((el) => (el as HTMLInputElement | HTMLSelectElement).validationMessage);
+    return validationMessage(field);
+  }
+
+  /**
+   * Saves a form the browser accepts but the API should reject, and returns the response status. The
+   * modal stays open. Does not throw on a 4xx, so the expected rejection is not a failed step.
+   */
+  @step('Save the product, expecting the API to reject it')
+  async saveRejected(): Promise<number> {
+    const response = await awaitApiResponse(this.page, ['POST', 'PUT'], ENDPOINTS.products, () =>
+      this.saveButton.click(),
+    );
+    return response.status();
   }
 
   /** Clicks Save without waiting for a request, for forms the browser's validation should block. */

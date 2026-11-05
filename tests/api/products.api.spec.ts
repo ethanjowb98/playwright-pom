@@ -17,12 +17,27 @@ const invalidPayloads: { condition: string; payload: () => Record<string, unknow
   { condition: 'category is missing', payload: () => productWithout('category') },
   { condition: 'price is missing', payload: () => productWithout('price') },
   { condition: 'price is not a number', payload: () => ({ ...buildProduct(), price: 'abc' }) },
-  { condition: 'stock is not an integer', payload: () => ({ ...buildProduct(), stock: 'x' }) },
+  { condition: 'stock is not a number', payload: () => ({ ...buildProduct(), stock: 'x' }) },
+  { condition: 'stock is not an integer', payload: () => ({ ...buildProduct(), stock: 1.5 }) },
   { condition: 'stock is negative', payload: () => ({ ...buildProduct(), stock: -5 }) },
   {
     condition: 'temperature_zone is not a known zone',
     payload: () => ({ ...buildProduct(), temperature_zone: 'Hot' }),
   },
+];
+
+/** Update payloads the API rejects with 400 and the product must stay as it was. */
+const invalidUpdates: { condition: string; payload: Record<string, unknown> }[] = [
+  { condition: 'price is not a number', payload: { price: 'abc' } },
+  { condition: 'stock is negative', payload: { stock: -5 } },
+  { condition: 'stock is not a number', payload: { stock: 'x' } },
+  { condition: 'stock is not an integer', payload: { stock: 1.5 } },
+];
+
+/** Update payloads the API wrongly saves (product defect): `POST` rejects them, `PUT` does not. */
+const acceptedInvalidUpdates: { condition: string; payload: Record<string, unknown> }[] = [
+  { condition: 'price is zero', payload: { price: 0 } },
+  { condition: 'price is negative', payload: { price: -1 } },
 ];
 
 const unknownProductCalls: { action: string; call: (api: ProductsApi) => Promise<unknown> }[] = [
@@ -154,20 +169,45 @@ test.describe('Products API', { tag: [TAGS.api] }, () => {
       },
     );
 
-    test(
-      'should reject the update with 400 and keep the product when price is not a number',
-      { tag: [TAGS.regression] },
-      async ({ seeder, productsApi }) => {
-        await labels({ story: 'Update validation', severity: Severity.NORMAL });
-        const product = await seeder.seedProduct();
+    for (const { condition, payload } of invalidUpdates) {
+      test(
+        `should reject the update with 400 and keep the product when ${condition}`,
+        { tag: [TAGS.regression] },
+        async ({ seeder, productsApi }) => {
+          await labels({ story: 'Update validation', severity: Severity.NORMAL });
+          const product = await seeder.seedProduct();
 
-        await expect(productsApi.updateRaw(product.id, { price: 'abc' })).rejects.toMatchObject({
-          status: 400,
-        });
+          await expect(productsApi.updateRaw(product.id, payload)).rejects.toMatchObject({
+            status: 400,
+          });
 
-        expect(await productsApi.getById(product.id)).toEqual(product);
-      },
-    );
+          expect(await productsApi.getById(product.id)).toEqual(product);
+        },
+      );
+    }
+
+    for (const { condition, payload } of acceptedInvalidUpdates) {
+      test.fixme(
+        `should reject the update with 400 and keep the product when ${condition}`,
+        {
+          tag: [TAGS.regression],
+          annotation: productDefect(
+            'Products',
+            'PUT /api/products/:id saves a price of 0 or below (200), while POST rejects 0',
+          ),
+        },
+        async ({ seeder, productsApi }) => {
+          await labels({ story: 'Update validation', severity: Severity.CRITICAL });
+          const product = await seeder.seedProduct();
+
+          await expect(productsApi.updateRaw(product.id, payload)).rejects.toMatchObject({
+            status: 400,
+          });
+
+          expect(await productsApi.getById(product.id)).toEqual(product);
+        },
+      );
+    }
   });
 
   test.describe('Delete', () => {

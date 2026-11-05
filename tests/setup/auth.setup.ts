@@ -8,6 +8,7 @@ import {
   test as setup,
 } from '@playwright/test';
 
+import { withoutCallLog } from '@api/requestErrors';
 import { AUTH, ENDPOINTS } from '@config/constants';
 import { env } from '@config/env';
 import { labels, Severity } from '@utils/allure';
@@ -21,7 +22,7 @@ type Playwright = PlaywrightWorkerArgs['playwright'];
 
 /** The profile behind the session on `request`, or `undefined` when the session is missing or expired. */
 async function currentProfile(request: APIRequestContext): Promise<Profile | undefined> {
-  const response = await request.get(ENDPOINTS.profile);
+  const response = await withoutCallLog(request.get(ENDPOINTS.profile));
   if (!response.ok()) return undefined;
   const profile = (await response.json()) as Profile;
   return profile.api_key ? profile : undefined;
@@ -51,9 +52,11 @@ async function reuseSavedSession(playwright: Playwright, baseURL?: string): Prom
 }
 
 async function logIn(request: APIRequestContext): Promise<void> {
-  const login = await request.post(ENDPOINTS.login, {
-    data: { username: env.username, password: env.password },
-  });
+  const login = await withoutCallLog(
+    request.post(ENDPOINTS.login, {
+      data: { username: env.username, password: env.password },
+    }),
+  );
   expect(login.ok(), `POST ${ENDPOINTS.login} returned ${login.status()}`).toBe(true);
 
   const profile = await currentProfile(request);
