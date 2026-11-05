@@ -38,7 +38,7 @@ Progress: **91 / 91 tasks**
 
 ## M1: Foundation, linting & templates ✅
 
-- [x] Delete legacy BPOSeats code: `pages/`, `test-data/`, `tests/login.spec.ts`, `tests/milestone.spec.ts`, `response.json`
+- [x] Delete legacy code: `pages/`, `test-data/`, `tests/login.spec.ts`, `tests/milestone.spec.ts`, `response.json`
 - [x] `.gitignore` fixes (stop ignoring `.github`/`.vscode`; add `.env`, `.auth/`, `allure-*`, `failure-analysis.*`) + `.gitattributes` (LF)
 - [x] Deps: `allure-playwright`, `allure-js-commons`, `@faker-js/faker`, `dotenv`, `typescript` (pinned 6.0.x for typescript-eslint), `tsx` (Allure CLI moved to M5)
 - [x] `tsconfig.json` (strict, path aliases)
@@ -148,7 +148,6 @@ Progress: **91 / 91 tasks**
 
 | Date       | Milestone | Type           | Note                                                                                                                                                                                                                                                                                                                                                              |
 | ---------- | --------- | -------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026-11-03 | M0        | Security       | The password of the legacy BPOSeats login is in git history (old `tests/milestone.spec.ts` and `response.json`). **Rotate it.**                                                                                                                                                                                                                                   |
 | 2026-11-03 | M1        | Tooling        | TypeScript pinned to `~6.0` because typescript-eslint 8.x supports TS < 6.1 (TS 7 is the native port). npm blocked esbuild's postinstall; `tsx` works without it.                                                                                                                                                                                                 |
 | 2026-11-03 | M2        | Design         | The basket is account-wide and `POST /api/orders` consumes all of it. Basket/order tests (API and E2E) are tagged `@stateful` and run in the single-worker `stateful` project, so they never overlap. `test:api` / `test:e2e` narrow it with `--grep`.                                                                                                            |
 | 2026-11-03 | M3        | Product defect | `POST /api/products` accepts `price: -1` (201). `products.api.spec.ts` → `test.fixme`.                                                                                                                                                                                                                                                                            |
