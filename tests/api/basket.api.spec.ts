@@ -4,8 +4,7 @@ import { type BasketSeed } from '@data/DataSeeder';
 import { expect, test } from '@fixtures';
 import { labels, productDefect, Severity } from '@utils/allure';
 
-const LOW_STOCK = 2;
-const RACING_QUANTITIES = [1, 2, 3, 4, 5];
+const { lowStock: LOW_STOCK, racingQuantities: RACING_QUANTITIES } = TEST_DATA;
 
 /** Quantity of `productId` in the basket, or undefined when it is not there. */
 async function quantityOf(basketApi: BasketApi, productId: string): Promise<number | undefined> {
@@ -26,6 +25,31 @@ const overStockAfterAdd: {
     condition: 'an update exceeds stock',
     initial: 1,
     act: (api, productId) => api.setQuantity(productId, LOW_STOCK + 1),
+  },
+];
+
+/** `PUT /api/basket` payloads for a line of quantity 1 that must be rejected, leaving it unchanged. */
+interface InvalidUpdate {
+  condition: string;
+  payload: (productId: string) => Record<string, unknown>;
+}
+
+const invalidUpdates: InvalidUpdate[] = [
+  { condition: 'the quantity is 0', payload: (id) => ({ product_id: id, quantity: 0 }) },
+  { condition: 'the quantity is -1', payload: (id) => ({ product_id: id, quantity: -1 }) },
+  { condition: 'product_id is missing', payload: () => ({ quantity: 2 }) },
+  { condition: 'the quantity is missing', payload: (id) => ({ product_id: id }) },
+];
+
+/** Malformed quantities the API answers with a 500 instead of a 400 (product defect). */
+const serverErrorUpdates: InvalidUpdate[] = [
+  {
+    condition: 'the quantity is not a number',
+    payload: (id) => ({ product_id: id, quantity: 'x' }),
+  },
+  {
+    condition: 'the quantity is not an integer',
+    payload: (id) => ({ product_id: id, quantity: 1.5 }),
   },
 ];
 
@@ -173,6 +197,48 @@ test.describe('Basket API', { tag: [TAGS.api, TAGS.stateful] }, () => {
           await expect(seeder.addToBasket(product.id, quantity)).rejects.toMatchObject({
             status: 400,
           });
+        },
+      );
+    }
+
+    for (const { condition, payload } of invalidUpdates) {
+      test(
+        `should reject the update with 400 and keep the quantity when ${condition}`,
+        { tag: [TAGS.regression] },
+        async ({ seeder, basketApi }) => {
+          await labels({ story: 'Update quantity validation', severity: Severity.NORMAL });
+          const product = await seeder.seedProduct();
+          await seeder.addToBasket(product.id, 1);
+
+          await expect(basketApi.setQuantityRaw(payload(product.id))).rejects.toMatchObject({
+            status: 400,
+          });
+
+          expect(await quantityOf(basketApi, product.id)).toBe(1);
+        },
+      );
+    }
+
+    for (const { condition, payload } of serverErrorUpdates) {
+      test.fixme(
+        `should reject the update with 400 and keep the quantity when ${condition}`,
+        {
+          tag: [TAGS.regression],
+          annotation: productDefect(
+            'Basket',
+            'PUT /api/basket answers a non-integer quantity with 500 (raw Postgres error) instead of 400',
+          ),
+        },
+        async ({ seeder, basketApi }) => {
+          await labels({ story: 'Update quantity validation', severity: Severity.NORMAL });
+          const product = await seeder.seedProduct();
+          await seeder.addToBasket(product.id, 1);
+
+          await expect(basketApi.setQuantityRaw(payload(product.id))).rejects.toMatchObject({
+            status: 400,
+          });
+
+          expect(await quantityOf(basketApi, product.id)).toBe(1);
         },
       );
     }

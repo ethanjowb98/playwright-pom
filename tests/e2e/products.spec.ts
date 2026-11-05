@@ -59,6 +59,46 @@ test.describe('Products UI', { tag: [TAGS.e2e] }, () => {
   );
 
   test(
+    'should create nothing when the Add Product modal is cancelled',
+    { tag: [TAGS.regression] },
+    async ({ seeder, productsApi, marketPage }) => {
+      await labels({ story: 'Create', severity: Severity.NORMAL });
+      const { product_name, category, price, stock } = buildProduct();
+      // Cleans up if the defect this guards against happens and a product is created anyway
+      seeder.expectProductNamed(product_name);
+      await marketPage.open();
+
+      const modal = await marketPage.openAddProduct();
+      await modal.fill({ product_name, category, price, stock });
+      await modal.cancel();
+
+      await expect(marketPage.products.card(product_name)).toHaveCount(0);
+      expect((await productsApi.list()).map((p) => p.product_name)).not.toContain(product_name);
+    },
+  );
+
+  test(
+    'should keep the product unchanged when the Edit Product modal is cancelled',
+    { tag: [TAGS.regression] },
+    async ({ seeder, productsApi, marketPage }) => {
+      await labels({ story: 'Update', severity: Severity.NORMAL });
+      const product = await seeder.seedProduct();
+      await marketPage.open();
+
+      await marketPage.products.edit(product.product_name);
+      const modal = marketPage.productModal;
+      await expect(modal.name).toHaveValue(product.product_name);
+      await modal.fill({ price: roundMoney(product.price + 1) });
+      await modal.cancel();
+
+      await expect(marketPage.products.price(product.product_name)).toHaveText(
+        money(product.price),
+      );
+      expect(await productsApi.getById(product.id)).toEqual(product);
+    },
+  );
+
+  test(
     'should save the new price and stock when the product is edited',
     { tag: [TAGS.smoke] },
     async ({ seeder, productsApi, marketPage }) => {
@@ -76,6 +116,75 @@ test.describe('Products UI', { tag: [TAGS.e2e] }, () => {
         money(changes.price),
       );
       expect(await productsApi.getById(product.id)).toMatchObject(changes);
+    },
+  );
+
+  test(
+    'should keep the modal open and the product unchanged when the name is cleared on edit',
+    { tag: [TAGS.regression] },
+    async ({ seeder, productsApi, marketPage }) => {
+      await labels({ story: 'Update validation', severity: Severity.NORMAL });
+      const product = await seeder.seedProduct();
+      await marketPage.open();
+
+      await marketPage.products.edit(product.product_name);
+      const modal = marketPage.productModal;
+      await expect(modal.name).toHaveValue(product.product_name);
+      await modal.fill({ product_name: '' });
+      await modal.trySave();
+
+      // The browser's validation blocked the submit, so no request can still be in flight
+      expect(await modal.validationMessage(modal.name)).not.toBe('');
+      await expect(modal.root).toBeVisible();
+      expect(await productsApi.getById(product.id)).toEqual(product);
+    },
+  );
+
+  test(
+    'should keep the modal open and the product unchanged when the edited price is negative',
+    { tag: [TAGS.regression] },
+    async ({ seeder, productsApi, marketPage }) => {
+      await labels({ story: 'Update validation', severity: Severity.NORMAL });
+      const product = await seeder.seedProduct();
+      await marketPage.open();
+
+      await marketPage.products.edit(product.product_name);
+      const modal = marketPage.productModal;
+      await expect(modal.name).toHaveValue(product.product_name);
+      await modal.fill({ price: -1 });
+      await modal.trySave();
+
+      expect(await modal.validationMessage(modal.price)).not.toBe('');
+      await expect(modal.root).toBeVisible();
+      expect(await productsApi.getById(product.id)).toEqual(product);
+    },
+  );
+
+  test.fixme(
+    'should show an error and keep the product unchanged when the edited price is zero',
+    {
+      tag: [TAGS.regression],
+      annotation: productDefect(
+        'Products',
+        'PUT /api/products/:id saves price 0 (200), while POST rejects it (400)',
+      ),
+    },
+    async ({ seeder, productsApi, marketPage }) => {
+      await labels({ story: 'Update validation', severity: Severity.NORMAL });
+      const product = await seeder.seedProduct();
+      await marketPage.open();
+
+      await marketPage.products.edit(product.product_name);
+      const modal = marketPage.productModal;
+      await expect(modal.name).toHaveValue(product.product_name);
+      await modal.fill({ price: 0 });
+      // The browser accepts 0 (`min="0"`); the API must not
+      const status = await modal.saveRejected();
+
+      expect(status).toBe(400);
+      await expect(marketPage.alert).toContainText('Failed to save product');
+      await expect(modal.root).toBeVisible();
+      expect(await productsApi.getById(product.id)).toEqual(product);
     },
   );
 
@@ -103,7 +212,7 @@ test.describe('Products UI', { tag: [TAGS.e2e] }, () => {
       const product = await seeder.seedProduct();
       await marketPage.open();
 
-      await marketPage.products.delete(product.product_name, 'dismiss');
+      await marketPage.products.abandonDelete(product.product_name);
 
       await marketPage.reload();
       await expect(marketPage.products.card(product.product_name)).toBeVisible();

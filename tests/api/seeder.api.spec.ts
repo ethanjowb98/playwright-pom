@@ -2,7 +2,7 @@ import { TAGS } from '@config/constants';
 import { expect, test } from '@fixtures';
 import { labels, Severity } from '@utils/allure';
 
-// Proves the M2 data layer: everything DataSeeder creates is readable, and gone after cleanup.
+// Proves the data layer: everything DataSeeder creates is readable, and gone after cleanup.
 test.describe('Test data seeding', () => {
   test.beforeEach(async () => {
     await labels({ feature: 'Test data', severity: Severity.CRITICAL });

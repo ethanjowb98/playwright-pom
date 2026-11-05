@@ -19,7 +19,7 @@ runs:
       with:
         browsers: ${{ inputs.browsers }}
 
-    # The setup project logs in once per job, on top of the @login tests (2 in api, 2 in e2e).
+    # The setup project logs in once per job. The workflow adds the @login tests in the nightly run only.
     - name: Run Playwright tests
       shell: bash
       env:
@@ -27,9 +27,10 @@ runs:
       # ARGS is several arguments: word splitting is intended.
       run: npx playwright test $ARGS --pass-with-no-tests
 
-    # SecretGuard writes secret-guard-leak.txt when a secret reached the reports: never upload those.
+    # SecretGuard lists every leak in secret-guard-leak.txt (the Playwright report stays back) and writes
+    # secret-guard-blocking-leak.txt when the leak is more than a failed request's call log (Allure stays back too).
     - name: Upload Allure results
-      if: ${{ !cancelled() && hashFiles('secret-guard-leak.txt') == '' }}
+      if: ${{ !cancelled() && hashFiles('secret-guard-blocking-leak.txt') == '' }}
       uses: actions/upload-artifact@v7
       with:
         name: allure-results-${{ inputs.name }}

@@ -6,10 +6,12 @@ import { expect, test } from '@fixtures';
 import { labels, Severity } from '@utils/allure';
 
 // No artefacts: the profile page these tests land on is driven by `GET /api/profile`, which returns the
-// api key, and screenshots and videos are outside SecretGuard's reach.
+// api key, and screenshots and videos are outside SecretGuard's reach. The fixture's page snapshot in
+// error-context.md is off for the same reason (PLAYWRIGHT_NO_COPY_PROMPT in playwright.config.ts), but a
+// failed locator assertion still snapshots the page: never assert locators on the profile page.
 test.use({ video: 'off', screenshot: 'off' });
 
-// POST /api/login allows 10 requests per 15 min per IP; each submit below spends one, so keep this file small.
+// POST /api/login allows 10 requests per 15 min per IP; each @login test below spends one, so keep them few.
 test.describe('Login', { tag: [TAGS.e2e] }, () => {
   test.use({ storageState: { cookies: [], origins: [] } });
   // A retry would spend another login.
@@ -44,6 +46,22 @@ test.describe('Login', { tag: [TAGS.e2e] }, () => {
       await loginPage.login(env.username, faker.internet.password());
 
       await expect(loginPage.error).toBeVisible();
+      await expect(page).toHaveURL((url) => url.pathname === ROUTES.home);
+    },
+  );
+
+  // Not @login: the browser blocks the empty submit, so no login request is sent.
+  test(
+    'should block the submit and stay on the home page when the login form is empty',
+    { tag: [TAGS.regression] },
+    async ({ page, loginPage }) => {
+      await labels({ story: 'Login validation', severity: Severity.NORMAL });
+      await loginPage.open();
+
+      await loginPage.submitEmpty();
+
+      expect(await loginPage.validationMessage(loginPage.username)).not.toBe('');
+      await expect(loginPage.authModal).toBeVisible();
       await expect(page).toHaveURL((url) => url.pathname === ROUTES.home);
     },
   );

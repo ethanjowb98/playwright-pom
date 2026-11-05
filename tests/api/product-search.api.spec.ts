@@ -1,13 +1,9 @@
 import { type FilteredProduct, type ProductFilter, type ProductInput } from '@api/types';
 import { TAGS } from '@config/constants';
+import { SORT_CASES } from '@data/sortCases';
 import { uniqueName } from '@data/uniqueName';
 import { expect, test } from '@fixtures';
 import { labels, productDefect, Severity } from '@utils/allure';
-
-const sortCases = [
-  { sort: 'asc', expected: ['Alpha', 'Bravo', 'Charlie'] },
-  { sort: 'desc', expected: ['Charlie', 'Bravo', 'Alpha'] },
-] as const;
 
 /** Each case seeds a matching target and a decoy that differs only in the filtered field(s). */
 const filterCases: {
@@ -66,6 +62,11 @@ const filterCases: {
   },
 ];
 
+const invalidFilters: { condition: string; params: Record<string, string> }[] = [
+  { condition: 'the temperature zone is unknown', params: { temperature_zone: 'Hot' } },
+  { condition: 'weighted is not true or false', params: { weighted: 'maybe' } },
+];
+
 function rowsNotMatching(rows: FilteredProduct[], filter: ProductFilter): FilteredProduct[] {
   return rows.filter((row) =>
     Object.entries(filter).some(([key, value]) => row[key as keyof ProductFilter] !== value),
@@ -77,19 +78,14 @@ test.describe('Product search API', { tag: [TAGS.api] }, () => {
     await labels({ feature: 'Product search' });
   });
 
-  for (const { sort, expected } of sortCases) {
+  for (const { sort, expected } of SORT_CASES) {
     test(
       `should list products in ${sort} name order when sort is ${sort}`,
       { tag: [TAGS.regression] },
       async ({ seeder, productsApi }) => {
         await labels({ story: 'Sort', severity: Severity.NORMAL });
-        // Arrange: three names sharing a unique prefix, so other workers' data cannot interleave
-        const token = uniqueName('sort');
-        await Promise.all(
-          ['Charlie', 'Alpha', 'Bravo'].map((suffix) =>
-            seeder.seedProduct({ product_name: `${token} ${suffix}` }),
-          ),
-        );
+        // Arrange
+        const token = await seeder.seedSortSet(uniqueName('sort'));
 
         // Act
         const listed = (await productsApi.list(sort))
@@ -119,6 +115,39 @@ test.describe('Product search API', { tag: [TAGS.api] }, () => {
         expect(ids).toContain(match.id);
         expect(ids).not.toContain(nonMatch.id);
         expect(rowsNotMatching(rows, filter)).toEqual([]);
+      },
+    );
+  }
+
+  test(
+    'should return products of every listed category when several categories are filtered',
+    { tag: [TAGS.regression] },
+    async ({ seeder, productsApi }) => {
+      await labels({ story: 'Filter', severity: Severity.NORMAL });
+      const [snack, bread, decoy] = await Promise.all([
+        seeder.seedProduct({ category: 'snacks' }),
+        seeder.seedProduct({ category: 'bakery' }),
+        seeder.seedProduct({ category: 'household' }),
+      ]);
+
+      // Documented: one or more categories, comma-separated
+      const rows = await productsApi.filter({ category: 'snacks,bakery' });
+
+      const ids = rows.map(({ id }) => id);
+      expect(ids).toEqual(expect.arrayContaining([snack.id, bread.id]));
+      expect(ids).not.toContain(decoy.id);
+      expect(rows.filter(({ category }) => !['snacks', 'bakery'].includes(category))).toEqual([]);
+    },
+  );
+
+  for (const { condition, params } of invalidFilters) {
+    test(
+      `should reject the filter with 400 when ${condition}`,
+      { tag: [TAGS.regression] },
+      async ({ productsApi }) => {
+        await labels({ story: 'Filter validation', severity: Severity.NORMAL });
+
+        await expect(productsApi.filterRaw(params)).rejects.toMatchObject({ status: 400 });
       },
     );
   }

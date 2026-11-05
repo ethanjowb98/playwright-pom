@@ -2,6 +2,7 @@ import { type Locator, type Page } from '@playwright/test';
 
 import { ROUTES } from '@config/constants';
 import { BasePage } from '@pages/BasePage';
+import { validationMessage } from '@pages/forms';
 import { step } from '@utils/allure';
 
 /**
@@ -44,6 +45,20 @@ export class LoginPage extends BasePage {
     }, password);
     await this.submitButton.click();
     return this;
+  }
+
+  /** Opens the login modal and submits it untouched. The browser blocks it, so no login is spent. */
+  @step('Submit the login form empty')
+  async submitEmpty(): Promise<this> {
+    await this.openAuthButton.click();
+    await this.loginTab.click();
+    await this.submitButton.click();
+    return this;
+  }
+
+  /** The browser's native validation message for a field; empty when the field is valid. */
+  validationMessage(field: Locator): Promise<string> {
+    return validationMessage(field);
   }
 
   protected async waitUntilReady(): Promise<void> {

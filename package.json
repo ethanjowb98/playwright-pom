@@ -9,6 +9,7 @@
     "test:setup": "playwright test --project=setup",
     "test:repeat": "playwright test --repeat-each=3 --grep-invert @login",
     "test:login": "playwright test --grep @login",
+    "test:maintenance": "playwright test --project=maintenance",
     "test:unit": "tsx --test \"scripts/**/*.test.ts\"",
     "report": "playwright show-report",
     "allure:generate": "allure generate allure-results --clean",

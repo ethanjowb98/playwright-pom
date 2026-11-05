@@ -167,6 +167,27 @@ test.describe('Basket UI', { tag: [TAGS.e2e, TAGS.stateful] }, () => {
         expect(await basketApi.list()).toEqual([]);
       },
     );
+
+    test(
+      'should keep every item when Clear All is dismissed',
+      { tag: [TAGS.regression] },
+      async ({ seeder, basketApi, marketPage }) => {
+        await labels({ story: 'Clear', severity: Severity.NORMAL });
+        const lines = await seeder.seedBasket({ items: 2 });
+        await marketPage.open();
+        await marketPage.openBasket();
+
+        await marketPage.basket.abandonClearAll();
+
+        // Durability: re-read after the page reloads, not the state the dismissed dialog left on screen
+        await marketPage.reload();
+        const basket = await marketPage.openBasket();
+        await expect(basket.items).toHaveCount(lines.length);
+        expect((await basketApi.list()).map((item) => item.product_id).sort()).toEqual(
+          lines.map(({ product }) => product.id).sort(),
+        );
+      },
+    );
   });
 
   test(

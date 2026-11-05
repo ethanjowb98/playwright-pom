@@ -2,7 +2,7 @@
 
 Playwright + TypeScript test automation for the [qacloud.dev Market](https://www.qacloud.dev/market.html) app, built on the Page Object Model. It covers the **API** and **E2E (UI)** layers and generates its test data through the API. Results are reported with Allure, and a rule-based analysis groups failures by shared root cause.
 
-> Status: under construction, delivered in milestones. See [docs/ROADMAP.md](docs/ROADMAP.md) for what is done and what is next.
+> Milestones, progress and the product defects the suite has found: [docs/ROADMAP.md](docs/ROADMAP.md).
 
 ## Contents
 
@@ -52,25 +52,26 @@ npm run check
 | `QACLOUD_USERNAME` | yes      | –                         | Test account username |
 | `QACLOUD_PASSWORD` | yes      | –                         | Test account password |
 
-`.env` and `.auth/` are gitignored, so never commit them. The test account is shared by every test, so tests create and clean up their own data and never call `/api/reset`, except in the serial `@maintenance` test.
+`.env` and `.auth/` are gitignored, so never commit them. The test account is shared by every test, so tests create and clean up their own data and never call `/api/reset`, except the tests in `tests/maintenance`, which run only via `npm run test:maintenance`.
 
 ## Running tests
 
-| Command                         | What it runs                                                                    |
-| ------------------------------- | ------------------------------------------------------------------------------- |
-| `npm test`                      | Everything (setup → api + stateful + e2e-chromium)                              |
-| `npm run test:setup`            | Only the auth setup project                                                     |
-| `npm run test:repeat -- <spec>` | Flakiness check: `--repeat-each=3`, without the `@login` tests                  |
-| `npm run test:login`            | The `@login` tests (they spend rate-limited logins): run once                   |
-| `npm run test:api`              | API specs (`tests/api/**/*.api.spec.ts`): projects `api` and `stateful`         |
-| `npm run test:e2e`              | E2E specs (`tests/e2e/**/*.spec.ts`) in Chromium: `e2e-chromium` and `stateful` |
-| `npm run test:smoke`            | Tests tagged `@smoke`                                                           |
+| Command                         | What it runs                                                                               |
+| ------------------------------- | ------------------------------------------------------------------------------------------ |
+| `npm test`                      | Everything except `tests/maintenance` (setup → api + stateful + e2e-chromium)              |
+| `npm run test:setup`            | Only the auth setup project                                                                |
+| `npm run test:repeat -- <spec>` | Flakiness check: `--repeat-each=3`, without the `@login` tests                             |
+| `npm run test:login`            | The `@login` tests (they spend rate-limited logins): run once                              |
+| `npm run test:maintenance`      | `tests/maintenance`: `POST /api/reset` **wipes the whole account**; run alone, never in CI |
+| `npm run test:api`              | API specs (`tests/api/**/*.api.spec.ts`): projects `api` and `stateful`                    |
+| `npm run test:e2e`              | E2E specs (`tests/e2e/**/*.spec.ts`) in Chromium: `e2e-chromium` and `stateful`            |
+| `npm run test:smoke`            | Tests tagged `@smoke`                                                                      |
 
 Useful flags: `--headed`, `--ui`, `--debug`, `--grep "<title>"`, `--repeat-each=3` (flakiness check; use `test:repeat`, which leaves out `@login`), `--no-deps` (skip the setup project; setup already reuses a valid `.auth/` session).
 
-Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@maintenance`, `@stateful` (uses the account-wide basket, so it runs in the single-worker `stateful` project, API and E2E alike).
+Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@login` (spends a rate-limited login), `@maintenance` (resets the account), `@stateful` (uses the account-wide basket, so it runs in the single-worker `stateful` project, API and E2E alike).
 
-`POST /api/login` is rate-limited to 10 requests per 15 minutes per IP. Setup reuses the saved `.auth/` session while it is still valid and logs in only when it has expired, so a run spends the 4 logins in the `@login` tests (2 API, 2 E2E), plus 1 when the session needs renewing. Repeat runs leave them out (`npm run test:repeat`); run them once with `npm run test:login`.
+`POST /api/login` is rate-limited to 10 requests per 15 minutes per IP. Setup reuses the saved `.auth/` session while it is still valid and logs in only when it has expired, so a run spends the 4 logins in the `@login` tests (2 API, 2 E2E), plus 1 when the session needs renewing. Repeat runs leave them out (`npm run test:repeat`); run them once with `npm run test:login`. CI runs them in the nightly run only (see [CI](#ci)).
 
 ## Reports
 
@@ -80,7 +81,7 @@ Tags: `@api`, `@e2e`, `@smoke`, `@regression`, `@maintenance`, `@stateful` (uses
 | `npm run allure:generate` | Build the Allure report from `allure-results/` into `allure-report/`          |
 | `npm run allure:open`     | Serve `allure-report/` and open it in the browser (generates it when missing) |
 
-Every run clears `allure-results/` first, so the report shows the last run only, like the HTML report. The Allure CLI is the npm `allure` package (Allure 3), so no Java is needed. The report shows:
+Every run clears `allure-results/` first, so the report shows the last run only, like the HTML report. Listing tests (`--list`) writes no reports. The Allure CLI is the npm `allure` package (Allure 3), so no Java is needed. The report shows:
 
 - a tree by epic (`Market`) → feature → story, with severity and owner labels
 - a step for every page-object, API-client and seeder call, with masked request/response attachments, plus screenshots and videos of failures
@@ -120,17 +121,18 @@ src/
   config/       env.ts (typed env vars), constants.ts (timeouts, routes, endpoints, tags, enums, test-data bounds),
                 allureCategories.ts (Allure failure categories)
   api/          ApiClient base, one client per resource (Auth, Products, Basket, Orders, Maintenance), types.ts
-  pages/        BasePage, LoginPage, MarketPage, components/ (grid, filters, modals, basket, orders), dialogs + network wait helpers
+  pages/        BasePage, LoginPage, MarketPage, components/ (grid, filters, modals, basket, orders), dialog, form-validation and network wait helpers
   utils/        allure.ts (labels, productDefect, @step decorator), assertions.ts (shared expect helpers), format.ts,
                 secrets.ts (reads and masks the password and api key)
   reporters/    AllureRunInfo.ts (clears allure-results, writes environment + executor),
-                SecretGuard.ts (fails the run if a secret reaches a report)
+                SecretGuard.ts (keeps a report that shows a secret out of CI)
   data/         factories/ (faker builders), uniqueName, DataSeeder (API seeding with tracked cleanup)
   fixtures/     test.extend fixtures: apiKey, apiRequest (cookie-less), API clients, seeder, loginPage, marketPage
 tests/
   setup/        auth.setup.ts: reuse valid .auth/ session or API login → .auth/
   api/          *.api.spec.ts
   e2e/          *.spec.ts
+  maintenance/  *.maintenance.spec.ts (POST /api/reset): only via npm run test:maintenance
   seed.spec.ts  seed for the Playwright test agents
 scripts/        analyze-failures.ts (npm run analyze) + failure-analysis/ (load, signals, source lookup, clustering, report),
                 report-site.ts + report-site/ (CI: the GitHub Pages report site); all unit-tested
@@ -149,7 +151,7 @@ See [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md) for how the layers fit together
 GitHub Actions ([.github/workflows/playwright.yml](.github/workflows/playwright.yml)) runs on pushes and PRs to `main`, nightly at 03:00 UTC, and on demand (**Run workflow**, with a `suite` of all, api, e2e or smoke):
 
 1. **check**: actionlint and `npm run check`
-2. **api**, **e2e** (2 shards) and **stateful** (basket and order tests, one at a time across runs) in parallel, each uploading its Allure results. Pull requests from forks and Dependabot skip the tests: they get no repository secrets.
+2. **api**, **e2e** (2 shards) and **stateful** (basket and order tests, one at a time across runs) in parallel, each uploading its Allure results. The `@login` tests run in the nightly run only, to stay inside the login rate limit. Pull requests from forks and Dependabot skip the tests: they get no repository secrets.
 3. **report** or **publish**: merges the results, runs `npm run analyze`, generates the Allure report with the history of earlier runs, and writes the analysis to the job summary (and, on a PR, one sticky comment)
 
 Every run except pull requests (pushes to `main`, the nightly, and manual runs of any branch or suite) **publishes** the report to GitHub Pages, failing and skipped tests included: the run list at `https://<owner>.github.io/<repo>/` (with each run's branch, suite and results), the newest report at `latest/`, and the last 20 reports with their trends. Pull requests keep the report as the run's `allure-report` artifact.

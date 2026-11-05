@@ -100,6 +100,32 @@ export default tseslint.config(
     },
   },
   {
+    // POST /api/reset wipes the shared account: only the fixtures build MaintenanceApi, and they refuse
+    // outside the `maintenance` project. Repeats the base rule's paths, since this setting replaces it.
+    files: ['src/**/*.ts', 'tests/**/*.ts', 'scripts/**/*.ts'],
+    ignores: ['src/fixtures/**', 'src/api/MaintenanceApi.ts'],
+    rules: {
+      'no-restricted-imports': [
+        'error',
+        {
+          paths: [
+            {
+              name: 'allure-js-commons',
+              importNames: ['step'],
+              message:
+                'Use the @step decorator from @utils/allure: one boxed step mechanism for every layer.',
+            },
+            {
+              name: '@api/MaintenanceApi',
+              message:
+                'Use the maintenanceApi fixture: it resets the whole account and only works in the maintenance project.',
+            },
+          ],
+        },
+      ],
+    },
+  },
+  {
     files: ['tests/**/*.ts'],
     ...playwright.configs['flat/recommended'],
     rules: {

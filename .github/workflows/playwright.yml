@@ -29,6 +29,9 @@ defaults:
 
 env:
   RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
+  # Login allows 10 per 15 minutes, and GitHub's runners share outgoing IPs. Each test job's setup logs
+  # in once (4 per run), so the 4 @login tests run only in the nightly run, where nothing else overlaps.
+  SKIP_LOGIN_TESTS: ${{ github.event_name != 'schedule' && '--grep-invert @login' || '' }}
 
 jobs:
   check:
@@ -106,7 +109,9 @@ jobs:
       - uses: ./.github/actions/run-tests
         with:
           name: api
-          args: --project=api ${{ inputs.suite == 'smoke' && '--grep @smoke' || '' }}
+          args: >-
+            --project=api ${{ env.SKIP_LOGIN_TESTS }}
+            ${{ inputs.suite == 'smoke' && '--grep @smoke' || '' }}
 
   e2e:
     name: E2E tests (shard ${{ matrix.shard }}/2)
@@ -134,7 +139,7 @@ jobs:
           name: e2e-${{ matrix.shard }}
           browsers: 'true'
           args: >-
-            --project=e2e-chromium --shard=${{ matrix.shard }}/2
+            --project=e2e-chromium --shard=${{ matrix.shard }}/2 ${{ env.SKIP_LOGIN_TESTS }}
             ${{ inputs.suite == 'smoke' && '--grep @smoke' || '' }}
 
   # The basket is account-wide: @stateful tests (API and UI) run on one worker, and the account-wide

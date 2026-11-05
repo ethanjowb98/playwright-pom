@@ -23,7 +23,7 @@
 
    Types: `feat`, `fix`, `test`, `refactor`, `docs`, `build`, `ci`, `chore`, `perf`, `style`, `revert`.
 
-6. Open a PR titled `[M<N>] <title>` (or a plain title outside milestones) and fill in the PR template. One milestone per PR. CI comments the failure analysis on the PR (one comment, edited on every run); the Allure report is the run's `allure-report` artifact.
+6. Open a PR titled `[M<N>] <title>` (or a plain title outside milestones) and fill in the PR template. One milestone per PR. CI comments the failure analysis on the PR (one comment, edited on every run); the Allure report is the run's `allure-report` artifact. After the merge, the run on `main` publishes its report to GitHub Pages.
 
 ## Adding tests
 
@@ -44,7 +44,7 @@ Checklist for every test:
 - [ ] Touches the basket or places an order → tagged `@stateful` (see [ARCHITECTURE](ARCHITECTURE.md#isolation-the-basket-is-account-wide))
 - [ ] No raw locators or HTTP calls in the spec; no hard waits
 - [ ] E2E: page-object intents are `@step`-decorated and wait for the API call they trigger; cards and rows are found by unique name, never by index
-- [ ] Iterating locally: setup reuses a valid `.auth/` session, so only the login tests spend the budget (10 per 15 min)
+- [ ] Iterating locally: setup reuses a valid `.auth/` session, so only the login tests spend the budget (10 per 15 min). A test that logs in is tagged `@login`; CI runs those nightly only
 - [ ] No credential in a `@step` title, `fill` or `pressSequentially` (`SecretGuard` fails the run)
 - [ ] Passes `npm run test:repeat` (`@login` tests once via `npm run test:login`)
 

@@ -8,16 +8,31 @@ import { DocumentedApi } from '@api/DocumentedApi';
 import { MaintenanceApi } from '@api/MaintenanceApi';
 import { OrdersApi } from '@api/OrdersApi';
 import { ProductsApi } from '@api/ProductsApi';
-import { AUTH } from '@config/constants';
+import { AUTH, MAINTENANCE } from '@config/constants';
 import { DataSeeder } from '@data/DataSeeder';
 import { LoginPage } from '@pages/LoginPage';
 import { MarketPage } from '@pages/MarketPage';
+
+/**
+ * `POST /api/reset` wipes the whole shared account, so its client refuses to exist outside the
+ * `maintenance` project: a reset in a parallel project would destroy every running test's data.
+ */
+function assertMaintenanceProject(project: string): void {
+  if (project !== MAINTENANCE.project) {
+    throw new Error(
+      `MaintenanceApi resets the whole account: only the "${MAINTENANCE.project}" project ` +
+        `(npm run ${MAINTENANCE.script}) may use it, not "${project}".`,
+    );
+  }
+}
 
 /** The api-key clients, built for an arbitrary key (or none) for 401 tests. */
 export interface KeyedApiClients {
   productsApi: ProductsApi;
   basketApi: BasketApi;
   ordersApi: OrdersApi;
+  /** `reset` wipes the account: throws outside the `maintenance` project. */
+  readonly maintenanceApi: MaintenanceApi;
 }
 
 interface ApiFixtures {
@@ -74,11 +89,16 @@ export const test = base.extend<ApiFixtures & PageFixtures, WorkerFixtures>({
     await use(context);
     await context.dispose();
   },
-  apiClientsFor: async ({ apiRequest }, use) => {
+  apiClientsFor: async ({ apiRequest }, use, testInfo) => {
     await use((apiKey) => ({
       productsApi: new ProductsApi(apiRequest, apiKey),
       basketApi: new BasketApi(apiRequest, apiKey),
       ordersApi: new OrdersApi(apiRequest, apiKey),
+      // A getter, so only a test that touches it is checked.
+      get maintenanceApi(): MaintenanceApi {
+        assertMaintenanceProject(testInfo.project.name);
+        return new MaintenanceApi(apiRequest, apiKey);
+      },
     }));
   },
   documentedApi: async ({ apiRequest, apiKey }, use) => {
@@ -104,7 +124,8 @@ export const test = base.extend<ApiFixtures & PageFixtures, WorkerFixtures>({
   ordersApi: async ({ apiRequest, apiKey }, use) => {
     await use(new OrdersApi(apiRequest, apiKey));
   },
-  maintenanceApi: async ({ apiRequest, apiKey }, use) => {
+  maintenanceApi: async ({ apiRequest, apiKey }, use, testInfo) => {
+    assertMaintenanceProject(testInfo.project.name);
     await use(new MaintenanceApi(apiRequest, apiKey));
   },
   seeder: async ({ productsApi, basketApi, ordersApi }, use) => {

@@ -65,7 +65,7 @@ export class BasketPanel {
     return this;
   }
 
-  /** Accepts the `confirm()` and waits for the clear. Returns the dialog message. */
+  /** Clicks Clear All, accepts the `confirm()` and waits for the clear. Returns the dialog message. */
   @step('Clear the basket')
   async clearAll(): Promise<string> {
     return answerDialog(this.page, () =>
@@ -73,6 +73,12 @@ export class BasketPanel {
         this.clearAllButton.click(),
       ),
     );
+  }
+
+  /** Clicks Clear All, then dismisses the `confirm()`. No request is sent. Returns the dialog message. */
+  @step('Start clearing the basket, then dismiss')
+  async abandonClearAll(): Promise<string> {
+    return answerDialog(this.page, () => this.clearAllButton.click(), 'dismiss');
   }
 
   /**

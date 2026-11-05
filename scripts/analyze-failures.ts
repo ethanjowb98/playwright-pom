@@ -12,7 +12,7 @@ import { loadRun } from './failure-analysis/load';
 import { renderMarkdown } from './failure-analysis/render';
 import { SourceIndex } from './failure-analysis/source';
 import { ALLURE, ANALYSIS, AUTH, SECRET_GUARD } from '../src/config/constants';
-import { readApiKey, readPassword, secretNeedles } from '../src/utils/secrets';
+import { readApiKey, readPassword, readSessionCookies, secretNeedles } from '../src/utils/secrets';
 
 const warn = (message: string): void => {
   process.stderr.write(`analyze: ${message}\n`);
@@ -39,7 +39,7 @@ for (const file of run.unreadable) warn(`skipped unreadable result ${file}`);
 const analysis = analyze(run, {
   resultsDir,
   sources: SourceIndex.read(),
-  needles: secretNeedles([password, apiKey]),
+  needles: secretNeedles([password, apiKey, ...readSessionCookies()]),
   baseline: previousAnalysis({
     id: run.id,
     start: run.start === null ? null : new Date(run.start).toISOString(),

@@ -1,5 +1,5 @@
 import { ApiClient } from '@api/ApiClient';
-import { type BasketLine, type Product } from '@api/types';
+import { type ApiMessage, type BasketLine, type Product } from '@api/types';
 import { DOCUMENTED_ENDPOINTS } from '@config/constants';
 
 /**
@@ -18,5 +18,19 @@ export class DocumentedApi extends ApiClient {
       quantity,
     });
     return body.data;
+  }
+
+  /** `PUT /api/basket/items/{id}`, where the id is the basket item's own id. */
+  updateBasketItem(itemId: string, quantity: number): Promise<unknown> {
+    return this.put(`${DOCUMENTED_ENDPOINTS.basketItems}/${itemId}`, { quantity });
+  }
+
+  /** `DELETE /api/basket/items/{id}`, where the id is the basket item's own id. */
+  removeBasketItem(itemId: string): Promise<ApiMessage> {
+    return this.delete(`${DOCUMENTED_ENDPOINTS.basketItems}/${itemId}`);
+  }
+
+  clearBasket(): Promise<ApiMessage> {
+    return this.delete(DOCUMENTED_ENDPOINTS.basket);
   }
 }

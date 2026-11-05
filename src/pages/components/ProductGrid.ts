@@ -1,7 +1,7 @@
 import { type Locator, type Page } from '@playwright/test';
 
 import { ENDPOINTS } from '@config/constants';
-import { answerDialog, type DialogResponse } from '@pages/dialogs';
+import { answerDialog } from '@pages/dialogs';
 import { whileAwaitingApi } from '@pages/network';
 import { step } from '@utils/allure';
 
@@ -109,16 +109,23 @@ export class ProductGrid {
     return this;
   }
 
-  /** Clicks delete and answers the `confirm()`; when accepted, waits for the DELETE. Returns the dialog message. */
+  /** Clicks delete, accepts the `confirm()` and waits for the DELETE. Returns the dialog message. */
   @step((name: string) => `Delete "${name}" from its card`)
-  async delete(name: string, response: DialogResponse = 'accept'): Promise<string> {
-    const click = (): Promise<void> => this.card(name).getByTitle('Delete').click();
-    return answerDialog(
-      this.page,
-      response === 'accept'
-        ? () => whileAwaitingApi(this.page, 'DELETE', ENDPOINTS.products, click)
-        : click,
-      response,
+  async delete(name: string): Promise<string> {
+    return answerDialog(this.page, () =>
+      whileAwaitingApi(this.page, 'DELETE', ENDPOINTS.products, () =>
+        this.deleteButton(name).click(),
+      ),
     );
+  }
+
+  /** Clicks delete, then dismisses the `confirm()`. No request is sent. Returns the dialog message. */
+  @step((name: string) => `Start deleting "${name}" from its card, then dismiss`)
+  async abandonDelete(name: string): Promise<string> {
+    return answerDialog(this.page, () => this.deleteButton(name).click(), 'dismiss');
+  }
+
+  private deleteButton(name: string): Locator {
+    return this.card(name).getByTitle('Delete');
   }
 }
