@@ -91,9 +91,12 @@ runs:
       run: npm run analyze
 
     # Still built when an earlier step failed, for the artifact; the publish job then skips publishing.
+    # An unpublished report is only ever downloaded, so it is built as one file that opens from disk.
     - name: Generate the Allure report
       if: ${{ !cancelled() }}
       shell: bash
+      env:
+        ALLURE_SINGLE_FILE: ${{ inputs.report-url == '' }}
       run: npm run allure:generate
 
     - name: Upload the Allure report

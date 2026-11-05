@@ -19,7 +19,10 @@
       "PowerShell(npm run:*)",
       "PowerShell(git status:*)",
       "PowerShell(git diff:*)",
-      "PowerShell(git log:*)"
+      "PowerShell(git log:*)",
+      "Bash(ls -la \"C:/Users/eowyn/Downloads/allure-report\" 2>&1 | head -8; du -sh \"C:/Users/eowyn/Downloads/allure-report\" 2>&1; ls \"C:/Users/eowyn/Downloads/allure-report/data/attachments\" 2>/dev/null | wc -l; du -sh \"C:/Users/eowyn/Downloads/allure-report/data/attachments\" 2>/dev/null)",
+      "Read(//c/Users/eowyn/Downloads/allure-report/**)",
+      "Read(//c/Users/eowyn/Downloads/allure-report/data/attachments/**)"
     ],
     "deny": [
       "Bash(git commit:*)",
@@ -43,6 +46,7 @@
       "Read(./.auth/**)"
     ]
   },
+  "enableAllProjectMcpServers": true,
   "hooks": {
     "PreToolUse": [
       {
@@ -76,6 +80,5 @@
         ]
       }
     ]
-  },
-  "enableAllProjectMcpServers": true
+  }
 }

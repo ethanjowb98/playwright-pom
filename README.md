@@ -154,7 +154,7 @@ GitHub Actions ([.github/workflows/playwright.yml](.github/workflows/playwright.
 2. **api**, **e2e** (2 shards) and **stateful** (basket and order tests, one at a time across runs) in parallel, each uploading its Allure results. The `@login` tests run in the nightly run only, to stay inside the login rate limit. Pull requests from forks and Dependabot skip the tests: they get no repository secrets.
 3. **report** or **publish**: merges the results, runs `npm run analyze`, generates the Allure report with the history of earlier runs, and writes the analysis to the job summary (and, on a PR, one sticky comment)
 
-Every run except pull requests (pushes to `main`, the nightly, and manual runs of any branch or suite) **publishes** the report to GitHub Pages, failing and skipped tests included: the run list at `https://<owner>.github.io/<repo>/` (with each run's branch, suite and results), the newest report at `latest/`, and the last 20 reports with their trends. Pull requests keep the report as the run's `allure-report` artifact.
+Every run except pull requests (pushes to `main`, the nightly, and manual runs of any branch or suite) **publishes** the report to GitHub Pages, failing and skipped tests included: the run list at `https://<owner>.github.io/<repo>/` (with each run's branch, suite and results), the newest report at `latest/`, and the last 20 reports with their trends. Pull requests keep the report as the run's `allure-report` artifact: one `index.html` that opens from disk. The artifact of a published run is the multi-file report, which browsers block on `file://`; serve it with `npx allure open <folder>`.
 
 Repository setup:
 
