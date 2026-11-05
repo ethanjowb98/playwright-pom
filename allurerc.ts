@@ -20,6 +20,9 @@ export default defineConfig({
       options: {
         reportName: 'Market test report',
         groupBy: ['epic', 'feature', 'story'],
+        // A multi-file report fetches its data, which browsers block on file://. Set for reports that
+        // are downloaded; Pages keeps the default, as inlined videos could pass GitHub's file size limit.
+        singleFile: process.env.ALLURE_SINGLE_FILE === 'true',
       },
     },
   },

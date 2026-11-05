@@ -139,6 +139,7 @@ Progress: **91 / 91 tasks**
 - [x] UI negative paths left open by the M4 review: invalid product edit (cleared name, price ≤ 0), Place Order with an empty basket, dismissing Clear All keeps the basket, cancelling the delete-order modal keeps the order, empty login form
 - [x] `test-reviewer` agent pass over the whole repo; findings addressed
 - [x] Failed requests: a timeout leaves the `Authorization` header only in the HTML report (Playwright's request-step call log); `SecretGuard` holds that report back without failing the run or the Allure upload (probed: a forced timeout, and a timeout that passes on retry)
+- [x] PR `allure-report` artifact opens from disk: built as a single `index.html` (`ALLURE_SINGLE_FILE`); published reports stay multi-file
 - [x] **Exit:** every box above ticked
 
 ---
