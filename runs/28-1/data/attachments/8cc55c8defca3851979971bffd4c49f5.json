@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jmioc47w Bespoke Aluminum Soap",
+    "category": "pantry",
+    "price": 31.78,
+    "stock": 45,
+    "details": {
+      "brand": "Greenholt, Tromp and Grant",
+      "origin": "South Africa"
+    }
+  }
+}

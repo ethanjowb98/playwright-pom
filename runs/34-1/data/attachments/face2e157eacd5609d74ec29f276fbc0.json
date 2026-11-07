@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6pj8kq6s Sleek Silk Ball",
+    "category": "frozen",
+    "price": 24.76,
+    "stock": 32,
+    "details": {
+      "brand": "Tremblay, Wunsch and Rohan",
+      "origin": "Serbia"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "e0547f88-5302-4d2e-a9fd-028ada0f5feb",
+  "order_number": "O10787",
+  "status": "delivered",
+  "total_amount": 9.42,
+  "notes": null,
+  "created_at": "2026-11-07T09:28:35.876273+00:00",
+  "updated_at": "2026-11-07T09:28:35.876273+00:00",
+  "items": [
+    {
+      "product_id": "b0c1d2fb-ae5f-4eb7-a862-80e7cd3f6b12",
+      "product_name": "QA-1-yexklq7f Handcrafted Steel Salad",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 9.42,
+      "temperature_zone": null
+    }
+  ]
+}

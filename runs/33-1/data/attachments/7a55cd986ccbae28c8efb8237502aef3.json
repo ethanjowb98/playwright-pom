@@ -1,0 +1,15 @@
+{
+  "id": "d249d05b-59ec-4563-9570-2be4a6ac457f",
+  "product_name": "QA-2-56ya4bp1 sort Bravo",
+  "category": "household",
+  "price": 4.81,
+  "stock": 14,
+  "details": {
+    "brand": "Nicolas LLC",
+    "origin": "Solomon Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:49.923779+00:00"
+}

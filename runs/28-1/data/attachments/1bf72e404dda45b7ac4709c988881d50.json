@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uazzr23j Oriental Concrete Towels",
+    "category": "beverages",
+    "price": 24.28,
+    "stock": 14,
+    "details": {
+      "brand": "Jacobs, Abernathy and Lakin",
+      "origin": "Macao"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

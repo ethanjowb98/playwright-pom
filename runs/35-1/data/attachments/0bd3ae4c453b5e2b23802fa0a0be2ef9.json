@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3x499dot Frozen Steel Fish",
+    "category": "beverages",
+    "price": 10.06,
+    "stock": 23,
+    "details": {
+      "brand": "Cronin-Kemmer Inc",
+      "origin": "Togo"
+    }
+  }
+}

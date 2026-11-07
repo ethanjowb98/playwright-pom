@@ -1,0 +1,15 @@
+{
+  "id": "6df6d981-ff8d-4e52-a884-baa1b2349776",
+  "product_name": "QA-1-a5h33nzz Fantastic Granite Pizza",
+  "category": "other",
+  "price": 22.4,
+  "stock": 30,
+  "details": {
+    "brand": "Ward - Luettgen",
+    "origin": "Cocos (Keeling) Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:26:37.628386+00:00"
+}

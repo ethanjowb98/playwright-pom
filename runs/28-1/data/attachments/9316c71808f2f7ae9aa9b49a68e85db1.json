@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ed8013cf-97d8-4ade-bfe3-436196bd536e",
+    "order_number": "O37920",
+    "status": "pending",
+    "total_amount": 19.78,
+    "created_at": "2026-11-04T08:11:14.071534+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-966rcrpk Rustic Aluminum Mouse",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 19.78,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p598pm6x Small Granite Pants",
+    "category": "fresh-produce",
+    "price": 1.2,
+    "stock": 28,
+    "details": {
+      "brand": "Cruickshank, Miller and Beier",
+      "origin": "Kenya"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-oo25dzx1 sort Charlie",
+    "category": "snacks",
+    "price": 34.33,
+    "stock": 32,
+    "details": {
+      "brand": "Bayer, Purdy and Hartmann",
+      "origin": "Kenya"
+    }
+  }
+}

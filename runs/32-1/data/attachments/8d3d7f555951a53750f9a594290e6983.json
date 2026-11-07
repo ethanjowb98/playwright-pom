@@ -1,0 +1,15 @@
+{
+  "id": "7e2e4b09-c48c-4a1f-8a5b-10fc625c8ba4",
+  "product_name": "QA-1-n2pe6x6a Frozen Steel Pizza",
+  "category": "fresh-produce",
+  "price": 31.78,
+  "stock": 50,
+  "details": {
+    "brand": "Daugherty - Christiansen",
+    "origin": "Afghanistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:05.992277+00:00"
+}

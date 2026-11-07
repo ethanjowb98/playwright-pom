@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "dairy-eggs",
+    "price": 40.36,
+    "stock": 41,
+    "details": {
+      "brand": "Lesch and Sons",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "f4d6667d-7a66-4cf0-9417-efcbc291bc63",
+  "product_name": "QA-7-7wthm0uc sort Bravo",
+  "category": "snacks",
+  "price": 49.1,
+  "stock": 14,
+  "details": {
+    "brand": "Osinski LLC",
+    "origin": "South Sudan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:18.806417+00:00"
+}

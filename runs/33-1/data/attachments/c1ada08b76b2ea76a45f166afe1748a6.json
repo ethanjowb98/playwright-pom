@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-xq3tbprh Fantastic Cotton Sausages",
+    "category": "household",
+    "price": 33.42,
+    "stock": 48,
+    "details": {
+      "brand": "Armstrong, Cruickshank and Koss",
+      "origin": "Indonesia"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

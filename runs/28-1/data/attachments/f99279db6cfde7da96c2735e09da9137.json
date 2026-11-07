@@ -1,0 +1,15 @@
+{
+  "id": "1d7cf3a9-8c74-4b39-971e-2e3ffe4c521a",
+  "product_name": "QA-1-7xkw3oqp Refined Granite Shirt",
+  "category": "bakery",
+  "price": 26.93,
+  "stock": 19,
+  "details": {
+    "brand": "Braun, Beatty and Schaden",
+    "origin": "Peru"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:10:35.669318+00:00"
+}

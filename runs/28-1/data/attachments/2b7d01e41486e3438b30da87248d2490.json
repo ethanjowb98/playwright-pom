@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e3txip9m Gorgeous Plastic Car",
+    "category": "meat-seafood",
+    "price": 14.83,
+    "stock": 19,
+    "details": {
+      "brand": "Von, Pfeffer and Kuhlman",
+      "origin": "Qatar"
+    }
+  }
+}

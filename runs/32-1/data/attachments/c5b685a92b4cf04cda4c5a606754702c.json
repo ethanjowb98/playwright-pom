@@ -1,0 +1,15 @@
+{
+  "id": "6f731c1e-aee0-4a01-aeef-4f9f96ae1c5e",
+  "product_name": "QA-1-eqa9a5bd Incredible Cotton Chair",
+  "category": "meat-seafood",
+  "price": 35.42,
+  "stock": 11,
+  "details": {
+    "brand": "Brown-Simonis - Zieme",
+    "origin": "Kyrgyz Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:22:25.144168+00:00"
+}

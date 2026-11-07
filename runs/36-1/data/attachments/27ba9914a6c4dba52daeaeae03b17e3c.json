@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-008nrf1j Tasty Silk Salad",
+    "category": "pantry",
+    "price": 18.89,
+    "stock": 49,
+    "details": {
+      "brand": "Morar - Rogahn",
+      "origin": "Faroe Islands"
+    }
+  }
+}

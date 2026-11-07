@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-ajq7p4r0 Recycled Marble Tuna",
+    "category": "fresh-produce",
+    "price": 13.65,
+    "stock": 19,
+    "details": {
+      "batch": "QA-5-06vbm7dj batch"
+    }
+  }
+}

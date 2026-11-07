@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qkx9bezw Luxurious Wooden Towels",
+    "category": "household",
+    "price": 12.84,
+    "stock": 43,
+    "details": {
+      "brand": "Kuphal - Lehner",
+      "origin": "Curaçao"
+    }
+  }
+}

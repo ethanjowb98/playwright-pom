@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-los89bhm Luxurious Cotton Shoes",
+    "category": "meat-seafood",
+    "price": 8.64,
+    "stock": 40,
+    "details": {
+      "brand": "Abshire-Bartoletti LLC",
+      "origin": "Singapore"
+    }
+  }
+}

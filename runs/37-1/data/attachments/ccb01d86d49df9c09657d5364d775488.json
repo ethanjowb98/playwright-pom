@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "82ee696f-7705-4de3-8cfe-3b8bc418a3dc",
+    "order_number": "O58368",
+    "status": "pending",
+    "total_amount": 76.68,
+    "created_at": "2026-11-07T09:28:26.205602+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-b8gpnoc6 Bespoke Plastic Ball",
+        "category": "fresh-produce",
+        "quantity": 3,
+        "price": 2.14,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-36wuufrs Luxurious Cotton Shoes",
+        "category": "household",
+        "quantity": 3,
+        "price": 23.42,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

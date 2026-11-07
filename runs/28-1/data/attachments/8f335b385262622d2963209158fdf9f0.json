@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ubw38rfi sort Charlie",
+    "category": "other",
+    "price": 29.9,
+    "stock": 45,
+    "details": {
+      "brand": "Bechtelar - Collins",
+      "origin": "Somalia"
+    }
+  }
+}

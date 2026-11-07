@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-1cqk855i Practical Bronze Soap",
+    "category": "bakery",
+    "price": 38.85,
+    "stock": 0,
+    "details": {
+      "brand": "Jacobson - Aufderhar",
+      "origin": "Antarctica"
+    }
+  }
+}

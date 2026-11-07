@@ -1,0 +1,15 @@
+{
+  "id": "e2e42f7e-098b-4be8-9c70-520491bcd6f2",
+  "product_name": "QA-3-xuul0rpr Awesome Rubber Chicken",
+  "category": "fresh-produce",
+  "price": 27.44,
+  "stock": 18,
+  "details": {
+    "brand": "Graham - Spencer",
+    "origin": "Norfolk Island"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:58.190404+00:00"
+}

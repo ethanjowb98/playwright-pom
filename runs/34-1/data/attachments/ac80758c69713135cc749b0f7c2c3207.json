@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-g32b9kqb Handmade Ceramic Bike",
+    "category": "snacks",
+    "price": 34.84,
+    "stock": "x",
+    "details": {
+      "brand": "Smitham - Huel",
+      "origin": "Bermuda"
+    }
+  }
+}

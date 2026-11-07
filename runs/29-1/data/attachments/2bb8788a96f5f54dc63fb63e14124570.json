@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-h05cvp47 Handcrafted Bronze Pizza",
+    "category": "frozen",
+    "price": 16.01,
+    "stock": 28,
+    "details": {
+      "brand": "Cole and Sons",
+      "origin": "Gabon"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d634215c-1f12-44e3-b15f-9bde4c60f4a5",
+    "order_number": "O31599",
+    "status": "pending",
+    "total_amount": 38.94,
+    "created_at": "2026-11-04T08:10:27.449609+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-jdwro44m Fantastic Bronze Chips",
+        "category": "other",
+        "quantity": 3,
+        "price": 12.98,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

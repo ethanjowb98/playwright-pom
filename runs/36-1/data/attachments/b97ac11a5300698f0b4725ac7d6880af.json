@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-7wthm0uc sort Charlie",
+    "category": "frozen",
+    "price": 42.68,
+    "stock": 27,
+    "details": {
+      "brand": "Cassin, Heaney-Hayes and Hickle",
+      "origin": "Bulgaria"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ab19b6e3-755e-4323-b874-d47f25c2af3e",
+  "product_name": "QA-2-ytaclydz sort Charlie",
+  "category": "dairy-eggs",
+  "price": 49.4,
+  "stock": 20,
+  "details": {
+    "brand": "Kreiger Inc",
+    "origin": "Mauritius"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:50.166785+00:00"
+}

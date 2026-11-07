@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "3bdf6ab4-4cd7-41cf-a9ae-342204a8b822",
+      "product_id": "799b20cd-0210-41bd-837a-4f09d530e3be",
+      "product_name": "QA-1-g8n1xb79 Awesome Rubber Sausages",
+      "price": 42.5,
+      "category": "snacks",
+      "quantity": 1,
+      "created_at": "2026-11-06T10:08:27.439496+00:00",
+      "updated_at": "2026-11-06T10:08:27.439496+00:00"
+    },
+    {
+      "id": "59ea2480-c311-497d-a6d7-20f2fa436b42",
+      "product_id": "e8d8d2d8-2b71-4fc4-b677-ae40a85c7bd5",
+      "product_name": "QA-1-qrrxnkoi Gorgeous Bronze Bike",
+      "price": 45.09,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-06T10:08:28.056323+00:00",
+      "updated_at": "2026-11-06T10:08:28.056323+00:00"
+    }
+  ]
+}

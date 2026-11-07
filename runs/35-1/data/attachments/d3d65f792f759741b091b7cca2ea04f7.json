@@ -1,0 +1,15 @@
+{
+  "id": "60d12d8e-f368-499e-bc78-bdaa1854a4c8",
+  "product_name": "QA-1-tfwa4wj1 Rustic Aluminum Bike",
+  "category": "fresh-produce",
+  "price": 7.96,
+  "stock": 10,
+  "details": {
+    "brand": "Bartell - Hammes",
+    "origin": "Mexico"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:03:38.328354+00:00"
+}

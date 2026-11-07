@@ -1,0 +1,15 @@
+{
+  "id": "4479aa1f-1a5c-4bf5-8672-d2b896ec1f4d",
+  "product_name": "QA-2-56ya4bp1 sort Alpha",
+  "category": "meat-seafood",
+  "price": 17.63,
+  "stock": 19,
+  "details": {
+    "brand": "Bogan LLC",
+    "origin": "Martinique"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:49.506883+00:00"
+}

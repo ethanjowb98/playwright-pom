@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wr30ca99 Luxurious Plastic Car",
+    "category": "household",
+    "price": 25.08,
+    "stock": 41,
+    "details": {
+      "brand": "Pfeffer and Sons",
+      "origin": "Myanmar"
+    }
+  }
+}

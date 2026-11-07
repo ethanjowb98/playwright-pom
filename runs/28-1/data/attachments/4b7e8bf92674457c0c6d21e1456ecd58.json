@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-nzrw5d4z Intelligent Ceramic Pizza",
+    "category": "bakery",
+    "price": 39.99,
+    "stock": 15,
+    "details": {
+      "brand": "Cummings, Zieme and Lind",
+      "origin": "Anguilla"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

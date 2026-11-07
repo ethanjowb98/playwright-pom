@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4ox7r3y9 Generic Silk Chips",
+    "category": "snacks",
+    "price": 19.44,
+    "stock": 35,
+    "details": {
+      "brand": "Rippin, Aufderhar and Bruen",
+      "origin": "Niue"
+    }
+  }
+}

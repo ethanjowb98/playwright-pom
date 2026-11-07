@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-903heh24 Intelligent Ceramic Sausages",
+    "category": "bakery",
+    "price": 30.69,
+    "stock": 10,
+    "details": {
+      "brand": "Herman - Botsford",
+      "origin": "Morocco"
+    }
+  }
+}

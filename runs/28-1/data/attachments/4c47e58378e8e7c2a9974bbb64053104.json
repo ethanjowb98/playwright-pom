@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ricp2csu Handmade Steel Bike",
+    "category": "snacks",
+    "price": 28.99,
+    "stock": 30,
+    "details": {
+      "brand": "Bartell - Bauch",
+      "origin": "Philippines"
+    }
+  }
+}

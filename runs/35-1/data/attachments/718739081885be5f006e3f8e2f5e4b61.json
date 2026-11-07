@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wfcoxoxv Modern Metal Computer",
+    "category": "fresh-produce",
+    "price": 14.68,
+    "stock": 42,
+    "details": {
+      "brand": "Hahn Inc",
+      "origin": "Nigeria"
+    }
+  }
+}

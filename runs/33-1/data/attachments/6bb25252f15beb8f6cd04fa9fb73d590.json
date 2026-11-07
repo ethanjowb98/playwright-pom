@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-egc3q7a3 Modern Aluminum Sausages",
+    "category": "bakery",
+    "price": 34.05,
+    "stock": 11,
+    "details": {
+      "brand": "Medhurst Inc",
+      "origin": "Western Sahara"
+    }
+  }
+}

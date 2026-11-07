@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2bqeddsl Handmade Bronze Keyboard",
+    "category": "beverages",
+    "price": 34.24,
+    "stock": 42,
+    "details": {
+      "brand": "Roberts, Kihn and Carroll",
+      "origin": "Andorra"
+    }
+  }
+}

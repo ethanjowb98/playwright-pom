@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-x9h0t9ra Tasty Ceramic Chicken",
+    "category": "beverages",
+    "price": 38.11,
+    "stock": "x",
+    "details": {
+      "brand": "Fritsch and Sons",
+      "origin": "Niue"
+    }
+  }
+}

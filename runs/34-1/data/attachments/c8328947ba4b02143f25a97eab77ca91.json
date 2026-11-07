@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xtnvy6oi Recycled Granite Shirt",
+    "category": "snacks",
+    "price": 25.7,
+    "stock": 42,
+    "details": {
+      "brand": "Grady Inc",
+      "origin": "Costa Rica"
+    }
+  }
+}

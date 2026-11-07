@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fsqea8wc Awesome Silk Salad",
+    "category": "household",
+    "price": 26.66,
+    "stock": 41,
+    "details": {
+      "brand": "Herman - Jast",
+      "origin": "Spain"
+    }
+  }
+}

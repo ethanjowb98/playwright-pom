@@ -1,0 +1,15 @@
+{
+  "id": "b05d8da9-014a-4423-8a03-2b1dc294fe20",
+  "product_name": "QA-1-idpe7a2e Modern Concrete Bacon",
+  "category": "dairy-eggs",
+  "price": 34.28,
+  "stock": 19,
+  "details": {
+    "brand": "Grady, Rodriguez and Keebler",
+    "origin": "Peru"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:25:41.872668+00:00"
+}

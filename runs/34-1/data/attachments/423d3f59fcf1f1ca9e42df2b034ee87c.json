@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2x736a5l Intelligent Silk Tuna",
+    "category": "beverages",
+    "price": 13.5,
+    "stock": 12,
+    "details": {
+      "brand": "Hickle Group",
+      "origin": "Cambodia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xrtrd2nt Sleek Cotton Car",
+    "category": "pantry",
+    "price": 20.84,
+    "stock": 43,
+    "details": {
+      "brand": "Dickinson LLC",
+      "origin": "New Zealand"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "047940ad-7cf0-44cd-a4d2-ea9bad73c6bc",
+  "product_name": "QA-3-7gx3txr6 Fantastic Gold Computer",
+  "category": "bakery",
+  "price": 30.51,
+  "stock": 33,
+  "details": {
+    "brand": "Larson, Trantow and Heller",
+    "origin": "Tonga"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:19:05.259006+00:00"
+}

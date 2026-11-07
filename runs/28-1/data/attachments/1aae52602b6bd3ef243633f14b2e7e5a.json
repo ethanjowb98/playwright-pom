@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-r7nspunt Refined Bamboo Mouse",
+    "price": 2.83,
+    "stock": 21,
+    "details": {
+      "brand": "Hyatt Group",
+      "origin": "Oman"
+    }
+  }
+}

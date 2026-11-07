@@ -1,0 +1,15 @@
+{
+  "id": "26ffc6c9-5ad3-4668-a319-adb7b35a225c",
+  "product_name": "QA-1-inlqm5xb Generic Silk Soap",
+  "category": "dairy-eggs",
+  "price": 7.45,
+  "stock": 30,
+  "details": {
+    "brand": "Beer - Brekke-Gulgowski",
+    "origin": "Dominica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:09:20.726938+00:00"
+}

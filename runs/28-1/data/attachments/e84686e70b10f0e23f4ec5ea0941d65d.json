@@ -1,0 +1,15 @@
+{
+  "id": "a08f48cc-a7d8-4b8c-a529-d324d1a362f1",
+  "product_name": "QA-3-8qkljczq sort Charlie",
+  "category": "meat-seafood",
+  "price": 8.42,
+  "stock": 37,
+  "details": {
+    "brand": "Becker, Medhurst-Veum and Schuster",
+    "origin": "Nauru"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:08:41.098304+00:00"
+}

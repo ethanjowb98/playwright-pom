@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-jqtu2iyt sort Alpha",
+    "category": "bakery",
+    "price": 48.2,
+    "stock": 49,
+    "details": {
+      "brand": "Botsford, Mraz and Konopelski",
+      "origin": "Senegal"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hqby78va Handcrafted Bronze Salad",
+    "category": "bakery",
+    "price": 7.44,
+    "stock": 44,
+    "details": {
+      "brand": "Murazik and Sons",
+      "origin": "Papua New Guinea"
+    }
+  }
+}

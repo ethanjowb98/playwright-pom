@@ -1,0 +1,15 @@
+{
+  "id": "24821aa7-b821-4271-9d20-7eaf9777ef1a",
+  "product_name": "QA-1-qnafqk18 Elegant Marble Computer",
+  "category": "frozen",
+  "price": 4.32,
+  "stock": 42,
+  "details": {
+    "brand": "Nikolaus, Koss and Skiles",
+    "origin": "Ecuador"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:10:02.382514+00:00"
+}

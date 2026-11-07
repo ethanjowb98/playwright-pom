@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-22sb57kh Electronic Aluminum Fish",
+    "category": "frozen",
+    "price": 5.71,
+    "stock": 22,
+    "details": {
+      "brand": "Bergnaum, Erdman and Haley",
+      "origin": "Bangladesh"
+    }
+  }
+}

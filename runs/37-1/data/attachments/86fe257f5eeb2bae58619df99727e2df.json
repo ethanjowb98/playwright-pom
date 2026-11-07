@@ -1,0 +1,15 @@
+{
+  "id": "b647c261-495f-463c-9991-910a8c4fbc47",
+  "product_name": "QA-3-a0sunjsd Luxurious Gold Shirt",
+  "category": "snacks",
+  "price": 20.32,
+  "stock": 28,
+  "details": {
+    "brand": "Lubowitz and Sons",
+    "origin": "San Marino"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:01.140029+00:00"
+}

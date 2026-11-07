@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p8jmy1kx Fantastic Concrete Chips",
+    "category": "frozen",
+    "price": 4.9,
+    "stock": 16,
+    "details": {
+      "brand": "Collier - Batz",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

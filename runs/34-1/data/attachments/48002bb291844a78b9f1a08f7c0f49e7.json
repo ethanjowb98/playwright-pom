@@ -1,0 +1,15 @@
+{
+  "id": "f1610f6d-4aaf-42c6-9f71-6a87609aa432",
+  "product_name": "QA-3-73fxb0ld Practical Bronze Shoes",
+  "category": "beverages",
+  "price": 10.76,
+  "stock": 31,
+  "details": {
+    "brand": "Kirlin Group",
+    "origin": "Norfolk Island"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:19:01.962478+00:00"
+}

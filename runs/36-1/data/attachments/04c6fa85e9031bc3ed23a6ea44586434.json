@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "6e9534bd-4c63-48f4-9b58-5183f1120fb7",
+      "order_number": "O98013",
+      "status": "pending",
+      "total_amount": 30.96,
+      "notes": null,
+      "created_at": "2026-11-06T10:09:39.021936+00:00",
+      "updated_at": "2026-11-06T10:09:39.021936+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-d324545t Elegant Steel Ball",
+          "category": "household",
+          "quantity": 1,
+          "price": 30.96,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

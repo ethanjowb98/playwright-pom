@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-s0pqjw76 Oriental Concrete Chips",
+    "category": "snacks",
+    "price": 15.42,
+    "stock": 40,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

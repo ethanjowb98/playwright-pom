@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-shnb3666 Modern Bamboo Chips",
+    "category": "snacks",
+    "price": 47.64,
+    "stock": 12,
+    "details": {
+      "brand": "Rohan Group",
+      "origin": "Dominica"
+    }
+  }
+}

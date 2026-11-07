@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tyw6w9b7 Unbranded Silk Salad",
+    "category": "household",
+    "price": 17.72,
+    "stock": 2,
+    "details": {
+      "brand": "Pfannerstill - Paucek",
+      "origin": "Serbia"
+    }
+  }
+}

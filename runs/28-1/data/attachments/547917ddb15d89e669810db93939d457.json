@@ -1,0 +1,15 @@
+{
+  "id": "35d5aeef-7c6e-4088-ad5e-251888270d0d",
+  "product_name": "QA-5-1t2k6jsk Fresh Gold Keyboard",
+  "category": "bakery",
+  "price": 30.53,
+  "stock": 20,
+  "details": {
+    "brand": "Sauer - Ryan",
+    "origin": "Guadeloupe"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:16.208949+00:00"
+}

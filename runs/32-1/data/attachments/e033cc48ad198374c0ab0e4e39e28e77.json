@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "c61476c7-9205-4f41-b22c-242f2d1f34ad",
+      "product_id": "04614346-7da0-421e-b728-08df1a97946f",
+      "product_name": "QA-1-3e6li6qk Ergonomic Marble Fish",
+      "price": 45.69,
+      "category": "meat-seafood",
+      "quantity": 3,
+      "created_at": "2026-11-05T08:22:41.323788+00:00",
+      "updated_at": "2026-11-05T08:22:41.323788+00:00"
+    },
+    {
+      "id": "a72468eb-7900-4ece-95b2-a1ba955e38bd",
+      "product_id": "32c8b389-0f51-46d9-b7c7-de14e510e877",
+      "product_name": "QA-1-4z8wmert Rustic Granite Fish",
+      "price": 26.76,
+      "category": "fresh-produce",
+      "quantity": 1,
+      "created_at": "2026-11-05T08:22:41.93286+00:00",
+      "updated_at": "2026-11-05T08:22:41.93286+00:00"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "f3938b82-45cb-47b3-b589-caf5747feb5d",
+  "product_name": "QA-1-ucidt3tt Oriental Metal Salad",
+  "category": "snacks",
+  "price": 44.71,
+  "stock": 12,
+  "details": {
+    "brand": "D'Amore Inc",
+    "origin": "Kuwait"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:26:32.69888+00:00"
+}

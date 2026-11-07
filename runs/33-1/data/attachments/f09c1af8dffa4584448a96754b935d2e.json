@@ -1,0 +1,15 @@
+{
+  "id": "3d5d1eb5-1ef0-4e9f-a16d-e6c3524f933a",
+  "product_name": "QA-1-8poku747 Oriental Bamboo Cheese",
+  "category": "beverages",
+  "price": 37.88,
+  "stock": 25,
+  "details": {
+    "brand": "Hartmann and Sons",
+    "origin": "Lesotho"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:56.795503+00:00"
+}

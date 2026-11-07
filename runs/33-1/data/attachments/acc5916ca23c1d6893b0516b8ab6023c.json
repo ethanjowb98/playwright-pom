@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xktd4eiu Modern Bamboo Chips",
+    "category": "frozen",
+    "price": 26.51,
+    "stock": 2,
+    "details": {
+      "brand": "Quitzon, Rempel and Anderson",
+      "origin": "Greenland"
+    }
+  }
+}

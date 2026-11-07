@@ -1,0 +1,15 @@
+{
+  "id": "87d64422-3350-4db8-a8d7-480333f5fc32",
+  "product_name": "QA-3-vvncyfo7 Tasty Aluminum Chicken",
+  "category": "frozen",
+  "price": 50.97,
+  "stock": 38,
+  "details": {
+    "brand": "Smitham, Dietrich and Nicolas",
+    "origin": "Maldives"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:05.718379+00:00"
+}

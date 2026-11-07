@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ljgj4vj8 Unbranded Ceramic Chips",
+    "category": "fresh-produce",
+    "price": 34.31,
+    "stock": 10,
+    "details": {
+      "brand": "Veum-Beier Inc",
+      "origin": "France"
+    }
+  }
+}

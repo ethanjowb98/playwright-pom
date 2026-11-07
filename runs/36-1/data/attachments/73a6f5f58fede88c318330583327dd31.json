@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-kvpe4zqt Fresh Silk Hat",
+    "category": "snacks",
+    "price": 46.89,
+    "stock": 21,
+    "details": {
+      "brand": "Hammes, Dare-Morissette and Keeling",
+      "origin": "Saint Helena"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "6d879322-43ec-4da4-b0a9-c6225cee01e4",
+  "product_name": "QA-2-mk80dcdm Bespoke Granite Sausages",
+  "category": "other",
+  "price": 6.08,
+  "stock": 13,
+  "details": {
+    "brand": "Herman LLC",
+    "origin": "China"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:54.301855+00:00"
+}

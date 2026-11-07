@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-ixhbszvj Small Rubber Table",
+    "category": "beverages",
+    "price": 2.27,
+    "stock": 12,
+    "details": {
+      "batch": "QA-6-jrs3komg batch"
+    }
+  }
+}

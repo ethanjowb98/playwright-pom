@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xulwk021 Fresh Cotton Gloves",
+    "category": "bakery",
+    "price": 20.13,
+    "stock": 12,
+    "details": {
+      "brand": "Murphy - Wisozk",
+      "origin": "Peru"
+    }
+  }
+}

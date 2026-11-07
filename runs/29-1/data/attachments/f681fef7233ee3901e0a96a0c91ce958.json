@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-neyep8a7 sort Charlie",
+    "category": "meat-seafood",
+    "price": 25.73,
+    "stock": 20,
+    "details": {
+      "brand": "Lind-Littel - Ortiz",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

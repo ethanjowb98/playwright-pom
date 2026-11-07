@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uwgn9j9d Unbranded Metal Bike",
+    "category": "pantry",
+    "price": 15.64,
+    "stock": 2,
+    "details": {
+      "brand": "Altenwerth - Adams",
+      "origin": "Nepal"
+    }
+  }
+}

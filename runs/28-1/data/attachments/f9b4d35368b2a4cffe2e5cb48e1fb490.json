@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-gcg6o1ti sort Bravo",
+    "category": "dairy-eggs",
+    "price": 35.32,
+    "stock": 46,
+    "details": {
+      "brand": "Lowe-Gorczany, Anderson and McKenzie",
+      "origin": "Zambia"
+    }
+  }
+}

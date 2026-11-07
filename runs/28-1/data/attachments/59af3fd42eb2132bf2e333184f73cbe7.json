@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-8qkljczq sort Alpha",
+    "category": "snacks",
+    "price": 47.09,
+    "stock": 17,
+    "details": {
+      "brand": "Swift Group",
+      "origin": "Peru"
+    }
+  }
+}

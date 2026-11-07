@@ -1,0 +1,15 @@
+{
+  "id": "02facc8f-63bc-47d6-855a-202a2bf17557",
+  "product_name": "QA-1-cnnyzjqb Fantastic Metal Salad",
+  "category": "household",
+  "price": 3.08,
+  "stock": 49,
+  "details": {
+    "brand": "O'Reilly-Emmerich, Morar and Larson",
+    "origin": "Aruba"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:21:48.735617+00:00"
+}

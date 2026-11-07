@@ -1,0 +1,33 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d27109cf-670d-427b-a3ff-e74f9c00f1ae",
+    "order_number": "O83131",
+    "status": "pending",
+    "total_amount": 193.72,
+    "created_at": "2026-11-05T09:19:16.482093+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-iq3ukzwa Elegant Granite Shoes",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 49.14,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-xxfki4yu Practical Gold Sausages",
+        "category": "bakery",
+        "quantity": 3,
+        "price": 39.39,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-kmus9tuv Intelligent Plastic Chips",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 26.41,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b0e39769-cca3-4d89-b226-5845d7ad1925",
+  "product_name": "QA-8-juq9tf5z Elegant Marble Table",
+  "category": "beverages",
+  "price": 6.8,
+  "stock": 11,
+  "details": {
+    "brand": "Runolfsson - Schinner",
+    "origin": "Israel"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:44.245561+00:00"
+}

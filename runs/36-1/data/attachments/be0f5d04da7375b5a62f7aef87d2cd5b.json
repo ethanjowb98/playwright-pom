@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2kr9er19 Practical Marble Chips",
+    "category": "frozen",
+    "price": 5.18,
+    "stock": 32,
+    "details": {
+      "brand": "McGlynn-Thiel and Sons",
+      "origin": "Peru"
+    }
+  }
+}

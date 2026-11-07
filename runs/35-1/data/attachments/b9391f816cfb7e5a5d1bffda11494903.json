@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-53xihd9w Handmade Steel Chair",
+    "category": "household",
+    "price": 49.73,
+    "stock": 20,
+    "details": {
+      "brand": "Leannon-Swaniawski Group",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

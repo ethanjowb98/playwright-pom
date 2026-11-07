@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jg8p94l9 Handcrafted Cotton Chips",
+    "category": "bakery",
+    "price": 21.04,
+    "stock": 32,
+    "details": {
+      "brand": "Wehner LLC",
+      "origin": "Gibraltar"
+    }
+  }
+}

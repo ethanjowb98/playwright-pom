@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ve4erppx Licensed Marble Table",
+    "category": "household",
+    "price": 28.47,
+    "stock": 30,
+    "details": {
+      "brand": "Schowalter - Hermiston",
+      "origin": "Armenia"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

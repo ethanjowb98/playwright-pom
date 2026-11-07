@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ztbmvb50 Frozen Gold Pants",
+    "category": "bakery",
+    "price": 41.56,
+    "stock": 49,
+    "details": {
+      "brand": "Hagenes - Fahey",
+      "origin": "Honduras"
+    }
+  }
+}

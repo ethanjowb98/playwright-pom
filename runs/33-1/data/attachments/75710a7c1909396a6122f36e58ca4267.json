@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tibb1npz Recycled Plastic Pants",
+    "category": "frozen",
+    "price": 25.65,
+    "stock": 1.5,
+    "details": {
+      "brand": "Kling, Goodwin and Nikolaus",
+      "origin": "Guatemala"
+    }
+  }
+}

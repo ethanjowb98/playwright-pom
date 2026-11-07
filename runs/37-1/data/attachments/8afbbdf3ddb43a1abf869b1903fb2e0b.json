@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g1nq58z0 Oriental Marble Gloves",
+    "category": "other",
+    "price": "abc",
+    "stock": 18,
+    "details": {
+      "brand": "Reilly - Hickle",
+      "origin": "Côte d'Ivoire"
+    }
+  }
+}

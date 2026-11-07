@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-3nxh52gu Elegant Granite Pizza",
+    "category": "dairy-eggs",
+    "price": 1.96,
+    "stock": 22,
+    "details": {
+      "brand": "Lueilwitz - Heller",
+      "origin": "Liechtenstein"
+    }
+  }
+}

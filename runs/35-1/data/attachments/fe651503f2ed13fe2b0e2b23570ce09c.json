@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "eba735db-6bc7-42cc-a868-e046d1ddd4c6",
+    "order_number": "O62229",
+    "status": "pending",
+    "total_amount": 149.19,
+    "created_at": "2026-11-05T10:06:10.435906+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-53xihd9w Handmade Steel Chair",
+        "category": "household",
+        "quantity": 3,
+        "price": 49.73,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

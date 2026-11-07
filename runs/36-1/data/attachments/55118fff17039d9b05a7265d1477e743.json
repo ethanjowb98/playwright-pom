@@ -1,0 +1,15 @@
+{
+  "id": "6a34337e-65fd-4714-81c2-e7528c8db9b9",
+  "product_name": "QA-8-reosfpiz sort Alpha",
+  "category": "household",
+  "price": 35.52,
+  "stock": 11,
+  "details": {
+    "brand": "Marquardt Group",
+    "origin": "Dominican Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:16.565996+00:00"
+}

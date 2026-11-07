@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-59ntc15z Tasty Silk Shirt",
+    "category": "dairy-eggs",
+    "price": 29.5,
+    "stock": 18,
+    "details": {
+      "brand": "Kutch-Kulas LLC",
+      "origin": "Benin"
+    }
+  }
+}

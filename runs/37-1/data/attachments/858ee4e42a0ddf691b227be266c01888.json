@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-6639246u Unbranded Bamboo Cheese",
+    "category": "household",
+    "price": 21.67,
+    "stock": "x",
+    "details": {
+      "brand": "Williamson-Tremblay, Schuster and Feest",
+      "origin": "Iceland"
+    }
+  }
+}

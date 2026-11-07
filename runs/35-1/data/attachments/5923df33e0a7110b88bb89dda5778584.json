@@ -1,0 +1,15 @@
+{
+  "id": "f343b228-1da5-4ae8-b954-ea8be544c0f8",
+  "product_name": "QA-1-vym2p1ck Soft Ceramic Sausages",
+  "category": "beverages",
+  "price": 22.1,
+  "stock": 27,
+  "details": {
+    "brand": "Kerluke - Weimann",
+    "origin": "Iran"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:04:36.742747+00:00"
+}

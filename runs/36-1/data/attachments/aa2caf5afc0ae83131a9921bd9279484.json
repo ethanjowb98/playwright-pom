@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-nmw5w49h Awesome Gold Chicken",
+    "category": "beverages",
+    "price": 4.59,
+    "stock": 44,
+    "details": {
+      "brand": "Brekke - Prosacco",
+      "origin": "Latvia"
+    }
+  }
+}

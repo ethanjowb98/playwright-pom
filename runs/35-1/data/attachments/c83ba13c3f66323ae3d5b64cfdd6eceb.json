@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "6d14238b-0db3-444f-b6ef-fb15013c7597",
+    "order_number": "O75981",
+    "status": "pending",
+    "total_amount": 2.68,
+    "created_at": "2026-11-05T10:06:04.76949+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-fwxikf16 Licensed Rubber Bacon",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 2.68,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

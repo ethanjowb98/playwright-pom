@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oof0li60 Elegant Steel Pizza",
+    "category": "snacks",
+    "price": 23.42,
+    "stock": 20,
+    "details": {
+      "brand": "O'Hara, Dietrich and Braun",
+      "origin": "Samoa"
+    }
+  }
+}

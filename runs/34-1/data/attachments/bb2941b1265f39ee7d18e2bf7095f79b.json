@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7wr14imx Handmade Bamboo Chair",
+    "category": "dairy-eggs",
+    "price": 28.08,
+    "stock": -5,
+    "details": {
+      "brand": "Gutmann Inc",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

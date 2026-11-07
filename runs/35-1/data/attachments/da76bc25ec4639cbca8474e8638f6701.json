@@ -1,0 +1,15 @@
+{
+  "id": "670e9819-6d1c-4194-b420-02e86f7da5d6",
+  "product_name": "QA-2-7vxdlu1d Awesome Silk Shoes",
+  "category": "meat-seafood",
+  "price": 29.44,
+  "stock": 28,
+  "details": {
+    "brand": "Murray, Ernser and Wiegand",
+    "origin": "Argentina"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:28.206755+00:00"
+}

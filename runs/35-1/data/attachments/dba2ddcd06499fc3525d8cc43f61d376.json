@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "b28a291a-ab4b-4268-a24b-5bfbb3eaa21f",
+    "order_number": "O54401",
+    "status": "pending",
+    "total_amount": 142.48,
+    "created_at": "2026-11-05T10:05:55.642234+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-0ohb92o4 Incredible Silk Chair",
+        "category": "fresh-produce",
+        "quantity": 2,
+        "price": 37.19,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-h3tee1yy Intelligent Cotton Car",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 22.7,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

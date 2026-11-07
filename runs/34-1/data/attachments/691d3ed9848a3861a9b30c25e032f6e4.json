@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-alqp7akc Ergonomic Granite Tuna",
+    "category": "bakery",
+    "price": 42.65,
+    "stock": 19,
+    "details": {
+      "brand": "Schoen, Rolfson and O'Hara",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

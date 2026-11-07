@@ -1,0 +1,19 @@
+{
+  "id": "94dbebfd-b32d-4782-a33c-4da042ad85d9",
+  "order_number": "O21323",
+  "status": "cancelled",
+  "total_amount": 113.16,
+  "notes": null,
+  "created_at": "2026-11-05T08:26:29.123013+00:00",
+  "updated_at": "2026-11-05T08:26:29.123013+00:00",
+  "items": [
+    {
+      "product_id": "b161af5b-ed25-4bf4-8f09-f96057187a48",
+      "product_name": "QA-1-ujwg6vik Licensed Bamboo Shoes",
+      "category": "dairy-eggs",
+      "quantity": 3,
+      "price": 37.72,
+      "temperature_zone": null
+    }
+  ]
+}

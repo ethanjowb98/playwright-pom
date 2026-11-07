@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1vg6d3l7 Intelligent Concrete Table",
+    "category": "meat-seafood",
+    "price": 2.44,
+    "stock": 39,
+    "details": {
+      "brand": "Schowalter - Erdman",
+      "origin": "Burkina Faso"
+    }
+  }
+}

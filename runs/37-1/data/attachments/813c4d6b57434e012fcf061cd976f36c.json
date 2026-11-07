@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-3bzw0v7i Soft Aluminum Towels",
+    "category": "snacks",
+    "price": 36.89,
+    "stock": 17,
+    "details": {
+      "brand": "Spinka, Brown and O'Kon",
+      "origin": "China"
+    },
+    "weighted": true
+  }
+}

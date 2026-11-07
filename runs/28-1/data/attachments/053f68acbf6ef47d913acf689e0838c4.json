@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j1s4foar Bespoke Wooden Cheese",
+    "category": "snacks",
+    "stock": 32,
+    "details": {
+      "brand": "Lynch - Kiehn-Schimmel",
+      "origin": "Saint Lucia"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-x9kzcfwm Electronic Metal Soap",
+    "category": "household",
+    "price": 45.03,
+    "stock": 33,
+    "details": {
+      "brand": "O'Connell - Lehner",
+      "origin": "Malta"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i0u27cji Sleek Ceramic Fish",
+    "category": "dairy-eggs",
+    "price": 27.46,
+    "stock": 19,
+    "details": {
+      "brand": "Medhurst, Okuneva and Goyette",
+      "origin": "France"
+    }
+  }
+}

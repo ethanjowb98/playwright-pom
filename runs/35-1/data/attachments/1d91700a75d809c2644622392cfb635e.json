@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-i7327waa Gorgeous Rubber Salad",
+    "price": 43.69,
+    "stock": 34,
+    "details": {
+      "brand": "Brekke - Buckridge",
+      "origin": "Azerbaijan"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "7946f7f1-0469-40a2-a7c9-2c949d1e052f",
+  "product_name": "QA-1-i7j49ktw sort Charlie",
+  "category": "beverages",
+  "price": 42.08,
+  "stock": 44,
+  "details": {
+    "brand": "Bahringer - White",
+    "origin": "Tokelau"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:22.221852+00:00"
+}

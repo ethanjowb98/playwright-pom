@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0liun59b Sleek Concrete Cheese",
+    "category": "fresh-produce",
+    "price": 28.22,
+    "stock": 25,
+    "details": {
+      "brand": "Carter - Zemlak",
+      "origin": "Costa Rica"
+    }
+  }
+}

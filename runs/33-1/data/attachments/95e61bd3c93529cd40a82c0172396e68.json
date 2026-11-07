@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "32e7400c-1c81-48f5-9bdb-a9e59bc855d2",
+      "product_id": "d3debc35-1628-4fc9-ad85-8f6044b4007e",
+      "product_name": "QA-1-dfbzio5o Oriental Wooden Mouse",
+      "price": 22.02,
+      "category": "household",
+      "quantity": 3,
+      "created_at": "2026-11-05T08:26:03.310877+00:00",
+      "updated_at": "2026-11-05T08:26:03.310877+00:00"
+    },
+    {
+      "id": "763181bc-aaa1-4711-bc7f-433658d0af53",
+      "product_id": "fa61eabd-f988-4e44-b4d8-e4befea0de2d",
+      "product_name": "QA-1-a8xp3oue Soft Wooden Pants",
+      "price": 49.16,
+      "category": "beverages",
+      "quantity": 1,
+      "created_at": "2026-11-05T08:26:03.917953+00:00",
+      "updated_at": "2026-11-05T08:26:03.917953+00:00"
+    }
+  ]
+}

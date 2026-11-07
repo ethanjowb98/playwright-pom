@@ -1,0 +1,15 @@
+{
+  "id": "4017817b-5953-435d-8e1a-fa72d3e66f23",
+  "product_name": "QA-2-msai9a9u Oriental Marble Pizza",
+  "category": "bakery",
+  "price": 20.76,
+  "stock": 33,
+  "details": {
+    "brand": "Macejkovic - Gerlach",
+    "origin": "Tajikistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:12.211286+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-buvtuz6e Modern Gold Mouse",
+    "category": "fresh-produce",
+    "price": 2.19,
+    "stock": 47,
+    "details": {
+      "brand": "Dietrich, Bahringer and Mohr",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "path": "/api/basket",
+  "body": {
+    "product_id": "5a44acf6-6cc2-421e-ae51-f85f88e78ba9",
+    "quantity": 2
+  }
+}

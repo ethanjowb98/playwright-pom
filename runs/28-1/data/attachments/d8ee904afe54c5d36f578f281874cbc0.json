@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "3869e317-8746-4c02-b4fa-fd2d396a58a1",
+    "order_number": "O39521",
+    "status": "pending",
+    "total_amount": 131.8,
+    "created_at": "2026-11-04T08:11:23.698264+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-b1yeizri Unbranded Rubber Hat",
+        "category": "beverages",
+        "quantity": 2,
+        "price": 25.69,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-gis7l5nk Awesome Cotton Soap",
+        "category": "frozen",
+        "quantity": 2,
+        "price": 40.21,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

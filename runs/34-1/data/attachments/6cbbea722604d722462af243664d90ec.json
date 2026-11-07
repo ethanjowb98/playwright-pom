@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gnh2b3l2 Rustic Aluminum Pants",
+    "category": "dairy-eggs",
+    "price": 3.76,
+    "stock": 2,
+    "details": {
+      "brand": "Breitenberg, Langworth and O'Connell",
+      "origin": "China"
+    }
+  }
+}

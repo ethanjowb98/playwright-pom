@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-c19lvt0q sort Charlie",
+    "category": "snacks",
+    "price": 38.99,
+    "stock": 30,
+    "details": {
+      "brand": "Steuber Inc",
+      "origin": "Togo"
+    }
+  }
+}

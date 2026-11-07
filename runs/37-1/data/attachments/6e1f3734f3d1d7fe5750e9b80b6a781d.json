@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-awu3xzqi Refined Bamboo Car",
+    "category": "other",
+    "price": 11.78,
+    "stock": 12,
+    "details": {
+      "brand": "Johnston-Cummings, Runolfsson and Berge",
+      "origin": "Algeria"
+    }
+  }
+}

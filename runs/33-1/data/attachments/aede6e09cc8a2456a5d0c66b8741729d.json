@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wi1n8w8v Small Silk Tuna",
+    "category": "dairy-eggs",
+    "price": 15.36,
+    "stock": 27,
+    "details": {
+      "brand": "Heathcote LLC",
+      "origin": "Algeria"
+    }
+  }
+}

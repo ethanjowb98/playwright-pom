@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d9cb9ijq Bespoke Silk Car",
+    "category": "beverages",
+    "price": 36.22,
+    "stock": 23,
+    "details": {
+      "brand": "Leannon, Bahringer and Weimann",
+      "origin": "Marshall Islands"
+    }
+  }
+}

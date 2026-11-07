@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3xncvo7r Intelligent Rubber Mouse",
+    "category": "frozen",
+    "price": 12.25,
+    "stock": 19,
+    "details": {
+      "brand": "Brekke Inc",
+      "origin": "Martinique"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

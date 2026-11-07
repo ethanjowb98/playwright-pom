@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l9v0fpzh Rustic Bronze Towels",
+    "category": "bakery",
+    "price": 44.43,
+    "stock": 19,
+    "details": {
+      "brand": "Ferry Group",
+      "origin": "Myanmar"
+    }
+  }
+}

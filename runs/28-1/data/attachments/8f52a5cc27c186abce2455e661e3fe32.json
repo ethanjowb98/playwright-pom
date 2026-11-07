@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v0bb887e Fresh Wooden Shoes",
+    "category": "dairy-eggs",
+    "price": 13.05,
+    "stock": 37,
+    "details": {
+      "brand": "Watsica-Lang, Treutel and Schowalter",
+      "origin": "Dominican Republic"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "a5920025-6523-45fd-a9a2-03c8d0a90ba5",
+  "product_name": "QA-3-ea0psby5 sort Bravo",
+  "category": "dairy-eggs",
+  "price": 40.93,
+  "stock": 31,
+  "details": {
+    "brand": "Baumbach - Rogahn",
+    "origin": "Croatia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:05.566011+00:00"
+}

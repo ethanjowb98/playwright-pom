@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4wjmy0w4 Intelligent Marble Pizza",
+    "category": "frozen",
+    "price": 22.12,
+    "stock": 21,
+    "details": {
+      "brand": "Brakus - Bahringer",
+      "origin": "French Southern Territories"
+    }
+  }
+}

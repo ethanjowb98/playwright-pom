@@ -1,0 +1,15 @@
+{
+  "id": "8c91ae5e-2772-46c3-9947-0173394d2897",
+  "product_name": "QA-2-hiufojzq Small Granite Pizza",
+  "category": "fresh-produce",
+  "price": 45.97,
+  "stock": 48,
+  "details": {
+    "brand": "Barrows - Moen",
+    "origin": "Sudan"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:52.359055+00:00"
+}

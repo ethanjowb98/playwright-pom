@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j30awxiv Refined Gold Soap",
+    "category": "pantry",
+    "price": 40.93,
+    "stock": 39,
+    "details": {
+      "brand": "Dach Group",
+      "origin": "Niger"
+    },
+    "weighted": true
+  }
+}

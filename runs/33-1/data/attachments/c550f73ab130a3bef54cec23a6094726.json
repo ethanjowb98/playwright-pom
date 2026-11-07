@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ibag1xrn Elegant Aluminum Soap",
+    "category": "frozen",
+    "price": 46.48,
+    "stock": 13,
+    "details": {
+      "brand": "Kassulke, Schmidt and Stamm",
+      "origin": "Cyprus"
+    }
+  }
+}

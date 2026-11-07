@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-6pm5dnk2 Fantastic Steel Towels",
+    "category": "snacks",
+    "price": 49.95,
+    "stock": "x",
+    "details": {
+      "brand": "Goldner - Wehner",
+      "origin": "South Sudan"
+    }
+  }
+}

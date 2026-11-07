@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-snctngts Generic Aluminum Gloves",
+    "category": "bakery",
+    "price": 2.44,
+    "stock": 30,
+    "details": {
+      "brand": "Trantow - Cremin",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

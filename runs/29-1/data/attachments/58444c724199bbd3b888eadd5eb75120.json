@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-lu9fhwa7 Fresh Plastic Fish",
+    "category": "other",
+    "price": 34.66,
+    "stock": 27,
+    "details": {
+      "brand": "Metz - Murphy",
+      "origin": "Romania"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

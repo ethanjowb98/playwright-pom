@@ -1,0 +1,15 @@
+{
+  "id": "52e25f11-b14f-4121-9202-5eb5e2e7ec80",
+  "product_name": "QA-5-neyep8a7 sort Charlie",
+  "category": "meat-seafood",
+  "price": 25.73,
+  "stock": 20,
+  "details": {
+    "brand": "Lind-Littel - Ortiz",
+    "origin": "Pitcairn Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:45.612117+00:00"
+}

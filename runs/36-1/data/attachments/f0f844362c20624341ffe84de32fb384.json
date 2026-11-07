@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "cffd9c1e-28ab-45b6-8dfa-067af0f6e601",
+    "order_number": "O11619",
+    "status": "pending",
+    "total_amount": 55.26,
+    "created_at": "2026-11-06T10:07:28.856779+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-k5ehwfd4 Handmade Bronze Table",
+        "category": "bakery",
+        "quantity": 2,
+        "price": 27.63,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

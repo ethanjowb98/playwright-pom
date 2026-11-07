@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-by1ase9e sort Bravo",
+    "category": "bakery",
+    "price": 6.36,
+    "stock": 23,
+    "details": {
+      "brand": "Kutch, Bahringer and Terry",
+      "origin": "Taiwan"
+    }
+  }
+}

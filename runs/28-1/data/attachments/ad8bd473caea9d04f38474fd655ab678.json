@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-24jh5y3k Fantastic Bronze Chips",
+    "category": "snacks",
+    "price": 9.25,
+    "stock": 50,
+    "details": {
+      "brand": "Kihn Inc",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

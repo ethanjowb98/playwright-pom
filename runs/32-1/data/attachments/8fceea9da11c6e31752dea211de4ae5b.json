@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lihd810y Refined Aluminum Sausages",
+    "category": "other",
+    "price": 2.84,
+    "stock": 14,
+    "details": {
+      "brand": "Jenkins, Bauch and Nolan",
+      "origin": "Panama"
+    }
+  }
+}

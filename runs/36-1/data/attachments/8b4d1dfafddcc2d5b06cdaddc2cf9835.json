@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-wt38tbhq Fresh Aluminum Shirt",
+    "category": "household",
+    "price": 23.83,
+    "stock": 44,
+    "details": {
+      "brand": "Parisian and Sons",
+      "origin": "Heard Island and McDonald Islands"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

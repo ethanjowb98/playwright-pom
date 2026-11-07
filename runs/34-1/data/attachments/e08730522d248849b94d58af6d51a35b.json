@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ox0xtu4c Generic Metal Hat",
+    "category": "frozen",
+    "price": 36.57,
+    "stock": 2,
+    "details": {
+      "brand": "Hermann LLC",
+      "origin": "Guinea-Bissau"
+    }
+  }
+}

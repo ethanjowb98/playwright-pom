@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r4xjdqwa Generic Silk Gloves",
+    "category": "fresh-produce",
+    "price": 18.2,
+    "stock": 40,
+    "details": {
+      "brand": "Bednar - Fay",
+      "origin": "Guadeloupe"
+    },
+    "temperature_zone": "Hot"
+  }
+}

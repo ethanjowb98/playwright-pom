@@ -1,0 +1,15 @@
+{
+  "id": "388db411-5a4e-45c6-9a79-96d27341c53a",
+  "product_name": "QA-2-p56gvzbr Practical Rubber Hat",
+  "category": "snacks",
+  "price": 12.56,
+  "stock": 0,
+  "details": {
+    "brand": "Reichel and Sons",
+    "origin": "Congo"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:24.545694+00:00"
+}

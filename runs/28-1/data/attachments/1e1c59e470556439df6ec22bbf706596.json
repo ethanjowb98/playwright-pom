@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9na8mqbd Handmade Aluminum Chicken",
+    "category": "meat-seafood",
+    "price": 24.51,
+    "stock": 17,
+    "details": {
+      "brand": "Weber, Purdy and Huels",
+      "origin": "Vanuatu"
+    }
+  }
+}

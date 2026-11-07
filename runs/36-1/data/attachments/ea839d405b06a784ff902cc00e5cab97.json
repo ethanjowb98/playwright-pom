@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-78yhd9we Ergonomic Cotton Shoes",
+    "category": "other",
+    "price": 17,
+    "stock": 2,
+    "details": {
+      "brand": "Schneider LLC",
+      "origin": "Palau"
+    }
+  }
+}

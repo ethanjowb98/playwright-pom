@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-14eac6n4 Luxurious Plastic Chicken",
+    "category": "dairy-eggs",
+    "price": 17.2,
+    "stock": 37,
+    "details": {
+      "brand": "Ward, Schimmel and Deckow",
+      "origin": "Saint Vincent and the Grenadines"
+    }
+  }
+}

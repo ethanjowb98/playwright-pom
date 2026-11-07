@@ -1,0 +1,15 @@
+{
+  "id": "5bf81025-64f7-4ac4-b659-c05c999222cf",
+  "product_name": "QA-2-119unamk sort Charlie",
+  "category": "bakery",
+  "price": 17.77,
+  "stock": 30,
+  "details": {
+    "brand": "Reinger LLC",
+    "origin": "Niue"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:22.120479+00:00"
+}

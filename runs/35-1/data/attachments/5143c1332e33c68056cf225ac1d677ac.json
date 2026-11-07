@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4ii317pp Rustic Steel Ball",
+    "category": "frozen",
+    "price": 10.82,
+    "stock": 35,
+    "details": {
+      "brand": "Murphy-Haag - Mertz",
+      "origin": "Honduras"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

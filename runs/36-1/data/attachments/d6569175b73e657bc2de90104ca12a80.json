@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-4wbxoei3 Practical Silk Car",
+    "category": "fresh-produce",
+    "price": 10.71,
+    "stock": 34,
+    "details": {
+      "brand": "Paucek - Rosenbaum",
+      "origin": "Timor-Leste"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

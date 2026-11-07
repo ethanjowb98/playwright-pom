@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-s1oyu4mg Unbranded Gold Bacon",
+    "category": "frozen",
+    "price": 8.95,
+    "stock": 47,
+    "details": {
+      "brand": "Bruen - Okuneva",
+      "origin": "Bahrain"
+    },
+    "temperature_zone": "Hot"
+  }
+}

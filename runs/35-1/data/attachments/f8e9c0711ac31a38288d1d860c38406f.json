@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-43m8do6w Recycled Concrete Chips",
+    "category": "frozen",
+    "price": 12.8,
+    "stock": 36,
+    "details": {
+      "brand": "Runolfsson LLC",
+      "origin": "Peru"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "79413f03-2cb5-4cc1-a9ee-82e878d707f9",
+  "product_name": "QA-3-odu22m7h Refined Ceramic Salad",
+  "category": "dairy-eggs",
+  "price": 30.66,
+  "stock": 23,
+  "details": {
+    "brand": "Prosacco, Jacobson and Stiedemann",
+    "origin": "Central African Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:08:44.160143+00:00"
+}

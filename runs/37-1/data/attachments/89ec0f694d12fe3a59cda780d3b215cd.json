@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-a4u810t3 sort Charlie",
+    "category": "household",
+    "price": 26.59,
+    "stock": 32,
+    "details": {
+      "brand": "Bashirian Inc",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

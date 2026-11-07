@@ -1,0 +1,15 @@
+{
+  "id": "e38a6eb1-5777-480a-b111-e35dcb928a4b",
+  "product_name": "QA-3-ea0psby5 sort Alpha",
+  "category": "other",
+  "price": 18.67,
+  "stock": 19,
+  "details": {
+    "brand": "Hauck, Bartell and Schumm",
+    "origin": "Eritrea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:05.355758+00:00"
+}

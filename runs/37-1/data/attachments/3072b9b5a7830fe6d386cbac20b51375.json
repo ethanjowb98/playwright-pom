@@ -1,0 +1,19 @@
+{
+  "id": "23639c75-d0fa-4e32-9446-3e5d5b47aae3",
+  "order_number": "O90763",
+  "status": "pending",
+  "total_amount": 27.27,
+  "notes": null,
+  "created_at": "2026-11-07T09:27:11.457443+00:00",
+  "updated_at": "2026-11-07T09:27:11.457443+00:00",
+  "items": [
+    {
+      "product_id": "50121792-dce5-4454-a062-352cb802a0e9",
+      "product_name": "QA-1-85nka4h2 Rustic Silk Keyboard",
+      "category": "dairy-eggs",
+      "quantity": 3,
+      "price": 9.09,
+      "temperature_zone": null
+    }
+  ]
+}

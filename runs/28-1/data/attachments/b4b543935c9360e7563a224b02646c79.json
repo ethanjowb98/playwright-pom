@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gis7l5nk Awesome Cotton Soap",
+    "category": "frozen",
+    "price": 40.21,
+    "stock": 10,
+    "details": {
+      "brand": "Hermann-Grant and Sons",
+      "origin": "Czechia"
+    }
+  }
+}

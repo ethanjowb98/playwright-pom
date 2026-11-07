@@ -1,0 +1,15 @@
+{
+  "id": "7f1ce682-39d1-4d17-ae09-a1c256c52a3e",
+  "product_name": "QA-5-e1w51ejq Licensed Concrete Chair",
+  "category": "bakery",
+  "price": 38.82,
+  "stock": 11,
+  "details": {
+    "brand": "Stanton, Feest and Kunde",
+    "origin": "Greece"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:18.932316+00:00"
+}

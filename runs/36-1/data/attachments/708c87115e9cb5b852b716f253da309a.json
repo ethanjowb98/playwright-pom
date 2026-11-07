@@ -1,0 +1,15 @@
+{
+  "id": "acad3e9f-19b9-46f4-aef3-25ac5b1dd321",
+  "product_name": "QA-1-63v55qf4 Elegant Concrete Pants",
+  "category": "beverages",
+  "price": 15.88,
+  "stock": 41,
+  "details": {
+    "brand": "Schmidt, Lemke and Hagenes",
+    "origin": "Bosnia and Herzegovina"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:07:51.841481+00:00"
+}

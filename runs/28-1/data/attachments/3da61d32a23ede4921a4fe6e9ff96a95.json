@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-zg364s70 Awesome Bamboo Fish",
+    "category": "beverages",
+    "price": 41.35,
+    "stock": 33,
+    "details": {
+      "brand": "VonRueden - Nader",
+      "origin": "Burundi"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e9nheqlu Small Silk Salad",
+    "category": "other",
+    "price": 5.72,
+    "stock": 39,
+    "details": {
+      "brand": "Stanton, O'Keefe and Franecki",
+      "origin": "Cambodia"
+    }
+  }
+}

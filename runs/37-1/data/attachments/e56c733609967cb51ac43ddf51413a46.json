@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "frozen",
+    "price": 45.43,
+    "stock": 22,
+    "details": {
+      "brand": "Smitham - Brown",
+      "origin": "Northern Mariana Islands"
+    }
+  }
+}

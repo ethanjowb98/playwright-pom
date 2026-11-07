@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-86hw3yzp Elegant Steel Keyboard",
+    "category": "beverages",
+    "price": 15.26,
+    "stock": 12,
+    "details": {
+      "brand": "Wuckert Group",
+      "origin": "Burundi"
+    }
+  }
+}

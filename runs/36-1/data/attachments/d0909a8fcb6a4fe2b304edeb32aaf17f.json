@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jtgvpdrq Sleek Ceramic Keyboard",
+    "category": "other",
+    "price": 17.54,
+    "stock": 12,
+    "details": {
+      "brand": "Ratke - Heaney",
+      "origin": "Bahamas"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0539d4ae-a95d-4297-82fc-c9bd3da72b60",
+  "product_name": "QA-5-67n4kjp9 Tasty Metal Pizza",
+  "category": "bakery",
+  "price": 34.11,
+  "stock": 41,
+  "details": {
+    "brand": "Beatty LLC",
+    "origin": "Mauritius"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:19:08.269086+00:00"
+}

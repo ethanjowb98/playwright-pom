@@ -1,0 +1,15 @@
+{
+  "id": "d74684cf-757b-46e3-8d7f-5a04dc6244f3",
+  "product_name": "QA-1-45o09kt7 Ergonomic Steel Mouse",
+  "category": "beverages",
+  "price": 3.39,
+  "stock": 14,
+  "details": {
+    "brand": "King Inc",
+    "origin": "Malta"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:25:39.202487+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hpdp8ev8 Sleek Gold Shoes",
+    "category": "frozen",
+    "price": 44.29,
+    "stock": 39,
+    "details": {
+      "brand": "Dooley Inc",
+      "origin": "Estonia"
+    }
+  }
+}

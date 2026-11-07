@@ -1,0 +1,15 @@
+{
+  "id": "140d0d23-5acd-4b8b-9916-9d08081b75a5",
+  "product_name": "QA-6-ywt5piyf Rustic Plastic Car",
+  "category": "snacks",
+  "price": 26.35,
+  "stock": 43,
+  "details": {
+    "brand": "Predovic, Schumm and Bartoletti",
+    "origin": "Macao"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:15.616936+00:00"
+}

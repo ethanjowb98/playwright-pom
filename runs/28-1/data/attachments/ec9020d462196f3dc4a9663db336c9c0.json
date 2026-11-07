@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b1yeizri Unbranded Rubber Hat",
+    "category": "beverages",
+    "price": 25.69,
+    "stock": 15,
+    "details": {
+      "brand": "Mraz and Sons",
+      "origin": "Syrian Arab Republic"
+    }
+  }
+}

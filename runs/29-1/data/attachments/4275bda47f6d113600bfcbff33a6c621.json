@@ -1,0 +1,15 @@
+{
+  "id": "497ef533-43e0-40dc-8cf3-c8d79515a5d0",
+  "product_name": "QA-1-oo1bep5y Fresh Marble Bacon",
+  "category": "snacks",
+  "price": 2.81,
+  "stock": 10,
+  "details": {
+    "brand": "Jenkins - White-Denesik",
+    "origin": "Chile"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:53.834019+00:00"
+}

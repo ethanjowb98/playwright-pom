@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-vvmog4mw Electronic Aluminum Chicken",
+    "category": "snacks",
+    "price": 16.02,
+    "stock": 10,
+    "details": {
+      "brand": "Fay and Sons",
+      "origin": "Cyprus"
+    }
+  }
+}

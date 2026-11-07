@@ -1,0 +1,15 @@
+{
+  "id": "b79b7e73-ae18-454c-9b23-f640da927b8c",
+  "product_name": "QA-3-c8ogxrz7 Ergonomic Concrete Hat",
+  "category": "pantry",
+  "price": 19.42,
+  "stock": 37,
+  "details": {
+    "brand": "Metz, Pacocha and Smith",
+    "origin": "Greece"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:51.997122+00:00"
+}

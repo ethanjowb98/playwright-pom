@@ -1,0 +1,15 @@
+{
+  "id": "e6c6bf43-c5f8-4e15-bac7-1c27d2432b29",
+  "product_name": "QA-4-6exejtid sort Alpha",
+  "category": "snacks",
+  "price": 19.96,
+  "stock": 31,
+  "details": {
+    "brand": "Kerluke Group",
+    "origin": "Iceland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:30.063317+00:00"
+}

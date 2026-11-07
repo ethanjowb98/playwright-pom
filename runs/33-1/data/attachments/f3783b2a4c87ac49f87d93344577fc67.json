@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-f6fxl8xf Small Concrete Hat",
+    "category": "snacks",
+    "price": 41.17,
+    "stock": 37,
+    "details": {
+      "brand": "Metz-Bogisich, Abbott and Crona",
+      "origin": "Seychelles"
+    }
+  }
+}

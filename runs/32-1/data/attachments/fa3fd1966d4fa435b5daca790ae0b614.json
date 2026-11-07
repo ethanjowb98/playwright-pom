@@ -1,0 +1,15 @@
+{
+  "id": "1e847fb1-a8ae-4da1-bf13-6cdccfb96143",
+  "product_name": "QA-3-59ntc15z Tasty Silk Shirt",
+  "category": "dairy-eggs",
+  "price": 29.5,
+  "stock": 18,
+  "details": {
+    "brand": "Kutch-Kulas LLC",
+    "origin": "Benin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:00.821575+00:00"
+}

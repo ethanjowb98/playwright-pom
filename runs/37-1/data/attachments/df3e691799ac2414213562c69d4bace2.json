@@ -1,0 +1,27 @@
+{
+  "id": "57cdeced-e70a-43e2-a8a9-a18432681ff8",
+  "order_number": "O82471",
+  "status": "pending",
+  "total_amount": 74.9,
+  "notes": null,
+  "created_at": "2026-11-07T09:27:23.060422+00:00",
+  "updated_at": "2026-11-07T09:27:23.060422+00:00",
+  "items": [
+    {
+      "product_id": "851e1cb3-46ec-41a3-b605-78bc60a6fcf4",
+      "product_name": "QA-1-5q34qsj7 Bespoke Concrete Hat",
+      "category": "pantry",
+      "quantity": 2,
+      "price": 17.05,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "f1297750-38e2-40c6-850a-eeb39a99b0fc",
+      "product_name": "QA-1-o3k45ea4 Rustic Concrete Tuna",
+      "category": "beverages",
+      "quantity": 2,
+      "price": 20.4,
+      "temperature_zone": null
+    }
+  ]
+}

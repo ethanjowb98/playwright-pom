@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gojg5sgi Intelligent Marble Salad",
+    "category": "beverages",
+    "price": 6.85,
+    "stock": 2,
+    "details": {
+      "brand": "Muller Inc",
+      "origin": "Costa Rica"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-22a2nfaf Licensed Marble Keyboard",
+    "category": "dairy-eggs",
+    "price": 7.29,
+    "stock": 29,
+    "details": {
+      "brand": "Kessler - Mills",
+      "origin": "Mayotte"
+    }
+  }
+}

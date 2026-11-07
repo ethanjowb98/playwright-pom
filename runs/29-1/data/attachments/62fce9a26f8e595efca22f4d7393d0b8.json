@@ -1,0 +1,15 @@
+{
+  "id": "7dd575de-3779-45ad-95a3-0302b1243370",
+  "product_name": "QA-1-nv7wl49u Awesome Granite Car",
+  "category": "frozen",
+  "price": 1.39,
+  "stock": 26,
+  "details": {
+    "brand": "Considine - Doyle",
+    "origin": "Indonesia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:52.607826+00:00"
+}

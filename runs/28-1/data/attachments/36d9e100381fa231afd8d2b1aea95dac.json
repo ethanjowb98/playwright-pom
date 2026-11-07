@@ -1,0 +1,15 @@
+{
+  "id": "130c5e2f-0330-43a2-88ba-aa00016c205a",
+  "product_name": "QA-1-el7a98lh Intelligent Plastic Chicken",
+  "category": "snacks",
+  "price": 27.3,
+  "stock": 12,
+  "details": {
+    "brand": "Monahan - Thompson",
+    "origin": "Bosnia and Herzegovina"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:12:47.243858+00:00"
+}

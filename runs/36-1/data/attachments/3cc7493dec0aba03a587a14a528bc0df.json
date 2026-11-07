@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "13b01fa8-9715-429b-ad5e-27b92611afee",
+    "order_number": "O13158",
+    "status": "pending",
+    "total_amount": 41.97,
+    "created_at": "2026-11-06T10:07:25.18341+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-mzcmzh26 Ergonomic Wooden Chips",
+        "category": "snacks",
+        "quantity": 3,
+        "price": 13.99,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

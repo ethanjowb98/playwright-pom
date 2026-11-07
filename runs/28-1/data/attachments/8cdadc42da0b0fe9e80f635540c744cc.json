@@ -1,0 +1,19 @@
+{
+  "id": "4979442d-cfff-4722-b5d5-f06b50cabf61",
+  "order_number": "O42351",
+  "status": "shipped",
+  "total_amount": 27.63,
+  "notes": null,
+  "created_at": "2026-11-04T08:10:32.281471+00:00",
+  "updated_at": "2026-11-04T08:10:32.281471+00:00",
+  "items": [
+    {
+      "product_id": "69ff0c1a-53ff-44df-aad0-76f5f5a7e8b2",
+      "product_name": "QA-1-zcqk3wdn Ergonomic Metal Cheese",
+      "category": "pantry",
+      "quantity": 1,
+      "price": 27.63,
+      "temperature_zone": null
+    }
+  ]
+}

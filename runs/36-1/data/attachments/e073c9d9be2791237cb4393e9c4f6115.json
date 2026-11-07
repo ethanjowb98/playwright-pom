@@ -1,0 +1,15 @@
+{
+  "id": "5a4fbbe5-e4b1-41b8-9865-de5225e77edd",
+  "product_name": "QA-3-pfsy162p sort Bravo",
+  "category": "frozen",
+  "price": 5.56,
+  "stock": 13,
+  "details": {
+    "brand": "Hegmann, Bernier and Hoeger",
+    "origin": "Libyan Arab Jamahiriya"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:49.92712+00:00"
+}

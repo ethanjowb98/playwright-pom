@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-109i6yel Gorgeous Bamboo Chips",
+    "category": "pantry",
+    "price": 12.51,
+    "stock": 24,
+    "details": {
+      "brand": "Abernathy - Lang",
+      "origin": "Canada"
+    }
+  }
+}

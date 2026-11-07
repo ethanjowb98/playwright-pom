@@ -1,0 +1,15 @@
+{
+  "id": "6a27135b-2ac8-4056-8fa6-3aef271313a4",
+  "product_name": "QA-1-hmhgimlp Elegant Steel Towels",
+  "category": "frozen",
+  "price": 16.99,
+  "stock": 37,
+  "details": {
+    "brand": "Champlin, Hoppe and Lockman",
+    "origin": "Slovakia"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:49.289658+00:00"
+}

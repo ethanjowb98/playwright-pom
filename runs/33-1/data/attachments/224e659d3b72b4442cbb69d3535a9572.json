@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gneajsue Electronic Ceramic Hat",
+    "category": "pantry",
+    "price": 30.44,
+    "stock": 38,
+    "details": {
+      "brand": "Schowalter - Gleichner",
+      "origin": "Algeria"
+    }
+  }
+}

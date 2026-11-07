@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n9xdimc0 Soft Steel Pants",
+    "category": "beverages",
+    "price": 19,
+    "stock": 36,
+    "details": {
+      "brand": "Jacobson, Wunsch and Schimmel",
+      "origin": "Virgin Islands, British"
+    }
+  }
+}

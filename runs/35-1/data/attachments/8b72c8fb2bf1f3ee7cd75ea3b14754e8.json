@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-qp0fxjw7 Modern Rubber Cheese",
+    "category": "household",
+    "price": 49.94,
+    "stock": 50,
+    "details": {
+      "brand": "Cummings Group",
+      "origin": "Comoros"
+    },
+    "weighted": false
+  }
+}

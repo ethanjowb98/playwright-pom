@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hz2tolpj Incredible Ceramic Mouse",
+    "category": "meat-seafood",
+    "price": 19.16,
+    "stock": 35,
+    "details": {
+      "brand": "Kassulke - O'Reilly",
+      "origin": "Indonesia"
+    }
+  }
+}

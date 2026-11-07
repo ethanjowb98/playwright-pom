@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "29a614e6-3c63-4d0c-b3c6-1d0e71f93b35",
+    "order_number": "O19817",
+    "status": "pending",
+    "total_amount": 107.04,
+    "created_at": "2026-11-04T08:12:42.240185+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-6e981rd4 Gorgeous Concrete Bike",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 35.68,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "3781cb70-8b80-4c46-b5f1-4e63f7f574f4",
+  "product_name": "QA-8-a4u810t3 sort Alpha",
+  "category": "dairy-eggs",
+  "price": 34.7,
+  "stock": 32,
+  "details": {
+    "brand": "Renner - Kertzmann",
+    "origin": "Denmark"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:05.590794+00:00"
+}

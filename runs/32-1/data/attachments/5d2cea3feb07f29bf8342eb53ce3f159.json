@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "b98a9147-e391-4442-a88a-4b83209057fb",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "cancelled",
+    "total_amount": 59.34,
+    "notes": null,
+    "created_at": "2026-11-05T08:20:41.729909+00:00",
+    "updated_at": "2026-11-05T08:20:41.729909+00:00",
+    "order_number": "O60688"
+  }
+}

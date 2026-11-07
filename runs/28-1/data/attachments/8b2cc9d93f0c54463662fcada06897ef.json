@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-zsgqkyed Frozen Gold Table",
+    "category": "dairy-eggs",
+    "price": 4.39,
+    "stock": 27,
+    "details": {
+      "brand": "Cremin - Herzog",
+      "origin": "Central African Republic"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

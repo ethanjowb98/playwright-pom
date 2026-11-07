@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gymwt4xk Fresh Bamboo Bike",
+    "category": "frozen",
+    "price": 31.95,
+    "stock": 43,
+    "details": {
+      "brand": "Prohaska Inc",
+      "origin": "Tokelau"
+    }
+  }
+}

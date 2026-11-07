@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-52xq37lm Soft Plastic Fish",
+    "category": "beverages",
+    "price": 19.11,
+    "stock": 23,
+    "details": {
+      "brand": "Oberbrunner and Sons",
+      "origin": "Tuvalu"
+    }
+  }
+}

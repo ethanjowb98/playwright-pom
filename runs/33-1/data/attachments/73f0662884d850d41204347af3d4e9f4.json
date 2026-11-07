@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9ixke5wi Generic Granite Chair",
+    "category": "pantry",
+    "price": 37.06,
+    "stock": 43,
+    "details": {
+      "brand": "Mills - Bradtke",
+      "origin": "Bosnia and Herzegovina"
+    }
+  }
+}

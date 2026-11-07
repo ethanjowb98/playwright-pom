@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vyrnas3r Awesome Granite Gloves",
+    "category": "dairy-eggs",
+    "price": 5.51,
+    "stock": 16,
+    "details": {
+      "brand": "Rosenbaum, Treutel and Erdman",
+      "origin": "Myanmar"
+    }
+  }
+}

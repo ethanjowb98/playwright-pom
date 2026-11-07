@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-pw6udw17 Sleek Aluminum Soap",
+    "category": "pantry",
+    "price": 46.12,
+    "stock": 37,
+    "details": {
+      "brand": "Spinka, Mitchell-Olson and Armstrong",
+      "origin": "Central African Republic"
+    },
+    "temperature_zone": "Dry"
+  }
+}

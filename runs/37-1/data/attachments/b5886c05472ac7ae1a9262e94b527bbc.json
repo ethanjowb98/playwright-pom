@@ -1,0 +1,15 @@
+{
+  "id": "4e3ca10c-f41d-4280-9be1-28408b67212b",
+  "product_name": "QA-1-dpqb7s7v Fresh Cotton Shirt",
+  "category": "snacks",
+  "price": 8.26,
+  "stock": 17,
+  "details": {
+    "brand": "King LLC",
+    "origin": "Mexico"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:50.386294+00:00"
+}

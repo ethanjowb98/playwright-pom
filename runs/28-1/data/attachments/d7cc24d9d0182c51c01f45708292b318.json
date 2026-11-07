@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jdwro44m Fantastic Bronze Chips",
+    "category": "other",
+    "price": 12.98,
+    "stock": 34,
+    "details": {
+      "brand": "Mann - Braun",
+      "origin": "Martinique"
+    }
+  }
+}

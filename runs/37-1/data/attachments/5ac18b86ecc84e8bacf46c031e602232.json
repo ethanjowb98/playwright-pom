@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-m1k2jhm6 Electronic Ceramic Pants",
+    "category": "snacks",
+    "price": 6.41,
+    "stock": 19,
+    "details": {
+      "brand": "Thiel - Mayert",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z5b5cpz1 Soft Cotton Chair",
+    "category": "fresh-produce",
+    "price": 9.01,
+    "stock": 36,
+    "details": {
+      "brand": "Yost, Pfannerstill and Lebsack",
+      "origin": "Bahrain"
+    }
+  }
+}

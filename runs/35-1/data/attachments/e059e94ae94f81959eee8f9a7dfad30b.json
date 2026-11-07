@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q04ti91g Refined Ceramic Bike",
+    "category": "meat-seafood",
+    "price": 22.58,
+    "stock": 19,
+    "details": {
+      "brand": "Pacocha Inc",
+      "origin": "Finland"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

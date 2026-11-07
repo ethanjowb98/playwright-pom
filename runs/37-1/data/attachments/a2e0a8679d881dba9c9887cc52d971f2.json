@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ru5vse28 Handmade Wooden Sausages",
+    "category": "pantry",
+    "price": 10.3,
+    "stock": 17,
+    "details": {
+      "brand": "Rath, Brakus and Denesik",
+      "origin": "Jamaica"
+    }
+  }
+}

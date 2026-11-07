@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-qt7vwn7z Generic Plastic Chair",
+    "category": "other",
+    "price": 43.33,
+    "stock": 43,
+    "details": {
+      "brand": "Wiza - Larkin",
+      "origin": "Haiti"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-wpjiirzp Fantastic Concrete Pants",
+    "category": "household",
+    "price": 39.42,
+    "stock": 45,
+    "details": {
+      "brand": "Gleichner - Hettinger-Maggio",
+      "origin": "Yemen"
+    }
+  }
+}

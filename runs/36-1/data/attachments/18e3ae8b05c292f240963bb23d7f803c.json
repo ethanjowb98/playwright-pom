@@ -1,0 +1,15 @@
+{
+  "id": "8f42e015-0408-439c-9e9e-dc2601ed7cba",
+  "product_name": "QA-8-reosfpiz sort Charlie",
+  "category": "meat-seafood",
+  "price": 23.92,
+  "stock": 42,
+  "details": {
+    "brand": "Armstrong, Cummings and Carroll",
+    "origin": "Nauru"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:16.322772+00:00"
+}

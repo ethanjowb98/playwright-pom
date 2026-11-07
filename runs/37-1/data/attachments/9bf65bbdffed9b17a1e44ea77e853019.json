@@ -1,0 +1,15 @@
+{
+  "id": "80c1820e-ba03-415c-8fca-91c8cecde29d",
+  "product_name": "QA-1-ghes29hz Modern Plastic Soap",
+  "category": "beverages",
+  "price": 40.04,
+  "stock": 16,
+  "details": {
+    "brand": "Feil, McLaughlin and Zulauf",
+    "origin": "Saint Pierre and Miquelon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:26:07.936375+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lzejilar Bespoke Steel Tuna",
+    "category": "dairy-eggs",
+    "price": 3.57,
+    "stock": 33,
+    "details": {
+      "brand": "Boehm - Labadie",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

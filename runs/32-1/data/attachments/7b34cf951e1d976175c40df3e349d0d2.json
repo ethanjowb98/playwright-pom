@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wo1fj3qv Modern Cotton Pants",
+    "category": "pantry",
+    "price": 16.2,
+    "stock": 50,
+    "details": {
+      "brand": "Lehner LLC",
+      "origin": "Iceland"
+    }
+  }
+}

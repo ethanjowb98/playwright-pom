@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bso01ody Rustic Bronze Ball",
+    "category": "other",
+    "price": 42.21,
+    "stock": 44,
+    "details": {
+      "brand": "Murazik, Kiehn and Kunde",
+      "origin": "Christmas Island"
+    }
+  }
+}

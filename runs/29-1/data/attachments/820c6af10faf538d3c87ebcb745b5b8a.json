@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-njr8696r Generic Wooden Ball",
+    "category": "household",
+    "price": 32.09,
+    "stock": 16,
+    "details": {
+      "brand": "Hammes LLC",
+      "origin": "Kazakhstan"
+    }
+  }
+}

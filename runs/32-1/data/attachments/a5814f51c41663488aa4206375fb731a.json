@@ -1,0 +1,15 @@
+{
+  "id": "eb0205a5-f9bd-467b-b00e-5c985e154beb",
+  "product_name": "QA-1-4zfhxu0x Modern Concrete Bike",
+  "category": "bakery",
+  "price": 49.32,
+  "stock": 35,
+  "details": {
+    "brand": "Haley - Lehner-Walsh",
+    "origin": "Belize"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:59.737309+00:00"
+}

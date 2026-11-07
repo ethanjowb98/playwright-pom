@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e0w2g4vu Awesome Plastic Soap",
+    "category": "beverages",
+    "price": 17.91,
+    "stock": 45,
+    "details": {
+      "brand": "Veum - Rogahn-Cruickshank",
+      "origin": "Nicaragua"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-igrns7ru Fresh Bronze Tuna",
+    "category": "other",
+    "price": 5.93,
+    "stock": 36,
+    "details": {
+      "brand": "Witting, Kulas and O'Hara",
+      "origin": "Liberia"
+    }
+  }
+}

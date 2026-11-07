@@ -1,0 +1,15 @@
+{
+  "id": "bc3cfec4-28ae-4969-a9be-d0b6fcdd4f42",
+  "product_name": "QA-1-ool0spml Soft Gold Pizza",
+  "category": "snacks",
+  "price": 14.51,
+  "stock": 33,
+  "details": {
+    "brand": "Dach-Nicolas, Yost and Nienow",
+    "origin": "Panama"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:21:35.47013+00:00"
+}

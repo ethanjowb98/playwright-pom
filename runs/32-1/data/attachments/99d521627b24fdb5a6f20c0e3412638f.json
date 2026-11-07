@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3e6li6qk Ergonomic Marble Fish",
+    "category": "meat-seafood",
+    "price": 45.69,
+    "stock": 33,
+    "details": {
+      "brand": "Schimmel-Weimann, Walter and Ullrich",
+      "origin": "Botswana"
+    }
+  }
+}

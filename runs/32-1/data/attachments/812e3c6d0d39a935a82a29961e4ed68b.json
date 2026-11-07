@@ -1,0 +1,15 @@
+{
+  "id": "cc436684-2025-4137-a88e-8c1bb3c5c675",
+  "product_name": "QA-3-c19lvt0q sort Charlie",
+  "category": "snacks",
+  "price": 38.99,
+  "stock": 30,
+  "details": {
+    "brand": "Steuber Inc",
+    "origin": "Togo"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:51.216417+00:00"
+}

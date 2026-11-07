@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-e3qtrpc5 Handmade Gold Chips",
+    "category": "frozen",
+    "price": 30.17,
+    "stock": 24,
+    "details": {
+      "brand": "Stroman, Hudson and Wisozk",
+      "origin": "Holy See (Vatican City State)"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

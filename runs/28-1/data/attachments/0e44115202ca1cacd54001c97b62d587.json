@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "household",
+    "price": 8.76,
+    "stock": 22,
+    "details": {
+      "brand": "Ledner and Sons",
+      "origin": "French Guiana"
+    }
+  }
+}

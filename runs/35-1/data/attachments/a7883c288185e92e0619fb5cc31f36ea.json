@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "86bdf4b3-4038-4582-9c0f-f5b92a838aae",
+    "order_number": "O94341",
+    "status": "pending",
+    "total_amount": 4.38,
+    "created_at": "2026-11-05T10:05:59.902517+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-hqmymsh4 Incredible Metal Bike",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 1.46,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

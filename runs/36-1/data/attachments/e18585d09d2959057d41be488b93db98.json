@@ -1,0 +1,98 @@
+[
+  {
+    "id": "11bb4d32-0830-4ef5-bb05-3bb562e0a2a9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7bb9a0fc-be4d-4024-8c13-d79afa7bc9e8",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Margarita Concentrate",
+    "category": "beverages",
+    "price": 3.25,
+    "details": {
+      "makes": "1 pitcher",
+      "volume": "12oz",
+      "contains_alcohol": false
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7a60e1ba-0e01-45c5-9855-3cd9f66dfcf7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Tilapia Fillets",
+    "category": "meat-seafood",
+    "price": 10.5,
+    "details": {
+      "weight": "2lb",
+      "farm_raised": true,
+      "individually_wrapped": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9d629101-0d63-42dc-903c-e46267eee86b",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Jumbo Raw Shrimp (2lb)",
+    "category": "meat-seafood",
+    "price": 18.99,
+    "details": {
+      "size": "16-20 count",
+      "peeled": true,
+      "weight": "2lb",
+      "deveined": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "e578c0b5-c40b-4f32-8571-ebf489745e87",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-mxs5sl7l Soft Silk Chair",
+    "category": "beverages",
+    "price": 3.6,
+    "details": {
+      "brand": "Hoeger, Cartwright and Goyette",
+      "origin": "Bhutan"
+    },
+    "created_at": "2026-11-06T10:05:52.296771+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 35
+  },
+  {
+    "id": "014e7c13-0a19-4055-bf41-d2606488a8ac",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-4-6gx4anho Awesome Rubber Towels",
+    "category": "dairy-eggs",
+    "price": 25.91,
+    "details": {
+      "brand": "Grant, Schaefer and West",
+      "origin": "French Guiana"
+    },
+    "created_at": "2026-11-06T10:05:52.717319+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 45
+  }
+]

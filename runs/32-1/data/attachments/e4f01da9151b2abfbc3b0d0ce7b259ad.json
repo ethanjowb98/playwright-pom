@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l996xq83 Incredible Bamboo Gloves",
+    "category": "dairy-eggs",
+    "price": 36.07,
+    "stock": 45,
+    "details": {
+      "brand": "Murazik, Hauck and Stracke",
+      "origin": "Bonaire, Sint Eustatius and Saba"
+    }
+  }
+}

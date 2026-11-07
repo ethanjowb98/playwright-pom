@@ -1,0 +1,47 @@
+[
+  {
+    "id": "a454faf2-ac9e-47aa-9997-b05805ae1b4c",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-ao7cmcy8 Practical Granite Computer",
+    "category": "snacks",
+    "price": 1.1,
+    "details": {
+      "brand": "Prohaska Group",
+      "origin": "New Caledonia"
+    },
+    "created_at": "2026-11-05T09:18:30.249711+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 50
+  },
+  {
+    "id": "989150a4-d886-43a5-bb3c-6f37159265b0",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-945a16oq sort Bravo",
+    "category": "snacks",
+    "price": 36.6,
+    "details": {
+      "brand": "Ullrich and Sons",
+      "origin": "Myanmar"
+    },
+    "created_at": "2026-11-05T09:18:30.078325+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 38
+  },
+  {
+    "id": "e6c6bf43-c5f8-4e15-bac7-1c27d2432b29",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-4-6exejtid sort Alpha",
+    "category": "snacks",
+    "price": 19.96,
+    "details": {
+      "brand": "Kerluke Group",
+      "origin": "Iceland"
+    },
+    "created_at": "2026-11-05T09:18:30.063317+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 31
+  }
+]

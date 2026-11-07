@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-k5zddjll Electronic Bamboo Pants",
+    "category": "bakery",
+    "price": 29.29,
+    "stock": 20,
+    "details": {
+      "brand": "Hodkiewicz Inc",
+      "origin": "Colombia"
+    }
+  }
+}

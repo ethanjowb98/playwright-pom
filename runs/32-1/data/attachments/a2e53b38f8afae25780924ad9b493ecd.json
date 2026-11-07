@@ -1,0 +1,15 @@
+{
+  "id": "c644c60a-c752-4493-93f1-c8bec55f488e",
+  "product_name": "QA-2-by1ase9e sort Alpha",
+  "category": "frozen",
+  "price": 20.68,
+  "stock": 48,
+  "details": {
+    "brand": "Pouros, Thompson and Botsford",
+    "origin": "New Caledonia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:51.357904+00:00"
+}

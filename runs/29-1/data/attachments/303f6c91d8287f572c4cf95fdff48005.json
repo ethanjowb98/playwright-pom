@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vd6fjdob Oriental Wooden Bacon",
+    "category": "bakery",
+    "price": "abc",
+    "stock": 35,
+    "details": {
+      "brand": "Howe - Glover",
+      "origin": "Angola"
+    }
+  }
+}

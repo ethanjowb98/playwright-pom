@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "1d70c7a6-dab2-46a2-988b-da29f9c15402",
+      "product_id": "9926f523-f7fc-4b2f-85f7-aa3e6e80d5f0",
+      "product_name": "QA-1-zawg8c3z Handmade Gold Mouse",
+      "price": 32.4,
+      "category": "snacks",
+      "quantity": 3,
+      "created_at": "2026-11-04T08:12:23.195537+00:00",
+      "updated_at": "2026-11-04T08:12:23.195537+00:00"
+    },
+    {
+      "id": "1fa8226f-0737-4517-b523-26462e3ee867",
+      "product_id": "211482c7-62e6-4529-9903-459f593cfdd2",
+      "product_name": "QA-1-qqjwj1t0 Intelligent Marble Towels",
+      "price": 33.38,
+      "category": "bakery",
+      "quantity": 1,
+      "created_at": "2026-11-04T08:12:23.801762+00:00",
+      "updated_at": "2026-11-04T08:12:23.801762+00:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xqqovand Recycled Wooden Pants",
+    "category": "other",
+    "price": 17.1,
+    "stock": 20,
+    "details": {
+      "brand": "Collins - Schaefer",
+      "origin": "Iran"
+    }
+  }
+}

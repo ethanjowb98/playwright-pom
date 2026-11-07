@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-smkw730p Luxurious Bronze Towels",
+    "category": "dairy-eggs",
+    "price": 11.57,
+    "stock": 25,
+    "details": {
+      "brand": "Paucek - Bradtke",
+      "origin": "Namibia"
+    }
+  }
+}

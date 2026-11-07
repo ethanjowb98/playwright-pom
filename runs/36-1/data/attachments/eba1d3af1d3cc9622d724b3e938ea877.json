@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "15f08d88-04e8-4785-a148-fbb85d42c76c",
+    "order_number": "O58872",
+    "status": "pending",
+    "total_amount": 46.75,
+    "created_at": "2026-11-06T10:10:04.495613+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-83c0goax Refined Steel Hat",
+        "category": "other",
+        "quantity": 1,
+        "price": 46.75,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

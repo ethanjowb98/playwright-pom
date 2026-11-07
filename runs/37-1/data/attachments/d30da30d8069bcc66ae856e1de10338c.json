@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bsirmjft Elegant Bamboo Hat",
+    "category": "fresh-produce",
+    "price": 28.39,
+    "stock": 48,
+    "details": {
+      "brand": "Gottlieb, Keeling and O'Kon",
+      "origin": "Grenada"
+    }
+  }
+}

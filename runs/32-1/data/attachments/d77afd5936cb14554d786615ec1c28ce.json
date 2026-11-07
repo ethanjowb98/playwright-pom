@@ -1,0 +1,27 @@
+{
+  "id": "5c654ed3-1b65-40ca-a8c5-0a5230129ab5",
+  "order_number": "O72006",
+  "status": "pending",
+  "total_amount": 57.63,
+  "notes": null,
+  "created_at": "2026-11-05T08:20:20.502973+00:00",
+  "updated_at": "2026-11-05T08:20:20.502973+00:00",
+  "items": [
+    {
+      "product_id": "d3bc8f42-ba22-4dad-bc6e-3c851ab482aa",
+      "product_name": "QA-1-y0192jli Refined Granite Soap",
+      "category": "meat-seafood",
+      "quantity": 2,
+      "price": 28.3,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "0557644f-a1d6-43f5-8040-548cd600cd8f",
+      "product_name": "QA-1-cil6vryl Modern Plastic Chair",
+      "category": "household",
+      "quantity": 1,
+      "price": 1.03,
+      "temperature_zone": null
+    }
+  ]
+}

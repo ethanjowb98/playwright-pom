@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-b8sf9tsg Fantastic Wooden Chicken",
+    "category": "dairy-eggs",
+    "stock": 10,
+    "details": {
+      "brand": "Yost, Morar and Monahan",
+      "origin": "Bolivia"
+    }
+  }
+}

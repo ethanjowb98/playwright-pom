@@ -1,0 +1,19 @@
+{
+  "id": "4f2736c0-5d12-420f-87fc-83345adb6619",
+  "order_number": "O80006",
+  "status": "cancelled",
+  "total_amount": 80.79,
+  "notes": null,
+  "created_at": "2026-11-04T08:10:37.127226+00:00",
+  "updated_at": "2026-11-04T08:10:37.127226+00:00",
+  "items": [
+    {
+      "product_id": "1d7cf3a9-8c74-4b39-971e-2e3ffe4c521a",
+      "product_name": "QA-1-7xkw3oqp Refined Granite Shirt",
+      "category": "bakery",
+      "quantity": 3,
+      "price": 26.93,
+      "temperature_zone": null
+    }
+  ]
+}

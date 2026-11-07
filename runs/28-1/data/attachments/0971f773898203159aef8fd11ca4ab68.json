@@ -1,0 +1,15 @@
+{
+  "id": "a5365f7b-195a-4d78-a74f-24f7be6b64a6",
+  "product_name": "QA-2-4wjmy0w4 Intelligent Marble Pizza",
+  "category": "frozen",
+  "price": 22.12,
+  "stock": 21,
+  "details": {
+    "brand": "Brakus - Bahringer",
+    "origin": "French Southern Territories"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:16.36872+00:00"
+}

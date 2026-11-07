@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-detv4hjp Oriental Cotton Hat",
+    "category": "snacks",
+    "price": 28.34,
+    "stock": 13,
+    "details": {
+      "batch": "QA-6-zkmwx1yf batch"
+    }
+  }
+}

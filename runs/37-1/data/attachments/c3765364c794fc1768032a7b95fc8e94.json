@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-36wuufrs Luxurious Cotton Shoes",
+    "category": "household",
+    "price": 23.42,
+    "stock": 48,
+    "details": {
+      "brand": "Schamberger, Kuhic and Mayer-Grady",
+      "origin": "Czechia"
+    }
+  }
+}

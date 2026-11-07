@@ -1,0 +1,15 @@
+{
+  "id": "730b0b24-4db1-4f4a-8299-95e0d2d1c7fc",
+  "product_name": "QA-2-2buj67y9 Luxurious Bamboo Bike",
+  "category": "bakery",
+  "price": 19.29,
+  "stock": 29,
+  "details": {
+    "brand": "Denesik - Price",
+    "origin": "Cayman Islands"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:08:42.879069+00:00"
+}

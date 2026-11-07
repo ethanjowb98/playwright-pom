@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-71pky4kc Sleek Plastic Gloves",
+    "category": "beverages",
+    "price": 11.98,
+    "stock": 33,
+    "details": {
+      "brand": "Collins - Macejkovic",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

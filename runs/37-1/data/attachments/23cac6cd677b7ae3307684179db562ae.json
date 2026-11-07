@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-ps8esgye sort Bravo",
+    "category": "meat-seafood",
+    "price": 31.85,
+    "stock": 49,
+    "details": {
+      "brand": "Cummerata LLC",
+      "origin": "Slovakia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "24309c8c-db51-467b-99cd-21da42cf59c9",
+  "product_name": "QA-1-lg3pj8gy Fresh Plastic Pizza",
+  "category": "fresh-produce",
+  "price": 18.68,
+  "stock": 14,
+  "details": {
+    "brand": "Pouros LLC",
+    "origin": "Guinea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:25:41.867117+00:00"
+}

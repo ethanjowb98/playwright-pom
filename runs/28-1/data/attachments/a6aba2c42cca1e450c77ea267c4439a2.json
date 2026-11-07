@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-0rjzx4so Recycled Silk Shirt",
+    "category": "pantry",
+    "price": 43.66,
+    "stock": 10,
+    "details": {
+      "brand": "Gerlach Group",
+      "origin": "Singapore"
+    },
+    "weighted": true
+  }
+}

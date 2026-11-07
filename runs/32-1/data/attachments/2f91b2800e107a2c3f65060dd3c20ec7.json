@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nhsqv3eg Practical Ceramic Chips",
+    "category": "pantry",
+    "price": 14.93,
+    "stock": 14,
+    "details": {
+      "brand": "Gottlieb - Schimmel",
+      "origin": "Samoa"
+    }
+  }
+}

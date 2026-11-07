@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "88a03105-22d6-4fab-beda-84db60bb149b",
+      "product_id": "f4b5a592-97f6-4a1e-af6b-017b958a2943",
+      "product_name": "QA-1-g89zmxat Fresh Rubber Cheese",
+      "price": 39.11,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-07T09:28:06.385583+00:00",
+      "updated_at": "2026-11-07T09:28:06.385583+00:00"
+    },
+    {
+      "id": "7a337f10-fb32-4edc-ad2a-0144aeca851c",
+      "product_id": "316c9543-9cbd-4c4d-afb6-5b4d92062f92",
+      "product_name": "QA-1-i0u27cji Sleek Ceramic Fish",
+      "price": 27.46,
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "created_at": "2026-11-07T09:28:06.938121+00:00",
+      "updated_at": "2026-11-07T09:28:06.938121+00:00"
+    }
+  ]
+}

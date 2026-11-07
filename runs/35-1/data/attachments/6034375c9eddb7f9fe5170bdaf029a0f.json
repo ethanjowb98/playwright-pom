@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-39pvcwbi Handcrafted Bronze Mouse",
+    "category": "other",
+    "price": 39.71,
+    "stock": 26,
+    "details": {
+      "brand": "Von - Denesik",
+      "origin": "Canada"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-qnishhh8 Sleek Wooden Pizza",
+    "category": "dairy-eggs",
+    "price": 16.46,
+    "stock": 32,
+    "details": {
+      "brand": "Reynolds, Stoltenberg and Kerluke",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "08903bcf-0e82-41a9-8b1b-69e233e0d32d",
+  "product_name": "QA-1-uvfotmv3 Handcrafted Marble Pants",
+  "category": "snacks",
+  "price": 23.65,
+  "stock": 12,
+  "details": {
+    "brand": "Zemlak and Sons",
+    "origin": "French Southern Territories"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:25:27.522951+00:00"
+}

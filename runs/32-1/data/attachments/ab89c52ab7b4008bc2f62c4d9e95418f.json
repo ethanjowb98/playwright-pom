@@ -1,0 +1,15 @@
+{
+  "id": "9e4e00fe-17d2-4cb6-8bf6-48afbaded308",
+  "product_name": "QA-1-mbzsap6p Soft Concrete Soap",
+  "category": "beverages",
+  "price": 24.19,
+  "stock": 20,
+  "details": {
+    "brand": "Adams, Prohaska and Stroman",
+    "origin": "Cook Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:21:54.015473+00:00"
+}

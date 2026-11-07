@@ -1,0 +1,15 @@
+{
+  "id": "47bbfcb9-c376-401f-b1e7-e2dd806501ff",
+  "product_name": "QA-1-db7io22d Handmade Rubber Ball",
+  "category": "pantry",
+  "price": 38.12,
+  "stock": 22,
+  "details": {
+    "brand": "Acme",
+    "origin": "Spain"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:18.991453+00:00"
+}

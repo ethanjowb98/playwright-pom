@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ry53pn6j Recycled Metal Towels",
+    "category": "other",
+    "price": 41.39,
+    "stock": 15,
+    "details": {
+      "brand": "Heathcote Group",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mzcmzh26 Ergonomic Wooden Chips",
+    "category": "snacks",
+    "price": 13.99,
+    "stock": 14,
+    "details": {
+      "brand": "Greenholt - Leffler",
+      "origin": "Belarus"
+    }
+  }
+}

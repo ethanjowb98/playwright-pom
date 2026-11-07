@@ -1,0 +1,15 @@
+{
+  "id": "df832930-d452-44b5-9b46-da10d8cf212a",
+  "product_name": "QA-1-cst89dou Licensed Gold Chips",
+  "category": "fresh-produce",
+  "price": 34.78,
+  "stock": 25,
+  "details": {
+    "brand": "Labadie LLC",
+    "origin": "Virgin Islands, U.S."
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:07:13.072638+00:00"
+}

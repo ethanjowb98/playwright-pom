@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-3kpnj5bu Fresh Silk Chips",
+    "category": "beverages",
+    "price": 28.41,
+    "stock": 43,
+    "details": {
+      "brand": "Schultz, Kilback and O'Kon",
+      "origin": "Sierra Leone"
+    }
+  }
+}

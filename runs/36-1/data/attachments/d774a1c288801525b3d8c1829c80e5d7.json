@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "4c67a246-1374-4581-8ba0-b84da2d61458",
+    "order_number": "O95764",
+    "status": "pending",
+    "total_amount": 13.2,
+    "created_at": "2026-11-06T10:08:15.626757+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-omo1r92m Unbranded Marble Car",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 4.4,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

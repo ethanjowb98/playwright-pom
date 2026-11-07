@@ -1,0 +1,15 @@
+{
+  "id": "5ed0c724-d93a-4e83-8138-b97098194ebe",
+  "product_name": "QA-1-4xzva8hm Handmade Gold Pants",
+  "category": "meat-seafood",
+  "price": 30.24,
+  "stock": 12,
+  "details": {
+    "brand": "Treutel LLC",
+    "origin": "Gambia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:11:31.783636+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-dk6gnt6m Licensed Wooden Chair",
+    "category": "other",
+    "price": 28.08,
+    "stock": 49,
+    "details": {
+      "brand": "Rice, Huel and Mayer",
+      "origin": "Czechia"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uavno8ce Small Rubber Sausages",
+    "category": "household",
+    "price": 27.87,
+    "stock": 48,
+    "details": {
+      "brand": "Lind, Wisoky and Graham",
+      "origin": "Solomon Islands"
+    }
+  }
+}

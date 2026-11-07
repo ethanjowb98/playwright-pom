@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-4scey1pd Intelligent Steel Sausages",
+    "category": "meat-seafood",
+    "price": 4.9,
+    "stock": 46,
+    "details": {
+      "brand": "Stracke - Hamill",
+      "origin": "Myanmar"
+    },
+    "weighted": false
+  }
+}

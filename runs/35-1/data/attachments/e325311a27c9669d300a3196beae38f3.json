@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tte9sfcx Tasty Bronze Gloves",
+    "category": "dairy-eggs",
+    "price": 20.59,
+    "stock": 34,
+    "details": {
+      "brand": "Cartwright, Hane and Ondricka",
+      "origin": "Norfolk Island"
+    }
+  }
+}

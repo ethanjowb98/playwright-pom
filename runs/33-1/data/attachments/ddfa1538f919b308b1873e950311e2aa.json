@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-qzt9xw11 Practical Plastic Chair",
+    "category": "frozen",
+    "price": 4.47,
+    "stock": 16,
+    "details": {
+      "brand": "Cormier Group",
+      "origin": "Åland Islands"
+    }
+  }
+}

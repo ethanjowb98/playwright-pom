@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-xd97hqkk Sleek Metal Bacon",
+    "category": "household",
+    "price": "abc",
+    "stock": 47,
+    "details": {
+      "brand": "Cruickshank Inc",
+      "origin": "Argentina"
+    }
+  }
+}

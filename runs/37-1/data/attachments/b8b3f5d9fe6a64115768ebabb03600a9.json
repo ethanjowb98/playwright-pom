@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r48a027w Gorgeous Granite Keyboard",
+    "category": "other",
+    "price": 9.28,
+    "stock": 29,
+    "details": {
+      "brand": "Kuhlman, Murray and Rohan",
+      "origin": "Uganda"
+    }
+  }
+}

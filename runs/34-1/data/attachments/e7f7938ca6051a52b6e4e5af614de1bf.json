@@ -1,0 +1,15 @@
+{
+  "id": "782e9ea7-b572-4ec8-b7ea-f1f9d05d215b",
+  "product_name": "QA-1-78605xqg Tasty Metal Gloves",
+  "category": "pantry",
+  "price": 30.3,
+  "stock": 45,
+  "details": {
+    "brand": "Farrell - Sauer",
+    "origin": "Seychelles"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:56.55579+00:00"
+}

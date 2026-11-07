@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-owrzl53s Oriental Ceramic Tuna",
+    "category": "household",
+    "price": 23.47,
+    "stock": 38,
+    "details": {
+      "brand": "Mayer, Will and Dooley-Cormier",
+      "origin": "Italy"
+    }
+  }
+}

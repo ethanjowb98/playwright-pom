@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-o8v7z4wi Luxurious Ceramic Mouse",
+    "category": "pantry",
+    "price": 1.99,
+    "stock": 0,
+    "details": {
+      "brand": "Doyle - Wisoky",
+      "origin": "Mauritius"
+    }
+  }
+}

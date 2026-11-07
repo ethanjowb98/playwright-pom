@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rjr46mez Elegant Rubber Chair",
+    "category": "fresh-produce",
+    "price": 1.42,
+    "stock": 43,
+    "details": {
+      "brand": "Jacobi, Simonis-Hudson and Roob",
+      "origin": "Nauru"
+    },
+    "temperature_zone": "Dry"
+  }
+}

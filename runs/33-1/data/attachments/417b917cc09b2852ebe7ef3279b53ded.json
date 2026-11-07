@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4hqt6dqp Luxurious Ceramic Pizza",
+    "category": "dairy-eggs",
+    "price": 40.33,
+    "stock": 48,
+    "details": {
+      "brand": "Carroll, Rice and Kessler",
+      "origin": "Guadeloupe"
+    }
+  }
+}

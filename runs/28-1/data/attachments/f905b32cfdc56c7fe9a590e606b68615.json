@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zawg8c3z Handmade Gold Mouse",
+    "category": "snacks",
+    "price": 32.4,
+    "stock": 42,
+    "details": {
+      "brand": "Gleason - Schulist-Durgan",
+      "origin": "Bangladesh"
+    }
+  }
+}

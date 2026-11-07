@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hqmymsh4 Incredible Metal Bike",
+    "category": "pantry",
+    "price": 1.46,
+    "stock": 26,
+    "details": {
+      "brand": "Braun Inc",
+      "origin": "Tanzania"
+    }
+  }
+}

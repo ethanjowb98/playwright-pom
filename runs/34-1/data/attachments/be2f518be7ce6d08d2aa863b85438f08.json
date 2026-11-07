@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0h6wgxkx Tasty Silk Pizza",
+    "category": "bakery",
+    "price": 8.28,
+    "stock": 2,
+    "details": {
+      "brand": "Kuphal, Bayer and Schaden",
+      "origin": "Sao Tome and Principe"
+    }
+  }
+}

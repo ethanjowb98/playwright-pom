@@ -1,0 +1,19 @@
+{
+  "id": "8a55909f-8894-48c5-9025-8e2a445fc101",
+  "order_number": "O57200",
+  "status": "cancelled",
+  "total_amount": 20.14,
+  "notes": null,
+  "created_at": "2026-11-04T08:10:57.672204+00:00",
+  "updated_at": "2026-11-04T08:10:57.672204+00:00",
+  "items": [
+    {
+      "product_id": "14d39ab7-d56b-4168-941d-e8cef7cd8f27",
+      "product_name": "QA-1-g8zflcd3 Intelligent Silk Computer",
+      "category": "dairy-eggs",
+      "quantity": 1,
+      "price": 20.14,
+      "temperature_zone": null
+    }
+  ]
+}

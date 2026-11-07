@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-y7uuc4zo Oriental Plastic Towels",
+    "category": "pantry",
+    "price": 15.18,
+    "stock": 29,
+    "details": {
+      "brand": "Konopelski, Shanahan and Ratke",
+      "origin": "Latvia"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

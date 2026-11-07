@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-7gx3txr6 Fantastic Gold Computer",
+    "category": "bakery",
+    "price": 30.51,
+    "stock": 33,
+    "details": {
+      "brand": "Larson, Trantow and Heller",
+      "origin": "Tonga"
+    }
+  }
+}

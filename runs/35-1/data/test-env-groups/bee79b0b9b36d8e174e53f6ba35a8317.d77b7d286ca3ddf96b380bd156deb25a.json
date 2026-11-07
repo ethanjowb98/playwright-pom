@@ -1,0 +1,1 @@
+{"id":"bee79b0b9b36d8e174e53f6ba35a8317.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/auth.api.spec.ts › Auth API › Account-wide calls › should return 401 when a basket item is added with a invalid api key","name":"should return 401 when a basket item is added with a invalid api key","status":"passed","testResultsByEnv":{"default":"2ff7ac951efe9e862ee3e2641b8630d6"}}

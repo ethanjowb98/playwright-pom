@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "f0b1ca4c-20cc-4783-9a91-638c78891522",
+    "order_number": "O89784",
+    "status": "pending",
+    "total_amount": 35.08,
+    "created_at": "2026-11-06T10:07:47.863168+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-jtgvpdrq Sleek Ceramic Keyboard",
+        "category": "other",
+        "quantity": 2,
+        "price": 17.54,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "0e6eca18-4356-463c-bf55-4bd828e8b230",
+  "product_name": "QA-1-dij9hr10 Electronic Concrete Chicken",
+  "category": "dairy-eggs",
+  "price": 17.62,
+  "stock": 29,
+  "details": {
+    "brand": "Walsh, Watsica and Rau",
+    "origin": "Zimbabwe"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:03:25.012783+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-a4u810t3 sort Bravo",
+    "category": "fresh-produce",
+    "price": 22.73,
+    "stock": 43,
+    "details": {
+      "brand": "Kulas - Schmeler",
+      "origin": "Comoros"
+    }
+  }
+}

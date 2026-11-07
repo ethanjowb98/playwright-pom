@@ -1,0 +1,15 @@
+{
+  "id": "cddae439-a264-46df-93e2-500f6a2fae02",
+  "product_name": "QA-1-b0i5f8gf Unbranded Gold Sausages",
+  "category": "beverages",
+  "price": 37.79,
+  "stock": 39,
+  "details": {
+    "brand": "Blanda - Abbott",
+    "origin": "Guam"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:52.75829+00:00"
+}

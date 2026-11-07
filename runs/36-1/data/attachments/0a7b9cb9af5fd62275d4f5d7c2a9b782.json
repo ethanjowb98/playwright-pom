@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ywjjnzm0 Rustic Granite Pizza",
+    "category": "household",
+    "price": 19.79,
+    "stock": 2,
+    "details": {
+      "brand": "Krajcik and Sons",
+      "origin": "Israel"
+    }
+  }
+}

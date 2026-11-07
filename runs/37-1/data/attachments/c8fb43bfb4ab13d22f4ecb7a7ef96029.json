@@ -1,0 +1,15 @@
+{
+  "id": "876274e1-879b-4621-84d7-e5f78c11fe97",
+  "product_name": "QA-1-oof0li60 Elegant Steel Pizza",
+  "category": "snacks",
+  "price": 23.42,
+  "stock": 20,
+  "details": {
+    "brand": "O'Hara, Dietrich and Braun",
+    "origin": "Samoa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:27:43.866579+00:00"
+}

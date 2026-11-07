@@ -1,0 +1,1 @@
+{"id":"c0157f435cfb9c2ab24efd1a08ce8ebc.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/order-integrity.api.spec.ts › Order integrity API › should restore stock when an order is cancelled","name":"should restore stock when an order is cancelled","status":"passed","testResultsByEnv":{"default":"890ee6cc78d40cfffb9fdd1433193c32"}}

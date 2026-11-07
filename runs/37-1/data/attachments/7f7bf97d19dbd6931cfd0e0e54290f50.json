@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s8b66grd Practical Aluminum Fish",
+    "category": "meat-seafood",
+    "price": 15.85,
+    "stock": 15,
+    "details": {
+      "brand": "Gusikowski - Block",
+      "origin": "Australia"
+    }
+  }
+}

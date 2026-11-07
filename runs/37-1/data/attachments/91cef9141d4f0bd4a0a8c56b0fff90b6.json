@@ -1,0 +1,19 @@
+{
+  "id": "7ca8e860-d3d2-4c10-96cf-1b3229a6a0c8",
+  "order_number": "O69998",
+  "status": "processing",
+  "total_amount": 116.67,
+  "notes": null,
+  "created_at": "2026-11-07T09:26:47.427966+00:00",
+  "updated_at": "2026-11-07T09:26:47.427966+00:00",
+  "items": [
+    {
+      "product_id": "c668a564-cdc2-4a10-8aa7-e444ac8799eb",
+      "product_name": "QA-1-yl1frtuq Tasty Metal Car",
+      "category": "other",
+      "quantity": 3,
+      "price": 38.89,
+      "temperature_zone": null
+    }
+  ]
+}

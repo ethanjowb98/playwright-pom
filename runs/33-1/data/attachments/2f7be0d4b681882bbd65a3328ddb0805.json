@@ -1,0 +1,15 @@
+{
+  "id": "fa61eabd-f988-4e44-b4d8-e4befea0de2d",
+  "product_name": "QA-1-a8xp3oue Soft Wooden Pants",
+  "category": "beverages",
+  "price": 49.16,
+  "stock": 27,
+  "details": {
+    "brand": "Heathcote - Dickinson",
+    "origin": "Israel"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:26:02.730242+00:00"
+}

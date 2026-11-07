@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bfm2q3bx Modern Rubber Bike",
+    "category": "pantry",
+    "price": 21.06,
+    "stock": 48,
+    "details": {
+      "brand": "Roberts and Sons",
+      "origin": "Chad"
+    }
+  }
+}

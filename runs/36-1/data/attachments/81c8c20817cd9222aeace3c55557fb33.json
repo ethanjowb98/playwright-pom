@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-601cvczw Electronic Concrete Bike",
+    "category": "fresh-produce",
+    "price": 7.66,
+    "stock": 31,
+    "details": {
+      "brand": "Rippin, Davis and Torp",
+      "origin": "Somalia"
+    }
+  }
+}

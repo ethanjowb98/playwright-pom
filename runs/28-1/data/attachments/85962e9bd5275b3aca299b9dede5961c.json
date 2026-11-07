@@ -1,0 +1,469 @@
+[
+  {
+    "id": "06f8664c-cce9-4b4d-81b5-d130cd2bb331",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "100% Florida Orange Juice",
+    "category": "beverages",
+    "price": 6.5,
+    "details": {
+      "pulp": "High",
+      "volume": "52oz",
+      "pasteurized": true,
+      "not_from_concentrate": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "188e8ffc-2cca-49f5-ab80-5ef980e65d55",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Borsec Naturally Sparkling Mineral Water",
+    "category": "beverages",
+    "price": 2.49,
+    "details": {
+      "origin": "Romania",
+      "volume": "1.5L",
+      "container": "Plastic",
+      "carbonated": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "328a5ba7-e061-41e5-9dcb-c641e598ec9c",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Classic Cheesecake (Whole)",
+    "category": "bakery",
+    "price": 18.99,
+    "details": {
+      "size": "8 inch",
+      "crust": "Graham Cracker",
+      "flavor": "Vanilla Bean",
+      "servings": 8
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9b6860e4-ea22-498d-8478-9272dd5b92c1",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Cola Cans 12-Pack",
+    "category": "beverages",
+    "price": 7.99,
+    "details": {
+      "brand": "PopCo",
+      "volume": "12x12oz",
+      "sugar_free": false,
+      "caffeinated": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "f58c54f5-bd6f-4ce5-b2b1-5216025b53e7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Cozonac (Walnut Sweet Bread)",
+    "category": "bakery",
+    "price": 8.99,
+    "details": {
+      "origin": "Romania",
+      "filling": "Walnut and Cocoa",
+      "traditional": true,
+      "contains_nuts": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "76dfd6b5-d740-4d0b-8307-27ca51419ef1",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "fea113f0-9c58-4738-8640-9af594e46416",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Everything Bagels (6-Pack)",
+    "category": "bakery",
+    "price": 5.49,
+    "details": {
+      "count": 6,
+      "toppings": [
+        "Sesame",
+        "Poppy",
+        "Onion",
+        "Garlic",
+        "Salt"
+      ],
+      "pre_sliced": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "755c68bf-f4eb-493d-9878-885a3e855e5c",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Fresh French Baguette",
+    "category": "bakery",
+    "price": 2.99,
+    "details": {
+      "vegan": true,
+      "length": "22 inches",
+      "flour_type": "White",
+      "baked_fresh_daily": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "340c0d8e-466c-4828-b0f8-3dcfd013aa52",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Margarita Concentrate",
+    "category": "beverages",
+    "price": 3.25,
+    "details": {
+      "makes": "1 pitcher",
+      "volume": "12oz",
+      "contains_alcohol": false
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "b87ab72c-6a64-45a1-b0b6-4c1f57ecb905",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Tilapia Fillets",
+    "category": "meat-seafood",
+    "price": 10.5,
+    "details": {
+      "weight": "2lb",
+      "farm_raised": true,
+      "individually_wrapped": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "f09cc4c7-a33e-49b2-bb93-3bbf309f371a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Gallon Whole Milk",
+    "category": "dairy-eggs",
+    "price": 3.49,
+    "details": {
+      "brand": "DairyPure",
+      "volume": "1 Gallon",
+      "organic": false,
+      "fat_content": "3.25%"
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9737ec80-7f05-4d04-82aa-7b9d381eba29",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Ground Beef 80/20 (1lb)",
+    "category": "meat-seafood",
+    "price": 5.49,
+    "details": {
+      "weight": "1lb",
+      "organic": false,
+      "fat_percentage": "20%"
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "6ab401e5-139d-4bec-826b-95216aa25d40",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Hass Avocado",
+    "category": "fresh-produce",
+    "price": 1.5,
+    "details": {
+      "size": "Large",
+      "origin": "Mexico",
+      "ripeness": "Ready to Eat"
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "bd71707c-4e03-4e80-a42d-e0df4f1c150d",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Jumbo Raw Shrimp (2lb)",
+    "category": "meat-seafood",
+    "price": 18.99,
+    "details": {
+      "size": "16-20 count",
+      "peeled": true,
+      "weight": "2lb",
+      "deveined": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "98bcd17f-dfcc-4bb0-8c78-7202f88c1634",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Large Brown Eggs (Dozen)",
+    "category": "dairy-eggs",
+    "price": 4.99,
+    "details": {
+      "size": "Large",
+      "color": "Brown",
+      "count": 12,
+      "free_range": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "526f7bda-753c-41a2-a71e-64526aa5cce1",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Nitro Cold Brew Coffee",
+    "category": "beverages",
+    "price": 4.99,
+    "details": {
+      "brand": "AwakeRoasters",
+      "roast": "Dark",
+      "volume": "16oz",
+      "dairy_free": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "8ab0d4e7-edb9-4afb-ad3f-60c122f49ac1",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Pure Irish Butter",
+    "category": "dairy-eggs",
+    "price": 4.5,
+    "details": {
+      "brand": "Kerrygold",
+      "origin": "Ireland",
+      "salted": true,
+      "weight": "8oz"
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "d5f0d228-3581-4b0c-ac24-962a623c7e91",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-lzejilar Bespoke Steel Tuna",
+    "category": "dairy-eggs",
+    "price": 3.57,
+    "details": {
+      "brand": "Boehm - Labadie",
+      "origin": "Cocos (Keeling) Islands"
+    },
+    "created_at": "2026-11-04T08:08:44.653437+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 33
+  },
+  {
+    "id": "460e42c6-e419-4846-a966-dc8e3ab26ff5",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-e3qtrpc5 Handmade Gold Chips",
+    "category": "frozen",
+    "price": 30.17,
+    "details": {
+      "brand": "Stroman, Hudson and Wisozk",
+      "origin": "Holy See (Vatican City State)"
+    },
+    "created_at": "2026-11-04T08:08:44.482789+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 24
+  },
+  {
+    "id": "79413f03-2cb5-4cc1-a9ee-82e878d707f9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-odu22m7h Refined Ceramic Salad",
+    "category": "dairy-eggs",
+    "price": 30.66,
+    "details": {
+      "brand": "Prosacco, Jacobson and Stiedemann",
+      "origin": "Central African Republic"
+    },
+    "created_at": "2026-11-04T08:08:44.160143+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 23
+  },
+  {
+    "id": "50cce903-1d32-4a8c-8474-5ee4bdaab12c",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-4-4scey1pd Intelligent Steel Sausages",
+    "category": "meat-seafood",
+    "price": 4.9,
+    "details": {
+      "brand": "Stracke - Hamill",
+      "origin": "Myanmar"
+    },
+    "created_at": "2026-11-04T08:08:43.955569+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 46
+  },
+  {
+    "id": "78b8031d-3a3e-489b-ba58-8181cf4b4295",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Ready-to-Drink Oat Milk Latte",
+    "category": "beverages",
+    "price": 3.99,
+    "details": {
+      "brand": "PlantPower",
+      "vegan": true,
+      "volume": "12oz",
+      "sweetened": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "3cbc9b44-d7df-40cd-8b0a-3a09fac9846a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Russet Potatoes (5lb)",
+    "category": "fresh-produce",
+    "price": 5.5,
+    "details": {
+      "type": "Starchy",
+      "origin": "Idaho",
+      "bag_size": "5lb"
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "f1d7e0d3-b376-41e9-8deb-0dcbc9fb5310",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Sharp Cheddar Cheese",
+    "category": "dairy-eggs",
+    "price": 3.99,
+    "details": {
+      "type": "Block",
+      "brand": "Cabot",
+      "weight": "8oz",
+      "lactose_free": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "c261f036-15db-4d11-a096-68690142c607",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Solid White Albacore Tuna",
+    "category": "meat-seafood",
+    "price": 2.25,
+    "details": {
+      "weight": "5oz",
+      "packed_in": "Water",
+      "dolphin_safe": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "e4e089f1-a979-4078-b731-9c386f5cd836",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Strawberries",
+    "category": "fresh-produce",
+    "price": 4.99,
+    "details": {
+      "brand": "BerrySweet",
+      "weight": "1lb",
+      "organic": false
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "5ccd92f4-dd5d-4195-a626-a5497ead71d8",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Unsweetened Almond Milk",
+    "category": "dairy-eggs",
+    "price": 2.99,
+    "details": {
+      "brand": "Silk",
+      "vegan": true,
+      "volume": "32oz",
+      "sweetened": false,
+      "dairy_free": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "26518a45-afb6-476b-8518-169ceeb3e09d",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Vanilla Greek Yogurt",
+    "category": "dairy-eggs",
+    "price": 5.49,
+    "details": {
+      "brand": "Chobani",
+      "flavor": "Vanilla",
+      "weight": "32oz",
+      "fat_free": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  }
+]

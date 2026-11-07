@@ -1,0 +1,7 @@
+{
+  "method": "PUT",
+  "path": "/api/orders/d634215c-1f12-44e3-b15f-9bde4c60f4a5",
+  "body": {
+    "status": "shipped"
+  }
+}

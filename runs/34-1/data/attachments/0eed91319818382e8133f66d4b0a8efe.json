@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9q3y2359 Elegant Gold Cheese",
+    "category": "other",
+    "price": 15.01,
+    "stock": 19,
+    "details": {
+      "brand": "Kemmer - Gerlach",
+      "origin": "Botswana"
+    }
+  }
+}

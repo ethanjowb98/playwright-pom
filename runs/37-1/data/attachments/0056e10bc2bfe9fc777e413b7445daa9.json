@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-qxqo0pkz Handcrafted Rubber Ball",
+    "category": "beverages",
+    "price": 10.59,
+    "stock": 46,
+    "details": {
+      "brand": "Robel - Hintz",
+      "origin": "Guadeloupe"
+    }
+  }
+}

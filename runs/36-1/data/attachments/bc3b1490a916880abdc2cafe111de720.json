@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "18dcb9fe-1fa4-4d6f-9339-0db262d008f2",
+      "product_id": "84da2368-bbac-4827-b4d2-d9125d1d0a1a",
+      "product_name": "QA-1-kosted0y Practical Metal Computer",
+      "price": 15.37,
+      "category": "dairy-eggs",
+      "quantity": 3,
+      "created_at": "2026-11-06T10:06:13.701692+00:00",
+      "updated_at": "2026-11-06T10:06:14.488176+00:00"
+    }
+  ]
+}

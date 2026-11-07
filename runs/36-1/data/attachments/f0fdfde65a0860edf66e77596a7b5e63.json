@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9c9wvuc9 Intelligent Rubber Pizza",
+    "category": "fresh-produce",
+    "price": 49.55,
+    "stock": 39,
+    "details": {
+      "brand": "Conroy, Nitzsche and Barrows",
+      "origin": "United Kingdom"
+    }
+  }
+}

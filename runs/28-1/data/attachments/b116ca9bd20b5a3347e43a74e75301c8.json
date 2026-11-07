@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5rxxx89h Oriental Granite Ball",
+    "category": "snacks",
+    "price": 37.09,
+    "stock": 27,
+    "details": {
+      "brand": "Quitzon - Marquardt",
+      "origin": "Saint Lucia"
+    }
+  }
+}

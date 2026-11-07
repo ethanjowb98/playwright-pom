@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dyeh2tbw Modern Metal Bike",
+    "category": "bakery",
+    "price": 48.52,
+    "stock": 11,
+    "details": {
+      "brand": "Ryan - Rippin",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

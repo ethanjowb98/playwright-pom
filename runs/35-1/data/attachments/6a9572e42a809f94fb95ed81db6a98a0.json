@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-049xosm4 Handmade Wooden Mouse",
+    "category": "dairy-eggs",
+    "price": 21.83,
+    "stock": 18,
+    "details": {
+      "brand": "Quigley - Abbott-Klein",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

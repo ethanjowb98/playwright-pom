@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5q34qsj7 Bespoke Concrete Hat",
+    "category": "pantry",
+    "price": 17.05,
+    "stock": 18,
+    "details": {
+      "brand": "Bauch, Lesch and Parisian",
+      "origin": "Portugal"
+    }
+  }
+}

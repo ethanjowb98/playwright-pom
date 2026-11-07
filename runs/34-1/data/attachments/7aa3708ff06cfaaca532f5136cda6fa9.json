@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "77154da1-342f-4393-8386-6da768f135e6",
+    "order_number": "O22326",
+    "status": "pending",
+    "total_amount": 127.95,
+    "created_at": "2026-11-05T09:22:38.581115+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-alqp7akc Ergonomic Granite Tuna",
+        "category": "bakery",
+        "quantity": 3,
+        "price": 42.65,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

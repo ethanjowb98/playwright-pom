@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-25mcyt72 Electronic Plastic Soap",
+    "category": "bakery",
+    "price": 14.23,
+    "stock": 12,
+    "details": {
+      "brand": "Beer, Dach and Pfannerstill",
+      "origin": "Mongolia"
+    },
+    "temperature_zone": "Dry"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wa7ktdun Luxurious Wooden Tuna",
+    "category": "frozen",
+    "price": 16.18,
+    "stock": 39,
+    "details": {
+      "brand": "Schuster Group",
+      "origin": "Maldives"
+    }
+  }
+}

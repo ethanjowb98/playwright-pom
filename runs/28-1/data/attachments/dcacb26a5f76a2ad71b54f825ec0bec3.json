@@ -1,0 +1,15 @@
+{
+  "id": "86e41436-814d-464d-bb9a-7395bb72243d",
+  "product_name": "QA-2-vvmog4mw Electronic Aluminum Chicken",
+  "category": "snacks",
+  "price": 16.02,
+  "stock": 10,
+  "details": {
+    "brand": "Fay and Sons",
+    "origin": "Cyprus"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:08:41.211647+00:00"
+}

@@ -1,0 +1,9 @@
+{
+  "method": "GET",
+  "path": "/api/products/filter",
+  "query": {
+    "category": "frozen",
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

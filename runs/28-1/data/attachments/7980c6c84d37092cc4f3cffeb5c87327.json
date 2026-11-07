@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n8c8dvf5 Bespoke Concrete Cheese",
+    "category": "bakery",
+    "price": 33.78,
+    "stock": 47,
+    "details": {
+      "brand": "Terry - Price",
+      "origin": "Saint Martin"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-96gxd5s9 Incredible Aluminum Bacon",
+    "category": "household",
+    "price": 5.81,
+    "stock": 2,
+    "details": {
+      "brand": "Runte and Sons",
+      "origin": "Puerto Rico"
+    }
+  }
+}

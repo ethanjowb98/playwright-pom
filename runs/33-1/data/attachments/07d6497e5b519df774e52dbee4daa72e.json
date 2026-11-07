@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-qfe9mt0k Unbranded Plastic Shirt",
+    "category": "pantry",
+    "price": 37.66,
+    "stock": 17,
+    "details": {
+      "brand": "Nolan - Quigley",
+      "origin": "Burundi"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

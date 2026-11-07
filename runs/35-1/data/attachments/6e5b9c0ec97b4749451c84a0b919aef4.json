@@ -1,0 +1,15 @@
+{
+  "id": "84f5af4c-e141-4183-a644-d701f5bf0104",
+  "product_name": "QA-1-i7j49ktw sort Alpha",
+  "category": "fresh-produce",
+  "price": 11.17,
+  "stock": 43,
+  "details": {
+    "brand": "Schumm-Kerluke - Haley",
+    "origin": "Bosnia and Herzegovina"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:22.092731+00:00"
+}

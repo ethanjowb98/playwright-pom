@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wcaw7fg8 Licensed Gold Salad",
+    "category": "other",
+    "price": 14.33,
+    "stock": 39,
+    "details": {
+      "brand": "Williamson - Ledner",
+      "origin": "Argentina"
+    }
+  }
+}

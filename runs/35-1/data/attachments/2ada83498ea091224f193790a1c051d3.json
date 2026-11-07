@@ -1,0 +1,15 @@
+{
+  "id": "da643316-9301-4754-a395-14f85bc0865c",
+  "product_name": "QA-1-wfcoxoxv Modern Metal Computer",
+  "category": "fresh-produce",
+  "price": 14.68,
+  "stock": 42,
+  "details": {
+    "brand": "Hahn Inc",
+    "origin": "Nigeria"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:03:27.571047+00:00"
+}

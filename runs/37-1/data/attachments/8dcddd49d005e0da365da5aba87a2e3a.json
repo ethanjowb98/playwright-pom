@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i9isqvpi Fresh Plastic Mouse",
+    "category": "beverages",
+    "price": 9.67,
+    "stock": 11,
+    "details": {
+      "brand": "Barton, Rowe and Mann",
+      "origin": "Hungary"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "fbe00a2f-1279-43e6-af29-9adb660c3688",
+    "order_number": "O79447",
+    "status": "pending",
+    "total_amount": 46.86,
+    "created_at": "2026-11-05T08:20:36.924522+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-4wg4iuaf Incredible Rubber Towels",
+        "category": "pantry",
+        "quantity": 1,
+        "price": 46.86,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

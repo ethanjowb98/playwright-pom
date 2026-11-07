@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lvbi4qgs Gorgeous Marble Chair",
+    "category": "bakery",
+    "price": 25.09,
+    "stock": 22,
+    "details": {
+      "brand": "Nader - Towne",
+      "origin": "Maldives"
+    }
+  }
+}

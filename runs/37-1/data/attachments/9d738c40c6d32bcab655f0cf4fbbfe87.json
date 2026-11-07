@@ -1,0 +1,15 @@
+{
+  "id": "04865cfd-f51e-433d-81ff-ed5044721798",
+  "product_name": "QA-1-ampughmz Handcrafted Steel Shoes",
+  "category": "meat-seafood",
+  "price": 48.63,
+  "stock": 20,
+  "details": {
+    "brand": "Kutch - Mraz",
+    "origin": "Jersey"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:21.436692+00:00"
+}

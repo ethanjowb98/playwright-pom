@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-83c0goax Refined Steel Hat",
+    "category": "other",
+    "price": 46.75,
+    "stock": 33,
+    "details": {
+      "brand": "Kertzmann, Goyette and Douglas",
+      "origin": "Réunion"
+    }
+  }
+}

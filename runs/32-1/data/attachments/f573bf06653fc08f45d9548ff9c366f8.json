@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vo0ims0g Frozen Gold Bacon",
+    "category": "household",
+    "price": 15.09,
+    "stock": 18,
+    "details": {
+      "brand": "Mitchell - Kerluke-Lebsack",
+      "origin": "Cape Verde"
+    }
+  }
+}

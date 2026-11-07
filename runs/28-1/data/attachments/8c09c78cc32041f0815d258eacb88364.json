@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g8zflcd3 Intelligent Silk Computer",
+    "category": "dairy-eggs",
+    "price": 20.14,
+    "stock": 34,
+    "details": {
+      "brand": "Beatty - Brakus",
+      "origin": "Vietnam"
+    }
+  }
+}

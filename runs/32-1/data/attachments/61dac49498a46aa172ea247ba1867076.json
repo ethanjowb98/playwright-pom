@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ea0psby5 sort Alpha",
+    "category": "other",
+    "price": 18.67,
+    "stock": 19,
+    "details": {
+      "brand": "Hauck, Bartell and Schumm",
+      "origin": "Eritrea"
+    }
+  }
+}

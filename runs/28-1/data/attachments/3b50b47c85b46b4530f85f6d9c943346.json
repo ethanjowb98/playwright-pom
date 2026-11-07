@@ -1,0 +1,15 @@
+{
+  "id": "4b065bd5-22b3-4ad7-b94c-a95e206230d3",
+  "product_name": "QA-1-xulwk021 Fresh Cotton Gloves",
+  "category": "bakery",
+  "price": 20.13,
+  "stock": 12,
+  "details": {
+    "brand": "Murphy - Wisozk",
+    "origin": "Peru"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:31.810962+00:00"
+}

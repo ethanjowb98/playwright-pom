@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-k4s1ifi9 Fantastic Bronze Soap",
+    "category": "bakery",
+    "price": 40.14,
+    "stock": 49,
+    "details": {
+      "brand": "Zemlak, Leffler and Orn",
+      "origin": "Japan"
+    }
+  }
+}

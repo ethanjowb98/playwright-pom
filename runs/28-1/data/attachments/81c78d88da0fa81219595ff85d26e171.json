@@ -1,0 +1,19 @@
+{
+  "id": "edfccbdd-60cc-41f0-ab57-f5eebdf6f8d9",
+  "order_number": "O98023",
+  "status": "cancelled",
+  "total_amount": 31.23,
+  "notes": null,
+  "created_at": "2026-11-04T08:10:46.591422+00:00",
+  "updated_at": "2026-11-04T08:10:46.591422+00:00",
+  "items": [
+    {
+      "product_id": "e7e39f29-a724-4f69-9108-54b22b170b37",
+      "product_name": "QA-1-ouz4gwru Handcrafted Metal Tuna",
+      "category": "meat-seafood",
+      "quantity": 1,
+      "price": 31.23,
+      "temperature_zone": null
+    }
+  ]
+}

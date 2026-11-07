@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ch55zsqn Licensed Granite Soap",
+    "category": "household",
+    "price": 41.39,
+    "stock": 39,
+    "details": {
+      "brand": "Feeney - Kris",
+      "origin": "British Indian Ocean Territory (Chagos Archipelago)"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "effb8962-3dbc-4c29-bff3-4d1bce10d86b",
+    "order_number": "O36766",
+    "status": "pending",
+    "total_amount": 148.65,
+    "created_at": "2026-11-06T10:08:05.022441+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-6rum2485 Practical Wooden Tuna",
+        "category": "other",
+        "quantity": 3,
+        "price": 49.55,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

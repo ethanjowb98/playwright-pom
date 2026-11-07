@@ -1,0 +1,15 @@
+{
+  "id": "3743e82d-e9b9-4dc2-9bdb-bce8907fa0d1",
+  "product_name": "QA-4-rwuqoxkp Handcrafted Metal Ball",
+  "category": "beverages",
+  "price": 10.48,
+  "stock": 40,
+  "details": {
+    "brand": "Carroll and Sons",
+    "origin": "Chad"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:52.830123+00:00"
+}

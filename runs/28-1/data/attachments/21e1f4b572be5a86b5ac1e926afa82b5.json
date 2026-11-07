@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6e981rd4 Gorgeous Concrete Bike",
+    "category": "frozen",
+    "price": 35.68,
+    "stock": 18,
+    "details": {
+      "brand": "Little and Sons",
+      "origin": "Tonga"
+    }
+  }
+}

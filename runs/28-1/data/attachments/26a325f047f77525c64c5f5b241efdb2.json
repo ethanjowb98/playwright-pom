@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6mzb0dna Small Plastic Salad",
+    "category": "frozen",
+    "price": 31.36,
+    "stock": 13,
+    "details": {
+      "brand": "Paucek - Cremin",
+      "origin": "Guam"
+    }
+  }
+}

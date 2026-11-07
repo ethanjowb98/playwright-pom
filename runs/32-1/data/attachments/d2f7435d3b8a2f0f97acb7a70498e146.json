@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "e163b62d-fc9f-4cf0-afbd-9cc708cdb123",
+    "order_number": "O91137",
+    "status": "pending",
+    "total_amount": 110.37,
+    "created_at": "2026-11-05T08:21:27.035852+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-yuvyq717 Awesome Concrete Sausages",
+        "category": "beverages",
+        "quantity": 2,
+        "price": 32.79,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-nhsqv3eg Practical Ceramic Chips",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 14.93,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

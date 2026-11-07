@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-am9lt3nx Bespoke Wooden Hat",
+    "category": "dairy-eggs",
+    "price": 49.3,
+    "stock": 19,
+    "details": {
+      "brand": "Bashirian - Cronin",
+      "origin": "Marshall Islands"
+    }
+  }
+}

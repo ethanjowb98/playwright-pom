@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-aufuuurg Ergonomic Cotton Soap",
+    "category": "snacks",
+    "price": 22.67,
+    "stock": 14,
+    "details": {
+      "brand": "McGlynn, Mohr and Schultz",
+      "origin": "Mauritania"
+    }
+  }
+}

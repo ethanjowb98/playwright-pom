@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y0192jli Refined Granite Soap",
+    "category": "meat-seafood",
+    "price": 28.3,
+    "stock": 39,
+    "details": {
+      "brand": "Doyle LLC",
+      "origin": "Comoros"
+    }
+  }
+}

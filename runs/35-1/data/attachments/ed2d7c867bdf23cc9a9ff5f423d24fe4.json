@@ -1,0 +1,298 @@
+[
+  {
+    "id": "e657d13e-8b5b-4a96-abe7-01da044f85c6",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "100% Florida Orange Juice",
+    "category": "beverages",
+    "price": 6.5,
+    "details": {
+      "pulp": "High",
+      "volume": "52oz",
+      "pasteurized": true,
+      "not_from_concentrate": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "67c1904a-e650-475e-b938-a10732960f97",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Aged Gouda Wedge",
+    "category": "dairy-eggs",
+    "price": 14.99,
+    "details": {
+      "aged": "6 months",
+      "origin": "Netherlands",
+      "milk_type": "Cow",
+      "rind_edible": false
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "c32fe6c2-c572-4e85-ae60-38c8f6ec2a75",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Bone-in Ribeye Steak",
+    "category": "meat-seafood",
+    "price": 19.5,
+    "details": {
+      "aging": "21 Days",
+      "grade": "USDA Choice",
+      "thickness": "1.5 inch"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "16bb232d-bf12-41c5-8fbc-3ea0dc7fe5ec",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Boneless Skinless Chicken Breasts",
+    "category": "meat-seafood",
+    "price": 3.99,
+    "details": {
+      "brand": "PoultryFarms",
+      "antibiotic_free": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "0e5aff95-9ba8-4da8-8cf6-906deae765d0",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Classic Cheesecake (Whole)",
+    "category": "bakery",
+    "price": 18.99,
+    "details": {
+      "size": "8 inch",
+      "crust": "Graham Cracker",
+      "flavor": "Vanilla Bean",
+      "servings": 8
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "2c306521-74eb-47ed-aa85-764a3bfacfdc",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Gallon Whole Milk",
+    "category": "dairy-eggs",
+    "price": 3.49,
+    "details": {
+      "brand": "DairyPure",
+      "volume": "1 Gallon",
+      "organic": false,
+      "fat_content": "3.25%"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "929ebb1a-4ad8-4885-bab8-7ea9f6d3add7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Granny Smith Apples",
+    "category": "fresh-produce",
+    "price": 2.49,
+    "details": {
+      "class": "Extra Fancy",
+      "origin": "USA",
+      "harvest_date": "2025-10-15"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "b1c114e9-e98f-4f6b-b469-69e634998e5b",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Ground Beef 80/20 (1lb)",
+    "category": "meat-seafood",
+    "price": 5.49,
+    "details": {
+      "weight": "1lb",
+      "organic": false,
+      "fat_percentage": "20%"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7ffac3c5-2230-4805-abb8-b6d43eb75442",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Large Brown Eggs (Dozen)",
+    "category": "dairy-eggs",
+    "price": 4.99,
+    "details": {
+      "size": "Large",
+      "color": "Brown",
+      "count": 12,
+      "free_range": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "fc5f448f-ce3d-4629-8233-57bca7b61a6b",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Nitro Cold Brew Coffee",
+    "category": "beverages",
+    "price": 4.99,
+    "details": {
+      "brand": "AwakeRoasters",
+      "roast": "Dark",
+      "volume": "16oz",
+      "dairy_free": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "093d0020-7c4f-40e0-8eb6-2b491d975cbe",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Pure Irish Butter",
+    "category": "dairy-eggs",
+    "price": 4.5,
+    "details": {
+      "brand": "Kerrygold",
+      "origin": "Ireland",
+      "salted": true,
+      "weight": "8oz"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "1df8632f-c343-4100-9ff1-3547ec6e13d7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-87fyiq60 Incredible Plastic Pants",
+    "category": "dairy-eggs",
+    "price": 38.28,
+    "details": {
+      "brand": "Raynor, Schroeder and Ratke",
+      "origin": "San Marino"
+    },
+    "created_at": "2026-11-05T10:02:25.068855+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 46
+  },
+  {
+    "id": "fd2da329-313e-468a-84fa-40155239cd66",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-wswq6ktv Fresh Silk Bike",
+    "category": "household",
+    "price": 24.3,
+    "details": {
+      "brand": "Moen, Corkery and Marvin",
+      "origin": "Palestine"
+    },
+    "created_at": "2026-11-05T10:02:24.614034+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 31
+  },
+  {
+    "id": "3c7f2075-e751-4c0e-acdc-a19265aba126",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Ready-to-Drink Oat Milk Latte",
+    "category": "beverages",
+    "price": 3.99,
+    "details": {
+      "brand": "PlantPower",
+      "vegan": true,
+      "volume": "12oz",
+      "sweetened": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "ef875ef7-c388-48f4-b20f-69bcf9dc061b",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Sharp Cheddar Cheese",
+    "category": "dairy-eggs",
+    "price": 3.99,
+    "details": {
+      "type": "Block",
+      "brand": "Cabot",
+      "weight": "8oz",
+      "lactose_free": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "ec0234fa-34c3-4404-80d2-ea5810da07af",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Strawberries",
+    "category": "fresh-produce",
+    "price": 4.99,
+    "details": {
+      "brand": "BerrySweet",
+      "weight": "1lb",
+      "organic": false
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "1fb97d57-17d8-4851-80cc-a911c9ceca29",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Vanilla Greek Yogurt",
+    "category": "dairy-eggs",
+    "price": 5.49,
+    "details": {
+      "brand": "Chobani",
+      "flavor": "Vanilla",
+      "weight": "32oz",
+      "fat_free": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7b0bab20-b2e4-48af-9e6e-15798fdcf70a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Wild Caught Salmon Fillet",
+    "category": "meat-seafood",
+    "price": 14.99,
+    "details": {
+      "cut": "Fillet",
+      "origin": "Alaska",
+      "skin_on": true,
+      "wild_caught": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  }
+]

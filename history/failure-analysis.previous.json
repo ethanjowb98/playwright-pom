@@ -1,0 +1,220 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-06T10:17:02.932Z",
+  "run": {
+    "id": "Playwright Tests #36",
+    "executor": "Playwright Tests #36",
+    "start": "2026-11-06T10:05:43.893Z",
+    "resultsDir": "allure-results"
+  },
+  "previousRunId": "Playwright Tests #35",
+  "summary": {
+    "tests": 178,
+    "passed": 163,
+    "failed": 0,
+    "flaky": 0,
+    "skipped": 15,
+    "knownDefects": 15,
+    "clusters": 0
+  },
+  "clusters": [],
+  "flaky": [],
+  "knownDefects": [
+    {
+      "test": {
+        "name": "should return the same product fields as the catalogue when filtering",
+        "fullName": "api/product-search.api.spec.ts › Product search API › should return the same product fields as the catalogue when filtering",
+        "project": "api",
+        "repetition": null,
+        "feature": "Product search",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "/api/products/filter rows use `name` instead of `product_name`"
+    },
+    {
+      "test": {
+        "name": "should reject the product with 400 when price is negative",
+        "fullName": "api/products.api.spec.ts › Products API › Create › should reject the product with 400 when price is negative",
+        "project": "api",
+        "repetition": null,
+        "feature": "Products",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "POST /api/products accepts a negative price and returns 201"
+    },
+    {
+      "test": {
+        "name": "should reject the update with 400 and keep the product when price is negative",
+        "fullName": "api/products.api.spec.ts › Products API › Update › should reject the update with 400 and keep the product when price is negative",
+        "project": "api",
+        "repetition": null,
+        "feature": "Products",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "PUT /api/products/:id saves a price of 0 or below (200), while POST rejects 0"
+    },
+    {
+      "test": {
+        "name": "should reject the update with 400 and keep the product when price is zero",
+        "fullName": "api/products.api.spec.ts › Products API › Update › should reject the update with 400 and keep the product when price is zero",
+        "project": "api",
+        "repetition": null,
+        "feature": "Products",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "PUT /api/products/:id saves a price of 0 or below (200), while POST rejects 0"
+    },
+    {
+      "test": {
+        "name": "should render the product name as plain text when it contains markup",
+        "fullName": "e2e/products.spec.ts › Products UI › should render the product name as plain text when it contains markup",
+        "project": "e2e-chromium",
+        "repetition": null,
+        "feature": "Products",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "the grid injects product names into innerHTML unescaped (stored XSS)"
+    },
+    {
+      "test": {
+        "name": "should show an error and keep the product unchanged when the edited price is zero",
+        "fullName": "e2e/products.spec.ts › Products UI › should show an error and keep the product unchanged when the edited price is zero",
+        "project": "e2e-chromium",
+        "repetition": null,
+        "feature": "Products",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "PUT /api/products/:id saves price 0 (200), while POST rejects it (400)"
+    },
+    {
+      "test": {
+        "name": "should count every unit when the same product is added concurrently",
+        "fullName": "api/basket.api.spec.ts › Basket API › Isolation › should count every unit when the same product is added concurrently",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "Basket",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "concurrent POST /api/basket for one product returns 500 for some requests"
+    },
+    {
+      "test": {
+        "name": "should reject the update with 400 and keep the quantity when the quantity is not a number",
+        "fullName": "api/basket.api.spec.ts › Basket API › Validation › should reject the update with 400 and keep the quantity when the quantity is not a number",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "Basket",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "PUT /api/basket answers a non-integer quantity with 500 (raw Postgres error) instead of 400"
+    },
+    {
+      "test": {
+        "name": "should reject the update with 400 and keep the quantity when the quantity is not an integer",
+        "fullName": "api/basket.api.spec.ts › Basket API › Validation › should reject the update with 400 and keep the quantity when the quantity is not an integer",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "Basket",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "PUT /api/basket answers a non-integer quantity with 500 (raw Postgres error) instead of 400"
+    },
+    {
+      "test": {
+        "name": "should add a basket item at the documented basket items path when it is called",
+        "fullName": "api/contract.api.spec.ts › API contract › should add a basket item at the documented basket items path when it is called",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "API contract",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "the documented POST /api/basket/items returns 404; only /api/basket exists"
+    },
+    {
+      "test": {
+        "name": "should clear the basket when the documented basket path is used",
+        "fullName": "api/contract.api.spec.ts › API contract › should clear the basket when the documented basket path is used",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "API contract",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "the documented DELETE /api/basket and PUT / DELETE /api/basket/items/{id} return 404; the UI uses /api/basket/clear and /api/basket"
+    },
+    {
+      "test": {
+        "name": "should remove a basket item when the documented basket path is used",
+        "fullName": "api/contract.api.spec.ts › API contract › should remove a basket item when the documented basket path is used",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "API contract",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "the documented DELETE /api/basket and PUT / DELETE /api/basket/items/{id} return 404; the UI uses /api/basket/clear and /api/basket"
+    },
+    {
+      "test": {
+        "name": "should update a basket item when the documented basket path is used",
+        "fullName": "api/contract.api.spec.ts › API contract › should update a basket item when the documented basket path is used",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "API contract",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "the documented DELETE /api/basket and PUT / DELETE /api/basket/items/{id} return 404; the UI uses /api/basket/clear and /api/basket"
+    },
+    {
+      "test": {
+        "name": "should answer 409 when a product in an order is deleted",
+        "fullName": "api/order-integrity.api.spec.ts › Order integrity API › should answer 409 when a product in an order is deleted",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "Order integrity",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "DELETE /api/products/:id of a product in an order returns 404 \"Not found\", while GET still returns it"
+    },
+    {
+      "test": {
+        "name": "should reject the order and change nothing when stock fell below a basket quantity",
+        "fullName": "api/order-integrity.api.spec.ts › Order integrity API › should reject the order and change nothing when stock fell below a basket quantity",
+        "project": "stateful",
+        "repetition": null,
+        "feature": "Order integrity",
+        "location": null,
+        "attempts": 1,
+        "flaky": false
+      },
+      "reason": "POST /api/orders accepts a basket quantity above current stock, creates the order and clamps stock to 0"
+    }
+  ],
+  "resolved": []
+}

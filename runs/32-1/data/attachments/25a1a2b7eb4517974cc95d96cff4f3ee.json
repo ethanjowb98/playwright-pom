@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-inrbfeg0 Incredible Gold Cheese",
+    "category": "frozen",
+    "price": 22.22,
+    "stock": 49,
+    "details": {
+      "brand": "Kunde - Reinger",
+      "origin": "Falkland Islands (Malvinas)"
+    }
+  }
+}

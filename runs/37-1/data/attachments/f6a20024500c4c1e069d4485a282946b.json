@@ -1,0 +1,15 @@
+{
+  "id": "eed54c3d-b298-46e8-aea8-832e849fe34d",
+  "product_name": "QA-1-ubfnlnq1 Awesome Steel Keyboard",
+  "category": "fresh-produce",
+  "price": 49.24,
+  "stock": 46,
+  "details": {
+    "brand": "Hilll - Spinka",
+    "origin": "Kiribati"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:26:22.425784+00:00"
+}

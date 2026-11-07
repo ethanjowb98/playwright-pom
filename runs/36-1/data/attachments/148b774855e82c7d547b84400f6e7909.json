@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-u55spxw3 Fresh Wooden Gloves",
+    "category": "pantry",
+    "price": 1.33,
+    "stock": 41,
+    "details": {
+      "brand": "Corkery, Luettgen and Mueller",
+      "origin": "Azerbaijan"
+    }
+  }
+}

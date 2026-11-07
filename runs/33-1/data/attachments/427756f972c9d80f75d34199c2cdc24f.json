@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "94b98827-3247-4a1e-b1bb-089ab108ae1e",
+      "order_number": "O65377",
+      "status": "pending",
+      "total_amount": 73.23,
+      "notes": null,
+      "created_at": "2026-11-05T08:28:06.664859+00:00",
+      "updated_at": "2026-11-05T08:28:06.664859+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-8vsk2wa2 Sleek Ceramic Bacon",
+          "category": "bakery",
+          "quantity": 3,
+          "price": 24.41,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "a4505754-be19-4a98-8b59-4c8dfbf71b1e",
+    "order_number": "O16993",
+    "status": "pending",
+    "total_amount": 8.55,
+    "created_at": "2026-11-05T10:04:23.407693+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-cls7i1i3 Awesome Granite Towels",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 8.55,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

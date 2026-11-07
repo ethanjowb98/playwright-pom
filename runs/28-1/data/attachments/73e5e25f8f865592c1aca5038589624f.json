@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-yxnjhbi4 Ergonomic Metal Gloves",
+    "category": "bakery",
+    "price": 41.9,
+    "stock": 45,
+    "details": {
+      "brand": "Kunde - Bernhard",
+      "origin": "Ethiopia"
+    }
+  }
+}

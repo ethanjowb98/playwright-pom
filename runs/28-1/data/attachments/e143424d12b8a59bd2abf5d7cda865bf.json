@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xojqpbd8 Licensed Plastic Ball",
+    "category": "fresh-produce",
+    "price": 6.78,
+    "stock": 26,
+    "details": {
+      "brand": "Beahan - Graham",
+      "origin": "South Africa"
+    }
+  }
+}

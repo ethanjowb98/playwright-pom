@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-gzzi2fp6 Unbranded Bamboo Bacon",
+    "category": "meat-seafood",
+    "price": 18.98,
+    "stock": 40,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

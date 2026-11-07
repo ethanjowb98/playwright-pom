@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-7k4f2sih sort Alpha",
+    "category": "household",
+    "price": 40.67,
+    "stock": 40,
+    "details": {
+      "brand": "Buckridge - Prosacco",
+      "origin": "Montenegro"
+    }
+  }
+}

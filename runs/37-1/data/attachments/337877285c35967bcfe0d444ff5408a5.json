@@ -1,0 +1,15 @@
+{
+  "id": "71b56aa7-0316-4033-a0d3-9189f27713e0",
+  "product_name": "QA-3-9pu641de Awesome Plastic Bacon",
+  "category": "bakery",
+  "price": 20.46,
+  "stock": 34,
+  "details": {
+    "brand": "Acme",
+    "origin": "Spain"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:22.5697+00:00"
+}

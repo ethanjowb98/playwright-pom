@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6723sss1 Handcrafted Steel Soap",
+    "category": "meat-seafood",
+    "price": 40.87,
+    "stock": 42,
+    "details": {
+      "brand": "Reynolds, Erdman and Lesch",
+      "origin": "Rwanda"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sz2hgzie Small Silk Car",
+    "category": "fresh-produce",
+    "price": 12.75,
+    "stock": 19,
+    "details": {
+      "brand": "Flatley, Spinka and O'Keefe",
+      "origin": "Angola"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qdlrdjcr Generic Rubber Gloves",
+    "category": "pantry",
+    "price": 37.46,
+    "stock": 42,
+    "details": {
+      "brand": "Koss Group",
+      "origin": "Tonga"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

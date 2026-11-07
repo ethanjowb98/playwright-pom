@@ -1,0 +1,15 @@
+{
+  "id": "f04fd14d-9287-4394-b51f-c53a5c215a73",
+  "product_name": "QA-1-mpkyw0bu Bespoke Marble Car",
+  "category": "bakery",
+  "price": 35.88,
+  "stock": 47,
+  "details": {
+    "brand": "Hoppe - Fahey",
+    "origin": "Cambodia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:11:55.819958+00:00"
+}

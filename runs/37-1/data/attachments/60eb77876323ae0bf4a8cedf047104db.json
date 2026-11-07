@@ -1,0 +1,15 @@
+{
+  "id": "95ea0c07-a74c-4610-9313-bc8c45796715",
+  "product_name": "QA-4-78ilusvs Fresh Granite Shirt",
+  "category": "pantry",
+  "price": 23.53,
+  "stock": 26,
+  "details": {
+    "brand": "Larson LLC",
+    "origin": "Taiwan"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:24:59.688131+00:00"
+}

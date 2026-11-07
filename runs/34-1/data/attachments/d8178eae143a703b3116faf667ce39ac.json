@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cc9ms0ju Small Silk Chair",
+    "category": "bakery",
+    "price": 33.9,
+    "stock": 13,
+    "details": {
+      "brand": "Schumm, Wyman and Kiehn",
+      "origin": "Belize"
+    }
+  }
+}

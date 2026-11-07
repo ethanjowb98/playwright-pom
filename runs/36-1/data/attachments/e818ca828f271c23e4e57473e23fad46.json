@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-z8miqv20 Luxurious Steel Cheese",
+    "category": "pantry",
+    "price": 36.67,
+    "stock": 0,
+    "details": {
+      "brand": "Rau, Zulauf and Weber",
+      "origin": "Anguilla"
+    }
+  }
+}

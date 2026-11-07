@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "bcaf373c-bd2a-4873-8060-d971eb9ec6a5",
+    "order_number": "O86919",
+    "status": "pending",
+    "total_amount": 57.99,
+    "created_at": "2026-11-07T09:26:56.735495+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-ahpjij32 Handcrafted Plastic Pizza",
+        "category": "fresh-produce",
+        "quantity": 3,
+        "price": 19.33,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

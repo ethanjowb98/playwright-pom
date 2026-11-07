@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4o6wn5ho Incredible Steel Bike",
+    "category": "bakery",
+    "price": 32.73,
+    "stock": 30,
+    "details": {
+      "brand": "Bashirian - Bailey-Turner",
+      "origin": "Saint Pierre and Miquelon"
+    }
+  }
+}

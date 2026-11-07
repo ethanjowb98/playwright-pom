@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ea0psby5 sort Bravo",
+    "category": "dairy-eggs",
+    "price": 40.93,
+    "stock": 31,
+    "details": {
+      "brand": "Baumbach - Rogahn",
+      "origin": "Croatia"
+    }
+  }
+}

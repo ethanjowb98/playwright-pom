@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-l9ur1c9y Small Bronze Cheese",
+    "category": "frozen",
+    "price": 13.84,
+    "stock": 28,
+    "details": {
+      "brand": "Harber and Sons",
+      "origin": "Kazakhstan"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

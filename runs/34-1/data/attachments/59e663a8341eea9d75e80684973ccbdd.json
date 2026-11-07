@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-eng1p3by Sleek Concrete Computer",
+    "category": "household",
+    "price": 19.39,
+    "stock": 40,
+    "details": {
+      "brand": "Schultz Inc",
+      "origin": "Croatia"
+    }
+  }
+}

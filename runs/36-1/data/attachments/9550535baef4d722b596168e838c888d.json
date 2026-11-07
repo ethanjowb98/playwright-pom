@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jz2563pa Unbranded Bronze Mouse",
+    "category": "dairy-eggs",
+    "price": 36.59,
+    "stock": 37,
+    "details": {
+      "brand": "Klocko, Kutch and Hoppe",
+      "origin": "Russian Federation"
+    }
+  }
+}

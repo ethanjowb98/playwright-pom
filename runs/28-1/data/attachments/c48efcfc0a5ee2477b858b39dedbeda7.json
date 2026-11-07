@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jgls6zxf Gorgeous Bamboo Chips",
+    "category": "fresh-produce",
+    "price": 6.89,
+    "stock": 13,
+    "details": {
+      "brand": "Becker - Kshlerin",
+      "origin": "Democratic People's Republic of Korea"
+    }
+  }
+}

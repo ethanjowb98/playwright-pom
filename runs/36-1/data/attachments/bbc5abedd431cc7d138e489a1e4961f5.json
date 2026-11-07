@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-oemip5tz Handcrafted Aluminum Car",
+    "category": "household",
+    "price": 22.2,
+    "stock": 47,
+    "details": {
+      "brand": "Kihn - Glover",
+      "origin": "Gabon"
+    },
+    "weighted": false
+  }
+}

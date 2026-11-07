@@ -1,0 +1,1 @@
+{"id":"308d167be0cc47c3fc466dcaf6537ed9.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/orders.api.spec.ts › Orders API › Create › should reject the order with 400 and create nothing when the basket is empty","name":"should reject the order with 400 and create nothing when the basket is empty","status":"passed","testResultsByEnv":{"default":"a1e33d302acd2a0f78f626c74f6546a2"}}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "meat-seafood",
+    "price": 14.97,
+    "stock": 36,
+    "details": {
+      "brand": "Lang - Rosenbaum",
+      "origin": "Namibia"
+    }
+  }
+}

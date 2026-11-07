@@ -1,0 +1,15 @@
+{
+  "id": "50cce903-1d32-4a8c-8474-5ee4bdaab12c",
+  "product_name": "QA-4-4scey1pd Intelligent Steel Sausages",
+  "category": "meat-seafood",
+  "price": 4.9,
+  "stock": 46,
+  "details": {
+    "brand": "Stracke - Hamill",
+    "origin": "Myanmar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:08:43.955569+00:00"
+}

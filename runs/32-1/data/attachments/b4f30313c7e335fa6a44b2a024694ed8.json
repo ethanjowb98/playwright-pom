@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w96fofr5 Rustic Wooden Shirt",
+    "category": "household",
+    "price": 2.71,
+    "stock": 0,
+    "details": {
+      "brand": "Ruecker LLC",
+      "origin": "Greenland"
+    }
+  }
+}

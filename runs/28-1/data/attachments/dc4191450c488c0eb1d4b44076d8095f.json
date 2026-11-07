@@ -1,0 +1,98 @@
+[
+  {
+    "id": "76dfd6b5-d740-4d0b-8307-27ca51419ef1",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "340c0d8e-466c-4828-b0f8-3dcfd013aa52",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Margarita Concentrate",
+    "category": "beverages",
+    "price": 3.25,
+    "details": {
+      "makes": "1 pitcher",
+      "volume": "12oz",
+      "contains_alcohol": false
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "b87ab72c-6a64-45a1-b0b6-4c1f57ecb905",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Tilapia Fillets",
+    "category": "meat-seafood",
+    "price": 10.5,
+    "details": {
+      "weight": "2lb",
+      "farm_raised": true,
+      "individually_wrapped": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "bd71707c-4e03-4e80-a42d-e0df4f1c150d",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Jumbo Raw Shrimp (2lb)",
+    "category": "meat-seafood",
+    "price": 18.99,
+    "details": {
+      "size": "16-20 count",
+      "peeled": true,
+      "weight": "2lb",
+      "deveined": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "50b52399-806a-451a-8362-ffa598db3b08",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-p0efh9e5 Ergonomic Silk Shirt",
+    "category": "bakery",
+    "price": 33.83,
+    "details": {
+      "brand": "Robel Inc",
+      "origin": "Oman"
+    },
+    "created_at": "2026-11-04T08:08:43.149294+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 17
+  },
+  {
+    "id": "be8f70d9-677d-49d7-b576-cf17ca623abb",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-r0kdq270 Ergonomic Wooden Sausages",
+    "category": "meat-seafood",
+    "price": 37.35,
+    "details": {
+      "brand": "Crona Inc",
+      "origin": "South Africa"
+    },
+    "created_at": "2026-11-04T08:08:42.795611+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 33
+  }
+]

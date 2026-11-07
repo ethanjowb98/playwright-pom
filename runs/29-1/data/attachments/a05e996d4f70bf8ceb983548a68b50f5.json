@@ -1,0 +1,15 @@
+{
+  "id": "a34985c4-3cf5-4a3b-900e-f785a324c70a",
+  "product_name": "QA-1-i6o0wxxb Small Silk Computer",
+  "category": "meat-seafood",
+  "price": 49.78,
+  "stock": 42,
+  "details": {
+    "brand": "Lehner, Bruen and Weimann",
+    "origin": "Morocco"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:47.801342+00:00"
+}

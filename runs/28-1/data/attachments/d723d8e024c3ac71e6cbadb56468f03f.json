@@ -1,0 +1,15 @@
+{
+  "id": "74af4953-6caa-49bd-b69b-7b6677371955",
+  "product_name": "QA-1-4kldvfxv Handcrafted Metal Pizza",
+  "category": "other",
+  "price": 5.94,
+  "stock": 24,
+  "details": {
+    "brand": "Paucek, Thompson and Swift",
+    "origin": "Ghana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:10:39.978944+00:00"
+}

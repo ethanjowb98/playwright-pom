@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1r8c4kva Incredible Concrete Pants",
+    "category": "snacks",
+    "price": 16.94,
+    "stock": 46,
+    "details": {
+      "brand": "Hahn Inc",
+      "origin": "Monaco"
+    }
+  }
+}

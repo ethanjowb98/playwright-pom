@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-wctnak3w Oriental Concrete Car",
+    "category": "bakery",
+    "price": 7.66,
+    "stock": 26,
+    "details": {
+      "brand": "Koch - Bayer",
+      "origin": "Netherlands"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o7t2gxls Ergonomic Steel Gloves",
+    "category": "snacks",
+    "price": 5.41,
+    "stock": 12,
+    "details": {
+      "brand": "Rath Inc",
+      "origin": "Bahamas"
+    }
+  }
+}

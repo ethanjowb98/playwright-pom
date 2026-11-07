@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ghlgxjqm Small Aluminum Fish",
+    "category": "meat-seafood",
+    "price": 42.1,
+    "stock": 31,
+    "details": {
+      "brand": "Lehner LLC",
+      "origin": "Bosnia and Herzegovina"
+    },
+    "weighted": true
+  }
+}
