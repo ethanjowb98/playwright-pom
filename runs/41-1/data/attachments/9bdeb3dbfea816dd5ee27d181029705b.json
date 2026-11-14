@@ -1,0 +1,19 @@
+{
+  "id": "3dbf0ddd-b6fd-453c-a57b-0e527c54d155",
+  "order_number": "O61767",
+  "status": "cancelled",
+  "total_amount": 49.49,
+  "notes": null,
+  "created_at": "2026-11-11T10:04:17.906128+00:00",
+  "updated_at": "2026-11-11T10:04:17.906128+00:00",
+  "items": [
+    {
+      "product_id": "c1144063-132d-4c73-a8d3-a2839a105bee",
+      "product_name": "QA-1-clhifff5 Sleek Steel Chips",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 49.49,
+      "temperature_zone": null
+    }
+  ]
+}

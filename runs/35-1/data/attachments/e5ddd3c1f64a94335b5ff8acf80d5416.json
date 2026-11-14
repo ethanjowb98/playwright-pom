@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-aj5dfbhc Unbranded Metal Keyboard",
+    "category": "frozen",
+    "price": 20.47,
+    "stock": 22,
+    "details": {
+      "brand": "Nikolaus, Cruickshank and Douglas-McDermott",
+      "origin": "Lithuania"
+    }
+  }
+}

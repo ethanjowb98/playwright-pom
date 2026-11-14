@@ -1,0 +1,15 @@
+{
+  "id": "a8ad0d3d-4d6c-4148-80c5-7a88214bd1ab",
+  "product_name": "QA-1-rx4r16k6 Awesome Metal Ball",
+  "category": "other",
+  "price": 35.24,
+  "stock": 44,
+  "details": {
+    "brand": "O'Reilly Inc",
+    "origin": "Turkmenistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:39:58.036112+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-81p1jlri Luxurious Aluminum Chicken",
+    "category": "pantry",
+    "price": 47.93,
+    "stock": 34,
+    "details": {
+      "brand": "Greenfelder - Gutkowski",
+      "origin": "Kazakhstan"
+    }
+  }
+}

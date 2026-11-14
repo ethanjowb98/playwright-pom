@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-ybf728ls Refined Plastic Gloves",
+    "category": "fresh-produce",
+    "price": 37.05,
+    "stock": 16,
+    "details": {
+      "brand": "Green, Labadie and Simonis",
+      "origin": "Andorra"
+    },
+    "temperature_zone": "Dry"
+  }
+}

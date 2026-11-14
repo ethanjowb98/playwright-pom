@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-11h5nz4s Intelligent Wooden Fish",
+    "category": "snacks",
+    "price": 11.78,
+    "stock": 49,
+    "details": {
+      "brand": "Schmitt, Robel and Toy",
+      "origin": "Sweden"
+    }
+  }
+}

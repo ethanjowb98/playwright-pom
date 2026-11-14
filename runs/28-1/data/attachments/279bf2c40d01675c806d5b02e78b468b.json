@@ -1,0 +1,15 @@
+{
+  "id": "3c54fb49-ab49-4d9a-bbfc-f5c57a5161b5",
+  "product_name": "QA-6-conb3jgx Luxurious Bamboo Chicken",
+  "category": "bakery",
+  "price": 44.11,
+  "stock": 12,
+  "details": {
+    "brand": "Murazik Group",
+    "origin": "Tonga"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:15.631729+00:00"
+}

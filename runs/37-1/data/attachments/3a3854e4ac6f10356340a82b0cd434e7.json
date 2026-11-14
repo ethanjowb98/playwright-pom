@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "b1a9120b-c3e6-41c9-830a-969d5bb898b7",
+      "product_id": "eed54c3d-b298-46e8-aea8-832e849fe34d",
+      "product_name": "QA-1-ubfnlnq1 Awesome Steel Keyboard",
+      "price": 49.24,
+      "category": "fresh-produce",
+      "quantity": 3,
+      "created_at": "2026-11-07T09:26:22.94221+00:00",
+      "updated_at": "2026-11-07T09:26:22.94221+00:00"
+    },
+    {
+      "id": "3bd13c30-d809-4b5e-aa23-9f5e613a0ec3",
+      "product_id": "e53f6a65-245c-4a34-8321-249f058a6bf9",
+      "product_name": "QA-1-3zj35nrw Modern Silk Shirt",
+      "price": 4.11,
+      "category": "other",
+      "quantity": 3,
+      "created_at": "2026-11-07T09:26:23.47345+00:00",
+      "updated_at": "2026-11-07T09:26:23.47345+00:00"
+    }
+  ]
+}

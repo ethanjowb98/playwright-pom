@@ -1,0 +1,15 @@
+{
+  "id": "94c807ae-ae8e-4270-8c35-15bd33956933",
+  "product_name": "QA-1-y1tifewz Tasty Ceramic Ball",
+  "category": "bakery",
+  "price": 16.51,
+  "stock": 14,
+  "details": {
+    "brand": "Kilback Group",
+    "origin": "Finland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:19:29.234445+00:00"
+}

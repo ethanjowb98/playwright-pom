@@ -1,0 +1,15 @@
+{
+  "id": "2fe84bec-65b1-432f-9dfa-ee4f89a7f6e4",
+  "product_name": "QA-8-fnp8fkx1 sort Bravo",
+  "category": "other",
+  "price": 32.33,
+  "stock": 42,
+  "details": {
+    "brand": "Rempel, Rolfson and Watsica",
+    "origin": "Austria"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:32.88185+00:00"
+}

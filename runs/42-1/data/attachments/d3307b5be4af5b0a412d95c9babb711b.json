@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-qj4nrlm2 Awesome Aluminum Salad",
+    "category": "dairy-eggs",
+    "price": 36.62,
+    "stock": 46,
+    "details": {
+      "brand": "Cormier and Sons",
+      "origin": "Kiribati"
+    }
+  }
+}

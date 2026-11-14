@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-unh205ye Luxurious Silk Chips",
+    "category": "household",
+    "price": 10.68,
+    "stock": 26,
+    "details": {
+      "brand": "Wolf - Gleason",
+      "origin": "Comoros"
+    }
+  }
+}

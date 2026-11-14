@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ym13dpvy Licensed Bamboo Car",
+    "category": "frozen",
+    "price": 37.21,
+    "stock": 13,
+    "details": {
+      "brand": "Gusikowski - Jenkins",
+      "origin": "Monaco"
+    }
+  }
+}

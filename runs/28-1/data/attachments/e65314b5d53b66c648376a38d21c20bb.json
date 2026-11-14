@@ -1,0 +1,15 @@
+{
+  "id": "14a6f641-044e-40c0-bf9d-9396d575f7a4",
+  "product_name": "QA-4-bba4bs3d Refined Steel Pants",
+  "category": "beverages",
+  "price": 15.41,
+  "stock": 49,
+  "details": {
+    "brand": "Torphy, Kuvalis and Renner",
+    "origin": "Lao People's Democratic Republic"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:08:42.521405+00:00"
+}

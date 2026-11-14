@@ -1,0 +1,1 @@
+{"id":"255dc457340c2d00b2d9ab6c697b8651.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when category is missing","name":"should reject the product with 400 when category is missing","status":"passed","testResultsByEnv":{"default":"fb7f3afa930b5bfa94225021c058c72e"}}

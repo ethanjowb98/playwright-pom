@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4uipwrgl Sleek Aluminum Pants",
+    "category": "other",
+    "price": 41.81,
+    "stock": 32,
+    "details": {
+      "brand": "Keeling, Smitham and Von-McKenzie",
+      "origin": "France"
+    }
+  }
+}

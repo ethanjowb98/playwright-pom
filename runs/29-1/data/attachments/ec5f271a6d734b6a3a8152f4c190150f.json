@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-d7301lny Fresh Silk Bacon",
+    "category": "other",
+    "price": 36.45,
+    "stock": 14,
+    "details": {
+      "brand": "Jacobi, Barrows-Bayer and Armstrong",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

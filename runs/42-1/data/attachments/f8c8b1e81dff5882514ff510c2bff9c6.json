@@ -1,0 +1,15 @@
+{
+  "id": "4735cd6c-38cd-4945-ba46-447d739ae6e9",
+  "product_name": "QA-1-8jtmgdhj Bespoke Aluminum Bike",
+  "category": "bakery",
+  "price": 19.3,
+  "stock": 25,
+  "details": {
+    "brand": "Cruickshank, Hintz and MacGyver",
+    "origin": "Wallis and Futuna"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:40.115218+00:00"
+}

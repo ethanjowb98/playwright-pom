@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sb58wv46 Rustic Aluminum Keyboard",
+    "category": "other",
+    "price": 39.61,
+    "stock": 11,
+    "details": {
+      "brand": "Schneider, Kovacek and Torphy",
+      "origin": "Namibia"
+    }
+  }
+}

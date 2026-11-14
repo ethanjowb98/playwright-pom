@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d5b4fe8b-fcbb-40a0-ae46-633acd48ef8d",
+    "order_number": "O14374",
+    "status": "pending",
+    "total_amount": 28.2,
+    "created_at": "2026-11-11T10:02:00.547926+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-3jfnl0wo Small Gold Bacon",
+        "category": "other",
+        "quantity": 1,
+        "price": 28.2,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

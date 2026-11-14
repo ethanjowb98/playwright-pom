@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "793b183e-5340-4df1-9ffb-f2e9879dd111",
+    "order_number": "O61123",
+    "status": "pending",
+    "total_amount": 17.14,
+    "created_at": "2026-11-12T10:30:51.59744+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-35c152uh Oriental Steel Tuna",
+        "category": "other",
+        "quantity": 2,
+        "price": 8.57,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

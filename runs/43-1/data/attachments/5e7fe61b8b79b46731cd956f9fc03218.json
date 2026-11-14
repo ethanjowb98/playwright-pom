@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jigf7c6p Small Bamboo Hat",
+    "category": "bakery",
+    "price": 45.13,
+    "stock": 33,
+    "details": {
+      "brand": "O'Conner - Torp",
+      "origin": "Virgin Islands, British"
+    }
+  }
+}

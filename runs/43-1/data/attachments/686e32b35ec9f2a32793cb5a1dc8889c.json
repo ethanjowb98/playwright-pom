@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7r38fwgk Intelligent Cotton Shirt",
+    "category": "other",
+    "price": "abc",
+    "stock": 12,
+    "details": {
+      "brand": "Tillman Inc",
+      "origin": "India"
+    }
+  }
+}

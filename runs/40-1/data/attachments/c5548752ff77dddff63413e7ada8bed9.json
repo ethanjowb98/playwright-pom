@@ -1,0 +1,15 @@
+{
+  "id": "12066c83-225f-4f41-9501-4f2bc20d9589",
+  "product_name": "QA-3-j34xtuuj sort Charlie",
+  "category": "other",
+  "price": 3.4,
+  "stock": 17,
+  "details": {
+    "brand": "Sauer Group",
+    "origin": "Guernsey"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:29.038003+00:00"
+}

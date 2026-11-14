@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1wvt5ccd Tasty Aluminum Chair",
+    "category": "household",
+    "price": 17.17,
+    "stock": 33,
+    "details": {
+      "brand": "Lehner, Tremblay and Walter",
+      "origin": "Brazil"
+    }
+  }
+}

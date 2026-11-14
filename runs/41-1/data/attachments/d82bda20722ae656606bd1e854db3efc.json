@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g17y3zb6 Soft Concrete Ball",
+    "category": "beverages",
+    "price": 39.11,
+    "stock": 16,
+    "details": {
+      "brand": "Koelpin-Bahringer, Quitzon and Koepp",
+      "origin": "Guam"
+    }
+  }
+}

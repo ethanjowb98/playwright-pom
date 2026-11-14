@@ -1,0 +1,1 @@
+{"id":"9d2ecd92f5e798adfbf920df2404055e.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/auth.api.spec.ts › Auth API › Account-wide calls › should return 401 when an order is updated with a missing api key","name":"should return 401 when an order is updated with a missing api key","status":"passed","testResultsByEnv":{"default":"56d3e3db5849ce85fe256d4b685b383a"}}

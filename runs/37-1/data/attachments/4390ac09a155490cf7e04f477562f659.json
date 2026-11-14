@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yl1frtuq Tasty Metal Car",
+    "category": "other",
+    "price": 38.89,
+    "stock": 15,
+    "details": {
+      "brand": "Johnson - Hagenes",
+      "origin": "Falkland Islands (Malvinas)"
+    }
+  }
+}

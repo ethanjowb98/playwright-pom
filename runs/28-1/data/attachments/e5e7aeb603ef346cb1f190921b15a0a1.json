@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p0efh9e5 Ergonomic Silk Shirt",
+    "category": "bakery",
+    "price": 33.83,
+    "stock": 17,
+    "details": {
+      "brand": "Robel Inc",
+      "origin": "Oman"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

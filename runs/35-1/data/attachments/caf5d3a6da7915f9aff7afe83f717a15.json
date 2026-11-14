@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "326fc301-680b-4303-8446-ff945671e9b7",
+      "product_id": "28321b1d-b552-4fde-82bb-f4fbdf9b2b49",
+      "product_name": "QA-1-8c3l045y Intelligent Bamboo Chair",
+      "price": 40.43,
+      "category": "fresh-produce",
+      "quantity": 2,
+      "created_at": "2026-11-05T10:03:48.987476+00:00",
+      "updated_at": "2026-11-05T10:03:48.987476+00:00"
+    },
+    {
+      "id": "50a3420d-3bb9-41b4-9d25-1dcea4d8df80",
+      "product_id": "1b3d2d3d-ea5f-488b-a7c0-dc6d386817d0",
+      "product_name": "QA-1-22a2nfaf Licensed Marble Keyboard",
+      "price": 7.29,
+      "category": "dairy-eggs",
+      "quantity": 3,
+      "created_at": "2026-11-05T10:03:49.530017+00:00",
+      "updated_at": "2026-11-05T10:03:49.530017+00:00"
+    }
+  ]
+}

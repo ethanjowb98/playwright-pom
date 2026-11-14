@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-5c3nibcy Electronic Granite Gloves",
+    "category": "household",
+    "price": 36.28,
+    "stock": 24,
+    "details": {
+      "brand": "Koelpin, Simonis and Satterfield",
+      "origin": "Azerbaijan"
+    }
+  }
+}

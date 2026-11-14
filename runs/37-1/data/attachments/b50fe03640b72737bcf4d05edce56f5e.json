@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-8fshrp7h Rustic Bronze Computer",
+    "category": "dairy-eggs",
+    "price": 34.31,
+    "stock": 28,
+    "details": {
+      "brand": "Cummings Group",
+      "origin": "Eswatini"
+    }
+  }
+}

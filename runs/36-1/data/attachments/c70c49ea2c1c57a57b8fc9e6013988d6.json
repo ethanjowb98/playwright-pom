@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-63v55qf4 Elegant Concrete Pants",
+    "category": "beverages",
+    "price": 15.88,
+    "stock": 41,
+    "details": {
+      "brand": "Schmidt, Lemke and Hagenes",
+      "origin": "Bosnia and Herzegovina"
+    }
+  }
+}

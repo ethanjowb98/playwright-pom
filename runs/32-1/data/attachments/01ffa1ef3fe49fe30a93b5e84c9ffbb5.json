@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-t7qdcks5 Tasty Aluminum Gloves",
+    "category": "bakery",
+    "price": 7.58,
+    "stock": 32,
+    "details": {
+      "brand": "Beatty, Murphy and Murphy",
+      "origin": "Dominican Republic"
+    }
+  }
+}

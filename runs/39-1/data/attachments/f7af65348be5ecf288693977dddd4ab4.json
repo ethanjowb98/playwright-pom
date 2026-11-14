@@ -1,0 +1,15 @@
+{
+  "id": "de00e285-8093-40de-a418-78e5e2adec7c",
+  "product_name": "QA-1-ly86ce6j Fresh Steel Shirt",
+  "category": "other",
+  "price": 12.62,
+  "stock": 40,
+  "details": {
+    "brand": "Haag, Wintheiser and Bernhard",
+    "origin": "French Southern Territories"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:37:35.430703+00:00"
+}

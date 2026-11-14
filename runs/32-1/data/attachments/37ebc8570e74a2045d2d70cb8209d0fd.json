@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "854514fa-c77c-478d-bfb0-557091145da4",
+    "order_number": "O12376",
+    "status": "pending",
+    "total_amount": 36.06,
+    "created_at": "2026-11-05T08:21:02.702508+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-sd2jozb2 Intelligent Bronze Soap",
+        "category": "other",
+        "quantity": 3,
+        "price": 12.02,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-q40e48gu Gorgeous Bronze Sausages",
+    "category": "snacks",
+    "price": 43.72,
+    "stock": 20,
+    "details": {
+      "brand": "Durgan, Berge and Frami",
+      "origin": "China"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mbstnxs6 Electronic Gold Salad",
+    "category": "dairy-eggs",
+    "price": 31.26,
+    "stock": 20,
+    "details": {
+      "brand": "Feest - Rohan-Schneider",
+      "origin": "Lebanon"
+    }
+  }
+}

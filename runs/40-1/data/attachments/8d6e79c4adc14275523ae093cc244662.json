@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-kubzhjv0 Oriental Plastic Salad",
+    "category": "other",
+    "price": 30.61,
+    "stock": 33,
+    "details": {
+      "brand": "Rosenbaum LLC",
+      "origin": "Papua New Guinea"
+    },
+    "weighted": true
+  }
+}

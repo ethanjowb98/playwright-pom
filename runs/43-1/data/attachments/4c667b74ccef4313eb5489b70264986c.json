@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gutwcuoe Ergonomic Ceramic Keyboard",
+    "category": "household",
+    "price": 12.5,
+    "stock": 11,
+    "details": {
+      "brand": "Wisozk and Sons",
+      "origin": "Australia"
+    }
+  }
+}

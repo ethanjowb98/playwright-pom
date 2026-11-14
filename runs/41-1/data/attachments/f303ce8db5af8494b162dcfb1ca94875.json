@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m20ekb96 Intelligent Steel Keyboard",
+    "category": "frozen",
+    "price": 25.35,
+    "stock": 2,
+    "details": {
+      "brand": "Upton LLC",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

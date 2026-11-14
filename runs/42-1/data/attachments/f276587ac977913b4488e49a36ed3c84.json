@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xb64chcm Oriental Aluminum Sausages",
+    "category": "beverages",
+    "price": 36.54,
+    "stock": 17,
+    "details": {
+      "brand": "Roberts, Boehm and Schuppe",
+      "origin": "Niue"
+    }
+  }
+}

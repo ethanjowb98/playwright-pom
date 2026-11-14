@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "beverages",
+    "price": 22.98,
+    "stock": 35,
+    "details": {
+      "brand": "Ullrich Inc",
+      "origin": "Liberia"
+    }
+  }
+}

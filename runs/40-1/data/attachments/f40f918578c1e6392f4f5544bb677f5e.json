@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-notnzp24 Fantastic Rubber Tuna",
+    "category": "meat-seafood",
+    "price": 37.24,
+    "stock": 30,
+    "details": {
+      "brand": "Schultz and Sons",
+      "origin": "French Guiana"
+    }
+  }
+}

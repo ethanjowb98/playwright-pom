@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-szail1fb Oriental Cotton Shoes",
+    "category": "dairy-eggs",
+    "price": 16.64,
+    "stock": 20,
+    "details": {
+      "brand": "Cummings, Kuvalis and Daniel",
+      "origin": "Saint Kitts and Nevis"
+    },
+    "weighted": true
+  }
+}

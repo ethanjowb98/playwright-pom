@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-5zn90ejt Handmade Metal Shoes",
+    "category": "frozen",
+    "price": 19.3,
+    "stock": 37,
+    "details": {
+      "brand": "Schneider Inc",
+      "origin": "Saint Pierre and Miquelon"
+    }
+  }
+}

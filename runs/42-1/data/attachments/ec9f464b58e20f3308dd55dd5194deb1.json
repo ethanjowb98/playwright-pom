@@ -1,0 +1,15 @@
+{
+  "id": "03e91d9e-8db7-42fe-8a24-8df4a8a019f6",
+  "product_name": "QA-1-1hdmjmha Recycled Gold Chicken",
+  "category": "snacks",
+  "price": 21.3,
+  "stock": 32,
+  "details": {
+    "brand": "Towne, Graham and Kassulke-Morissette",
+    "origin": "Botswana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:30:23.307976+00:00"
+}

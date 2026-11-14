@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-g5sopir6 Oriental Rubber Ball",
+    "category": "beverages",
+    "price": 2.9,
+    "stock": 19,
+    "details": {
+      "brand": "Sporer - Rosenbaum",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

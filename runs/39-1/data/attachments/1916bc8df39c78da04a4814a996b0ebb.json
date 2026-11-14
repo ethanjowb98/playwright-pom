@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-y36tzdxc Electronic Steel Fish",
+    "category": "snacks",
+    "price": 34.35,
+    "stock": 50,
+    "details": {
+      "brand": "Cole - Marquardt-Volkman",
+      "origin": "Samoa"
+    }
+  }
+}

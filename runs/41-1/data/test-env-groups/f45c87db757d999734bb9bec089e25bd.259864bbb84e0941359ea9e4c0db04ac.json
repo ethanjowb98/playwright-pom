@@ -1,0 +1,1 @@
+{"id":"f45c87db757d999734bb9bec089e25bd.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › should return 401 when the basket is read with a invalid api key","name":"should return 401 when the basket is read with a invalid api key","status":"passed","testResultsByEnv":{"default":"d12c1e51001bae20587aa6e3446d6456"}}

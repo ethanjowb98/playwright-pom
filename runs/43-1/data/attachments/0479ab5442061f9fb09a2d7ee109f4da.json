@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w7kyrthx Awesome Marble Salad",
+    "category": "meat-seafood",
+    "price": 25.18,
+    "stock": 28,
+    "details": {
+      "brand": "Fay and Sons",
+      "origin": "Germany"
+    },
+    "temperature_zone": "Dry"
+  }
+}

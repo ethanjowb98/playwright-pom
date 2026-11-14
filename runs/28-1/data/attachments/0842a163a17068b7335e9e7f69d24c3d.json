@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bivk80o2 Fantastic Bronze Hat",
+    "category": "meat-seafood",
+    "price": 23.38,
+    "stock": 50,
+    "details": {
+      "brand": "Satterfield and Sons",
+      "origin": "New Caledonia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-4z2mjj8s Tasty Metal Keyboard",
+    "category": "bakery",
+    "price": 25.84,
+    "stock": 46,
+    "details": {
+      "brand": "Hermann, Towne and Mayert",
+      "origin": "Pakistan"
+    }
+  }
+}

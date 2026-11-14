@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-nxex3qce sort Alpha",
+    "category": "fresh-produce",
+    "price": 21.03,
+    "stock": 10,
+    "details": {
+      "brand": "Cremin and Sons",
+      "origin": "Western Sahara"
+    }
+  }
+}

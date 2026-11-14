@@ -1,0 +1,15 @@
+{
+  "id": "76a6080a-fc81-4ebc-89c3-0fe339346abe",
+  "product_name": "QA-1-t3mbnya0 Sleek Bronze Car",
+  "category": "bakery",
+  "price": 4.1,
+  "stock": 33,
+  "details": {
+    "brand": "Dickinson and Sons",
+    "origin": "Jamaica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:26:42.171626+00:00"
+}

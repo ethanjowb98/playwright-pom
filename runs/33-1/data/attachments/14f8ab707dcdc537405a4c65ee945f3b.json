@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3m5wcynj Gorgeous Concrete Bike",
+    "category": "bakery",
+    "price": 43.4,
+    "stock": 23,
+    "details": {
+      "brand": "Paucek-Barton - Becker",
+      "origin": "Montenegro"
+    }
+  }
+}

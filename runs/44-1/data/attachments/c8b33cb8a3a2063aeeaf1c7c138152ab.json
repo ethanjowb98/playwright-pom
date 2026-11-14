@@ -1,0 +1,15 @@
+{
+  "id": "08d00375-dad8-46f8-9f9e-6456051b4c3b",
+  "product_name": "QA-1-a6y5fwj9 Luxurious Wooden Bacon",
+  "category": "frozen",
+  "price": 32.75,
+  "stock": 40,
+  "details": {
+    "brand": "Smitham - Cartwright",
+    "origin": "Italy"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:41:41.357287+00:00"
+}

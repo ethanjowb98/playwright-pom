@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mt86mr2j Elegant Ceramic Hat",
+    "category": "frozen",
+    "price": 14.5,
+    "stock": 46,
+    "details": {
+      "brand": "Doyle, Little and Kshlerin",
+      "origin": "French Polynesia"
+    }
+  }
+}

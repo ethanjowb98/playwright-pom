@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y1navcth Recycled Aluminum Computer",
+    "category": "household",
+    "price": 33.29,
+    "stock": 18,
+    "details": {
+      "brand": "Simonis, Konopelski and Lockman",
+      "origin": "Bahamas"
+    }
+  }
+}

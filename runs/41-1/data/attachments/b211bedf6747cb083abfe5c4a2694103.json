@@ -1,0 +1,15 @@
+{
+  "id": "5403c596-43e2-44f9-a1c7-62bec769467d",
+  "product_name": "QA-1-230o66nx Unbranded Bamboo Soap",
+  "category": "fresh-produce",
+  "price": 46.4,
+  "stock": 24,
+  "details": {
+    "brand": "Mosciski LLC",
+    "origin": "Botswana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:01:31.462014+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "fd798443-6607-40ca-8492-6f523941f90a",
+  "product_name": "QA-7-wsaqevs4 Fresh Silk Cheese",
+  "category": "household",
+  "price": 35.37,
+  "stock": 16,
+  "details": {
+    "brand": "Botsford - Tremblay",
+    "origin": "Congo"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:57.484859+00:00"
+}

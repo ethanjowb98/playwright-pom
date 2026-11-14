@@ -1,0 +1,1 @@
+{"id":"3f2a1885bc4097d601a5d5af7bea67a4.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/basket.api.spec.ts › Basket API › Validation › should reject the item with 400 when the quantity is 0","name":"should reject the item with 400 when the quantity is 0","status":"passed","testResultsByEnv":{"default":"eda74abd0fb7741dce12f69db357554d"}}

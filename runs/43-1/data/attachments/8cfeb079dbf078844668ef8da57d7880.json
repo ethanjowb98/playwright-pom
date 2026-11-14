@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-vx6fzhmc sort Alpha",
+    "category": "bakery",
+    "price": 8.95,
+    "stock": 27,
+    "details": {
+      "brand": "Stoltenberg, Hyatt and Hagenes",
+      "origin": "Spain"
+    }
+  }
+}

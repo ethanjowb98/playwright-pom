@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-6f2q8hrb Bespoke Metal Salad",
+    "category": "other",
+    "price": 21.59,
+    "stock": 49,
+    "details": {
+      "brand": "Klocko - Graham",
+      "origin": "Australia"
+    },
+    "weighted": true
+  }
+}

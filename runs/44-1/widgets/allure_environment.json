@@ -1,0 +1,1 @@
+[{"name":"Base URL","values":["https://www.qacloud.dev"]},{"name":"Playwright","values":["1.64.1"]},{"name":"Browsers","values":["chromium"]},{"name":"Projects","values":["setup, api, stateful, e2e-chromium"]},{"name":"Workers","values":["4"]},{"name":"Node","values":["v26.13.1"]},{"name":"OS","values":["Linux 7.0.0-1019-azure"]},{"name":"CI","values":["true"]}]

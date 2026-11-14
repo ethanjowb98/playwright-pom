@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "fd9d012b-7ae5-4b8f-a1f9-aef2ff483ec3",
+    "order_number": "O98489",
+    "status": "pending",
+    "total_amount": 50.89,
+    "created_at": "2026-11-04T08:10:15.837843+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-jgls6zxf Gorgeous Bamboo Chips",
+        "category": "fresh-produce",
+        "quantity": 2,
+        "price": 6.89,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-pghlenrx Fantastic Rubber Bacon",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 12.37,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

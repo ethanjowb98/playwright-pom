@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uoahrtkr Soft Ceramic Pizza",
+    "category": "meat-seafood",
+    "price": 2.37,
+    "stock": 41,
+    "details": {
+      "brand": "Bradtke - Braun",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

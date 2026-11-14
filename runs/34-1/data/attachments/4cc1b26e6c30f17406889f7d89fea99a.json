@@ -1,0 +1,19 @@
+{
+  "id": "7b8ec2c7-01fa-43dc-9f6b-a6f02f5161bf",
+  "order_number": "O69636",
+  "status": "cancelled",
+  "total_amount": 109.95,
+  "notes": null,
+  "created_at": "2026-11-05T09:20:03.324847+00:00",
+  "updated_at": "2026-11-05T09:20:03.324847+00:00",
+  "items": [
+    {
+      "product_id": "7831b88e-3ff2-45f1-943f-8870231cf6ad",
+      "product_name": "QA-1-qj77uui2 Handmade Aluminum Mouse",
+      "category": "fresh-produce",
+      "quantity": 3,
+      "price": 36.65,
+      "temperature_zone": null
+    }
+  ]
+}

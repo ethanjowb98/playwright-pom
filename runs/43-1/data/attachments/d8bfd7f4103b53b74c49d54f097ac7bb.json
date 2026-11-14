@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yqbrjxpa Incredible Gold Soap",
+    "category": "other",
+    "price": 39.39,
+    "stock": 28,
+    "details": {
+      "brand": "Bogan - Leffler",
+      "origin": "Iraq"
+    }
+  }
+}

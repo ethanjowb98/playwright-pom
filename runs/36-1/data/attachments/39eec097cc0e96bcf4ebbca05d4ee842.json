@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a36839u6 Unbranded Bronze Fish",
+    "category": "pantry",
+    "price": 35.01,
+    "stock": 14,
+    "details": {
+      "brand": "Bashirian, Crist and Kihn",
+      "origin": "United States of America"
+    }
+  }
+}

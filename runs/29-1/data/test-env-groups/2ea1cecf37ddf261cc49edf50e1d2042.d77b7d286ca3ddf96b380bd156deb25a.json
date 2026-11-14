@@ -1,0 +1,1 @@
+{"id":"2ea1cecf37ddf261cc49edf50e1d2042.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/orders.api.spec.ts › Orders API › Update › should move the order to cancelled when it is shipped","name":"should move the order to cancelled when it is shipped","status":"skipped","testResultsByEnv":{"default":"9a390af5f44e85e41b90e22e061b7244"}}

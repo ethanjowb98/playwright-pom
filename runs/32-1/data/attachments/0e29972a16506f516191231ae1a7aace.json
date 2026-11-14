@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-720ym8na Licensed Granite Pizza",
+    "category": "beverages",
+    "price": 25.98,
+    "stock": 2,
+    "details": {
+      "brand": "Daugherty Inc",
+      "origin": "Palestine"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nnvk5unk Gorgeous Granite Chicken",
+    "category": "frozen",
+    "price": 41.29,
+    "stock": 42,
+    "details": {
+      "brand": "McKenzie, Trantow and Lebsack",
+      "origin": "Iceland"
+    }
+  }
+}

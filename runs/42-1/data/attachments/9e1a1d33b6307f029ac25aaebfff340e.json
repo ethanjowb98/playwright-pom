@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-jc8hbakh sort Bravo",
+    "category": "meat-seafood",
+    "price": 42.69,
+    "stock": 29,
+    "details": {
+      "brand": "Kuhlman - Hartmann",
+      "origin": "Guatemala"
+    }
+  }
+}

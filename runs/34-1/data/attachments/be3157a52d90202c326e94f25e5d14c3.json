@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "804947e5-1236-4a0c-9791-3cb0c90d6f7a",
+    "order_number": "O12201",
+    "status": "pending",
+    "total_amount": 77.79,
+    "created_at": "2026-11-05T09:20:43.290693+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-fxyhd22s Fantastic Bamboo Chips",
+        "category": "beverages",
+        "quantity": 3,
+        "price": 11.6,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-wcaw7fg8 Licensed Gold Salad",
+        "category": "other",
+        "quantity": 3,
+        "price": 14.33,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

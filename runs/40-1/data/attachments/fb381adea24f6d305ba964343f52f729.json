@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fxpsrts2 Handcrafted Granite Pants",
+    "category": "frozen",
+    "price": 39.76,
+    "stock": 2,
+    "details": {
+      "brand": "Legros, Will and Wunsch",
+      "origin": "Norfolk Island"
+    }
+  }
+}

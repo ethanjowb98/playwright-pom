@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-mw78ytme sort Bravo",
+    "category": "dairy-eggs",
+    "price": 3.02,
+    "stock": 30,
+    "details": {
+      "brand": "Mayer Inc",
+      "origin": "United Kingdom"
+    }
+  }
+}

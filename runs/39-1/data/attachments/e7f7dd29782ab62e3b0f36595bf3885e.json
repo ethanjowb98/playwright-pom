@@ -1,0 +1,15 @@
+{
+  "id": "aaa16ae2-2231-44b2-bce7-74af8a492852",
+  "product_name": "QA-1-w0yc1ku8 Awesome Concrete Pants",
+  "category": "pantry",
+  "price": 35.22,
+  "stock": 49,
+  "details": {
+    "brand": "Murphy - Bogan",
+    "origin": "French Polynesia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:27.922825+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yy8ciypv Awesome Metal Computer",
+    "category": "frozen",
+    "price": 47.01,
+    "stock": 29,
+    "details": {
+      "brand": "Pouros - Kuphal",
+      "origin": "Portugal"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "edc25391-2317-4da1-a369-0dbcc85c5982",
+  "product_name": "QA-3-ce84kt6t Awesome Aluminum Soap",
+  "category": "snacks",
+  "price": 9.04,
+  "stock": 19,
+  "details": {
+    "brand": "Fay LLC",
+    "origin": "Kenya"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:09.048906+00:00"
+}

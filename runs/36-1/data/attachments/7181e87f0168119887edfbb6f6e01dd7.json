@@ -1,0 +1,19 @@
+{
+  "id": "443dfa60-d544-478e-a43b-0de09dfca9a7",
+  "order_number": "O69069",
+  "status": "pending",
+  "total_amount": 77.7,
+  "notes": null,
+  "created_at": "2026-11-06T10:10:22.264634+00:00",
+  "updated_at": "2026-11-06T10:10:22.264634+00:00",
+  "items": [
+    {
+      "product_id": "e2b3034b-3d78-44f2-9dba-7a1d564e8372",
+      "product_name": "QA-1-yb33lb1c Small Plastic Chips",
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "price": 38.85,
+      "temperature_zone": null
+    }
+  ]
+}

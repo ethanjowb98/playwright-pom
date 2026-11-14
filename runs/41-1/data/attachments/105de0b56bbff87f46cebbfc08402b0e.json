@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-2eimcafv Refined Concrete Hat",
+    "category": "bakery",
+    "price": 22.36,
+    "stock": 21,
+    "details": {
+      "brand": "Hodkiewicz, Ratke and Torp",
+      "origin": "Tokelau"
+    }
+  }
+}

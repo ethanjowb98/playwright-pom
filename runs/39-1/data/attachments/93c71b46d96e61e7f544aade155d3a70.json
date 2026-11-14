@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-e80k4t0l sort Alpha",
+    "category": "bakery",
+    "price": 19.02,
+    "stock": 11,
+    "details": {
+      "brand": "Dach Group",
+      "origin": "Colombia"
+    }
+  }
+}

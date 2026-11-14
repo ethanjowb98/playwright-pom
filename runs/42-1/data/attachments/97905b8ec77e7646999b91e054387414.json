@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "859dc6dc-19f7-4290-a2cd-560d516146c4",
+      "product_id": "cb8eeb68-e3c4-4002-88e4-4e134ac8a375",
+      "product_name": "QA-1-16dqb8b3 Ergonomic Bamboo Hat",
+      "price": 48.58,
+      "category": "other",
+      "quantity": 2,
+      "created_at": "2026-11-12T10:32:30.775137+00:00",
+      "updated_at": "2026-11-12T10:32:30.775137+00:00"
+    },
+    {
+      "id": "0bda039d-ec16-4f3c-99a6-1b2fef68e8e5",
+      "product_id": "17bde234-915d-405c-b72e-e1a649685bdb",
+      "product_name": "QA-1-tl2n7xmw Ergonomic Metal Chips",
+      "price": 40.04,
+      "category": "meat-seafood",
+      "quantity": 2,
+      "created_at": "2026-11-12T10:32:31.37658+00:00",
+      "updated_at": "2026-11-12T10:32:31.37658+00:00"
+    }
+  ]
+}

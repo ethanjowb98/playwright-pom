@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "ae8bd84b-2f84-4890-8a7e-bce785cfb67b",
+      "product_id": "92e22f86-fb90-46a5-b14e-d77c85eba565",
+      "product_name": "QA-1-zgav35ya Generic Marble Car",
+      "price": 26.75,
+      "category": "frozen",
+      "quantity": 3,
+      "created_at": "2026-11-09T10:36:20.55507+00:00",
+      "updated_at": "2026-11-09T10:36:21.180428+00:00"
+    }
+  ]
+}

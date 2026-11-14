@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-byib2wsh Licensed Silk Bacon",
+    "category": "other",
+    "price": 47.24,
+    "stock": 14,
+    "details": {
+      "brand": "Cremin - Cassin",
+      "origin": "Saint Pierre and Miquelon"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

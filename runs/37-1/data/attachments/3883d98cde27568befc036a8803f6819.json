@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pwz3dec4 Fantastic Steel Shoes",
+    "category": "dairy-eggs",
+    "price": 29.83,
+    "stock": 27,
+    "details": {
+      "brand": "Nikolaus - Barton",
+      "origin": "Western Sahara"
+    }
+  }
+}

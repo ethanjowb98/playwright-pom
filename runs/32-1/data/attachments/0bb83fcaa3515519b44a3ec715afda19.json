@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ool0spml Soft Gold Pizza",
+    "category": "snacks",
+    "price": 14.51,
+    "stock": 33,
+    "details": {
+      "brand": "Dach-Nicolas, Yost and Nienow",
+      "origin": "Panama"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m5slj2j6 Awesome Marble Keyboard",
+    "category": "fresh-produce",
+    "price": 6.08,
+    "stock": 50,
+    "details": {
+      "brand": "Champlin - Glover",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

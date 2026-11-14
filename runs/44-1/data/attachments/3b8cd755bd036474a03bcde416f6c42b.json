@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-h08li7g7 sort Alpha",
+    "category": "other",
+    "price": 24.24,
+    "stock": 30,
+    "details": {
+      "brand": "Hahn, Thiel and McLaughlin",
+      "origin": "Panama"
+    }
+  }
+}

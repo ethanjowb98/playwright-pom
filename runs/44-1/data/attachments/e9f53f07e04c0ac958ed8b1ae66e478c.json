@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-suxqabqs Small Marble Soap",
+    "category": "frozen",
+    "price": 4.82,
+    "stock": 17,
+    "details": {
+      "brand": "Wilkinson, Prosacco and Braun",
+      "origin": "Slovakia"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

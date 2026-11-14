@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tkx5aj9x Luxurious Gold Gloves",
+    "category": "snacks",
+    "price": 35.47,
+    "stock": 13,
+    "details": {
+      "brand": "Deckow, Hoeger and Champlin",
+      "origin": "Madagascar"
+    }
+  }
+}

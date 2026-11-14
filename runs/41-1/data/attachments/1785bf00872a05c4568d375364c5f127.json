@@ -1,0 +1,15 @@
+{
+  "id": "486968b3-d3b2-4c5d-9886-f187dfc1f4c4",
+  "product_name": "QA-3-7zwdwpaf sort Charlie",
+  "category": "snacks",
+  "price": 45.31,
+  "stock": 26,
+  "details": {
+    "brand": "Fay and Sons",
+    "origin": "Nicaragua"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:27.775684+00:00"
+}

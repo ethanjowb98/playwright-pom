@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-8nym3x3y Incredible Rubber Salad",
+    "category": "bakery",
+    "price": 21.44,
+    "stock": 48,
+    "details": {
+      "brand": "Hilpert LLC",
+      "origin": "Gambia"
+    }
+  }
+}

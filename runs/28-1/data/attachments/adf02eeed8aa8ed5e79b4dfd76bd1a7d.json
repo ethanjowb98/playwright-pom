@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "4f2736c0-5d12-420f-87fc-83345adb6619",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "cancelled",
+    "total_amount": 80.79,
+    "notes": null,
+    "created_at": "2026-11-04T08:10:37.127226+00:00",
+    "updated_at": "2026-11-04T08:10:37.127226+00:00",
+    "order_number": "O80006"
+  }
+}

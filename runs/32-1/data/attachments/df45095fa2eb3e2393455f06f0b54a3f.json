@@ -1,0 +1,15 @@
+{
+  "id": "a6abdee7-cb6c-4fe5-90fa-82def552db8c",
+  "product_name": "QA-4-sxzagx8f Modern Bamboo Pizza",
+  "category": "fresh-produce",
+  "price": 22.37,
+  "stock": 11,
+  "details": {
+    "brand": "O'Conner - Stokes",
+    "origin": "Hungary"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:52.721318+00:00"
+}

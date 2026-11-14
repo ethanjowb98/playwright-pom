@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-7z3drh0y sort Charlie",
+    "category": "meat-seafood",
+    "price": 37.78,
+    "stock": 49,
+    "details": {
+      "brand": "Fadel - Lebsack",
+      "origin": "Romania"
+    }
+  }
+}

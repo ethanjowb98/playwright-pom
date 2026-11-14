@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tmvunutb Small Steel Salad",
+    "category": "pantry",
+    "price": 14.57,
+    "stock": 10,
+    "details": {
+      "brand": "Zemlak LLC",
+      "origin": "Montserrat"
+    }
+  }
+}

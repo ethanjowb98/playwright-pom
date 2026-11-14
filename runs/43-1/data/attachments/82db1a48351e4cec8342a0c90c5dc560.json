@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6he3tiol Rustic Granite Mouse",
+    "category": "fresh-produce",
+    "price": 43.26,
+    "stock": 34,
+    "details": {
+      "brand": "Bahringer Inc",
+      "origin": "Malawi"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-w5ywv0i8 sort Alpha",
+    "category": "meat-seafood",
+    "price": 22.69,
+    "stock": 38,
+    "details": {
+      "brand": "Wolff LLC",
+      "origin": "Saint Martin"
+    }
+  }
+}

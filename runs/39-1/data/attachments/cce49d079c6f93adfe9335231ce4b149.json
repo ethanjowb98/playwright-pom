@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qybtot8e Tasty Bronze Salad",
+    "category": "dairy-eggs",
+    "price": 28.71,
+    "stock": 22,
+    "details": {
+      "brand": "Quigley Group",
+      "origin": "Mexico"
+    }
+  }
+}

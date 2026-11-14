@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-26ixeqkv Refined Rubber Chicken",
+    "category": "frozen",
+    "price": 40.87,
+    "stock": -5,
+    "details": {
+      "brand": "Reynolds - Hills",
+      "origin": "Liberia"
+    }
+  }
+}

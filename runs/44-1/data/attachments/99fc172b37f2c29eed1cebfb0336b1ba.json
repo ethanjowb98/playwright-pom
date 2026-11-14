@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-ih19yzxq Bespoke Gold Bacon",
+    "category": "frozen",
+    "price": 49.93,
+    "stock": 41,
+    "details": {
+      "brand": "Walsh, Bruen and Champlin",
+      "origin": "Oman"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-0zwzox9w Licensed Metal Mouse",
+    "category": "snacks",
+    "price": 46.53,
+    "stock": 24,
+    "details": {
+      "brand": "Powlowski Inc",
+      "origin": "Finland"
+    }
+  }
+}

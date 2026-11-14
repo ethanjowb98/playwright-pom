@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wafppuhp Handcrafted Ceramic Chips",
+    "category": "snacks",
+    "price": 32.86,
+    "stock": 19,
+    "details": {
+      "brand": "Ruecker Group",
+      "origin": "Serbia"
+    }
+  }
+}

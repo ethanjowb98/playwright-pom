@@ -1,0 +1,15 @@
+{
+  "id": "e4627ea8-e238-44a6-96ae-b63c675ece11",
+  "product_name": "QA-2-j35edo84 sort Alpha",
+  "category": "fresh-produce",
+  "price": 28.15,
+  "stock": 13,
+  "details": {
+    "brand": "Hackett Inc",
+    "origin": "Palau"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:37.756778+00:00"
+}

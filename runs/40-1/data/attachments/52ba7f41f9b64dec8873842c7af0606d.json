@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gkx7cbu1 Fantastic Metal Gloves",
+    "category": "snacks",
+    "price": 5.31,
+    "stock": 27,
+    "details": {
+      "brand": "Wilkinson - Heaney",
+      "origin": "Greenland"
+    }
+  }
+}

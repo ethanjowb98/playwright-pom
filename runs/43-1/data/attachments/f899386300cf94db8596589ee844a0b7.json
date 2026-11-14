@@ -1,0 +1,15 @@
+{
+  "id": "27e32453-02e4-4391-bb0e-74956f3521c9",
+  "product_name": "QA-8-d07zugw0 sort Charlie",
+  "category": "household",
+  "price": 47.91,
+  "stock": 24,
+  "details": {
+    "brand": "McDermott LLC",
+    "origin": "Costa Rica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:52.653938+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zshzytw7 Licensed Bronze Salad",
+    "category": "beverages",
+    "price": 17.39,
+    "stock": 21,
+    "details": {
+      "brand": "Hoppe Group",
+      "origin": "India"
+    }
+  }
+}

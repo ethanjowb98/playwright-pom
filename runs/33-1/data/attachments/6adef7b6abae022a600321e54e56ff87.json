@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-45o09kt7 Ergonomic Steel Mouse",
+    "category": "beverages",
+    "price": 3.39,
+    "stock": 14,
+    "details": {
+      "brand": "King Inc",
+      "origin": "Malta"
+    }
+  }
+}

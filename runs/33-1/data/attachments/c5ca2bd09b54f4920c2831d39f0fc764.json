@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "07a996b5-4d3c-4914-93d0-d4e22e4560e3",
+      "product_id": "892c1844-bb12-441e-9126-4bc3e6186d80",
+      "product_name": "QA-1-6yj0xaon Bespoke Metal Chicken",
+      "price": 14.05,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-05T08:28:32.205088+00:00",
+      "updated_at": "2026-11-05T08:28:32.205088+00:00"
+    },
+    {
+      "id": "9c95e35b-49e8-4ef3-b8cf-a408f8a47072",
+      "product_id": "eeb00730-cd8f-4e89-baa0-79f028e1ce14",
+      "product_name": "QA-1-n5zmry59 Bespoke Metal Mouse",
+      "price": 14.34,
+      "category": "frozen",
+      "quantity": 3,
+      "created_at": "2026-11-05T08:28:32.739622+00:00",
+      "updated_at": "2026-11-05T08:28:32.739622+00:00"
+    }
+  ]
+}

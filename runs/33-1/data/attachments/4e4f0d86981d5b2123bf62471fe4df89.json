@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wx5oiaau Tasty Bronze Hat",
+    "category": "fresh-produce",
+    "price": 20.8,
+    "stock": 29,
+    "details": {
+      "brand": "Tremblay, Abshire and Kassulke",
+      "origin": "Saint Lucia"
+    }
+  }
+}

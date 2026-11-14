@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yuvyq717 Awesome Concrete Sausages",
+    "category": "beverages",
+    "price": 32.79,
+    "stock": 49,
+    "details": {
+      "brand": "Bogan - Dooley",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

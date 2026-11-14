@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wu9glp5v Elegant Plastic Shoes",
+    "category": "bakery",
+    "price": 45.59,
+    "stock": 11,
+    "details": {
+      "brand": "Boehm and Sons",
+      "origin": "Mali"
+    }
+  }
+}

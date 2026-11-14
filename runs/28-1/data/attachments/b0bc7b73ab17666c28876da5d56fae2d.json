@@ -1,0 +1,15 @@
+{
+  "id": "3600af79-62ae-45b8-9db3-bd9596b665ca",
+  "product_name": "QA-1-k9ho6can Intelligent Rubber Salad",
+  "category": "fresh-produce",
+  "price": 17.22,
+  "stock": 11,
+  "details": {
+    "brand": "Farrell LLC",
+    "origin": "French Guiana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:11:54.893584+00:00"
+}

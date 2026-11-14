@@ -1,0 +1,15 @@
+{
+  "id": "e89f4840-82b3-48b8-84c4-90618f9378fd",
+  "product_name": "QA-1-uqbcpqo6 Awesome Concrete Hat",
+  "category": "fresh-produce",
+  "price": 8.66,
+  "stock": 12,
+  "details": {
+    "brand": "Osinski Group",
+    "origin": "Åland Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:41:51.125893+00:00"
+}

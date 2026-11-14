@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-3x8lrs0u Oriental Cotton Ball",
+    "category": "frozen",
+    "price": 32.49,
+    "stock": 36,
+    "details": {
+      "brand": "Will Group",
+      "origin": "Democratic People's Republic of Korea"
+    },
+    "weighted": true
+  }
+}

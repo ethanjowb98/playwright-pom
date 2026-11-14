@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bgfkr390 Elegant Aluminum Table",
+    "category": "dairy-eggs",
+    "price": 20.3,
+    "stock": 43,
+    "details": {
+      "brand": "Jakubowski - Purdy-Turcotte",
+      "origin": "Cayman Islands"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-3o2zpznm sort Bravo",
+    "category": "dairy-eggs",
+    "price": 6.25,
+    "stock": 16,
+    "details": {
+      "brand": "Lindgren, Howe and Pfannerstill",
+      "origin": "Gabon"
+    }
+  }
+}

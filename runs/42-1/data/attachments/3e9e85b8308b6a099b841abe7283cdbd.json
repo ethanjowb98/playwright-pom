@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "5ff4b200-c729-4f8b-bbcd-2b9725d7bd88",
+      "product_id": "a5d3b4a4-4dfb-470a-aa64-e2a8c8461e63",
+      "product_name": "QA-1-8r5e832u Soft Plastic Pants",
+      "price": 33.36,
+      "category": "bakery",
+      "quantity": 2,
+      "created_at": "2026-11-12T10:31:20.410417+00:00",
+      "updated_at": "2026-11-12T10:31:20.410417+00:00"
+    }
+  ]
+}

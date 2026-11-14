@@ -1,0 +1,15 @@
+{
+  "id": "af83c56e-3180-4640-a7da-e677d0bc96e1",
+  "product_name": "QA-1-rsi4bajq Frozen Rubber Car",
+  "category": "beverages",
+  "price": 31.3,
+  "stock": 13,
+  "details": {
+    "brand": "Hintz-Connelly LLC",
+    "origin": "Mauritius"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:20:26.327219+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "snacks",
+    "price": 40.4,
+    "stock": 39,
+    "details": {
+      "brand": "Harris - Heathcote",
+      "origin": "Saint Lucia"
+    }
+  }
+}

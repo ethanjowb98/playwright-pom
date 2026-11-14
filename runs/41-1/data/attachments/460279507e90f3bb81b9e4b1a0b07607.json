@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-osaw6hqu Oriental Marble Gloves",
+    "category": "dairy-eggs",
+    "price": 19.21,
+    "stock": 29,
+    "details": {
+      "brand": "Greenfelder Inc",
+      "origin": "Portugal"
+    }
+  }
+}

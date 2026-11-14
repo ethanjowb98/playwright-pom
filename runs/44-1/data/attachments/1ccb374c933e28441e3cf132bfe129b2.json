@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ugi0v6k3 Handmade Aluminum Car",
+    "category": "bakery",
+    "price": 7.75,
+    "stock": 20,
+    "details": {
+      "brand": "Labadie LLC",
+      "origin": "Djibouti"
+    }
+  }
+}

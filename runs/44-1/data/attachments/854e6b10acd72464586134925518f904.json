@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h4aey2kg Elegant Bronze Fish",
+    "category": "fresh-produce",
+    "price": 13.26,
+    "stock": 35,
+    "details": {
+      "brand": "Murray, Brown and Crona",
+      "origin": "Sudan"
+    }
+  }
+}

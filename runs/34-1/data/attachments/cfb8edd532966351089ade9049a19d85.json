@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-0mf5yvdd Bespoke Marble Mouse",
+    "category": "dairy-eggs",
+    "price": 7.36,
+    "stock": 33,
+    "details": {
+      "brand": "Sawayn Group",
+      "origin": "Moldova"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

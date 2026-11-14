@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rctgreud Luxurious Cotton Chair",
+    "category": "beverages",
+    "price": 9.34,
+    "stock": 34,
+    "details": {
+      "brand": "Pfannerstill LLC",
+      "origin": "Bonaire, Sint Eustatius and Saba"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d70704b2-36ca-4945-80d6-270fdfa26559",
+    "order_number": "O94117",
+    "status": "pending",
+    "total_amount": 45.05,
+    "created_at": "2026-11-05T08:28:49.625413+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-ah7w0y6b Recycled Aluminum Soap",
+        "category": "other",
+        "quantity": 1,
+        "price": 45.05,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

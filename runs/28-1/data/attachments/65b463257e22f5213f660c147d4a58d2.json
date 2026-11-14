@@ -1,0 +1,15 @@
+{
+  "id": "d28e4a53-974c-4c41-9a5b-16c81ee1164d",
+  "product_name": "QA-1-gis7l5nk Awesome Cotton Soap",
+  "category": "frozen",
+  "price": 40.21,
+  "stock": 10,
+  "details": {
+    "brand": "Hermann-Grant and Sons",
+    "origin": "Czechia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:11:21.520716+00:00"
+}

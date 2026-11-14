@@ -1,0 +1,1 @@
+{"id":"bb25615c7dd925356c13bc36ca635f78.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when product_name is missing","name":"should reject the product with 400 when product_name is missing","status":"passed","testResultsByEnv":{"default":"50b1b074085b660b2cca620ea59e0c8a"}}

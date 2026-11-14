@@ -1,0 +1,15 @@
+{
+  "id": "241081fb-d004-457c-ad16-b7183f77cf14",
+  "product_name": "QA-3-pfsy162p sort Alpha",
+  "category": "bakery",
+  "price": 39.71,
+  "stock": 38,
+  "details": {
+    "brand": "Zemlak - Hoeger",
+    "origin": "Côte d'Ivoire"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:49.865111+00:00"
+}

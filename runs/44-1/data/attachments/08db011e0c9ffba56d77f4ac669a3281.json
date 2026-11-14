@@ -1,0 +1,15 @@
+{
+  "id": "81d0f778-c98e-479e-8d72-a89bba83ad55",
+  "product_name": "QA-1-jf8p8b8i Oriental Concrete Cheese",
+  "category": "snacks",
+  "price": 33.14,
+  "stock": 19,
+  "details": {
+    "brand": "Schowalter, Hahn and Gusikowski",
+    "origin": "Heard Island and McDonald Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:49.799554+00:00"
+}

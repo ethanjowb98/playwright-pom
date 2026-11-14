@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-prreqqzp Intelligent Granite Gloves",
+    "category": "bakery",
+    "price": 20.9,
+    "stock": 44,
+    "details": {
+      "brand": "Friesen LLC",
+      "origin": "Azerbaijan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x5dgqmyw Licensed Aluminum Table",
+    "category": "household",
+    "price": 1.34,
+    "stock": 36,
+    "details": {
+      "brand": "Franey Group",
+      "origin": "Bermuda"
+    }
+  }
+}

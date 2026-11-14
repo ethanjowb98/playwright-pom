@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5cxkxal1 Tasty Metal Hat",
+    "category": "bakery",
+    "price": 8.97,
+    "stock": 38,
+    "details": {
+      "brand": "Jenkins-McKenzie - Ondricka",
+      "origin": "Bahrain"
+    }
+  }
+}

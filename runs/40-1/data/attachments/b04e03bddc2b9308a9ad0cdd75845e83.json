@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v5y5uyev Bespoke Ceramic Ball",
+    "category": "frozen",
+    "price": 10.21,
+    "stock": 38,
+    "details": {
+      "brand": "Powlowski, Greenfelder and Langosh",
+      "origin": "Iraq"
+    }
+  }
+}

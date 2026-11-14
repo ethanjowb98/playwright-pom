@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-tsw12fzm Soft Aluminum Pizza",
+    "category": "beverages",
+    "price": 28.38,
+    "stock": 50,
+    "details": {
+      "brand": "Bergnaum Group",
+      "origin": "Micronesia"
+    }
+  }
+}

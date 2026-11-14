@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-vfbcaowh Electronic Metal Mouse",
+    "category": "beverages",
+    "price": 43.67,
+    "stock": 44,
+    "details": {
+      "brand": "Hessel LLC",
+      "origin": "Bolivia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "14705d79-ea3e-414a-8ad8-558293c7b75f",
+  "product_name": "QA-1-svxtqajm Licensed Wooden Cheese",
+  "category": "meat-seafood",
+  "price": 48.77,
+  "stock": 47,
+  "details": {
+    "brand": "Kozey - Doyle",
+    "origin": "Niger"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:39:17.785857+00:00"
+}

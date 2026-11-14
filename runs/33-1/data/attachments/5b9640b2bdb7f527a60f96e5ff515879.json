@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-56ya4bp1 sort Bravo",
+    "category": "household",
+    "price": 4.81,
+    "stock": 14,
+    "details": {
+      "brand": "Nicolas LLC",
+      "origin": "Solomon Islands"
+    }
+  }
+}

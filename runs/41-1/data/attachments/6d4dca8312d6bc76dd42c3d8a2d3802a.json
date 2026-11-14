@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fq0deued Small Silk Tuna",
+    "category": "household",
+    "price": 30.92,
+    "stock": 27,
+    "details": {
+      "brand": "Reilly LLC",
+      "origin": "Mali"
+    }
+  }
+}

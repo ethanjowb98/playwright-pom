@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s4hexnh8 Incredible Marble Keyboard",
+    "category": "fresh-produce",
+    "price": 46.81,
+    "stock": 12,
+    "details": {
+      "brand": "Adams LLC",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

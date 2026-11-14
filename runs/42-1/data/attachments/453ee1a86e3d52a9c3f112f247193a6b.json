@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vmlp7ws9 Sleek Bronze Keyboard",
+    "category": "dairy-eggs",
+    "price": 22.53,
+    "stock": 40,
+    "details": {
+      "brand": "Jerde, Marvin-White and Collins",
+      "origin": "Guadeloupe"
+    }
+  }
+}

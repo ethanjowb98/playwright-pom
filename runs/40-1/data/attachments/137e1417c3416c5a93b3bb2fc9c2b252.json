@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "e2958172-593d-4a07-8a5b-77af0cdbbf3a",
+      "product_id": "70ce3845-abb3-46af-9714-2d35a696d2ea",
+      "product_name": "QA-1-4qztektb Luxurious Granite Car",
+      "price": 35.14,
+      "category": "frozen",
+      "quantity": 3,
+      "created_at": "2026-11-10T10:39:56.991845+00:00",
+      "updated_at": "2026-11-10T10:39:56.991845+00:00"
+    },
+    {
+      "id": "c97e011a-0d7b-448b-bbf7-eca915d62361",
+      "product_id": "5b99240f-234e-4d50-b1b4-c7463a227f35",
+      "product_name": "QA-1-mgawxyk0 Handcrafted Metal Tuna",
+      "price": 45.88,
+      "category": "other",
+      "quantity": 3,
+      "created_at": "2026-11-10T10:39:57.602259+00:00",
+      "updated_at": "2026-11-10T10:39:57.602259+00:00"
+    }
+  ]
+}

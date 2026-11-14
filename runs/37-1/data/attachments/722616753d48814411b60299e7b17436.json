@@ -1,0 +1,15 @@
+{
+  "id": "0507eef1-d5f3-433d-b7e0-aa22be0b3188",
+  "product_name": "QA-1-s65s84mb Licensed Granite Pants",
+  "category": "beverages",
+  "price": 32.6,
+  "stock": 23,
+  "details": {
+    "brand": "Walter - McClure",
+    "origin": "Mexico"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:28:09.382233+00:00"
+}

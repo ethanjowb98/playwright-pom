@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ax0taa5l Licensed Ceramic Cheese",
+    "category": "meat-seafood",
+    "price": 4.62,
+    "stock": 42,
+    "details": {
+      "brand": "Okuneva-Walker, Murphy and Zieme-Jakubowski",
+      "origin": "Paraguay"
+    }
+  }
+}

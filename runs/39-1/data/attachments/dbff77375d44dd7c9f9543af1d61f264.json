@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9jbpy3yw Frozen Bamboo Soap",
+    "category": "meat-seafood",
+    "price": 9.57,
+    "stock": 49,
+    "details": {
+      "brand": "Luettgen LLC",
+      "origin": "Mongolia"
+    }
+  }
+}

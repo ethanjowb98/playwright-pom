@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-gcg6o1ti sort Alpha",
+    "category": "frozen",
+    "price": 6,
+    "stock": 18,
+    "details": {
+      "brand": "Reynolds, Haley and Gorczany",
+      "origin": "Cook Islands"
+    }
+  }
+}

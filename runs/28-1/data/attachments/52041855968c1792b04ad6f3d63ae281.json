@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-9umb1x6f Awesome Marble Bacon",
+    "category": "snacks",
+    "price": 32.01,
+    "stock": -5,
+    "details": {
+      "brand": "Buckridge - Becker",
+      "origin": "Malaysia"
+    }
+  }
+}

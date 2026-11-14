@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x3ffhxel Recycled Cotton Tuna",
+    "category": "bakery",
+    "price": 20.73,
+    "stock": 16,
+    "details": {
+      "brand": "Borer, Wiegand and Kassulke",
+      "origin": "Barbados"
+    }
+  }
+}

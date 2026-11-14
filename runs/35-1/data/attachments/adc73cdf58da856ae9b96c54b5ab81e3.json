@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cptpbny2 Tasty Granite Cheese",
+    "category": "household",
+    "price": 47.52,
+    "stock": 14,
+    "details": {
+      "brand": "Emmerich Inc",
+      "origin": "Peru"
+    }
+  }
+}

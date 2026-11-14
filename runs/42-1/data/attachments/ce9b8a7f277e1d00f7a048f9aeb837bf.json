@@ -1,0 +1,15 @@
+{
+  "id": "215b30ab-418e-47ed-a888-9ad21580da56",
+  "product_name": "QA-1-vofgey9v sort Alpha",
+  "category": "bakery",
+  "price": 43.5,
+  "stock": 10,
+  "details": {
+    "brand": "Mitchell, Wisozk and Stroman",
+    "origin": "New Caledonia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:37.36343+00:00"
+}

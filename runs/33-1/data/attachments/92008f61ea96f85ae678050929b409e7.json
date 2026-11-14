@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-1pn1lxtz Licensed Silk Chips",
+    "category": "pantry",
+    "price": 23.01,
+    "stock": 25,
+    "details": {
+      "brand": "Borer, Will and Murray",
+      "origin": "Dominican Republic"
+    }
+  }
+}

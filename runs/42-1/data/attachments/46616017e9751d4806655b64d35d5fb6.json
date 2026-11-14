@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-j35edo84 sort Charlie",
+    "category": "bakery",
+    "price": 35.32,
+    "stock": 20,
+    "details": {
+      "brand": "Kessler, Kerluke and Grant",
+      "origin": "Sint Maarten"
+    }
+  }
+}

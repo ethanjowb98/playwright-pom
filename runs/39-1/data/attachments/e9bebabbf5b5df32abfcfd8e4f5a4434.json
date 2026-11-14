@@ -1,0 +1,19 @@
+{
+  "id": "4b9198dc-e49f-49b1-88a0-b9624c44e933",
+  "order_number": "O58687",
+  "status": "processing",
+  "total_amount": 127.71,
+  "notes": null,
+  "created_at": "2026-11-09T10:40:05.813473+00:00",
+  "updated_at": "2026-11-09T10:40:05.813473+00:00",
+  "items": [
+    {
+      "product_id": "bf8612fa-5286-4ff8-b934-f68d31582210",
+      "product_name": "QA-1-qzkaldd4 Handcrafted Concrete Sausages",
+      "category": "meat-seafood",
+      "quantity": 3,
+      "price": 42.57,
+      "temperature_zone": null
+    }
+  ]
+}

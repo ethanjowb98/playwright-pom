@@ -1,0 +1,1 @@
+{"id":"1dd5ff6f49b025bffa80b66ff6fec2a0.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Update › should reject the update with 400 and keep the product when price is zero","name":"should reject the update with 400 and keep the product when price is zero","status":"skipped","testResultsByEnv":{"default":"94b4a3edc73d1c759582fa842fe9b0db"}}

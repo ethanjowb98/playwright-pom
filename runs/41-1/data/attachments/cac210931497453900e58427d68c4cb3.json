@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sm644aw0 Recycled Concrete Table",
+    "category": "fresh-produce",
+    "price": 46.86,
+    "stock": 45,
+    "details": {
+      "brand": "Wolff, Paucek and Goodwin",
+      "origin": "Armenia"
+    }
+  }
+}

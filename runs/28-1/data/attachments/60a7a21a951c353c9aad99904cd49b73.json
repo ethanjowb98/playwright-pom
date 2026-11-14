@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3ff59wc5 Bespoke Wooden Mouse",
+    "category": "dairy-eggs",
+    "price": 37.16,
+    "stock": 14,
+    "details": {
+      "brand": "Fay, Sawayn and Muller",
+      "origin": "Micronesia"
+    },
+    "temperature_zone": "Dry"
+  }
+}

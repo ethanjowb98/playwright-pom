@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ouz4gwru Handcrafted Metal Tuna",
+    "category": "meat-seafood",
+    "price": 31.23,
+    "stock": 31,
+    "details": {
+      "brand": "Kautzer Group",
+      "origin": "South Sudan"
+    }
+  }
+}

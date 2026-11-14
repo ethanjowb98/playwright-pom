@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-966rcrpk Rustic Aluminum Mouse",
+    "category": "beverages",
+    "price": 19.78,
+    "stock": 29,
+    "details": {
+      "brand": "Hayes - Stark-Friesen",
+      "origin": "Barbados"
+    }
+  }
+}

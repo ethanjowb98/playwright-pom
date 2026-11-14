@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "d5b2105d-80b8-4a06-a9f3-26f6930c1f0d",
+      "product_id": "a42e4c57-b376-4704-901b-f9864773036c",
+      "product_name": "QA-1-yuvyq717 Awesome Concrete Sausages",
+      "price": 32.79,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-05T08:21:25.433378+00:00",
+      "updated_at": "2026-11-05T08:21:25.433378+00:00"
+    },
+    {
+      "id": "170c1be4-ea72-4025-94c8-3a3aa68e05f4",
+      "product_id": "325f1d87-c501-485f-a4c6-3e961c7d3e77",
+      "product_name": "QA-1-nhsqv3eg Practical Ceramic Chips",
+      "price": 14.93,
+      "category": "pantry",
+      "quantity": 3,
+      "created_at": "2026-11-05T08:21:26.100071+00:00",
+      "updated_at": "2026-11-05T08:21:26.100071+00:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0buj4jb9 Electronic Ceramic Chips",
+    "category": "fresh-produce",
+    "price": 38.79,
+    "stock": 30,
+    "details": {
+      "brand": "Haley, Leuschke and Zboncak",
+      "origin": "Haiti"
+    }
+  }
+}

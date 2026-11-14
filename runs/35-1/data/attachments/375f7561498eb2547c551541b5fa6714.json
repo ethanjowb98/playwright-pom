@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zlk0zgr3 Small Bamboo Chips",
+    "category": "snacks",
+    "price": 1.32,
+    "stock": 22,
+    "details": {
+      "brand": "Labadie - Jakubowski",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

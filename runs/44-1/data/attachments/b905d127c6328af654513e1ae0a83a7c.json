@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hveubsbz Gorgeous Concrete Computer",
+    "category": "meat-seafood",
+    "price": 16.64,
+    "stock": 17,
+    "details": {
+      "brand": "Gulgowski, Upton and Turner",
+      "origin": "Mauritius"
+    }
+  }
+}

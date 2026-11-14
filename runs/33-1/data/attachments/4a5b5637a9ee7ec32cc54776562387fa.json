@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-30n9yaid Fresh Granite Pizza",
+    "category": "meat-seafood",
+    "stock": 25,
+    "details": {
+      "brand": "Hudson Inc",
+      "origin": "Zimbabwe"
+    }
+  }
+}

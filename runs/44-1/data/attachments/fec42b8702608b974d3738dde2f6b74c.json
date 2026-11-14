@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-d5f3y1zz sort Bravo",
+    "category": "meat-seafood",
+    "price": 44.6,
+    "stock": 34,
+    "details": {
+      "brand": "Price and Sons",
+      "origin": "Ireland"
+    }
+  }
+}

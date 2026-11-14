@@ -1,0 +1,19 @@
+{
+  "id": "57ff1d27-ba67-440f-8ff7-aedcf340440c",
+  "order_number": "O12023",
+  "status": "pending",
+  "total_amount": 3.78,
+  "notes": "updated",
+  "created_at": "2026-11-06T10:08:11.462111+00:00",
+  "updated_at": "2026-11-06T10:08:11.462111+00:00",
+  "items": [
+    {
+      "product_id": "d18dccf3-c427-4e81-8d09-b10a428f3323",
+      "product_name": "QA-1-icrqac1l Elegant Bamboo Shirt",
+      "category": "pantry",
+      "quantity": 1,
+      "price": 3.78,
+      "temperature_zone": null
+    }
+  ]
+}

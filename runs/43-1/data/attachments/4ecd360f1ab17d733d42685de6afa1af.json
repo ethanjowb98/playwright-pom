@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-p8fcxcsz Practical Bronze Chicken",
+    "category": "other",
+    "price": 13.92,
+    "stock": 0,
+    "details": {
+      "brand": "Heathcote Group",
+      "origin": "American Samoa"
+    }
+  }
+}

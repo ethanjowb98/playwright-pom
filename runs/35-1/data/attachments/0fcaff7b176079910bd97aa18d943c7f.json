@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2klf08kk Soft Bamboo Shirt",
+    "category": "frozen",
+    "price": 10.14,
+    "stock": 30,
+    "details": {
+      "brand": "Jerde, Torp and Mills",
+      "origin": "Latvia"
+    }
+  }
+}

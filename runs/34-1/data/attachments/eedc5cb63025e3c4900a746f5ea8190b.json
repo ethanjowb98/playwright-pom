@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-04u3ec42 Unbranded Ceramic Pizza",
+    "category": "fresh-produce",
+    "price": 35.54,
+    "stock": 43,
+    "details": {
+      "brand": "Ruecker - Watsica",
+      "origin": "Cape Verde"
+    }
+  }
+}

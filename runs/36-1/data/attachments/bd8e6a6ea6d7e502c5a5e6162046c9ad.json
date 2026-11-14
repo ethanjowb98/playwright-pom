@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qkvl41lg Incredible Plastic Shirt",
+    "category": "frozen",
+    "price": 46.24,
+    "stock": 40,
+    "details": {
+      "brand": "Sipes, Franecki and Muller",
+      "origin": "Comoros"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "da38d633-5395-487b-baee-730599287dc5",
+      "product_id": "085ba87a-2ca8-4503-9416-355387befd06",
+      "product_name": "QA-1-smfp2jos Generic Plastic Soap",
+      "price": 41.58,
+      "category": "bakery",
+      "quantity": 1,
+      "created_at": "2026-11-12T10:30:00.720479+00:00",
+      "updated_at": "2026-11-12T10:30:00.720479+00:00"
+    }
+  ]
+}

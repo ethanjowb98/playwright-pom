@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "4ae35ef9-baf8-4b60-a2ee-5956ff577ffa",
+      "product_id": "dc6e0e71-cc40-443e-a0a8-13531f9a7abb",
+      "product_name": "QA-1-a4ee4b85 Luxurious Rubber Towels",
+      "price": 30.31,
+      "category": "pantry",
+      "quantity": 3,
+      "created_at": "2026-11-13T10:20:39.724444+00:00",
+      "updated_at": "2026-11-13T10:20:39.724444+00:00"
+    }
+  ]
+}

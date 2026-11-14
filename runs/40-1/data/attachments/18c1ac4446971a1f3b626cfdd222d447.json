@@ -1,0 +1,7 @@
+{
+  "method": "PUT",
+  "path": "/api/orders/4f47fa10-2afa-4249-8242-c8487a75b009",
+  "body": {
+    "notes": "updated"
+  }
+}

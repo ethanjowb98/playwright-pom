@@ -1,0 +1,15 @@
+{
+  "id": "90cda34f-cf77-4dc4-822e-e5e1080b376f",
+  "product_name": "QA-1-fyrh561f Generic Aluminum Ball",
+  "category": "pantry",
+  "price": 1.95,
+  "stock": 21,
+  "details": {
+    "brand": "Pouros LLC",
+    "origin": "Saint Martin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:32:45.697548+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-azcnhio4 Luxurious Rubber Pants",
+    "category": "frozen",
+    "price": 9.22,
+    "stock": -5,
+    "details": {
+      "brand": "Pollich, Wunsch and Murazik",
+      "origin": "Tuvalu"
+    }
+  }
+}

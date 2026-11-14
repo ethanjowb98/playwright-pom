@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nhpcm1kk Handmade Ceramic Bike",
+    "category": "meat-seafood",
+    "price": 34.86,
+    "stock": 41,
+    "details": {
+      "brand": "Rutherford, Howell and Reinger",
+      "origin": "Guernsey"
+    }
+  }
+}

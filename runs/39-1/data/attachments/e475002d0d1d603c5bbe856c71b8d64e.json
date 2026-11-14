@@ -1,0 +1,15 @@
+{
+  "id": "a0cd61ee-3a83-4301-90fd-bb5a9fcc7ae6",
+  "product_name": "QA-1-qntcog2k Small Ceramic Table",
+  "category": "fresh-produce",
+  "price": 43.98,
+  "stock": 19,
+  "details": {
+    "brand": "Lynch Inc",
+    "origin": "Sri Lanka"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:39:08.335287+00:00"
+}

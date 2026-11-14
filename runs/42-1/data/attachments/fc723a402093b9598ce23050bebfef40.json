@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-520jsjlk Fantastic Plastic Hat",
+    "category": "household",
+    "price": 17.48,
+    "stock": 50,
+    "details": {
+      "brand": "Torphy - Thiel",
+      "origin": "Montenegro"
+    }
+  }
+}

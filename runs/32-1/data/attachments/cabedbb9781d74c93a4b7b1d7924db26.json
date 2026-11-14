@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yrjpmt5n Electronic Aluminum Shoes",
+    "category": "snacks",
+    "price": 31.57,
+    "stock": 47,
+    "details": {
+      "brand": "Armstrong, Kovacek and Rowe",
+      "origin": "Bahamas"
+    }
+  }
+}

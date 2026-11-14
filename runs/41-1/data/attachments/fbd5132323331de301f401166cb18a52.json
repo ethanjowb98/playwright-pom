@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nxukcdam Generic Rubber Ball",
+    "category": "dairy-eggs",
+    "price": 39.34,
+    "stock": 18,
+    "details": {
+      "brand": "Stanton, Kuhlman and Boyer",
+      "origin": "New Caledonia"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

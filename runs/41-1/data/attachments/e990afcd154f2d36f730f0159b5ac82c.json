@@ -1,0 +1,15 @@
+{
+  "id": "dfee2b75-a205-4c08-af80-a2987910ab91",
+  "product_name": "QA-1-ovnwns38 Licensed Steel Cheese",
+  "category": "beverages",
+  "price": 1.94,
+  "stock": 16,
+  "details": {
+    "brand": "Barrows and Sons",
+    "origin": "Ghana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:02:42.523351+00:00"
+}

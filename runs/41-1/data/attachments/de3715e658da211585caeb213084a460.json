@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rdy4e2bs Bespoke Cotton Chips",
+    "category": "dairy-eggs",
+    "price": 1.36,
+    "stock": 17,
+    "details": {
+      "brand": "Mertz, O'Kon and Jakubowski",
+      "origin": "Russian Federation"
+    }
+  }
+}

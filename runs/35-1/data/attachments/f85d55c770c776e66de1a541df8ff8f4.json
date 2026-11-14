@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xqg2ktd9 Rustic Plastic Gloves",
+    "category": "frozen",
+    "price": 8.96,
+    "stock": 40,
+    "details": {
+      "brand": "Ebert, McClure and Gislason",
+      "origin": "French Guiana"
+    }
+  }
+}

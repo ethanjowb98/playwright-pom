@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jhhvlxud Intelligent Bronze Tuna",
+    "category": "household",
+    "price": 30.18,
+    "stock": 20,
+    "details": {
+      "brand": "Hammes Inc",
+      "origin": "Western Sahara"
+    }
+  }
+}

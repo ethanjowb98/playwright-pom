@@ -1,0 +1,15 @@
+{
+  "id": "1e451046-6c91-41b0-a568-1865cb4cf412",
+  "product_name": "QA-5-plfhiq2b Bespoke Bronze Chicken",
+  "category": "bakery",
+  "price": 8.8,
+  "stock": 13,
+  "details": {
+    "brand": "Lemke Inc",
+    "origin": "Lebanon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:38.88157+00:00"
+}

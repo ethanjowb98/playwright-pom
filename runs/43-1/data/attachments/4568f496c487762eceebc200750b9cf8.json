@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3iqus0od Electronic Silk Chips",
+    "category": "snacks",
+    "price": 25.57,
+    "stock": 37,
+    "details": {
+      "brand": "Cartwright, Hane-Dickens and Balistreri",
+      "origin": "Oman"
+    }
+  }
+}

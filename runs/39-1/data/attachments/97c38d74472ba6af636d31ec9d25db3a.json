@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ldcenbu2 Intelligent Plastic Towels",
+    "category": "bakery",
+    "price": 2.72,
+    "stock": 2,
+    "details": {
+      "brand": "Feest, Russel and Bartell",
+      "origin": "Argentina"
+    }
+  }
+}

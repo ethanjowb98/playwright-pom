@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-0v9cv3sl Intelligent Gold Shoes",
+    "category": "household",
+    "price": 36.33,
+    "stock": 17,
+    "details": {
+      "brand": "Hegmann Group",
+      "origin": "Albania"
+    },
+    "weighted": false
+  }
+}

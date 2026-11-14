@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "01f6aad8-0f42-431f-8310-f06e1f933ab9",
+      "order_number": "O84117",
+      "status": "pending",
+      "total_amount": 95.62,
+      "notes": null,
+      "created_at": "2026-11-11T10:03:55.63952+00:00",
+      "updated_at": "2026-11-11T10:03:55.63952+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-3jg6c4ir Recycled Ceramic Bacon",
+          "category": "bakery",
+          "quantity": 2,
+          "price": 47.81,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

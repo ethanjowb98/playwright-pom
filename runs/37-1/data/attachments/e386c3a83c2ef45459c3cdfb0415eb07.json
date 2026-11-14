@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y578yg82 Recycled Plastic Bacon",
+    "category": "snacks",
+    "price": 1.52,
+    "stock": 45,
+    "details": {
+      "brand": "Wehner, Roberts and Feeney",
+      "origin": "Mauritius"
+    }
+  }
+}

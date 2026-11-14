@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ijwr0xca Handcrafted Ceramic Car",
+    "category": "bakery",
+    "price": 8.26,
+    "stock": 18,
+    "details": {
+      "brand": "Gerlach Group",
+      "origin": "Hong Kong"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oo63zlbd Unbranded Steel Pizza",
+    "category": "meat-seafood",
+    "price": 29.9,
+    "stock": 22,
+    "details": {
+      "brand": "Kreiger Inc",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

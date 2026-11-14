@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-38b867f3 Luxurious Silk Chicken",
+    "category": "dairy-eggs",
+    "price": 46.79,
+    "stock": 36,
+    "details": {
+      "brand": "Rutherford - Wiegand",
+      "origin": "Brazil"
+    }
+  }
+}

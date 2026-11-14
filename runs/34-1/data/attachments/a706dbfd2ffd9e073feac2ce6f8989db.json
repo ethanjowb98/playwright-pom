@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k6goxc7i Fresh Bamboo Towels",
+    "category": "frozen",
+    "price": 49.84,
+    "stock": 12,
+    "details": {
+      "brand": "Bosco, Kuhlman and Streich",
+      "origin": "Kenya"
+    }
+  }
+}

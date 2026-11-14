@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gcn4kw4z Licensed Aluminum Shoes",
+    "category": "other",
+    "stock": 10,
+    "details": {
+      "brand": "Kessler - Senger",
+      "origin": "Bahamas"
+    }
+  }
+}

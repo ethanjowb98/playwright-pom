@@ -1,0 +1,15 @@
+{
+  "id": "b30bcf3d-8976-4fc9-9c16-c27fdc74a726",
+  "product_name": "QA-1-ct41mw0t Awesome Bamboo Chair",
+  "category": "snacks",
+  "price": 32.55,
+  "stock": 22,
+  "details": {
+    "brand": "Kemmer - Nikolaus",
+    "origin": "Saudi Arabia"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:56.082351+00:00"
+}

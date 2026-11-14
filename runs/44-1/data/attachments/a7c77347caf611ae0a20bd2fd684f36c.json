@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6fv79jue Unbranded Bamboo Table",
+    "category": "pantry",
+    "price": 31.81,
+    "stock": 14,
+    "details": {
+      "brand": "Legros - Volkman",
+      "origin": "Tokelau"
+    }
+  }
+}

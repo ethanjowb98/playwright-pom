@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "39146a14-6ac6-4a71-ba86-fcaf274c0a33",
+      "product_id": "b0681fcd-2b1f-4672-ba0b-8fd7907a7224",
+      "product_name": "QA-1-c65c6gm0 Fantastic Bamboo Towels",
+      "price": 23.57,
+      "category": "dairy-eggs",
+      "quantity": 3,
+      "created_at": "2026-11-05T09:19:25.402293+00:00",
+      "updated_at": "2026-11-05T09:19:25.402293+00:00"
+    },
+    {
+      "id": "7e485daa-1f1e-4f9d-8c3a-520510e0ce16",
+      "product_id": "4129b785-038a-40f5-af98-d908ffb7573c",
+      "product_name": "QA-1-4ms4vpak Fantastic Bronze Ball",
+      "price": 41.14,
+      "category": "other",
+      "quantity": 2,
+      "created_at": "2026-11-05T09:19:26.001059+00:00",
+      "updated_at": "2026-11-05T09:19:26.001059+00:00"
+    }
+  ]
+}

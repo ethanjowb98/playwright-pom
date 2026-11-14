@@ -1,0 +1,1 @@
+{"id":"0d3837cf5d6d3127c0cbff715ce3549b.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when price is not a number","name":"should reject the product with 400 when price is not a number","status":"passed","testResultsByEnv":{"default":"f833e5d2504a39740beaec73cfcc881a"}}

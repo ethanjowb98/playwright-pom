@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-r98nwqex Gorgeous Bamboo Chair",
+    "category": "frozen",
+    "price": 2.67,
+    "stock": 38,
+    "details": {
+      "brand": "Swaniawski - Leuschke",
+      "origin": "Curaçao"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-g5dbyd5n Modern Ceramic Keyboard",
+    "category": "fresh-produce",
+    "price": 37.67,
+    "stock": 25,
+    "details": {
+      "brand": "Schulist, Harris and Gleichner",
+      "origin": "Nepal"
+    }
+  }
+}

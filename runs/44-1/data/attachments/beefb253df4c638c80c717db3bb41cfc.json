@@ -1,0 +1,15 @@
+{
+  "id": "f063fac6-fcc0-44b9-8fe1-99669d1407b4",
+  "product_name": "QA-1-903ebhtx Awesome Metal Pants",
+  "category": "fresh-produce",
+  "price": 39.18,
+  "stock": 28,
+  "details": {
+    "brand": "Sanford LLC",
+    "origin": "Myanmar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:41:36.007002+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ca9d71ed-9c8c-4cd5-849c-1c35cc95e5bb",
+  "product_name": "QA-2-c0ox6n3i Small Wooden Chicken",
+  "category": "frozen",
+  "price": 35.78,
+  "stock": 48,
+  "details": {
+    "brand": "Bergnaum-Nader, Swift and Gulgowski",
+    "origin": "Trinidad and Tobago"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:35.089139+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jaqdp3vv Practical Metal Fish",
+    "category": "other",
+    "price": 18.42,
+    "stock": 13,
+    "details": {
+      "brand": "Doyle and Sons",
+      "origin": "Guernsey"
+    }
+  }
+}

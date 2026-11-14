@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-mzjygyj1 Rustic Marble Sausages",
+    "category": "bakery",
+    "price": 6.65,
+    "stock": 14,
+    "details": {
+      "brand": "Wilderman - Conroy",
+      "origin": "Kiribati"
+    },
+    "temperature_zone": "Dry"
+  }
+}

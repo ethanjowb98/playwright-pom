@@ -1,0 +1,15 @@
+{
+  "id": "cf0e2648-8b53-4e46-8d5a-888e321a91e7",
+  "product_name": "QA-1-e34qpamz Refined Bronze Computer",
+  "category": "snacks",
+  "price": 22.74,
+  "stock": 48,
+  "details": {
+    "brand": "Ebert, Jacobson and Johnston",
+    "origin": "Samoa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:41:57.229941+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ziyoo4ey Incredible Rubber Mouse",
+    "category": "other",
+    "price": 26.93,
+    "stock": 16,
+    "details": {
+      "brand": "Koss and Sons",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

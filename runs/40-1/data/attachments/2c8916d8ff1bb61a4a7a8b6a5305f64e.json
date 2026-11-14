@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-54f68ytf sort Charlie",
+    "category": "meat-seafood",
+    "price": 3.79,
+    "stock": 24,
+    "details": {
+      "brand": "McLaughlin - Stokes",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

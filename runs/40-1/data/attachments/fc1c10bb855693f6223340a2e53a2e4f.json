@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-j34xtuuj sort Alpha",
+    "category": "fresh-produce",
+    "price": 39.05,
+    "stock": 27,
+    "details": {
+      "brand": "Daugherty LLC",
+      "origin": "Moldova"
+    }
+  }
+}

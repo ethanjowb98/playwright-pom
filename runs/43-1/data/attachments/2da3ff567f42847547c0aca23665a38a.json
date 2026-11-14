@@ -1,0 +1,19 @@
+{
+  "id": "b6b6fbed-254c-4a4d-b348-59cb0f7af2e3",
+  "order_number": "O24610",
+  "status": "shipped",
+  "total_amount": 80.28,
+  "notes": null,
+  "created_at": "2026-11-13T10:20:21.956667+00:00",
+  "updated_at": "2026-11-13T10:20:21.956667+00:00",
+  "items": [
+    {
+      "product_id": "754aa47c-23a8-4d66-8ca9-a91b7e91e95d",
+      "product_name": "QA-1-2vseggtj Fantastic Bronze Bike",
+      "category": "dairy-eggs",
+      "quantity": 3,
+      "price": 26.76,
+      "temperature_zone": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-25dov1ho Sleek Gold Bike",
+    "category": "meat-seafood",
+    "price": 28.16,
+    "stock": 44,
+    "details": {
+      "brand": "Huel LLC",
+      "origin": "Papua New Guinea"
+    },
+    "weighted": false
+  }
+}

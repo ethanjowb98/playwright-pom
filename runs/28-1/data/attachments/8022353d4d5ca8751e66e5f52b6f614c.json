@@ -1,0 +1,15 @@
+{
+  "id": "a70c1804-0976-402b-a041-7872b3db1431",
+  "product_name": "QA-3-zg364s70 Awesome Bamboo Fish",
+  "category": "beverages",
+  "price": 41.35,
+  "stock": 33,
+  "details": {
+    "brand": "VonRueden - Nader",
+    "origin": "Burundi"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:08:44.258451+00:00"
+}

@@ -1,0 +1,1 @@
+{"id":"6b3dd09418eab6907b477e525ff2f104.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when stock is negative","name":"should reject the product with 400 when stock is negative","status":"passed","testResultsByEnv":{"default":"84ebf089a4aae6e535adcfc8d10fc5f0"}}

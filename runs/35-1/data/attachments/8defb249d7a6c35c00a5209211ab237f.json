@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-shaxf70y Small Concrete Chips",
+    "category": "meat-seafood",
+    "price": 44.14,
+    "stock": 40,
+    "details": {
+      "brand": "Pollich Group",
+      "origin": "Saint Helena"
+    }
+  }
+}

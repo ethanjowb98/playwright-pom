@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xsobwdd5 Small Bamboo Table",
+    "category": "snacks",
+    "price": 49.79,
+    "stock": 16,
+    "details": {
+      "brand": "Crist LLC",
+      "origin": "Isle of Man"
+    }
+  }
+}

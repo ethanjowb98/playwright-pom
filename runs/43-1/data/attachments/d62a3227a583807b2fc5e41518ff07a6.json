@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-psn2gl5t Oriental Rubber Soap",
+    "category": "meat-seafood",
+    "price": 16.13,
+    "stock": 2,
+    "details": {
+      "brand": "Vandervort - Hills",
+      "origin": "Burundi"
+    }
+  }
+}

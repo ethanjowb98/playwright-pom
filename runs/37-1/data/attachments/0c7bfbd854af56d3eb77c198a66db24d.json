@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-30gfriyg Handcrafted Cotton Chair",
+    "category": "snacks",
+    "price": 12.89,
+    "stock": 40,
+    "details": {
+      "brand": "Greenfelder - Bartell",
+      "origin": "Democratic People's Republic of Korea"
+    }
+  }
+}

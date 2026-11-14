@@ -1,0 +1,15 @@
+{
+  "id": "5adb557c-ad3d-4e90-838f-27d9ec2b309c",
+  "product_name": "QA-2-873h0r8p Tasty Marble Towels",
+  "category": "fresh-produce",
+  "price": 3,
+  "stock": 24,
+  "details": {
+    "brand": "Okuneva and Sons",
+    "origin": "Moldova"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:36.443332+00:00"
+}

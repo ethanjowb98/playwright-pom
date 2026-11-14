@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1b7gll6x Generic Aluminum Shirt",
+    "category": "fresh-produce",
+    "price": 22.23,
+    "stock": 2,
+    "details": {
+      "brand": "Pacocha and Sons",
+      "origin": "Jordan"
+    }
+  }
+}

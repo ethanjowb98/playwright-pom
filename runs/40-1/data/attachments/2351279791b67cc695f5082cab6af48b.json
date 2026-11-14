@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-54f68ytf sort Alpha",
+    "category": "bakery",
+    "price": 13.12,
+    "stock": 48,
+    "details": {
+      "brand": "Swaniawski Group",
+      "origin": "Singapore"
+    }
+  }
+}

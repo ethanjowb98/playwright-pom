@@ -1,0 +1,1 @@
+{"id":"220059f5cde96298151f9bfc952b5c0c.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › should return 401 when products are listed with a missing api key","name":"should return 401 when products are listed with a missing api key","status":"passed","testResultsByEnv":{"default":"d62b9d41647b9e303834635945ef1e0c"}}

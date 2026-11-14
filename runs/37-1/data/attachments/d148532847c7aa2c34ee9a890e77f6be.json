@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-029l42fo Fantastic Metal Sausages",
+    "category": "dairy-eggs",
+    "price": 17.91,
+    "stock": 26,
+    "details": {
+      "brand": "Keebler - Reilly",
+      "origin": "Brazil"
+    }
+  }
+}

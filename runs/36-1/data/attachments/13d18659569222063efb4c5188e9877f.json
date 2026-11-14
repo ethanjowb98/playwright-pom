@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qrgfjaia Modern Ceramic Chicken",
+    "category": "dairy-eggs",
+    "price": 13.02,
+    "stock": 15,
+    "details": {
+      "brand": "Kunde and Sons",
+      "origin": "Belgium"
+    }
+  }
+}

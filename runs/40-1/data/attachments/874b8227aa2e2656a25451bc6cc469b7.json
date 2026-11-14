@@ -1,0 +1,15 @@
+{
+  "id": "ca85a9cf-d42e-42e8-b861-42439fee7022",
+  "product_name": "QA-1-mywoydyd Rustic Bronze Mouse",
+  "category": "fresh-produce",
+  "price": 34.5,
+  "stock": 12,
+  "details": {
+    "brand": "Deckow, Gorczany and Boyer",
+    "origin": "Saint Lucia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:39:33.472014+00:00"
+}

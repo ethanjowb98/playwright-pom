@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "a26aae53-8f70-4227-8a93-6e0606c7ea6c",
+    "order_number": "O42646",
+    "status": "pending",
+    "total_amount": 102.73,
+    "created_at": "2026-11-05T10:03:50.350436+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-8c3l045y Intelligent Bamboo Chair",
+        "category": "fresh-produce",
+        "quantity": 2,
+        "price": 40.43,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-22a2nfaf Licensed Marble Keyboard",
+        "category": "dairy-eggs",
+        "quantity": 3,
+        "price": 7.29,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

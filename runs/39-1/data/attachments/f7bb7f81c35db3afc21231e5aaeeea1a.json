@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w0yc1ku8 Awesome Concrete Pants",
+    "category": "pantry",
+    "price": 35.22,
+    "stock": 49,
+    "details": {
+      "brand": "Murphy - Bogan",
+      "origin": "French Polynesia"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "b8671b22-4b30-4a2f-8a48-8e08b2be6b0c",
+      "product_id": "bb3e3bf5-34e8-4efb-be44-5948447573b6",
+      "product_name": "QA-1-0vwysxyk Intelligent Concrete Towels",
+      "price": 8.55,
+      "category": "other",
+      "quantity": 2,
+      "created_at": "2026-11-13T10:22:20.769202+00:00",
+      "updated_at": "2026-11-13T10:22:20.769202+00:00"
+    },
+    {
+      "id": "8dd4955b-1c2c-43dc-9c11-68d8b71f945c",
+      "product_id": "7f56a88f-8d3b-4f0e-a4a6-87a585bc3e48",
+      "product_name": "QA-1-sbbtfwm7 Fantastic Cotton Gloves",
+      "price": 21.22,
+      "category": "pantry",
+      "quantity": 2,
+      "created_at": "2026-11-13T10:22:21.385623+00:00",
+      "updated_at": "2026-11-13T10:22:21.385623+00:00"
+    }
+  ]
+}

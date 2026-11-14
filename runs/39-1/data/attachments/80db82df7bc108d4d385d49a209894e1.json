@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w1d3g64r sort Bravo",
+    "category": "beverages",
+    "price": 33.61,
+    "stock": 25,
+    "details": {
+      "brand": "Reinger, Reinger and Conn-Durgan",
+      "origin": "Thailand"
+    }
+  }
+}

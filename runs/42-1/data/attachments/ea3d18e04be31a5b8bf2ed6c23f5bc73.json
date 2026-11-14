@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-8jubkiub Luxurious Wooden Towels",
+    "category": "snacks",
+    "price": 42.38,
+    "stock": "x",
+    "details": {
+      "brand": "Kshlerin Group",
+      "origin": "Malta"
+    }
+  }
+}

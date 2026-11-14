@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "f00eedcc-c102-4d57-b9e7-b331ea38e4ec",
+    "order_number": "O48166",
+    "status": "pending",
+    "total_amount": 8.05,
+    "created_at": "2026-11-13T10:21:21.337244+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-wm90bzzg Bespoke Cotton Cheese",
+        "category": "household",
+        "quantity": 1,
+        "price": 8.05,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

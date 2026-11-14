@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bcrx7mpx Ergonomic Aluminum Ball",
+    "category": "fresh-produce",
+    "price": 48.65,
+    "stock": 18,
+    "details": {
+      "brand": "Towne - Leffler",
+      "origin": "Saint Pierre and Miquelon"
+    }
+  }
+}

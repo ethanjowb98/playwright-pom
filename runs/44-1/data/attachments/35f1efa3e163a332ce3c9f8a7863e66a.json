@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-dlmrucfz Oriental Granite Gloves",
+    "category": "snacks",
+    "price": 23.3,
+    "stock": 25,
+    "details": {
+      "brand": "Towne, Veum and Walsh",
+      "origin": "Central African Republic"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

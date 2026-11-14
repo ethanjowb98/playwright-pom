@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2vz2vh6a Licensed Silk Ball",
+    "category": "meat-seafood",
+    "price": 1.86,
+    "stock": 50,
+    "details": {
+      "brand": "Bins Inc",
+      "origin": "Papua New Guinea"
+    }
+  }
+}

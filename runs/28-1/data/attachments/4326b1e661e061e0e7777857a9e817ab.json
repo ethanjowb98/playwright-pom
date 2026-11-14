@@ -1,0 +1,19 @@
+{
+  "id": "52d169cd-f7b9-4f75-9b77-9636373cf6e2",
+  "order_number": "O85655",
+  "status": "pending",
+  "total_amount": 4.9,
+  "notes": "updated",
+  "created_at": "2026-11-04T08:11:05.843103+00:00",
+  "updated_at": "2026-11-04T08:11:05.843103+00:00",
+  "items": [
+    {
+      "product_id": "0ec6ab04-8d26-45af-92c8-47783ee1ccc7",
+      "product_name": "QA-1-p8jmy1kx Fantastic Concrete Chips",
+      "category": "frozen",
+      "quantity": 1,
+      "price": 4.9,
+      "temperature_zone": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-serhe2ds Ergonomic Steel Pizza",
+    "category": "dairy-eggs",
+    "price": 21.57,
+    "stock": 42,
+    "details": {
+      "brand": "Botsford Inc",
+      "origin": "Liberia"
+    }
+  }
+}

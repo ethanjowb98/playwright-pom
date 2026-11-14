@@ -1,0 +1,1 @@
+{"id":"fa68917649416fc6c945b88455bb6823.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when price is missing","name":"should reject the product with 400 when price is missing","status":"passed","testResultsByEnv":{"default":"86d0806898c7a33823422acb3a17e064"}}

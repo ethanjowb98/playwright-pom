@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-elp00x3x Tasty Bamboo Chicken",
+    "category": "frozen",
+    "price": 21.94,
+    "stock": 27,
+    "details": {
+      "brand": "Reichel, Armstrong and Casper",
+      "origin": "Réunion"
+    }
+  }
+}

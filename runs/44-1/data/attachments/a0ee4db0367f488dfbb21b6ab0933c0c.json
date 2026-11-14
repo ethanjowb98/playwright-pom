@@ -1,0 +1,15 @@
+{
+  "id": "d6bfdf2c-2423-414e-bf0b-bc9926ac1315",
+  "product_name": "QA-1-0s3k7wpx Refined Bronze Bike",
+  "category": "snacks",
+  "price": 15.55,
+  "stock": 25,
+  "details": {
+    "brand": "Hoppe, Sawayn-Konopelski and Greenfelder",
+    "origin": "Falkland Islands (Malvinas)"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:42:59.509833+00:00"
+}

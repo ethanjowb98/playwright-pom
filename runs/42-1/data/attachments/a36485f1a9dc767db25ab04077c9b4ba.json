@@ -1,0 +1,15 @@
+{
+  "id": "c33564ad-1c69-47a2-9a59-d71e2d8dd0dd",
+  "product_name": "QA-5-jc8hbakh sort Bravo",
+  "category": "meat-seafood",
+  "price": 42.69,
+  "stock": 29,
+  "details": {
+    "brand": "Kuhlman - Hartmann",
+    "origin": "Guatemala"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:34.091847+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-6r5urgar Elegant Metal Ball",
+    "category": "bakery",
+    "price": 18.99,
+    "stock": 34,
+    "details": {
+      "brand": "Williamson LLC",
+      "origin": "Chile"
+    }
+  }
+}

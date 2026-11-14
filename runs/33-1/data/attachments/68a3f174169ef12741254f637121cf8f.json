@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r81bpkvu Practical Metal Bike",
+    "category": "dairy-eggs",
+    "price": 44.33,
+    "stock": 36,
+    "details": {
+      "brand": "Bednar - Rowe",
+      "origin": "Eritrea"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6rvt16rd Refined Steel Computer",
+    "category": "dairy-eggs",
+    "price": 17.76,
+    "stock": 42,
+    "details": {
+      "brand": "Auer LLC",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

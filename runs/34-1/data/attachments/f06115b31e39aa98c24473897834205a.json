@@ -1,0 +1,15 @@
+{
+  "id": "5b352517-0da6-494f-bfff-59fe51817e9b",
+  "product_name": "QA-1-wl7w9ouu Refined Metal Computer",
+  "category": "beverages",
+  "price": 23.55,
+  "stock": 43,
+  "details": {
+    "brand": "Feil LLC",
+    "origin": "Albania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:59.451211+00:00"
+}

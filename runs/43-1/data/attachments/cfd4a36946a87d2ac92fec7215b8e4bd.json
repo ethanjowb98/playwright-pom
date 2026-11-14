@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-d07zugw0 sort Bravo",
+    "category": "household",
+    "price": 26.51,
+    "stock": 10,
+    "details": {
+      "brand": "Jerde and Sons",
+      "origin": "Marshall Islands"
+    }
+  }
+}

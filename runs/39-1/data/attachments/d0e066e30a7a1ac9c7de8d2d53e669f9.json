@@ -1,0 +1,15 @@
+{
+  "id": "a0bf9a63-2c7b-4a00-966c-ebccab6daa73",
+  "product_name": "QA-1-f3tcx3cc Sleek Rubber Car",
+  "category": "meat-seafood",
+  "price": 14.51,
+  "stock": 42,
+  "details": {
+    "brand": "Maggio Inc",
+    "origin": "Burundi"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:37:53.707916+00:00"
+}

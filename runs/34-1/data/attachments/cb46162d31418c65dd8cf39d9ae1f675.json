@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-k1x0m8jz Modern Rubber Towels",
+    "category": "dairy-eggs",
+    "price": 11.95,
+    "stock": 21,
+    "details": {
+      "brand": "Mohr, Stark and Brekke",
+      "origin": "New Caledonia"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

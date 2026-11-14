@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ol33qtd Small Bronze Chips",
+    "category": "other",
+    "price": 26.66,
+    "stock": "x",
+    "details": {
+      "brand": "Spencer, Sawayn and Roberts",
+      "origin": "Burundi"
+    }
+  }
+}

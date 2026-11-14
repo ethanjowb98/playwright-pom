@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0igihx2l Small Wooden Car",
+    "category": "snacks",
+    "price": 46.58,
+    "stock": 25,
+    "details": {
+      "brand": "Littel and Sons",
+      "origin": "El Salvador"
+    }
+  }
+}

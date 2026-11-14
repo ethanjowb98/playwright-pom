@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1gl50m1e Gorgeous Concrete Gloves",
+    "category": "household",
+    "price": 33.19,
+    "stock": 27,
+    "details": {
+      "brand": "Russel, Greenholt and Heathcote",
+      "origin": "Japan"
+    }
+  }
+}

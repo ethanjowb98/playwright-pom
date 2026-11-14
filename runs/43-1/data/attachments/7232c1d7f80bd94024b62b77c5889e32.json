@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "dairy-eggs",
+    "price": 34.18,
+    "stock": 15,
+    "details": {
+      "brand": "Fadel - O'Connell",
+      "origin": "Oman"
+    }
+  }
+}

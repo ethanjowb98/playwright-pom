@@ -1,0 +1,15 @@
+{
+  "id": "a8f53325-0f32-4c43-9df8-f5d3e5b28131",
+  "product_name": "QA-1-fq0deued Small Silk Tuna",
+  "category": "household",
+  "price": 30.92,
+  "stock": 27,
+  "details": {
+    "brand": "Reilly LLC",
+    "origin": "Mali"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:03:20.35308+00:00"
+}

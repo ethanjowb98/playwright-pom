@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-hkkh4fwb Small Cotton Pants",
+    "category": "household",
+    "price": 47.85,
+    "stock": 43,
+    "details": {
+      "brand": "Christiansen, Goldner and Wyman",
+      "origin": "Mali"
+    }
+  }
+}

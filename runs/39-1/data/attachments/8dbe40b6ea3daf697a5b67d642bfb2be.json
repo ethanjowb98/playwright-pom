@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2mh6gmh7 Recycled Wooden Computer",
+    "category": "snacks",
+    "price": 21.66,
+    "stock": 42,
+    "details": {
+      "brand": "Schaefer - Mante",
+      "origin": "Bhutan"
+    }
+  }
+}

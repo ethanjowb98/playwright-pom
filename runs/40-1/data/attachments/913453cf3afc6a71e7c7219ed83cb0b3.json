@@ -1,0 +1,15 @@
+{
+  "id": "d4dc9190-132e-4a21-90e5-ad72dbd44fd1",
+  "product_name": "QA-3-j34xtuuj sort Alpha",
+  "category": "fresh-produce",
+  "price": 39.05,
+  "stock": 27,
+  "details": {
+    "brand": "Daugherty LLC",
+    "origin": "Moldova"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:29.190423+00:00"
+}

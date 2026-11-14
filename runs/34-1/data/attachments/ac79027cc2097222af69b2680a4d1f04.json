@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "d3e9ede2-771d-4c99-9c4d-108e02817d39",
+      "product_id": "cd1de286-ef9e-4497-9585-f1f6a41d8f33",
+      "product_name": "QA-1-5t65ug35 Frozen Aluminum Sausages",
+      "price": 33.24,
+      "category": "snacks",
+      "quantity": 1,
+      "created_at": "2026-11-05T09:21:18.930417+00:00",
+      "updated_at": "2026-11-05T09:21:18.930417+00:00"
+    }
+  ]
+}

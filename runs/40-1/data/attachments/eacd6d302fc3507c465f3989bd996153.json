@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7391wl18 Incredible Plastic Soap",
+    "category": "beverages",
+    "price": 8.63,
+    "stock": 13,
+    "details": {
+      "brand": "McClure, Heathcote and Barton",
+      "origin": "Lebanon"
+    }
+  }
+}

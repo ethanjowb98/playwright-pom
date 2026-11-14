@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-yu8uzjhp Oriental Marble Chips",
+    "category": "other",
+    "price": 13.3,
+    "stock": 38,
+    "details": {
+      "brand": "Denesik, Russel and Conroy",
+      "origin": "Spain"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

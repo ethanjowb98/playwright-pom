@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "b6aac5c1-c93b-4a0b-aaf0-ffafa082a290",
+    "order_number": "O21019",
+    "status": "pending",
+    "total_amount": 17.58,
+    "created_at": "2026-11-06T10:08:22.949866+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-9pk7fhz9 Licensed Marble Shirt",
+        "category": "other",
+        "quantity": 3,
+        "price": 5.86,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

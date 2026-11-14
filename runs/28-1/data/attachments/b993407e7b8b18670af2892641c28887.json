@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ypw30wb9 Fantastic Metal Salad",
+    "category": "bakery",
+    "price": 49.6,
+    "stock": 47,
+    "details": {
+      "brand": "Spencer, Nicolas and Yost",
+      "origin": "Nigeria"
+    }
+  }
+}

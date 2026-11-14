@@ -1,0 +1,15 @@
+{
+  "id": "9400551b-341c-47e0-841f-13133c4fc577",
+  "product_name": "QA-3-5md0yidt Handmade Wooden Chair",
+  "category": "beverages",
+  "price": 20.07,
+  "stock": 44,
+  "details": {
+    "brand": "Monahan, Simonis and Zemlak",
+    "origin": "El Salvador"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:12.609293+00:00"
+}

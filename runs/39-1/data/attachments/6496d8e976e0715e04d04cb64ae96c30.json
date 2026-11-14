@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-x5cfuzmq Rustic Ceramic Fish",
+    "category": "household",
+    "price": 20.43,
+    "stock": 14,
+    "details": {
+      "brand": "Kunze and Sons",
+      "origin": "Mozambique"
+    }
+  }
+}

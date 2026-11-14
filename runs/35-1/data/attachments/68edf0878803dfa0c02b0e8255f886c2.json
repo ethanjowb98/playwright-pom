@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "65d2dbe0-f4a0-4a1c-a30c-f880e313cbdb",
+      "product_id": "04b7f6d2-bb27-4639-873d-3005afafe265",
+      "product_name": "QA-1-gc7mp459 Tasty Bamboo Tuna",
+      "price": 40.95,
+      "category": "household",
+      "quantity": 3,
+      "created_at": "2026-11-05T10:04:28.010674+00:00",
+      "updated_at": "2026-11-05T10:04:28.010674+00:00"
+    }
+  ]
+}

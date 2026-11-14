@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "6009d7fb-7d9f-4ff5-ba15-315d16e1cb7c",
+    "order_number": "O83842",
+    "status": "pending",
+    "total_amount": 46.4,
+    "created_at": "2026-11-11T10:01:32.928292+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-230o66nx Unbranded Bamboo Soap",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 46.4,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

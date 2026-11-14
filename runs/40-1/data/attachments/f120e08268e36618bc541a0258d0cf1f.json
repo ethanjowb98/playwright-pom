@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3bveapqu Awesome Ceramic Bacon",
+    "category": "other",
+    "price": 15.83,
+    "stock": 29,
+    "details": {
+      "brand": "Lowe, O'Hara and Fritsch",
+      "origin": "Pakistan"
+    }
+  }
+}

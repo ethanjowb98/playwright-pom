@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-wzlfthi3 Practical Cotton Pants",
+    "category": "dairy-eggs",
+    "price": 48.42,
+    "stock": 37,
+    "details": {
+      "brand": "Marks - Klein",
+      "origin": "French Guiana"
+    }
+  }
+}

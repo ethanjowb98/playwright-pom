@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y30e0nuo Incredible Cotton Soap",
+    "category": "pantry",
+    "price": 27.36,
+    "stock": 48,
+    "details": {
+      "brand": "Buckridge and Sons",
+      "origin": "Montenegro"
+    }
+  }
+}

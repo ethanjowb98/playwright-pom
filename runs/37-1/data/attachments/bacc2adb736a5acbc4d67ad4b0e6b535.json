@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sbsczx5u Electronic Aluminum Pants",
+    "category": "fresh-produce",
+    "price": 2.83,
+    "stock": 2,
+    "details": {
+      "brand": "Rolfson LLC",
+      "origin": "Hungary"
+    }
+  }
+}

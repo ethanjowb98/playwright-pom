@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rpwxwujk Recycled Gold Pizza",
+    "category": "beverages",
+    "price": 7.91,
+    "stock": 50,
+    "details": {
+      "brand": "Block LLC",
+      "origin": "Kyrgyz Republic"
+    }
+  }
+}

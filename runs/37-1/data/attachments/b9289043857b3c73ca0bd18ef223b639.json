@@ -1,0 +1,19 @@
+{
+  "id": "37395220-7068-4991-a0b2-fb1f7326503c",
+  "order_number": "O44540",
+  "status": "cancelled",
+  "total_amount": 70.41,
+  "notes": null,
+  "created_at": "2026-11-07T09:28:41.172584+00:00",
+  "updated_at": "2026-11-07T09:28:41.172584+00:00",
+  "items": [
+    {
+      "product_id": "d3ccdb9e-d5db-4439-8dd9-98356981e3db",
+      "product_name": "QA-1-owrzl53s Oriental Ceramic Tuna",
+      "category": "household",
+      "quantity": 3,
+      "price": 23.47,
+      "temperature_zone": null
+    }
+  ]
+}

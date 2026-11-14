@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0fj1btw1 Small Rubber Car",
+    "category": "bakery",
+    "price": 42.64,
+    "stock": 20,
+    "details": {
+      "brand": "Miller - Hudson",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

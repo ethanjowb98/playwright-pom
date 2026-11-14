@@ -1,0 +1,15 @@
+{
+  "id": "8884e89d-c288-488d-945f-6de87b0d70b6",
+  "product_name": "QA-2-fnthboto Licensed Cotton Hat",
+  "category": "household",
+  "price": 10.21,
+  "stock": 41,
+  "details": {
+    "brand": "Langosh, DuBuque and Padberg",
+    "origin": "Curaçao"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:02.690227+00:00"
+}

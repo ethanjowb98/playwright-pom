@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l7vygz5e Luxurious Marble Table",
+    "category": "bakery",
+    "price": 45.1,
+    "stock": 48,
+    "details": {
+      "brand": "Davis and Sons",
+      "origin": "Congo"
+    }
+  }
+}

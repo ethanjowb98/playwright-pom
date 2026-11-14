@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-v31u1m0j Soft Wooden Shoes",
+    "category": "meat-seafood",
+    "price": 19.99,
+    "stock": 20,
+    "details": {
+      "brand": "Hartmann - Kertzmann",
+      "origin": "Vanuatu"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

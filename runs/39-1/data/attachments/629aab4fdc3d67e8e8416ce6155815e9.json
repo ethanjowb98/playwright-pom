@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-nttzjeq7 Modern Wooden Gloves",
+    "category": "fresh-produce",
+    "price": 47.57,
+    "stock": -5,
+    "details": {
+      "brand": "Abshire Group",
+      "origin": "Monaco"
+    }
+  }
+}

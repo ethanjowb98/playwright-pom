@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-zlvhe3ct Gorgeous Steel Car",
+    "category": "snacks",
+    "price": 33.56,
+    "stock": 48,
+    "details": {
+      "brand": "Strosin LLC",
+      "origin": "Mexico"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "4ffb0181-5930-4b5e-ae28-4d8b2d0b3ae4",
+    "order_number": "O49281",
+    "status": "pending",
+    "total_amount": 97.54,
+    "created_at": "2026-11-14T09:39:51.225846+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-dz8jaqvn Soft Bronze Ball",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 17.23,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-3olxztsk Practical Gold Tuna",
+        "category": "household",
+        "quantity": 1,
+        "price": 45.85,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

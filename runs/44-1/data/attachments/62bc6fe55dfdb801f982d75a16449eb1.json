@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-93bev2a2 sort Bravo",
+    "category": "beverages",
+    "price": 7.54,
+    "stock": 45,
+    "details": {
+      "brand": "Friesen - Thiel",
+      "origin": "Bonaire, Sint Eustatius and Saba"
+    }
+  }
+}

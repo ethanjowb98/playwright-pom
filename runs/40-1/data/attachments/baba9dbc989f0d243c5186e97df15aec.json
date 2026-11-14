@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "caff0a20-adf1-4b1b-a645-80c500a95318",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "cancelled",
+    "total_amount": 24,
+    "notes": null,
+    "created_at": "2026-11-10T10:39:18.367041+00:00",
+    "updated_at": "2026-11-10T10:39:18.367041+00:00",
+    "order_number": "O21851"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-iyhv7i6z Awesome Gold Soap",
+    "category": "snacks",
+    "price": 20.08,
+    "stock": 45,
+    "details": {
+      "brand": "Fadel Group",
+      "origin": "United Kingdom"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

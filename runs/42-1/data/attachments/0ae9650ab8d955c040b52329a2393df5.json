@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-brklq31j Elegant Concrete Chair",
+    "category": "frozen",
+    "price": 22.06,
+    "stock": 44,
+    "details": {
+      "brand": "Halvorson LLC",
+      "origin": "Comoros"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

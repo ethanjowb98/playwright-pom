@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k7x6q6gy Elegant Concrete Gloves",
+    "category": "meat-seafood",
+    "price": 13.08,
+    "stock": 42,
+    "details": {
+      "brand": "Baumbach LLC",
+      "origin": "Sao Tome and Principe"
+    }
+  }
+}

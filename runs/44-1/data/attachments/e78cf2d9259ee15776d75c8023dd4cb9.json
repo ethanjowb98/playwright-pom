@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jlxy239v Incredible Marble Towels",
+    "category": "bakery",
+    "price": 23.65,
+    "stock": 18,
+    "details": {
+      "brand": "Barrows Group",
+      "origin": "Åland Islands"
+    }
+  }
+}

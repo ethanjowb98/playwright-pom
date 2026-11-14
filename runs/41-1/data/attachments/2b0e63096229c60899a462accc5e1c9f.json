@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-rhjkctex Tasty Cotton Shirt",
+    "category": "other",
+    "price": 41.97,
+    "stock": 14,
+    "details": {
+      "brand": "Huel Group",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

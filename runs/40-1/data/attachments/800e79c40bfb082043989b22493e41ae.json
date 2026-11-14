@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-gpd5h5l9 Gorgeous Ceramic Fish",
+    "category": "other",
+    "price": 36.04,
+    "stock": 0,
+    "details": {
+      "brand": "Schaden - Mills",
+      "origin": "Gabon"
+    }
+  }
+}

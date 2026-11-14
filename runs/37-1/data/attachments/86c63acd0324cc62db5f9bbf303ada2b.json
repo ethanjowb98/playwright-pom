@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j99gz15c Intelligent Metal Ball",
+    "category": "household",
+    "price": 4.46,
+    "stock": 23,
+    "details": {
+      "brand": "Mohr, Bernier and Hansen-Klein",
+      "origin": "Cayman Islands"
+    }
+  }
+}

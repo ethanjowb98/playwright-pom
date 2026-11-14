@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-qq1v1oih Unbranded Aluminum Car",
+    "category": "other",
+    "price": 38.74,
+    "stock": 22,
+    "details": {
+      "brand": "Pfannerstill, Bayer and Champlin",
+      "origin": "Guinea"
+    },
+    "temperature_zone": "Dry"
+  }
+}

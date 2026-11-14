@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-9w470fps Soft Marble Gloves",
+    "category": "snacks",
+    "price": 28.44,
+    "stock": -5,
+    "details": {
+      "brand": "Turner LLC",
+      "origin": "Virgin Islands, British"
+    }
+  }
+}

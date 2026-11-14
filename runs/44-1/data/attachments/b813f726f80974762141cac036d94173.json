@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-lrg55qh9 Bespoke Gold Hat",
+    "category": "household",
+    "price": 20.97,
+    "stock": 24,
+    "details": {
+      "brand": "Stiedemann, Pagac and Franey",
+      "origin": "Argentina"
+    },
+    "temperature_zone": "Hot"
+  }
+}

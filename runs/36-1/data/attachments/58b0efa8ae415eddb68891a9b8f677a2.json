@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-szb2wvxj Generic Steel Towels",
+    "category": "pantry",
+    "price": 38.3,
+    "stock": 49,
+    "details": {
+      "brand": "Runolfsson, Considine and Grant",
+      "origin": "Romania"
+    },
+    "weighted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yo74vfbm Tasty Cotton Computer",
+    "category": "frozen",
+    "price": 20.27,
+    "stock": 11,
+    "details": {
+      "brand": "Gottlieb LLC",
+      "origin": "Benin"
+    }
+  }
+}

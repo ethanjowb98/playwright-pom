@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-1qyjnp1s sort Bravo",
+    "category": "beverages",
+    "price": 13.86,
+    "stock": 45,
+    "details": {
+      "brand": "Bergstrom - Moen",
+      "origin": "Finland"
+    }
+  }
+}

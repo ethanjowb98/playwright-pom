@@ -1,0 +1,19 @@
+{
+  "id": "64bee8f4-7e83-4f58-a9a7-299501563e0a",
+  "order_number": "O60655",
+  "status": "cancelled",
+  "total_amount": 26.24,
+  "notes": null,
+  "created_at": "2026-11-14T09:42:43.46265+00:00",
+  "updated_at": "2026-11-14T09:42:43.46265+00:00",
+  "items": [
+    {
+      "product_id": "aa898163-e238-45c4-b269-32ce979d4ec8",
+      "product_name": "QA-1-ec98vym5 Modern Metal Mouse",
+      "category": "household",
+      "quantity": 1,
+      "price": 26.24,
+      "temperature_zone": null
+    }
+  ]
+}

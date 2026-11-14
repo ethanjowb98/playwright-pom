@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "48dff7ad-e3e4-4337-b998-fad5f561fc0c",
+    "order_number": "O21791",
+    "status": "pending",
+    "total_amount": 34.32,
+    "created_at": "2026-11-05T09:22:06.449624+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-5j3802la Practical Aluminum Car",
+        "category": "bakery",
+        "quantity": 3,
+        "price": 11.44,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

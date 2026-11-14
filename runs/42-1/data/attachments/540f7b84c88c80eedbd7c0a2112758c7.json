@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-716eut09 Luxurious Concrete Shirt",
+    "category": "meat-seafood",
+    "price": 48.73,
+    "stock": 13,
+    "details": {
+      "brand": "Nitzsche and Sons",
+      "origin": "Fiji"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-qt79lwuv Rustic Plastic Gloves",
+    "category": "dairy-eggs",
+    "price": 33.7,
+    "stock": 12,
+    "details": {
+      "brand": "Stracke Group",
+      "origin": "Egypt"
+    },
+    "weighted": false
+  }
+}

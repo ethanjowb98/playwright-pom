@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-76yfcjh4 Fantastic Rubber Bacon",
+    "category": "frozen",
+    "price": 37.76,
+    "stock": 37,
+    "details": {
+      "brand": "Lang Group",
+      "origin": "Colombia"
+    }
+  }
+}

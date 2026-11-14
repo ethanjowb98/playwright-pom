@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-68h0ydza Luxurious Ceramic Chips",
+    "category": "snacks",
+    "price": 28.75,
+    "stock": 25,
+    "details": {
+      "brand": "Okuneva - Hodkiewicz",
+      "origin": "Saint Martin"
+    }
+  }
+}

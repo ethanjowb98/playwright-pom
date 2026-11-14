@@ -1,0 +1,15 @@
+{
+  "id": "d369de91-2ef3-40ec-93a5-5474a2f6c566",
+  "product_name": "QA-5-d9of79tp Modern Plastic Pizza",
+  "category": "fresh-produce",
+  "price": 23.69,
+  "stock": 23,
+  "details": {
+    "brand": "Kautzer, Legros-Von and Walsh",
+    "origin": "Netherlands"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:21.993026+00:00"
+}

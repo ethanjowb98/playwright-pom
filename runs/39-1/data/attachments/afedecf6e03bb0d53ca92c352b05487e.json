@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7tufb7wx Small Ceramic Mouse",
+    "category": "fresh-produce",
+    "price": 20.53,
+    "stock": 16,
+    "details": {
+      "brand": "Lowe-Gutkowski, Bosco and Gerhold",
+      "origin": "Austria"
+    }
+  }
+}

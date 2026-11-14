@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "other",
+    "price": 21.37,
+    "stock": 31,
+    "details": {
+      "brand": "Hudson - Flatley",
+      "origin": "Bulgaria"
+    }
+  }
+}

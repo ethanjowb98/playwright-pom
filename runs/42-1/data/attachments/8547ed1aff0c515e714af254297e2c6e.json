@@ -1,0 +1,15 @@
+{
+  "id": "77243c74-a54d-40be-85f2-2d1cbba4a0f1",
+  "product_name": "QA-2-ag46ccd0 Handmade Bamboo Pizza",
+  "category": "other",
+  "price": 46.55,
+  "stock": 29,
+  "details": {
+    "brand": "Herman Inc",
+    "origin": "Iraq"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:31.722987+00:00"
+}

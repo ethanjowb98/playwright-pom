@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-inozcno5 Frozen Granite Tuna",
+    "category": "other",
+    "price": 39.89,
+    "stock": 35,
+    "details": {
+      "brand": "Ziemann, Bahringer and Leuschke",
+      "origin": "Bangladesh"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

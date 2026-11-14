@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7nzebg61 Oriental Wooden Cheese",
+    "category": "household",
+    "price": 5.15,
+    "stock": 36,
+    "details": {
+      "brand": "Franey - Prosacco",
+      "origin": "Gabon"
+    }
+  }
+}

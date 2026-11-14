@@ -1,0 +1,7 @@
+{
+  "method": "PUT",
+  "path": "/api/orders/fefce621-1fcc-4c7c-9b4e-d181d1e80c4b",
+  "body": {
+    "status": "pending"
+  }
+}

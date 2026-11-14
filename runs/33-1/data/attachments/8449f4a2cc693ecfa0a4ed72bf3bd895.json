@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v3nlb9pe Awesome Gold Mouse",
+    "category": "beverages",
+    "price": 44.63,
+    "stock": 39,
+    "details": {
+      "brand": "Kunde Group",
+      "origin": "Åland Islands"
+    }
+  }
+}

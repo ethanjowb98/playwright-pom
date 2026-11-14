@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-fmmmwmy6 Small Granite Bike",
+    "category": "pantry",
+    "price": 42.01,
+    "stock": 44,
+    "details": {
+      "brand": "Predovic LLC",
+      "origin": "Chad"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-msai9a9u Oriental Marble Pizza",
+    "category": "bakery",
+    "price": 20.76,
+    "stock": 33,
+    "details": {
+      "brand": "Macejkovic - Gerlach",
+      "origin": "Tajikistan"
+    }
+  }
+}

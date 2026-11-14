@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hi164wz7 Fresh Silk Gloves",
+    "category": "other",
+    "price": 29.45,
+    "stock": 24,
+    "details": {
+      "brand": "Herman, Marquardt and Veum",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

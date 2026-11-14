@@ -1,0 +1,19 @@
+{
+  "id": "51b72f00-dda8-4c37-b334-b1f3cd633ba5",
+  "order_number": "O53681",
+  "status": "pending",
+  "total_amount": 42.34,
+  "notes": "updated",
+  "created_at": "2026-11-09T10:38:23.277864+00:00",
+  "updated_at": "2026-11-09T10:38:23.277864+00:00",
+  "items": [
+    {
+      "product_id": "3d0a2f5a-00ca-48db-95fd-f8c27c10504e",
+      "product_name": "QA-1-n94kdcyy Incredible Cotton Keyboard",
+      "category": "beverages",
+      "quantity": 2,
+      "price": 21.17,
+      "temperature_zone": null
+    }
+  ]
+}

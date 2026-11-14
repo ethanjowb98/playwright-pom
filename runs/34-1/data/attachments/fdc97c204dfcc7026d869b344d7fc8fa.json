@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ormldy19 Incredible Gold Computer",
+    "category": "snacks",
+    "price": 38.09,
+    "stock": 30,
+    "details": {
+      "brand": "Toy - Bahringer",
+      "origin": "Uruguay"
+    }
+  }
+}

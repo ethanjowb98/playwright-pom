@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dz7c2mxs Electronic Marble Sausages",
+    "category": "bakery",
+    "price": 14.28,
+    "stock": 16,
+    "details": {
+      "brand": "Huels - Grant-Weissnat",
+      "origin": "Portugal"
+    }
+  }
+}

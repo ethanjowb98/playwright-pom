@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xqagx4q8 Oriental Silk Tuna",
+    "category": "pantry",
+    "price": 20.8,
+    "stock": 31,
+    "details": {
+      "brand": "Hackett Group",
+      "origin": "Bulgaria"
+    }
+  }
+}

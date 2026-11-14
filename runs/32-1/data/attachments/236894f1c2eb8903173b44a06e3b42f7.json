@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qygsf1um Electronic Aluminum Shirt",
+    "category": "pantry",
+    "price": 27.51,
+    "stock": 45,
+    "details": {
+      "brand": "Weissnat, Price and Lesch",
+      "origin": "Turkmenistan"
+    }
+  }
+}

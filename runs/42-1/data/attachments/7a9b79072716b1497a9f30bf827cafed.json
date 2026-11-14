@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-er3gqxx7 Handcrafted Rubber Computer",
+    "category": "pantry",
+    "price": 49.14,
+    "stock": 46,
+    "details": {
+      "brand": "Zulauf and Sons",
+      "origin": "Eswatini"
+    }
+  }
+}

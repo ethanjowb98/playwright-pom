@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-7zckdx8l Handmade Ceramic Chips",
+    "category": "meat-seafood",
+    "price": 32.23,
+    "stock": 1.5,
+    "details": {
+      "brand": "Goyette, Torphy and Runolfsdottir",
+      "origin": "French Southern Territories"
+    }
+  }
+}

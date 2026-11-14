@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-ps8esgye sort Charlie",
+    "category": "meat-seafood",
+    "price": 20.11,
+    "stock": 32,
+    "details": {
+      "brand": "Johns Group",
+      "origin": "Tonga"
+    }
+  }
+}

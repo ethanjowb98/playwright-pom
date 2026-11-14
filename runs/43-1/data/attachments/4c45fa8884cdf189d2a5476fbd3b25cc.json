@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2jw8tbzl Fantastic Cotton Bike",
+    "category": "bakery",
+    "price": 10.52,
+    "stock": 35,
+    "details": {
+      "brand": "Sauer LLC",
+      "origin": "Belarus"
+    }
+  }
+}

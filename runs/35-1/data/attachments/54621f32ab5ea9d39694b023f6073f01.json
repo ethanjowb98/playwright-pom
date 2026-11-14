@@ -1,0 +1,82 @@
+[
+  {
+    "id": "f8fadac0-631c-4e52-bb3b-2b7780c64101",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Earl Grey Loose Leaf Tea",
+    "category": "beverages",
+    "price": 3.5,
+    "details": {
+      "origin": "India",
+      "caffeinated": true,
+      "ingredients": [
+        "Black Tea",
+        "Bergamot Oil"
+      ]
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "e7ccb736-aaae-4897-b166-76022e0be9a7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-pw6udw17 Sleek Aluminum Soap",
+    "category": "pantry",
+    "price": 46.12,
+    "details": {
+      "brand": "Spinka, Mitchell-Olson and Armstrong",
+      "origin": "Central African Republic"
+    },
+    "created_at": "2026-11-05T10:02:25.086184+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 37
+  },
+  {
+    "id": "c20d0fd0-fcec-49ac-b988-8cc703b5a98d",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-hd1viz2h Electronic Bamboo Keyboard",
+    "category": "snacks",
+    "price": 7.86,
+    "details": {
+      "brand": "Reichel-Conroy, Corwin and Veum",
+      "origin": "New Caledonia"
+    },
+    "created_at": "2026-11-05T10:02:24.706419+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 48
+  },
+  {
+    "id": "1dd85c75-2b4b-4e24-910a-6dee69f2fa2a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Red Onions",
+    "category": "fresh-produce",
+    "price": 1.2,
+    "details": {
+      "local": true,
+      "flavor_profile": "Sharp"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "08b5239e-9c3e-4683-94dd-afdd738cf77a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Russet Potatoes (5lb)",
+    "category": "fresh-produce",
+    "price": 5.5,
+    "details": {
+      "type": "Starchy",
+      "origin": "Idaho",
+      "bag_size": "5lb"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 10
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3jfnl0wo Small Gold Bacon",
+    "category": "other",
+    "price": 28.2,
+    "stock": 37,
+    "details": {
+      "brand": "Bogisich - Schmitt",
+      "origin": "Taiwan"
+    }
+  }
+}

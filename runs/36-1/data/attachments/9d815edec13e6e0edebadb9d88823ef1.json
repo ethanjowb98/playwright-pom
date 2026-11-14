@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-aymvebuc Electronic Silk Pants",
+    "category": "household",
+    "price": 29.88,
+    "stock": 32,
+    "details": {
+      "brand": "Schimmel LLC",
+      "origin": "Myanmar"
+    },
+    "weighted": false
+  }
+}

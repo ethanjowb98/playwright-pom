@@ -1,0 +1,19 @@
+{
+  "id": "54ec6ab4-f769-4245-b490-07bacf07aa22",
+  "order_number": "O78905",
+  "status": "cancelled",
+  "total_amount": 3.76,
+  "notes": null,
+  "created_at": "2026-11-11T10:02:14.631956+00:00",
+  "updated_at": "2026-11-11T10:02:14.631956+00:00",
+  "items": [
+    {
+      "product_id": "d5764715-f6e8-4f36-b23a-72f1f0939489",
+      "product_name": "QA-1-v43y9ewu Oriental Rubber Towels",
+      "category": "beverages",
+      "quantity": 1,
+      "price": 3.76,
+      "temperature_zone": null
+    }
+  ]
+}

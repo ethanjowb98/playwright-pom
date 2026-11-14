@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-hjjjw6ms Intelligent Wooden Gloves",
+    "category": "frozen",
+    "price": 36.06,
+    "stock": 26,
+    "details": {
+      "brand": "Spencer Inc",
+      "origin": "Iceland"
+    },
+    "weighted": false
+  }
+}

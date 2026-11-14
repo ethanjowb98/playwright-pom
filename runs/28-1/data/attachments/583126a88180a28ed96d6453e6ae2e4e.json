@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-d3rieq0o Unbranded Wooden Computer",
+    "category": "frozen",
+    "price": 25.23,
+    "stock": 38,
+    "details": {
+      "brand": "Hand, Hoeger and Turcotte",
+      "origin": "Saint Helena"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

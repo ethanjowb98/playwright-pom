@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-io8r1b7k Small Rubber Mouse",
+    "category": "fresh-produce",
+    "price": 6.98,
+    "stock": 28,
+    "details": {
+      "brand": "Mante, Daugherty and Walsh",
+      "origin": "Afghanistan"
+    }
+  }
+}

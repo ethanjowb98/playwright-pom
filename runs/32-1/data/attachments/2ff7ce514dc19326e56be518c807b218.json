@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d6yqmnfi Intelligent Plastic Ball",
+    "category": "other",
+    "price": 37.27,
+    "stock": 48,
+    "details": {
+      "brand": "Rutherford, Schowalter and Sipes",
+      "origin": "Estonia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-yexsaap0 Unbranded Gold Pants",
+    "category": "pantry",
+    "price": 24.87,
+    "stock": 36,
+    "details": {
+      "brand": "O'Reilly, Lockman and Rowe",
+      "origin": "Bulgaria"
+    }
+  }
+}

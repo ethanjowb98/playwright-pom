@@ -1,0 +1,15 @@
+{
+  "id": "b32e9459-df13-403f-b0fe-90d56979723b",
+  "product_name": "QA-3-99g40qy8 Handmade Wooden Cheese",
+  "category": "meat-seafood",
+  "price": 42.26,
+  "stock": 47,
+  "details": {
+    "brand": "Gutmann, Howe and Predovic",
+    "origin": "Greece"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:30.942386+00:00"
+}

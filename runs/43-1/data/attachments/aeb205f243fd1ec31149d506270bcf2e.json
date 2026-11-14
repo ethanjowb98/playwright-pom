@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-u550r4t9 Fantastic Rubber Table",
+    "category": "frozen",
+    "price": 6.81,
+    "stock": 27,
+    "details": {
+      "brand": "Koch, Keebler and Durgan",
+      "origin": "Finland"
+    }
+  }
+}

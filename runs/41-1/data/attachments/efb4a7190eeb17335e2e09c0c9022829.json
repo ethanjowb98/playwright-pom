@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "other",
+    "price": 4.56,
+    "stock": 11,
+    "details": {
+      "brand": "Bogan-Nikolaus, Orn and Green",
+      "origin": "Somalia"
+    }
+  }
+}

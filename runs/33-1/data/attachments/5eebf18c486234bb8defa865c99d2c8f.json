@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-hg468d77 Awesome Concrete Pizza",
+    "category": "bakery",
+    "price": 18.1,
+    "stock": 11,
+    "details": {
+      "brand": "Roob - Romaguera",
+      "origin": "Lesotho"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

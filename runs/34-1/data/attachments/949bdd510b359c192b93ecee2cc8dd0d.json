@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "05aa769f-ac4e-40b9-8bc0-9d696c6064d1",
+    "order_number": "O36914",
+    "status": "pending",
+    "total_amount": 78.62,
+    "created_at": "2026-11-05T09:19:38.180467+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-tzkt9oem Handmade Steel Keyboard",
+        "category": "meat-seafood",
+        "quantity": 1,
+        "price": 37.67,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-cndgdajg Sleek Ceramic Towels",
+        "category": "household",
+        "quantity": 3,
+        "price": 13.65,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-1dh1idpl Practical Wooden Soap",
+    "category": "fresh-produce",
+    "price": 41.54,
+    "stock": 46,
+    "details": {
+      "brand": "Lesch, Reichel and Ernser",
+      "origin": "Belize"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

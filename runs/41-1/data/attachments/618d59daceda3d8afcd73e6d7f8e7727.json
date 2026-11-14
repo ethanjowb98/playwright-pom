@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "1be5378c-dd2f-4908-ae3b-2f5f106df039",
+    "order_number": "O64822",
+    "status": "pending",
+    "total_amount": 5.26,
+    "created_at": "2026-11-11T10:01:56.513273+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-gtrzw7yc Oriental Silk Hat",
+        "category": "other",
+        "quantity": 1,
+        "price": 5.26,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

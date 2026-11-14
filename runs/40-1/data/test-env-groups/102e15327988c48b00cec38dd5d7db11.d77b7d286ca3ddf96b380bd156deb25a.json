@@ -1,0 +1,1 @@
+{"id":"102e15327988c48b00cec38dd5d7db11.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/orders.api.spec.ts › Orders API › Update › should reject the update with 400 when no fields are sent","name":"should reject the update with 400 when no fields are sent","status":"passed","testResultsByEnv":{"default":"a5a6f0ea357a29f122df8f34d58dd25d"}}

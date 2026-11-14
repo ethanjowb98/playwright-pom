@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-e4okqwb8 Rustic Gold Cheese",
+    "category": "household",
+    "price": 8.68,
+    "stock": 24,
+    "details": {
+      "brand": "Lakin, Powlowski and Koch",
+      "origin": "Venezuela"
+    }
+  }
+}

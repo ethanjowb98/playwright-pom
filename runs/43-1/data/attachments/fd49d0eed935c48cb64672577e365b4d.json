@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-cdjm415l Gorgeous Granite Tuna",
+    "category": "fresh-produce",
+    "price": 16.53,
+    "stock": 11,
+    "details": {
+      "brand": "Johnson, Johnson and Hintz",
+      "origin": "Uruguay"
+    },
+    "temperature_zone": "Hot"
+  }
+}

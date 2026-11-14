@@ -1,0 +1,15 @@
+{
+  "id": "3c0d5bfe-f972-4f3e-8d7c-478b4b7bd12c",
+  "product_name": "QA-1-o8y5smgz Generic Granite Chips",
+  "category": "dairy-eggs",
+  "price": 48.11,
+  "stock": 17,
+  "details": {
+    "brand": "Dooley Group",
+    "origin": "Norway"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:21:06.12285+00:00"
+}

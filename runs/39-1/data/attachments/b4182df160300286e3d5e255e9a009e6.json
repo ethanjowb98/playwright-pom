@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n94kdcyy Incredible Cotton Keyboard",
+    "category": "beverages",
+    "price": 21.17,
+    "stock": 23,
+    "details": {
+      "brand": "Shanahan, Greenfelder and Wisoky",
+      "origin": "Netherlands"
+    }
+  }
+}

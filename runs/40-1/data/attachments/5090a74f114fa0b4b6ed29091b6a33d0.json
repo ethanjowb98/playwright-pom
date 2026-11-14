@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4njzf4a9 Frozen Plastic Shirt",
+    "category": "meat-seafood",
+    "price": 8.57,
+    "stock": 21,
+    "details": {
+      "brand": "Rohan, Cormier and Tremblay",
+      "origin": "Tajikistan"
+    }
+  }
+}

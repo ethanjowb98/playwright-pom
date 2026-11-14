@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "40ba1b82-c591-49d0-a648-d2763e96c42f",
+      "product_id": "248e86e0-187e-4e0b-a80e-13a00457aa2e",
+      "product_name": "QA-1-c350zi7w Electronic Rubber Chips",
+      "price": 39.7,
+      "category": "beverages",
+      "quantity": 3,
+      "created_at": "2026-11-11T10:01:47.277388+00:00",
+      "updated_at": "2026-11-11T10:01:47.277388+00:00"
+    },
+    {
+      "id": "e2e775f2-9f10-4f67-bc3c-18ade11a9062",
+      "product_id": "560f9db4-de7f-4a32-83b4-88e37c884241",
+      "product_name": "QA-1-3qyd1atx Handmade Concrete Car",
+      "price": 22.92,
+      "category": "pantry",
+      "quantity": 1,
+      "created_at": "2026-11-11T10:01:47.841193+00:00",
+      "updated_at": "2026-11-11T10:01:47.841193+00:00"
+    }
+  ]
+}

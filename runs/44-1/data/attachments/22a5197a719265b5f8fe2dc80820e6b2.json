@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g5o10unk Licensed Steel Chicken",
+    "category": "fresh-produce",
+    "price": 1.44,
+    "stock": 23,
+    "details": {
+      "brand": "Fay - Wilkinson",
+      "origin": "Luxembourg"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-1hv9whb2 Fresh Wooden Shirt",
+    "category": "pantry",
+    "price": 40.64,
+    "stock": 17,
+    "details": {
+      "brand": "Kub - Goodwin",
+      "origin": "Iran"
+    }
+  }
+}

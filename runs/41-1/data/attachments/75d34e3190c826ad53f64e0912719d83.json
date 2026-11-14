@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fchf1ex4 Unbranded Granite Mouse",
+    "category": "fresh-produce",
+    "price": 8.71,
+    "stock": 12,
+    "details": {
+      "brand": "Ferry Group",
+      "origin": "Åland Islands"
+    }
+  }
+}

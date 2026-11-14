@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6dib5agp Incredible Steel Chips",
+    "category": "other",
+    "price": 40.84,
+    "stock": 41,
+    "details": {
+      "brand": "Moen Group",
+      "origin": "Panama"
+    }
+  }
+}

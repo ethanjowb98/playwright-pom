@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o0uplvbk Gorgeous Bronze Computer",
+    "category": "meat-seafood",
+    "price": 36.05,
+    "stock": 48,
+    "details": {
+      "brand": "Marks - Doyle",
+      "origin": "Hong Kong"
+    },
+    "temperature_zone": "Dry"
+  }
+}

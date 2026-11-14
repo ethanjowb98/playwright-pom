@@ -1,0 +1,15 @@
+{
+  "id": "5fba686f-9cff-4b39-b57c-29db9b3095bd",
+  "product_name": "QA-1-i0tb0p7d Ergonomic Metal Gloves",
+  "category": "bakery",
+  "price": 34.59,
+  "stock": 47,
+  "details": {
+    "brand": "Champlin LLC",
+    "origin": "South Africa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:19.398192+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-cjs1avtu Fresh Concrete Computer",
+    "category": "beverages",
+    "price": 17.01,
+    "stock": 1.5,
+    "details": {
+      "brand": "Macejkovic - Mosciski",
+      "origin": "Cape Verde"
+    }
+  }
+}

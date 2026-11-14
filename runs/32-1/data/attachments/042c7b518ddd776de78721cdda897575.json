@@ -1,0 +1,15 @@
+{
+  "id": "d64c1ff3-cb22-45f5-998f-c5656391f15d",
+  "product_name": "QA-3-ea0psby5 sort Charlie",
+  "category": "meat-seafood",
+  "price": 46.82,
+  "stock": 33,
+  "details": {
+    "brand": "Howell and Sons",
+    "origin": "Denmark"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:05.375749+00:00"
+}

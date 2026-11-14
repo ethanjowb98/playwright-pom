@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-t0ry44iu sort Charlie",
+    "category": "household",
+    "price": 40.67,
+    "stock": 19,
+    "details": {
+      "brand": "Ortiz - Carroll",
+      "origin": "Turkmenistan"
+    }
+  }
+}

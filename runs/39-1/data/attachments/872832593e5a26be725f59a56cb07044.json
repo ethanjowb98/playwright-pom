@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4j8f9m5c Sleek Silk Tuna",
+    "category": "beverages",
+    "price": 16.64,
+    "stock": 25,
+    "details": {
+      "brand": "Emmerich - Schamberger-Erdman",
+      "origin": "Mauritius"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

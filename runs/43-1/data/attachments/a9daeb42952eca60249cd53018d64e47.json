@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "fresh-produce",
+    "price": 3.75,
+    "stock": 42,
+    "details": {
+      "brand": "Dietrich - Baumbach",
+      "origin": "Romania"
+    }
+  }
+}

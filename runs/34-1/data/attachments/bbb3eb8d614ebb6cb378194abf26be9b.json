@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p77b9dep Sleek Bronze Soap",
+    "category": "dairy-eggs",
+    "price": 44.74,
+    "stock": 24,
+    "details": {
+      "brand": "Dietrich Inc",
+      "origin": "Cuba"
+    }
+  }
+}

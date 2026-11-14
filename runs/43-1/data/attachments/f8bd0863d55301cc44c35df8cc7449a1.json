@@ -1,0 +1,15 @@
+{
+  "id": "a128faaf-f068-4fd2-9809-bf085e4ee3ff",
+  "product_name": "QA-1-kuj8qjt6 Tasty Granite Fish",
+  "category": "frozen",
+  "price": 25.99,
+  "stock": 28,
+  "details": {
+    "brand": "Ritchie, Hyatt and Nolan",
+    "origin": "Mauritius"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:23:08.225698+00:00"
+}

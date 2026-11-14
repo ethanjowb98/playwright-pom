@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7656tsjv Rustic Aluminum Mouse",
+    "category": "meat-seafood",
+    "price": 8.04,
+    "stock": 29,
+    "details": {
+      "brand": "Mann Inc",
+      "origin": "Myanmar"
+    }
+  }
+}

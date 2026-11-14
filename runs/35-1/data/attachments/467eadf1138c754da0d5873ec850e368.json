@@ -1,0 +1,29 @@
+{
+  "orders": [
+    {
+      "id": "6db30af6-30ea-43d5-bfcc-076f7d89928a",
+      "order_number": "O64787",
+      "status": "pending",
+      "total_amount": 119.13,
+      "notes": null,
+      "created_at": "2026-11-05T10:05:41.639281+00:00",
+      "updated_at": "2026-11-05T10:05:41.639281+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-wclxgd23 Practical Concrete Tuna",
+          "category": "pantry",
+          "quantity": 3,
+          "price": 32.94,
+          "temperature_zone": null
+        },
+        {
+          "product_name": "QA-1-azgbhp7y Handmade Steel Pants",
+          "category": "dairy-eggs",
+          "quantity": 1,
+          "price": 20.31,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

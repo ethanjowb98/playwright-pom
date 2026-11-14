@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6cdv75m8 Awesome Concrete Soap",
+    "category": "bakery",
+    "price": 43.39,
+    "stock": 22,
+    "details": {
+      "brand": "Bergnaum, Kutch and Jenkins",
+      "origin": "Zimbabwe"
+    }
+  }
+}

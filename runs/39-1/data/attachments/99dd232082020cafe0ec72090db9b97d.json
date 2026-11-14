@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-cjxe5xzf Awesome Rubber Ball",
+    "category": "snacks",
+    "price": 24.39,
+    "stock": 24,
+    "details": {
+      "brand": "Bergnaum - Ullrich",
+      "origin": "Ghana"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k6suv4ue Small Ceramic Hat",
+    "category": "pantry",
+    "price": 44.15,
+    "stock": 16,
+    "details": {
+      "brand": "Feeney-Wilkinson and Sons",
+      "origin": "South Sudan"
+    }
+  }
+}

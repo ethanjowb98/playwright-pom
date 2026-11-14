@@ -1,0 +1,15 @@
+{
+  "id": "94bed8ce-5059-462e-ae4c-0eb6f8530417",
+  "product_name": "QA-3-g017w848 Tasty Wooden Cheese",
+  "category": "frozen",
+  "price": 3.98,
+  "stock": 36,
+  "details": {
+    "brand": "Goldner, Schimmel and Ondricka",
+    "origin": "Niger"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:41.462912+00:00"
+}

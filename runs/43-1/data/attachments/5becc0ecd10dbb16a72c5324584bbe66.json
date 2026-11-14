@@ -1,0 +1,15 @@
+{
+  "id": "ba7d3fa6-bfc3-4fd6-a344-dd6e8906c795",
+  "product_name": "QA-1-h6rysira Luxurious Rubber Cheese",
+  "category": "dairy-eggs",
+  "price": 5.7,
+  "stock": 22,
+  "details": {
+    "brand": "Oberbrunner - Walsh",
+    "origin": "Saint Kitts and Nevis"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:44.920209+00:00"
+}

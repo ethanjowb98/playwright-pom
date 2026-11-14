@@ -1,0 +1,15 @@
+{
+  "id": "46f55ca8-e7b1-4948-8538-6bf59a62859b",
+  "product_name": "QA-1-rx25epxu Practical Gold Bacon",
+  "category": "beverages",
+  "price": 16.53,
+  "stock": 27,
+  "details": {
+    "brand": "Keebler Group",
+    "origin": "Burundi"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:39:12.946847+00:00"
+}

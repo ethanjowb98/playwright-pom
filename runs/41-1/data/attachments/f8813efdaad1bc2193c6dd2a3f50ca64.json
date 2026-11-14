@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "db75c356-c7f2-4f59-a4f1-c3d1ddd2f751",
+    "order_number": "O78088",
+    "status": "pending",
+    "total_amount": 2.37,
+    "created_at": "2026-11-11T10:02:47.235444+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-uoahrtkr Soft Ceramic Pizza",
+        "category": "meat-seafood",
+        "quantity": 1,
+        "price": 2.37,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

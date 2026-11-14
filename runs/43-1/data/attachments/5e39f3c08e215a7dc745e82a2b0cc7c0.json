@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hewspotu Oriental Bronze Salad",
+    "category": "meat-seafood",
+    "price": 26.07,
+    "stock": 37,
+    "details": {
+      "brand": "Schmitt - Legros",
+      "origin": "Denmark"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

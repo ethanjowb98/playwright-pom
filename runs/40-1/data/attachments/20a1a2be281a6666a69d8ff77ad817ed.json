@@ -1,0 +1,15 @@
+{
+  "id": "53d1bd10-62c6-4bf2-8394-fb477fbe262e",
+  "product_name": "QA-6-q40e48gu Gorgeous Bronze Sausages",
+  "category": "snacks",
+  "price": 43.72,
+  "stock": 20,
+  "details": {
+    "brand": "Durgan, Berge and Frami",
+    "origin": "China"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:59.08636+00:00"
+}

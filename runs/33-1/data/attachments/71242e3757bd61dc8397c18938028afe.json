@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-o78alq4r Unbranded Gold Chair",
+    "category": "pantry",
+    "price": 49.54,
+    "stock": 17,
+    "details": {
+      "brand": "Weber - O'Keefe",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

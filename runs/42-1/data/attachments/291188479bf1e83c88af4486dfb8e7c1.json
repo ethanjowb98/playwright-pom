@@ -1,0 +1,15 @@
+{
+  "id": "5dfe4e75-9700-427a-aede-846e79d4e76d",
+  "product_name": "QA-1-8llbwlmg Frozen Ceramic Bacon",
+  "category": "other",
+  "price": 6.12,
+  "stock": 26,
+  "details": {
+    "brand": "Kulas, Pfeffer and Torphy",
+    "origin": "Guernsey"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:44.871122+00:00"
+}

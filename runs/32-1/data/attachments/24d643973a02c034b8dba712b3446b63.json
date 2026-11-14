@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-aq3ggt3z Tasty Gold Keyboard",
+    "category": "bakery",
+    "price": 29.66,
+    "stock": 13,
+    "details": {
+      "brand": "Rutherford, Ryan and Green",
+      "origin": "Gambia"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,1 @@
+{"id":"91706beff76668ed4710055b9287a47e.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › should return 401 when a product is deleted with a missing api key","name":"should return 401 when a product is deleted with a missing api key","status":"passed","testResultsByEnv":{"default":"2311ac81bc59852c342cfd66cea8dfe9"}}

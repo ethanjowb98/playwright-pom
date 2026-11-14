@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "1687ae28-11d2-4ae4-a81c-a1c8e2e0e022",
+      "product_id": "6d4706d9-2471-4ffd-b569-c9356bce8aa2",
+      "product_name": "QA-1-stzyl718 Handmade Marble Sausages",
+      "price": 46.07,
+      "category": "household",
+      "quantity": 2,
+      "created_at": "2026-11-12T10:30:05.213823+00:00",
+      "updated_at": "2026-11-12T10:30:05.213823+00:00"
+    },
+    {
+      "id": "9caf9103-e028-4fd9-bc6c-60af8b1c9ac3",
+      "product_id": "51e0bbd5-63ed-496d-b11c-b9b278c43273",
+      "product_name": "QA-1-4qeebp0z Incredible Concrete Shirt",
+      "price": 18.19,
+      "category": "bakery",
+      "quantity": 1,
+      "created_at": "2026-11-12T10:30:05.849224+00:00",
+      "updated_at": "2026-11-12T10:30:05.849224+00:00"
+    }
+  ]
+}

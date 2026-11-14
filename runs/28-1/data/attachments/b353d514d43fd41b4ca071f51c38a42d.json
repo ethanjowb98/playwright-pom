@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-conb3jgx Luxurious Bamboo Chicken",
+    "category": "bakery",
+    "price": 44.11,
+    "stock": 12,
+    "details": {
+      "brand": "Murazik Group",
+      "origin": "Tonga"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "56721b65-af8e-46d1-800c-86e27d300b8c",
+    "order_number": "O30533",
+    "status": "pending",
+    "total_amount": 38.52,
+    "created_at": "2026-11-05T10:04:44.734147+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-qkx9bezw Luxurious Wooden Towels",
+        "category": "household",
+        "quantity": 3,
+        "price": 12.84,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

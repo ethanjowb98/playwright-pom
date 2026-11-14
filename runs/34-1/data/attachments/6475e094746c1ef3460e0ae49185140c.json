@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zznrrxqu Elegant Bamboo Tuna",
+    "category": "household",
+    "price": "abc",
+    "stock": 19,
+    "details": {
+      "brand": "Schimmel, Weissnat and Ratke",
+      "origin": "Costa Rica"
+    }
+  }
+}

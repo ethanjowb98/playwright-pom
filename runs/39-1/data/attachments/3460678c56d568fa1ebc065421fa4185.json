@@ -1,0 +1,15 @@
+{
+  "id": "14728c99-ed00-4321-9c2e-b36aedbe8a76",
+  "product_name": "QA-8-mw78ytme sort Alpha",
+  "category": "beverages",
+  "price": 15.11,
+  "stock": 43,
+  "details": {
+    "brand": "Koss - Pacocha",
+    "origin": "Croatia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:18.480245+00:00"
+}

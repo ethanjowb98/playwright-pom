@@ -1,0 +1,15 @@
+{
+  "id": "79a10263-2e2e-4820-a44b-e02fa64f2dd5",
+  "product_name": "QA-2-7c0bzwwt Frozen Plastic Bacon",
+  "category": "meat-seafood",
+  "price": 43.89,
+  "stock": 35,
+  "details": {
+    "brand": "Rolfson - Stanton",
+    "origin": "Bangladesh"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:38.450196+00:00"
+}

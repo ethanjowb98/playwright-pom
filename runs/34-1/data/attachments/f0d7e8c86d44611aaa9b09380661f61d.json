@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-epf920pb Soft Bronze Pants",
+    "category": "snacks",
+    "price": 20.74,
+    "stock": 31,
+    "details": {
+      "brand": "Hickle, Shanahan-Stiedemann and Adams",
+      "origin": "Heard Island and McDonald Islands"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "8399da35-e13d-476d-8285-c4342a97f6bb",
+      "product_id": "a4bfc7d9-6e1a-4491-8645-42d918bda299",
+      "product_name": "QA-1-b1yeizri Unbranded Rubber Hat",
+      "price": 25.69,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-04T08:11:22.140249+00:00",
+      "updated_at": "2026-11-04T08:11:22.140249+00:00"
+    },
+    {
+      "id": "d3e52178-6233-4dd6-be75-f4709480e560",
+      "product_id": "d28e4a53-974c-4c41-9a5b-16c81ee1164d",
+      "product_name": "QA-1-gis7l5nk Awesome Cotton Soap",
+      "price": 40.21,
+      "category": "frozen",
+      "quantity": 2,
+      "created_at": "2026-11-04T08:11:22.745658+00:00",
+      "updated_at": "2026-11-04T08:11:22.745658+00:00"
+    }
+  ]
+}

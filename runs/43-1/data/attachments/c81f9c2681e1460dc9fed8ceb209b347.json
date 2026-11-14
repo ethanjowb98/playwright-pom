@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4kuigivl Sleek Silk Fish",
+    "category": "pantry",
+    "price": 41.43,
+    "stock": 46,
+    "details": {
+      "brand": "Kunze, Prosacco and Romaguera",
+      "origin": "Slovenia"
+    },
+    "weighted": false
+  }
+}

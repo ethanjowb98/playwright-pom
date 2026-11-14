@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-40ritzjp Handmade Wooden Hat",
+    "category": "snacks",
+    "price": 22.22,
+    "stock": 28,
+    "details": {
+      "brand": "Hyatt and Sons",
+      "origin": "Djibouti"
+    }
+  }
+}

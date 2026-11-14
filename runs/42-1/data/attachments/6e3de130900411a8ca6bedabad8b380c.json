@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vofgey9v sort Charlie",
+    "category": "snacks",
+    "price": 16.5,
+    "stock": 50,
+    "details": {
+      "brand": "Nienow - Ankunding",
+      "origin": "Austria"
+    }
+  }
+}

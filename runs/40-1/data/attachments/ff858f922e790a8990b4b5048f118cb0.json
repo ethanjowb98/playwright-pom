@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mhuwalp8 Practical Silk Pants",
+    "category": "pantry",
+    "price": 39.55,
+    "stock": 23,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

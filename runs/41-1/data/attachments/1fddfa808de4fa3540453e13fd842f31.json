@@ -1,0 +1,15 @@
+{
+  "id": "3a2d897b-205a-40c0-a12c-a142d8c573d8",
+  "product_name": "QA-7-kr47vsi0 sort Charlie",
+  "category": "snacks",
+  "price": 28.07,
+  "stock": 40,
+  "details": {
+    "brand": "Hermiston - O'Keefe",
+    "origin": "Czechia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:35.899034+00:00"
+}

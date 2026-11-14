@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ko3latau Recycled Marble Keyboard",
+    "category": "household",
+    "price": 36.47,
+    "stock": 10,
+    "details": {
+      "brand": "Cruickshank, Sauer and Powlowski",
+      "origin": "Mozambique"
+    }
+  }
+}

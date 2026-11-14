@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "bakery",
+    "price": 19.23,
+    "stock": 39,
+    "details": {
+      "brand": "DuBuque, Williamson-Kshlerin and Bayer",
+      "origin": "Palau"
+    }
+  }
+}

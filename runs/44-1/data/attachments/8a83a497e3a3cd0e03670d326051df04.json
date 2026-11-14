@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a6y5fwj9 Luxurious Wooden Bacon",
+    "category": "frozen",
+    "price": 32.75,
+    "stock": 40,
+    "details": {
+      "brand": "Smitham - Cartwright",
+      "origin": "Italy"
+    }
+  }
+}

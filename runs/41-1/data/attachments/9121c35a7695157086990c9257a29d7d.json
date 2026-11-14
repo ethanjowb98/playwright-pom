@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "bd135e31-1336-432b-b220-d6a0a29918ed",
+    "order_number": "O71229",
+    "status": "pending",
+    "total_amount": 21.96,
+    "created_at": "2026-11-11T10:04:31.735034+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-0x2sj79b Fantastic Marble Soap",
+        "category": "snacks",
+        "quantity": 1,
+        "price": 21.96,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

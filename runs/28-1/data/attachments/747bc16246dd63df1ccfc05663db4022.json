@@ -1,0 +1,15 @@
+{
+  "id": "1b73e333-f7bd-49d2-9860-337bcad9ea69",
+  "product_name": "QA-1-7glg0tix Tasty Gold Chair",
+  "category": "household",
+  "price": 14.67,
+  "stock": 42,
+  "details": {
+    "brand": "McGlynn - Harvey",
+    "origin": "Grenada"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:23.748844+00:00"
+}

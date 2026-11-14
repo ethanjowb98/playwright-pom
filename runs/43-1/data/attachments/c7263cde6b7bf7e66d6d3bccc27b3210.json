@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-icb1l2pq Handcrafted Cotton Car",
+    "category": "fresh-produce",
+    "price": 8.93,
+    "stock": 36,
+    "details": {
+      "brand": "Batz, Ebert and Hudson",
+      "origin": "Netherlands"
+    }
+  }
+}

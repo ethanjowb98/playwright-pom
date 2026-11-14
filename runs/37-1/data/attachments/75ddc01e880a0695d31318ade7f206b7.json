@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-01pbece9 Gorgeous Plastic Fish",
+    "category": "beverages",
+    "price": 31.16,
+    "stock": 13,
+    "details": {
+      "brand": "Sanford Inc",
+      "origin": "Sweden"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

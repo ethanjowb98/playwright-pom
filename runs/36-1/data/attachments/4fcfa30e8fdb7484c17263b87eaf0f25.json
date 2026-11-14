@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j6dx8bpy Fantastic Wooden Ball",
+    "category": "household",
+    "price": 12.91,
+    "stock": 19,
+    "details": {
+      "brand": "Watsica Group",
+      "origin": "Turkey"
+    }
+  }
+}

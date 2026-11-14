@@ -1,0 +1,15 @@
+{
+  "id": "f2e2526a-067d-41e4-bccd-cbb826698c8e",
+  "product_name": "QA-2-j8nrr527 Unbranded Granite Pizza",
+  "category": "fresh-produce",
+  "price": 20.61,
+  "stock": 13,
+  "details": {
+    "brand": "Bayer Group",
+    "origin": "Serbia"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:29.207479+00:00"
+}

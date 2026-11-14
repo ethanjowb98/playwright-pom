@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-cyesg721 Soft Cotton Chips",
+    "category": "snacks",
+    "price": 7.73,
+    "stock": 31,
+    "details": {
+      "brand": "Gleason - Paucek",
+      "origin": "Fiji"
+    }
+  }
+}

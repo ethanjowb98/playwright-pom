@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-d5t37tw7 Soft Granite Chips",
+    "category": "frozen",
+    "price": 45.99,
+    "stock": "x",
+    "details": {
+      "brand": "Monahan Inc",
+      "origin": "France"
+    }
+  }
+}

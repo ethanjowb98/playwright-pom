@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-e80k4t0l sort Bravo",
+    "category": "dairy-eggs",
+    "price": 25.21,
+    "stock": 24,
+    "details": {
+      "brand": "Borer Inc",
+      "origin": "Jordan"
+    }
+  }
+}

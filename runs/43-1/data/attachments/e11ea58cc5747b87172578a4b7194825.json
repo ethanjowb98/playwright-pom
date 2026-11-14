@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-imu7fnn0 Luxurious Ceramic Fish",
+    "category": "fresh-produce",
+    "price": 6.51,
+    "stock": 38,
+    "details": {
+      "brand": "Schoen, Cassin and Gerhold",
+      "origin": "Puerto Rico"
+    }
+  }
+}

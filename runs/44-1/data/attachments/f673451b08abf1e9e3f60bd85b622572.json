@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j2mbfg12 Soft Gold Towels",
+    "category": "household",
+    "price": 33.54,
+    "stock": 12,
+    "details": {
+      "brand": "Pouros Inc",
+      "origin": "Thailand"
+    }
+  }
+}

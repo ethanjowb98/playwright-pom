@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-6y8l1lkc Soft Cotton Hat",
+    "category": "dairy-eggs",
+    "price": 17.48,
+    "stock": 28,
+    "details": {
+      "brand": "Wunsch, Howell and Nicolas-Huel",
+      "origin": "Cyprus"
+    }
+  }
+}

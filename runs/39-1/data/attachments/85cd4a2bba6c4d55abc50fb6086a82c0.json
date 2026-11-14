@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "06c242d1-c19e-48de-afa7-a1facff9de71",
+    "order_number": "O46423",
+    "status": "pending",
+    "total_amount": 21.87,
+    "created_at": "2026-11-09T10:38:10.70679+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-q23xveat Modern Concrete Bike",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 21.87,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

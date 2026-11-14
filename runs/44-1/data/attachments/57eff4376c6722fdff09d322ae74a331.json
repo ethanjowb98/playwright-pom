@@ -1,0 +1,15 @@
+{
+  "id": "d4b5721a-e5c4-4abb-b5c9-8ccd267d3f38",
+  "product_name": "QA-1-mjt5k0ty Generic Bamboo Chair",
+  "category": "fresh-produce",
+  "price": 21.68,
+  "stock": 50,
+  "details": {
+    "brand": "Conn and Sons",
+    "origin": "Madagascar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:41:40.254925+00:00"
+}

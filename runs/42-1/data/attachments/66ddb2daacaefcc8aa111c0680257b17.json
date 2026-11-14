@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jy122wve Elegant Bronze Soap",
+    "category": "other",
+    "price": 45.64,
+    "stock": 23,
+    "details": {
+      "brand": "McCullough - Stark-Considine",
+      "origin": "Bulgaria"
+    }
+  }
+}

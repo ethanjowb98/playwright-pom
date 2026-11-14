@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-5h7e1y0a Recycled Cotton Sausages",
+    "category": "snacks",
+    "price": 11.49,
+    "stock": 38,
+    "details": {
+      "brand": "Walter, Dooley and Dietrich",
+      "origin": "Solomon Islands"
+    }
+  }
+}

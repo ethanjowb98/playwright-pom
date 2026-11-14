@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vqrmocqo Oriental Bronze Keyboard",
+    "category": "other",
+    "price": 17.1,
+    "stock": 31,
+    "details": {
+      "brand": "Pagac, Cremin-Littel and Daugherty",
+      "origin": "Hong Kong"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

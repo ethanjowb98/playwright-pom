@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-t6tslud4 Gorgeous Concrete Chicken",
+    "category": "beverages",
+    "price": 42.6,
+    "stock": 27,
+    "details": {
+      "brand": "Renner and Sons",
+      "origin": "Luxembourg"
+    },
+    "weighted": false
+  }
+}

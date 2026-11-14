@@ -1,0 +1,15 @@
+{
+  "id": "495c0526-cb02-4b7c-8628-f8b85e572080",
+  "product_name": "QA-1-sm5ey05j Frozen Cotton Gloves",
+  "category": "dairy-eggs",
+  "price": 18.04,
+  "stock": 50,
+  "details": {
+    "brand": "Lang LLC",
+    "origin": "Heard Island and McDonald Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:53.358829+00:00"
+}

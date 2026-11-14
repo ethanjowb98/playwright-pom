@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-mbqdn3rr Generic Rubber Fish",
+    "category": "beverages",
+    "price": 18.86,
+    "stock": 23,
+    "details": {
+      "brand": "Brekke, Okuneva and Cruickshank",
+      "origin": "Argentina"
+    }
+  }
+}

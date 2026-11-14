@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-m03bcujd Fantastic Ceramic Towels",
+    "category": "frozen",
+    "price": 31.76,
+    "stock": 26,
+    "details": {
+      "brand": "Stoltenberg, Greenfelder and Brakus",
+      "origin": "Norway"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-7s6dglbb Incredible Ceramic Keyboard",
+    "category": "fresh-produce",
+    "price": 4.35,
+    "stock": 17,
+    "details": {
+      "brand": "Heathcote - Harber",
+      "origin": "Puerto Rico"
+    }
+  }
+}

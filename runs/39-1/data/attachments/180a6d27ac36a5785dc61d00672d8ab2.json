@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dyqpk3we Intelligent Aluminum Shirt",
+    "category": "bakery",
+    "price": 6.45,
+    "stock": 12,
+    "details": {
+      "brand": "DuBuque, Hirthe and Kutch",
+      "origin": "Greece"
+    }
+  }
+}

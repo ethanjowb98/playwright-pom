@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-es1k2flh Handcrafted Granite Computer",
+    "category": "frozen",
+    "price": 31.89,
+    "stock": 18,
+    "details": {
+      "brand": "Muller - Larkin",
+      "origin": "Qatar"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

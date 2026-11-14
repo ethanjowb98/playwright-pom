@@ -1,0 +1,15 @@
+{
+  "id": "1cb5cf67-0a17-4307-9d6d-04143890734b",
+  "product_name": "QA-3-gcj5u2kq Luxurious Aluminum Chair",
+  "category": "bakery",
+  "price": 10.83,
+  "stock": 40,
+  "details": {
+    "brand": "Moen - Greenfelder",
+    "origin": "Senegal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:54.277372+00:00"
+}

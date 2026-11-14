@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qboehcct Electronic Granite Tuna",
+    "category": "beverages",
+    "price": 27.05,
+    "stock": 29,
+    "details": {
+      "brand": "Dare Group",
+      "origin": "France"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-09amhncu Refined Gold Sausages",
+    "category": "pantry",
+    "price": 29.66,
+    "stock": 13,
+    "details": {
+      "brand": "Schamberger, Hudson and Breitenberg",
+      "origin": "Saint Helena"
+    },
+    "weighted": false
+  }
+}

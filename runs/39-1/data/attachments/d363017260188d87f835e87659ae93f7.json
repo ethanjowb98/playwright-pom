@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "bakery",
+    "price": 29.69,
+    "stock": 10,
+    "details": {
+      "brand": "Herzog - Swaniawski",
+      "origin": "Guyana"
+    }
+  }
+}

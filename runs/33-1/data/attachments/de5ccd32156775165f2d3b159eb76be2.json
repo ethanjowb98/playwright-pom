@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kdx4oibv Intelligent Granite Sausages",
+    "category": "frozen",
+    "price": 2.57,
+    "stock": 27,
+    "details": {
+      "brand": "Weimann - Howe",
+      "origin": "Sudan"
+    }
+  }
+}

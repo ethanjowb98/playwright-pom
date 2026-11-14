@@ -1,0 +1,15 @@
+{
+  "id": "127753e4-2a29-4b92-9af9-d4b46ad3f287",
+  "product_name": "QA-1-fvx837co Bespoke Wooden Computer",
+  "category": "bakery",
+  "price": 42.83,
+  "stock": 31,
+  "details": {
+    "brand": "Hermiston, Bechtelar and Considine",
+    "origin": "Svalbard & Jan Mayen Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:25:15.094761+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n4t970c2 Soft Bronze Pizza",
+    "category": "other",
+    "price": 49.96,
+    "stock": 13,
+    "details": {
+      "brand": "Turner, Konopelski and Hegmann",
+      "origin": "Tuvalu"
+    }
+  }
+}

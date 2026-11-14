@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3y260uzl Modern Concrete Bike",
+    "category": "fresh-produce",
+    "price": 30.13,
+    "stock": 2,
+    "details": {
+      "brand": "Feil Group",
+      "origin": "South Georgia and the South Sandwich Islands"
+    }
+  }
+}

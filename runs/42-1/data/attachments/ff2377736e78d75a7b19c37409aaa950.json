@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "4cde79fc-52bf-4d0d-ac81-5cc479a9ce18",
+      "product_id": "9b8d64a4-b271-4cb6-b629-69655d80f5e2",
+      "product_name": "QA-1-2vz2vh6a Licensed Silk Ball",
+      "price": 1.86,
+      "category": "meat-seafood",
+      "quantity": 3,
+      "created_at": "2026-11-12T10:32:24.740449+00:00",
+      "updated_at": "2026-11-12T10:32:24.740449+00:00"
+    },
+    {
+      "id": "010ce777-6c6d-46de-b727-75b8cea01757",
+      "product_id": "cc9e51db-92fd-4552-a951-c86c46306d49",
+      "product_name": "QA-1-5v4jeiyl Electronic Marble Chips",
+      "price": 1.42,
+      "category": "pantry",
+      "quantity": 1,
+      "created_at": "2026-11-12T10:32:25.331122+00:00",
+      "updated_at": "2026-11-12T10:32:25.331122+00:00"
+    }
+  ]
+}

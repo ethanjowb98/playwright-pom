@@ -1,0 +1,15 @@
+{
+  "id": "53f35186-e24e-4854-83b9-641d4ff0b192",
+  "product_name": "QA-1-gkw9iiz5 Oriental Steel Ball",
+  "category": "snacks",
+  "price": 23.81,
+  "stock": 24,
+  "details": {
+    "brand": "Ondricka - Buckridge",
+    "origin": "Saint Vincent and the Grenadines"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:32:18.769142+00:00"
+}

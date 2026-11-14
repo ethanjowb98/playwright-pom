@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ymut2v3a Generic Aluminum Chips",
+    "category": "meat-seafood",
+    "price": 7.12,
+    "stock": 15,
+    "details": {
+      "brand": "McKenzie Inc",
+      "origin": "Eritrea"
+    }
+  }
+}

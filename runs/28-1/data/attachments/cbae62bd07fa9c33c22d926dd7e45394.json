@@ -1,0 +1,15 @@
+{
+  "id": "870741d5-d8f8-480d-b6f3-08a2d76b1508",
+  "product_name": "QA-2-w63l6okm Frozen Cotton Table",
+  "category": "bakery",
+  "price": 15.75,
+  "stock": 21,
+  "details": {
+    "brand": "Flatley LLC",
+    "origin": "Benin"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:08:45.944426+00:00"
+}

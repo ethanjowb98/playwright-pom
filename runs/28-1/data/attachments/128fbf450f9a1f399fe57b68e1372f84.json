@@ -1,0 +1,15 @@
+{
+  "id": "83a3fd44-b511-4c06-9888-2bf83cde674d",
+  "product_name": "QA-1-428pilnd Elegant Metal Chips",
+  "category": "pantry",
+  "price": 17.78,
+  "stock": 21,
+  "details": {
+    "brand": "Reichert and Sons",
+    "origin": "Cocos (Keeling) Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:12:08.590486+00:00"
+}

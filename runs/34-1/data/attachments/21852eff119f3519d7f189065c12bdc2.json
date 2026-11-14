@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-8d9zjibi Refined Bronze Computer",
+    "category": "frozen",
+    "price": 27.67,
+    "stock": 21,
+    "details": {
+      "brand": "Simonis, Breitenberg and O'Hara",
+      "origin": "Anguilla"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

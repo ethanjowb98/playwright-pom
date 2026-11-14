@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hjsy2qbg Frozen Steel Computer",
+    "category": "other",
+    "price": 40.13,
+    "stock": 25,
+    "details": {
+      "brand": "Ziemann, Sporer and Nicolas",
+      "origin": "Belgium"
+    }
+  }
+}

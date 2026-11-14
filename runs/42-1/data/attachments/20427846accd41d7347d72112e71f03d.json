@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fvqhvfda Handmade Rubber Chair",
+    "category": "snacks",
+    "price": 26.88,
+    "stock": 28,
+    "details": {
+      "brand": "Kreiger - Okuneva",
+      "origin": "Guatemala"
+    }
+  }
+}

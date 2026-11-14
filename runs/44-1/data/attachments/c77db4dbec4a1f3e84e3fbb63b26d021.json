@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zjfn2w3l Intelligent Steel Computer",
+    "category": "other",
+    "price": 19.02,
+    "stock": 41,
+    "details": {
+      "brand": "Kertzmann, Gutmann and Mayert",
+      "origin": "Panama"
+    }
+  }
+}

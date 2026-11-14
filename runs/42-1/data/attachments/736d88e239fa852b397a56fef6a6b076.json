@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "2e2aa221-612e-40fd-9efd-c49253caa370",
+    "order_number": "O67342",
+    "status": "pending",
+    "total_amount": 23.73,
+    "created_at": "2026-11-12T10:33:13.656336+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-rpwxwujk Recycled Gold Pizza",
+        "category": "beverages",
+        "quantity": 3,
+        "price": 7.91,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

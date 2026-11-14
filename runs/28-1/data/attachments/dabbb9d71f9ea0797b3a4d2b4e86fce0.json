@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "55fd6a3f-78a2-42bd-8fee-c92c8d44df2f",
+      "product_id": "c6cbff3c-d909-44ef-85e1-f9eec24d7bf7",
+      "product_name": "QA-1-5rxxx89h Oriental Granite Ball",
+      "price": 37.09,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-04T08:12:05.353222+00:00",
+      "updated_at": "2026-11-04T08:12:05.353222+00:00"
+    },
+    {
+      "id": "dc464f5f-056f-4acb-b075-2784a3cac654",
+      "product_id": "dc0e97e7-8f4e-4717-9dcc-df8169a9b5c6",
+      "product_name": "QA-1-v0bb887e Fresh Wooden Shoes",
+      "price": 13.05,
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "created_at": "2026-11-04T08:12:05.971642+00:00",
+      "updated_at": "2026-11-04T08:12:05.971642+00:00"
+    }
+  ]
+}

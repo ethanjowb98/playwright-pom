@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "45bbe786-cc4f-4b3c-a361-b9efd7cf6e11",
+    "order_number": "O93119",
+    "status": "pending",
+    "total_amount": 2.57,
+    "created_at": "2026-11-05T08:27:01.544075+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-kdx4oibv Intelligent Granite Sausages",
+        "category": "frozen",
+        "quantity": 1,
+        "price": 2.57,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mb6yxd0q Practical Wooden Tuna",
+    "category": "snacks",
+    "price": 21.61,
+    "stock": 23,
+    "details": {
+      "brand": "Deckow, Ebert and Mosciski",
+      "origin": "Nepal"
+    }
+  }
+}

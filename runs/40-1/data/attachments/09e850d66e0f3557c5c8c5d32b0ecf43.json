@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-in6tzn54 Intelligent Concrete Pants",
+    "category": "bakery",
+    "price": 43.92,
+    "stock": 42,
+    "details": {
+      "brand": "Gulgowski and Sons",
+      "origin": "Cambodia"
+    }
+  }
+}

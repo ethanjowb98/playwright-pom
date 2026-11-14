@@ -1,0 +1,15 @@
+{
+  "id": "d630c168-0f99-4ede-be11-373cd3ca5bf4",
+  "product_name": "QA-1-u07bom5o Handmade Aluminum Chips",
+  "category": "frozen",
+  "price": 38.4,
+  "stock": 27,
+  "details": {
+    "brand": "Funk LLC",
+    "origin": "Montenegro"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:35.655155+00:00"
+}

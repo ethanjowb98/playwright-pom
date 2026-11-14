@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-up3o7k1j Fantastic Metal Salad",
+    "category": "frozen",
+    "price": 30.36,
+    "stock": 11,
+    "details": {
+      "brand": "Gutkowski - Bergstrom",
+      "origin": "Yemen"
+    },
+    "weighted": true
+  }
+}

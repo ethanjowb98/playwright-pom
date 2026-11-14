@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5v4jeiyl Electronic Marble Chips",
+    "category": "pantry",
+    "price": 1.42,
+    "stock": 44,
+    "details": {
+      "brand": "Zemlak and Sons",
+      "origin": "Benin"
+    }
+  }
+}

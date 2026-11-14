@@ -1,0 +1,15 @@
+{
+  "id": "925bc9af-b855-4853-95de-ca61b5c899eb",
+  "product_name": "QA-1-cb8e0m7y Elegant Metal Bike",
+  "category": "frozen",
+  "price": 15.94,
+  "stock": 36,
+  "details": {
+    "brand": "Cummings-Schamberger and Sons",
+    "origin": "Puerto Rico"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:46.428301+00:00"
+}

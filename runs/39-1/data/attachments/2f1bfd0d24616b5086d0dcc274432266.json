@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "313f98ba-345e-4d49-8a4b-8304fdfbd514",
+    "order_number": "O50785",
+    "status": "pending",
+    "total_amount": 114.13,
+    "created_at": "2026-11-09T10:37:33.128544+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-78tz2ae7 Bespoke Aluminum Table",
+        "category": "bakery",
+        "quantity": 3,
+        "price": 29.2,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-dfsr3elk Luxurious Metal Hat",
+        "category": "household",
+        "quantity": 1,
+        "price": 26.53,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

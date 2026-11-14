@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-j5k46pnr Generic Bronze Chicken",
+    "category": "snacks",
+    "price": 8.19,
+    "stock": 10,
+    "details": {
+      "brand": "Schamberger, Auer and Purdy",
+      "origin": "Samoa"
+    }
+  }
+}

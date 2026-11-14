@@ -1,0 +1,15 @@
+{
+  "id": "95146b56-4cbb-4ee5-ac69-1b26f74ade10",
+  "product_name": "QA-1-720ym8na Licensed Granite Pizza",
+  "category": "beverages",
+  "price": 25.98,
+  "stock": 2,
+  "details": {
+    "brand": "Daugherty Inc",
+    "origin": "Palestine"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:21:44.754053+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-eq5bzuwp Refined Granite Shoes",
+    "category": "bakery",
+    "price": 31.29,
+    "stock": 45,
+    "details": {
+      "brand": "Ondricka, Torp and Block-Schowalter",
+      "origin": "Uruguay"
+    }
+  }
+}

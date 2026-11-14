@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c4j4mper Fresh Cotton Chips",
+    "category": "frozen",
+    "price": 9.76,
+    "stock": 11,
+    "details": {
+      "brand": "Kling - Swift",
+      "origin": "Ukraine"
+    }
+  }
+}

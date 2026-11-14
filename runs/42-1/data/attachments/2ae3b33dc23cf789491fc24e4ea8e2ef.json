@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-01ud2p5a Luxurious Wooden Car",
+    "category": "dairy-eggs",
+    "price": 32.93,
+    "stock": 10,
+    "details": {
+      "brand": "Ortiz - Witting",
+      "origin": "Slovenia"
+    }
+  }
+}

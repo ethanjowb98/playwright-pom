@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-98nb6yzy Handcrafted Rubber Shirt",
+    "category": "beverages",
+    "price": 33.79,
+    "stock": -5,
+    "details": {
+      "brand": "Lindgren and Sons",
+      "origin": "Germany"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "1b164533-2084-422d-9f22-f373dd07e726",
+  "order_number": "O80422",
+  "status": "pending",
+  "total_amount": 12.67,
+  "notes": null,
+  "created_at": "2026-11-12T10:31:25.586858+00:00",
+  "updated_at": "2026-11-12T10:31:25.586858+00:00",
+  "items": [
+    {
+      "product_id": "f2f0523f-3b80-453a-91eb-2ec162bc4ce0",
+      "product_name": "QA-1-7fa62157 Awesome Bronze Fish",
+      "category": "beverages",
+      "quantity": 1,
+      "price": 12.67,
+      "temperature_zone": null
+    }
+  ]
+}

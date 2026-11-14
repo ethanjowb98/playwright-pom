@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zg28sqzh Awesome Gold Shirt",
+    "category": "bakery",
+    "price": 27.8,
+    "stock": 32,
+    "details": {
+      "brand": "Feeney Inc",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

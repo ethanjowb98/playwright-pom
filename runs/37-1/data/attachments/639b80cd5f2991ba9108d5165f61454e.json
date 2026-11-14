@@ -1,0 +1,15 @@
+{
+  "id": "497c203b-28fd-41de-b5e1-960010c36eda",
+  "product_name": "QA-1-v3btxcqe Small Silk Fish",
+  "category": "fresh-produce",
+  "price": 43.03,
+  "stock": 19,
+  "details": {
+    "brand": "Reilly - Konopelski",
+    "origin": "Marshall Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:24.234658+00:00"
+}

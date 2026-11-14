@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-jx0w6ooe Small Cotton Hat",
+    "category": "household",
+    "price": 33.87,
+    "stock": 48,
+    "details": {
+      "brand": "Bruen-Mante - Wintheiser",
+      "origin": "Nigeria"
+    }
+  }
+}

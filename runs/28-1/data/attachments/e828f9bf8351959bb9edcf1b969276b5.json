@@ -1,0 +1,15 @@
+{
+  "id": "900e1516-bd7a-478a-a4af-36074bdc3f47",
+  "product_name": "QA-1-n8c8dvf5 Bespoke Concrete Cheese",
+  "category": "bakery",
+  "price": 33.78,
+  "stock": 47,
+  "details": {
+    "brand": "Terry - Price",
+    "origin": "Saint Martin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:12:55.076479+00:00"
+}

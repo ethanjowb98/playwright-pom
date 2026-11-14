@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e30aybok Fresh Ceramic Ball",
+    "category": "household",
+    "price": 49.54,
+    "stock": 28,
+    "details": {
+      "brand": "Blanda - Pollich",
+      "origin": "Vanuatu"
+    }
+  }
+}

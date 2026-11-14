@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ou37c2kk Handmade Rubber Table",
+    "category": "fresh-produce",
+    "price": 2.9,
+    "stock": 13,
+    "details": {
+      "brand": "Abbott and Sons",
+      "origin": "Sierra Leone"
+    }
+  }
+}

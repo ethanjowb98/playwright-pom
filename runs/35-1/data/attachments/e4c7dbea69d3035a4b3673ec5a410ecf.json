@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xihsfydh Handcrafted Marble Table",
+    "category": "meat-seafood",
+    "price": 9.72,
+    "stock": 30,
+    "details": {
+      "brand": "Rutherford, Koepp and Williamson",
+      "origin": "Namibia"
+    }
+  }
+}

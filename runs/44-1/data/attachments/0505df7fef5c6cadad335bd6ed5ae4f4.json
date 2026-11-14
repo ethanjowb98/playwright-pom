@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3hdi75bq Gorgeous Granite Soap",
+    "category": "other",
+    "price": 19.18,
+    "stock": 24,
+    "details": {
+      "brand": "Hammes LLC",
+      "origin": "Chad"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d2c59509-1c14-4033-8acc-637cda6a05e9",
+    "order_number": "O44160",
+    "status": "pending",
+    "total_amount": 325.98,
+    "created_at": "2026-11-11T10:01:27.195419+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-94ibdri3 Fantastic Plastic Shirt",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 46.82,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-n8jipvge Bespoke Bamboo Table",
+        "category": "snacks",
+        "quantity": 3,
+        "price": 47.1,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-hxvfyrgw Oriental Marble Keyboard",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 14.74,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

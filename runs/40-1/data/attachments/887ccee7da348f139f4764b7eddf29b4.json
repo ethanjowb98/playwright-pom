@@ -1,0 +1,19 @@
+{
+  "id": "de0d6244-96a5-4055-a196-45b0eb927257",
+  "order_number": "O21387",
+  "status": "cancelled",
+  "total_amount": 64.53,
+  "notes": null,
+  "created_at": "2026-11-10T10:39:13.869695+00:00",
+  "updated_at": "2026-11-10T10:39:13.869695+00:00",
+  "items": [
+    {
+      "product_id": "4896fb80-115f-4107-98f0-9ced6c44dc11",
+      "product_name": "QA-1-cbk497gs Fresh Granite Hat",
+      "category": "other",
+      "quantity": 3,
+      "price": 21.51,
+      "temperature_zone": null
+    }
+  ]
+}

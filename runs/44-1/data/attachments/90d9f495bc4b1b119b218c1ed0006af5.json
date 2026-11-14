@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "snacks",
+    "price": 33,
+    "stock": 39,
+    "details": {
+      "brand": "Zemlak - Blanda",
+      "origin": "Lebanon"
+    }
+  }
+}

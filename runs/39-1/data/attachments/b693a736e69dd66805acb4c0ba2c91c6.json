@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-co633vac Fresh Wooden Bike",
+    "category": "meat-seafood",
+    "price": 31.13,
+    "stock": 40,
+    "details": {
+      "brand": "Wunsch, Nikolaus and Koepp",
+      "origin": "Namibia"
+    }
+  }
+}

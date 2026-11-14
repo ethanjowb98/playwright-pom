@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-r0kdq270 Ergonomic Wooden Sausages",
+    "category": "meat-seafood",
+    "price": 37.35,
+    "stock": 33,
+    "details": {
+      "brand": "Crona Inc",
+      "origin": "South Africa"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

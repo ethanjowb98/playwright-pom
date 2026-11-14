@@ -1,0 +1,15 @@
+{
+  "id": "facaaac9-cb9b-4f40-861b-4717df62282b",
+  "product_name": "QA-1-bcb4loc2 Recycled Bamboo Car",
+  "category": "fresh-produce",
+  "price": 20.53,
+  "stock": 39,
+  "details": {
+    "brand": "Sporer Inc",
+    "origin": "Denmark"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:39:58.03292+00:00"
+}

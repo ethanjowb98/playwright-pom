@@ -1,0 +1,15 @@
+{
+  "id": "1bc193e5-2222-4152-8971-6bb1959ac504",
+  "product_name": "QA-1-8rcrptdw Fantastic Bamboo Fish",
+  "category": "pantry",
+  "price": 13.14,
+  "stock": 26,
+  "details": {
+    "brand": "Keeling, Hyatt and Gleason",
+    "origin": "Malaysia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:38:49.778344+00:00"
+}

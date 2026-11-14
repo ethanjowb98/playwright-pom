@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l9s99kkk Oriental Granite Table",
+    "category": "beverages",
+    "price": 24.85,
+    "stock": 32,
+    "details": {
+      "brand": "Quitzon Inc",
+      "origin": "New Caledonia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-uhhzgwcj Incredible Aluminum Bacon",
+    "category": "household",
+    "price": 37.71,
+    "stock": 16,
+    "details": {
+      "brand": "Hauck and Sons",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

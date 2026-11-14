@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-86sqyk54 Elegant Wooden Towels",
+    "category": "bakery",
+    "price": 9.71,
+    "stock": 10,
+    "details": {
+      "brand": "Ullrich Group",
+      "origin": "Namibia"
+    }
+  }
+}

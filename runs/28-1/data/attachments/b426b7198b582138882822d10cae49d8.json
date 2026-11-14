@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-hkgsim13 Licensed Cotton Ball",
+    "category": "bakery",
+    "price": 25.09,
+    "stock": 48,
+    "details": {
+      "brand": "Franey-Greenholt, Franecki and Spencer",
+      "origin": "Saint Helena"
+    }
+  }
+}

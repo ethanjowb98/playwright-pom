@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dpy73vrj Fantastic Plastic Keyboard",
+    "category": "fresh-produce",
+    "price": 24.35,
+    "stock": 33,
+    "details": {
+      "brand": "Hessel - Herzog",
+      "origin": "El Salvador"
+    },
+    "weighted": true
+  }
+}

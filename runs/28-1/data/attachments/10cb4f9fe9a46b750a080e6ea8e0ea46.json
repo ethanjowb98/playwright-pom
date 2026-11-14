@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h5rmbphd Rustic Rubber Shirt",
+    "category": "bakery",
+    "price": 17.3,
+    "stock": 42,
+    "details": {
+      "brand": "Langosh and Sons",
+      "origin": "Niue"
+    }
+  }
+}

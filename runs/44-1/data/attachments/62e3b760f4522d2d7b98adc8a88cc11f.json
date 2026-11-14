@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-gloug6uz Small Granite Salad",
+    "category": "other",
+    "price": 1.38,
+    "stock": 12,
+    "details": {
+      "brand": "Koepp, Miller and Kohler",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

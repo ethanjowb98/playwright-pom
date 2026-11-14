@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4jounc0w Small Concrete Towels",
+    "category": "household",
+    "price": 44.14,
+    "stock": 34,
+    "details": {
+      "brand": "Cummings Inc",
+      "origin": "Portugal"
+    }
+  }
+}

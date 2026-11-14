@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-yftbe9rk Gorgeous Bronze Tuna",
+    "category": "frozen",
+    "price": 17.34,
+    "stock": 0,
+    "details": {
+      "brand": "Ferry, Klocko and Weber",
+      "origin": "Slovenia"
+    }
+  }
+}

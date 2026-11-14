@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ljhoxioz Bespoke Silk Chicken",
+    "category": "bakery",
+    "price": 37.33,
+    "stock": 1.5,
+    "details": {
+      "brand": "Morar - Johnson",
+      "origin": "Japan"
+    }
+  }
+}

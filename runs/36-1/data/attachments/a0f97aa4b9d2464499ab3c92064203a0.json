@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-pmdrtwp3 Tasty Bamboo Fish",
+    "category": "bakery",
+    "price": 10.46,
+    "stock": 22,
+    "details": {
+      "brand": "Daugherty - Trantow",
+      "origin": "Western Sahara"
+    }
+  }
+}

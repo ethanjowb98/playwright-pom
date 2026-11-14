@@ -1,0 +1,15 @@
+{
+  "id": "98ecc9af-a1a8-4efc-8b1b-7609e2a84287",
+  "product_name": "QA-2-o4kievca Recycled Metal Gloves",
+  "category": "bakery",
+  "price": 21.26,
+  "stock": 31,
+  "details": {
+    "brand": "Hessel Inc",
+    "origin": "Faroe Islands"
+  },
+  "temperature_zone": "Dry",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:56.34328+00:00"
+}

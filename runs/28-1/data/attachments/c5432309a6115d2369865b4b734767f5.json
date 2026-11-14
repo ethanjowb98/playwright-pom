@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8vog8a7n Soft Metal Soap",
+    "category": "meat-seafood",
+    "price": 39.9,
+    "stock": 2,
+    "details": {
+      "brand": "Torp, Koss and Fisher",
+      "origin": "Micronesia"
+    }
+  }
+}

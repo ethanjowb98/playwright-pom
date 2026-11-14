@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9ymthq0q Handcrafted Wooden Table",
+    "category": "other",
+    "price": 43.09,
+    "stock": 27,
+    "details": {
+      "brand": "Douglas Inc",
+      "origin": "Réunion"
+    }
+  }
+}

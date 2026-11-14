@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-pfsy162p sort Alpha",
+    "category": "bakery",
+    "price": 39.71,
+    "stock": 38,
+    "details": {
+      "brand": "Zemlak - Hoeger",
+      "origin": "Côte d'Ivoire"
+    }
+  }
+}

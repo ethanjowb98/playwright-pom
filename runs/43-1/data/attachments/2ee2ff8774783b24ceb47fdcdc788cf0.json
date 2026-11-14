@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-y8tojpzr Recycled Ceramic Chair",
+    "category": "fresh-produce",
+    "price": 31.33,
+    "stock": 35,
+    "details": {
+      "brand": "Mante LLC",
+      "origin": "Saint Lucia"
+    },
+    "weighted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-jolxsw5z Frozen Concrete Shoes",
+    "category": "household",
+    "price": 45.31,
+    "stock": 42,
+    "details": {
+      "brand": "Klein, Mitchell and O'Connell",
+      "origin": "Papua New Guinea"
+    }
+  }
+}

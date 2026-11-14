@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kuhqveql Gorgeous Plastic Hat",
+    "category": "dairy-eggs",
+    "price": 15.64,
+    "stock": 45,
+    "details": {
+      "brand": "Terry - Ritchie",
+      "origin": "Uzbekistan"
+    }
+  }
+}

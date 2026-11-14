@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-2t54bzuw Fantastic Granite Soap",
+    "category": "meat-seafood",
+    "price": 2.01,
+    "stock": 1.5,
+    "details": {
+      "brand": "Hirthe - Denesik",
+      "origin": "Montenegro"
+    }
+  }
+}

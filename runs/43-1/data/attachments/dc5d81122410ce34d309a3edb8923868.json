@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nv51rlkg Rustic Marble Keyboard",
+    "category": "frozen",
+    "price": 11.61,
+    "stock": 16,
+    "details": {
+      "brand": "Parker - Ratke",
+      "origin": "Nepal"
+    }
+  }
+}

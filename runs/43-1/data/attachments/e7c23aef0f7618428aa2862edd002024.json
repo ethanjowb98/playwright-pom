@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4bilfvve Electronic Rubber Chips",
+    "category": "snacks",
+    "price": 37.77,
+    "stock": 41,
+    "details": {
+      "brand": "Mills - Von",
+      "origin": "Tajikistan"
+    }
+  }
+}

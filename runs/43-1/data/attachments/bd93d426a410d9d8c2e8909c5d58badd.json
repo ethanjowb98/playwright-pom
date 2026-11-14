@@ -1,0 +1,15 @@
+{
+  "id": "52b060a2-cc0e-4458-88bc-600910798ac0",
+  "product_name": "QA-5-4qbrcwm3 Tasty Gold Shoes",
+  "category": "snacks",
+  "price": 7.68,
+  "stock": 29,
+  "details": {
+    "brand": "Kutch - Windler",
+    "origin": "Botswana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:50.79476+00:00"
+}

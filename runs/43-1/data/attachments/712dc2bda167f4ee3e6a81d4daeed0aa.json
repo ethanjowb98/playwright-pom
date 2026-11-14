@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6oxmvvfb Ergonomic Cotton Bacon",
+    "category": "household",
+    "price": 34.76,
+    "stock": 29,
+    "details": {
+      "brand": "Toy - Schmitt",
+      "origin": "Greece"
+    }
+  }
+}

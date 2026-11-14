@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rc0ou9pt Gorgeous Bamboo Towels",
+    "category": "meat-seafood",
+    "price": 1.16,
+    "stock": 15,
+    "details": {
+      "brand": "Feil LLC",
+      "origin": "El Salvador"
+    }
+  }
+}

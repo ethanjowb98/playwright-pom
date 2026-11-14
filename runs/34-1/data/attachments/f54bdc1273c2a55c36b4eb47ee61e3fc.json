@@ -1,0 +1,15 @@
+{
+  "id": "81cb288a-035e-4134-9b41-64297cb26e1d",
+  "product_name": "QA-3-v441d6vd Frozen Ceramic Towels",
+  "category": "snacks",
+  "price": 45.61,
+  "stock": 24,
+  "details": {
+    "brand": "Swaniawski Group",
+    "origin": "Central African Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:19:05.287334+00:00"
+}

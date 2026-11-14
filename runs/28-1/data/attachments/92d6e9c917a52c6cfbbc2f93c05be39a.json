@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w9jbqjzp Recycled Silk Gloves",
+    "category": "meat-seafood",
+    "price": 43.81,
+    "stock": 11,
+    "details": {
+      "brand": "Funk - Bechtelar-Kessler",
+      "origin": "Montserrat"
+    }
+  }
+}

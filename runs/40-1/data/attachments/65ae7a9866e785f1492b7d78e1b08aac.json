@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-j34xtuuj sort Charlie",
+    "category": "other",
+    "price": 3.4,
+    "stock": 17,
+    "details": {
+      "brand": "Sauer Group",
+      "origin": "Guernsey"
+    }
+  }
+}

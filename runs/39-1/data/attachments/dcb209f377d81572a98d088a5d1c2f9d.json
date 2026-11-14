@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-7dhpw0kw Licensed Cotton Sausages",
+    "category": "frozen",
+    "price": 17.42,
+    "stock": 15,
+    "details": {
+      "brand": "O'Connell and Sons",
+      "origin": "Australia"
+    }
+  }
+}

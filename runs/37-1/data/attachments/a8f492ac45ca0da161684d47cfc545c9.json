@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vdfg7hfh Sleek Granite Salad",
+    "category": "beverages",
+    "price": 38.81,
+    "stock": 49,
+    "details": {
+      "brand": "Konopelski - Murray",
+      "origin": "Virgin Islands, British"
+    }
+  }
+}

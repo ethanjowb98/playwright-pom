@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-mgnk4wb8 Generic Gold Shoes",
+    "category": "pantry",
+    "price": 20.61,
+    "stock": 37,
+    "details": {
+      "brand": "Cassin Inc",
+      "origin": "Peru"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

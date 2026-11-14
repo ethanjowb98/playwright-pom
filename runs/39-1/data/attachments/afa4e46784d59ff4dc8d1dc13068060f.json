@@ -1,0 +1,15 @@
+{
+  "id": "aedfe038-b35b-473f-af68-51f98b10d03f",
+  "product_name": "QA-1-78tz2ae7 Bespoke Aluminum Table",
+  "category": "bakery",
+  "price": 29.2,
+  "stock": 30,
+  "details": {
+    "brand": "Turcotte Group",
+    "origin": "Albania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:37:30.943837+00:00"
+}

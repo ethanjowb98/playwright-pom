@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dljvmi85 Practical Bamboo Fish",
+    "category": "beverages",
+    "price": 28.33,
+    "stock": 37,
+    "details": {
+      "brand": "Volkman - Sporer",
+      "origin": "Åland Islands"
+    }
+  }
+}

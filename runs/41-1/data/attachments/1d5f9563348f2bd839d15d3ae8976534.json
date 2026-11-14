@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ypy3mjk Modern Rubber Table",
+    "category": "household",
+    "price": 30.2,
+    "stock": 24,
+    "details": {
+      "brand": "Jacobs - Fritsch-Wisoky",
+      "origin": "Turkmenistan"
+    }
+  }
+}

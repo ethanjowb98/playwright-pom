@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0tlkfqxy Ergonomic Plastic Keyboard",
+    "category": "snacks",
+    "price": 5.08,
+    "stock": 50,
+    "details": {
+      "brand": "Ryan - Braun",
+      "origin": "Saint Barthélemy"
+    }
+  }
+}

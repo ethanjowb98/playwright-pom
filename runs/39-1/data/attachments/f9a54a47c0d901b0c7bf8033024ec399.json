@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h58605eh Incredible Bronze Keyboard",
+    "category": "frozen",
+    "price": 4.41,
+    "stock": 13,
+    "details": {
+      "brand": "Grady - Kris",
+      "origin": "Angola"
+    }
+  }
+}

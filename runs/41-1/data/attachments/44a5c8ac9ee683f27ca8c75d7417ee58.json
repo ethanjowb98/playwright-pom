@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ih7ltc8z Modern Aluminum Soap",
+    "category": "bakery",
+    "price": 36.7,
+    "stock": 33,
+    "details": {
+      "brand": "Yundt, Kautzer and Stanton",
+      "origin": "South Africa"
+    }
+  }
+}

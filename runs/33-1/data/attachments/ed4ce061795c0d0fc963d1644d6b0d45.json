@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4hbgm0sg Small Silk Sausages",
+    "category": "bakery",
+    "price": 7.46,
+    "stock": 28,
+    "details": {
+      "brand": "Schimmel Group",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

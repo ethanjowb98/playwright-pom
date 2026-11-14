@@ -1,0 +1,15 @@
+{
+  "id": "32612eac-df73-4063-aeb1-5a54b54c052d",
+  "product_name": "QA-2-exec7uqh Elegant Concrete Salad",
+  "category": "fresh-produce",
+  "price": 17.88,
+  "stock": 50,
+  "details": {
+    "brand": "Kling, Stanton and Veum",
+    "origin": "Timor-Leste"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:32.733402+00:00"
+}

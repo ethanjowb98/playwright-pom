@@ -1,0 +1,15 @@
+{
+  "id": "1dff9241-01f2-4205-976b-88ecd4c50e25",
+  "product_name": "QA-1-cx7nntwr Bespoke Steel Table",
+  "category": "household",
+  "price": 3.13,
+  "stock": 2,
+  "details": {
+    "brand": "Steuber and Sons",
+    "origin": "Benin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:40:18.950141+00:00"
+}

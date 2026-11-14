@@ -1,0 +1,15 @@
+{
+  "id": "d315a2bf-7926-4b74-aa51-5bd0c1169cd4",
+  "product_name": "QA-4-etrnag0k Elegant Concrete Cheese",
+  "category": "fresh-produce",
+  "price": 17.86,
+  "stock": 21,
+  "details": {
+    "brand": "Parker, Mitchell and Cremin",
+    "origin": "Lao People's Democratic Republic"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:29.49446+00:00"
+}

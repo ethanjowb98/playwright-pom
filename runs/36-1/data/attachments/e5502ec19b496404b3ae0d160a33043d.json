@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kgzbz2uc Ergonomic Rubber Cheese",
+    "category": "dairy-eggs",
+    "price": 31.89,
+    "stock": 22,
+    "details": {
+      "brand": "Ratke, Friesen and Langosh",
+      "origin": "Cyprus"
+    }
+  }
+}

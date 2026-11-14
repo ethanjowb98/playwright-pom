@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j3i63cfi Incredible Concrete Mouse",
+    "category": "pantry",
+    "price": 12.98,
+    "stock": 27,
+    "details": {
+      "brand": "Goodwin - Wilderman",
+      "origin": "Guadeloupe"
+    }
+  }
+}

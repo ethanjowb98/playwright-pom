@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-omo1r92m Unbranded Marble Car",
+    "category": "pantry",
+    "price": 4.4,
+    "stock": 10,
+    "details": {
+      "brand": "Kuhlman, Kuphal and Greenfelder",
+      "origin": "Algeria"
+    }
+  }
+}

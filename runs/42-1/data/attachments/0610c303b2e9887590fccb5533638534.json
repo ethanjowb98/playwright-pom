@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r6tj4xne Incredible Wooden Fish",
+    "category": "fresh-produce",
+    "price": 7.44,
+    "stock": 39,
+    "details": {
+      "brand": "McCullough - Gerhold",
+      "origin": "Kenya"
+    }
+  }
+}

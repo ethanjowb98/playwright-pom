@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-73e7m7ht Rustic Ceramic Table",
+    "category": "pantry",
+    "price": 5.94,
+    "stock": 44,
+    "details": {
+      "brand": "Bergstrom and Sons",
+      "origin": "Zambia"
+    }
+  }
+}

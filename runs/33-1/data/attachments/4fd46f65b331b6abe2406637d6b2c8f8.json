@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "47069d4d-ed2e-4af6-8b9c-258e9ff70649",
+      "product_id": "d8a4b765-84f4-451b-b6cf-f954e9bb8a10",
+      "product_name": "QA-1-v3nlb9pe Awesome Gold Mouse",
+      "price": 44.63,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-05T08:27:52.492396+00:00",
+      "updated_at": "2026-11-05T08:27:52.492396+00:00"
+    },
+    {
+      "id": "9f1e334f-4c7a-4f5f-8b0a-19e86f6dafc8",
+      "product_id": "3a39b274-f97d-471a-afe1-ced606c17568",
+      "product_name": "QA-1-snctngts Generic Aluminum Gloves",
+      "price": 2.44,
+      "category": "bakery",
+      "quantity": 2,
+      "created_at": "2026-11-05T08:27:53.062205+00:00",
+      "updated_at": "2026-11-05T08:27:53.062205+00:00"
+    }
+  ]
+}

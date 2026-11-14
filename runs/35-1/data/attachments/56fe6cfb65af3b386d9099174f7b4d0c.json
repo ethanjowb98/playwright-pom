@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "9bd17958-93c5-4976-b886-05f0fd7f6674",
+    "order_number": "O47304",
+    "status": "pending",
+    "total_amount": 33.93,
+    "created_at": "2026-11-05T10:06:24.122948+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-t1txvzne Intelligent Steel Pizza",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 11.31,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "a3ec5fae-9855-4838-aca5-d017619bda67",
+    "order_number": "O43701",
+    "status": "pending",
+    "total_amount": 16.01,
+    "created_at": "2026-11-10T10:39:49.083412+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-n7mnojwu Generic Steel Hat",
+        "category": "dairy-eggs",
+        "quantity": 1,
+        "price": 16.01,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

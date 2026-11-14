@@ -1,0 +1,15 @@
+{
+  "id": "3131cb1a-3ae2-45a8-aad3-cc33838fcb42",
+  "product_name": "QA-1-6g93xkih Ergonomic Wooden Cheese",
+  "category": "meat-seafood",
+  "price": 9.98,
+  "stock": 36,
+  "details": {
+    "brand": "Armstrong - Kovacek-Miller",
+    "origin": "Saint Helena"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:27:04.998665+00:00"
+}

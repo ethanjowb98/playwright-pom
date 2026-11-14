@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-t3mbnya0 Sleek Bronze Car",
+    "category": "bakery",
+    "price": 4.1,
+    "stock": 33,
+    "details": {
+      "brand": "Dickinson and Sons",
+      "origin": "Jamaica"
+    }
+  }
+}

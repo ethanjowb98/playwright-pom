@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-35c152uh Oriental Steel Tuna",
+    "category": "other",
+    "price": 8.57,
+    "stock": 48,
+    "details": {
+      "brand": "Jakubowski Inc",
+      "origin": "Anguilla"
+    }
+  }
+}

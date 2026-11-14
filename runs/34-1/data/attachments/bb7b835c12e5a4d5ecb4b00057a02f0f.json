@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-nwplz7jb Handmade Silk Pants",
+    "category": "bakery",
+    "price": 2.17,
+    "stock": 33,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

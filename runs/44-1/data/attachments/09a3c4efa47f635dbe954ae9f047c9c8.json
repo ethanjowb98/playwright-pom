@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-rns9lwkw Small Cotton Chicken",
+    "category": "household",
+    "price": 16.41,
+    "stock": 14,
+    "details": {
+      "brand": "Steuber and Sons",
+      "origin": "Micronesia"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

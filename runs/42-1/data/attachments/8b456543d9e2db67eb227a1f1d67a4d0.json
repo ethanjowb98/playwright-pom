@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-8k4603sw Handcrafted Bamboo Ball",
+    "category": "dairy-eggs",
+    "price": 32.31,
+    "stock": 34,
+    "details": {
+      "brand": "Bednar LLC",
+      "origin": "Chile"
+    }
+  }
+}

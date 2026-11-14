@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dz8jaqvn Soft Bronze Ball",
+    "category": "meat-seafood",
+    "price": 17.23,
+    "stock": 16,
+    "details": {
+      "brand": "Torphy, Russel and Hermiston",
+      "origin": "Lithuania"
+    }
+  }
+}

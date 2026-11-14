@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5pg3ljxz Unbranded Granite Shoes",
+    "category": "pantry",
+    "price": 32.11,
+    "stock": 23,
+    "details": {
+      "brand": "Waelchi, Boyle and Morar",
+      "origin": "Iceland"
+    }
+  }
+}

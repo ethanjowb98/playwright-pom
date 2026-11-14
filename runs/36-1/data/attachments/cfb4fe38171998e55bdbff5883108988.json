@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-06zhr4xp Ergonomic Aluminum Mouse",
+    "category": "snacks",
+    "price": 45.71,
+    "stock": 47,
+    "details": {
+      "brand": "Cummings, Bernhard and Monahan",
+      "origin": "Pakistan"
+    }
+  }
+}

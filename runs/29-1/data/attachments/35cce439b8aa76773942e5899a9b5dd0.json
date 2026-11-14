@@ -1,0 +1,15 @@
+{
+  "id": "1bd6e7e3-7df0-4cc4-be2e-f1a9a1c72434",
+  "product_name": "QA-2-1895x6ls Practical Rubber Car",
+  "category": "snacks",
+  "price": 34.75,
+  "stock": 45,
+  "details": {
+    "brand": "Ruecker - Nienow",
+    "origin": "Sri Lanka"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:48.947242+00:00"
+}

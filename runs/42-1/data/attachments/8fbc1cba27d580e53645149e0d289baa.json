@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vofgey9v sort Alpha",
+    "category": "bakery",
+    "price": 43.5,
+    "stock": 10,
+    "details": {
+      "brand": "Mitchell, Wisozk and Stroman",
+      "origin": "New Caledonia"
+    }
+  }
+}

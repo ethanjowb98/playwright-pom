@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-dh2hzbsd Electronic Marble Sausages",
+    "category": "meat-seafood",
+    "price": 3.58,
+    "stock": 49,
+    "details": {
+      "brand": "Schmidt, Lakin and Spencer",
+      "origin": "Republic of Korea"
+    }
+  }
+}

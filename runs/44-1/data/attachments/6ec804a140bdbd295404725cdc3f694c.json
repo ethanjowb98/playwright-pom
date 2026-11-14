@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-8ouvlqdq Handcrafted Granite Salad",
+    "category": "other",
+    "price": 26.65,
+    "stock": 43,
+    "details": {
+      "brand": "Hand, Howe and Schmitt",
+      "origin": "Belarus"
+    },
+    "weighted": false
+  }
+}

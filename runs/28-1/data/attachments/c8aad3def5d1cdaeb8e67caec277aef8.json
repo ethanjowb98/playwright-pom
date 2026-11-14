@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-8qkljczq sort Bravo",
+    "category": "household",
+    "price": 15.57,
+    "stock": 24,
+    "details": {
+      "brand": "Labadie - Olson",
+      "origin": "Australia"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "857fae85-570d-40bd-8b6d-309a697248c4",
+      "product_id": "5df5ad6c-ad34-43cd-914a-17bcc2a4ba7a",
+      "product_name": "QA-1-3m5wcynj Gorgeous Concrete Bike",
+      "price": 43.4,
+      "category": "bakery",
+      "quantity": 3,
+      "created_at": "2026-11-05T08:25:52.670845+00:00",
+      "updated_at": "2026-11-05T08:25:52.670845+00:00"
+    },
+    {
+      "id": "4e4865c5-c54f-4a60-ac1f-88f9e9ccdb3a",
+      "product_id": "88c9caab-0705-4035-9f40-4356a0b40119",
+      "product_name": "QA-1-hpdp8ev8 Sleek Gold Shoes",
+      "price": 44.29,
+      "category": "frozen",
+      "quantity": 2,
+      "created_at": "2026-11-05T08:25:53.255599+00:00",
+      "updated_at": "2026-11-05T08:25:53.255599+00:00"
+    }
+  ]
+}

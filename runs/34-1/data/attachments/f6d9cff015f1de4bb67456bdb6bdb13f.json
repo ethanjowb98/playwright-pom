@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xxfki4yu Practical Gold Sausages",
+    "category": "bakery",
+    "price": 39.39,
+    "stock": 42,
+    "details": {
+      "brand": "Dach - Toy",
+      "origin": "Macao"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "d89df634-930e-45ca-9910-70e6e4d71428",
+  "order_number": "O88587",
+  "status": "pending",
+  "total_amount": 108,
+  "notes": null,
+  "created_at": "2026-11-10T10:39:45.372935+00:00",
+  "updated_at": "2026-11-10T10:39:45.372935+00:00",
+  "items": [
+    {
+      "product_id": "17ac39d2-8927-4492-8c44-7a2e721c8468",
+      "product_name": "QA-1-bwkclwbc Licensed Steel Chips",
+      "category": "meat-seafood",
+      "quantity": 3,
+      "price": 36,
+      "temperature_zone": null
+    }
+  ]
+}

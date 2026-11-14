@@ -1,0 +1,33 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "432eda72-0e1f-4e07-b14a-12bbace64ce1",
+    "order_number": "O14589",
+    "status": "pending",
+    "total_amount": 277.03,
+    "created_at": "2026-11-05T08:25:44.109549+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-lg3pj8gy Fresh Plastic Pizza",
+        "category": "fresh-produce",
+        "quantity": 2,
+        "price": 18.68,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-b835phxo Elegant Aluminum Bike",
+        "category": "other",
+        "quantity": 3,
+        "price": 45.61,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-idpe7a2e Modern Concrete Bacon",
+        "category": "dairy-eggs",
+        "quantity": 3,
+        "price": 34.28,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "642b94e8-db5b-4b46-8014-b21209a20b64",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "processing",
+    "total_amount": 48.62,
+    "notes": null,
+    "created_at": "2026-11-14T09:39:58.640193+00:00",
+    "updated_at": "2026-11-14T09:39:58.640193+00:00",
+    "order_number": "O14433"
+  }
+}

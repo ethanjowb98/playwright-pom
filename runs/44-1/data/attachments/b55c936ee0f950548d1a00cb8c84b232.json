@@ -1,0 +1,15 @@
+{
+  "id": "84581978-5dd0-434d-ad01-3fbbf9fbd72b",
+  "product_name": "QA-1-azdl6ajt Oriental Gold Cheese",
+  "category": "frozen",
+  "price": 30.47,
+  "stock": 35,
+  "details": {
+    "brand": "Hegmann - Luettgen",
+    "origin": "Oman"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:49.95066+00:00"
+}

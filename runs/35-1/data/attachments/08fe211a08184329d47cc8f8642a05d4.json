@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "492398df-8b33-4fd7-90a3-ad24bb85b19d",
+    "order_number": "O27470",
+    "status": "pending",
+    "total_amount": 31.28,
+    "created_at": "2026-11-05T10:03:35.697215+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-kuhqveql Gorgeous Plastic Hat",
+        "category": "dairy-eggs",
+        "quantity": 2,
+        "price": 15.64,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

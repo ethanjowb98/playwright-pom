@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kkecdqmn Recycled Aluminum Keyboard",
+    "category": "other",
+    "price": 40.42,
+    "stock": 46,
+    "details": {
+      "brand": "Connelly and Sons",
+      "origin": "Saint Barthélemy"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "a1e0a2ae-2040-479b-9d47-f4325a763721",
+  "product_name": "QA-3-0gogfyqc Modern Rubber Computer",
+  "category": "fresh-produce",
+  "price": 32.43,
+  "stock": 28,
+  "details": {
+    "brand": "Reinger - Halvorson",
+    "origin": "Yemen"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:34.119153+00:00"
+}

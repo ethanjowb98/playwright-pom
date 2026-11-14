@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-10vogdqq Licensed Ceramic Sausages",
+    "category": "other",
+    "price": 1.2,
+    "stock": 42,
+    "details": {
+      "brand": "Goldner, Swaniawski and Green",
+      "origin": "Indonesia"
+    }
+  }
+}

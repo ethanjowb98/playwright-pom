@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-8trj71yi sort Alpha",
+    "category": "snacks",
+    "price": 29.9,
+    "stock": 47,
+    "details": {
+      "brand": "Shanahan, Harvey and Kling",
+      "origin": "Zimbabwe"
+    }
+  }
+}

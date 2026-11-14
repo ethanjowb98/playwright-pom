@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gvt0jih1 Practical Metal Pants",
+    "category": "pantry",
+    "price": 19.28,
+    "stock": 42,
+    "details": {
+      "brand": "Walter and Sons",
+      "origin": "Norway"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

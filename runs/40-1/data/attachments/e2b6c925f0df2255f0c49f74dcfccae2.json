@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-m2d41r9g Modern Bronze Car",
+    "category": "other",
+    "price": "abc",
+    "stock": 35,
+    "details": {
+      "brand": "Mosciski, Hilll and Schultz",
+      "origin": "Morocco"
+    }
+  }
+}

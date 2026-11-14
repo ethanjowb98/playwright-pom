@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6gzoqr3p Awesome Aluminum Ball",
+    "category": "fresh-produce",
+    "price": 40.78,
+    "stock": 24,
+    "details": {
+      "brand": "Bradtke Group",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

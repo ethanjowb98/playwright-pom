@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "3e75485e-e927-484c-a31b-ad4c04ddb915",
+    "order_number": "O16717",
+    "status": "pending",
+    "total_amount": 56.23,
+    "created_at": "2026-11-14T09:42:52.438445+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-jzroxuku Handcrafted Bamboo Bike",
+        "category": "frozen",
+        "quantity": 1,
+        "price": 8.3,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-81p1jlri Luxurious Aluminum Chicken",
+        "category": "pantry",
+        "quantity": 1,
+        "price": 47.93,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

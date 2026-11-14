@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "e0a58920-739b-4128-a217-5d6bc690ab48",
+    "order_number": "O27130",
+    "status": "pending",
+    "total_amount": 146.19,
+    "created_at": "2026-11-12T10:30:40.708063+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-716eut09 Luxurious Concrete Shirt",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 48.73,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

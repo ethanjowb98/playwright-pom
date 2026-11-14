@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-fggx5i30 Soft Bamboo Fish",
+    "category": "bakery",
+    "price": 45.82,
+    "stock": 19,
+    "details": {
+      "brand": "Rogahn - Klocko",
+      "origin": "Sierra Leone"
+    }
+  }
+}

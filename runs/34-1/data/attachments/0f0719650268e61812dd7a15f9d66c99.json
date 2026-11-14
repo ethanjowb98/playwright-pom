@@ -1,0 +1,15 @@
+{
+  "id": "08fe8430-02fb-49a9-b338-94625489580f",
+  "product_name": "QA-1-2x736a5l Intelligent Silk Tuna",
+  "category": "beverages",
+  "price": 13.5,
+  "stock": 12,
+  "details": {
+    "brand": "Hickle Group",
+    "origin": "Cambodia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:42.362083+00:00"
+}

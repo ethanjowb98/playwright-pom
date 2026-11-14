@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zqgyvkfy Bespoke Bronze Mouse",
+    "category": "frozen",
+    "price": 33.43,
+    "stock": 22,
+    "details": {
+      "brand": "Halvorson, Keeling and Witting",
+      "origin": "Republic of Korea"
+    }
+  }
+}

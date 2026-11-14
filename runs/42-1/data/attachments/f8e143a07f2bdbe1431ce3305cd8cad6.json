@@ -1,0 +1,15 @@
+{
+  "id": "e48a24af-3ec9-4629-a6a9-f1b0fd1e97f1",
+  "product_name": "QA-1-g3mtbhcr Small Cotton Tuna",
+  "category": "dairy-eggs",
+  "price": 14.62,
+  "stock": 18,
+  "details": {
+    "brand": "Tremblay, Reichel and O'Conner",
+    "origin": "Réunion"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:31:47.698563+00:00"
+}

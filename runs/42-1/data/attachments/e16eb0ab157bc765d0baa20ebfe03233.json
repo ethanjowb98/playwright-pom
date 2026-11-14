@@ -1,0 +1,15 @@
+{
+  "id": "681f9a75-4e11-4951-b9fa-decbfa052dfc",
+  "product_name": "QA-8-9b6q0i4z Unbranded Rubber Salad",
+  "category": "meat-seafood",
+  "price": 10.96,
+  "stock": 18,
+  "details": {
+    "brand": "Schroeder - Cartwright",
+    "origin": "Tonga"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:35.639081+00:00"
+}

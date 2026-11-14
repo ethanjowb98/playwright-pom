@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-78tz2ae7 Bespoke Aluminum Table",
+    "category": "bakery",
+    "price": 29.2,
+    "stock": 30,
+    "details": {
+      "brand": "Turcotte Group",
+      "origin": "Albania"
+    }
+  }
+}

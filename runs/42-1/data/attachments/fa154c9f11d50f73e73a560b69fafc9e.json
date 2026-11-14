@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i9glzuoo Elegant Steel Chips",
+    "category": "meat-seafood",
+    "price": 2.51,
+    "stock": 23,
+    "details": {
+      "brand": "Murazik-Grady, Brakus and Shanahan",
+      "origin": "Guinea"
+    }
+  }
+}

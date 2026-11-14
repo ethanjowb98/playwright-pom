@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9nebzqiu Unbranded Rubber Tuna",
+    "category": "beverages",
+    "price": 48.28,
+    "stock": 18,
+    "details": {
+      "brand": "Jenkins - Erdman",
+      "origin": "Lesotho"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qh2tbm4n Luxurious Marble Hat",
+    "category": "beverages",
+    "price": 7.5,
+    "stock": 30,
+    "details": {
+      "brand": "Volkman, Feil and Thompson",
+      "origin": "Antarctica"
+    }
+  }
+}

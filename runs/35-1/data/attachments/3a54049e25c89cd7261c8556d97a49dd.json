@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-0fdg0exz Electronic Granite Chair",
+    "category": "meat-seafood",
+    "price": 50,
+    "stock": 28,
+    "details": {
+      "brand": "Flatley LLC",
+      "origin": "Bahrain"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

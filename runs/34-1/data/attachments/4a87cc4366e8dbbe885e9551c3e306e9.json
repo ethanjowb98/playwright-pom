@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-osachw6j Sleek Bamboo Bacon",
+    "category": "pantry",
+    "price": 36.62,
+    "stock": 1.5,
+    "details": {
+      "brand": "Corwin Group",
+      "origin": "New Zealand"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ed390d70-eebd-4ed1-96e1-639d89aa9850",
+  "order_number": "O34161",
+  "status": "shipped",
+  "total_amount": 28.71,
+  "notes": null,
+  "created_at": "2026-11-09T10:37:44.748583+00:00",
+  "updated_at": "2026-11-09T10:37:44.748583+00:00",
+  "items": [
+    {
+      "product_id": "79ba9aa0-f12c-4e35-8a55-833035a89f1c",
+      "product_name": "QA-1-9jbpy3yw Frozen Bamboo Soap",
+      "category": "meat-seafood",
+      "quantity": 3,
+      "price": 9.57,
+      "temperature_zone": null
+    }
+  ]
+}

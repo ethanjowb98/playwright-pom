@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o5yg79c4 Rustic Aluminum Pizza",
+    "category": "frozen",
+    "price": 2.24,
+    "stock": 23,
+    "details": {
+      "brand": "Kozey, McCullough and Carroll",
+      "origin": "Samoa"
+    }
+  }
+}

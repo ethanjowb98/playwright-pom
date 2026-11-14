@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "e55a8b9e-3af1-49b3-830e-38b8a661cbd0",
+    "order_number": "O52123",
+    "status": "pending",
+    "total_amount": 75.99,
+    "created_at": "2026-11-05T08:21:13.320666+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-uv8ub3pu Modern Cotton Keyboard",
+        "category": "household",
+        "quantity": 3,
+        "price": 25.33,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

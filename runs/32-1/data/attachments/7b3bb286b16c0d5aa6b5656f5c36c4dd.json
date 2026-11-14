@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mbzsap6p Soft Concrete Soap",
+    "category": "beverages",
+    "price": 24.19,
+    "stock": 20,
+    "details": {
+      "brand": "Adams, Prohaska and Stroman",
+      "origin": "Cook Islands"
+    }
+  }
+}

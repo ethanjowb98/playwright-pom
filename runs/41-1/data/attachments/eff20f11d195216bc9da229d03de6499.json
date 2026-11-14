@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-vh9t684g Unbranded Marble Cheese",
+    "category": "beverages",
+    "price": 49.38,
+    "stock": 15,
+    "details": {
+      "brand": "Crona - Adams",
+      "origin": "Guinea"
+    }
+  }
+}

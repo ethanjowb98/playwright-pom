@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ehy5s1g1 Soft Ceramic Car",
+    "category": "other",
+    "price": 2.4,
+    "stock": 40,
+    "details": {
+      "brand": "Reynolds and Sons",
+      "origin": "Guatemala"
+    }
+  }
+}

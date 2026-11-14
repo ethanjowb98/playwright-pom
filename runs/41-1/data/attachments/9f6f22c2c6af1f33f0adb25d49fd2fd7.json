@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-wg7pftqc Fantastic Rubber Mouse",
+    "category": "other",
+    "price": 32.19,
+    "stock": 10,
+    "details": {
+      "brand": "O'Kon - Tillman",
+      "origin": "Burkina Faso"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

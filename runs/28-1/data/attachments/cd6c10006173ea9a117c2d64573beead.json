@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-czzdla6j Ergonomic Marble Bacon",
+    "category": "other",
+    "price": 50,
+    "stock": 30,
+    "details": {
+      "brand": "Lemke-Wilkinson - Shanahan",
+      "origin": "Tanzania"
+    }
+  }
+}

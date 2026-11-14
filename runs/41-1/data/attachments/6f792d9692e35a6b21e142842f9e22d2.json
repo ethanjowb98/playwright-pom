@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-clhifff5 Sleek Steel Chips",
+    "category": "bakery",
+    "price": 49.49,
+    "stock": 19,
+    "details": {
+      "brand": "Parisian - Ebert",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

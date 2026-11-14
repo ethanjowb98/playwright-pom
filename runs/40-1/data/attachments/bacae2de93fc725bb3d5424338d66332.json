@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-v0zs4837 Modern Marble Ball",
+    "category": "beverages",
+    "price": 10.28,
+    "stock": 31,
+    "details": {
+      "brand": "Shanahan Inc",
+      "origin": "Bermuda"
+    }
+  }
+}

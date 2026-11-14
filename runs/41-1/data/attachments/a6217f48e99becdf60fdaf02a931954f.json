@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-r34g4q1s Licensed Granite Mouse",
+    "category": "household",
+    "price": 23.54,
+    "stock": 34,
+    "details": {
+      "brand": "Hyatt Inc",
+      "origin": "Guatemala"
+    }
+  }
+}

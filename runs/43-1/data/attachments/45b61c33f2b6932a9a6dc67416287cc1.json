@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "3d82cda2-847e-47c0-a60e-16e61016b862",
+    "order_number": "O86308",
+    "status": "pending",
+    "total_amount": 90.93,
+    "created_at": "2026-11-13T10:20:40.897072+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-a4ee4b85 Luxurious Rubber Towels",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 30.31,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

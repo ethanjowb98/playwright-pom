@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5uskgg3h Sleek Wooden Gloves",
+    "category": "household",
+    "price": 16.18,
+    "stock": 21,
+    "details": {
+      "brand": "Runte - McKenzie-Bauch",
+      "origin": "New Zealand"
+    }
+  }
+}

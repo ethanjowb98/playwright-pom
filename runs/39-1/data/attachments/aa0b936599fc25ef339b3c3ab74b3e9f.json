@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-d8ri2z69 Practical Aluminum Shirt",
+    "category": "snacks",
+    "price": 37.21,
+    "stock": 45,
+    "details": {
+      "brand": "Mueller Group",
+      "origin": "Congo"
+    }
+  }
+}

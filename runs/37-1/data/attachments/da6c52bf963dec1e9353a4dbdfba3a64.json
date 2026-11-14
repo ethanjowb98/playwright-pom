@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "f3920f14-3d6c-45b9-b416-02250ccec5f1",
+    "order_number": "O10315",
+    "status": "pending",
+    "total_amount": 100.65,
+    "created_at": "2026-11-07T09:27:15.002561+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-7fiog1wf Rustic Bamboo Hat",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 33.55,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

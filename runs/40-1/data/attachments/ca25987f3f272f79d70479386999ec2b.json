@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d4fh4nvv Licensed Bronze Bacon",
+    "category": "snacks",
+    "price": 33.01,
+    "stock": 10,
+    "details": {
+      "brand": "Hilll Group",
+      "origin": "Democratic Republic of the Congo"
+    }
+  }
+}

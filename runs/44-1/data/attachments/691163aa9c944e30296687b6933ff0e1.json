@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qu8ykxyg Sleek Bronze Salad",
+    "category": "fresh-produce",
+    "price": 39.15,
+    "stock": 20,
+    "details": {
+      "brand": "Hegmann, Gleichner and Hodkiewicz",
+      "origin": "San Marino"
+    }
+  }
+}

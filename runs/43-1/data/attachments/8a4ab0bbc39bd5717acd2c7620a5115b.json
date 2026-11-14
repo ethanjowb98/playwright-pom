@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xi9lf559 Intelligent Granite Shirt",
+    "category": "dairy-eggs",
+    "price": 19.39,
+    "stock": 2,
+    "details": {
+      "brand": "Satterfield LLC",
+      "origin": "Iraq"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o8l21gvp Electronic Ceramic Mouse",
+    "category": "beverages",
+    "price": 45.2,
+    "stock": 44,
+    "details": {
+      "brand": "Lebsack, Haag and Okuneva",
+      "origin": "Philippines"
+    }
+  }
+}

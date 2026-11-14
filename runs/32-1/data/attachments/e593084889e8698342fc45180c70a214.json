@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wb4u4mld Soft Wooden Shirt",
+    "category": "bakery",
+    "price": 15.74,
+    "stock": 17,
+    "details": {
+      "brand": "Mraz, Bode and Ritchie-Robel",
+      "origin": "Taiwan"
+    }
+  }
+}

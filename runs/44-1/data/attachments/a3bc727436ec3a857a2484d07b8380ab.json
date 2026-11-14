@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-iwxajmb2 Rustic Bamboo Chair",
+    "category": "snacks",
+    "price": 3.37,
+    "stock": 36,
+    "details": {
+      "brand": "Schmitt-Towne - Schroeder",
+      "origin": "Iran"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2ul9s208 Gorgeous Cotton Gloves",
+    "category": "snacks",
+    "price": 23.32,
+    "stock": 42,
+    "details": {
+      "brand": "Marks, Wiegand-Kuhlman and Kuhic",
+      "origin": "Sweden"
+    }
+  }
+}

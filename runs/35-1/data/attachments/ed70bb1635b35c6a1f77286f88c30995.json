@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-obrtgqlt Luxurious Ceramic Towels",
+    "category": "snacks",
+    "price": 13.88,
+    "stock": 17,
+    "details": {
+      "brand": "Dietrich and Sons",
+      "origin": "Portugal"
+    }
+  }
+}

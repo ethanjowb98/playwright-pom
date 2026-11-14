@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-idepqg4h Fantastic Wooden Fish",
+    "category": "dairy-eggs",
+    "price": 30.61,
+    "stock": 22,
+    "details": {
+      "brand": "Volkman, Leuschke and Moen",
+      "origin": "Tunisia"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

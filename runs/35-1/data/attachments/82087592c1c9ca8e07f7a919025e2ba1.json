@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-5nh6l96f Gorgeous Ceramic Chips",
+    "category": "dairy-eggs",
+    "price": 2.37,
+    "stock": 15,
+    "details": {
+      "brand": "Morar - Harris",
+      "origin": "Eritrea"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-o6y4kz6h Unbranded Rubber Soap",
+    "category": "snacks",
+    "price": 14.18,
+    "stock": 28,
+    "details": {
+      "batch": "QA-6-cuz49dqt batch"
+    }
+  }
+}

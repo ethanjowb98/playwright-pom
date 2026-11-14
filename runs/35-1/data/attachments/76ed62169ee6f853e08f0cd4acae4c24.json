@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0uc4ecfm Generic Cotton Chips",
+    "category": "dairy-eggs",
+    "price": 21.97,
+    "stock": 30,
+    "details": {
+      "brand": "Hamill - Batz",
+      "origin": "Estonia"
+    }
+  }
+}

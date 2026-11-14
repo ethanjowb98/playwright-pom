@@ -1,0 +1,15 @@
+{
+  "id": "f3e310b4-1607-40f4-8c85-4d48b79b6324",
+  "product_name": "QA-2-w1d3g64r sort Bravo",
+  "category": "beverages",
+  "price": 33.61,
+  "stock": 25,
+  "details": {
+    "brand": "Reinger, Reinger and Conn-Durgan",
+    "origin": "Thailand"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:04.691022+00:00"
+}

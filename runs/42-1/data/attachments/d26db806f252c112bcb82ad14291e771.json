@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-dk5mhlo2 Handcrafted Silk Shoes",
+    "category": "snacks",
+    "price": 33.26,
+    "stock": 31,
+    "details": {
+      "batch": "QA-6-codhbdzl batch"
+    }
+  }
+}

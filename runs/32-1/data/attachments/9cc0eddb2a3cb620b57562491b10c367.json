@@ -1,0 +1,15 @@
+{
+  "id": "da53cbb6-140a-45ee-b5fb-24b39952320f",
+  "product_name": "QA-3-c19lvt0q sort Bravo",
+  "category": "snacks",
+  "price": 23.44,
+  "stock": 41,
+  "details": {
+    "brand": "Harvey - Witting",
+    "origin": "Belize"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:51.303362+00:00"
+}

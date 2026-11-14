@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-qq291eoc Handmade Aluminum Shirt",
+    "category": "snacks",
+    "price": 11.46,
+    "stock": 10,
+    "details": {
+      "brand": "Koch LLC",
+      "origin": "Papua New Guinea"
+    }
+  }
+}

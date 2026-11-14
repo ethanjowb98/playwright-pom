@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tg4c9c2a Intelligent Silk Tuna",
+    "category": "frozen",
+    "price": 12.17,
+    "stock": 10,
+    "details": {
+      "brand": "Vandervort - Altenwerth",
+      "origin": "Bahamas"
+    }
+  }
+}

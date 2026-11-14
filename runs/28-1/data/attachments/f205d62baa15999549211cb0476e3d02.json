@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e5vowhm0 Gorgeous Gold Cheese",
+    "category": "other",
+    "price": 32.73,
+    "stock": 47,
+    "details": {
+      "brand": "McDermott, Wiegand and Osinski",
+      "origin": "Zimbabwe"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4z0p3dff Fantastic Metal Car",
+    "category": "other",
+    "price": 24.91,
+    "stock": 22,
+    "details": {
+      "brand": "Haag LLC",
+      "origin": "Paraguay"
+    }
+  }
+}

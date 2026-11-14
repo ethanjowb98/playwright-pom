@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v3btxcqe Small Silk Fish",
+    "category": "fresh-produce",
+    "price": 43.03,
+    "stock": 19,
+    "details": {
+      "brand": "Reilly - Konopelski",
+      "origin": "Marshall Islands"
+    }
+  }
+}

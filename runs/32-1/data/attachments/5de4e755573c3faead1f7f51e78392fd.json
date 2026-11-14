@@ -1,0 +1,15 @@
+{
+  "id": "46b9c870-2d96-4085-ae50-ef8d01797f1d",
+  "product_name": "QA-3-5y0nndcd Fresh Wooden Tuna",
+  "category": "bakery",
+  "price": 22.74,
+  "stock": 38,
+  "details": {
+    "brand": "Bruen and Sons",
+    "origin": "Netherlands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:09.016287+00:00"
+}

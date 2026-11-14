@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "e1eab369-45e8-49ae-ae81-8d8a2dc66499",
+      "product_id": "ceac5fb4-7e39-4c78-a557-47c051be2105",
+      "product_name": "QA-1-n7mnojwu Generic Steel Hat",
+      "price": 16.01,
+      "category": "dairy-eggs",
+      "quantity": 1,
+      "created_at": "2026-11-10T10:39:48.249907+00:00",
+      "updated_at": "2026-11-10T10:39:48.249907+00:00"
+    }
+  ]
+}

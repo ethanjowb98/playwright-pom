@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ua5qfeed Small Cotton Shirt",
+    "category": "household",
+    "price": 45.46,
+    "stock": 48,
+    "details": {
+      "brand": "Collins and Sons",
+      "origin": "Sri Lanka"
+    }
+  }
+}

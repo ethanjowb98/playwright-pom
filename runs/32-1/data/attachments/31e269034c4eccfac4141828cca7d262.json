@@ -1,0 +1,19 @@
+{
+  "id": "ec8a83f0-c13a-40cc-86a7-a52e59e391de",
+  "order_number": "O79321",
+  "status": "cancelled",
+  "total_amount": 37.23,
+  "notes": null,
+  "created_at": "2026-11-05T08:23:00.586255+00:00",
+  "updated_at": "2026-11-05T08:23:00.586255+00:00",
+  "items": [
+    {
+      "product_id": "e9c08ad5-8a7e-4759-94dc-a4535e8c8dc2",
+      "product_name": "QA-1-6u6hj7jj Fantastic Silk Salad",
+      "category": "beverages",
+      "quantity": 3,
+      "price": 12.41,
+      "temperature_zone": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-q3bcu7qm Luxurious Metal Bike",
+    "category": "bakery",
+    "price": 3.62,
+    "stock": 36,
+    "details": {
+      "brand": "Lemke LLC",
+      "origin": "Kazakhstan"
+    }
+  }
+}

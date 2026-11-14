@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ob2y59yk Intelligent Gold Bacon",
+    "category": "other",
+    "price": "abc",
+    "stock": 47,
+    "details": {
+      "brand": "Greenfelder Inc",
+      "origin": "Honduras"
+    }
+  }
+}

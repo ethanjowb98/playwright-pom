@@ -1,0 +1,15 @@
+{
+  "id": "91e007f4-5fb0-49c1-b252-da66209425f7",
+  "product_name": "QA-1-am9lt3nx Bespoke Wooden Hat",
+  "category": "dairy-eggs",
+  "price": 49.3,
+  "stock": 19,
+  "details": {
+    "brand": "Bashirian - Cronin",
+    "origin": "Marshall Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:57.017562+00:00"
+}

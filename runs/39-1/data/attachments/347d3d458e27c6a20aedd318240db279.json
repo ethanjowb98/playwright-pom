@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w5zh3o9r Incredible Aluminum Mouse",
+    "category": "frozen",
+    "price": 9.04,
+    "stock": 48,
+    "details": {
+      "brand": "Haag Inc",
+      "origin": "Slovenia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "1e664e4a-a509-4e42-b92c-3882b4963eab",
+  "product_name": "QA-1-545q0cez Soft Bamboo Computer",
+  "category": "snacks",
+  "price": 10.65,
+  "stock": 32,
+  "details": {
+    "brand": "Bosco - Mayer",
+    "origin": "Eswatini"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:19:09.534522+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bc69abde-0e20-43fc-8d60-0846ddb8d713",
+  "product_name": "QA-1-0h6wgxkx Tasty Silk Pizza",
+  "category": "bakery",
+  "price": 8.28,
+  "stock": 2,
+  "details": {
+    "brand": "Kuphal, Bayer and Schaden",
+    "origin": "Sao Tome and Principe"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:52.938182+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zcqk3wdn Ergonomic Metal Cheese",
+    "category": "pantry",
+    "price": 27.63,
+    "stock": 28,
+    "details": {
+      "brand": "Lehner - Bailey-Batz",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

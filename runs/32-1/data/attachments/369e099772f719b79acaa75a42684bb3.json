@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ea0psby5 sort Charlie",
+    "category": "meat-seafood",
+    "price": 46.82,
+    "stock": 33,
+    "details": {
+      "brand": "Howell and Sons",
+      "origin": "Denmark"
+    }
+  }
+}

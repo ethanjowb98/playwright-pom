@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-db7io22d Handmade Rubber Ball",
+    "category": "pantry",
+    "price": 38.12,
+    "stock": 22,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

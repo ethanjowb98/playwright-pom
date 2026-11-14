@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fj6i1j4l Gorgeous Concrete Sausages",
+    "category": "snacks",
+    "price": 42.46,
+    "stock": 35,
+    "details": {
+      "brand": "Howe, Koepp and O'Conner",
+      "origin": "French Southern Territories"
+    }
+  }
+}

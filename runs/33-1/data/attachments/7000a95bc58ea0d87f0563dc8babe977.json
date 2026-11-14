@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "3d953cc1-351b-4938-b801-28f9f0f6ceda",
+    "order_number": "O33045",
+    "status": "pending",
+    "total_amount": 41.17,
+    "created_at": "2026-11-05T08:28:39.884495+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-f6fxl8xf Small Concrete Hat",
+        "category": "snacks",
+        "quantity": 1,
+        "price": 41.17,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

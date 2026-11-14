@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-y60to23x sort Alpha",
+    "category": "beverages",
+    "price": 12.53,
+    "stock": 30,
+    "details": {
+      "brand": "Kohler, Macejkovic and Price",
+      "origin": "Belarus"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-6mmt7ed9 Bespoke Aluminum Tuna",
+    "category": "frozen",
+    "price": 49.1,
+    "stock": 18,
+    "details": {
+      "brand": "Ratke - Flatley",
+      "origin": "Yemen"
+    }
+  }
+}

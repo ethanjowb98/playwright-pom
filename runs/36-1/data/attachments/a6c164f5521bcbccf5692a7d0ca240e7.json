@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hqtux44p Frozen Granite Shoes",
+    "category": "meat-seafood",
+    "price": 36.53,
+    "stock": 18,
+    "details": {
+      "brand": "Bednar - Padberg",
+      "origin": "Philippines"
+    }
+  }
+}

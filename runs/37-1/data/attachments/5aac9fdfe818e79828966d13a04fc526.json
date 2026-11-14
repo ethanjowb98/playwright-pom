@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-hhofuyki Gorgeous Cotton Cheese",
+    "category": "bakery",
+    "price": 34.82,
+    "stock": 28,
+    "details": {
+      "brand": "Tillman - Ebert",
+      "origin": "Mauritius"
+    }
+  }
+}

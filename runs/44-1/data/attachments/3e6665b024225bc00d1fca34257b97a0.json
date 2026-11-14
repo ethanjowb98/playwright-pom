@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-z2vbxoft Elegant Wooden Ball",
+    "category": "snacks",
+    "price": 16.44,
+    "stock": 46,
+    "details": {
+      "brand": "Davis - Steuber",
+      "origin": "Nauru"
+    }
+  }
+}

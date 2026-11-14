@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ouauvg90 Recycled Rubber Fish",
+    "category": "fresh-produce",
+    "price": 45.08,
+    "stock": 17,
+    "details": {
+      "brand": "Schinner, Hilll and Hansen",
+      "origin": "Gibraltar"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

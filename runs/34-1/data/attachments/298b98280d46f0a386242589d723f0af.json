@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-9s30z4mj Soft Bronze Ball",
+    "category": "meat-seafood",
+    "price": 45.16,
+    "stock": 14,
+    "details": {
+      "brand": "Shields LLC",
+      "origin": "Niue"
+    }
+  }
+}

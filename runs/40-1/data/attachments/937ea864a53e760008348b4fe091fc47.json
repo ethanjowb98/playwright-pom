@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-54f68ytf sort Bravo",
+    "category": "frozen",
+    "price": 44.83,
+    "stock": 45,
+    "details": {
+      "brand": "Balistreri Group",
+      "origin": "Argentina"
+    }
+  }
+}

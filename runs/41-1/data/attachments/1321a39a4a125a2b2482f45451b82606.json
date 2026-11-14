@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3jg6c4ir Recycled Ceramic Bacon",
+    "category": "bakery",
+    "price": 47.81,
+    "stock": 41,
+    "details": {
+      "brand": "Russel LLC",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "4d57528e-578e-4d62-813b-6e0e6b42860b",
+    "order_number": "O58170",
+    "status": "pending",
+    "total_amount": 75.22,
+    "created_at": "2026-11-11T10:02:24.763475+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-pd34iezp Sleek Cotton Keyboard",
+        "category": "snacks",
+        "quantity": 2,
+        "price": 37.61,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

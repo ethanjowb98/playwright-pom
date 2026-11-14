@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-19fy5ueh sort Alpha",
+    "category": "other",
+    "price": 17.3,
+    "stock": 17,
+    "details": {
+      "brand": "Kozey Inc",
+      "origin": "Central African Republic"
+    }
+  }
+}

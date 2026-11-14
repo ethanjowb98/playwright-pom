@@ -1,0 +1,15 @@
+{
+  "id": "8096a425-6f6f-44c3-b366-658ec7e696f4",
+  "product_name": "QA-8-5521k71s Elegant Gold Salad",
+  "category": "fresh-produce",
+  "price": 47.28,
+  "stock": 24,
+  "details": {
+    "brand": "Labadie - Hodkiewicz",
+    "origin": "Saint Martin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:59.834336+00:00"
+}

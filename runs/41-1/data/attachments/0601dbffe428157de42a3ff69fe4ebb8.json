@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i3nkihi2 Gorgeous Marble Tuna",
+    "category": "frozen",
+    "price": 40.26,
+    "stock": 49,
+    "details": {
+      "brand": "Lockman - Dooley",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

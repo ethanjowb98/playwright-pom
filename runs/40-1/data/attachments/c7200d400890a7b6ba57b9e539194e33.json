@@ -1,0 +1,15 @@
+{
+  "id": "cf4667d2-d6ce-4394-9897-8a62bb806f9c",
+  "product_name": "QA-2-3ndoaq7p Tasty Marble Fish",
+  "category": "frozen",
+  "price": 20.81,
+  "stock": 20,
+  "details": {
+    "brand": "Kulas Inc",
+    "origin": "Czechia"
+  },
+  "temperature_zone": "Dry",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:33.788571+00:00"
+}

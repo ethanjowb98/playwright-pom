@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-93bev2a2 sort Charlie",
+    "category": "snacks",
+    "price": 1.2,
+    "stock": 20,
+    "details": {
+      "brand": "Kulas-Hintz LLC",
+      "origin": "Ethiopia"
+    }
+  }
+}

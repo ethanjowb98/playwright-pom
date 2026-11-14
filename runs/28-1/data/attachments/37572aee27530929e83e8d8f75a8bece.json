@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qqjwj1t0 Intelligent Marble Towels",
+    "category": "bakery",
+    "price": 33.38,
+    "stock": 35,
+    "details": {
+      "brand": "Bogan, Heaney and Connelly-Wisozk",
+      "origin": "Falkland Islands (Malvinas)"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-xu3q77fu Incredible Rubber Shirt",
+    "category": "snacks",
+    "price": 17.02,
+    "stock": 49,
+    "details": {
+      "brand": "Hauck and Sons",
+      "origin": "Isle of Man"
+    }
+  }
+}

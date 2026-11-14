@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-sr7dyiv4 Fresh Gold Bike",
+    "category": "bakery",
+    "price": 49.56,
+    "stock": 12,
+    "details": {
+      "brand": "Simonis - Luettgen",
+      "origin": "Trinidad and Tobago"
+    },
+    "weighted": true
+  }
+}

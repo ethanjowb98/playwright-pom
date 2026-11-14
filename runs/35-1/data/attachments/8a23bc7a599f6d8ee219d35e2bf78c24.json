@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n1wmv9q9 Elegant Steel Soap",
+    "category": "household",
+    "price": 22.92,
+    "stock": 10,
+    "details": {
+      "brand": "Beahan - Krajcik",
+      "origin": "Mongolia"
+    }
+  }
+}

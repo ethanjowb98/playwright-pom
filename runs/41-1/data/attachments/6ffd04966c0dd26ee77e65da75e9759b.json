@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i9fiupuy Tasty Wooden Cheese",
+    "category": "frozen",
+    "price": 14.53,
+    "stock": 50,
+    "details": {
+      "brand": "Beahan and Sons",
+      "origin": "Burundi"
+    }
+  }
+}

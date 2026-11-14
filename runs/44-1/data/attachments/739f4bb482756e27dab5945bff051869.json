@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-z7e4owlm Awesome Bronze Chips",
+    "category": "household",
+    "price": 2.68,
+    "stock": 30,
+    "details": {
+      "brand": "Kuhlman, Mosciski and Cummings",
+      "origin": "Åland Islands"
+    },
+    "temperature_zone": "Dry"
+  }
+}

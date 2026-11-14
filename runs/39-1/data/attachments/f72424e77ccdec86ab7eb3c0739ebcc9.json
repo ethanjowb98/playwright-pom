@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "a51ea61e-0ab8-432f-911d-2c25264bcefc",
+      "product_id": "aedfe038-b35b-473f-af68-51f98b10d03f",
+      "product_name": "QA-1-78tz2ae7 Bespoke Aluminum Table",
+      "price": 29.2,
+      "category": "bakery",
+      "quantity": 3,
+      "created_at": "2026-11-09T10:37:31.565368+00:00",
+      "updated_at": "2026-11-09T10:37:31.565368+00:00"
+    },
+    {
+      "id": "a895b941-52ee-4ee4-9451-42cf8ef0c082",
+      "product_id": "c26f7980-7848-4e32-ae6b-4dd02e9619cc",
+      "product_name": "QA-1-dfsr3elk Luxurious Metal Hat",
+      "price": 26.53,
+      "category": "household",
+      "quantity": 1,
+      "created_at": "2026-11-09T10:37:32.192154+00:00",
+      "updated_at": "2026-11-09T10:37:32.192154+00:00"
+    }
+  ]
+}

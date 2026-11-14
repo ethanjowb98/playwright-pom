@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-haa5ods2 Fantastic Wooden Towels",
+    "category": "dairy-eggs",
+    "price": 2.41,
+    "stock": 26,
+    "details": {
+      "brand": "Wintheiser - Ward",
+      "origin": "Namibia"
+    }
+  }
+}

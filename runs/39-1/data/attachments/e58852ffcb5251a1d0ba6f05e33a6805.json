@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pm04mpyq Recycled Aluminum Keyboard",
+    "category": "frozen",
+    "price": 27.24,
+    "stock": 28,
+    "details": {
+      "brand": "Mills, Johnson and Huels",
+      "origin": "Cambodia"
+    }
+  }
+}

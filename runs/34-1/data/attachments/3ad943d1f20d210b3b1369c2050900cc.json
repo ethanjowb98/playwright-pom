@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7vrhinu2 Oriental Gold Fish",
+    "category": "snacks",
+    "price": 28.83,
+    "stock": 2,
+    "details": {
+      "brand": "Sawayn, Terry and Von",
+      "origin": "Barbados"
+    }
+  }
+}

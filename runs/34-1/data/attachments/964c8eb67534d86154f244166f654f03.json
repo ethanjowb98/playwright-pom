@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "f5185cc8-4c40-4fec-ac5d-340b6d81dfeb",
+      "order_number": "O66097",
+      "status": "pending",
+      "total_amount": 51.4,
+      "notes": null,
+      "created_at": "2026-11-05T09:21:55.462166+00:00",
+      "updated_at": "2026-11-05T09:21:55.462166+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-xtnvy6oi Recycled Granite Shirt",
+          "category": "snacks",
+          "quantity": 2,
+          "price": 25.7,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

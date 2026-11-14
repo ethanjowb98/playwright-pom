@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-fgh4wtf5 Intelligent Steel Hat",
+    "category": "household",
+    "price": 35.49,
+    "stock": 19,
+    "details": {
+      "brand": "Herman-Kautzer - Lemke",
+      "origin": "Bulgaria"
+    }
+  }
+}

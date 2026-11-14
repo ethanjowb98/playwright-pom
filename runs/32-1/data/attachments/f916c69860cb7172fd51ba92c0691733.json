@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ie2nvsmk Fantastic Steel Mouse",
+    "category": "pantry",
+    "price": 17.03,
+    "stock": 19,
+    "details": {
+      "brand": "Hudson - Smith",
+      "origin": "Burundi"
+    }
+  }
+}

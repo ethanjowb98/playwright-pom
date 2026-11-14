@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ef97723c-be31-4ad8-9149-7e1d15d020d6",
+    "order_number": "O66461",
+    "status": "pending",
+    "total_amount": 63.57,
+    "created_at": "2026-11-14T09:42:22.854074+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-xozbqs24 Intelligent Bronze Car",
+        "category": "household",
+        "quantity": 3,
+        "price": 3.78,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-4t5mjv2s Unbranded Gold Table",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 17.41,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

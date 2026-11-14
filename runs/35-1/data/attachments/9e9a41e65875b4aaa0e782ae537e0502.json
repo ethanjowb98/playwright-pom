@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w1jgp9vj Awesome Wooden Chicken",
+    "category": "fresh-produce",
+    "price": 5.33,
+    "stock": 23,
+    "details": {
+      "brand": "Kihn-Wolf Inc",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

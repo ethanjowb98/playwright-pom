@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3zj35nrw Modern Silk Shirt",
+    "category": "other",
+    "price": 4.11,
+    "stock": 20,
+    "details": {
+      "brand": "Schamberger, Bogisich and Kohler",
+      "origin": "Comoros"
+    }
+  }
+}

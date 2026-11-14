@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-1qyjnp1s sort Charlie",
+    "category": "pantry",
+    "price": 21.17,
+    "stock": 14,
+    "details": {
+      "brand": "Brakus - Zieme",
+      "origin": "Macao"
+    }
+  }
+}

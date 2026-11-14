@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-d7hu7oye Handcrafted Wooden Bacon",
+    "category": "bakery",
+    "price": 16.91,
+    "stock": 41,
+    "details": {
+      "brand": "Tillman - Kessler",
+      "origin": "Bonaire, Sint Eustatius and Saba"
+    }
+  }
+}

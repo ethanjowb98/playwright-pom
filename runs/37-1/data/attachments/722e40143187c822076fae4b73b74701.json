@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "584efb69-4dcb-4205-adc1-fab13b3d9014",
+      "product_id": "5d1a3aa6-8c40-4e01-a753-a26359515e35",
+      "product_name": "QA-1-l3etteva Handcrafted Steel Bike",
+      "price": 37.62,
+      "category": "bakery",
+      "quantity": 1,
+      "created_at": "2026-11-07T09:26:12.844675+00:00",
+      "updated_at": "2026-11-07T09:26:12.844675+00:00"
+    },
+    {
+      "id": "6096c21b-a24b-4c4a-93da-e704b0b19cad",
+      "product_id": "ef92db15-8394-4f2f-ae54-fde4b8b44203",
+      "product_name": "QA-1-i9isqvpi Fresh Plastic Mouse",
+      "price": 9.67,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-07T09:26:13.389572+00:00",
+      "updated_at": "2026-11-07T09:26:13.389572+00:00"
+    }
+  ]
+}

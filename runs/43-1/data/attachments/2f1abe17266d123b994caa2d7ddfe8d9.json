@@ -1,0 +1,15 @@
+{
+  "id": "075b0893-c3f1-4a70-aa55-caa8f906e429",
+  "product_name": "QA-1-u2shrin8 Elegant Bamboo Towels",
+  "category": "bakery",
+  "price": 42.32,
+  "stock": 41,
+  "details": {
+    "brand": "Powlowski - Considine",
+    "origin": "Heard Island and McDonald Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:36.797779+00:00"
+}

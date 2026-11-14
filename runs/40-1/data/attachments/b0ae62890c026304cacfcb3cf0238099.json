@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cx7nntwr Bespoke Steel Table",
+    "category": "household",
+    "price": 3.13,
+    "stock": 2,
+    "details": {
+      "brand": "Steuber and Sons",
+      "origin": "Benin"
+    }
+  }
+}

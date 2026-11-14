@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-afmig0hz Sleek Marble Shirt",
+    "category": "bakery",
+    "price": 41.37,
+    "stock": 38,
+    "details": {
+      "brand": "Krajcik, Ruecker and Vandervort",
+      "origin": "Jersey"
+    }
+  }
+}

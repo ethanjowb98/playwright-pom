@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fdvefd9r Gorgeous Gold Hat",
+    "category": "fresh-produce",
+    "price": 16.19,
+    "stock": 21,
+    "details": {
+      "brand": "Marks, Franecki and Crooks",
+      "origin": "Saint Martin"
+    }
+  }
+}

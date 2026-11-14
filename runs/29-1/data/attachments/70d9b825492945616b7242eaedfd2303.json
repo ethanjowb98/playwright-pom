@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-r6pm75ro Recycled Bronze Fish",
+    "category": "meat-seafood",
+    "stock": 23,
+    "details": {
+      "brand": "Brekke - Feest",
+      "origin": "Uganda"
+    }
+  }
+}

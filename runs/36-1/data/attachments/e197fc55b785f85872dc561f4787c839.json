@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "40bd6ae7-4a27-420d-9ac5-270819259264",
+      "product_id": "e1302d3e-94b7-4c4c-ad4d-05a6886811a3",
+      "product_name": "QA-1-3vnik9cn Ergonomic Gold Pizza",
+      "price": 8.29,
+      "category": "household",
+      "quantity": 1,
+      "created_at": "2026-11-06T10:09:15.020938+00:00",
+      "updated_at": "2026-11-06T10:09:15.020938+00:00"
+    },
+    {
+      "id": "1b6532b1-b8d0-4408-a574-aa223987e5da",
+      "product_id": "2a1873de-8c0f-49f7-bdeb-c337b6b39c4a",
+      "product_name": "QA-1-616e7i62 Fresh Ceramic Ball",
+      "price": 6.13,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-06T10:09:15.64693+00:00",
+      "updated_at": "2026-11-06T10:09:15.64693+00:00"
+    }
+  ]
+}

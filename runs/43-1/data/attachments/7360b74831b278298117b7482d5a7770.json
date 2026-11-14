@@ -1,0 +1,15 @@
+{
+  "id": "6a657ea6-9b0d-4e09-b26b-7a0cc529a24b",
+  "product_name": "QA-7-vx6fzhmc sort Bravo",
+  "category": "frozen",
+  "price": 18.12,
+  "stock": 33,
+  "details": {
+    "brand": "Olson Group",
+    "origin": "Pakistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:53.672706+00:00"
+}

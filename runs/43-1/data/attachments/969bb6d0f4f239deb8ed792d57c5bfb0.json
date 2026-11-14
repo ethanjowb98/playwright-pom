@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-d0yo4j8r Intelligent Rubber Table",
+    "category": "household",
+    "price": 16.66,
+    "stock": "x",
+    "details": {
+      "brand": "Jerde LLC",
+      "origin": "Bermuda"
+    }
+  }
+}

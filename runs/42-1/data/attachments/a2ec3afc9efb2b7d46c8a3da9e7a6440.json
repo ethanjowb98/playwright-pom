@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-60l3jyq1 Frozen Silk Fish",
+    "category": "frozen",
+    "price": 47.94,
+    "stock": 39,
+    "details": {
+      "brand": "Bins and Sons",
+      "origin": "Australia"
+    }
+  }
+}

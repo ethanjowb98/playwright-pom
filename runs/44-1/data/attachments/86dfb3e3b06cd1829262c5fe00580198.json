@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-d5f3y1zz sort Charlie",
+    "category": "fresh-produce",
+    "price": 43.81,
+    "stock": 39,
+    "details": {
+      "brand": "Schmeler, O'Connell and Torp",
+      "origin": "United Kingdom"
+    }
+  }
+}

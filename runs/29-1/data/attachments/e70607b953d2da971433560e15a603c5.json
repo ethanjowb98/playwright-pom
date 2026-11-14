@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-ugjop1gz Soft Granite Table",
+    "category": "pantry",
+    "price": 11.26,
+    "stock": 45,
+    "details": {
+      "brand": "Romaguera and Sons",
+      "origin": "Jordan"
+    },
+    "temperature_zone": "Dry"
+  }
+}

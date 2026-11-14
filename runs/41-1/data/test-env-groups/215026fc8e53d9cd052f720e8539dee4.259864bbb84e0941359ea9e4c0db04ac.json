@@ -1,0 +1,1 @@
+{"id":"215026fc8e53d9cd052f720e8539dee4.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when product_name is empty","name":"should reject the product with 400 when product_name is empty","status":"passed","testResultsByEnv":{"default":"858cafad09796a91603b1ed793cbdd28"}}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qb0sd9v5 Recycled Concrete Table",
+    "category": "household",
+    "price": 25.52,
+    "stock": 20,
+    "details": {
+      "brand": "Bednar, Schmidt and Larson",
+      "origin": "Germany"
+    }
+  }
+}

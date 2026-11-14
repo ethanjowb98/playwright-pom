@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-qcy8eibf Electronic Bamboo Keyboard",
+    "category": "snacks",
+    "price": 34.71,
+    "stock": 41,
+    "details": {
+      "brand": "Bode, Stiedemann and Moen",
+      "origin": "United States of America"
+    }
+  }
+}

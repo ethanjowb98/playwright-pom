@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ykxu5q3o Tasty Concrete Sausages",
+    "category": "snacks",
+    "price": 25.74,
+    "stock": 13,
+    "details": {
+      "brand": "Goyette - Vandervort",
+      "origin": "Romania"
+    }
+  }
+}

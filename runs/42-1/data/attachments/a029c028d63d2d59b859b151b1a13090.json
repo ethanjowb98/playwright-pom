@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-jc8hbakh sort Charlie",
+    "category": "meat-seafood",
+    "price": 25.79,
+    "stock": 39,
+    "details": {
+      "brand": "Fay, McGlynn and Prohaska",
+      "origin": "Ghana"
+    }
+  }
+}

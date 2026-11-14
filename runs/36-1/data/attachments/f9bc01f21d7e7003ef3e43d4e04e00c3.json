@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xl4rjvaw Ergonomic Aluminum Ball",
+    "category": "household",
+    "price": 47.89,
+    "stock": 37,
+    "details": {
+      "brand": "Hilll - Senger",
+      "origin": "Jordan"
+    }
+  }
+}

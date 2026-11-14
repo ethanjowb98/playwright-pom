@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ahpjij32 Handcrafted Plastic Pizza",
+    "category": "fresh-produce",
+    "price": 19.33,
+    "stock": 12,
+    "details": {
+      "brand": "Wunsch and Sons",
+      "origin": "Samoa"
+    }
+  }
+}

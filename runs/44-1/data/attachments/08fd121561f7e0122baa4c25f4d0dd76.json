@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qzp3d3vh Incredible Plastic Sausages",
+    "category": "beverages",
+    "price": 42.68,
+    "stock": 14,
+    "details": {
+      "brand": "Gibson, Mohr and Hahn",
+      "origin": "Macao"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-616e7i62 Fresh Ceramic Ball",
+    "category": "snacks",
+    "price": 6.13,
+    "stock": 41,
+    "details": {
+      "brand": "Hettinger - Hamill-Wilkinson",
+      "origin": "Norway"
+    }
+  }
+}

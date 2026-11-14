@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-eox97aef Fantastic Gold Sausages",
+    "category": "dairy-eggs",
+    "price": 22.31,
+    "stock": 39,
+    "details": {
+      "brand": "Williamson - Mueller",
+      "origin": "Zambia"
+    }
+  }
+}

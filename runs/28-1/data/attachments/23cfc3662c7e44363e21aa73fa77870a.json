@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-8qkljczq sort Charlie",
+    "category": "meat-seafood",
+    "price": 8.42,
+    "stock": 37,
+    "details": {
+      "brand": "Becker, Medhurst-Veum and Schuster",
+      "origin": "Nauru"
+    }
+  }
+}

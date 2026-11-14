@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pa1z5smo Incredible Silk Shirt",
+    "category": "dairy-eggs",
+    "price": 2.45,
+    "stock": 2,
+    "details": {
+      "brand": "Ryan, Franecki and Prosacco",
+      "origin": "Turkmenistan"
+    }
+  }
+}

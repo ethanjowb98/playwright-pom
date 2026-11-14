@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mtkax7dq Licensed Plastic Tuna",
+    "category": "household",
+    "price": 3.3,
+    "stock": 16,
+    "details": {
+      "brand": "O'Reilly - Rosenbaum",
+      "origin": "Angola"
+    },
+    "temperature_zone": "Dry"
+  }
+}

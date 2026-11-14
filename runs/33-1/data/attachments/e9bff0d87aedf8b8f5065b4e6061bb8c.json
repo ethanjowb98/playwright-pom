@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-56ya4bp1 sort Charlie",
+    "category": "beverages",
+    "price": 7.97,
+    "stock": 42,
+    "details": {
+      "brand": "Skiles and Sons",
+      "origin": "South Sudan"
+    }
+  }
+}

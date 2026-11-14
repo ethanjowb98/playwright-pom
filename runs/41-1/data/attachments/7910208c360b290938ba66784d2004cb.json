@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kkhklmd2 Recycled Plastic Car",
+    "category": "snacks",
+    "price": 15.67,
+    "stock": 20,
+    "details": {
+      "brand": "Hackett, Lindgren and Predovic",
+      "origin": "Estonia"
+    }
+  }
+}

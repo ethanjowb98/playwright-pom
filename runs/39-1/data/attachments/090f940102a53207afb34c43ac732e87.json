@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-k19l3vyl Practical Ceramic Fish",
+    "category": "meat-seafood",
+    "price": "abc",
+    "stock": 27,
+    "details": {
+      "brand": "Kozey, Franey and Cummerata",
+      "origin": "Ethiopia"
+    }
+  }
+}

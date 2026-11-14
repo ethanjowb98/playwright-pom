@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-abnd06ap Handmade Steel Chair",
+    "category": "pantry",
+    "price": 6.23,
+    "stock": 18,
+    "details": {
+      "brand": "Kilback, Frami and Ernser",
+      "origin": "Monaco"
+    }
+  }
+}

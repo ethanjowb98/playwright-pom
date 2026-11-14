@@ -1,0 +1,15 @@
+{
+  "id": "2e39ba15-4602-49fc-acf1-9c5e8aff286a",
+  "product_name": "QA-1-rbhysoix Tasty Granite Cheese",
+  "category": "bakery",
+  "price": 42.67,
+  "stock": 48,
+  "details": {
+    "brand": "Halvorson, Tromp and Herzog",
+    "origin": "Syrian Arab Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:40:42.670118+00:00"
+}

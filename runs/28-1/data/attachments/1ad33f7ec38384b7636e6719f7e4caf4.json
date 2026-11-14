@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "bakery",
+    "price": 29.31,
+    "stock": 23,
+    "details": {
+      "brand": "Terry, Schroeder and Glover-Heidenreich",
+      "origin": "Congo"
+    }
+  }
+}

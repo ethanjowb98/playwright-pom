@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "6c4af574-0762-430e-bf45-260509827ee5",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "cancelled",
+    "total_amount": 24.65,
+    "notes": null,
+    "created_at": "2026-11-13T10:19:42.87021+00:00",
+    "updated_at": "2026-11-13T10:19:42.87021+00:00",
+    "order_number": "O53605"
+  }
+}

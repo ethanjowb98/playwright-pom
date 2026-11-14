@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zcjlk7q8 Awesome Aluminum Keyboard",
+    "category": "household",
+    "price": 16.49,
+    "stock": 15,
+    "details": {
+      "brand": "Becker and Sons",
+      "origin": "Dominican Republic"
+    }
+  }
+}

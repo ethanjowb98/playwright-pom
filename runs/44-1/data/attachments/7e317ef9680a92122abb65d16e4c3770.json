@@ -1,0 +1,15 @@
+{
+  "id": "3199d5d4-f36c-4e2c-a541-42573622c820",
+  "product_name": "QA-1-npc20q3j sort Charlie",
+  "category": "bakery",
+  "price": 18.62,
+  "stock": 47,
+  "details": {
+    "brand": "Nolan, Murazik and Smitham",
+    "origin": "Botswana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:35.213383+00:00"
+}

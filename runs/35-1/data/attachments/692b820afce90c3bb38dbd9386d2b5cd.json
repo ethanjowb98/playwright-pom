@@ -1,0 +1,15 @@
+{
+  "id": "95c5e7ec-3403-4957-8278-eca21deccf12",
+  "product_name": "QA-3-yf1783p5 Soft Aluminum Keyboard",
+  "category": "beverages",
+  "price": 17.76,
+  "stock": 20,
+  "details": {
+    "brand": "Crist, Conn and Zboncak",
+    "origin": "Côte d'Ivoire"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:26.595649+00:00"
+}

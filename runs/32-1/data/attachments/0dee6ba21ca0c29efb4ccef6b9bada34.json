@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-5dnis08e Bespoke Ceramic Pizza",
+    "category": "dairy-eggs",
+    "price": 5.27,
+    "stock": 49,
+    "details": {
+      "brand": "Hane, Boyer and Kemmer",
+      "origin": "Sri Lanka"
+    }
+  }
+}

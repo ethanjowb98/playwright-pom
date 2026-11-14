@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-gcg6o1ti sort Charlie",
+    "category": "snacks",
+    "price": 15.46,
+    "stock": 39,
+    "details": {
+      "brand": "West and Sons",
+      "origin": "New Zealand"
+    }
+  }
+}

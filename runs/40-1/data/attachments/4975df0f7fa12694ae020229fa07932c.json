@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7dodvj7z Electronic Wooden Fish",
+    "category": "household",
+    "price": 32.29,
+    "stock": 2,
+    "details": {
+      "brand": "Reilly Inc",
+      "origin": "Jersey"
+    }
+  }
+}

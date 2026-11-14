@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "ad71a9a2-89f1-4590-b226-818e448cbb46",
+      "product_id": "ea5b1c8a-51ee-4199-a2ca-e0440b492c05",
+      "product_name": "QA-1-0ohb92o4 Incredible Silk Chair",
+      "price": 37.19,
+      "category": "fresh-produce",
+      "quantity": 2,
+      "created_at": "2026-11-05T10:05:54.309859+00:00",
+      "updated_at": "2026-11-05T10:05:54.309859+00:00"
+    },
+    {
+      "id": "ee733c79-01db-4e50-806d-43851712d826",
+      "product_id": "2fe47678-59ee-47b1-a896-8ecfb5b5445d",
+      "product_name": "QA-1-h3tee1yy Intelligent Cotton Car",
+      "price": 22.7,
+      "category": "pantry",
+      "quantity": 3,
+      "created_at": "2026-11-05T10:05:54.868708+00:00",
+      "updated_at": "2026-11-05T10:05:54.868708+00:00"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "fc271e61-11ae-4302-95f5-c8a39d38b184",
+  "product_name": "QA-7-e80k4t0l sort Charlie",
+  "category": "household",
+  "price": 47.9,
+  "stock": 16,
+  "details": {
+    "brand": "Turcotte LLC",
+    "origin": "Latvia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:18.90776+00:00"
+}

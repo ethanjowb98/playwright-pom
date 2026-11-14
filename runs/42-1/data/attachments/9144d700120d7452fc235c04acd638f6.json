@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ipkytfj8 Practical Steel Computer",
+    "category": "snacks",
+    "price": 6.78,
+    "stock": 19,
+    "details": {
+      "brand": "Flatley - Predovic",
+      "origin": "French Southern Territories"
+    }
+  }
+}

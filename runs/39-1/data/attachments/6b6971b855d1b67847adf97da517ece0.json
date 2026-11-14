@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-nmewo2zc Practical Marble Soap",
+    "category": "frozen",
+    "price": 8.4,
+    "stock": 40,
+    "details": {
+      "brand": "Kessler Inc",
+      "origin": "China"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

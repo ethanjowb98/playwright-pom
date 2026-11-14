@@ -1,0 +1,15 @@
+{
+  "id": "3de572b3-0622-4b85-b4f9-1f509b5d3e75",
+  "product_name": "QA-5-h08li7g7 sort Bravo",
+  "category": "frozen",
+  "price": 21.4,
+  "stock": 47,
+  "details": {
+    "brand": "Cormier, Braun and Bergnaum",
+    "origin": "South Sudan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:39:04.738137+00:00"
+}

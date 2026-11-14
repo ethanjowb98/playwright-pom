@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3niun6l9 Handcrafted Bronze Salad",
+    "category": "frozen",
+    "price": 44.57,
+    "stock": 23,
+    "details": {
+      "brand": "Zieme - Herzog",
+      "origin": "Central African Republic"
+    }
+  }
+}

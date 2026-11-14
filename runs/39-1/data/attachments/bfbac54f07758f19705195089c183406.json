@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5xivluk1 Rustic Bronze Sausages",
+    "category": "household",
+    "price": 14.03,
+    "stock": 48,
+    "details": {
+      "brand": "Botsford Group",
+      "origin": "Norfolk Island"
+    }
+  }
+}

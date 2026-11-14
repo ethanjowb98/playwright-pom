@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-axenbc6r Unbranded Bamboo Hat",
+    "category": "beverages",
+    "price": 22.44,
+    "stock": 49,
+    "details": {
+      "brand": "Zemlak - Roberts",
+      "origin": "Lebanon"
+    }
+  }
+}

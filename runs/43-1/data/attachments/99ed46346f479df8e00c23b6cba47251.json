@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-2ob3vaa6 Frozen Ceramic Gloves",
+    "category": "bakery",
+    "price": 42.16,
+    "stock": 50,
+    "details": {
+      "brand": "Gulgowski Group",
+      "origin": "Malta"
+    }
+  }
+}

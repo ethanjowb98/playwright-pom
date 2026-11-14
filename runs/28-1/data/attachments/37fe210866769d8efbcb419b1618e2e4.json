@@ -1,0 +1,7 @@
+{
+  "method": "POST",
+  "path": "/api/orders",
+  "body": {
+    "notes": "Leave at the door"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-1x5ndzz4 Frozen Aluminum Chair",
+    "category": "snacks",
+    "price": 19.76,
+    "stock": 32,
+    "details": {
+      "brand": "Schmeler, Bogan and Little",
+      "origin": "Liechtenstein"
+    }
+  }
+}

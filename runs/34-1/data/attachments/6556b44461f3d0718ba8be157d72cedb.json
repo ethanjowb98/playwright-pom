@@ -1,0 +1,15 @@
+{
+  "id": "d2b73aed-20ec-435a-87ef-81e5e65fa6f7",
+  "product_name": "QA-4-g4jsp5so Small Steel Salad",
+  "category": "dairy-eggs",
+  "price": 29.02,
+  "stock": 20,
+  "details": {
+    "brand": "Smith - Hermiston",
+    "origin": "Tanzania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:53.001793+00:00"
+}

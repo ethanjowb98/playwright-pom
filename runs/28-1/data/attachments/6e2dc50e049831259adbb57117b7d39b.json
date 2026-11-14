@@ -1,0 +1,15 @@
+{
+  "id": "e67b5509-9019-4dc9-b260-6f33b7d9fa43",
+  "product_name": "QA-1-brt1w904 Sleek Aluminum Bacon",
+  "category": "meat-seafood",
+  "price": 20.26,
+  "stock": 2,
+  "details": {
+    "brand": "Von - Funk",
+    "origin": "Eritrea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:11:40.225239+00:00"
+}

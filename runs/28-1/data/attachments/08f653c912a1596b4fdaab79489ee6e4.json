@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-0r0rnlur Handmade Gold Bike",
+    "category": "household",
+    "price": 43.79,
+    "stock": 49,
+    "details": {
+      "brand": "Blick, Kunze-Sporer and Wehner-Paucek",
+      "origin": "Austria"
+    }
+  }
+}

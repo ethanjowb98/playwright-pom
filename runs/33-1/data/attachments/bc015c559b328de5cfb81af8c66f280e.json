@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-6rnydevb Awesome Bronze Chicken",
+    "category": "dairy-eggs",
+    "price": 3.23,
+    "stock": 35,
+    "details": {
+      "brand": "Schoen Inc",
+      "origin": "Pakistan"
+    },
+    "weighted": false
+  }
+}

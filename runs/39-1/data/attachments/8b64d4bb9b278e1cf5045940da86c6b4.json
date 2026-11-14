@@ -1,0 +1,19 @@
+{
+  "id": "2e7b4697-4900-448f-92a0-40f6c0f80894",
+  "order_number": "O92761",
+  "status": "cancelled",
+  "total_amount": 24.39,
+  "notes": null,
+  "created_at": "2026-11-09T10:38:16.839272+00:00",
+  "updated_at": "2026-11-09T10:38:16.839272+00:00",
+  "items": [
+    {
+      "product_id": "de4149e9-6acd-49c8-b6dd-bb0d5159cbb5",
+      "product_name": "QA-1-mmi2h0ck Tasty Granite Cheese",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 24.39,
+      "temperature_zone": null
+    }
+  ]
+}

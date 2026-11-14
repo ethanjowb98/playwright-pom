@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-v70afr7x Frozen Metal Pants",
+    "category": "dairy-eggs",
+    "price": 33.74,
+    "stock": 0,
+    "details": {
+      "brand": "McLaughlin - Roob",
+      "origin": "Democratic Republic of the Congo"
+    }
+  }
+}

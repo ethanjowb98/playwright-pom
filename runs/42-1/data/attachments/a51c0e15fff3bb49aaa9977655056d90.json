@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "a1eb1ac7-3031-4661-807b-46a6f25a0ce3",
+      "product_id": "c24fcbee-d10b-42af-9816-96b97835ba37",
+      "product_name": "QA-1-35c152uh Oriental Steel Tuna",
+      "price": 8.57,
+      "category": "other",
+      "quantity": 2,
+      "created_at": "2026-11-12T10:30:50.679491+00:00",
+      "updated_at": "2026-11-12T10:30:50.679491+00:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h74ho2s5 Electronic Aluminum Fish",
+    "category": "dairy-eggs",
+    "price": 30.71,
+    "stock": 44,
+    "details": {
+      "brand": "Botsford, Ullrich and Hartmann",
+      "origin": "Botswana"
+    }
+  }
+}

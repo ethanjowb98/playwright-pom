@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4ukziy8p Recycled Metal Shirt",
+    "category": "other",
+    "price": 1.3,
+    "stock": 10,
+    "details": {
+      "brand": "Reinger - Steuber",
+      "origin": "Albania"
+    }
+  }
+}

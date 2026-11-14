@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-wwycxfef Awesome Gold Keyboard",
+    "category": "frozen",
+    "price": 14.96,
+    "stock": 28,
+    "details": {
+      "brand": "Marks - Bernier",
+      "origin": "Uzbekistan"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

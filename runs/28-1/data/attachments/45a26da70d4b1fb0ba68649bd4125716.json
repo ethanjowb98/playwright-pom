@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ubw38rfi sort Alpha",
+    "category": "fresh-produce",
+    "price": 10.53,
+    "stock": 48,
+    "details": {
+      "brand": "Marks, Wolff and Kulas",
+      "origin": "Micronesia"
+    }
+  }
+}

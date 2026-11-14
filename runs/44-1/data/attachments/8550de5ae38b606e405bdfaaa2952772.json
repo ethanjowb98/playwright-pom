@@ -1,0 +1,15 @@
+{
+  "id": "177527e3-50c9-4525-a780-842a1cb83db8",
+  "product_name": "QA-3-a9yoagm3 Luxurious Plastic Shirt",
+  "category": "frozen",
+  "price": 8.57,
+  "stock": 23,
+  "details": {
+    "brand": "Halvorson-Jenkins Group",
+    "origin": "Zimbabwe"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:40.724549+00:00"
+}

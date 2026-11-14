@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gtrzw7yc Oriental Silk Hat",
+    "category": "other",
+    "price": 5.26,
+    "stock": 16,
+    "details": {
+      "brand": "Heathcote LLC",
+      "origin": "Mayotte"
+    }
+  }
+}

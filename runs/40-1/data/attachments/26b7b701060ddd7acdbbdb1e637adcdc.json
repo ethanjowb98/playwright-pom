@@ -1,0 +1,19 @@
+{
+  "id": "caff0a20-adf1-4b1b-a645-80c500a95318",
+  "order_number": "O21851",
+  "status": "cancelled",
+  "total_amount": 24,
+  "notes": null,
+  "created_at": "2026-11-10T10:39:18.367041+00:00",
+  "updated_at": "2026-11-10T10:39:18.367041+00:00",
+  "items": [
+    {
+      "product_id": "d2b326ec-c87f-45de-9732-5d060478c0e0",
+      "product_name": "QA-1-fkw4bxtt Soft Concrete Sausages",
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "price": 12,
+      "temperature_zone": null
+    }
+  ]
+}

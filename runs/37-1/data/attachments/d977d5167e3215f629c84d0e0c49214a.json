@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-sqe58r1k sort Charlie",
+    "category": "snacks",
+    "price": 37.71,
+    "stock": 11,
+    "details": {
+      "brand": "Stehr, Parisian and Lindgren",
+      "origin": "Philippines"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "73aab653-fcb6-483d-b305-bf57fc320548",
+  "order_number": "O19860",
+  "status": "delivered",
+  "total_amount": 79.14,
+  "notes": null,
+  "created_at": "2026-11-04T08:12:36.056579+00:00",
+  "updated_at": "2026-11-04T08:12:36.056579+00:00",
+  "items": [
+    {
+      "product_id": "1047dd63-06c0-4612-baf0-53298f726b47",
+      "product_name": "QA-1-m7narqso Elegant Concrete Sausages",
+      "category": "frozen",
+      "quantity": 3,
+      "price": 26.38,
+      "temperature_zone": null
+    }
+  ]
+}

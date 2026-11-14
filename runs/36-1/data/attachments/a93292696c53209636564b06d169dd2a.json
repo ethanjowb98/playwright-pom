@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "c7ea9c8a-9df0-4359-8563-2a8217f8aae3",
+      "product_id": "26ffc6c9-5ad3-4668-a319-adb7b35a225c",
+      "product_name": "QA-1-inlqm5xb Generic Silk Soap",
+      "price": 7.45,
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "created_at": "2026-11-06T10:09:21.367753+00:00",
+      "updated_at": "2026-11-06T10:09:21.367753+00:00"
+    },
+    {
+      "id": "75c9ab0d-0759-4798-b184-e63ff38d22f7",
+      "product_id": "cab99706-d45f-4a5d-984b-5d3221caf51d",
+      "product_name": "QA-1-tuviikyt Elegant Gold Bacon",
+      "price": 29.69,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-06T10:09:21.982561+00:00",
+      "updated_at": "2026-11-06T10:09:21.982561+00:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-87aqrcuo Ergonomic Metal Sausages",
+    "category": "beverages",
+    "price": 19.16,
+    "stock": 37,
+    "details": {
+      "brand": "Strosin, Fay and Turner",
+      "origin": "Indonesia"
+    }
+  }
+}

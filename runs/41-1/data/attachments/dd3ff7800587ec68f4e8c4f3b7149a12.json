@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-azjbhwy5 Handmade Granite Pizza",
+    "category": "household",
+    "price": 37.9,
+    "stock": 47,
+    "details": {
+      "brand": "Murphy, Carroll and Hartmann",
+      "origin": "Chad"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "da4a0750-e3d0-452e-8a4f-ea3e2a394107",
+  "product_name": "QA-1-ldcenbu2 Intelligent Plastic Towels",
+  "category": "bakery",
+  "price": 2.72,
+  "stock": 2,
+  "details": {
+    "brand": "Feest, Russel and Bartell",
+    "origin": "Argentina"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:38:59.356299+00:00"
+}

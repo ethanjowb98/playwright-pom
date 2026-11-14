@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8u6wzohe Tasty Ceramic Mouse",
+    "category": "frozen",
+    "price": 14.53,
+    "stock": 34,
+    "details": {
+      "brand": "Hudson-Stehr - Howell",
+      "origin": "Chad"
+    },
+    "weighted": false
+  }
+}

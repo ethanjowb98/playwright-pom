@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-bbr5dxfw Elegant Wooden Car",
+    "category": "pantry",
+    "price": 24.11,
+    "stock": 38,
+    "details": {
+      "brand": "Bergstrom - Christiansen",
+      "origin": "Spain"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

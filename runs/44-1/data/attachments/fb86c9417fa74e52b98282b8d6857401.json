@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "65e53d67-fb18-4e11-8488-b091f2081b35",
+    "order_number": "O30467",
+    "status": "pending",
+    "total_amount": 30.06,
+    "created_at": "2026-11-14T09:40:58.451146+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-9ksligyl Soft Ceramic Pants",
+        "category": "other",
+        "quantity": 1,
+        "price": 30.06,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

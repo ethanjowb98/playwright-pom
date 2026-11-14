@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o8y5smgz Generic Granite Chips",
+    "category": "dairy-eggs",
+    "price": 48.11,
+    "stock": 17,
+    "details": {
+      "brand": "Dooley Group",
+      "origin": "Norway"
+    }
+  }
+}

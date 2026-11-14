@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h46wltqf Gorgeous Ceramic Ball",
+    "category": "household",
+    "price": 29.03,
+    "stock": 45,
+    "details": {
+      "brand": "Shields and Sons",
+      "origin": "Mauritania"
+    }
+  }
+}

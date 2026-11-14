@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-nagr3af1 Generic Rubber Keyboard",
+    "category": "pantry",
+    "price": 27.73,
+    "stock": 16,
+    "details": {
+      "brand": "Crist, Carter and Auer",
+      "origin": "North Macedonia"
+    }
+  }
+}

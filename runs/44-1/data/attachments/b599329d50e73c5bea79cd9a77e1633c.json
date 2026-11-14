@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l0ugkq9w Practical Rubber Hat",
+    "category": "pantry",
+    "price": 42.66,
+    "stock": 42,
+    "details": {
+      "brand": "Schuster - Hammes",
+      "origin": "Liberia"
+    }
+  }
+}

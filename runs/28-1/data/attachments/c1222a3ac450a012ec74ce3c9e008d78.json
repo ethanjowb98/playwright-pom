@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "de23b99e-5aa5-4a26-8c2c-190c25292d58",
+    "order_number": "O99044",
+    "status": "pending",
+    "total_amount": 51.9,
+    "created_at": "2026-11-04T08:10:51.655682+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-h5rmbphd Rustic Rubber Shirt",
+        "category": "bakery",
+        "quantity": 3,
+        "price": 17.3,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

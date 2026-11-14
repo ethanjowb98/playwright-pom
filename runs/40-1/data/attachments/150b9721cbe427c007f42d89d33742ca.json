@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tz2zrb57 Luxurious Rubber Mouse",
+    "category": "meat-seafood",
+    "price": 27.19,
+    "stock": 22,
+    "details": {
+      "brand": "Kertzmann-O'Reilly - Brekke",
+      "origin": "Samoa"
+    }
+  }
+}

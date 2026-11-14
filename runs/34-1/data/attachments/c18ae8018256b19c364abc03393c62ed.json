@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "535a469d-a4d3-4aa8-ac52-ff6115a382f4",
+    "order_number": "O11431",
+    "status": "pending",
+    "total_amount": 33.51,
+    "created_at": "2026-11-05T09:22:44.969098+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-t51t2qwb Generic Gold Sausages",
+        "category": "pantry",
+        "quantity": 1,
+        "price": 33.51,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

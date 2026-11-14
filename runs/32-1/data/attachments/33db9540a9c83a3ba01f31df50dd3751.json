@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tkl7hn0u Refined Marble Chips",
+    "category": "other",
+    "price": 27.74,
+    "stock": 37,
+    "details": {
+      "brand": "Terry Inc",
+      "origin": "Bouvet Island"
+    }
+  }
+}

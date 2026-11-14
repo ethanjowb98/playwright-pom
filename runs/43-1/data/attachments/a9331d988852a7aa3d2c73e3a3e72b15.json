@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w697oyr4 Ergonomic Gold Salad",
+    "category": "bakery",
+    "price": 22.15,
+    "stock": 20,
+    "details": {
+      "brand": "Donnelly - Quitzon",
+      "origin": "Norfolk Island"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

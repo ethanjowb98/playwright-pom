@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0ca6egn6 Soft Silk Shoes",
+    "category": "dairy-eggs",
+    "price": 46.05,
+    "stock": 35,
+    "details": {
+      "brand": "Towne - Oberbrunner",
+      "origin": "Curaçao"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-c19lvt0q sort Alpha",
+    "category": "bakery",
+    "price": 26.83,
+    "stock": 26,
+    "details": {
+      "brand": "Prosacco, Bernier and Hudson",
+      "origin": "Burundi"
+    }
+  }
+}

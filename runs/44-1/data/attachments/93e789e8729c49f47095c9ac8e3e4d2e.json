@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ec98vym5 Modern Metal Mouse",
+    "category": "household",
+    "price": 26.24,
+    "stock": 42,
+    "details": {
+      "brand": "Herman - Conn",
+      "origin": "Guinea-Bissau"
+    }
+  }
+}

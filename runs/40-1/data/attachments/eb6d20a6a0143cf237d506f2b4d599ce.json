@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-xeeqjzdl Electronic Marble Chips",
+    "category": "meat-seafood",
+    "price": 43.58,
+    "stock": 37,
+    "details": {
+      "brand": "Conroy - Mosciski",
+      "origin": "Italy"
+    },
+    "weighted": true
+  }
+}

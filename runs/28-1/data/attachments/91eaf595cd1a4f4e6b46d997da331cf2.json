@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "29099e5a-d399-4c74-96cb-e59869264e60",
+      "order_number": "O80980",
+      "status": "pending",
+      "total_amount": 111.99,
+      "notes": null,
+      "created_at": "2026-11-04T08:10:19.865866+00:00",
+      "updated_at": "2026-11-04T08:10:19.865866+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-bpdgbwoy Elegant Wooden Table",
+          "category": "other",
+          "quantity": 3,
+          "price": 37.33,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

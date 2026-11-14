@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-9enbai7s Bespoke Bronze Tuna",
+    "category": "bakery",
+    "price": 5.66,
+    "stock": 10,
+    "details": {
+      "brand": "Erdman, Schulist and Kihn",
+      "origin": "Russian Federation"
+    }
+  }
+}

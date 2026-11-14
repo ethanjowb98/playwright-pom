@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8tgq2yc4 Recycled Metal Car",
+    "category": "fresh-produce",
+    "price": 13.67,
+    "stock": 16,
+    "details": {
+      "brand": "Nicolas, Altenwerth and Dach-Schamberger",
+      "origin": "Saint Pierre and Miquelon"
+    }
+  }
+}

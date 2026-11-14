@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vdcjcvru Elegant Bronze Tuna",
+    "category": "dairy-eggs",
+    "price": 49.6,
+    "stock": 44,
+    "details": {
+      "brand": "Kessler, Shields and Abernathy",
+      "origin": "Micronesia"
+    }
+  }
+}

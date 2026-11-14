@@ -1,0 +1,15 @@
+{
+  "id": "d8bf3abb-9532-494b-b383-35b04a0a7ca9",
+  "product_name": "QA-1-tp9f7r47 Frozen Plastic Table",
+  "category": "beverages",
+  "price": 28.11,
+  "stock": 47,
+  "details": {
+    "brand": "Towne Inc",
+    "origin": "Guadeloupe"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:41:46.105226+00:00"
+}

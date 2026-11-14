@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fu5dvnln Luxurious Rubber Soap",
+    "category": "meat-seafood",
+    "price": 25.97,
+    "stock": 2,
+    "details": {
+      "brand": "Orn - Treutel",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

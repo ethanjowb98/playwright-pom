@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x5znvngp Incredible Silk Shoes",
+    "category": "snacks",
+    "price": 14.42,
+    "stock": 34,
+    "details": {
+      "brand": "Emmerich, Gerhold and Emmerich",
+      "origin": "Comoros"
+    }
+  }
+}

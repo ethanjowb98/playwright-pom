@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tzkt9oem Handmade Steel Keyboard",
+    "category": "meat-seafood",
+    "price": 37.67,
+    "stock": 37,
+    "details": {
+      "brand": "Reichel and Sons",
+      "origin": "Monaco"
+    }
+  }
+}

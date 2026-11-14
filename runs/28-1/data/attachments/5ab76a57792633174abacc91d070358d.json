@@ -1,0 +1,15 @@
+{
+  "id": "0128760d-efff-47a0-b4a9-e7fb5e23da6a",
+  "product_name": "QA-1-bv6u6efv Fresh Wooden Shoes",
+  "category": "household",
+  "price": 23.24,
+  "stock": 31,
+  "details": {
+    "brand": "Hackett Inc",
+    "origin": "Iceland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:47.99422+00:00"
+}

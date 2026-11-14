@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wbddx150 Luxurious Gold Tuna",
+    "category": "dairy-eggs",
+    "price": 45.97,
+    "stock": 50,
+    "details": {
+      "brand": "Hickle - McCullough",
+      "origin": "Mexico"
+    }
+  }
+}

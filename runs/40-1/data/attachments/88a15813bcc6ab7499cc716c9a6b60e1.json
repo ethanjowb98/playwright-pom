@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-6wgrei2a Handmade Ceramic Chicken",
+    "category": "pantry",
+    "price": 11.17,
+    "stock": 50,
+    "details": {
+      "brand": "Dibbert, Kihn and Smitham",
+      "origin": "Cyprus"
+    }
+  }
+}

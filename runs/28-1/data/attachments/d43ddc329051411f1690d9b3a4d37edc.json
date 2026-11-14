@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3zuu2t4e Handcrafted Plastic Salad",
+    "category": "snacks",
+    "price": 29.26,
+    "stock": "x",
+    "details": {
+      "brand": "Kunde - Pfeffer",
+      "origin": "Democratic People's Republic of Korea"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-qczm2bng Sleek Cotton Mouse",
+    "category": "snacks",
+    "price": 27.63,
+    "stock": 38,
+    "details": {
+      "brand": "Schuppe - Herman",
+      "origin": "Western Sahara"
+    }
+  }
+}

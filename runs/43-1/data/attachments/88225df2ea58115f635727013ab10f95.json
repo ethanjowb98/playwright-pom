@@ -1,0 +1,15 @@
+{
+  "id": "5f1b133d-8da8-491c-9fe7-b479372b7c29",
+  "product_name": "QA-2-y60to23x sort Alpha",
+  "category": "beverages",
+  "price": 12.53,
+  "stock": 30,
+  "details": {
+    "brand": "Kohler, Macejkovic and Price",
+    "origin": "Belarus"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:28.076181+00:00"
+}

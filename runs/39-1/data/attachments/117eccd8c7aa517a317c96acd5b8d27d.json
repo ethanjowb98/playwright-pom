@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "fresh-produce",
+    "price": 5.23,
+    "stock": 16,
+    "details": {
+      "brand": "Bernier-Swaniawski, Ratke and Mertz",
+      "origin": "Eritrea"
+    }
+  }
+}

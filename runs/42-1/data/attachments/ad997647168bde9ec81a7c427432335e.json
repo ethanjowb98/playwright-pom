@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-efgym01q Oriental Steel Chicken",
+    "category": "other",
+    "stock": 38,
+    "details": {
+      "brand": "Moore, Swaniawski and Ratke",
+      "origin": "Cayman Islands"
+    }
+  }
+}

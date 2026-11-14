@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pghlenrx Fantastic Rubber Bacon",
+    "category": "frozen",
+    "price": 12.37,
+    "stock": 18,
+    "details": {
+      "brand": "Nienow-Gibson, Romaguera and Nitzsche",
+      "origin": "Central African Republic"
+    }
+  }
+}

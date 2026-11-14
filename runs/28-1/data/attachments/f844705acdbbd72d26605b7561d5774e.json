@@ -1,0 +1,15 @@
+{
+  "id": "0d820c65-f476-4a56-a67e-6950fb067756",
+  "product_name": "QA-1-a0fs1jpc Recycled Granite Hat",
+  "category": "meat-seafood",
+  "price": 1.2,
+  "stock": 49,
+  "details": {
+    "brand": "Hansen, Kiehn and Harvey",
+    "origin": "Lebanon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:11:36.260212+00:00"
+}

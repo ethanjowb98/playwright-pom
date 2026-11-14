@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sh2jnuk3 Incredible Marble Towels",
+    "category": "frozen",
+    "price": 47.31,
+    "stock": 35,
+    "details": {
+      "brand": "Douglas Inc",
+      "origin": "Ukraine"
+    }
+  }
+}

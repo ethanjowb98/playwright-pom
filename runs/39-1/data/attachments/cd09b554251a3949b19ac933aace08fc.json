@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-fbxciws6 Refined Ceramic Bacon",
+    "category": "beverages",
+    "price": 25.58,
+    "stock": 43,
+    "details": {
+      "batch": "QA-6-pdo02dbb batch"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1hob9k48 Rustic Bamboo Computer",
+    "category": "fresh-produce",
+    "price": 22.32,
+    "stock": -5,
+    "details": {
+      "brand": "Armstrong - Reilly",
+      "origin": "Honduras"
+    }
+  }
+}

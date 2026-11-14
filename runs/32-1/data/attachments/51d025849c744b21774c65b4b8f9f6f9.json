@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-by1ase9e sort Charlie",
+    "category": "fresh-produce",
+    "price": 35.24,
+    "stock": 29,
+    "details": {
+      "brand": "Mosciski-Frami Group",
+      "origin": "Micronesia"
+    }
+  }
+}

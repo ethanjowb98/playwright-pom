@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-by6ywp0i Sleek Rubber Soap",
+    "category": "fresh-produce",
+    "price": 11.13,
+    "stock": 36,
+    "details": {
+      "brand": "Kertzmann and Sons",
+      "origin": "Martinique"
+    }
+  }
+}

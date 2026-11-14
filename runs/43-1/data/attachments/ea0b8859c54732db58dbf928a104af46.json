@@ -1,0 +1,15 @@
+{
+  "id": "5942e874-afee-4f1b-ab20-1b819a77dbb7",
+  "product_name": "QA-7-vx6fzhmc sort Charlie",
+  "category": "meat-seafood",
+  "price": 31.16,
+  "stock": 16,
+  "details": {
+    "brand": "Fadel LLC",
+    "origin": "Mongolia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:53.683677+00:00"
+}

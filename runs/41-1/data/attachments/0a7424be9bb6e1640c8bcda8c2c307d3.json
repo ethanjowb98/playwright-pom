@@ -1,0 +1,15 @@
+{
+  "id": "9b8bd83a-128e-4d16-81fd-ae493aa3ba4f",
+  "product_name": "QA-1-mxnux3jf Practical Bronze Computer",
+  "category": "pantry",
+  "price": 15.91,
+  "stock": 41,
+  "details": {
+    "brand": "Kertzmann, Torphy-Reichert and Mayer",
+    "origin": "Turkmenistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:01:35.707168+00:00"
+}

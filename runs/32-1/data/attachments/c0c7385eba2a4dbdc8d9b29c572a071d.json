@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-xajgnc3k Electronic Steel Gloves",
+    "price": 21.49,
+    "stock": 17,
+    "details": {
+      "brand": "Bruen - Franecki",
+      "origin": "Sri Lanka"
+    }
+  }
+}

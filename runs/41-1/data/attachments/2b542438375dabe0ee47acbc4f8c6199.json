@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-4l8kd4cf Incredible Granite Keyboard",
+    "category": "bakery",
+    "price": 4.89,
+    "stock": 14,
+    "details": {
+      "brand": "Johnston, Stark and Gibson",
+      "origin": "Iceland"
+    },
+    "temperature_zone": "Dry"
+  }
+}

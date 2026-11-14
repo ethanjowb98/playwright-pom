@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8zjzjdls Refined Bamboo Mouse",
+    "category": "pantry",
+    "price": 42.53,
+    "stock": 41,
+    "details": {
+      "brand": "Kunze, Sipes and Hansen",
+      "origin": "Mozambique"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

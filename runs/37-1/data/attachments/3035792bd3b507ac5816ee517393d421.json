@@ -1,0 +1,15 @@
+{
+  "id": "bf6e2cd3-0050-4f98-a18b-f7b0ad5da573",
+  "product_name": "QA-1-029l42fo Fantastic Metal Sausages",
+  "category": "dairy-eggs",
+  "price": 17.91,
+  "stock": 26,
+  "details": {
+    "brand": "Keebler - Reilly",
+    "origin": "Brazil"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:31.136062+00:00"
+}

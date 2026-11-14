@@ -1,0 +1,15 @@
+{
+  "id": "f18940ac-57fb-45c0-ae19-5bb8d8015a08",
+  "product_name": "QA-1-0qauxxia Rustic Plastic Computer",
+  "category": "snacks",
+  "price": 36.21,
+  "stock": 19,
+  "details": {
+    "brand": "Hintz LLC",
+    "origin": "Falkland Islands (Malvinas)"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:32:52.399999+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4hpo0tsy Unbranded Marble Sausages",
+    "category": "frozen",
+    "price": 3.96,
+    "stock": 14,
+    "details": {
+      "brand": "Champlin, Schiller and Farrell",
+      "origin": "United States of America"
+    }
+  }
+}

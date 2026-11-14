@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-x56dkc0t Handcrafted Granite Fish",
+    "category": "meat-seafood",
+    "price": 18.09,
+    "stock": 47,
+    "details": {
+      "brand": "Pfannerstill, Donnelly and Mayert",
+      "origin": "Christmas Island"
+    }
+  }
+}

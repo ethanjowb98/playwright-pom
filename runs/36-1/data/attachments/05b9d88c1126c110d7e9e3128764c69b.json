@@ -1,0 +1,15 @@
+{
+  "id": "80ba4adb-a074-44d1-8ea4-456fdfc60ce8",
+  "product_name": "QA-1-m3pec1cr Bespoke Gold Chicken",
+  "category": "frozen",
+  "price": 41.76,
+  "stock": 17,
+  "details": {
+    "brand": "Wyman, Ferry and Koepp",
+    "origin": "Myanmar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:09:04.644965+00:00"
+}

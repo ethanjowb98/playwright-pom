@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-7zwdwpaf sort Bravo",
+    "category": "snacks",
+    "price": 5.13,
+    "stock": 42,
+    "details": {
+      "brand": "Emard - Leuschke",
+      "origin": "Samoa"
+    }
+  }
+}

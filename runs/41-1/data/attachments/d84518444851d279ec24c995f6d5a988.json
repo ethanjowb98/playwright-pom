@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "1b808cdb-6aee-49bd-86da-5bd680539c72",
+      "product_id": "522687d4-1e18-4a84-9ab6-9c9065bfb38a",
+      "product_name": "QA-1-xd4orz93 Soft Cotton Pizza",
+      "price": 35.17,
+      "category": "frozen",
+      "quantity": 3,
+      "created_at": "2026-11-11T10:03:35.371931+00:00",
+      "updated_at": "2026-11-11T10:03:35.371931+00:00"
+    },
+    {
+      "id": "50f35d1d-4906-491c-8296-dc36ee5eaafd",
+      "product_id": "6e50fb3b-d427-43c3-8c3e-e3346c1c3024",
+      "product_name": "QA-1-h1b3z817 Fresh Aluminum Gloves",
+      "price": 26.76,
+      "category": "meat-seafood",
+      "quantity": 2,
+      "created_at": "2026-11-11T10:03:35.937726+00:00",
+      "updated_at": "2026-11-11T10:03:35.937726+00:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v6t9kxqk Fantastic Silk Chips",
+    "category": "snacks",
+    "price": 23.63,
+    "stock": 37,
+    "details": {
+      "brand": "O'Connell - Hahn",
+      "origin": "Aruba"
+    }
+  }
+}

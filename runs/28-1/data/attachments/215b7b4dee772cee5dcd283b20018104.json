@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4kldvfxv Handcrafted Metal Pizza",
+    "category": "other",
+    "price": 5.94,
+    "stock": 24,
+    "details": {
+      "brand": "Paucek, Thompson and Swift",
+      "origin": "Ghana"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x7mv5il7 Recycled Marble Car",
+    "category": "bakery",
+    "price": 29.27,
+    "stock": 13,
+    "details": {
+      "brand": "Beatty, Goldner and Upton",
+      "origin": "Benin"
+    }
+  }
+}

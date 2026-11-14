@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "78fa97b0-8fa6-44ea-a7a3-80afcfb6fdbb",
+    "order_number": "O93296",
+    "status": "pending",
+    "total_amount": 10.39,
+    "created_at": "2026-11-04T08:13:01.694836+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-n3to2tv5 Bespoke Metal Towels",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 10.39,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

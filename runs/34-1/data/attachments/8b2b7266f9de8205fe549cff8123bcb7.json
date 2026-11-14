@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "76b9756c-a0e5-47e7-8d24-a026e4f118ed",
+      "product_id": "6b41d039-df88-4533-a0af-bbae15a51809",
+      "product_name": "QA-1-lstb5ugg Oriental Silk Bike",
+      "price": 32.86,
+      "category": "dairy-eggs",
+      "quantity": 1,
+      "created_at": "2026-11-05T09:21:59.638437+00:00",
+      "updated_at": "2026-11-05T09:21:59.638437+00:00"
+    },
+    {
+      "id": "566d850a-40b3-4530-b2b7-4d971c2ae62b",
+      "product_id": "2c87ff85-a64d-45e3-bfed-5a19231341c4",
+      "product_name": "QA-1-o7t2gxls Ergonomic Steel Gloves",
+      "price": 5.41,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-05T09:22:00.197483+00:00",
+      "updated_at": "2026-11-05T09:22:00.197483+00:00"
+    }
+  ]
+}

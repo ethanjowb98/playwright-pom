@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1jld2kks Sleek Granite Sausages",
+    "category": "meat-seafood",
+    "price": 32.46,
+    "stock": 21,
+    "details": {
+      "brand": "Goyette Inc",
+      "origin": "Bahrain"
+    }
+  }
+}

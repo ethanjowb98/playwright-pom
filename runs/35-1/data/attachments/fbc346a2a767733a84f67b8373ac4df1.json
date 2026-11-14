@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0n0wbnup Gorgeous Aluminum Gloves",
+    "category": "meat-seafood",
+    "price": 12.14,
+    "stock": 31,
+    "details": {
+      "brand": "Herzog, Ankunding and Harber",
+      "origin": "Kazakhstan"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

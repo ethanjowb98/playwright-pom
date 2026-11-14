@@ -1,0 +1,15 @@
+{
+  "id": "f5426ab7-a762-45cc-bfe2-245ad7df26b8",
+  "product_name": "QA-1-0r3fzksh Soft Aluminum Computer",
+  "category": "dairy-eggs",
+  "price": 34.96,
+  "stock": 42,
+  "details": {
+    "brand": "Pollich - Stroman",
+    "origin": "El Salvador"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:28:00.093866+00:00"
+}

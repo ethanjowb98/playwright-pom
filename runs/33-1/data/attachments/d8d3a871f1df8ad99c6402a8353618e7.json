@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "39faaa10-2e28-4fc9-bd16-1c39bd4404f6",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "shipped",
+    "total_amount": 68.1,
+    "notes": null,
+    "created_at": "2026-11-05T08:26:20.350478+00:00",
+    "updated_at": "2026-11-05T08:26:20.350478+00:00",
+    "order_number": "O10941"
+  }
+}

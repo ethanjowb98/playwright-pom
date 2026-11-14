@@ -1,0 +1,15 @@
+{
+  "id": "1d9215e1-5dee-4a3f-95cc-b214ad47378c",
+  "product_name": "QA-7-7wthm0uc sort Alpha",
+  "category": "beverages",
+  "price": 42.52,
+  "stock": 26,
+  "details": {
+    "brand": "Bergnaum LLC",
+    "origin": "Tanzania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:18.678774+00:00"
+}

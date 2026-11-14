@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-gi17s4qo Elegant Granite Chicken",
+    "category": "dairy-eggs",
+    "price": 43.52,
+    "stock": 18,
+    "details": {
+      "brand": "Harber, Hermiston and Abernathy",
+      "origin": "Ecuador"
+    },
+    "weighted": false
+  }
+}

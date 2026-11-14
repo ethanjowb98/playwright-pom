@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-xwio1cdr Tasty Silk Bacon",
+    "category": "household",
+    "price": 48.6,
+    "stock": 19,
+    "details": {
+      "brand": "Harris Group",
+      "origin": "Eswatini"
+    }
+  }
+}

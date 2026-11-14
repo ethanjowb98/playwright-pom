@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "147ddbe6-2462-4883-89bd-138b08afce6a",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "cancelled",
+    "total_amount": 51.42,
+    "notes": null,
+    "created_at": "2026-11-09T10:37:16.26325+00:00",
+    "updated_at": "2026-11-09T10:37:16.26325+00:00",
+    "order_number": "O27230"
+  }
+}

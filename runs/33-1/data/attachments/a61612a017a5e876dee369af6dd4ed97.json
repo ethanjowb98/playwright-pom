@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qu9tkx0g Elegant Wooden Chicken",
+    "category": "dairy-eggs",
+    "price": 20.2,
+    "stock": 23,
+    "details": {
+      "brand": "Mohr and Sons",
+      "origin": "Macao"
+    }
+  }
+}

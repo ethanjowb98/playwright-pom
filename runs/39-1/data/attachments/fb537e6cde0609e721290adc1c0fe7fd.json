@@ -1,0 +1,15 @@
+{
+  "id": "6463717e-06e7-44cc-a5c1-5bead421fdef",
+  "product_name": "QA-1-1r0yw63u Ergonomic Steel Ball",
+  "category": "beverages",
+  "price": 47.42,
+  "stock": 14,
+  "details": {
+    "brand": "Blanda and Sons",
+    "origin": "New Caledonia"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:12.100725+00:00"
+}

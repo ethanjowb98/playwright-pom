@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-99yqj5ro Unbranded Wooden Gloves",
+    "category": "snacks",
+    "price": 6.39,
+    "stock": 44,
+    "details": {
+      "brand": "Huel - Kub",
+      "origin": "Philippines"
+    }
+  }
+}

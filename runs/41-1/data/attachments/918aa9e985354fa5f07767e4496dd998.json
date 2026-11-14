@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-port5rmk Gorgeous Plastic Table",
+    "category": "other",
+    "price": 44.05,
+    "stock": 27,
+    "details": {
+      "brand": "Klein, Bosco and Baumbach",
+      "origin": "Seychelles"
+    }
+  }
+}

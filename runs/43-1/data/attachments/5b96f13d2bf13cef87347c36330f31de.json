@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "5e57fc3e-cc1c-43c0-ad26-f11b495ba915",
+      "product_id": "25ebc9a1-4152-4a68-bb78-eee843154f30",
+      "product_name": "QA-1-0fj1btw1 Small Rubber Car",
+      "price": 42.64,
+      "category": "bakery",
+      "quantity": 1,
+      "created_at": "2026-11-13T10:20:08.072269+00:00",
+      "updated_at": "2026-11-13T10:20:08.072269+00:00"
+    }
+  ]
+}

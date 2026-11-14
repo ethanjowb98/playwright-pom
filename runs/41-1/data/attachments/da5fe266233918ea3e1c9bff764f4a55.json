@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cgh9wdn3 Tasty Aluminum Ball",
+    "category": "snacks",
+    "price": 22.08,
+    "stock": 30,
+    "details": {
+      "brand": "Moen-Shields and Sons",
+      "origin": "Comoros"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xv370pq4 Fantastic Gold Bike",
+    "category": "fresh-produce",
+    "price": 32.99,
+    "stock": 19,
+    "details": {
+      "brand": "Crooks Inc",
+      "origin": "French Southern Territories"
+    }
+  }
+}

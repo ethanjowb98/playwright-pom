@@ -1,0 +1,15 @@
+{
+  "id": "754aa47c-23a8-4d66-8ca9-a91b7e91e95d",
+  "product_name": "QA-1-2vseggtj Fantastic Bronze Bike",
+  "category": "dairy-eggs",
+  "price": 26.76,
+  "stock": 24,
+  "details": {
+    "brand": "Thompson - Kshlerin",
+    "origin": "Denmark"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:20:19.385649+00:00"
+}

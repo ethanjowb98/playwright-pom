@@ -1,0 +1,15 @@
+{
+  "id": "915ccad9-81a3-43af-9bde-d42cc395a736",
+  "product_name": "QA-3-7zwdwpaf sort Bravo",
+  "category": "snacks",
+  "price": 5.13,
+  "stock": 42,
+  "details": {
+    "brand": "Emard - Leuschke",
+    "origin": "Samoa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:27.205262+00:00"
+}

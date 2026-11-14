@@ -1,0 +1,19 @@
+{
+  "id": "e0939247-3d4d-438f-8fb2-8eb4310cffdf",
+  "order_number": "O24862",
+  "status": "pending",
+  "total_amount": 15.74,
+  "notes": null,
+  "created_at": "2026-11-05T08:23:27.210743+00:00",
+  "updated_at": "2026-11-05T08:23:27.210743+00:00",
+  "items": [
+    {
+      "product_id": "290ca307-a551-4d6b-abf9-986a38281af6",
+      "product_name": "QA-1-wb4u4mld Soft Wooden Shirt",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 15.74,
+      "temperature_zone": null
+    }
+  ]
+}

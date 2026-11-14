@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-10vchk24 Sleek Concrete Table",
+    "category": "frozen",
+    "price": 38.62,
+    "stock": 27,
+    "details": {
+      "brand": "Blick, Jacobs and Kuhlman-Gutkowski",
+      "origin": "Jamaica"
+    }
+  }
+}

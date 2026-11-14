@@ -1,0 +1,1 @@
+{"id":"b2c7baf4c6bd34237d2f61ac88974ca1.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/basket.api.spec.ts › Basket API › Isolation › should count every unit when the same product is added concurrently","name":"should count every unit when the same product is added concurrently","status":"skipped","testResultsByEnv":{"default":"713cf722ccb604c9254553517f00cb4c"}}

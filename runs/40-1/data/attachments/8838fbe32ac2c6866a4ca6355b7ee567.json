@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gdioouev Oriental Cotton Computer",
+    "category": "frozen",
+    "price": 17.7,
+    "stock": 17,
+    "details": {
+      "brand": "Dare, Monahan and Bergstrom",
+      "origin": "Cyprus"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

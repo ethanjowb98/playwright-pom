@@ -1,0 +1,27 @@
+{
+  "id": "e38df3cf-64ae-45ab-9257-d279d7a65171",
+  "order_number": "O39585",
+  "status": "pending",
+  "total_amount": 79.74,
+  "notes": null,
+  "created_at": "2026-11-09T10:37:21.492544+00:00",
+  "updated_at": "2026-11-09T10:37:21.492544+00:00",
+  "items": [
+    {
+      "product_id": "78220365-a5db-4834-8a55-ef85c2ddceed",
+      "product_name": "QA-1-eox97aef Fantastic Gold Sausages",
+      "category": "dairy-eggs",
+      "quantity": 3,
+      "price": 22.31,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "b7ffeaae-a383-4286-abe7-87a7b3ac7cb8",
+      "product_name": "QA-1-rbuj5amk Small Gold Computer",
+      "category": "household",
+      "quantity": 3,
+      "price": 4.27,
+      "temperature_zone": null
+    }
+  ]
+}

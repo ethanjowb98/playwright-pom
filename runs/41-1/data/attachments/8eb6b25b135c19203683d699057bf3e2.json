@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ocmhs5u Gorgeous Plastic Salad",
+    "category": "beverages",
+    "price": 22.41,
+    "stock": 12,
+    "details": {
+      "brand": "Dicki Group",
+      "origin": "Democratic Republic of the Congo"
+    }
+  }
+}

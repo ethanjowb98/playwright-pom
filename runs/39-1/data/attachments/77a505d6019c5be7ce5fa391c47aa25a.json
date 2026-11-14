@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k3y5wgq9 Practical Concrete Towels",
+    "category": "frozen",
+    "price": 26.49,
+    "stock": 16,
+    "details": {
+      "brand": "Powlowski and Sons",
+      "origin": "Albania"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u6ztgsdu Soft Aluminum Sausages",
+    "category": "frozen",
+    "price": 5.62,
+    "stock": 50,
+    "details": {
+      "brand": "Hackett-Larson, Gusikowski and Schinner",
+      "origin": "Saint Lucia"
+    }
+  }
+}

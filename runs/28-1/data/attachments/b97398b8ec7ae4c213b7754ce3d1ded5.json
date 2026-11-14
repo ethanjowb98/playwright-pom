@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "edd18384-08f8-45cb-808d-190b35b8340a",
+      "order_number": "O30135",
+      "status": "pending",
+      "total_amount": 26.66,
+      "notes": null,
+      "created_at": "2026-11-04T08:12:19.170351+00:00",
+      "updated_at": "2026-11-04T08:12:19.170351+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-fsqea8wc Awesome Silk Salad",
+          "category": "household",
+          "quantity": 1,
+          "price": 26.66,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

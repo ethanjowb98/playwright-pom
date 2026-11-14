@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8xlhxu5c Ergonomic Concrete Soap",
+    "category": "pantry",
+    "price": 11.11,
+    "stock": 2,
+    "details": {
+      "brand": "Marquardt Inc",
+      "origin": "France"
+    }
+  }
+}

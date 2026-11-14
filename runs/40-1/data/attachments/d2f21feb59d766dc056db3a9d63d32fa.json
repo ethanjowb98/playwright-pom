@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n7mnojwu Generic Steel Hat",
+    "category": "dairy-eggs",
+    "price": 16.01,
+    "stock": 20,
+    "details": {
+      "brand": "Stroman, Huels and Huel",
+      "origin": "Dominican Republic"
+    }
+  }
+}

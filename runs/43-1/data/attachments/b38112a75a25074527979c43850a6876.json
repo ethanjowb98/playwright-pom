@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-95q6jljy Elegant Granite Mouse",
+    "category": "frozen",
+    "stock": 43,
+    "details": {
+      "brand": "Rogahn LLC",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

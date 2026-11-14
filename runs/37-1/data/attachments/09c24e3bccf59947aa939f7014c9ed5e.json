@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tti8fgqb Practical Bronze Tuna",
+    "category": "other",
+    "price": 47.8,
+    "stock": 29,
+    "details": {
+      "brand": "Bechtelar, Sipes and Huel",
+      "origin": "Vanuatu"
+    }
+  }
+}

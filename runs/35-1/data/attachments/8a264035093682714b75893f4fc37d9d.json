@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x0guhejl Fresh Bronze Shoes",
+    "category": "household",
+    "stock": 15,
+    "details": {
+      "brand": "Quitzon - Keebler",
+      "origin": "Bolivia"
+    }
+  }
+}

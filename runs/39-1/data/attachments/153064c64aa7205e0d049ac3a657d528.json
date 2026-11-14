@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gav3hxls Small Plastic Towels",
+    "category": "other",
+    "price": 43.92,
+    "stock": 49,
+    "details": {
+      "brand": "Cummings - Kuhlman",
+      "origin": "Moldova"
+    }
+  }
+}

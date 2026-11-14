@@ -1,0 +1,1 @@
+{"id":"2f4cd4cea157e6604961b0f0bab3f5c8.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when stock is not a number","name":"should reject the product with 400 when stock is not a number","status":"passed","testResultsByEnv":{"default":"acbdb940988e3da5420d9e55b7d68c1b"}}

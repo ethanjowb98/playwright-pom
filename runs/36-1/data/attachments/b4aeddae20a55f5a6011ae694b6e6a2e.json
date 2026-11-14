@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-mxs5sl7l Soft Silk Chair",
+    "category": "beverages",
+    "price": 3.6,
+    "stock": 35,
+    "details": {
+      "brand": "Hoeger, Cartwright and Goyette",
+      "origin": "Bhutan"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

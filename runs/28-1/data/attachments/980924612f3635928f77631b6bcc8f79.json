@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w63l6okm Frozen Cotton Table",
+    "category": "bakery",
+    "price": 15.75,
+    "stock": 21,
+    "details": {
+      "brand": "Flatley LLC",
+      "origin": "Benin"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

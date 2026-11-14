@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-fo8pexwd Oriental Silk Sausages",
+    "category": "snacks",
+    "price": 46.35,
+    "stock": 46,
+    "details": {
+      "brand": "Carter - Rohan",
+      "origin": "Canada"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

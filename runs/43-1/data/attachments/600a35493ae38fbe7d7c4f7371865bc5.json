@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wxonvblh Recycled Metal Keyboard",
+    "category": "pantry",
+    "price": 12.46,
+    "stock": 14,
+    "details": {
+      "brand": "Lubowitz Group",
+      "origin": "Luxembourg"
+    }
+  }
+}

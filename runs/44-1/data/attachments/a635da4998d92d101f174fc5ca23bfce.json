@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w9xk5d8c Handcrafted Concrete Pizza",
+    "price": 38.77,
+    "stock": 34,
+    "details": {
+      "brand": "Dickinson, Wolff and Ward",
+      "origin": "Turkey"
+    }
+  }
+}

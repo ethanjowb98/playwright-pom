@@ -1,0 +1,15 @@
+{
+  "id": "24a60e93-f974-41fa-ba91-5d3a1859cddf",
+  "product_name": "QA-1-ldsdn5ii Modern Granite Chair",
+  "category": "bakery",
+  "price": 40.83,
+  "stock": 12,
+  "details": {
+    "brand": "Hahn, Macejkovic and Hudson",
+    "origin": "Cocos (Keeling) Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:31.990951+00:00"
+}

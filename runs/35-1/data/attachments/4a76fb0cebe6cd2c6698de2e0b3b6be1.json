@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zvpw70vu Frozen Ceramic Pizza",
+    "category": "frozen",
+    "price": 18.2,
+    "stock": 25,
+    "details": {
+      "brand": "Funk - Armstrong",
+      "origin": "Suriname"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

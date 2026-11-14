@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-3tjghpjk Ergonomic Bamboo Hat",
+    "category": "pantry",
+    "price": 26.58,
+    "stock": 32,
+    "details": {
+      "brand": "Wiegand, Halvorson and Cremin",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

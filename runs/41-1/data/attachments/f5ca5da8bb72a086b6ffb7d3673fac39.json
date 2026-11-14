@@ -1,0 +1,15 @@
+{
+  "id": "6ffd35ad-771c-4890-a00b-d2bc4bd468c0",
+  "product_name": "QA-1-xchieymz Generic Bronze Shoes",
+  "category": "fresh-produce",
+  "price": 13.45,
+  "stock": 36,
+  "details": {
+    "brand": "Hand, Terry and Dietrich-Moen",
+    "origin": "Norfolk Island"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:02:08.886288+00:00"
+}

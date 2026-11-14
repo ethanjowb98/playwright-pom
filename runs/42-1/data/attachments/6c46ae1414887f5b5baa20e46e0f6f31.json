@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-stzyl718 Handmade Marble Sausages",
+    "category": "household",
+    "price": 46.07,
+    "stock": 38,
+    "details": {
+      "brand": "Jacobi, Marvin and Schultz",
+      "origin": "Niue"
+    }
+  }
+}

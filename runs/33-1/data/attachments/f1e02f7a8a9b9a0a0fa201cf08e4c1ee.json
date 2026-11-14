@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0gyh2s8t Ergonomic Rubber Sausages",
+    "category": "frozen",
+    "price": 36.41,
+    "stock": 45,
+    "details": {
+      "brand": "Grimes, Bednar and McKenzie",
+      "origin": "Togo"
+    }
+  }
+}

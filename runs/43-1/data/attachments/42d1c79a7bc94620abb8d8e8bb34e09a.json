@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-i4xfqlmn Luxurious Rubber Cheese",
+    "category": "frozen",
+    "price": 24.24,
+    "stock": 39,
+    "details": {
+      "brand": "Ortiz Group",
+      "origin": "British Indian Ocean Territory (Chagos Archipelago)"
+    },
+    "weighted": true
+  }
+}

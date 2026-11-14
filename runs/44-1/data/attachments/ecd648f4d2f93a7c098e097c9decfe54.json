@@ -1,0 +1,19 @@
+{
+  "id": "aebb8a3c-4417-4eb7-b80b-00abe5a45bd5",
+  "order_number": "O26358",
+  "status": "cancelled",
+  "total_amount": 43.16,
+  "notes": null,
+  "created_at": "2026-11-14T09:40:40.154531+00:00",
+  "updated_at": "2026-11-14T09:40:40.154531+00:00",
+  "items": [
+    {
+      "product_id": "26f7e8fc-d324-4359-a9f5-de8b0b7d2896",
+      "product_name": "QA-1-pnadnlaf Frozen Plastic Towels",
+      "category": "frozen",
+      "quantity": 2,
+      "price": 21.58,
+      "temperature_zone": null
+    }
+  ]
+}

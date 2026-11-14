@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-q4lck9nw Electronic Cotton Cheese",
+    "category": "frozen",
+    "price": 44.25,
+    "stock": 47,
+    "details": {
+      "brand": "Schumm, Lindgren and Borer",
+      "origin": "Cayman Islands"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

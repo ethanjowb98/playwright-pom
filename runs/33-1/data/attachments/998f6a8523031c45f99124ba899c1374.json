@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vb7mxym9 Licensed Ceramic Bike",
+    "category": "dairy-eggs",
+    "price": 19.73,
+    "stock": 35,
+    "details": {
+      "brand": "Marvin, O'Hara and Cremin-Luettgen",
+      "origin": "Switzerland"
+    }
+  }
+}

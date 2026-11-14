@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "4263d13f-5636-484c-9bb8-95e1e71b72e7",
+    "order_number": "O42620",
+    "status": "pending",
+    "total_amount": 145.95,
+    "created_at": "2026-11-13T10:23:24.392892+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-bcrx7mpx Ergonomic Aluminum Ball",
+        "category": "fresh-produce",
+        "quantity": 3,
+        "price": 48.65,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

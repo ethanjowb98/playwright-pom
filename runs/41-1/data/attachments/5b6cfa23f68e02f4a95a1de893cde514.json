@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-gxa4sh5p Refined Bronze Soap",
+    "category": "other",
+    "price": 46.06,
+    "stock": 44,
+    "details": {
+      "brand": "Bernier, Casper and Keebler",
+      "origin": "Saint Barthélemy"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-cyyud2ef Small Silk Shoes",
+    "category": "beverages",
+    "stock": 11,
+    "details": {
+      "brand": "Zemlak, Kertzmann and O'Kon",
+      "origin": "Hong Kong"
+    }
+  }
+}

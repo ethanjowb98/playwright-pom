@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "meat-seafood",
+    "price": 23.79,
+    "stock": 28,
+    "details": {
+      "brand": "Turner, Lemke and Cremin",
+      "origin": "American Samoa"
+    }
+  }
+}

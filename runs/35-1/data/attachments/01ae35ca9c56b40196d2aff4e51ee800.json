@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-or41vxom Oriental Bronze Ball",
+    "category": "pantry",
+    "price": 3.33,
+    "stock": 42,
+    "details": {
+      "brand": "Stehr - Pacocha-Ullrich",
+      "origin": "Vanuatu"
+    }
+  }
+}

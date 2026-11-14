@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gjrmdqi2 Handcrafted Bamboo Computer",
+    "category": "snacks",
+    "price": 37.91,
+    "stock": 31,
+    "details": {
+      "brand": "Altenwerth-Bradtke, Okuneva and Waelchi",
+      "origin": "Guinea"
+    }
+  }
+}

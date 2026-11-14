@@ -1,0 +1,15 @@
+{
+  "id": "437fcd5f-ee51-44cf-b170-aa6fc35480c8",
+  "product_name": "QA-1-r6fxgaie Ergonomic Metal Sausages",
+  "category": "frozen",
+  "price": 14,
+  "stock": 25,
+  "details": {
+    "brand": "Koss Group",
+    "origin": "Malta"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:38:11.384608+00:00"
+}

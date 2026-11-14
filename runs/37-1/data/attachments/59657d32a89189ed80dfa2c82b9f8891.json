@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-y16i0pmg Gorgeous Marble Chips",
+    "category": "pantry",
+    "price": 5.64,
+    "stock": 23,
+    "details": {
+      "brand": "Trantow LLC",
+      "origin": "Burkina Faso"
+    },
+    "weighted": false
+  }
+}

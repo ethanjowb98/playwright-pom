@@ -1,0 +1,15 @@
+{
+  "id": "d8f7335f-1902-4e52-a853-5e3acaca05e6",
+  "product_name": "QA-1-kcngnain Sleek Aluminum Cheese",
+  "category": "beverages",
+  "price": 20.59,
+  "stock": 33,
+  "details": {
+    "brand": "Abbott-Kassulke - Aufderhar",
+    "origin": "Croatia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:03:44.02354+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sdt06laa Handmade Plastic Sausages",
+    "category": "snacks",
+    "price": 17.8,
+    "stock": 22,
+    "details": {
+      "brand": "Orn and Sons",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

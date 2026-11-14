@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bfsadf8a Frozen Bronze Computer",
+    "category": "household",
+    "price": 20.23,
+    "stock": 47,
+    "details": {
+      "brand": "Graham - Heller",
+      "origin": "Eswatini"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ca458cd2-f184-4bce-bdec-41eb08f52e70",
+  "product_name": "QA-2-vcp9x2hl Sleek Metal Cheese",
+  "category": "dairy-eggs",
+  "price": 38.43,
+  "stock": 41,
+  "details": {
+    "brand": "Flatley - Baumbach",
+    "origin": "Poland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:15:48.002782+00:00"
+}

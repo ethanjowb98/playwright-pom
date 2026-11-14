@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ep9ibz75 Bespoke Bamboo Gloves",
+    "category": "frozen",
+    "price": 34.95,
+    "stock": 46,
+    "details": {
+      "brand": "Baumbach, Wisoky and Bruen",
+      "origin": "Burundi"
+    }
+  }
+}

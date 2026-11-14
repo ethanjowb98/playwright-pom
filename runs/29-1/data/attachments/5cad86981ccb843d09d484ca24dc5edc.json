@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-neyep8a7 sort Alpha",
+    "category": "dairy-eggs",
+    "price": 6.98,
+    "stock": 28,
+    "details": {
+      "brand": "Padberg Group",
+      "origin": "Costa Rica"
+    }
+  }
+}

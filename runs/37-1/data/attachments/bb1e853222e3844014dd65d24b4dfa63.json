@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "6cbdf3c5-602e-48f6-a9ea-3a2781e57f97",
+    "order_number": "O32370",
+    "status": "pending",
+    "total_amount": 29.11,
+    "created_at": "2026-11-07T09:28:58.821944+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-679f0jv9 Luxurious Silk Cheese",
+        "category": "snacks",
+        "quantity": 1,
+        "price": 29.11,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zatianif Handcrafted Marble Chicken",
+    "category": "household",
+    "price": 32.27,
+    "stock": 22,
+    "details": {
+      "brand": "Shields-Medhurst - Anderson",
+      "origin": "Chad"
+    }
+  }
+}

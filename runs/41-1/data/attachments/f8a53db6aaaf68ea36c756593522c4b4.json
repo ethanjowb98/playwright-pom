@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-6vha3pb4 Refined Concrete Hat",
+    "category": "household",
+    "price": 44.56,
+    "stock": 42,
+    "details": {
+      "brand": "McKenzie, Schneider and Frami",
+      "origin": "Tuvalu"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "84a87f86-6272-4036-a5b6-3aab1e68ef7d",
+  "order_number": "O61985",
+  "status": "pending",
+  "total_amount": 114.18,
+  "notes": null,
+  "created_at": "2026-11-12T10:31:39.704074+00:00",
+  "updated_at": "2026-11-12T10:31:39.704074+00:00",
+  "items": [
+    {
+      "product_id": "40c16fe4-1789-41f7-9d7c-3f5028b79fe9",
+      "product_name": "QA-1-sjgs249r Rustic Gold Salad",
+      "category": "bakery",
+      "quantity": 3,
+      "price": 17.94,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "188dab65-c238-47dd-b0bf-dce8ee595cda",
+      "product_name": "QA-1-jhhvlxud Intelligent Bronze Tuna",
+      "category": "household",
+      "quantity": 2,
+      "price": 30.18,
+      "temperature_zone": null
+    }
+  ]
+}

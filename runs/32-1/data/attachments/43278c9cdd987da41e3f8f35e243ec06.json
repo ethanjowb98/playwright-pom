@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-njrb6bo5 Frozen Bamboo Tuna",
+    "category": "other",
+    "price": 4.78,
+    "stock": "x",
+    "details": {
+      "brand": "Doyle Group",
+      "origin": "Micronesia"
+    }
+  }
+}

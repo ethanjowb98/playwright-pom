@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fyrh561f Generic Aluminum Ball",
+    "category": "pantry",
+    "price": 1.95,
+    "stock": 21,
+    "details": {
+      "brand": "Pouros LLC",
+      "origin": "Saint Martin"
+    }
+  }
+}

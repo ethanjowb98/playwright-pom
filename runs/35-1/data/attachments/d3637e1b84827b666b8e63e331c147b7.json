@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fwxikf16 Licensed Rubber Bacon",
+    "category": "beverages",
+    "price": 2.68,
+    "stock": 41,
+    "details": {
+      "brand": "Beier - Leannon",
+      "origin": "Sint Maarten"
+    }
+  }
+}

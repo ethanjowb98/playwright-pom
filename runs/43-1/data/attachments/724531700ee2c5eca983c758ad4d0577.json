@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-54u35gps Practical Ceramic Cheese",
+    "category": "meat-seafood",
+    "price": 13.71,
+    "stock": 27,
+    "details": {
+      "brand": "Carter, Marquardt and Stroman",
+      "origin": "Martinique"
+    },
+    "temperature_zone": "Dry"
+  }
+}

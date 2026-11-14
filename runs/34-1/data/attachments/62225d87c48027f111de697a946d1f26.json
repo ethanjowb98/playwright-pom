@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6ydcgptq Incredible Silk Bacon",
+    "category": "dairy-eggs",
+    "price": 3.84,
+    "stock": 30,
+    "details": {
+      "brand": "Fisher Group",
+      "origin": "Djibouti"
+    }
+  }
+}

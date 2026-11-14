@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "9ddd44e2-dda5-469f-bbec-e07e27e3c972",
+      "product_id": "9223d4c8-81ce-4a5e-87e6-4654e16b381e",
+      "product_name": "QA-1-ykxu5q3o Tasty Concrete Sausages",
+      "price": 25.74,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-13T10:23:01.122368+00:00",
+      "updated_at": "2026-11-13T10:23:01.122368+00:00"
+    }
+  ]
+}

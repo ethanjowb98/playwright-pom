@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m72e0mj6 Modern Steel Bacon",
+    "category": "other",
+    "price": 41.41,
+    "stock": 32,
+    "details": {
+      "brand": "Roob, Torp and Hackett",
+      "origin": "Congo"
+    }
+  }
+}

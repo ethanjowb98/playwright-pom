@@ -1,0 +1,15 @@
+{
+  "id": "3a971c65-19ce-49b7-a585-45824af9d6b9",
+  "product_name": "QA-1-fchf1ex4 Unbranded Granite Mouse",
+  "category": "fresh-produce",
+  "price": 8.71,
+  "stock": 12,
+  "details": {
+    "brand": "Ferry Group",
+    "origin": "Åland Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:40.916433+00:00"
+}

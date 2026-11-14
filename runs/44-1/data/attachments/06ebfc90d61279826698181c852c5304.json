@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "7ecbc8c1-d7ac-4bb2-9cb2-6753e68a9b9f",
+      "product_id": "29c89c29-8453-4e16-b21b-77ea8776b94c",
+      "product_name": "QA-1-jzroxuku Handcrafted Bamboo Bike",
+      "price": 8.3,
+      "category": "frozen",
+      "quantity": 1,
+      "created_at": "2026-11-14T09:42:50.651257+00:00",
+      "updated_at": "2026-11-14T09:42:50.651257+00:00"
+    },
+    {
+      "id": "4d48e246-1f0c-4fde-b181-a5ca8faee674",
+      "product_id": "f6ee3168-7518-4bb6-858c-6336ead7259d",
+      "product_name": "QA-1-81p1jlri Luxurious Aluminum Chicken",
+      "price": 47.93,
+      "category": "pantry",
+      "quantity": 1,
+      "created_at": "2026-11-14T09:42:51.36682+00:00",
+      "updated_at": "2026-11-14T09:42:51.36682+00:00"
+    }
+  ]
+}

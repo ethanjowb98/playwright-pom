@@ -1,0 +1,15 @@
+{
+  "id": "aaf952b2-a5b8-4d87-8a24-f37db99c4e74",
+  "product_name": "QA-5-zhh04614 Sleek Steel Tuna",
+  "category": "other",
+  "price": 22.92,
+  "stock": 17,
+  "details": {
+    "brand": "Jast and Sons",
+    "origin": "Ghana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:49.314216+00:00"
+}

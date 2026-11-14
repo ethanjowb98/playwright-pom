@@ -1,0 +1,15 @@
+{
+  "id": "a75061f6-cb6e-4973-b388-d4ed8d3fd708",
+  "product_name": "QA-1-ewftj8x4 Recycled Aluminum Shoes",
+  "category": "bakery",
+  "price": 19.15,
+  "stock": 37,
+  "details": {
+    "brand": "Feil, Hansen and Quigley",
+    "origin": "Greece"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:28.498264+00:00"
+}

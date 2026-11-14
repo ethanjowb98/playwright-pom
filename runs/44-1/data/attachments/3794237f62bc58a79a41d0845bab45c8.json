@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-blwn1pet Practical Concrete Bacon",
+    "category": "bakery",
+    "price": 20.23,
+    "stock": 48,
+    "details": {
+      "brand": "Hauck-Torphy - Murray",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

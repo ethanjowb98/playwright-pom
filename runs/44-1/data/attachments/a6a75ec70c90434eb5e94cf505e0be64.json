@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-azdl6ajt Oriental Gold Cheese",
+    "category": "frozen",
+    "price": 30.47,
+    "stock": 35,
+    "details": {
+      "brand": "Hegmann - Luettgen",
+      "origin": "Oman"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fdhjvy6x Practical Bamboo Sausages",
+    "category": "meat-seafood",
+    "price": 9.39,
+    "stock": 2,
+    "details": {
+      "brand": "McKenzie, Breitenberg and Wyman",
+      "origin": "Sudan"
+    }
+  }
+}

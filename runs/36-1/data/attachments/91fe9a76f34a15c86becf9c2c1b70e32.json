@@ -1,0 +1,15 @@
+{
+  "id": "ae4aaf07-78cb-436f-8dd5-a4aa41b102a8",
+  "product_name": "QA-1-k5ehwfd4 Handmade Bronze Table",
+  "category": "bakery",
+  "price": 27.63,
+  "stock": 19,
+  "details": {
+    "brand": "Krajcik-Rice, Prosacco and Bosco",
+    "origin": "China"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:07:27.300359+00:00"
+}

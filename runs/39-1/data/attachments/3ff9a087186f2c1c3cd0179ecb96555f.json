@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bwp40a4d Modern Aluminum Keyboard",
+    "category": "fresh-produce",
+    "price": 31.48,
+    "stock": 48,
+    "details": {
+      "brand": "Volkman, Howe and Okuneva",
+      "origin": "Egypt"
+    }
+  }
+}

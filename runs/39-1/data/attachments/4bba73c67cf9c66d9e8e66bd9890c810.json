@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-bt176eju Frozen Rubber Gloves",
+    "category": "pantry",
+    "price": 38.02,
+    "stock": 12,
+    "details": {
+      "brand": "Bradtke, Torp and Luettgen",
+      "origin": "Tajikistan"
+    },
+    "weighted": false
+  }
+}

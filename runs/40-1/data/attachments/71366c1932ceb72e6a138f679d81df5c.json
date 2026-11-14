@@ -1,0 +1,15 @@
+{
+  "id": "5edc1044-e341-4a99-89fa-654c0a0a72e6",
+  "product_name": "QA-1-k4mfb7lm Generic Wooden Fish",
+  "category": "bakery",
+  "price": 12.23,
+  "stock": 29,
+  "details": {
+    "brand": "Champlin - Nader",
+    "origin": "Isle of Man"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:46.486409+00:00"
+}

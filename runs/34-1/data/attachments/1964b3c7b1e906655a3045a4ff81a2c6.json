@@ -1,0 +1,15 @@
+{
+  "id": "ad596320-a106-4e7c-97c2-d155be5c503f",
+  "product_name": "QA-4-6exejtid sort Bravo",
+  "category": "beverages",
+  "price": 28.46,
+  "stock": 37,
+  "details": {
+    "brand": "Christiansen - Murazik",
+    "origin": "Chad"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:30.167955+00:00"
+}

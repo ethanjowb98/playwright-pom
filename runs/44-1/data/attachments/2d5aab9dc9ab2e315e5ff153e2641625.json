@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "9a6231f0-2c09-4417-9e20-6678182d1866",
+    "order_number": "O37979",
+    "status": "pending",
+    "total_amount": 13.26,
+    "created_at": "2026-11-14T09:40:54.761516+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-h4aey2kg Elegant Bronze Fish",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 13.26,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

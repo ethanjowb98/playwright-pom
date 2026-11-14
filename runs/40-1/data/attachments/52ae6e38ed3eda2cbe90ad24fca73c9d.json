@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9fjsfcy5 Elegant Ceramic Sausages",
+    "category": "fresh-produce",
+    "price": 32.13,
+    "stock": 27,
+    "details": {
+      "brand": "Swaniawski - Smitham",
+      "origin": "Georgia"
+    }
+  }
+}

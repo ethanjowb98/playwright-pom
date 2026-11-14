@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "pantry",
+    "price": 22.14,
+    "stock": 43,
+    "details": {
+      "brand": "Kulas Inc",
+      "origin": "Dominica"
+    }
+  }
+}

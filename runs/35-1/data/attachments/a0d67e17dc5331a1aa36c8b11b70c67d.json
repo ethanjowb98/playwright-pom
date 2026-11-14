@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-3o2zpznm sort Alpha",
+    "category": "dairy-eggs",
+    "price": 16.95,
+    "stock": 33,
+    "details": {
+      "brand": "Welch Group",
+      "origin": "Djibouti"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uez63mk7 Gorgeous Metal Car",
+    "category": "household",
+    "price": 42.73,
+    "stock": 15,
+    "details": {
+      "brand": "Nienow - Hartmann",
+      "origin": "Georgia"
+    }
+  }
+}

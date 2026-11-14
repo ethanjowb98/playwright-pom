@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xv674eyn Refined Plastic Towels",
+    "category": "other",
+    "price": 27.38,
+    "stock": 31,
+    "details": {
+      "brand": "Grimes, Feil and Schowalter",
+      "origin": "Azerbaijan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-twvuj221 Intelligent Concrete Chair",
+    "category": "bakery",
+    "price": 3.32,
+    "stock": 34,
+    "details": {
+      "brand": "Koss and Sons",
+      "origin": "Togo"
+    }
+  }
+}

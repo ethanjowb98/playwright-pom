@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-rg2znni0 Elegant Steel Shoes",
+    "category": "snacks",
+    "price": 43.3,
+    "stock": 43,
+    "details": {
+      "brand": "Dach, Kautzer and Gulgowski",
+      "origin": "Thailand"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

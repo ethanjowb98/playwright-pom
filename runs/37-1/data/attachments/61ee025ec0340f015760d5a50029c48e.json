@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kd3um6tk Soft Rubber Mouse",
+    "category": "bakery",
+    "price": 39.2,
+    "stock": 42,
+    "details": {
+      "brand": "Lynch Inc",
+      "origin": "Gabon"
+    }
+  }
+}

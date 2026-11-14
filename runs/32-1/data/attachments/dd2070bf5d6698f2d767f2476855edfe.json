@@ -1,0 +1,15 @@
+{
+  "id": "6209dbc1-1976-4b6e-9874-7cf9a586f65b",
+  "product_name": "QA-1-770x4d4s Modern Steel Keyboard",
+  "category": "meat-seafood",
+  "price": 39.79,
+  "stock": 20,
+  "details": {
+    "brand": "Thompson Inc",
+    "origin": "Zimbabwe"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:21:19.044871+00:00"
+}

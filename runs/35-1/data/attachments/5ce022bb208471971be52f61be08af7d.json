@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-mm6bcaib Practical Concrete Keyboard",
+    "category": "other",
+    "price": 38.58,
+    "stock": 26,
+    "details": {
+      "brand": "Powlowski and Sons",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-700h3eyo Gorgeous Bronze Sausages",
+    "category": "meat-seafood",
+    "price": 17.14,
+    "stock": 36,
+    "details": {
+      "brand": "Lockman, Howe and Macejkovic",
+      "origin": "Austria"
+    }
+  }
+}

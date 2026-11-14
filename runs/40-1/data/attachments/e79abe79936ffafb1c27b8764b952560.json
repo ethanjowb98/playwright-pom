@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "356edadd-e19a-4b5f-94df-66c42aa2a5bb",
+      "product_id": "ca85a9cf-d42e-42e8-b861-42439fee7022",
+      "product_name": "QA-1-mywoydyd Rustic Bronze Mouse",
+      "price": 34.5,
+      "category": "fresh-produce",
+      "quantity": 2,
+      "created_at": "2026-11-10T10:39:34.056352+00:00",
+      "updated_at": "2026-11-10T10:39:34.056352+00:00"
+    }
+  ]
+}

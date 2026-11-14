@@ -1,0 +1,15 @@
+{
+  "id": "4cda8548-049c-4ea3-b111-a6abe0611955",
+  "product_name": "QA-1-8vsk2wa2 Sleek Ceramic Bacon",
+  "category": "bakery",
+  "price": 24.41,
+  "stock": 27,
+  "details": {
+    "brand": "Lehner-Connelly, Beier and Kirlin",
+    "origin": "Niue"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:28:04.767523+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hbd1njvs Elegant Bamboo Chips",
+    "category": "meat-seafood",
+    "price": 31.07,
+    "stock": 17,
+    "details": {
+      "brand": "Haag, Brakus and Hudson",
+      "origin": "Mayotte"
+    }
+  }
+}

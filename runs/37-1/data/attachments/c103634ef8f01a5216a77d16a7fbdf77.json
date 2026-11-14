@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yvhjnsob Ergonomic Gold Car",
+    "category": "bakery",
+    "price": 20.42,
+    "stock": 33,
+    "details": {
+      "brand": "McLaughlin, Quitzon and Jacobi",
+      "origin": "Australia"
+    }
+  }
+}

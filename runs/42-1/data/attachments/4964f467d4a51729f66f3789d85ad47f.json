@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8jtmgdhj Bespoke Aluminum Bike",
+    "category": "bakery",
+    "price": 19.3,
+    "stock": 25,
+    "details": {
+      "brand": "Cruickshank, Hintz and MacGyver",
+      "origin": "Wallis and Futuna"
+    },
+    "temperature_zone": "Dry"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "6b21ebdd-0131-4ace-8259-74a22abd9ba6",
+  "product_name": "QA-1-dc4aph5q Handmade Marble Bike",
+  "category": "dairy-eggs",
+  "price": 16.21,
+  "stock": 19,
+  "details": {
+    "brand": "Kassulke - Abshire",
+    "origin": "Bouvet Island"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:09:12.229388+00:00"
+}

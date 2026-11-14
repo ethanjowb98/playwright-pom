@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-md1ndgb3 Elegant Cotton Chair",
+    "category": "frozen",
+    "price": 26.75,
+    "stock": 44,
+    "details": {
+      "brand": "Ernser - Pouros",
+      "origin": "Tokelau"
+    }
+  }
+}

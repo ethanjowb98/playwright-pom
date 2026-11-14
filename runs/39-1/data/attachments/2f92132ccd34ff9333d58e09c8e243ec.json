@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l1x4og6j Sleek Wooden Bacon",
+    "category": "frozen",
+    "price": 11.29,
+    "stock": 2,
+    "details": {
+      "brand": "Cole - Swift",
+      "origin": "Iran"
+    }
+  }
+}

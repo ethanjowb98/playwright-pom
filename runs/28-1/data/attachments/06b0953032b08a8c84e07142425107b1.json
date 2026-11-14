@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hiwpxtvs Modern Wooden Ball",
+    "category": "snacks",
+    "price": 37.93,
+    "stock": 2,
+    "details": {
+      "brand": "Lockman - Will",
+      "origin": "Montenegro"
+    }
+  }
+}

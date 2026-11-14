@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w3bnrjd7 Gorgeous Ceramic Table",
+    "category": "snacks",
+    "price": 42.77,
+    "stock": 39,
+    "details": {
+      "brand": "Stehr LLC",
+      "origin": "Slovenia"
+    }
+  }
+}

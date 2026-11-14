@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5339z3e1 Awesome Aluminum Pants",
+    "category": "other",
+    "price": 12.59,
+    "stock": 14,
+    "details": {
+      "brand": "Schimmel - Tromp",
+      "origin": "Andorra"
+    }
+  }
+}

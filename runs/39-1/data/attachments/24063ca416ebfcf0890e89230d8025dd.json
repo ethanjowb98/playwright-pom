@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b0y55cof Frozen Bronze Shoes",
+    "category": "beverages",
+    "price": 33.43,
+    "stock": 37,
+    "details": {
+      "brand": "Stoltenberg - Lang",
+      "origin": "Australia"
+    }
+  }
+}

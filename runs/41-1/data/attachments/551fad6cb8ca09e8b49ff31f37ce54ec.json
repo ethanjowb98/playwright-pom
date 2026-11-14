@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pp17aef4 Refined Silk Soap",
+    "category": "fresh-produce",
+    "price": 49.99,
+    "stock": 27,
+    "details": {
+      "brand": "Thiel, Roob and Aufderhar",
+      "origin": "Syrian Arab Republic"
+    }
+  }
+}

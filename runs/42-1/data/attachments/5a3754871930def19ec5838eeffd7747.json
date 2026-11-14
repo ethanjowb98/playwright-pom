@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "17ea3ce3-a1f8-42ab-bd04-5f48c3cc5bb0",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "delivered",
+    "total_amount": 34,
+    "notes": null,
+    "created_at": "2026-11-12T10:31:07.688823+00:00",
+    "updated_at": "2026-11-12T10:31:07.688823+00:00",
+    "order_number": "O33927"
+  }
+}

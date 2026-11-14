@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-5r7sppzw Oriental Bronze Chair",
+    "category": "snacks",
+    "price": 18.93,
+    "stock": 13,
+    "details": {
+      "batch": "QA-6-l02818wj batch"
+    }
+  }
+}

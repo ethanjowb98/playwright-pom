@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-hvwcos9j Fresh Bronze Bacon",
+    "category": "bakery",
+    "price": 43.15,
+    "stock": 41,
+    "details": {
+      "brand": "Parker, Lakin and Sipes",
+      "origin": "Myanmar"
+    }
+  }
+}

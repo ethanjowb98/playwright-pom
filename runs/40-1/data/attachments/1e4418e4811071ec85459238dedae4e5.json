@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-udw4mbql Tasty Bamboo Ball",
+    "category": "bakery",
+    "price": 15.18,
+    "stock": 44,
+    "details": {
+      "brand": "Hermiston - Corwin",
+      "origin": "Slovenia"
+    }
+  }
+}

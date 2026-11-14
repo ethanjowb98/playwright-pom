@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-qnvjfbc3 Ergonomic Wooden Ball",
+    "category": "dairy-eggs",
+    "price": 23.7,
+    "stock": 14,
+    "details": {
+      "brand": "Larkin LLC",
+      "origin": "Spain"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}
