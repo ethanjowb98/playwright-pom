@@ -1,0 +1,15 @@
+{
+  "id": "7c07f847-c273-4293-83f7-dba5ab974a8c",
+  "product_name": "QA-1-sw7slxby Tasty Ceramic Shoes",
+  "category": "bakery",
+  "price": 25.19,
+  "stock": 26,
+  "details": {
+    "brand": "Rutherford - Sawayn",
+    "origin": "Western Sahara"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:57:26.862039+00:00"
+}

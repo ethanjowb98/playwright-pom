@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jwmph4j3 Refined Bronze Keyboard",
+    "category": "dairy-eggs",
+    "price": 24.95,
+    "stock": 36,
+    "details": {
+      "brand": "Fay, Frami and Shields",
+      "origin": "Guyana"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-dbev0rxi Awesome Ceramic Tuna",
+    "category": "fresh-produce",
+    "price": 39.8,
+    "stock": 25,
+    "details": {
+      "brand": "Hermann Inc",
+      "origin": "Guinea-Bissau"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-aqwayksq Oriental Steel Tuna",
+    "category": "other",
+    "price": 30.47,
+    "stock": 24,
+    "details": {
+      "brand": "Pfeffer - Lakin",
+      "origin": "Nepal"
+    },
+    "temperature_zone": "Hot"
+  }
+}

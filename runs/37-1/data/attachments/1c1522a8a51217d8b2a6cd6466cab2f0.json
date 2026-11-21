@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "other",
+    "price": 22.58,
+    "stock": 32,
+    "details": {
+      "brand": "Lynch - Kovacek",
+      "origin": "Palau"
+    }
+  }
+}

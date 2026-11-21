@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-4gzk4v0v Practical Silk Hat",
+    "category": "fresh-produce",
+    "price": 41.05,
+    "stock": 24,
+    "details": {
+      "brand": "Wilkinson Inc",
+      "origin": "Canada"
+    },
+    "temperature_zone": "Dry"
+  }
+}

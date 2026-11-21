@@ -1,0 +1,15 @@
+{
+  "id": "9a2d5b47-d08f-40ce-8afa-633f0b7c24ea",
+  "product_name": "QA-3-5g1qc38b Modern Plastic Tuna",
+  "category": "fresh-produce",
+  "price": 36.97,
+  "stock": 30,
+  "details": {
+    "brand": "Altenwerth, Gutkowski and Gutmann",
+    "origin": "Turks and Caicos Islands"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:34.690472+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r8n8mb1f Licensed Granite Keyboard",
+    "category": "bakery",
+    "price": 24.86,
+    "stock": 21,
+    "details": {
+      "brand": "Brown LLC",
+      "origin": "Malawi"
+    }
+  }
+}

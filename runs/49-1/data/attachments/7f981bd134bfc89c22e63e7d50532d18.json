@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-p0ie3p7f Gorgeous Cotton Pizza",
+    "category": "dairy-eggs",
+    "price": 44.02,
+    "stock": 50,
+    "details": {
+      "brand": "Auer, Wiza-Farrell and Dooley",
+      "origin": "United States of America"
+    }
+  }
+}

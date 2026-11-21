@@ -1,0 +1,15 @@
+{
+  "id": "8ec4967e-c4dd-47e8-aa7e-e3b0ce15f6b7",
+  "product_name": "QA-1-d14y5do7 Ergonomic Aluminum Pants",
+  "category": "snacks",
+  "price": 12.86,
+  "stock": 15,
+  "details": {
+    "brand": "Zulauf, Franey and Frami",
+    "origin": "Monaco"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:28:48.228779+00:00"
+}

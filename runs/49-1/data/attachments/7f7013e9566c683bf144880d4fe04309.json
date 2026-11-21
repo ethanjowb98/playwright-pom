@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-1mcmva8s Handcrafted Granite Car",
+    "category": "dairy-eggs",
+    "price": 41.24,
+    "stock": 38,
+    "details": {
+      "brand": "Hudson, Glover and Veum",
+      "origin": "Pakistan"
+    }
+  }
+}

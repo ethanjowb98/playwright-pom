@@ -1,0 +1,15 @@
+{
+  "id": "4896fb80-115f-4107-98f0-9ced6c44dc11",
+  "product_name": "QA-1-cbk497gs Fresh Granite Hat",
+  "category": "other",
+  "price": 21.51,
+  "stock": 26,
+  "details": {
+    "brand": "Cartwright and Sons",
+    "origin": "Costa Rica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:39:12.204293+00:00"
+}

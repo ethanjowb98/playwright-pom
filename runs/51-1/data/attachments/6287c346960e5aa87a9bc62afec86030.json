@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-d3ktyyjl sort Charlie",
+    "category": "dairy-eggs",
+    "price": 8,
+    "stock": 13,
+    "details": {
+      "brand": "Jenkins - Rempel",
+      "origin": "Georgia"
+    }
+  }
+}

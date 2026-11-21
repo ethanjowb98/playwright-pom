@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-8d79ifi3 Handcrafted Marble Keyboard",
+    "category": "other",
+    "price": 29.62,
+    "stock": 28,
+    "details": {
+      "brand": "Kulas Group",
+      "origin": "Bahrain"
+    }
+  }
+}

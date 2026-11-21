@@ -1,0 +1,15 @@
+{
+  "id": "25cc2b04-9088-4107-b231-909ebeb15a79",
+  "product_name": "QA-5-km1wyehl Small Wooden Bacon",
+  "category": "snacks",
+  "price": 30.95,
+  "stock": 47,
+  "details": {
+    "brand": "Christiansen, Bode and Collier",
+    "origin": "Myanmar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:43:58.631443+00:00"
+}

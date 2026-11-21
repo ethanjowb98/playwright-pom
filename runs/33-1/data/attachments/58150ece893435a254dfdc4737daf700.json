@@ -1,0 +1,15 @@
+{
+  "id": "e8a4a049-ee7d-4d4b-bc16-cc6621692c67",
+  "product_name": "QA-1-f5fdyf2v Fantastic Plastic Cheese",
+  "category": "dairy-eggs",
+  "price": 9.87,
+  "stock": 35,
+  "details": {
+    "brand": "Connelly, Koepp and Zieme",
+    "origin": "Thailand"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:25:26.088417+00:00"
+}

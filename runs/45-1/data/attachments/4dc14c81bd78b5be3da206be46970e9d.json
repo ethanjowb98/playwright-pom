@@ -1,0 +1,15 @@
+{
+  "id": "e2a9aae1-a34d-44d2-a029-39dbf859a6a7",
+  "product_name": "QA-4-ukl08we7 Tasty Bronze Sausages",
+  "category": "frozen",
+  "price": 1.45,
+  "stock": 17,
+  "details": {
+    "brand": "Lindgren and Sons",
+    "origin": "Hungary"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:33.401708+00:00"
+}

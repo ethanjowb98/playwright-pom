@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qzkaldd4 Handcrafted Concrete Sausages",
+    "category": "meat-seafood",
+    "price": 42.57,
+    "stock": 40,
+    "details": {
+      "brand": "Schmitt, Rau and McGlynn",
+      "origin": "Dominica"
+    }
+  }
+}

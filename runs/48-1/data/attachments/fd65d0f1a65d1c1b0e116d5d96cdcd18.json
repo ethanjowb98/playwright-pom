@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kqc6qs4r Handmade Silk Gloves",
+    "category": "snacks",
+    "price": 26.97,
+    "stock": 48,
+    "details": {
+      "brand": "Bailey - Sawayn-Larkin",
+      "origin": "Cyprus"
+    }
+  }
+}

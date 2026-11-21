@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-wpahesr6 Fantastic Rubber Keyboard",
+    "category": "beverages",
+    "price": 21.72,
+    "stock": 36,
+    "details": {
+      "brand": "Herman Inc",
+      "origin": "Switzerland"
+    },
+    "weighted": false
+  }
+}

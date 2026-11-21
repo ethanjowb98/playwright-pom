@@ -1,0 +1,19 @@
+{
+  "id": "e5a0f0ad-ba27-44c6-b7f7-56db153ad21a",
+  "order_number": "O95733",
+  "status": "delivered",
+  "total_amount": 32.6,
+  "notes": null,
+  "created_at": "2026-11-20T10:48:05.398081+00:00",
+  "updated_at": "2026-11-20T10:48:05.398081+00:00",
+  "items": [
+    {
+      "product_id": "b64e4346-18e6-4b90-9290-35af27cb81f5",
+      "product_name": "QA-1-zb02u8du Small Granite Towels",
+      "category": "beverages",
+      "quantity": 1,
+      "price": 32.6,
+      "temperature_zone": null
+    }
+  ]
+}

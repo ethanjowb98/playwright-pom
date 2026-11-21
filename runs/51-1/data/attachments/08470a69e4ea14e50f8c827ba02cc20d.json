@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-8kz9xgh9 Ergonomic Bamboo Bacon",
+    "category": "household",
+    "price": 48.93,
+    "stock": 1.5,
+    "details": {
+      "brand": "Treutel and Sons",
+      "origin": "Mayotte"
+    }
+  }
+}

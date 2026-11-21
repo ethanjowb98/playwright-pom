@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4h4mu2l2 Practical Bronze Chips",
+    "category": "household",
+    "price": 15.54,
+    "stock": 48,
+    "details": {
+      "brand": "O'Connell LLC",
+      "origin": "Costa Rica"
+    }
+  }
+}

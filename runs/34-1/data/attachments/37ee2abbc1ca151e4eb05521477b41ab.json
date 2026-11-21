@@ -1,0 +1,15 @@
+{
+  "id": "6b41d039-df88-4533-a0af-bbae15a51809",
+  "product_name": "QA-1-lstb5ugg Oriental Silk Bike",
+  "category": "dairy-eggs",
+  "price": 32.86,
+  "stock": 41,
+  "details": {
+    "brand": "Keebler, Lynch and Walsh",
+    "origin": "Bouvet Island"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:21:58.993474+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "5c61563a-f5fa-4334-81c0-a9556ec37958",
+    "order_number": "O44276",
+    "status": "pending",
+    "total_amount": 145.15,
+    "created_at": "2026-11-21T10:28:45.076549+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-zycpkpzb Incredible Steel Chicken",
+        "category": "snacks",
+        "quantity": 3,
+        "price": 31.78,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-zjd7cs9n Rustic Cotton Tuna",
+        "category": "frozen",
+        "quantity": 1,
+        "price": 49.81,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i7jk99nj Incredible Aluminum Shirt",
+    "category": "frozen",
+    "price": 38.6,
+    "stock": 45,
+    "details": {
+      "brand": "Gislason LLC",
+      "origin": "Ecuador"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "64bee8f4-7e83-4f58-a9a7-299501563e0a",
+    "order_number": "O60655",
+    "status": "pending",
+    "total_amount": 26.24,
+    "created_at": "2026-11-14T09:42:43.46265+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-ec98vym5 Modern Metal Mouse",
+        "category": "household",
+        "quantity": 1,
+        "price": 26.24,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

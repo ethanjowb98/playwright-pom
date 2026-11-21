@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c4yktapn sort Alpha",
+    "category": "dairy-eggs",
+    "price": 14.16,
+    "stock": 22,
+    "details": {
+      "brand": "Will - Jacobson",
+      "origin": "Cook Islands"
+    }
+  }
+}

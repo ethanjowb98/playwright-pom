@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sygirmm2 Bespoke Bronze Car",
+    "category": "household",
+    "price": 42.56,
+    "stock": 24,
+    "details": {
+      "brand": "Jacobs, Mertz and Gleichner",
+      "origin": "Lithuania"
+    }
+  }
+}

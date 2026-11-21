@@ -1,0 +1,98 @@
+[
+  {
+    "id": "76dfd6b5-d740-4d0b-8307-27ca51419ef1",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "340c0d8e-466c-4828-b0f8-3dcfd013aa52",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Margarita Concentrate",
+    "category": "beverages",
+    "price": 3.25,
+    "details": {
+      "makes": "1 pitcher",
+      "volume": "12oz",
+      "contains_alcohol": false
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "b87ab72c-6a64-45a1-b0b6-4c1f57ecb905",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Tilapia Fillets",
+    "category": "meat-seafood",
+    "price": 10.5,
+    "details": {
+      "weight": "2lb",
+      "farm_raised": true,
+      "individually_wrapped": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "bd71707c-4e03-4e80-a42d-e0df4f1c150d",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Jumbo Raw Shrimp (2lb)",
+    "category": "meat-seafood",
+    "price": 18.99,
+    "details": {
+      "size": "16-20 count",
+      "peeled": true,
+      "weight": "2lb",
+      "deveined": true
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "a34985c4-3cf5-4a3b-900e-f785a324c70a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-i6o0wxxb Small Silk Computer",
+    "category": "meat-seafood",
+    "price": 49.78,
+    "details": {
+      "brand": "Lehner, Bruen and Weimann",
+      "origin": "Morocco"
+    },
+    "created_at": "2026-11-04T08:17:47.801342+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 42
+  },
+  {
+    "id": "36e22873-d46e-438c-886b-8b5669e1e2e7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-kczan2oq Sleek Aluminum Shoes",
+    "category": "frozen",
+    "price": 31.58,
+    "details": {
+      "brand": "Upton, Morar and Mueller",
+      "origin": "Cuba"
+    },
+    "created_at": "2026-11-04T08:17:47.294759+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 45
+  }
+]

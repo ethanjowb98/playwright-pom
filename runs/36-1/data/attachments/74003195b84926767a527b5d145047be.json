@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hwyfdva2 Small Gold Gloves",
+    "category": "dairy-eggs",
+    "price": 48.89,
+    "stock": 41,
+    "details": {
+      "brand": "McClure-Cummerata, Witting and Kuhic",
+      "origin": "Micronesia"
+    }
+  }
+}

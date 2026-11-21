@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-01wey6ou Ergonomic Gold Pants",
+    "category": "frozen",
+    "price": 12.94,
+    "stock": 40,
+    "details": {
+      "brand": "Mertz, Altenwerth and Huel",
+      "origin": "Czechia"
+    }
+  }
+}

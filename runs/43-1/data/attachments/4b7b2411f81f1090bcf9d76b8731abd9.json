@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-cqhbg9mn Practical Marble Car",
+    "category": "other",
+    "price": 6.71,
+    "stock": 31,
+    "details": {
+      "brand": "Powlowski LLC",
+      "origin": "Greenland"
+    }
+  }
+}

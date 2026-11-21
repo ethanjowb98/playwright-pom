@@ -1,0 +1,19 @@
+{
+  "id": "b98a9147-e391-4442-a88a-4b83209057fb",
+  "order_number": "O60688",
+  "status": "cancelled",
+  "total_amount": 59.34,
+  "notes": null,
+  "created_at": "2026-11-05T08:20:41.729909+00:00",
+  "updated_at": "2026-11-05T08:20:41.729909+00:00",
+  "items": [
+    {
+      "product_id": "87e9f65e-3e98-4acd-b0cf-e4dbaecb712f",
+      "product_name": "QA-1-zn7aiytq Elegant Silk Computer",
+      "category": "meat-seafood",
+      "quantity": 3,
+      "price": 19.78,
+      "temperature_zone": null
+    }
+  ]
+}

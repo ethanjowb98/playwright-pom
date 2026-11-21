@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s87rw5h7 Recycled Cotton Pants",
+    "category": "household",
+    "price": 18.65,
+    "stock": 29,
+    "details": {
+      "brand": "Beatty - Nolan",
+      "origin": "Guinea-Bissau"
+    }
+  }
+}

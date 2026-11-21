@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-runn8wf4 Generic Concrete Chips",
+    "category": "snacks",
+    "price": 47.28,
+    "stock": 25,
+    "details": {
+      "brand": "Kohler, Hermiston and Funk",
+      "origin": "French Guiana"
+    }
+  }
+}

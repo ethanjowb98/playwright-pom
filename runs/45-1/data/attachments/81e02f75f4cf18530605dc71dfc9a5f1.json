@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-j8l2tdjd sort Alpha",
+    "category": "dairy-eggs",
+    "price": 45.68,
+    "stock": 38,
+    "details": {
+      "brand": "Jast - Rowe",
+      "origin": "Ghana"
+    }
+  }
+}

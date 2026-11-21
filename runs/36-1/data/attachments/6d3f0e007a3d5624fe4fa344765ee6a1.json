@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9pk7fhz9 Licensed Marble Shirt",
+    "category": "other",
+    "price": 5.86,
+    "stock": 31,
+    "details": {
+      "brand": "Walker - Willms",
+      "origin": "Nigeria"
+    }
+  }
+}

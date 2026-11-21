@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-b62r4kuw sort Alpha",
+    "category": "dairy-eggs",
+    "price": 32.28,
+    "stock": 29,
+    "details": {
+      "brand": "Tillman and Sons",
+      "origin": "Cape Verde"
+    }
+  }
+}

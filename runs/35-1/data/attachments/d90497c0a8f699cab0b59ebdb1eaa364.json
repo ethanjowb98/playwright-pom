@@ -1,0 +1,15 @@
+{
+  "id": "6baeb270-4766-4783-8b97-02d87811c042",
+  "product_name": "QA-8-t0ry44iu sort Charlie",
+  "category": "household",
+  "price": 40.67,
+  "stock": 19,
+  "details": {
+    "brand": "Ortiz - Carroll",
+    "origin": "Turkmenistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:41.149558+00:00"
+}

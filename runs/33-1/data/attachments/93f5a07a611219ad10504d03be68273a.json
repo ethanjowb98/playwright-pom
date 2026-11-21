@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xc0a6qpv Incredible Bronze Computer",
+    "category": "bakery",
+    "price": 4.15,
+    "stock": 33,
+    "details": {
+      "brand": "Williamson Inc",
+      "origin": "Serbia"
+    }
+  }
+}

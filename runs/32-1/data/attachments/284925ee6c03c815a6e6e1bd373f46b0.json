@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7hxrb3wy Fresh Silk Shoes",
+    "category": "snacks",
+    "price": 45.9,
+    "stock": 24,
+    "details": {
+      "brand": "Koelpin - Hintz",
+      "origin": "Falkland Islands (Malvinas)"
+    }
+  }
+}

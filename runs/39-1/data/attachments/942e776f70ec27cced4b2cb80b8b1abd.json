@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "c7659a55-d32a-44c1-a483-521567f569b3",
+    "order_number": "O27734",
+    "status": "pending",
+    "total_amount": 28.06,
+    "created_at": "2026-11-09T10:38:05.17276+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-5xivluk1 Rustic Bronze Sausages",
+        "category": "household",
+        "quantity": 2,
+        "price": 14.03,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

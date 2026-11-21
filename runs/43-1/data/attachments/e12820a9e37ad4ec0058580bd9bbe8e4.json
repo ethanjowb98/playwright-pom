@@ -1,0 +1,15 @@
+{
+  "id": "a706aa33-e8bb-4114-9f99-9973099438f0",
+  "product_name": "QA-1-hjsy2qbg Frozen Steel Computer",
+  "category": "other",
+  "price": 40.13,
+  "stock": 25,
+  "details": {
+    "brand": "Ziemann, Sporer and Nicolas",
+    "origin": "Belgium"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:22:13.527387+00:00"
+}

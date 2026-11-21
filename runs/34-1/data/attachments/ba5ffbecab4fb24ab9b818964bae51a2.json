@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "dc5598ba-5f0b-4265-8dc1-133c032ece3b",
+    "order_number": "O52866",
+    "status": "pending",
+    "total_amount": 42.81,
+    "created_at": "2026-11-05T09:20:30.133417+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-ahin5omn Sleek Steel Computer",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 42.81,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

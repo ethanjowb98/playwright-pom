@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kabjekxz Sleek Silk Bike",
+    "category": "pantry",
+    "price": 26.35,
+    "stock": 23,
+    "details": {
+      "brand": "Smitham, Bogan and Watsica-Haag",
+      "origin": "Marshall Islands"
+    }
+  }
+}

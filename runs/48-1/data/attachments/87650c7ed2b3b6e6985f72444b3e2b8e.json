@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-whybc4md Unbranded Bamboo Pants",
+    "category": "meat-seafood",
+    "price": 40.4,
+    "stock": 22,
+    "details": {
+      "brand": "Walsh - Littel",
+      "origin": "Lebanon"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "22d7cbbe-ba31-4506-adfa-39aed3096e44",
+  "product_name": "QA-1-opyk691d Soft Concrete Pizza",
+  "category": "other",
+  "price": 16.05,
+  "stock": 29,
+  "details": {
+    "brand": "Reichel - Considine",
+    "origin": "Djibouti"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:37:39.014033+00:00"
+}

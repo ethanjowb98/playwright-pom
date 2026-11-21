@@ -1,0 +1,15 @@
+{
+  "id": "e70263f4-be7f-476f-a66a-08ea380a426a",
+  "product_name": "QA-1-3kah7feo Fresh Gold Bike",
+  "category": "snacks",
+  "price": 34.06,
+  "stock": 38,
+  "details": {
+    "brand": "Stracke, Dibbert-Legros and Padberg",
+    "origin": "Cambodia"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:06.318376+00:00"
+}

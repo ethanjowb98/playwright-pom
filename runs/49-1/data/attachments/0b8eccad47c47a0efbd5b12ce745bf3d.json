@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "snacks",
+    "price": 25.53,
+    "stock": 31,
+    "details": {
+      "brand": "Beier, Altenwerth and Farrell",
+      "origin": "Ghana"
+    }
+  }
+}

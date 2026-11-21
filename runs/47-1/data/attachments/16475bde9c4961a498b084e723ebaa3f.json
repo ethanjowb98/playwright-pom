@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sklot9g7 Generic Granite Gloves",
+    "category": "meat-seafood",
+    "price": 43.03,
+    "stock": 47,
+    "details": {
+      "brand": "Bechtelar - Mraz-Rowe",
+      "origin": "Malawi"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c94o5juu Practical Ceramic Computer",
+    "category": "meat-seafood",
+    "price": 40.16,
+    "stock": 31,
+    "details": {
+      "brand": "Feeney-Altenwerth, Purdy and Lehner",
+      "origin": "Egypt"
+    }
+  }
+}

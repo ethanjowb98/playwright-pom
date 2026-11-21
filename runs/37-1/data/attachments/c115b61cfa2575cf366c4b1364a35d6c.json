@@ -1,0 +1,19 @@
+{
+  "id": "13e91f5c-0e58-4414-8767-233b849c5b5c",
+  "order_number": "O19096",
+  "status": "pending",
+  "total_amount": 38.81,
+  "notes": "updated",
+  "created_at": "2026-11-07T09:27:07.975777+00:00",
+  "updated_at": "2026-11-07T09:27:07.975777+00:00",
+  "items": [
+    {
+      "product_id": "3b8ee8d4-cc0b-48aa-9873-5e2fa4246974",
+      "product_name": "QA-1-vdfg7hfh Sleek Granite Salad",
+      "category": "beverages",
+      "quantity": 1,
+      "price": 38.81,
+      "temperature_zone": null
+    }
+  ]
+}

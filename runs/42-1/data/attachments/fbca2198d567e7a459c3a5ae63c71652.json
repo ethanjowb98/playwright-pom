@@ -1,0 +1,15 @@
+{
+  "id": "8a67cbb5-a042-4864-8bbe-86c221db3a56",
+  "product_name": "QA-1-f4uktb6g Fresh Aluminum Computer",
+  "category": "snacks",
+  "price": 21.76,
+  "stock": 23,
+  "details": {
+    "brand": "Cummings, Kunde and Cronin",
+    "origin": "Guatemala"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:47.555044+00:00"
+}

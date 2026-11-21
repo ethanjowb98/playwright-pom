@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3nyq4jyg Incredible Bronze Cheese",
+    "category": "bakery",
+    "price": 17.14,
+    "stock": 44,
+    "details": {
+      "brand": "Rosenbaum Inc",
+      "origin": "Chad"
+    }
+  }
+}

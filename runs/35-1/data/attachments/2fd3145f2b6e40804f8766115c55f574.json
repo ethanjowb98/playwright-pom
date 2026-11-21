@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2bk3x2i2 Handmade Aluminum Tuna",
+    "category": "frozen",
+    "price": 36.02,
+    "stock": 39,
+    "details": {
+      "brand": "Herzog and Sons",
+      "origin": "Germany"
+    }
+  }
+}

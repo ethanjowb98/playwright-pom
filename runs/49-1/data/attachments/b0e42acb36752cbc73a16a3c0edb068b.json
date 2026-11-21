@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-qot6sy0c Fantastic Bronze Salad",
+    "category": "frozen",
+    "price": 38.18,
+    "stock": 39,
+    "details": {
+      "brand": "Kunze - Bernhard",
+      "origin": "Lesotho"
+    }
+  }
+}

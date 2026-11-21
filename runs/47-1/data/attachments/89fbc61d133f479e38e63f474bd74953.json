@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m62z65ew Bespoke Concrete Pants",
+    "category": "pantry",
+    "price": 33.99,
+    "stock": 31,
+    "details": {
+      "brand": "Tillman Inc",
+      "origin": "Falkland Islands (Malvinas)"
+    }
+  }
+}

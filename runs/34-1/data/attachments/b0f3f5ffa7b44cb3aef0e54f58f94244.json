@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-tsjfcfp8 Awesome Metal Hat",
+    "category": "household",
+    "price": 1.18,
+    "stock": 50,
+    "details": {
+      "brand": "Moore - Dicki",
+      "origin": "United States of America"
+    }
+  }
+}

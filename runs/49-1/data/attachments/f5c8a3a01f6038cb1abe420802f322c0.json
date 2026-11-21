@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-skiux3ci Modern Granite Pizza",
+    "category": "household",
+    "price": 48.43,
+    "stock": 24,
+    "details": {
+      "brand": "Kuhic - Stamm",
+      "origin": "New Caledonia"
+    }
+  }
+}

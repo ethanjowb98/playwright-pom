@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l41rp2bp Awesome Ceramic Tuna",
+    "category": "household",
+    "price": 28.47,
+    "stock": 33,
+    "details": {
+      "brand": "Dicki - McKenzie",
+      "origin": "Rwanda"
+    }
+  }
+}

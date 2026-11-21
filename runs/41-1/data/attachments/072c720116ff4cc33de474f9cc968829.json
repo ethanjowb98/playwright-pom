@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n8jipvge Bespoke Bamboo Table",
+    "category": "snacks",
+    "price": 47.1,
+    "stock": 20,
+    "details": {
+      "brand": "Reichert - Walker",
+      "origin": "Republic of Korea"
+    }
+  }
+}

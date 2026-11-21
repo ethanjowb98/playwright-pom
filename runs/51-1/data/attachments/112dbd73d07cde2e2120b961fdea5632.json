@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bwbd8jzj Handcrafted Metal Mouse",
+    "category": "pantry",
+    "price": 48.94,
+    "stock": 19,
+    "details": {
+      "brand": "Torphy and Sons",
+      "origin": "Kuwait"
+    }
+  }
+}

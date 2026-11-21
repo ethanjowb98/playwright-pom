@@ -1,0 +1,15 @@
+{
+  "id": "2f4f50f3-71a6-4f90-be1c-412f0f68d80a",
+  "product_name": "QA-1-wm4kt1ov Fresh Wooden Bike",
+  "category": "snacks",
+  "price": 17.47,
+  "stock": 43,
+  "details": {
+    "brand": "Bechtelar - Schroeder",
+    "origin": "Guernsey"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:11.409273+00:00"
+}

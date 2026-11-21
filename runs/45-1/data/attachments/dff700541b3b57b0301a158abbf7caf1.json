@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-190t8yxf Elegant Ceramic Soap",
+    "category": "household",
+    "price": 23.78,
+    "stock": 23,
+    "details": {
+      "brand": "Halvorson Group",
+      "origin": "Sweden"
+    }
+  }
+}

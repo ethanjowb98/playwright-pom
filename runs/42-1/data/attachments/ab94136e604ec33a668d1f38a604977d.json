@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d23b42d3-52a0-4e17-960b-cd1a0d625783",
+    "order_number": "O40687",
+    "status": "pending",
+    "total_amount": 152.34,
+    "created_at": "2026-11-12T10:32:54.608989+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-0qv7x8x2 Elegant Concrete Shirt",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 38.71,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-0qauxxia Rustic Plastic Computer",
+        "category": "snacks",
+        "quantity": 1,
+        "price": 36.21,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

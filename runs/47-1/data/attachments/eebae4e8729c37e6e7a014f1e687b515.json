@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8bw5awpq Handmade Rubber Pants",
+    "category": "bakery",
+    "price": 14.96,
+    "stock": 44,
+    "details": {
+      "brand": "Feil, Grady and Torp",
+      "origin": "French Polynesia"
+    }
+  }
+}

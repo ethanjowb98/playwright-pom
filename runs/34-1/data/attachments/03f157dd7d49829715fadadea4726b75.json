@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-27qi2gra Gorgeous Metal Keyboard",
+    "category": "bakery",
+    "price": 25.81,
+    "stock": 36,
+    "details": {
+      "brand": "Roberts, Kunze and Boyer-Orn",
+      "origin": "Democratic People's Republic of Korea"
+    }
+  }
+}

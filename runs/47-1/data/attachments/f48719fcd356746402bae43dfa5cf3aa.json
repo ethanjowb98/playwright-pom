@@ -1,0 +1,15 @@
+{
+  "id": "10912693-2f4e-4952-a9d5-cdf78afa2e38",
+  "product_name": "QA-3-ub381pep sort Charlie",
+  "category": "fresh-produce",
+  "price": 21.47,
+  "stock": 32,
+  "details": {
+    "brand": "Langosh, Terry-Rippin and Ullrich",
+    "origin": "Mozambique"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:38.315013+00:00"
+}

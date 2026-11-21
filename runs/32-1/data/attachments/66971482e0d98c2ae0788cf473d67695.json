@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kwla222u Rustic Bronze Pizza",
+    "category": "bakery",
+    "price": 18.34,
+    "stock": 13,
+    "details": {
+      "brand": "Heaney Inc",
+      "origin": "Kuwait"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

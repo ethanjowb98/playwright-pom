@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wkxpbw08 Electronic Metal Chicken",
+    "category": "pantry",
+    "price": 48.32,
+    "stock": 44,
+    "details": {
+      "brand": "Moore - Hodkiewicz",
+      "origin": "Guyana"
+    }
+  }
+}

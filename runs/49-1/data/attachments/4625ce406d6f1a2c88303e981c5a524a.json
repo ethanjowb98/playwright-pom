@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-gt4c4bn4 Tasty Steel Chicken",
+    "category": "fresh-produce",
+    "price": 40.55,
+    "stock": 46,
+    "details": {
+      "brand": "Williamson, Langosh and Hoppe",
+      "origin": "Belarus"
+    }
+  }
+}

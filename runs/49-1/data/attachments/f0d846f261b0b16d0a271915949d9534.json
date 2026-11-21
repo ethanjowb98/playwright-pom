@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ydtkfp4f Modern Gold Fish",
+    "category": "frozen",
+    "price": 36.03,
+    "stock": 11,
+    "details": {
+      "brand": "Marvin LLC",
+      "origin": "Ghana"
+    }
+  }
+}

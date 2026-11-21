@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-djuz6ruw Soft Marble Pizza",
+    "category": "snacks",
+    "price": 44.79,
+    "stock": 45,
+    "details": {
+      "brand": "White - Konopelski",
+      "origin": "Japan"
+    }
+  }
+}

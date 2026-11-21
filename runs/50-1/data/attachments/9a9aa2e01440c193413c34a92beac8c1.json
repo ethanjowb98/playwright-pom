@@ -1,0 +1,15 @@
+{
+  "id": "96bb3128-4779-4f2f-8050-f9be12f5f1cd",
+  "product_name": "QA-1-fokf2xud sort Charlie",
+  "category": "dairy-eggs",
+  "price": 47.46,
+  "stock": 48,
+  "details": {
+    "brand": "Wintheiser Group",
+    "origin": "Turks and Caicos Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:06.822453+00:00"
+}

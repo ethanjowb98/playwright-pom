@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0jvlq79v Gorgeous Bamboo Hat",
+    "category": "other",
+    "price": 42.76,
+    "stock": 14,
+    "details": {
+      "brand": "Dach - Bednar",
+      "origin": "Japan"
+    }
+  }
+}

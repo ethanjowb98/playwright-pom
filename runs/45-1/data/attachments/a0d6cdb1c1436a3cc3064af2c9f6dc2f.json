@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ww8avgpz Handcrafted Cotton Shoes",
+    "category": "pantry",
+    "price": 21.23,
+    "stock": 24,
+    "details": {
+      "brand": "Smith, Runolfsson and Leuschke",
+      "origin": "Solomon Islands"
+    }
+  }
+}

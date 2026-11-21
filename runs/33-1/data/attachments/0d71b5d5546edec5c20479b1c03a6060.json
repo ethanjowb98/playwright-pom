@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-oo25dzx1 sort Bravo",
+    "category": "meat-seafood",
+    "price": 30.57,
+    "stock": 43,
+    "details": {
+      "brand": "Padberg, Bartell and Bradtke",
+      "origin": "Mongolia"
+    }
+  }
+}

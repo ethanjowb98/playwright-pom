@@ -1,0 +1,15 @@
+{
+  "id": "32f6c108-e88b-407a-bade-efed7779bcf7",
+  "product_name": "QA-5-y36tzdxc Electronic Steel Fish",
+  "category": "snacks",
+  "price": 34.35,
+  "stock": 50,
+  "details": {
+    "brand": "Cole - Marquardt-Volkman",
+    "origin": "Samoa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:22.26302+00:00"
+}

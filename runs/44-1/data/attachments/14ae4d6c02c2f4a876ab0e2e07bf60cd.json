@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ka6lw6ts Intelligent Ceramic Keyboard",
+    "category": "pantry",
+    "price": 14.3,
+    "stock": 36,
+    "details": {
+      "brand": "Little Inc",
+      "origin": "Sint Maarten"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-90nv6k8e Licensed Plastic Ball",
+    "category": "frozen",
+    "price": 48.73,
+    "stock": 37,
+    "details": {
+      "brand": "Reinger - Mertz",
+      "origin": "New Caledonia"
+    }
+  }
+}

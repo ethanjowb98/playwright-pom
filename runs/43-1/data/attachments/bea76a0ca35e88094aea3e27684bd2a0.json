@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-3fpjzs6v Tasty Bamboo Tuna",
+    "category": "dairy-eggs",
+    "price": 39.43,
+    "stock": 37,
+    "details": {
+      "brand": "Macejkovic LLC",
+      "origin": "Virgin Islands, U.S."
+    },
+    "temperature_zone": "Frozen"
+  }
+}

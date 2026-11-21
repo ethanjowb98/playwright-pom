@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-wkxmlqb1 Ergonomic Bamboo Mouse",
+    "category": "snacks",
+    "price": 13.04,
+    "stock": 14,
+    "details": {
+      "brand": "Powlowski, Stracke and McCullough",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

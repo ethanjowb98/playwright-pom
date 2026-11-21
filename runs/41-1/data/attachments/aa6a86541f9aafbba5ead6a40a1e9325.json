@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-5bzin748 Bespoke Bamboo Computer",
+    "category": "frozen",
+    "price": 31.19,
+    "stock": 49,
+    "details": {
+      "brand": "Stoltenberg, Stracke and Stroman",
+      "origin": "Cambodia"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

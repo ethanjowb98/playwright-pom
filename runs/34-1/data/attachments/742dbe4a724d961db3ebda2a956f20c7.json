@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m2dbtgr8 Luxurious Silk Computer",
+    "category": "household",
+    "price": 8.07,
+    "stock": 37,
+    "details": {
+      "brand": "Padberg - Gleichner",
+      "origin": "Gabon"
+    }
+  }
+}

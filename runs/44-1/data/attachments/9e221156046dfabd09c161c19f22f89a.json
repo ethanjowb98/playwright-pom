@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-actny6x3 Ergonomic Rubber Car",
+    "category": "other",
+    "price": 24.78,
+    "stock": 50,
+    "details": {
+      "brand": "Shields-Bahringer - Prosacco",
+      "origin": "Rwanda"
+    }
+  }
+}

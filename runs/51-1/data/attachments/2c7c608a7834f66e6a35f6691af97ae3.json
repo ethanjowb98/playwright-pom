@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wxn3n55h Ergonomic Marble Fish",
+    "category": "household",
+    "price": 44.65,
+    "stock": 31,
+    "details": {
+      "brand": "Waelchi - Metz",
+      "origin": "Russian Federation"
+    }
+  }
+}

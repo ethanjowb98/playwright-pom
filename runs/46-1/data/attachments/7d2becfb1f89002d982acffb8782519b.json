@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-vdbdnghe Luxurious Bronze Bike",
+    "category": "beverages",
+    "price": 47.11,
+    "stock": 27,
+    "details": {
+      "brand": "Wuckert-Runolfsdottir - Feest",
+      "origin": "Norfolk Island"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-i9jb5e7s Rustic Concrete Mouse",
+    "category": "snacks",
+    "price": 22.35,
+    "stock": 44,
+    "details": {
+      "brand": "Windler, Fahey and Murphy",
+      "origin": "Seychelles"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k1ncweau Sleek Metal Bike",
+    "category": "household",
+    "price": 36.06,
+    "stock": 31,
+    "details": {
+      "brand": "Roob LLC",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

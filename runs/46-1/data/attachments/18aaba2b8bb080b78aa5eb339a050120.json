@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "01fb5911-ced7-4084-848b-d1eee7aa1f97",
+    "order_number": "O40036",
+    "status": "pending",
+    "total_amount": 14.31,
+    "created_at": "2026-11-16T10:23:13.149144+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-4e33rh26 Generic Concrete Pants",
+        "category": "household",
+        "quantity": 1,
+        "price": 14.31,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

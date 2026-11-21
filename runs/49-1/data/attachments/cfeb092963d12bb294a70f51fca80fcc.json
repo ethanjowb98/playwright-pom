@@ -1,0 +1,15 @@
+{
+  "id": "7e42d19c-3cc9-4905-8af9-7911104b188f",
+  "product_name": "QA-2-osnlp07v sort Alpha",
+  "category": "frozen",
+  "price": 2.18,
+  "stock": 23,
+  "details": {
+    "brand": "Rau Group",
+    "origin": "Taiwan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:19.592243+00:00"
+}

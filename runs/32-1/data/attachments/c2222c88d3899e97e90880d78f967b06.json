@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-737ptigl Refined Metal Pizza",
+    "category": "frozen",
+    "price": 42.55,
+    "stock": 17,
+    "details": {
+      "brand": "Spinka Group",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

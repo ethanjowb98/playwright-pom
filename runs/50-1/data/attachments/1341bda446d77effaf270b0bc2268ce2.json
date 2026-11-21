@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1nmwf3d9 Rustic Concrete Tuna",
+    "category": "bakery",
+    "price": 7.18,
+    "stock": 15,
+    "details": {
+      "brand": "Gottlieb Group",
+      "origin": "Cyprus"
+    }
+  }
+}

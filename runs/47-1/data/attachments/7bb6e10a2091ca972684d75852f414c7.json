@@ -1,0 +1,15 @@
+{
+  "id": "a2f08f2a-7d83-4458-92fe-6056c6de63bd",
+  "product_name": "QA-1-4duyfkjr Intelligent Granite Ball",
+  "category": "frozen",
+  "price": 8.2,
+  "stock": 33,
+  "details": {
+    "brand": "Marvin Inc",
+    "origin": "Mauritius"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:22:09.616348+00:00"
+}

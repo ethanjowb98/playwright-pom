@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cls7i1i3 Awesome Granite Towels",
+    "category": "fresh-produce",
+    "price": 8.55,
+    "stock": 23,
+    "details": {
+      "brand": "Swaniawski, Towne and Greenfelder",
+      "origin": "Colombia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ay2yczx Sleek Ceramic Car",
+    "category": "fresh-produce",
+    "price": 25.47,
+    "stock": 30,
+    "details": {
+      "brand": "Larkin Inc",
+      "origin": "Saudi Arabia"
+    }
+  }
+}

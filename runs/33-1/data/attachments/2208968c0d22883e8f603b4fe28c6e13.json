@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ah7w0y6b Recycled Aluminum Soap",
+    "category": "other",
+    "price": 45.05,
+    "stock": 19,
+    "details": {
+      "brand": "Langosh, Larson and Gulgowski",
+      "origin": "Congo"
+    }
+  }
+}

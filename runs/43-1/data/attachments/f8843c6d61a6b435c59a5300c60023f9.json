@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0vwysxyk Intelligent Concrete Towels",
+    "category": "other",
+    "price": 8.55,
+    "stock": 27,
+    "details": {
+      "brand": "Jast Inc",
+      "origin": "Democratic People's Republic of Korea"
+    }
+  }
+}

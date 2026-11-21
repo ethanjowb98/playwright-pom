@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-s9bdpk4r Tasty Cotton Sausages",
+    "category": "other",
+    "price": 33.75,
+    "stock": 19,
+    "details": {
+      "brand": "Streich, Crist and Ernser",
+      "origin": "Taiwan"
+    },
+    "temperature_zone": "Hot"
+  }
+}

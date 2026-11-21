@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ub6oq70i Electronic Steel Car",
+    "category": "fresh-produce",
+    "price": 38.39,
+    "stock": 29,
+    "details": {
+      "brand": "Trantow - Padberg",
+      "origin": "Sint Maarten"
+    }
+  }
+}

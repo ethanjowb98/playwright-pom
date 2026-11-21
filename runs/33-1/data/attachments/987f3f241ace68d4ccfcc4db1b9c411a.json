@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l8l2ewyt Gorgeous Metal Table",
+    "category": "beverages",
+    "price": 6.17,
+    "stock": 16,
+    "details": {
+      "brand": "Breitenberg, Hintz and Emard",
+      "origin": "Morocco"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-cnkm2990 Oriental Cotton Hat",
+    "category": "dairy-eggs",
+    "price": 47.99,
+    "stock": 45,
+    "details": {
+      "brand": "Marquardt, Beatty and Hickle",
+      "origin": "Germany"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "085ba87a-2ca8-4503-9416-355387befd06",
+  "product_name": "QA-1-smfp2jos Generic Plastic Soap",
+  "category": "bakery",
+  "price": 41.58,
+  "stock": 23,
+  "details": {
+    "brand": "O'Connell - Olson",
+    "origin": "Indonesia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:30:00.10305+00:00"
+}

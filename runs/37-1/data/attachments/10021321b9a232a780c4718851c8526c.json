@@ -1,0 +1,15 @@
+{
+  "id": "376afaf1-584e-4b9d-8d83-2af08375241d",
+  "product_name": "QA-1-iy43ne6d Practical Metal Salad",
+  "category": "beverages",
+  "price": 32.16,
+  "stock": 30,
+  "details": {
+    "brand": "Buckridge - Prosacco",
+    "origin": "Norfolk Island"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:28:45.518361+00:00"
+}

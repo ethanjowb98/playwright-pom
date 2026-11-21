@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yqv48esj Tasty Wooden Tuna",
+    "category": "fresh-produce",
+    "price": 34.01,
+    "stock": 13,
+    "details": {
+      "brand": "Runolfsson, Marvin and Keeling",
+      "origin": "Niger"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z3pnsf0k Gorgeous Bronze Hat",
+    "category": "other",
+    "price": 18.75,
+    "stock": 17,
+    "details": {
+      "brand": "McKenzie, Abshire and Walsh",
+      "origin": "Hungary"
+    }
+  }
+}

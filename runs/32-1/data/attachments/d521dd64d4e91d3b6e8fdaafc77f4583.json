@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2kl5ftmm Fantastic Gold Keyboard",
+    "category": "pantry",
+    "price": 43.05,
+    "stock": 12,
+    "details": {
+      "brand": "Macejkovic - Ortiz",
+      "origin": "Marshall Islands"
+    }
+  }
+}

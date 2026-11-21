@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "fresh-produce",
+    "price": 24.66,
+    "stock": 31,
+    "details": {
+      "brand": "Prosacco, Streich and Gutkowski",
+      "origin": "Burundi"
+    }
+  }
+}

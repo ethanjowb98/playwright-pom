@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-folq11ey Soft Silk Hat",
+    "category": "dairy-eggs",
+    "price": 48.73,
+    "stock": 18,
+    "details": {
+      "brand": "Donnelly, Schulist and West",
+      "origin": "Norway"
+    }
+  }
+}

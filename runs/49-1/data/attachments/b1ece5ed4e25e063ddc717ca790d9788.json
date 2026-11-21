@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-luka57k3 Recycled Aluminum Tuna",
+    "category": "bakery",
+    "price": 8.31,
+    "stock": 32,
+    "details": {
+      "brand": "Aufderhar LLC",
+      "origin": "Kazakhstan"
+    }
+  }
+}

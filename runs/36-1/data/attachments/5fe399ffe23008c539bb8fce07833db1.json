@@ -1,0 +1,15 @@
+{
+  "id": "d83a86d2-ba71-444c-91d6-e592c67b0d39",
+  "product_name": "QA-1-84pcygzr Small Wooden Chips",
+  "category": "meat-seafood",
+  "price": 11.34,
+  "stock": 46,
+  "details": {
+    "brand": "Leannon - Jaskolski",
+    "origin": "Namibia"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:53.978735+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "8cbd78d7-b945-4056-b1e4-645a17f930a9",
+  "product_name": "QA-3-vpq0nzhf Ergonomic Ceramic Chair",
+  "category": "other",
+  "price": 29.42,
+  "stock": 26,
+  "details": {
+    "brand": "Acme",
+    "origin": "Spain"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:46.266386+00:00"
+}

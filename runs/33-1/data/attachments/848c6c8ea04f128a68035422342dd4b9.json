@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-obykz5dn Tasty Concrete Pants",
+    "category": "fresh-produce",
+    "price": 20.73,
+    "stock": 13,
+    "details": {
+      "brand": "Hackett - Stark-Johns",
+      "origin": "Åland Islands"
+    }
+  }
+}

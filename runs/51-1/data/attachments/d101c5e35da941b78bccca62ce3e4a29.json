@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dxa7v7wv Soft Rubber Shirt",
+    "category": "bakery",
+    "price": 16.99,
+    "stock": 48,
+    "details": {
+      "brand": "Mohr, Gleichner and Ferry",
+      "origin": "Nepal"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

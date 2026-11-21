@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a4yyk8zs Luxurious Wooden Sausages",
+    "category": "frozen",
+    "price": 28.15,
+    "stock": 19,
+    "details": {
+      "brand": "Zboncak - Stehr",
+      "origin": "Peru"
+    }
+  }
+}

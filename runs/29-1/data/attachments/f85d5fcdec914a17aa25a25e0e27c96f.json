@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-1895x6ls Practical Rubber Car",
+    "category": "snacks",
+    "price": 34.75,
+    "stock": 45,
+    "details": {
+      "brand": "Ruecker - Nienow",
+      "origin": "Sri Lanka"
+    },
+    "weighted": true
+  }
+}

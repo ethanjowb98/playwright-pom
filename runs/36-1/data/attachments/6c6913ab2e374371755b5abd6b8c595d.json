@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g8n1xb79 Awesome Rubber Sausages",
+    "category": "snacks",
+    "price": 42.5,
+    "stock": 33,
+    "details": {
+      "brand": "Walsh Inc",
+      "origin": "Democratic People's Republic of Korea"
+    }
+  }
+}

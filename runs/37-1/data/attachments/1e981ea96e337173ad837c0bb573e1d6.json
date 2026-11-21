@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o7l721yp Sleek Cotton Cheese",
+    "category": "frozen",
+    "price": 5.4,
+    "stock": 17,
+    "details": {
+      "brand": "Reinger, Wehner and Smith",
+      "origin": "Cook Islands"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

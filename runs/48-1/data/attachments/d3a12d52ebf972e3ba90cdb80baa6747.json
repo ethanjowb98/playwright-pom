@@ -1,0 +1,15 @@
+{
+  "id": "84df6180-1108-4634-bb55-58ca8478c4e6",
+  "product_name": "QA-3-zrmpy4hw Bespoke Gold Sausages",
+  "category": "snacks",
+  "price": 28.26,
+  "stock": 28,
+  "details": {
+    "brand": "Hoeger and Sons",
+    "origin": "United Kingdom"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:10.038569+00:00"
+}

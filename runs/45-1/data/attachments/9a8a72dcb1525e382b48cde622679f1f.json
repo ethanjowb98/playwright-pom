@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-87ytkkon Fresh Wooden Bacon",
+    "category": "beverages",
+    "price": 34.3,
+    "stock": 23,
+    "details": {
+      "brand": "Mraz Group",
+      "origin": "Niger"
+    }
+  }
+}

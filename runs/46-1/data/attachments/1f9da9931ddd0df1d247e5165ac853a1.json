@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-jzbr6i9v Handmade Steel Computer",
+    "category": "other",
+    "price": 41.5,
+    "stock": 1.5,
+    "details": {
+      "brand": "Brakus - Feest",
+      "origin": "Barbados"
+    }
+  }
+}

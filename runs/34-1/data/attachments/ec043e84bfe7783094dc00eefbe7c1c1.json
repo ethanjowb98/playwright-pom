@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kmus9tuv Intelligent Plastic Chips",
+    "category": "fresh-produce",
+    "price": 26.41,
+    "stock": 23,
+    "details": {
+      "brand": "Mertz LLC",
+      "origin": "Venezuela"
+    }
+  }
+}

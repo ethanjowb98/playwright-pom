@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ao7cmcy8 Practical Granite Computer",
+    "category": "snacks",
+    "price": 1.1,
+    "stock": 50,
+    "details": {
+      "brand": "Prohaska Group",
+      "origin": "New Caledonia"
+    }
+  }
+}

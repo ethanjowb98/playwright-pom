@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-iw91hnte Rustic Plastic Mouse",
+    "category": "dairy-eggs",
+    "price": 48.7,
+    "stock": 41,
+    "details": {
+      "brand": "Feest, Stroman and Farrell",
+      "origin": "New Zealand"
+    }
+  }
+}

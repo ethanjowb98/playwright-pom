@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-twn288px Fantastic Rubber Pizza",
+    "category": "fresh-produce",
+    "price": 4.14,
+    "stock": 39,
+    "details": {
+      "brand": "Cassin, Parker and Bergnaum",
+      "origin": "Switzerland"
+    }
+  }
+}

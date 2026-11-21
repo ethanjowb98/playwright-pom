@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-3mombzho Fantastic Plastic Shirt",
+    "category": "fresh-produce",
+    "price": 5.39,
+    "stock": 29,
+    "details": {
+      "brand": "Hammes and Sons",
+      "origin": "Hong Kong"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

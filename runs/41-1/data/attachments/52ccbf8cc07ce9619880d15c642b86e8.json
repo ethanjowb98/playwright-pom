@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s8cudp80 Generic Wooden Fish",
+    "category": "pantry",
+    "price": 36.72,
+    "stock": 39,
+    "details": {
+      "brand": "Altenwerth, Yost and Howe",
+      "origin": "Nepal"
+    }
+  }
+}

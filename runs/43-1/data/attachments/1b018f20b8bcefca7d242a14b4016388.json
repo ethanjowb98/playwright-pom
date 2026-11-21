@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-clao7n6o Modern Concrete Fish",
+    "category": "snacks",
+    "price": 15.07,
+    "stock": 33,
+    "details": {
+      "brand": "McLaughlin - Anderson",
+      "origin": "El Salvador"
+    }
+  }
+}

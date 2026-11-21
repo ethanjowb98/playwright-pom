@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-5ask9amb Fresh Granite Bacon",
+    "category": "frozen",
+    "price": 46.27,
+    "stock": 29,
+    "details": {
+      "brand": "Gibson LLC",
+      "origin": "Argentina"
+    }
+  }
+}

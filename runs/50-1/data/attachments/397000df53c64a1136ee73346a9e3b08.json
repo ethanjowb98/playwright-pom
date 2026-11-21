@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r96lnbp1 Small Steel Chips",
+    "category": "meat-seafood",
+    "price": 14.99,
+    "stock": 1.5,
+    "details": {
+      "brand": "Wisozk, Kerluke and Walter",
+      "origin": "Costa Rica"
+    }
+  }
+}

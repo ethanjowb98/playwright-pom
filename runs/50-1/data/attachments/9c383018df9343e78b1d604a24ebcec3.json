@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zb2ma4w9 Intelligent Wooden Shoes",
+    "category": "bakery",
+    "price": 35.98,
+    "stock": 45,
+    "details": {
+      "brand": "Klocko-Kiehn - Barrows",
+      "origin": "Vanuatu"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2079188e-7823-4e2e-ae93-e33272d81d9d",
+  "product_name": "QA-1-ryqwsgut Modern Wooden Car",
+  "category": "beverages",
+  "price": 28.55,
+  "stock": 46,
+  "details": {
+    "brand": "Wehner - Wilkinson",
+    "origin": "Lesotho"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:35.109598+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-jbqc3agh Handmade Gold Shirt",
+    "category": "fresh-produce",
+    "price": 3.05,
+    "stock": 15,
+    "details": {
+      "brand": "Wyman - Farrell",
+      "origin": "Åland Islands"
+    },
+    "weighted": false
+  }
+}

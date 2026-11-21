@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "5efe9c3f-6268-49f1-9e94-b6364c3780b0",
+    "order_number": "O38495",
+    "status": "pending",
+    "total_amount": 85.86,
+    "created_at": "2026-11-20T10:48:31.923083+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-ephtbwq9 Oriental Ceramic Shirt",
+        "category": "beverages",
+        "quantity": 3,
+        "price": 28.62,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

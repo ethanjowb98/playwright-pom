@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vz14pywc Fantastic Silk Mouse",
+    "category": "dairy-eggs",
+    "price": 10.23,
+    "stock": 37,
+    "details": {
+      "brand": "Mante Inc",
+      "origin": "Timor-Leste"
+    }
+  }
+}

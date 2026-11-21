@@ -1,0 +1,15 @@
+{
+  "id": "3b5747eb-1c9a-4057-9234-e024dc9be24d",
+  "product_name": "QA-1-nelc6yjl Incredible Metal Bike",
+  "category": "household",
+  "price": 37.51,
+  "stock": 19,
+  "details": {
+    "brand": "Franecki, Abbott and Gusikowski",
+    "origin": "Greece"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:03:40.332025+00:00"
+}

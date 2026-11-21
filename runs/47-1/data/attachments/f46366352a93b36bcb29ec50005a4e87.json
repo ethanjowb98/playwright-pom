@@ -1,0 +1,19 @@
+{
+  "id": "8f0d60ba-a170-46d1-aef2-9dfb087216d9",
+  "order_number": "O14514",
+  "status": "shipped",
+  "total_amount": 57.96,
+  "notes": null,
+  "created_at": "2026-11-17T11:22:47.237455+00:00",
+  "updated_at": "2026-11-17T11:22:47.237455+00:00",
+  "items": [
+    {
+      "product_id": "df36b275-a384-4d0d-9e81-3d3494c81301",
+      "product_name": "QA-1-5qocf9co Handmade Rubber Chips",
+      "category": "snacks",
+      "quantity": 2,
+      "price": 28.98,
+      "temperature_zone": null
+    }
+  ]
+}

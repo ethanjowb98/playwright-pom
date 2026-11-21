@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cjk0fcm2 Awesome Metal Soap",
+    "category": "snacks",
+    "price": 31.82,
+    "stock": 30,
+    "details": {
+      "brand": "Renner - Doyle",
+      "origin": "Afghanistan"
+    }
+  }
+}

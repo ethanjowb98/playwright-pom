@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-1xe2ct39 Electronic Marble Bike",
+    "category": "other",
+    "price": 3.13,
+    "stock": 28,
+    "details": {
+      "brand": "Douglas, Schneider and Cole",
+      "origin": "Falkland Islands (Malvinas)"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

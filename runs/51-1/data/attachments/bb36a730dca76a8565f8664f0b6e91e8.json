@@ -1,0 +1,15 @@
+{
+  "id": "a6961e14-1d07-471e-bf63-91d3f319f2cd",
+  "product_name": "QA-1-bhnd9dz8 Fresh Ceramic Hat",
+  "category": "dairy-eggs",
+  "price": 47.71,
+  "stock": 20,
+  "details": {
+    "brand": "Towne Group",
+    "origin": "Aruba"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:37.567401+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-mw78ytme sort Alpha",
+    "category": "beverages",
+    "price": 15.11,
+    "stock": 43,
+    "details": {
+      "brand": "Koss - Pacocha",
+      "origin": "Croatia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gkq7q4ia Rustic Silk Bacon",
+    "category": "beverages",
+    "price": 5.64,
+    "stock": 50,
+    "details": {
+      "brand": "Goyette - Doyle",
+      "origin": "Slovenia"
+    }
+  }
+}

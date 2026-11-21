@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6djrnvu4 Awesome Rubber Chair",
+    "category": "meat-seafood",
+    "price": 33.76,
+    "stock": 33,
+    "details": {
+      "brand": "Sauer LLC",
+      "origin": "Iran"
+    }
+  }
+}

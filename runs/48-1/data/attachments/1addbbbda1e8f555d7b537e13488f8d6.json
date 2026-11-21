@@ -1,0 +1,15 @@
+{
+  "id": "7f9e46be-6956-46b7-a23d-e2075a33105a",
+  "product_name": "QA-1-7jwgm0rw Fantastic Bronze Fish",
+  "category": "bakery",
+  "price": 39.83,
+  "stock": 42,
+  "details": {
+    "brand": "Ernser, Marks and Hansen",
+    "origin": "Montserrat"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:55:24.738755+00:00"
+}

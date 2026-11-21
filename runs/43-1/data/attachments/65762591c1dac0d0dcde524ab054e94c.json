@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3tybvivy Fresh Gold Keyboard",
+    "category": "bakery",
+    "price": 29.08,
+    "stock": 47,
+    "details": {
+      "brand": "Christiansen - Moen",
+      "origin": "Tonga"
+    }
+  }
+}

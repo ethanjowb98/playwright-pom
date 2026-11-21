@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ssx0r1qw Fresh Concrete Sausages",
+    "category": "pantry",
+    "price": 17.88,
+    "stock": 28,
+    "details": {
+      "brand": "Kemmer - Howe",
+      "origin": "Bahamas"
+    }
+  }
+}

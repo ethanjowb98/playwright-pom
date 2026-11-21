@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-c6racfsq Tasty Marble Gloves",
+    "category": "bakery",
+    "price": 23.52,
+    "stock": 12,
+    "details": {
+      "brand": "Legros, Ullrich and Gerhold",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

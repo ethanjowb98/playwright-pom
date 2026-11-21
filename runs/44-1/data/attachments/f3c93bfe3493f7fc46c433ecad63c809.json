@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3blhmvsv Recycled Bamboo Salad",
+    "category": "snacks",
+    "price": 17.39,
+    "stock": 16,
+    "details": {
+      "brand": "Franey - Nienow",
+      "origin": "Saint Vincent and the Grenadines"
+    }
+  }
+}

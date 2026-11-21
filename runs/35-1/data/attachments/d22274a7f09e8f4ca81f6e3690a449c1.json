@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-juq9tf5z Elegant Marble Table",
+    "category": "beverages",
+    "price": 6.8,
+    "stock": 11,
+    "details": {
+      "brand": "Runolfsson - Schinner",
+      "origin": "Israel"
+    },
+    "weighted": false
+  }
+}

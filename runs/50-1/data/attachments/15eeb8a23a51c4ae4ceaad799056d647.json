@@ -1,0 +1,15 @@
+{
+  "id": "13fed34c-bc00-43df-9ef3-e7079701fb2b",
+  "product_name": "QA-1-r9fxq1y5 Handcrafted Aluminum Pizza",
+  "category": "fresh-produce",
+  "price": 36.36,
+  "stock": 13,
+  "details": {
+    "brand": "Jacobs, Koss and Schmitt",
+    "origin": "Marshall Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:45:27.2866+00:00"
+}

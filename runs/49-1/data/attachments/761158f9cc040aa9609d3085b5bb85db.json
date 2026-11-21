@@ -1,0 +1,15 @@
+{
+  "id": "1800b491-a919-463e-b229-ce5f25243524",
+  "product_name": "QA-1-pdud8zon Electronic Granite Cheese",
+  "category": "frozen",
+  "price": 6.2,
+  "stock": 27,
+  "details": {
+    "brand": "Stroman-Schimmel, Okuneva-Greenfelder and Murazik",
+    "origin": "Central African Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:24.399484+00:00"
+}

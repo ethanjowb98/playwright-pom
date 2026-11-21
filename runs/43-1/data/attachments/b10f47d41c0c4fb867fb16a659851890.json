@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "1e1ae0ef-1639-48e5-b255-676544c41aee",
+    "order_number": "O35858",
+    "status": "pending",
+    "total_amount": 42.64,
+    "created_at": "2026-11-13T10:20:09.614871+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-0fj1btw1 Small Rubber Car",
+        "category": "bakery",
+        "quantity": 1,
+        "price": 42.64,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

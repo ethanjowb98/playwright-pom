@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e34qpamz Refined Bronze Computer",
+    "category": "snacks",
+    "price": 22.74,
+    "stock": 48,
+    "details": {
+      "brand": "Ebert, Jacobson and Johnston",
+      "origin": "Samoa"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "44049a90-1c70-4172-91dd-7320c6c564e7",
+  "product_name": "QA-5-lt630wf3 Elegant Steel Fish",
+  "category": "snacks",
+  "price": 40.47,
+  "stock": 11,
+  "details": {
+    "brand": "Hoppe - Rodriguez",
+    "origin": "Niue"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:18.792449+00:00"
+}

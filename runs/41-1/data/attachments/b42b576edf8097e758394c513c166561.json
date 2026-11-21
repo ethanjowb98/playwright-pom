@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-7atprqwn Small Metal Fish",
+    "category": "bakery",
+    "price": 5.85,
+    "stock": 49,
+    "details": {
+      "brand": "Raynor - Orn",
+      "origin": "French Polynesia"
+    }
+  }
+}

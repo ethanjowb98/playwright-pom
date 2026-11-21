@@ -1,0 +1,19 @@
+{
+  "id": "39faaa10-2e28-4fc9-bd16-1c39bd4404f6",
+  "order_number": "O10941",
+  "status": "shipped",
+  "total_amount": 68.1,
+  "notes": null,
+  "created_at": "2026-11-05T08:26:20.350478+00:00",
+  "updated_at": "2026-11-05T08:26:20.350478+00:00",
+  "items": [
+    {
+      "product_id": "0e95042c-ca64-41db-bc1a-c8253584db17",
+      "product_name": "QA-1-egc3q7a3 Modern Aluminum Sausages",
+      "category": "bakery",
+      "quantity": 2,
+      "price": 34.05,
+      "temperature_zone": null
+    }
+  ]
+}

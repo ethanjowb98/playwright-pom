@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lqxrb566 Refined Granite Hat",
+    "category": "beverages",
+    "price": 22.49,
+    "stock": 33,
+    "details": {
+      "brand": "Tillman, Hamill and Casper",
+      "origin": "Mali"
+    }
+  }
+}

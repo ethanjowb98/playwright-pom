@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-csufb6sr Modern Steel Towels",
+    "category": "bakery",
+    "price": 46.91,
+    "stock": 45,
+    "details": {
+      "brand": "Maggio Group",
+      "origin": "Kenya"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hxvfyrgw Oriental Marble Keyboard",
+    "category": "meat-seafood",
+    "price": 14.74,
+    "stock": 23,
+    "details": {
+      "brand": "Breitenberg - Torphy",
+      "origin": "Cyprus"
+    }
+  }
+}

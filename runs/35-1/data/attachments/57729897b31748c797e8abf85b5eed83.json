@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-dwwi7ore Handmade Concrete Bike",
+    "category": "frozen",
+    "price": 29.67,
+    "stock": 34,
+    "details": {
+      "brand": "Wuckert - Barrows-Medhurst",
+      "origin": "Eswatini"
+    }
+  }
+}

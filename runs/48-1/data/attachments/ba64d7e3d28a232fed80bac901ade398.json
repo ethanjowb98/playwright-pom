@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-7m05sjka Frozen Ceramic Pizza",
+    "category": "frozen",
+    "price": 37.26,
+    "stock": 46,
+    "details": {
+      "brand": "Stark Inc",
+      "origin": "Palau"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "81b5c796-0887-424d-a6ab-2afe91cbfdca",
+  "product_name": "QA-1-n92s5krw Rustic Cotton Shoes",
+  "category": "bakery",
+  "price": 32.47,
+  "stock": 19,
+  "details": {
+    "brand": "Sauer - Abshire",
+    "origin": "Sudan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:21:20.008974+00:00"
+}

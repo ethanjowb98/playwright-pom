@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4a089krp Fantastic Aluminum Pizza",
+    "category": "snacks",
+    "price": 17.83,
+    "stock": 48,
+    "details": {
+      "brand": "Reichel, Lind and McCullough",
+      "origin": "Ecuador"
+    },
+    "weighted": false
+  }
+}

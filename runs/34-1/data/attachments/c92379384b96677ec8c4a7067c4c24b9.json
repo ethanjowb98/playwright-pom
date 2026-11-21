@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c1rz2y54 Rustic Granite Sausages",
+    "category": "bakery",
+    "price": 11.7,
+    "stock": 30,
+    "details": {
+      "brand": "McGlynn, Cruickshank and Howell",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

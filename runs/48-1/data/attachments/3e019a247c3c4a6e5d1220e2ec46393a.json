@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8tzr5fpo Incredible Marble Table",
+    "category": "household",
+    "price": 30.15,
+    "stock": 49,
+    "details": {
+      "brand": "Runte Group",
+      "origin": "Lesotho"
+    }
+  }
+}

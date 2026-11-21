@@ -1,0 +1,15 @@
+{
+  "id": "787c23ec-0fb1-41ac-94ea-30e2847cc282",
+  "product_name": "QA-2-is7dn1ea Luxurious Granite Car",
+  "category": "frozen",
+  "price": 20.76,
+  "stock": 14,
+  "details": {
+    "brand": "Jaskolski, Schuster and Sauer",
+    "origin": "Papua New Guinea"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:35.160743+00:00"
+}

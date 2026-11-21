@@ -1,0 +1,15 @@
+{
+  "id": "11ea57f4-4e5c-4995-a311-6129841460a9",
+  "product_name": "QA-3-p4v0jiy3 Handmade Aluminum Pizza",
+  "category": "beverages",
+  "price": 10.67,
+  "stock": 29,
+  "details": {
+    "brand": "Kemmer Group",
+    "origin": "Netherlands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:14.291185+00:00"
+}

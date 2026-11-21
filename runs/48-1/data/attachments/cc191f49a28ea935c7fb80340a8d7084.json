@@ -1,0 +1,15 @@
+{
+  "id": "2a2621a9-085c-488c-b053-ccd2da37d343",
+  "product_name": "QA-1-fqnh63zk Modern Granite Bacon",
+  "category": "beverages",
+  "price": 9.64,
+  "stock": 43,
+  "details": {
+    "brand": "Crooks Group",
+    "origin": "Cuba"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:55:30.895351+00:00"
+}

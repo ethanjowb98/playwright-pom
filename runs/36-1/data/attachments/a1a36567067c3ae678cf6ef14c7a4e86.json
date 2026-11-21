@@ -1,0 +1,15 @@
+{
+  "id": "2349adc3-783b-4aae-ac18-f720826e3452",
+  "product_name": "QA-6-zn1c881e Awesome Cotton Tuna",
+  "category": "dairy-eggs",
+  "price": 3.72,
+  "stock": 40,
+  "details": {
+    "brand": "Lebsack, Bartoletti and Sawayn",
+    "origin": "Germany"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:19.263951+00:00"
+}

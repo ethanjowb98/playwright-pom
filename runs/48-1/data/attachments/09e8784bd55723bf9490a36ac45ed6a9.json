@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gugy7lep Recycled Gold Hat",
+    "category": "meat-seafood",
+    "price": 23.06,
+    "stock": 13,
+    "details": {
+      "brand": "Krajcik, Denesik and Shanahan",
+      "origin": "Chad"
+    }
+  }
+}

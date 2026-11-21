@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ic9wtdyk Incredible Metal Ball",
+    "category": "household",
+    "price": 31.82,
+    "stock": 11,
+    "details": {
+      "brand": "Hilll - Moen",
+      "origin": "United States of America"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b113b46e-ae41-47b3-be8d-3b7b30b02a2a",
+  "product_name": "QA-3-w5ywv0i8 sort Bravo",
+  "category": "dairy-eggs",
+  "price": 31.35,
+  "stock": 19,
+  "details": {
+    "brand": "Nader Group",
+    "origin": "Latvia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:49.610071+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "89504ac9-002b-4317-8f5c-26bc27fbdf72",
+  "product_name": "QA-1-hryl6g1h Awesome Silk Shoes",
+  "category": "household",
+  "price": 11.34,
+  "stock": 2,
+  "details": {
+    "brand": "Hahn Group",
+    "origin": "Brazil"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:06.986358+00:00"
+}

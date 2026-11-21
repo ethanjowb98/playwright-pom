@@ -1,0 +1,15 @@
+{
+  "id": "a6a19a12-8806-42b2-81ab-d0df0495527a",
+  "product_name": "QA-3-1svi8gj9 sort Alpha",
+  "category": "snacks",
+  "price": 26.31,
+  "stock": 29,
+  "details": {
+    "brand": "Walsh - Strosin",
+    "origin": "Iceland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:17.042677+00:00"
+}

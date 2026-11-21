@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-fnq9wvev Ergonomic Gold Cheese",
+    "category": "snacks",
+    "price": 23.09,
+    "stock": 10,
+    "details": {
+      "brand": "Moen - Bauch",
+      "origin": "Fiji"
+    }
+  }
+}

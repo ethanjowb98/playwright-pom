@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-smq3aw8z Soft Gold Pants",
+    "category": "dairy-eggs",
+    "price": 14.17,
+    "stock": 2,
+    "details": {
+      "brand": "Lockman, Gislason and Johnston",
+      "origin": "Australia"
+    }
+  }
+}

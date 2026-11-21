@@ -1,0 +1,15 @@
+{
+  "id": "29b8de47-cfe0-49ca-bb2e-e147a0d9b122",
+  "product_name": "QA-2-htm84hou Recycled Granite Fish",
+  "category": "beverages",
+  "price": 25.26,
+  "stock": 42,
+  "details": {
+    "brand": "Marks Group",
+    "origin": "Israel"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:15.581897+00:00"
+}

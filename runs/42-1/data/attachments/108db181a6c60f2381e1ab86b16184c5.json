@@ -1,0 +1,15 @@
+{
+  "id": "80be34cc-f8d6-4b84-972a-36d1f475493c",
+  "product_name": "QA-1-vofgey9v sort Bravo",
+  "category": "snacks",
+  "price": 13.17,
+  "stock": 16,
+  "details": {
+    "brand": "Jones - Barrows",
+    "origin": "Pakistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:37.596688+00:00"
+}

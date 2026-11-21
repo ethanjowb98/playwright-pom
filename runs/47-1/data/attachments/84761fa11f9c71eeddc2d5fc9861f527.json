@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-gldxxztz Oriental Ceramic Cheese",
+    "category": "household",
+    "price": 22.88,
+    "stock": 10,
+    "details": {
+      "brand": "Bayer, Rath and Gulgowski",
+      "origin": "Belize"
+    }
+  }
+}

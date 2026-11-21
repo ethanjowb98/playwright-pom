@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7ugjvm97 Frozen Plastic Shoes",
+    "category": "other",
+    "price": 32.01,
+    "stock": 45,
+    "details": {
+      "brand": "Russel, Thiel and Block",
+      "origin": "Suriname"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "b167b855-cf7e-4132-acd4-6e26ca69327b",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "processing",
+    "total_amount": 8.99,
+    "notes": null,
+    "created_at": "2026-11-07T09:26:30.726342+00:00",
+    "updated_at": "2026-11-07T09:26:30.726342+00:00",
+    "order_number": "O98573"
+  }
+}

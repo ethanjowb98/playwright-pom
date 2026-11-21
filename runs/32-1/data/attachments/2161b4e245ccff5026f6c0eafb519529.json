@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-uc8oirgj Gorgeous Cotton Gloves",
+    "category": "bakery",
+    "price": 45.59,
+    "stock": 22,
+    "details": {
+      "brand": "Feil Inc",
+      "origin": "Syrian Arab Republic"
+    }
+  }
+}

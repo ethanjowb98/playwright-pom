@@ -1,0 +1,15 @@
+{
+  "id": "e0a30461-004e-4630-b62e-f44df4f793cd",
+  "product_name": "QA-1-vscqzjqd Generic Bronze Bacon",
+  "category": "pantry",
+  "price": 17.68,
+  "stock": 31,
+  "details": {
+    "brand": "Collier-Kassulke, Pacocha and Kuvalis",
+    "origin": "Fiji"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:20:09.324155+00:00"
+}

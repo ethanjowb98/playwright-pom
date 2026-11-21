@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p986e6eg Recycled Aluminum Mouse",
+    "category": "fresh-produce",
+    "price": 23.08,
+    "stock": 25,
+    "details": {
+      "brand": "Herzog - Stamm",
+      "origin": "Latvia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-upb9fzwe Fantastic Aluminum Computer",
+    "category": "household",
+    "price": 48.37,
+    "stock": 33,
+    "details": {
+      "brand": "Ankunding - Hackett",
+      "origin": "Saint Martin"
+    },
+    "temperature_zone": "Dry"
+  }
+}

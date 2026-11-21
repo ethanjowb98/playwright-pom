@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hmsflu2d Rustic Metal Sausages",
+    "category": "bakery",
+    "price": 47.06,
+    "stock": 47,
+    "details": {
+      "brand": "Morar - Tromp",
+      "origin": "Bahamas"
+    }
+  }
+}

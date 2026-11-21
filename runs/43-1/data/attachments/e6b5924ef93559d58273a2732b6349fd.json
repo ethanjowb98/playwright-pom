@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-534nfqbr Modern Bronze Table",
+    "category": "frozen",
+    "price": 46.12,
+    "stock": 47,
+    "details": {
+      "brand": "Homenick, Kuphal and VonRueden",
+      "origin": "Niger"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

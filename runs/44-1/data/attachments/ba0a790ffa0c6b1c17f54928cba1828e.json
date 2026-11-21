@@ -1,0 +1,15 @@
+{
+  "id": "ba0b3960-104b-4531-89ed-30adccf1d9b2",
+  "product_name": "QA-3-726o4y19 Elegant Marble Chair",
+  "category": "beverages",
+  "price": 14.14,
+  "stock": 16,
+  "details": {
+    "brand": "Tromp LLC",
+    "origin": "Qatar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:35.145264+00:00"
+}

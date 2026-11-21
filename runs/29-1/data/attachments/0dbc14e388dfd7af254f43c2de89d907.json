@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-k7d39ld6 Intelligent Rubber Table",
+    "price": 12.34,
+    "stock": 34,
+    "details": {
+      "brand": "O'Kon Inc",
+      "origin": "Cambodia"
+    }
+  }
+}

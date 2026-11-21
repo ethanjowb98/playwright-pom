@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-g6s1h0wq Oriental Gold Chips",
+    "category": "household",
+    "price": 29.26,
+    "stock": 19,
+    "details": {
+      "brand": "Carter LLC",
+      "origin": "Thailand"
+    },
+    "weighted": false
+  }
+}

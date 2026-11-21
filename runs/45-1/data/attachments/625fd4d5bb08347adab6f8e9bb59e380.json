@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-owgqe9qt sort Alpha",
+    "category": "frozen",
+    "price": 14.37,
+    "stock": 40,
+    "details": {
+      "brand": "Rodriguez and Sons",
+      "origin": "Guatemala"
+    }
+  }
+}

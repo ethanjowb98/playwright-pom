@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oc9vdcbu Electronic Rubber Shirt",
+    "category": "meat-seafood",
+    "price": 45.67,
+    "stock": 18,
+    "details": {
+      "brand": "Cronin-Mante and Sons",
+      "origin": "Nauru"
+    }
+  }
+}

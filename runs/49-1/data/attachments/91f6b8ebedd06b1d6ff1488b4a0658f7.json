@@ -1,0 +1,15 @@
+{
+  "id": "66d4f5cb-ce82-4b00-877a-080b73ef31f4",
+  "product_name": "QA-1-tptjx3v6 Modern Silk Bike",
+  "category": "meat-seafood",
+  "price": 20.41,
+  "stock": 18,
+  "details": {
+    "brand": "Parker, Stoltenberg and Brakus",
+    "origin": "Colombia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:55:41.829058+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s5nzi4k1 Handcrafted Bronze Computer",
+    "category": "household",
+    "price": 20.4,
+    "stock": 18,
+    "details": {
+      "brand": "Hackett - McCullough",
+      "origin": "Cuba"
+    },
+    "temperature_zone": "Dry"
+  }
+}

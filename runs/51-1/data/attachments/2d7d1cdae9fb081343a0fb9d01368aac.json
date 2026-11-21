@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-ywgqr8if Incredible Cotton Salad",
+    "category": "dairy-eggs",
+    "price": 46.26,
+    "stock": 24,
+    "details": {
+      "brand": "Cartwright - Kris",
+      "origin": "American Samoa"
+    },
+    "weighted": false
+  }
+}

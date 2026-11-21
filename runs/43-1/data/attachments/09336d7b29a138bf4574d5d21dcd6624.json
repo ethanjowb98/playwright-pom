@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-iit8najh Gorgeous Plastic Pants",
+    "category": "meat-seafood",
+    "price": 41.38,
+    "stock": 17,
+    "details": {
+      "brand": "Harris, Ferry and Goyette",
+      "origin": "Cuba"
+    }
+  }
+}

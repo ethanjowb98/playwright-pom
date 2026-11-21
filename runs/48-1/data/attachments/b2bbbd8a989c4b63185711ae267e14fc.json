@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-1bdntv9r Intelligent Plastic Salad",
+    "category": "pantry",
+    "price": 23.98,
+    "stock": 0,
+    "details": {
+      "brand": "Gusikowski, Heidenreich and Christiansen",
+      "origin": "Switzerland"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "39d83f6f-9ebc-48c5-abd9-6dea15983890",
+  "product_name": "QA-1-9mgm7hkm Modern Plastic Towels",
+  "category": "beverages",
+  "price": 11.25,
+  "stock": 41,
+  "details": {
+    "brand": "Flatley, Thiel and Hills",
+    "origin": "Tuvalu"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:20:33.429913+00:00"
+}

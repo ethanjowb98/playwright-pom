@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-t0ry44iu sort Alpha",
+    "category": "other",
+    "price": 20.49,
+    "stock": 27,
+    "details": {
+      "brand": "Little - Ankunding",
+      "origin": "Uruguay"
+    }
+  }
+}

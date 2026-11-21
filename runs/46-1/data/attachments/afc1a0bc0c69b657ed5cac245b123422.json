@@ -1,0 +1,15 @@
+{
+  "id": "171ff79f-cb7b-4ef5-8d95-623de787a09b",
+  "product_name": "QA-2-okoiyrld Awesome Bamboo Chair",
+  "category": "bakery",
+  "price": 19.12,
+  "stock": 24,
+  "details": {
+    "brand": "Dach-Swaniawski, McDermott and Grant",
+    "origin": "Guinea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:26:01.400271+00:00"
+}

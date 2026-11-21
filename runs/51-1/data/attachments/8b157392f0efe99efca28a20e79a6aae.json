@@ -1,0 +1,15 @@
+{
+  "id": "7c74a7c8-3da4-4238-b582-13878ef0260d",
+  "product_name": "QA-2-d3ktyyjl sort Bravo",
+  "category": "household",
+  "price": 20.83,
+  "stock": 15,
+  "details": {
+    "brand": "West, Spinka and Murphy",
+    "origin": "Costa Rica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:34.713976+00:00"
+}

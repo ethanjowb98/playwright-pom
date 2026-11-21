@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-9z4b2575 Handmade Marble Keyboard",
+    "category": "bakery",
+    "price": 37.76,
+    "stock": 24,
+    "details": {
+      "brand": "Collier - Predovic",
+      "origin": "French Polynesia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-d5op84i6 Bespoke Ceramic Car",
+    "category": "beverages",
+    "price": 12.87,
+    "stock": 27,
+    "details": {
+      "brand": "Dietrich and Sons",
+      "origin": "Italy"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

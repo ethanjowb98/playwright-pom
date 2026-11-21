@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-bj99cyuf Sleek Bamboo Chips",
+    "category": "beverages",
+    "price": 37.92,
+    "stock": 31,
+    "details": {
+      "brand": "West Inc",
+      "origin": "Democratic Republic of the Congo"
+    }
+  }
+}

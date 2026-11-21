@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-spobrcof Handcrafted Silk Cheese",
+    "category": "beverages",
+    "price": 44.54,
+    "stock": 17,
+    "details": {
+      "brand": "Wintheiser, Kunde and Hauck",
+      "origin": "French Guiana"
+    }
+  }
+}

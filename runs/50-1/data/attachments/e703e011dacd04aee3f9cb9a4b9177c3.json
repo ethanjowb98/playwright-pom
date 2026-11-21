@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fxtm49mt Tasty Gold Table",
+    "category": "dairy-eggs",
+    "price": 18.83,
+    "stock": 38,
+    "details": {
+      "brand": "Maggio and Sons",
+      "origin": "Chad"
+    }
+  }
+}

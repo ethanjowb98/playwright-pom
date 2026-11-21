@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ovsmgyup Fantastic Aluminum Tuna",
+    "category": "fresh-produce",
+    "price": 25.65,
+    "stock": 35,
+    "details": {
+      "brand": "Parisian Inc",
+      "origin": "French Polynesia"
+    }
+  }
+}

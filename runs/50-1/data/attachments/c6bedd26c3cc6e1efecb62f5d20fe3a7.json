@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-aukpaoql sort Charlie",
+    "category": "dairy-eggs",
+    "price": 39.9,
+    "stock": 25,
+    "details": {
+      "brand": "Rutherford, Aufderhar and Stark-Botsford",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

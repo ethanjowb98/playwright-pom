@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c7n8vfjt Recycled Metal Bacon",
+    "category": "beverages",
+    "price": 7.38,
+    "stock": 48,
+    "details": {
+      "brand": "Ullrich - Brown",
+      "origin": "Thailand"
+    }
+  }
+}

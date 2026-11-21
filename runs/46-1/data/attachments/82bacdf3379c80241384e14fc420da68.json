@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k6ibw1ix Intelligent Steel Bike",
+    "category": "beverages",
+    "price": 47.48,
+    "stock": 37,
+    "details": {
+      "brand": "Kirlin, Rath and Walsh",
+      "origin": "Kuwait"
+    }
+  }
+}

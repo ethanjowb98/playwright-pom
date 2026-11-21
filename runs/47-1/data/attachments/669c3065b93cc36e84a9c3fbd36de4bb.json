@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ytc68ek3 Rustic Plastic Pants",
+    "category": "other",
+    "price": 39.2,
+    "stock": 16,
+    "details": {
+      "brand": "Dooley, Corwin and Davis",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

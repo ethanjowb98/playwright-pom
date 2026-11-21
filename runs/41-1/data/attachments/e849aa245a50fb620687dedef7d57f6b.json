@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-fjq03qdx Handcrafted Bronze Tuna",
+    "category": "beverages",
+    "price": 39.99,
+    "stock": 36,
+    "details": {
+      "brand": "Zemlak - Rohan",
+      "origin": "Holy See (Vatican City State)"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pa1j8ihg Soft Rubber Computer",
+    "category": "other",
+    "price": 46.33,
+    "stock": 31,
+    "details": {
+      "brand": "Lemke, Orn and Nolan",
+      "origin": "Myanmar"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

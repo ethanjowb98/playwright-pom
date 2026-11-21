@@ -1,0 +1,1 @@
+{"id":"d75cc601e393a8b304de1a92cfbd7610.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/auth.api.spec.ts › Auth API › Account-wide calls › should return 401 when the basket is cleared with a missing api key","name":"should return 401 when the basket is cleared with a missing api key","status":"passed","testResultsByEnv":{"default":"eed6453062fa986af8c0aa1b7af1a43f"}}

@@ -1,0 +1,15 @@
+{
+  "id": "12406227-0b97-46ba-a192-8f1547ba9173",
+  "product_name": "QA-1-z8r7eees Small Steel Tuna",
+  "category": "bakery",
+  "price": 22.01,
+  "stock": 21,
+  "details": {
+    "brand": "Boehm, Witting and Wunsch",
+    "origin": "Saint Pierre and Miquelon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:28.52983+00:00"
+}

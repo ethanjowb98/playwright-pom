@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "5d9b9bfb-6bbe-4f96-99a1-a2f9a371a91c",
+    "order_number": "O24054",
+    "status": "pending",
+    "total_amount": 6.79,
+    "created_at": "2026-11-05T08:28:21.483378+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-kl0mhaea Refined Bronze Pizza",
+        "category": "meat-seafood",
+        "quantity": 1,
+        "price": 6.79,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

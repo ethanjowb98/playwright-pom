@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-d7eehbn0 Luxurious Marble Table",
+    "category": "pantry",
+    "price": 42.51,
+    "stock": 46,
+    "details": {
+      "batch": "QA-6-nsk6xpya batch"
+    }
+  }
+}

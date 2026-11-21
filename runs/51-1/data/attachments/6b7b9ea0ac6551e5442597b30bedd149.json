@@ -1,0 +1,15 @@
+{
+  "id": "54b579af-0bf8-4e77-be32-bdf0ca81ea97",
+  "product_name": "QA-3-ixp9xrft Electronic Concrete Bike",
+  "category": "other",
+  "price": 30.87,
+  "stock": 16,
+  "details": {
+    "brand": "Smith - Bashirian",
+    "origin": "Zimbabwe"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:38.758194+00:00"
+}

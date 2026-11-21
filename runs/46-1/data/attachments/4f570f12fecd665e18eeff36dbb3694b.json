@@ -1,0 +1,15 @@
+{
+  "id": "dedc601f-8c6f-4aab-b338-4b1e87b663cd",
+  "product_name": "QA-1-91s67ost Recycled Marble Bacon",
+  "category": "meat-seafood",
+  "price": 40.61,
+  "stock": 43,
+  "details": {
+    "brand": "Mayert - Zieme",
+    "origin": "Colombia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:25:05.362617+00:00"
+}

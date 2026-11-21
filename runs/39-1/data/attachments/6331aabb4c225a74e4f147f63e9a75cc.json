@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "c02e05f2-d288-44e3-b285-afc13eb7d752",
+      "product_id": "a0bf9a63-2c7b-4a00-966c-ebccab6daa73",
+      "product_name": "QA-1-f3tcx3cc Sleek Rubber Car",
+      "price": 14.51,
+      "category": "meat-seafood",
+      "quantity": 2,
+      "created_at": "2026-11-09T10:37:54.319774+00:00",
+      "updated_at": "2026-11-09T10:37:54.319774+00:00"
+    }
+  ]
+}

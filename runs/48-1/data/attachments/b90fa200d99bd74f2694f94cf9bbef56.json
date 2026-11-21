@@ -1,0 +1,15 @@
+{
+  "id": "4fcdea92-d34b-474a-b0ea-8011ffedfdf5",
+  "product_name": "QA-1-0ugx2lw8 Elegant Ceramic Ball",
+  "category": "dairy-eggs",
+  "price": 10.35,
+  "stock": 11,
+  "details": {
+    "brand": "Beahan - Murazik",
+    "origin": "France"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:57:32.458302+00:00"
+}

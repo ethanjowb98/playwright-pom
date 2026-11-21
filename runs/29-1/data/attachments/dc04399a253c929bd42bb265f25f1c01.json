@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-nu66dk4i Frozen Plastic Mouse",
+    "category": "pantry",
+    "price": 26.72,
+    "stock": 47,
+    "details": {
+      "brand": "Collier, Halvorson and Dickinson",
+      "origin": "Puerto Rico"
+    }
+  }
+}

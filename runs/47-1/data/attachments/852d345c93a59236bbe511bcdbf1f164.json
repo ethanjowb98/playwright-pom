@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ckps0fcy Small Concrete Gloves",
+    "category": "fresh-produce",
+    "price": 49.34,
+    "stock": 33,
+    "details": {
+      "brand": "Pacocha and Sons",
+      "origin": "Gambia"
+    }
+  }
+}

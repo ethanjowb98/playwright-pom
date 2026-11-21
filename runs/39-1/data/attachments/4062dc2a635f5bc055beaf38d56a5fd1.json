@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wdvugmua Fantastic Bamboo Ball",
+    "category": "bakery",
+    "price": 44.12,
+    "stock": 38,
+    "details": {
+      "brand": "Osinski, Harvey and Kassulke",
+      "origin": "Palestine"
+    }
+  }
+}

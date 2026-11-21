@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qn0a6m6h Gorgeous Silk Tuna",
+    "category": "bakery",
+    "price": 48.54,
+    "stock": 40,
+    "details": {
+      "brand": "Bartell, Goyette and Adams-Crona",
+      "origin": "North Macedonia"
+    }
+  }
+}

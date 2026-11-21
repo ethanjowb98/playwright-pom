@@ -1,0 +1,15 @@
+{
+  "id": "e52afd1c-ab67-4ba7-9cf3-4b6ec32459b2",
+  "product_name": "QA-2-y60to23x sort Bravo",
+  "category": "fresh-produce",
+  "price": 23.28,
+  "stock": 40,
+  "details": {
+    "brand": "Kulas and Sons",
+    "origin": "China"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:27.961249+00:00"
+}

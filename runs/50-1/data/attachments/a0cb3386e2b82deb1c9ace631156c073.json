@@ -1,0 +1,27 @@
+{
+  "id": "12358455-7d77-47b7-9a71-93b9f2b4d1ff",
+  "order_number": "O41665",
+  "status": "pending",
+  "total_amount": 74.88,
+  "notes": null,
+  "created_at": "2026-11-20T10:45:35.61931+00:00",
+  "updated_at": "2026-11-20T10:45:35.61931+00:00",
+  "items": [
+    {
+      "product_id": "101ed106-b988-467a-aec3-77f3477c7040",
+      "product_name": "QA-1-ypksodv0 Sleek Bronze Bacon",
+      "category": "bakery",
+      "quantity": 2,
+      "price": 24.69,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "201c2810-af8e-4321-9f1f-34ffe4c2859f",
+      "product_name": "QA-1-haz2xkhl Soft Plastic Sausages",
+      "category": "fresh-produce",
+      "quantity": 2,
+      "price": 12.75,
+      "temperature_zone": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "9fb9b3a9-eef4-4f7c-90f8-c974a6433ece",
+  "product_name": "QA-5-lbtd362h sort Alpha",
+  "category": "pantry",
+  "price": 5.72,
+  "stock": 46,
+  "details": {
+    "brand": "Effertz and Sons",
+    "origin": "Jordan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:50.240745+00:00"
+}

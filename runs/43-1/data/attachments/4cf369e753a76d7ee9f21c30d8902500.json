@@ -1,0 +1,15 @@
+{
+  "id": "f1dc05a5-d9ae-4bd0-ad50-dec1b99da8ed",
+  "product_name": "QA-7-391k90nd Oriental Ceramic Computer",
+  "category": "bakery",
+  "price": 11.74,
+  "stock": 27,
+  "details": {
+    "brand": "Runolfsdottir, Sporer and Brown",
+    "origin": "Ethiopia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:57.472661+00:00"
+}

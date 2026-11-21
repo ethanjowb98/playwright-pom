@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ytaclydz sort Alpha",
+    "category": "beverages",
+    "price": 18.72,
+    "stock": 25,
+    "details": {
+      "brand": "Maggio, Marvin and Gislason",
+      "origin": "Saint Martin"
+    }
+  }
+}

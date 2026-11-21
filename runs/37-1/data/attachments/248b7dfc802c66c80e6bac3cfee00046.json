@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "cb3cdf36-ca9d-4ee8-83e0-42ae7b715bab",
+    "order_number": "O10593",
+    "status": "pending",
+    "total_amount": 160.05,
+    "created_at": "2026-11-07T09:26:24.205657+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-ubfnlnq1 Awesome Steel Keyboard",
+        "category": "fresh-produce",
+        "quantity": 3,
+        "price": 49.24,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-3zj35nrw Modern Silk Shirt",
+        "category": "other",
+        "quantity": 3,
+        "price": 4.11,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

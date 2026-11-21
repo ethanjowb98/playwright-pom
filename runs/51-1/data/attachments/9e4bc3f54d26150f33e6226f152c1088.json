@@ -1,0 +1,15 @@
+{
+  "id": "fd71a878-167a-4c3c-ba23-f80be0d1313f",
+  "product_name": "QA-8-f4orancc sort Charlie",
+  "category": "household",
+  "price": 9.52,
+  "stock": 36,
+  "details": {
+    "brand": "Bosco and Sons",
+    "origin": "Saudi Arabia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:49.634838+00:00"
+}

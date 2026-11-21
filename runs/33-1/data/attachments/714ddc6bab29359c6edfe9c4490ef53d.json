@@ -1,0 +1,15 @@
+{
+  "id": "a9462b1a-7d0e-485f-af25-ee7d235d667e",
+  "product_name": "QA-1-io8r1b7k Small Rubber Mouse",
+  "category": "fresh-produce",
+  "price": 6.98,
+  "stock": 28,
+  "details": {
+    "brand": "Mante, Daugherty and Walsh",
+    "origin": "Afghanistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:26:13.926235+00:00"
+}

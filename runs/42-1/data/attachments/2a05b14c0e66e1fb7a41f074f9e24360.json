@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-j35edo84 sort Alpha",
+    "category": "fresh-produce",
+    "price": 28.15,
+    "stock": 13,
+    "details": {
+      "brand": "Hackett Inc",
+      "origin": "Palau"
+    }
+  }
+}

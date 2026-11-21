@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "5ff4f866-1481-4b9b-91b6-6f757ee02177",
+      "product_id": "8f0174ed-d763-4f8b-b4e5-59247d0fa30f",
+      "product_name": "QA-1-a02j1vqs Licensed Bronze Chair",
+      "price": 12.81,
+      "category": "bakery",
+      "quantity": 3,
+      "created_at": "2026-11-21T10:27:46.836238+00:00",
+      "updated_at": "2026-11-21T10:27:47.387932+00:00"
+    }
+  ]
+}

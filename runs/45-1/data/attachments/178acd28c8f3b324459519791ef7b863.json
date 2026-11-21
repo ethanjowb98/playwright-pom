@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-7zv93heq Awesome Rubber Pizza",
+    "category": "snacks",
+    "price": 13.69,
+    "stock": 39,
+    "details": {
+      "brand": "Pagac, Emard and Collier",
+      "origin": "Luxembourg"
+    }
+  }
+}

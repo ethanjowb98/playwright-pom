@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pj4c3wm0 Refined Rubber Shoes",
+    "category": "other",
+    "price": 47.93,
+    "stock": 2,
+    "details": {
+      "brand": "Terry, Christiansen and Hegmann",
+      "origin": "Oman"
+    }
+  }
+}

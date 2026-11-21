@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-x4qu4kyh Licensed Ceramic Chair",
+    "category": "fresh-produce",
+    "price": 31.53,
+    "stock": 19,
+    "details": {
+      "brand": "Watsica - McCullough",
+      "origin": "Bahamas"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

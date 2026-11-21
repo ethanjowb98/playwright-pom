@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9g7iv064 Modern Plastic Gloves",
+    "category": "snacks",
+    "price": 10.2,
+    "stock": "x",
+    "details": {
+      "brand": "Prosacco Group",
+      "origin": "Dominica"
+    }
+  }
+}

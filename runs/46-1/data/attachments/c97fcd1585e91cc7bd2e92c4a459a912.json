@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ta0g6c4g Licensed Wooden Ball",
+    "category": "snacks",
+    "price": 48.35,
+    "stock": 36,
+    "details": {
+      "brand": "Bernhard - Waters",
+      "origin": "Gabon"
+    }
+  }
+}

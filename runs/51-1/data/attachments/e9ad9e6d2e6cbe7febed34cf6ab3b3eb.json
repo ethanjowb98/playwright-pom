@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-bobaalbv Incredible Steel Chair",
+    "category": "dairy-eggs",
+    "price": 9.92,
+    "stock": 27,
+    "details": {
+      "brand": "Wisozk, Bartoletti and Wuckert",
+      "origin": "Burkina Faso"
+    },
+    "weighted": false
+  }
+}

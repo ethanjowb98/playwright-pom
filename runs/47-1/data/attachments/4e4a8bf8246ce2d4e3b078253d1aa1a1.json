@@ -1,0 +1,15 @@
+{
+  "id": "922e7654-4cff-48d9-9e05-a96fb5e7956c",
+  "product_name": "QA-8-5rukcpyf Ergonomic Concrete Soap",
+  "category": "beverages",
+  "price": 31.98,
+  "stock": 25,
+  "details": {
+    "brand": "Koelpin Inc",
+    "origin": "Djibouti"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:44.185308+00:00"
+}

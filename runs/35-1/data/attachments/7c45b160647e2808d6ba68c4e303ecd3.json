@@ -1,0 +1,19 @@
+{
+  "id": "3a158271-9799-4d30-8692-cc407533ea2a",
+  "order_number": "O81288",
+  "status": "pending",
+  "total_amount": 142.56,
+  "notes": null,
+  "created_at": "2026-11-05T10:06:34.847523+00:00",
+  "updated_at": "2026-11-05T10:06:34.847523+00:00",
+  "items": [
+    {
+      "product_id": "161e4ed6-ebaa-4be6-b30f-38ddfd167fdf",
+      "product_name": "QA-1-cptpbny2 Tasty Granite Cheese",
+      "category": "household",
+      "quantity": 3,
+      "price": 47.52,
+      "temperature_zone": null
+    }
+  ]
+}

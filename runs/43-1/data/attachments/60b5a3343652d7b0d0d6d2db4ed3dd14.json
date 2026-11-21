@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "86147629-49b2-44c7-9a61-d4c0a3b33623",
+    "order_number": "O49054",
+    "status": "pending",
+    "total_amount": 97.54,
+    "created_at": "2026-11-13T10:22:43.627729+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-3zdr340l Electronic Aluminum Gloves",
+        "category": "dairy-eggs",
+        "quantity": 3,
+        "price": 29.26,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-c4j4mper Fresh Cotton Chips",
+        "category": "frozen",
+        "quantity": 1,
+        "price": 9.76,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

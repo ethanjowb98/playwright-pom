@@ -1,0 +1,15 @@
+{
+  "id": "86339c51-b566-4ada-b6cd-c0ed80741ead",
+  "product_name": "QA-1-ett39yai Luxurious Bronze Soap",
+  "category": "beverages",
+  "price": 49.74,
+  "stock": 26,
+  "details": {
+    "brand": "DuBuque, Nolan and Schamberger",
+    "origin": "Croatia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:30:42.145244+00:00"
+}

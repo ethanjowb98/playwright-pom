@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ofunwbgg Ergonomic Rubber Mouse",
+    "category": "snacks",
+    "price": 6.31,
+    "stock": 50,
+    "details": {
+      "brand": "Berge - Wisoky",
+      "origin": "Sri Lanka"
+    }
+  }
+}

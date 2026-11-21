@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kha8ca7y Elegant Ceramic Shoes",
+    "category": "snacks",
+    "price": 6.16,
+    "stock": 50,
+    "details": {
+      "brand": "Runolfsdottir - Walter",
+      "origin": "Belgium"
+    }
+  }
+}

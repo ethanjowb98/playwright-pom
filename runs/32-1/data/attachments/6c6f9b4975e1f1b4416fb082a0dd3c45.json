@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2v40lv19 Refined Bronze Gloves",
+    "category": "snacks",
+    "price": 13.02,
+    "stock": 27,
+    "details": {
+      "brand": "Koepp, Heller and Bartoletti",
+      "origin": "Curaçao"
+    }
+  }
+}

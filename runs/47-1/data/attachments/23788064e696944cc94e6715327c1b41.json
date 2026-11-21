@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k3b30p8q Sleek Silk Chips",
+    "category": "beverages",
+    "price": 27.11,
+    "stock": 2,
+    "details": {
+      "brand": "Barton LLC",
+      "origin": "Slovenia"
+    }
+  }
+}

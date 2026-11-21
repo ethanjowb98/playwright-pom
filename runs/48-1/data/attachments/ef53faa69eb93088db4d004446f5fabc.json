@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "13f76001-8354-4a7e-868c-13d400d69ae1",
+    "order_number": "O46299",
+    "status": "pending",
+    "total_amount": 155.54,
+    "created_at": "2026-11-18T10:57:56.011703+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-8bnpnx20 Fresh Ceramic Keyboard",
+        "category": "household",
+        "quantity": 1,
+        "price": 26.75,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-wr57jvfw Soft Steel Cheese",
+        "category": "snacks",
+        "quantity": 3,
+        "price": 42.93,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

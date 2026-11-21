@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-1aky9h1g Generic Aluminum Soap",
+    "category": "household",
+    "price": 10.39,
+    "stock": 24,
+    "details": {
+      "brand": "Runte, Hand and Ritchie",
+      "origin": "Faroe Islands"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tti1hnaz Gorgeous Bronze Shoes",
+    "category": "pantry",
+    "price": 29.71,
+    "stock": 14,
+    "details": {
+      "brand": "Welch and Sons",
+      "origin": "Syrian Arab Republic"
+    }
+  }
+}

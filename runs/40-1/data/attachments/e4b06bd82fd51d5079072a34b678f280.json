@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w6mx2974 Unbranded Metal Sausages",
+    "category": "other",
+    "price": 4.6,
+    "stock": 30,
+    "details": {
+      "brand": "Halvorson - Osinski",
+      "origin": "Cook Islands"
+    }
+  }
+}

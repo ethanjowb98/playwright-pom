@@ -1,0 +1,15 @@
+{
+  "id": "a96cca9c-c896-4ef3-85ad-2592319020ae",
+  "product_name": "QA-7-pgumf0qp Small Steel Pizza",
+  "category": "snacks",
+  "price": 49.96,
+  "stock": 19,
+  "details": {
+    "brand": "Dare Inc",
+    "origin": "Malaysia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:16.250561+00:00"
+}

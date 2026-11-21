@@ -1,0 +1,15 @@
+{
+  "id": "bc86663a-1aa2-44fd-8fc6-112ffe619e52",
+  "product_name": "QA-1-25m6alli Practical Aluminum Fish",
+  "category": "bakery",
+  "price": 30.67,
+  "stock": 10,
+  "details": {
+    "brand": "Acme",
+    "origin": "Spain"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:51.699663+00:00"
+}

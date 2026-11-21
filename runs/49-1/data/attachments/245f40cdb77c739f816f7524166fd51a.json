@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-8sib7axc sort Charlie",
+    "category": "dairy-eggs",
+    "price": 37.67,
+    "stock": 25,
+    "details": {
+      "brand": "Weimann, Hamill and Bergnaum",
+      "origin": "Brazil"
+    }
+  }
+}

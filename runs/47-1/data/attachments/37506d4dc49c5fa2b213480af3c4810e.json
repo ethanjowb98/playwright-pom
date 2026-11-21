@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-7q9c8156 Electronic Steel Shirt",
+    "category": "fresh-produce",
+    "price": 32.67,
+    "stock": 38,
+    "details": {
+      "brand": "Tillman, Hagenes and Hartmann",
+      "origin": "Hungary"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "ba4f82f1-c79a-4068-82a0-0904e3f458bb",
+  "product_name": "QA-2-3h2rfkup Generic Silk Hat",
+  "category": "meat-seafood",
+  "price": 44.45,
+  "stock": 32,
+  "details": {
+    "brand": "Hand Inc",
+    "origin": "Bermuda"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:51.544366+00:00"
+}

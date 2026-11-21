@@ -1,0 +1,15 @@
+{
+  "id": "087b23de-8610-45cf-9bea-6168eaf34600",
+  "product_name": "QA-1-86hw3yzp Elegant Steel Keyboard",
+  "category": "beverages",
+  "price": 15.26,
+  "stock": 12,
+  "details": {
+    "brand": "Wuckert Group",
+    "origin": "Burundi"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:22:32.264551+00:00"
+}

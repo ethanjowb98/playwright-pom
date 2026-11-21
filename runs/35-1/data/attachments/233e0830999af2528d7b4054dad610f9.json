@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-99g40qy8 Handmade Wooden Cheese",
+    "category": "meat-seafood",
+    "price": 42.26,
+    "stock": 47,
+    "details": {
+      "brand": "Gutmann, Howe and Predovic",
+      "origin": "Greece"
+    }
+  }
+}

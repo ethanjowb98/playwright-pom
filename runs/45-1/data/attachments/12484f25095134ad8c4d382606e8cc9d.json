@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-k8ntlx2z Electronic Bronze Salad",
+    "category": "snacks",
+    "price": 12.91,
+    "stock": 14,
+    "details": {
+      "brand": "Turner, Mitchell-Lemke and Kuhic",
+      "origin": "Lithuania"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

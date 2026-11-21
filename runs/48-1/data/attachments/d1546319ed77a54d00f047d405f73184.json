@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0q4xbnb8 Modern Cotton Pizza",
+    "category": "fresh-produce",
+    "price": 21.08,
+    "stock": 2,
+    "details": {
+      "brand": "Connelly Group",
+      "origin": "Netherlands"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-q8rw2xlq sort Bravo",
+    "category": "pantry",
+    "price": 24.81,
+    "stock": 28,
+    "details": {
+      "brand": "Mosciski - Mitchell",
+      "origin": "Dominican Republic"
+    }
+  }
+}

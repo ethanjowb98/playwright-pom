@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-66l3qu5c Practical Concrete Shirt",
+    "category": "household",
+    "price": 5.64,
+    "stock": 39,
+    "details": {
+      "brand": "Gottlieb and Sons",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

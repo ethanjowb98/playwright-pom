@@ -1,0 +1,15 @@
+{
+  "id": "ca6e6d0c-4867-4069-8c7e-fbd2db4facd0",
+  "product_name": "QA-7-ps8esgye sort Alpha",
+  "category": "dairy-eggs",
+  "price": 39.41,
+  "stock": 43,
+  "details": {
+    "brand": "Ebert - Ullrich",
+    "origin": "Tajikistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:06.586504+00:00"
+}

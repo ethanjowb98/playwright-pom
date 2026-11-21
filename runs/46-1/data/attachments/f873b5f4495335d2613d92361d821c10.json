@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-84m83dno Frozen Steel Mouse",
+    "category": "dairy-eggs",
+    "price": 46.56,
+    "stock": 20,
+    "details": {
+      "brand": "Witting - Marquardt",
+      "origin": "Fiji"
+    }
+  }
+}

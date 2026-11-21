@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-3g0gl5ew Rustic Aluminum Car",
+    "category": "fresh-produce",
+    "price": 9.96,
+    "stock": 45,
+    "details": {
+      "brand": "Bartoletti - Legros",
+      "origin": "Cayman Islands"
+    }
+  }
+}

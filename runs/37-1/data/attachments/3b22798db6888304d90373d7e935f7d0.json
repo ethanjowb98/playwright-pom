@@ -1,0 +1,15 @@
+{
+  "id": "41e3516a-fc6b-4013-bc06-ae61764ff9d4",
+  "product_name": "QA-3-sqe58r1k sort Alpha",
+  "category": "dairy-eggs",
+  "price": 10.6,
+  "stock": 11,
+  "details": {
+    "brand": "Mayer-Friesen LLC",
+    "origin": "South Georgia and the South Sandwich Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:24:57.167098+00:00"
+}

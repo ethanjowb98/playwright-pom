@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-faqhrv4g Fresh Aluminum Soap",
+    "category": "snacks",
+    "price": 45.09,
+    "stock": 42,
+    "details": {
+      "brand": "Corwin - Robel",
+      "origin": "Armenia"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "ef13858d-ddf5-42e0-88df-96909fc029b0",
+      "order_number": "O44475",
+      "status": "pending",
+      "total_amount": 123.42,
+      "notes": null,
+      "created_at": "2026-11-20T10:47:48.761382+00:00",
+      "updated_at": "2026-11-20T10:47:48.761382+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-j5kv9ka1 Intelligent Aluminum Keyboard",
+          "category": "household",
+          "quantity": 3,
+          "price": 41.14,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

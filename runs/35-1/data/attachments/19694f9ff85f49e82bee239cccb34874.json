@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-w7d4um7s Recycled Gold Chair",
+    "category": "fresh-produce",
+    "price": 36.52,
+    "stock": 35,
+    "details": {
+      "brand": "Flatley, Botsford and Runolfsson",
+      "origin": "Belarus"
+    }
+  }
+}

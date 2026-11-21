@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ihhvksci Handcrafted Cotton Tuna",
+    "category": "meat-seafood",
+    "price": 1.62,
+    "stock": 44,
+    "details": {
+      "brand": "Buckridge, Haley and Williamson",
+      "origin": "Senegal"
+    }
+  }
+}

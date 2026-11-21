@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-o1um18j7 sort Bravo",
+    "category": "frozen",
+    "price": 5.61,
+    "stock": 25,
+    "details": {
+      "brand": "Wiegand - Wolf",
+      "origin": "Timor-Leste"
+    }
+  }
+}

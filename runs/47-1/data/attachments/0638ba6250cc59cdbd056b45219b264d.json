@@ -1,0 +1,15 @@
+{
+  "id": "92de9c0f-b101-4d9b-918e-59c49d6e452d",
+  "product_name": "QA-1-ptwkk5cz Licensed Bamboo Sausages",
+  "category": "frozen",
+  "price": 43.21,
+  "stock": 20,
+  "details": {
+    "brand": "Stanton - Gleichner",
+    "origin": "Angola"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:21:45.551594+00:00"
+}

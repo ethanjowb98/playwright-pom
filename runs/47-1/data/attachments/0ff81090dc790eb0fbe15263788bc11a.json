@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-5qwpmzxl Recycled Cotton Ball",
+    "category": "household",
+    "price": 23.05,
+    "stock": 24,
+    "details": {
+      "brand": "Mayert - Mueller",
+      "origin": "Mozambique"
+    }
+  }
+}

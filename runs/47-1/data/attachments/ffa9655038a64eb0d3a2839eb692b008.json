@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6fnq9uu2 Modern Plastic Pizza",
+    "category": "snacks",
+    "price": 39.07,
+    "stock": 40,
+    "details": {
+      "brand": "Russel LLC",
+      "origin": "Christmas Island"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jzroxuku Handcrafted Bamboo Bike",
+    "category": "frozen",
+    "price": 8.3,
+    "stock": 28,
+    "details": {
+      "brand": "Block - Gerlach",
+      "origin": "Réunion"
+    }
+  }
+}

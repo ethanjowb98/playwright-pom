@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p2zfwhvx Luxurious Silk Table",
+    "category": "dairy-eggs",
+    "price": 18.56,
+    "stock": 13,
+    "details": {
+      "brand": "Bartoletti, DuBuque and Davis",
+      "origin": "Brazil"
+    }
+  }
+}

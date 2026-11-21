@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-rlwwftsc Soft Aluminum Pants",
+    "price": 23.08,
+    "stock": 38,
+    "details": {
+      "brand": "Stokes Inc",
+      "origin": "Moldova"
+    }
+  }
+}

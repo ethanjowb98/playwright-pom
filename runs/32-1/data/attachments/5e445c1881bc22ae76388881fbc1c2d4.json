@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-alkp9fe4 Refined Granite Tuna",
+    "category": "bakery",
+    "price": 22.36,
+    "stock": 18,
+    "details": {
+      "brand": "Lakin - Trantow",
+      "origin": "Aruba"
+    }
+  }
+}

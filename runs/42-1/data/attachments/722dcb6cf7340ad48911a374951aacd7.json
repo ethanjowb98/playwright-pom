@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2q3z5n6p Modern Silk Tuna",
+    "category": "meat-seafood",
+    "price": 16.61,
+    "stock": 14,
+    "details": {
+      "brand": "Cartwright and Sons",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

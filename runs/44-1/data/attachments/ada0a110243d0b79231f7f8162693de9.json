@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "03da1b18-37d2-4c01-8b9f-7b7785d0376e",
+    "order_number": "O41378",
+    "status": "pending",
+    "total_amount": 49.56,
+    "created_at": "2026-11-14T09:40:02.840224+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-rmavb0ja Tasty Silk Bike",
+        "category": "household",
+        "quantity": 3,
+        "price": 16.52,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "565219ac-f15a-4c66-b42e-82a575a2afb6",
+  "order_number": "O90616",
+  "status": "pending",
+  "total_amount": 10.6,
+  "notes": null,
+  "created_at": "2026-11-13T10:23:30.647418+00:00",
+  "updated_at": "2026-11-13T10:23:30.647418+00:00",
+  "items": [
+    {
+      "product_id": "b4c70524-5736-4161-8ec1-d33c575a1828",
+      "product_name": "QA-1-nt9z1w8r Bespoke Concrete Fish",
+      "category": "beverages",
+      "quantity": 2,
+      "price": 5.3,
+      "temperature_zone": null
+    }
+  ]
+}

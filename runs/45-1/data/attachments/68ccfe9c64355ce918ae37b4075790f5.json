@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b2gbzcft Awesome Gold Hat",
+    "category": "bakery",
+    "price": 21.1,
+    "stock": 19,
+    "details": {
+      "brand": "Block-Kshlerin Group",
+      "origin": "Venezuela"
+    }
+  }
+}

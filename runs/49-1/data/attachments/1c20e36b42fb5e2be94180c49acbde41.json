@@ -1,0 +1,15 @@
+{
+  "id": "01cdb668-5733-466c-bd6b-b340735f4c78",
+  "product_name": "QA-2-6gf8n7xu Luxurious Metal Computer",
+  "category": "snacks",
+  "price": 42.62,
+  "stock": 50,
+  "details": {
+    "brand": "Stark Group",
+    "origin": "Egypt"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:57:59.16853+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-03ay7vhl Unbranded Rubber Gloves",
+    "category": "fresh-produce",
+    "price": 22.83,
+    "stock": 37,
+    "details": {
+      "brand": "O'Reilly - Collier",
+      "origin": "Iraq"
+    }
+  }
+}

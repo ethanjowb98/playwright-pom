@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-f29ub4bs Licensed Metal Salad",
+    "category": "pantry",
+    "price": 49.88,
+    "stock": 45,
+    "details": {
+      "brand": "Roob - Welch-Smith",
+      "origin": "Switzerland"
+    }
+  }
+}

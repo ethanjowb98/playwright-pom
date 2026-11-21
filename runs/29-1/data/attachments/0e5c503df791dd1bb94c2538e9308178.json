@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oo1bep5y Fresh Marble Bacon",
+    "category": "snacks",
+    "price": 2.81,
+    "stock": 10,
+    "details": {
+      "brand": "Jenkins - White-Denesik",
+      "origin": "Chile"
+    }
+  }
+}

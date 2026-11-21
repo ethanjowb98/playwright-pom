@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c86je62x Intelligent Rubber Pizza",
+    "category": "household",
+    "price": 33.29,
+    "stock": 36,
+    "details": {
+      "brand": "Legros - Daniel-Kuhlman",
+      "origin": "Guyana"
+    }
+  }
+}

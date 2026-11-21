@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3xkz7le6 Sleek Silk Gloves",
+    "category": "other",
+    "price": 16.55,
+    "stock": 47,
+    "details": {
+      "brand": "Bahringer and Sons",
+      "origin": "Ireland"
+    }
+  }
+}

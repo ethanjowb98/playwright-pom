@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-myke81vq Ergonomic Concrete Salad",
+    "category": "fresh-produce",
+    "price": 24.49,
+    "stock": 29,
+    "details": {
+      "brand": "Conroy - Streich",
+      "origin": "Paraguay"
+    }
+  }
+}

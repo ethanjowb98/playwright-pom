@@ -1,0 +1,15 @@
+{
+  "id": "1ee9402a-fa4b-43f0-8552-d36efec601da",
+  "product_name": "QA-2-c1uhwm51 Ergonomic Silk Gloves",
+  "category": "frozen",
+  "price": 45.68,
+  "stock": 45,
+  "details": {
+    "brand": "Dibbert, Kuhn and Willms",
+    "origin": "Faroe Islands"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:33.717619+00:00"
+}

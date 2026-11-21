@@ -1,0 +1,19 @@
+{
+  "id": "a104ee9a-f149-430a-97dc-af2e40fb8715",
+  "order_number": "O20021",
+  "status": "cancelled",
+  "total_amount": 2.29,
+  "notes": null,
+  "created_at": "2026-11-19T10:56:56.525084+00:00",
+  "updated_at": "2026-11-19T10:56:56.525084+00:00",
+  "items": [
+    {
+      "product_id": "933d9bf3-4fcf-47ac-9ae3-7964c820942f",
+      "product_name": "QA-2-pwy1f5yf Intelligent Rubber Shirt",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 2.29,
+      "temperature_zone": null
+    }
+  ]
+}

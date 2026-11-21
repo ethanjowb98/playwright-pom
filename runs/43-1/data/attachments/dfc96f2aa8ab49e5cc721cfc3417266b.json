@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-xnl6ew15 Practical Rubber Tuna",
+    "category": "fresh-produce",
+    "price": 49.09,
+    "stock": 28,
+    "details": {
+      "brand": "Boehm - Prosacco",
+      "origin": "Chad"
+    },
+    "weighted": false
+  }
+}

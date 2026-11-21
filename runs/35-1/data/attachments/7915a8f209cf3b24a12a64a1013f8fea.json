@@ -1,0 +1,15 @@
+{
+  "id": "8e9a6274-bb93-4da8-a601-2be016172039",
+  "product_name": "QA-1-shaxf70y Small Concrete Chips",
+  "category": "meat-seafood",
+  "price": 44.14,
+  "stock": 40,
+  "details": {
+    "brand": "Pollich Group",
+    "origin": "Saint Helena"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:03:01.020845+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-p56gvzbr Practical Rubber Hat",
+    "category": "snacks",
+    "price": 12.56,
+    "stock": 0,
+    "details": {
+      "brand": "Reichel and Sons",
+      "origin": "Congo"
+    }
+  }
+}

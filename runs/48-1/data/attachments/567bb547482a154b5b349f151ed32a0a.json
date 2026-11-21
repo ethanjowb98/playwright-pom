@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "fe0f82c0-974d-419d-8f04-40192f4cc3fd",
+      "product_id": "714e922c-a772-475c-8416-05462a2b0056",
+      "product_name": "QA-1-8bnpnx20 Fresh Ceramic Keyboard",
+      "price": 26.75,
+      "category": "household",
+      "quantity": 1,
+      "created_at": "2026-11-18T10:57:54.547051+00:00",
+      "updated_at": "2026-11-18T10:57:54.547051+00:00"
+    },
+    {
+      "id": "ffc8cf0a-dc18-433d-9df0-f0979baa65ba",
+      "product_id": "7c33e0da-70ff-41c4-b7cd-d742c1c96228",
+      "product_name": "QA-1-wr57jvfw Soft Steel Cheese",
+      "price": 42.93,
+      "category": "snacks",
+      "quantity": 3,
+      "created_at": "2026-11-18T10:57:55.126656+00:00",
+      "updated_at": "2026-11-18T10:57:55.126656+00:00"
+    }
+  ]
+}

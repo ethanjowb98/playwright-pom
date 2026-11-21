@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-yprvi4ht Electronic Wooden Chips",
+    "category": "household",
+    "price": 15.72,
+    "stock": 40,
+    "details": {
+      "batch": "QA-6-0qybfzoo batch"
+    }
+  }
+}

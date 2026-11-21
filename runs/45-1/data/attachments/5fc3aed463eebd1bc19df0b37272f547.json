@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-m34j5z7o Ergonomic Aluminum Bacon",
+    "category": "snacks",
+    "price": 37.82,
+    "stock": -5,
+    "details": {
+      "brand": "Ledner - Conn",
+      "origin": "Liechtenstein"
+    }
+  }
+}

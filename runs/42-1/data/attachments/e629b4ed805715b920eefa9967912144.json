@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vofgey9v sort Bravo",
+    "category": "snacks",
+    "price": 13.17,
+    "stock": 16,
+    "details": {
+      "brand": "Jones - Barrows",
+      "origin": "Pakistan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mp75hgbl Intelligent Marble Pants",
+    "category": "household",
+    "price": 35.24,
+    "stock": 23,
+    "details": {
+      "brand": "Schowalter, Haag and McDermott-Green",
+      "origin": "Tonga"
+    }
+  }
+}

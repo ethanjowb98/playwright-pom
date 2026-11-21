@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jyfoxu5e Practical Ceramic Computer",
+    "category": "snacks",
+    "price": 25.51,
+    "stock": 13,
+    "details": {
+      "brand": "Balistreri, Koss and Rosenbaum",
+      "origin": "Cayman Islands"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-lbtd362h sort Alpha",
+    "category": "pantry",
+    "price": 5.72,
+    "stock": 46,
+    "details": {
+      "brand": "Effertz and Sons",
+      "origin": "Jordan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-j4yiljqv Unbranded Rubber Hat",
+    "category": "household",
+    "price": 14.12,
+    "stock": 15,
+    "details": {
+      "brand": "Mitchell-Breitenberg - Mohr-Bosco",
+      "origin": "Burkina Faso"
+    }
+  }
+}

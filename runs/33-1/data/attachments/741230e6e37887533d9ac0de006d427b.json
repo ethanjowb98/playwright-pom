@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "frozen",
+    "price": 21.33,
+    "stock": 25,
+    "details": {
+      "brand": "Green Group",
+      "origin": "French Polynesia"
+    }
+  }
+}

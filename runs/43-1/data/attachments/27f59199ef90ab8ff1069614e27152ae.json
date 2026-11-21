@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "7aee71b9-ee89-46b3-b453-ec18739eb247",
+    "order_number": "O17558",
+    "status": "pending",
+    "total_amount": 124.14,
+    "created_at": "2026-11-13T10:22:48.781857+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-iit8najh Gorgeous Plastic Pants",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 41.38,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

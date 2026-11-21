@@ -1,0 +1,15 @@
+{
+  "id": "8b58acff-d152-4875-b492-99b3c895caeb",
+  "product_name": "QA-3-aukpaoql sort Charlie",
+  "category": "dairy-eggs",
+  "price": 39.9,
+  "stock": 25,
+  "details": {
+    "brand": "Rutherford, Aufderhar and Stark-Botsford",
+    "origin": "Equatorial Guinea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:06.555611+00:00"
+}

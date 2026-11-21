@@ -1,0 +1,1 @@
+{"id":"ce115c0aa3c68fe20213572a64073c23.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/product-search.api.spec.ts › Product search API › should reject the filter with 400 when the temperature zone is unknown","name":"should reject the filter with 400 when the temperature zone is unknown","status":"passed","testResultsByEnv":{"default":"f4c5875fab8614a4224825eea2335bfb"}}

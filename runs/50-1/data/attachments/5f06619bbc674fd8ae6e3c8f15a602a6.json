@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-cfde2bk2 Gorgeous Bamboo Soap",
+    "category": "snacks",
+    "price": 17.9,
+    "stock": 27,
+    "details": {
+      "brand": "Franecki, Sawayn and Hintz",
+      "origin": "Rwanda"
+    }
+  }
+}

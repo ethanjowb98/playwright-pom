@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-137vn1lq Unbranded Marble Gloves",
+    "category": "meat-seafood",
+    "price": 32.11,
+    "stock": 48,
+    "details": {
+      "brand": "Wyman, Nienow and Emard",
+      "origin": "Dominican Republic"
+    }
+  }
+}

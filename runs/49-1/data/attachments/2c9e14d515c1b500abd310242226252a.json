@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-eh0iiym1 Incredible Metal Towels",
+    "category": "bakery",
+    "price": 47.19,
+    "stock": 32,
+    "details": {
+      "brand": "Prosacco, Rempel and Leffler",
+      "origin": "Cayman Islands"
+    }
+  }
+}

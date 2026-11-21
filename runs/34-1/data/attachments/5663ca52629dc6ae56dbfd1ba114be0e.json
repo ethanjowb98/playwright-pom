@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kn2xx7w0 Electronic Bamboo Soap",
+    "category": "bakery",
+    "price": 11.65,
+    "stock": 47,
+    "details": {
+      "brand": "Keeling, Ritchie and Barrows",
+      "origin": "Jordan"
+    }
+  }
+}

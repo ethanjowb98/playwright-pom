@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d534fe4c-a36c-4628-9f21-9b4827695be9",
+    "order_number": "O45574",
+    "status": "pending",
+    "total_amount": 6.02,
+    "created_at": "2026-11-05T10:04:09.813338+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-o6b2pi84 Licensed Concrete Bike",
+        "category": "dairy-eggs",
+        "quantity": 1,
+        "price": 6.02,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

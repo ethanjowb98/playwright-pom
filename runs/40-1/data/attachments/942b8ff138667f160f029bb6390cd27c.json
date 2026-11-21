@@ -1,0 +1,15 @@
+{
+  "id": "48f26928-2540-49dc-8e09-88350916267f",
+  "product_name": "QA-1-ih4ioeqf Modern Bamboo Sausages",
+  "category": "beverages",
+  "price": 33.99,
+  "stock": 13,
+  "details": {
+    "brand": "Kreiger, Bartell and Gibson",
+    "origin": "Grenada"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:49.509069+00:00"
+}

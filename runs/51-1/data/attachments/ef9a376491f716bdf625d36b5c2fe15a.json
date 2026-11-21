@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "9c7de411-2a57-4457-ba9b-cef09b6473b3",
+    "order_number": "O55882",
+    "status": "pending",
+    "total_amount": 164.72,
+    "created_at": "2026-11-21T10:31:35.374869+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-7k0u2anq Elegant Marble Tuna",
+        "category": "other",
+        "quantity": 3,
+        "price": 46.54,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-ectod2s1 Small Metal Salad",
+        "category": "household",
+        "quantity": 1,
+        "price": 25.1,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

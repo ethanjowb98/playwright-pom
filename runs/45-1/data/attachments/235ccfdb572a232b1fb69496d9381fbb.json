@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-r4bixl26 Intelligent Bamboo Shirt",
+    "category": "snacks",
+    "price": 21.2,
+    "stock": 29,
+    "details": {
+      "brand": "Gulgowski, Leuschke and Hoppe",
+      "origin": "Republic of Korea"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

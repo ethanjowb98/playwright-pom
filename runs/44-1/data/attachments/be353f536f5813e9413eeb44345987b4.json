@@ -1,0 +1,15 @@
+{
+  "id": "4202c7f8-90df-466f-b5a8-c82840170892",
+  "product_name": "QA-3-0jnjhfsi Awesome Gold Shoes",
+  "category": "snacks",
+  "price": 11.34,
+  "stock": 43,
+  "details": {
+    "brand": "Rippin - Russel",
+    "origin": "Mexico"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:39.022682+00:00"
+}

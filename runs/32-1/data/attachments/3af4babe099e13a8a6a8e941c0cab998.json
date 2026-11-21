@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "a82feb0d-d7bd-4d26-9be4-ef906cacff6b",
+    "order_number": "O21268",
+    "status": "pending",
+    "total_amount": 58.41,
+    "created_at": "2026-11-05T08:20:06.261511+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-mb6yxd0q Practical Wooden Tuna",
+        "category": "snacks",
+        "quantity": 1,
+        "price": 21.61,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-6cj770s1 Gorgeous Concrete Computer",
+        "category": "other",
+        "quantity": 1,
+        "price": 36.8,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "efd5a6b8-ad57-4461-a4a5-b6badf3994af",
+  "product_name": "QA-1-847cojri Generic Rubber Hat",
+  "category": "household",
+  "price": 34.05,
+  "stock": 32,
+  "details": {
+    "brand": "Hammes - Langworth",
+    "origin": "Malawi"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:20.361911+00:00"
+}

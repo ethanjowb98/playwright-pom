@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "7034801b-0b35-4337-ab68-6e51b4454ce6",
+    "order_number": "O60939",
+    "status": "pending",
+    "total_amount": 36.54,
+    "created_at": "2026-11-12T10:30:35.863695+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-xb64chcm Oriental Aluminum Sausages",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 36.54,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

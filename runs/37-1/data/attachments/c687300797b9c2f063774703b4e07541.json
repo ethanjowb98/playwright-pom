@@ -1,0 +1,15 @@
+{
+  "id": "8a8bcfbc-fe2b-4393-8e91-630be416b100",
+  "product_name": "QA-6-t9117pik Luxurious Gold Computer",
+  "category": "fresh-produce",
+  "price": 6.89,
+  "stock": 25,
+  "details": {
+    "brand": "Kertzmann, Gutmann and Christiansen",
+    "origin": "Saint Pierre and Miquelon"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:07.439076+00:00"
+}

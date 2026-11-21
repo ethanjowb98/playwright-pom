@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-kkj2ggus Small Wooden Tuna",
+    "category": "beverages",
+    "price": 45.72,
+    "stock": 10,
+    "details": {
+      "brand": "Jones LLC",
+      "origin": "Turkey"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-khkzipa1 Unbranded Aluminum Pants",
+    "category": "household",
+    "stock": 24,
+    "details": {
+      "brand": "Stark LLC",
+      "origin": "Lao People's Democratic Republic"
+    }
+  }
+}

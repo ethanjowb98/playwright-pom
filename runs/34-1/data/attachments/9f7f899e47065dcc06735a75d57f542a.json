@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pdoyrr8d Intelligent Marble Ball",
+    "category": "snacks",
+    "price": 24.36,
+    "stock": 33,
+    "details": {
+      "brand": "O'Hara - Kris",
+      "origin": "Barbados"
+    }
+  }
+}

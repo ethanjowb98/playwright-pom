@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-elzpm7d3 Fantastic Bamboo Mouse",
+    "category": "frozen",
+    "price": 13.56,
+    "stock": 28,
+    "details": {
+      "brand": "Marks - Langworth",
+      "origin": "Bhutan"
+    }
+  }
+}

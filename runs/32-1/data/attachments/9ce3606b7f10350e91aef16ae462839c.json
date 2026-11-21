@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-39g88rxy Small Bronze Ball",
+    "category": "beverages",
+    "price": 49.36,
+    "stock": 35,
+    "details": {
+      "brand": "Labadie - Denesik",
+      "origin": "Bahamas"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

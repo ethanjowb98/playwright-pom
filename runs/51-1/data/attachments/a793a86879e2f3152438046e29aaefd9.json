@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zycpkpzb Incredible Steel Chicken",
+    "category": "snacks",
+    "price": 31.78,
+    "stock": 13,
+    "details": {
+      "brand": "Runolfsdottir, Hammes and Price",
+      "origin": "Saint Lucia"
+    }
+  }
+}

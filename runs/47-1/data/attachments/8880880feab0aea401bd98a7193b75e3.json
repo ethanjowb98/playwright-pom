@@ -1,0 +1,15 @@
+{
+  "id": "7ad0757d-fa2c-4ada-9eeb-a505d3e8ab14",
+  "product_name": "QA-1-u0k2jjrc Modern Ceramic Bacon",
+  "category": "frozen",
+  "price": 20.01,
+  "stock": 41,
+  "details": {
+    "brand": "Langosh, Doyle and Lemke",
+    "origin": "Senegal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:23:48.439612+00:00"
+}

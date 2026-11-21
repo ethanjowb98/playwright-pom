@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mjybppg5 Bespoke Rubber Shoes",
+    "category": "bakery",
+    "price": 48.51,
+    "stock": 2,
+    "details": {
+      "brand": "Boehm - Stehr",
+      "origin": "Norfolk Island"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "953245e4-b93d-41ab-9927-d4a4347c2ed6",
+    "order_number": "O50246",
+    "status": "pending",
+    "total_amount": 141.59,
+    "created_at": "2026-11-06T10:09:45.282223+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-jz2563pa Unbranded Bronze Mouse",
+        "category": "dairy-eggs",
+        "quantity": 3,
+        "price": 36.59,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-ic9wtdyk Incredible Metal Ball",
+        "category": "household",
+        "quantity": 1,
+        "price": 31.82,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

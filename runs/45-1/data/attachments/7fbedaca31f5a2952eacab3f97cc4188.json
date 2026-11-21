@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vmxa6fv3 Fresh Metal Hat",
+    "category": "household",
+    "price": 33.92,
+    "stock": 24,
+    "details": {
+      "brand": "Price and Sons",
+      "origin": "Northern Mariana Islands"
+    }
+  }
+}

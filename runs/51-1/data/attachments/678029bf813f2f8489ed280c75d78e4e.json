@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-p7u5zl27 Frozen Marble Tuna",
+    "category": "bakery",
+    "price": 14.29,
+    "stock": 30,
+    "details": {
+      "brand": "Denesik Inc",
+      "origin": "Virgin Islands, U.S."
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wpi029p7 Refined Aluminum Hat",
+    "category": "other",
+    "price": 42.49,
+    "stock": 31,
+    "details": {
+      "brand": "Conn - Monahan",
+      "origin": "Azerbaijan"
+    }
+  }
+}

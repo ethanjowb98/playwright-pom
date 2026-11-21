@@ -1,0 +1,15 @@
+{
+  "id": "ad5536e5-cf28-436b-92fc-970eb10fc6e8",
+  "product_name": "QA-7-dgaddqsc Handcrafted Aluminum Car",
+  "category": "snacks",
+  "price": 3.48,
+  "stock": 15,
+  "details": {
+    "brand": "Kemmer - Brakus",
+    "origin": "Tanzania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:50.751934+00:00"
+}

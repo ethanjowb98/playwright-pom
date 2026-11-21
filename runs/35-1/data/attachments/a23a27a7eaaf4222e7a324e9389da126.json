@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-vtltwcvw Oriental Gold Car",
+    "category": "meat-seafood",
+    "price": 14.79,
+    "stock": 21,
+    "details": {
+      "brand": "Kautzer Inc",
+      "origin": "Finland"
+    }
+  }
+}

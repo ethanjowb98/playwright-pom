@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-q8rw2xlq sort Alpha",
+    "category": "snacks",
+    "price": 49.71,
+    "stock": 26,
+    "details": {
+      "brand": "Mayer - Keeling",
+      "origin": "Solomon Islands"
+    }
+  }
+}

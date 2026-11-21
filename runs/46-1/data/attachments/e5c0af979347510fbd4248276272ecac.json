@@ -1,0 +1,15 @@
+{
+  "id": "3642a3af-2510-44ff-82a2-28fba220d748",
+  "product_name": "QA-2-cf678co1 Incredible Plastic Pants",
+  "category": "frozen",
+  "price": 7.48,
+  "stock": 44,
+  "details": {
+    "brand": "Collins-Hintz LLC",
+    "origin": "Togo"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:26:13.880413+00:00"
+}

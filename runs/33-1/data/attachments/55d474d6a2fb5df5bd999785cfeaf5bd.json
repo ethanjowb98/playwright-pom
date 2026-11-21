@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n5zmry59 Bespoke Metal Mouse",
+    "category": "frozen",
+    "price": 14.34,
+    "stock": 49,
+    "details": {
+      "brand": "Hayes and Sons",
+      "origin": "Bangladesh"
+    }
+  }
+}

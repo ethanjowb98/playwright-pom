@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mk8kc09u Generic Silk Keyboard",
+    "category": "meat-seafood",
+    "price": 44.63,
+    "stock": 16,
+    "details": {
+      "brand": "MacGyver - White",
+      "origin": "Czechia"
+    }
+  }
+}

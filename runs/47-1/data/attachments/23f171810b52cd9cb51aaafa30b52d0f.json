@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "b9f794fc-e504-4571-9130-9c16349fe32c",
+    "order_number": "O11811",
+    "status": "pending",
+    "total_amount": 81.96,
+    "created_at": "2026-11-17T11:24:41.543852+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-44o087si Practical Bronze Chips",
+        "category": "fresh-produce",
+        "quantity": 2,
+        "price": 40.98,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

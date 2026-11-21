@@ -1,0 +1,15 @@
+{
+  "id": "c1770ade-dece-40c0-98e3-81fab8f52b5b",
+  "product_name": "QA-5-4snml13t Recycled Concrete Soap",
+  "category": "fresh-produce",
+  "price": 23.09,
+  "stock": 45,
+  "details": {
+    "brand": "Langosh, Kassulke and Bauch",
+    "origin": "Taiwan"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:01.598239+00:00"
+}

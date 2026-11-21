@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-vqb1qs02 Luxurious Ceramic Salad",
+    "category": "other",
+    "price": 3.3,
+    "stock": 37,
+    "details": {
+      "brand": "Dooley, Dooley and Mante",
+      "origin": "Panama"
+    }
+  }
+}

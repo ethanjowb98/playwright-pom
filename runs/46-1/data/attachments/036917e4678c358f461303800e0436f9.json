@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e6417pdj Rustic Bamboo Towels",
+    "category": "bakery",
+    "price": 4.46,
+    "stock": 21,
+    "details": {
+      "brand": "Quigley, Cassin-Hammes and Hane",
+      "origin": "Cape Verde"
+    }
+  }
+}

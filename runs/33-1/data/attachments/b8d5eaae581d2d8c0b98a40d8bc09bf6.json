@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d97f7uxp Soft Aluminum Towels",
+    "category": "snacks",
+    "price": 26.45,
+    "stock": 45,
+    "details": {
+      "brand": "Kunze - Considine",
+      "origin": "Zimbabwe"
+    }
+  }
+}

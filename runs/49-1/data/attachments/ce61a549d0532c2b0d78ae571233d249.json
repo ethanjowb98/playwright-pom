@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-8omov9su Awesome Plastic Bike",
+    "category": "snacks",
+    "price": 37.86,
+    "stock": 25,
+    "details": {
+      "brand": "Romaguera, Bartell and Altenwerth",
+      "origin": "Lao People's Democratic Republic"
+    }
+  }
+}

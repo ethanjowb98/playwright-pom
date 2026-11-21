@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-j35edo84 sort Bravo",
+    "category": "frozen",
+    "price": 35.06,
+    "stock": 22,
+    "details": {
+      "brand": "Nitzsche - Denesik",
+      "origin": "Guyana"
+    }
+  }
+}

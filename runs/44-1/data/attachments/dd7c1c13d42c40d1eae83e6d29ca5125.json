@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-likn6fjb Tasty Steel Cheese",
+    "category": "beverages",
+    "price": 30.05,
+    "stock": 1.5,
+    "details": {
+      "brand": "Marks, Senger and Carter",
+      "origin": "Jamaica"
+    }
+  }
+}

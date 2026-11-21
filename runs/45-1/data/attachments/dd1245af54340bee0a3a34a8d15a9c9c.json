@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wpbsbjes Recycled Granite Salad",
+    "category": "fresh-produce",
+    "price": 2.92,
+    "stock": 46,
+    "details": {
+      "brand": "Kautzer - Bernier",
+      "origin": "Mauritius"
+    }
+  }
+}

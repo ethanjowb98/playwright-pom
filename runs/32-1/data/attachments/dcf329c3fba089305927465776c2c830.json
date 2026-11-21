@@ -1,0 +1,15 @@
+{
+  "id": "492b8e07-90c5-4eac-a6ee-fb73ed617805",
+  "product_name": "QA-6-jqtu2iyt sort Alpha",
+  "category": "bakery",
+  "price": 48.2,
+  "stock": 49,
+  "details": {
+    "brand": "Botsford, Mraz and Konopelski",
+    "origin": "Senegal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:04.911298+00:00"
+}

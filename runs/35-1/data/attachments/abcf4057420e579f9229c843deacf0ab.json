@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-iohlkszi Handcrafted Metal Salad",
+    "category": "household",
+    "price": 26.89,
+    "stock": 24,
+    "details": {
+      "brand": "Bayer, Willms and Reichert",
+      "origin": "Turks and Caicos Islands"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "1a14b0da-2c54-40eb-96bf-6f688ae4390a",
+  "product_name": "QA-5-lqo3jq34 Handcrafted Marble Fish",
+  "category": "beverages",
+  "price": 47.13,
+  "stock": 24,
+  "details": {
+    "brand": "Oberbrunner and Sons",
+    "origin": "Seychelles"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:44.436732+00:00"
+}

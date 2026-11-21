@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nycbstme Sleek Rubber Keyboard",
+    "category": "snacks",
+    "price": 43.68,
+    "stock": 17,
+    "details": {
+      "brand": "Lynch - McDermott",
+      "origin": "Curaçao"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-a3em8m5v Ergonomic Cotton Chips",
+    "category": "pantry",
+    "price": 10.94,
+    "stock": 19,
+    "details": {
+      "brand": "Buckridge, Berge and Gleichner-Dickens",
+      "origin": "Puerto Rico"
+    }
+  }
+}

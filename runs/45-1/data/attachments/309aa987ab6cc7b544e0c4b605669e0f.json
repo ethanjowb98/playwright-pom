@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-laptc5dw Ergonomic Metal Keyboard",
+    "category": "fresh-produce",
+    "price": 17.86,
+    "stock": 32,
+    "details": {
+      "brand": "Kihn LLC",
+      "origin": "Vietnam"
+    }
+  }
+}

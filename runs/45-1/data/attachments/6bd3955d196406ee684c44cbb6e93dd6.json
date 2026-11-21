@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-y76mo1m7 Oriental Concrete Salad",
+    "category": "bakery",
+    "price": 29.56,
+    "stock": 36,
+    "details": {
+      "brand": "Satterfield Inc",
+      "origin": "Peru"
+    }
+  }
+}

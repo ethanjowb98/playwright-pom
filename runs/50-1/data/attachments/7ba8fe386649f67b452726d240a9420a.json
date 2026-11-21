@@ -1,0 +1,15 @@
+{
+  "id": "c8f96429-9508-4fed-9b2b-fc094e0cd873",
+  "product_name": "QA-6-5wu6vxvb Generic Rubber Pizza",
+  "category": "meat-seafood",
+  "price": 9.44,
+  "stock": 28,
+  "details": {
+    "brand": "Jacobi, Romaguera and Homenick",
+    "origin": "South Africa"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:43:59.246258+00:00"
+}

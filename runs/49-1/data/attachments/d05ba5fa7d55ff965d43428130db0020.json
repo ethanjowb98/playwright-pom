@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-xird63du Frozen Gold Computer",
+    "category": "dairy-eggs",
+    "price": 1.59,
+    "stock": 50,
+    "details": {
+      "brand": "Miller - Grant",
+      "origin": "Tonga"
+    },
+    "weighted": false
+  }
+}

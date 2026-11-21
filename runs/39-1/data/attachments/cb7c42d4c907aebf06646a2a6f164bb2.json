@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zvtawkq2 Generic Plastic Ball",
+    "category": "bakery",
+    "price": 4.29,
+    "stock": 37,
+    "details": {
+      "brand": "Conn Inc",
+      "origin": "Antigua and Barbuda"
+    },
+    "weighted": false
+  }
+}

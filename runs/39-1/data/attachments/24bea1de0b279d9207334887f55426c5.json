@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wmu79t00 Luxurious Concrete Bike",
+    "category": "meat-seafood",
+    "price": 11.6,
+    "stock": 46,
+    "details": {
+      "brand": "Goldner - Koepp",
+      "origin": "Congo"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-xtat0fef Licensed Metal Chicken",
+    "category": "dairy-eggs",
+    "price": 46.37,
+    "stock": 46,
+    "details": {
+      "brand": "Franecki and Sons",
+      "origin": "South Sudan"
+    },
+    "weighted": true
+  }
+}

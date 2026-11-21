@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oss8v87l Handcrafted Bronze Gloves",
+    "category": "fresh-produce",
+    "price": 39.78,
+    "stock": 2,
+    "details": {
+      "brand": "Von - Bode",
+      "origin": "Cuba"
+    }
+  }
+}

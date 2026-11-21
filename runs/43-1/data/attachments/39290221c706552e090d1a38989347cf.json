@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vqtk2y3i Handcrafted Silk Chair",
+    "category": "bakery",
+    "price": 1.54,
+    "stock": 31,
+    "details": {
+      "brand": "Orn, Stracke and Rohan",
+      "origin": "Guadeloupe"
+    }
+  }
+}

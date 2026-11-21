@@ -1,0 +1,15 @@
+{
+  "id": "3c8037cb-0ac0-4ab7-965c-6b7a279a46e6",
+  "product_name": "QA-4-mnr1rkn5 Fantastic Silk Mouse",
+  "category": "snacks",
+  "price": 31.25,
+  "stock": 30,
+  "details": {
+    "brand": "Dare, Frami and Farrell",
+    "origin": "Poland"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:46.578642+00:00"
+}

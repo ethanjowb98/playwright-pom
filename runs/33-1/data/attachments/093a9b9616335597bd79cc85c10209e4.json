@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y67o8849 Ergonomic Granite Shoes",
+    "category": "snacks",
+    "price": 21.64,
+    "stock": 20,
+    "details": {
+      "brand": "Lockman and Sons",
+      "origin": "Tanzania"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-eisnomql Handmade Concrete Hat",
+    "category": "household",
+    "price": 29.51,
+    "stock": 49,
+    "details": {
+      "brand": "Aufderhar, Mann and Baumbach",
+      "origin": "Sweden"
+    }
+  }
+}

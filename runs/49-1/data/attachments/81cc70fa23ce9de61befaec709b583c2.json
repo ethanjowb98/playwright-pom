@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-jy8drtr0 Refined Rubber Fish",
+    "category": "dairy-eggs",
+    "price": 7.17,
+    "stock": 48,
+    "details": {
+      "brand": "Borer LLC",
+      "origin": "Poland"
+    }
+  }
+}

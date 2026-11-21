@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nv7wl49u Awesome Granite Car",
+    "category": "frozen",
+    "price": 1.39,
+    "stock": 26,
+    "details": {
+      "brand": "Considine - Doyle",
+      "origin": "Indonesia"
+    }
+  }
+}

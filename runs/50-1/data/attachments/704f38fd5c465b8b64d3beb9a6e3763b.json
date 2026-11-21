@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3a0xsytk Generic Bronze Cheese",
+    "category": "meat-seafood",
+    "price": 7.62,
+    "stock": 26,
+    "details": {
+      "brand": "Abshire - Flatley",
+      "origin": "Nicaragua"
+    }
+  }
+}

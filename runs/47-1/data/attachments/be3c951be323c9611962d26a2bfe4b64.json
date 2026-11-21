@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-7ouerost sort Alpha",
+    "category": "household",
+    "price": 35.59,
+    "stock": 35,
+    "details": {
+      "brand": "Will-Pacocha, O'Connell and Schiller",
+      "origin": "Luxembourg"
+    }
+  }
+}

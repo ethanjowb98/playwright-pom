@@ -1,0 +1,17 @@
+[
+  {
+    "id": "bd9a3a74-fa0f-47bf-b7ca-12571b926d37",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-u3pep69r Fresh Cotton Keyboard",
+    "category": "snacks",
+    "price": 8.3,
+    "details": {
+      "brand": "Lehner Inc",
+      "origin": "Sri Lanka"
+    },
+    "created_at": "2026-11-04T08:17:45.791026+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 14
+  }
+]

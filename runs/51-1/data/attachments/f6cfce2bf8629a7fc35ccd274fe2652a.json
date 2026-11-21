@@ -1,0 +1,15 @@
+{
+  "id": "5d281b47-3c07-4d43-9d41-d95304f3e325",
+  "product_name": "QA-3-hz708bmt Tasty Wooden Ball",
+  "category": "beverages",
+  "price": 22.83,
+  "stock": 15,
+  "details": {
+    "brand": "Williamson, Nader and Gleichner",
+    "origin": "Uruguay"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:36.915948+00:00"
+}

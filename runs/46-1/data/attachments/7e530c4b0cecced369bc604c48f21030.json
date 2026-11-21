@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lno24l1p Unbranded Concrete Hat",
+    "category": "fresh-produce",
+    "price": 16.45,
+    "stock": 29,
+    "details": {
+      "brand": "Cole - Schmidt",
+      "origin": "Burundi"
+    }
+  }
+}

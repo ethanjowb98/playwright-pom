@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a3sihphn Soft Gold Computer",
+    "category": "beverages",
+    "price": 6.47,
+    "stock": 25,
+    "details": {
+      "brand": "Mills Inc",
+      "origin": "Uruguay"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qf65g0vl Sleek Rubber Bacon",
+    "category": "fresh-produce",
+    "price": 2.37,
+    "stock": 2,
+    "details": {
+      "brand": "Bins, Terry and Leannon",
+      "origin": "Eswatini"
+    }
+  }
+}

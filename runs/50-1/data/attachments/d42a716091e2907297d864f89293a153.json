@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6wgb852c Electronic Rubber Bacon",
+    "category": "fresh-produce",
+    "price": 22.29,
+    "stock": 36,
+    "details": {
+      "brand": "Mante-White Inc",
+      "origin": "San Marino"
+    }
+  }
+}

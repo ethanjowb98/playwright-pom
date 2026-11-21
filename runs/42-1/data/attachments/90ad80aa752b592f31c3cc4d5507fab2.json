@@ -1,0 +1,210 @@
+[
+  {
+    "id": "67c1904a-e650-475e-b938-a10732960f97",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Aged Gouda Wedge",
+    "category": "dairy-eggs",
+    "price": 14.99,
+    "details": {
+      "aged": "6 months",
+      "origin": "Netherlands",
+      "milk_type": "Cow",
+      "rind_edible": false
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "9ea97415-6f47-4c9a-8cf7-ae23c336dffb",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Artisan Sourdough Boule",
+    "category": "bakery",
+    "price": 6.5,
+    "details": {
+      "sliced": false,
+      "starter": "Wild Yeast",
+      "fermentation_time": "48 hours"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "c32fe6c2-c572-4e85-ae60-38c8f6ec2a75",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Bone-in Ribeye Steak",
+    "category": "meat-seafood",
+    "price": 19.5,
+    "details": {
+      "aging": "21 Days",
+      "grade": "USDA Choice",
+      "thickness": "1.5 inch"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "16bb232d-bf12-41c5-8fbc-3ea0dc7fe5ec",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Boneless Skinless Chicken Breasts",
+    "category": "meat-seafood",
+    "price": 3.99,
+    "details": {
+      "brand": "PoultryFarms",
+      "antibiotic_free": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "037d8b80-8843-4ee8-8817-d8c94ed12ea9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Double Chocolate Fudge Brownies",
+    "category": "bakery",
+    "price": 7.99,
+    "details": {
+      "texture": "Fudgy",
+      "contains_nuts": false,
+      "chocolate_type": "Dark"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "f8fadac0-631c-4e52-bb3b-2b7780c64101",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Earl Grey Loose Leaf Tea",
+    "category": "beverages",
+    "price": 3.5,
+    "details": {
+      "origin": "India",
+      "caffeinated": true,
+      "ingredients": [
+        "Black Tea",
+        "Bergamot Oil"
+      ]
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "929ebb1a-4ad8-4885-bab8-7ea9f6d3add7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Granny Smith Apples",
+    "category": "fresh-produce",
+    "price": 2.49,
+    "details": {
+      "class": "Extra Fancy",
+      "origin": "USA",
+      "harvest_date": "2025-10-15"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "e6cf4537-d753-4a96-9745-2eb5f5bf891e",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Organic Bananas",
+    "category": "fresh-produce",
+    "price": 0.89,
+    "details": {
+      "origin": "Ecuador",
+      "organic": true,
+      "variety": "Cavendish"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "0e091522-ca44-4b36-b4a8-33a213da1c23",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-29gms3k5 Intelligent Rubber Salad",
+    "category": "beverages",
+    "price": 30.67,
+    "details": {
+      "brand": "Wiegand, Willms and Balistreri",
+      "origin": "Botswana"
+    },
+    "created_at": "2026-11-12T10:28:41.7802+00:00",
+    "temperature_zone": null,
+    "weighted": true,
+    "stock": 22
+  },
+  {
+    "id": "94bed8ce-5059-462e-ae4c-0eb6f8530417",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-g017w848 Tasty Wooden Cheese",
+    "category": "frozen",
+    "price": 3.98,
+    "details": {
+      "brand": "Goldner, Schimmel and Ondricka",
+      "origin": "Niger"
+    },
+    "created_at": "2026-11-12T10:28:41.462912+00:00",
+    "temperature_zone": null,
+    "weighted": true,
+    "stock": 36
+  },
+  {
+    "id": "032ea95e-209c-412a-8c71-3f742324b751",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-4-1qtjgcz5 Recycled Concrete Hat",
+    "category": "frozen",
+    "price": 19.56,
+    "details": {
+      "brand": "Nikolaus - Kiehn-Lang",
+      "origin": "French Southern Territories"
+    },
+    "created_at": "2026-11-12T10:28:41.796495+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": true,
+    "stock": 35
+  },
+  {
+    "id": "1dd85c75-2b4b-4e24-910a-6dee69f2fa2a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Red Onions",
+    "category": "fresh-produce",
+    "price": 1.2,
+    "details": {
+      "local": true,
+      "flavor_profile": "Sharp"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "7b0bab20-b2e4-48af-9e6e-15798fdcf70a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Wild Caught Salmon Fillet",
+    "category": "meat-seafood",
+    "price": 14.99,
+    "details": {
+      "cut": "Fillet",
+      "origin": "Alaska",
+      "skin_on": true,
+      "wild_caught": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": true,
+    "stock": 10
+  }
+]

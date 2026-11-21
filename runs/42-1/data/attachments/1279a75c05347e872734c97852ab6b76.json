@@ -1,0 +1,15 @@
+{
+  "id": "2f80fa27-91c9-481e-8eaa-a920f8d875cb",
+  "product_name": "QA-1-uxkm0a37 Handcrafted Gold Chicken",
+  "category": "beverages",
+  "price": 12.35,
+  "stock": 30,
+  "details": {
+    "brand": "Dickens - Lynch",
+    "origin": "Isle of Man"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:32:00.252322+00:00"
+}

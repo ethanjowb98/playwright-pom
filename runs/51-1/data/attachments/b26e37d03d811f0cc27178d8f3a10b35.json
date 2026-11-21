@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-umxrvbku Sleek Concrete Bike",
+    "category": "fresh-produce",
+    "price": 15.56,
+    "stock": 49,
+    "details": {
+      "brand": "Wolf LLC",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

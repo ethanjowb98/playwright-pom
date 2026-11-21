@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-7jyxacsg Ergonomic Aluminum Mouse",
+    "category": "frozen",
+    "price": 35.92,
+    "stock": 38,
+    "details": {
+      "brand": "Nitzsche-Adams LLC",
+      "origin": "Kazakhstan"
+    }
+  }
+}

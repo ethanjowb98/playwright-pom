@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-kr47vsi0 sort Bravo",
+    "category": "bakery",
+    "price": 15.36,
+    "stock": 20,
+    "details": {
+      "brand": "Lowe - Dach",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

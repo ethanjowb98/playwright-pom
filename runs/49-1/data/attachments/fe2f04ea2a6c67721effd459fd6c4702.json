@@ -1,0 +1,15 @@
+{
+  "id": "b0f65df2-4e07-4aac-aafa-d2d796c48ec6",
+  "product_name": "QA-2-gt4c4bn4 Tasty Steel Chicken",
+  "category": "fresh-produce",
+  "price": 40.55,
+  "stock": 46,
+  "details": {
+    "brand": "Williamson, Langosh and Hoppe",
+    "origin": "Belarus"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:59:16.680525+00:00"
+}

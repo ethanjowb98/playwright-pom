@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e82yw5ge Handmade Bronze Tuna",
+    "category": "pantry",
+    "price": 11.21,
+    "stock": 28,
+    "details": {
+      "brand": "Koss, Osinski and Rodriguez",
+      "origin": "Montserrat"
+    }
+  }
+}

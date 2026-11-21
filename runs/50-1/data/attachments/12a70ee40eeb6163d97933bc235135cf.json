@@ -1,0 +1,15 @@
+{
+  "id": "2103b678-560a-49fe-b75d-5239a0e9bcc3",
+  "product_name": "QA-1-2aup9rey Intelligent Aluminum Tuna",
+  "category": "fresh-produce",
+  "price": 43.75,
+  "stock": 39,
+  "details": {
+    "brand": "Boyle - Heaney",
+    "origin": "Cook Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:45:07.918159+00:00"
+}

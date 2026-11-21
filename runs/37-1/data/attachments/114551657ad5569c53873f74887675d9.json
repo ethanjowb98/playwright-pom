@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "000cd2a3-4ad7-4a63-97a1-c4250fc64bb2",
+      "product_id": "851e1cb3-46ec-41a3-b605-78bc60a6fcf4",
+      "product_name": "QA-1-5q34qsj7 Bespoke Concrete Hat",
+      "price": 17.05,
+      "category": "pantry",
+      "quantity": 2,
+      "created_at": "2026-11-07T09:27:21.785401+00:00",
+      "updated_at": "2026-11-07T09:27:21.785401+00:00"
+    },
+    {
+      "id": "1d727678-eca9-400f-9552-fe5d74aef752",
+      "product_id": "f1297750-38e2-40c6-850a-eeb39a99b0fc",
+      "product_name": "QA-1-o3k45ea4 Rustic Concrete Tuna",
+      "price": 20.4,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-07T09:27:22.299356+00:00",
+      "updated_at": "2026-11-07T09:27:22.299356+00:00"
+    }
+  ]
+}

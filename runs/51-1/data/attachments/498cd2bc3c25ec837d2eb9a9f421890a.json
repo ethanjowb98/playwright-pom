@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "11012774-bad9-456d-84c9-4bf65e377283",
+      "product_id": "47645b11-1b30-437c-ba2e-9c0bd4a757f6",
+      "product_name": "QA-1-5pdfknnl Ergonomic Silk Shoes",
+      "price": 13.49,
+      "category": "frozen",
+      "quantity": 2,
+      "created_at": "2026-11-21T10:32:01.014191+00:00",
+      "updated_at": "2026-11-21T10:32:01.014191+00:00"
+    },
+    {
+      "id": "9e7bcd39-cb9b-49cc-87d6-588b072b3872",
+      "product_id": "0b8c03e3-4f5a-4a59-9ccc-c3c94b0c6350",
+      "product_name": "QA-1-w228j1c7 Licensed Steel Shoes",
+      "price": 45.53,
+      "category": "frozen",
+      "quantity": 2,
+      "created_at": "2026-11-21T10:32:01.660607+00:00",
+      "updated_at": "2026-11-21T10:32:01.660607+00:00"
+    }
+  ]
+}

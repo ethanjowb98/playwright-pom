@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "ab16e880-775e-4335-8e43-687cfb9cda6d",
+      "product_id": "22d7cbbe-ba31-4506-adfa-39aed3096e44",
+      "product_name": "QA-1-opyk691d Soft Concrete Pizza",
+      "price": 16.05,
+      "category": "other",
+      "quantity": 3,
+      "created_at": "2026-11-09T10:37:39.600393+00:00",
+      "updated_at": "2026-11-09T10:37:39.600393+00:00"
+    }
+  ]
+}

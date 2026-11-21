@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ddc15f37-6fd9-4a06-b2ab-a6364e01ef48",
+    "order_number": "O60200",
+    "status": "pending",
+    "total_amount": 40.04,
+    "created_at": "2026-11-07T09:26:09.229678+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-ghes29hz Modern Plastic Soap",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 40.04,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

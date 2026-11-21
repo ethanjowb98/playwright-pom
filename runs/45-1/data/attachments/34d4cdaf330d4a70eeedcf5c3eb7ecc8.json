@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dkt45mlg Incredible Aluminum Shirt",
+    "category": "pantry",
+    "price": 7.13,
+    "stock": 42,
+    "details": {
+      "brand": "Tromp - Stark",
+      "origin": "Palestine"
+    }
+  }
+}

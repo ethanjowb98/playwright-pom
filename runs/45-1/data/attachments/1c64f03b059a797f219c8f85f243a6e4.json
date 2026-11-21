@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "7cce9ba7-54ce-42f6-a55b-0420a22797e4",
+    "order_number": "O33453",
+    "status": "pending",
+    "total_amount": 95.55,
+    "created_at": "2026-11-15T10:10:02.538027+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-dj09czl5 Handmade Bamboo Computer",
+        "category": "other",
+        "quantity": 3,
+        "price": 31.85,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

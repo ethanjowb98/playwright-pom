@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s2ekjzhb Bespoke Rubber Hat",
+    "category": "other",
+    "price": 9.19,
+    "stock": 46,
+    "details": {
+      "brand": "Muller, Heathcote and Graham",
+      "origin": "Congo"
+    }
+  }
+}

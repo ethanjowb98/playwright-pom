@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-emptqf35 Handmade Steel Chicken",
+    "category": "bakery",
+    "price": 47.42,
+    "stock": "x",
+    "details": {
+      "brand": "Kerluke - Ernser",
+      "origin": "Luxembourg"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-0ha949sd Licensed Metal Mouse",
+    "category": "other",
+    "price": 18.66,
+    "stock": 48,
+    "details": {
+      "brand": "Hane - Schneider",
+      "origin": "Monaco"
+    }
+  }
+}

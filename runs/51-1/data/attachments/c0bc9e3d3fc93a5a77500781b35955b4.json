@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-lbtd362h sort Charlie",
+    "category": "dairy-eggs",
+    "price": 49.75,
+    "stock": 19,
+    "details": {
+      "brand": "Keebler, Glover and Brown",
+      "origin": "Costa Rica"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4mywfjwc Frozen Cotton Keyboard",
+    "category": "beverages",
+    "price": 12.82,
+    "stock": 17,
+    "details": {
+      "brand": "Hilll and Sons",
+      "origin": "Philippines"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-5zuwe48w Sleek Metal Keyboard",
+    "category": "frozen",
+    "price": 22.02,
+    "stock": 22,
+    "details": {
+      "brand": "Corkery, Lang-Blick and Crooks",
+      "origin": "Cyprus"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

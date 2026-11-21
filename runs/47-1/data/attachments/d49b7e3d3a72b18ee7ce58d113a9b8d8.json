@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-yjxwirwr Modern Granite Shirt",
+    "category": "beverages",
+    "price": 7.47,
+    "stock": 33,
+    "details": {
+      "brand": "Davis LLC",
+      "origin": "Saint Kitts and Nevis"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

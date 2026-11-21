@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "205604f8-906b-4d73-984b-a859f127531f",
+      "order_number": "O80119",
+      "status": "pending",
+      "total_amount": 12.62,
+      "notes": null,
+      "created_at": "2026-11-18T10:57:50.157246+00:00",
+      "updated_at": "2026-11-18T10:57:50.157246+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-khuyndsd Tasty Silk Tuna",
+          "category": "frozen",
+          "quantity": 1,
+          "price": 12.62,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "97dd481f-2508-4cab-99d3-157547a19b05",
+    "order_number": "O32834",
+    "status": "pending",
+    "total_amount": 122.85,
+    "created_at": "2026-11-05T10:04:28.819189+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-gc7mp459 Tasty Bamboo Tuna",
+        "category": "household",
+        "quantity": 3,
+        "price": 40.95,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

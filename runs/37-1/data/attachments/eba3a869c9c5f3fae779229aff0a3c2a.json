@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-idy4tvep Practical Plastic Ball",
+    "category": "other",
+    "price": 39.32,
+    "stock": 27,
+    "details": {
+      "brand": "Pollich LLC",
+      "origin": "Slovakia"
+    }
+  }
+}

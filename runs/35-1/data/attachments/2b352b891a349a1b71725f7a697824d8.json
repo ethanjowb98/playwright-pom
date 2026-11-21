@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tnn4zzwc Elegant Bronze Shirt",
+    "category": "beverages",
+    "price": 6.15,
+    "stock": 23,
+    "details": {
+      "brand": "Corwin-Jenkins, Volkman and Stiedemann",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

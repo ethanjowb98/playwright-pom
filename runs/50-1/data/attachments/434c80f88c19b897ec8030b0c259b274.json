@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-haz2xkhl Soft Plastic Sausages",
+    "category": "fresh-produce",
+    "price": 12.75,
+    "stock": 36,
+    "details": {
+      "brand": "Breitenberg Group",
+      "origin": "Eswatini"
+    }
+  }
+}

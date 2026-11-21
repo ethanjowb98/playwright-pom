@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "1e0eedce-aad4-4546-9520-ed5d02781248",
+    "order_number": "O69905",
+    "status": "pending",
+    "total_amount": 83.16,
+    "created_at": "2026-11-17T11:22:38.011776+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-pmt3ovzy Refined Marble Hat",
+        "category": "meat-seafood",
+        "quantity": 2,
+        "price": 41.58,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

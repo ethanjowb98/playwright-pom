@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fkw4bxtt Soft Concrete Sausages",
+    "category": "dairy-eggs",
+    "price": 12,
+    "stock": 27,
+    "details": {
+      "brand": "Bahringer and Sons",
+      "origin": "Tuvalu"
+    }
+  }
+}

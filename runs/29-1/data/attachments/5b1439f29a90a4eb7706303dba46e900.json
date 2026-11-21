@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4khhq2x4 Unbranded Cotton Table",
+    "category": "pantry",
+    "price": 34.52,
+    "stock": 31,
+    "details": {
+      "brand": "Frami - Collins",
+      "origin": "Haiti"
+    },
+    "weighted": false
+  }
+}

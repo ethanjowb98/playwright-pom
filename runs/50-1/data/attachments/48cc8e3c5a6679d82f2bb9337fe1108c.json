@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o8m3mjof Handmade Marble Mouse",
+    "category": "meat-seafood",
+    "price": 23.95,
+    "stock": 31,
+    "details": {
+      "brand": "Berge LLC",
+      "origin": "Singapore"
+    }
+  }
+}

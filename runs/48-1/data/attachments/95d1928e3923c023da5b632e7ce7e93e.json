@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0ugx2lw8 Elegant Ceramic Ball",
+    "category": "dairy-eggs",
+    "price": 10.35,
+    "stock": 11,
+    "details": {
+      "brand": "Beahan - Murazik",
+      "origin": "France"
+    }
+  }
+}

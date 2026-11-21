@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qzpffk4l Recycled Plastic Bacon",
+    "category": "dairy-eggs",
+    "price": 19.44,
+    "stock": 42,
+    "details": {
+      "brand": "Osinski - Corwin",
+      "origin": "Sint Maarten"
+    }
+  }
+}

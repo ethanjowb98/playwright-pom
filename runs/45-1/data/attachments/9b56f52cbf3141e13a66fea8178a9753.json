@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y1epho8u Electronic Concrete Towels",
+    "category": "dairy-eggs",
+    "price": 27.3,
+    "stock": 26,
+    "details": {
+      "brand": "Schoen, Jerde-Bernier and Gleason",
+      "origin": "Cameroon"
+    }
+  }
+}

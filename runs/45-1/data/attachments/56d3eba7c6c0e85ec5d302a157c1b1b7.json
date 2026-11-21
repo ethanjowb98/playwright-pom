@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yxvoon16 Gorgeous Marble Chicken",
+    "category": "other",
+    "price": 47.91,
+    "stock": 25,
+    "details": {
+      "brand": "Kiehn - Witting",
+      "origin": "Senegal"
+    }
+  }
+}

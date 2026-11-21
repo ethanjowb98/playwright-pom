@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b5bum996 Luxurious Aluminum Soap",
+    "category": "bakery",
+    "price": 49.98,
+    "stock": 40,
+    "details": {
+      "brand": "Stehr - Sawayn",
+      "origin": "Eritrea"
+    }
+  }
+}

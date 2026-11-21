@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-swpauyud Handmade Bamboo Salad",
+    "category": "fresh-produce",
+    "price": "abc",
+    "stock": 25,
+    "details": {
+      "brand": "Mann, Toy-Strosin and Powlowski",
+      "origin": "Norfolk Island"
+    }
+  }
+}

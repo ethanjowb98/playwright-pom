@@ -1,0 +1,15 @@
+{
+  "id": "fe8bfcd9-0f13-4c67-bb94-e1a33398e4b0",
+  "product_name": "QA-1-6iy1wi02 Generic Ceramic Tuna",
+  "category": "snacks",
+  "price": 15.59,
+  "stock": 26,
+  "details": {
+    "brand": "Upton, Stoltenberg and Mills",
+    "origin": "Mozambique"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:30:52.190383+00:00"
+}

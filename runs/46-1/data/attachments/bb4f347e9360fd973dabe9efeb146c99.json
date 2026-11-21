@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1q2zhb35 Rustic Cotton Towels",
+    "category": "bakery",
+    "price": 8.37,
+    "stock": 30,
+    "details": {
+      "brand": "Nikolaus - Wyman",
+      "origin": "Kazakhstan"
+    }
+  }
+}

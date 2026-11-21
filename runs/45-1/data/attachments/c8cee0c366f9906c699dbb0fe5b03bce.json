@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-wc08edhp Electronic Marble Cheese",
+    "category": "household",
+    "price": 18.57,
+    "stock": 36,
+    "details": {
+      "brand": "Mann - O'Kon",
+      "origin": "Bulgaria"
+    }
+  }
+}

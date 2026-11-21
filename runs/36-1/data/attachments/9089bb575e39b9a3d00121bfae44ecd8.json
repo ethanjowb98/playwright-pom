@@ -1,0 +1,15 @@
+{
+  "id": "47dd3919-1602-4aba-8630-d55cabedaf09",
+  "product_name": "QA-2-pi4q6vsd Awesome Wooden Keyboard",
+  "category": "dairy-eggs",
+  "price": 47,
+  "stock": 21,
+  "details": {
+    "brand": "Jones Inc",
+    "origin": "Greece"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:58.608945+00:00"
+}

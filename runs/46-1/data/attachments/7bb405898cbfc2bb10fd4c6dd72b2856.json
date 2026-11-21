@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a32cf01e Ergonomic Wooden Ball",
+    "category": "pantry",
+    "price": 18.96,
+    "stock": 44,
+    "details": {
+      "brand": "Marks-Flatley, Nienow and Ratke",
+      "origin": "Libyan Arab Jamahiriya"
+    },
+    "temperature_zone": "Dry"
+  }
+}

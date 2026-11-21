@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-om8q1txg Handcrafted Marble Hat",
+    "category": "snacks",
+    "price": 1.89,
+    "stock": 34,
+    "details": {
+      "brand": "Koepp Inc",
+      "origin": "Afghanistan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-pj0tgxxk Tasty Rubber Computer",
+    "category": "bakery",
+    "price": 24.79,
+    "stock": 25,
+    "details": {
+      "brand": "Littel and Sons",
+      "origin": "Indonesia"
+    }
+  }
+}

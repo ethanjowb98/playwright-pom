@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-qy1qg0k5 Small Bamboo Fish",
+    "category": "pantry",
+    "price": 18.21,
+    "stock": 44,
+    "details": {
+      "brand": "Gislason Group",
+      "origin": "Sri Lanka"
+    }
+  }
+}

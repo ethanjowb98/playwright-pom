@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kh6g53dl Generic Cotton Bike",
+    "category": "household",
+    "price": 29.73,
+    "stock": 22,
+    "details": {
+      "brand": "Nolan - Collier",
+      "origin": "Oman"
+    }
+  }
+}

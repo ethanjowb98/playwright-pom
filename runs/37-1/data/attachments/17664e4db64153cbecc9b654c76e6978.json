@@ -1,0 +1,15 @@
+{
+  "id": "f4b5a592-97f6-4a1e-af6b-017b958a2943",
+  "product_name": "QA-1-g89zmxat Fresh Rubber Cheese",
+  "category": "beverages",
+  "price": 39.11,
+  "stock": 28,
+  "details": {
+    "brand": "Kunze, Collier and Rogahn",
+    "origin": "Kuwait"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:28:05.816246+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-usroh8jb Sleek Rubber Table",
+    "category": "bakery",
+    "price": 5.26,
+    "stock": 33,
+    "details": {
+      "brand": "Tremblay, Streich and Bernhard",
+      "origin": "Timor-Leste"
+    },
+    "temperature_zone": "Dry"
+  }
+}

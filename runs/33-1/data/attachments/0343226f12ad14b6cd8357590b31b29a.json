@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wp3aoyq8 Intelligent Granite Mouse",
+    "category": "pantry",
+    "price": 38.04,
+    "stock": 32,
+    "details": {
+      "brand": "Mayert Inc",
+      "origin": "Gibraltar"
+    }
+  }
+}

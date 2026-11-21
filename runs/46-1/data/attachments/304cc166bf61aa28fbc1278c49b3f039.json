@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yxuzw6a8 Soft Plastic Computer",
+    "category": "bakery",
+    "stock": 32,
+    "details": {
+      "brand": "Fisher - Johnson",
+      "origin": "Guam"
+    }
+  }
+}

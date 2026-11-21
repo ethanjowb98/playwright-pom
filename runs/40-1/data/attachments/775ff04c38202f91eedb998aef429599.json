@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-8ofhoizi Bespoke Marble Chicken",
+    "category": "household",
+    "price": 41.35,
+    "stock": 27,
+    "details": {
+      "brand": "Mitchell, Glover and Wiza",
+      "origin": "Rwanda"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

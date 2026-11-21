@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-wrmx3ax4 Luxurious Plastic Cheese",
+    "category": "frozen",
+    "price": 31.45,
+    "stock": 43,
+    "details": {
+      "brand": "Mueller, Johnson and McCullough",
+      "origin": "Hungary"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

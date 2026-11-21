@@ -1,0 +1,15 @@
+{
+  "id": "47fc2cf1-da3d-4a60-999a-0b2a2623a0c5",
+  "product_name": "QA-5-t61hn3iz Awesome Silk Cheese",
+  "category": "bakery",
+  "price": 17.31,
+  "stock": 31,
+  "details": {
+    "brand": "Bailey Group",
+    "origin": "Tunisia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:45.734389+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-xeq1eljq Practical Silk Cheese",
+    "category": "fresh-produce",
+    "price": 7.02,
+    "stock": -5,
+    "details": {
+      "brand": "Stanton and Sons",
+      "origin": "Tonga"
+    }
+  }
+}

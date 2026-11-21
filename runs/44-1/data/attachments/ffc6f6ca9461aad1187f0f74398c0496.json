@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-npc20q3j sort Bravo",
+    "category": "fresh-produce",
+    "price": 14.59,
+    "stock": 39,
+    "details": {
+      "brand": "Stoltenberg Group",
+      "origin": "Syrian Arab Republic"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z4d6y4yy Fresh Ceramic Chicken",
+    "category": "meat-seafood",
+    "price": 5.88,
+    "stock": 38,
+    "details": {
+      "brand": "Connelly, Rosenbaum-Howe and Green",
+      "origin": "Turkey"
+    }
+  }
+}

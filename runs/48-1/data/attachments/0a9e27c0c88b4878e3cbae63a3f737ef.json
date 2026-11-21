@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q7vosoqz Luxurious Bamboo Chips",
+    "category": "household",
+    "price": 24.54,
+    "stock": 21,
+    "details": {
+      "brand": "Gorczany and Sons",
+      "origin": "Bulgaria"
+    }
+  }
+}

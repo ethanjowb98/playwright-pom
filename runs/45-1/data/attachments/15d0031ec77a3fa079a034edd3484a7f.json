@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-dwh7oq6r Handcrafted Gold Bacon",
+    "category": "pantry",
+    "price": 36.21,
+    "stock": 16,
+    "details": {
+      "brand": "Schulist, Weissnat and Gorczany",
+      "origin": "Namibia"
+    },
+    "weighted": false
+  }
+}

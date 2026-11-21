@@ -1,0 +1,15 @@
+{
+  "id": "4df29c10-cb6b-4bfd-b766-654b94b6020a",
+  "product_name": "QA-5-7akkqcsx Modern Gold Pants",
+  "category": "beverages",
+  "price": 11.1,
+  "stock": 43,
+  "details": {
+    "brand": "Dibbert - Doyle",
+    "origin": "Comoros"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:09.13858+00:00"
+}

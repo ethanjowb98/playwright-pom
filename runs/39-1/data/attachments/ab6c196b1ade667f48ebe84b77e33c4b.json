@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8vdhx6d2 Bespoke Concrete Hat",
+    "category": "household",
+    "price": 34.78,
+    "stock": 30,
+    "details": {
+      "brand": "Flatley and Sons",
+      "origin": "Slovakia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "495eb8a6-b7d1-4f02-b561-e265e5b4aea1",
+  "product_name": "QA-1-b2gbzcft Awesome Gold Hat",
+  "category": "bakery",
+  "price": 21.1,
+  "stock": 19,
+  "details": {
+    "brand": "Block-Kshlerin Group",
+    "origin": "Venezuela"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:43.750911+00:00"
+}

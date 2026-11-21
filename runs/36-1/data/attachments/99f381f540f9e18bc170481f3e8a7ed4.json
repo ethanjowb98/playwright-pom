@@ -1,0 +1,15 @@
+{
+  "id": "50f523be-9154-451b-bd4f-c11154edc0ad",
+  "product_name": "QA-5-nmw5w49h Awesome Gold Chicken",
+  "category": "beverages",
+  "price": 4.59,
+  "stock": 44,
+  "details": {
+    "brand": "Brekke - Prosacco",
+    "origin": "Latvia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:15.113376+00:00"
+}

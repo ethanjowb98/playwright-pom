@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-099p6u05 Gorgeous Ceramic Chicken",
+    "category": "frozen",
+    "price": 41.37,
+    "stock": 39,
+    "details": {
+      "brand": "Ernser, Denesik and Hettinger-Tremblay",
+      "origin": "Côte d'Ivoire"
+    }
+  }
+}

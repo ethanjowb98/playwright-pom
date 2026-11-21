@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yyjq9vbn Practical Marble Salad",
+    "category": "other",
+    "price": 12.53,
+    "stock": 15,
+    "details": {
+      "brand": "Schoen - Bauch",
+      "origin": "Brazil"
+    }
+  }
+}

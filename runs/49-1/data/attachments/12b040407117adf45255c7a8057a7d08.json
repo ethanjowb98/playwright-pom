@@ -1,0 +1,15 @@
+{
+  "id": "d18c1231-8e70-445a-b6db-ca75cdd1a453",
+  "product_name": "QA-2-i30bdjb2 Luxurious Cotton Pizza",
+  "category": "meat-seafood",
+  "price": 25.07,
+  "stock": 41,
+  "details": {
+    "brand": "Goyette, Sporer and Huels",
+    "origin": "Bhutan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:57:36.846527+00:00"
+}

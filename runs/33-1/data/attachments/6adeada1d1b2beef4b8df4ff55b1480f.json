@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jhxiz7il Electronic Rubber Pizza",
+    "category": "snacks",
+    "price": 6.99,
+    "stock": 32,
+    "details": {
+      "brand": "O'Conner-Reichert, Leffler and Cummerata",
+      "origin": "Slovenia"
+    }
+  }
+}

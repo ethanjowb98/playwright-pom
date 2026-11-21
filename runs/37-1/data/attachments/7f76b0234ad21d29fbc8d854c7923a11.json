@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-pcpf1ffr Bespoke Silk Salad",
+    "category": "other",
+    "stock": 26,
+    "details": {
+      "brand": "Williamson and Sons",
+      "origin": "Botswana"
+    }
+  }
+}

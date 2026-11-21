@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3wd2tiuh Modern Aluminum Mouse",
+    "category": "snacks",
+    "price": 10.96,
+    "stock": 47,
+    "details": {
+      "brand": "Koch, Schmeler and Baumbach",
+      "origin": "Iraq"
+    }
+  }
+}

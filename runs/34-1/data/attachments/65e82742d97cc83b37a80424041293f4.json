@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-57zmfnc4 Handcrafted Concrete Gloves",
+    "category": "household",
+    "price": 19.79,
+    "stock": 45,
+    "details": {
+      "batch": "QA-4-104viawr batch"
+    }
+  }
+}

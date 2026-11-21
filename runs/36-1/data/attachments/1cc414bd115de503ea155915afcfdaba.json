@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-huf2rhna Fresh Plastic Sausages",
+    "category": "household",
+    "price": 18.07,
+    "stock": 41,
+    "details": {
+      "brand": "Heller, Goyette and Ritchie",
+      "origin": "Nepal"
+    }
+  }
+}

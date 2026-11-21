@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u3vfjehn Handcrafted Metal Tuna",
+    "category": "household",
+    "price": 24.45,
+    "stock": 15,
+    "details": {
+      "brand": "Wilkinson - McKenzie",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

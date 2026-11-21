@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0fsx24vw Licensed Ceramic Chair",
+    "category": "frozen",
+    "price": 36.59,
+    "stock": 36,
+    "details": {
+      "brand": "Zboncak and Sons",
+      "origin": "Albania"
+    }
+  }
+}

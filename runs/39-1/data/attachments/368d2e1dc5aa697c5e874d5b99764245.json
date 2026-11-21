@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-7xkjecv5 Practical Aluminum Soap",
+    "category": "pantry",
+    "price": 17.68,
+    "stock": 20,
+    "details": {
+      "brand": "Shanahan, Wiza and Monahan",
+      "origin": "North Macedonia"
+    },
+    "weighted": false
+  }
+}

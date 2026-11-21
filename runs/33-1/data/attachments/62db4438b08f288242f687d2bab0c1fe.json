@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-bn0iu8il Incredible Concrete Car",
+    "category": "pantry",
+    "price": 18.01,
+    "stock": 47,
+    "details": {
+      "brand": "Reynolds - Wolff",
+      "origin": "United States Minor Outlying Islands"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

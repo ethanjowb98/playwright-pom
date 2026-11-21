@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-9llyoa30 Generic Bronze Bacon",
+    "category": "other",
+    "price": 9.98,
+    "stock": 22,
+    "details": {
+      "brand": "Hegmann LLC",
+      "origin": "Mexico"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

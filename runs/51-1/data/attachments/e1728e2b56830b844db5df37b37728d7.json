@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ct8njzc9 Generic Metal Tuna",
+    "category": "beverages",
+    "price": 21.45,
+    "stock": 21,
+    "details": {
+      "brand": "Feil - Effertz",
+      "origin": "Iran"
+    }
+  }
+}

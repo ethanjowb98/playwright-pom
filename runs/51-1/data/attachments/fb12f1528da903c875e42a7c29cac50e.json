@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xs4ocnnk Luxurious Metal Car",
+    "category": "frozen",
+    "price": 47.12,
+    "stock": 22,
+    "details": {
+      "brand": "Jones, Price and Doyle",
+      "origin": "Barbados"
+    },
+    "weighted": false
+  }
+}

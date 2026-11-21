@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lilp8k6x Intelligent Silk Keyboard",
+    "category": "dairy-eggs",
+    "price": 18.06,
+    "stock": 11,
+    "details": {
+      "brand": "Bauch - Schowalter",
+      "origin": "Kiribati"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q975g4gz Elegant Metal Tuna",
+    "category": "fresh-produce",
+    "price": 1.23,
+    "stock": 15,
+    "details": {
+      "brand": "Harvey - Aufderhar",
+      "origin": "Guinea"
+    }
+  }
+}

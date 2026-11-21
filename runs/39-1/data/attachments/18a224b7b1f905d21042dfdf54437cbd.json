@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m2imjsz3 Generic Wooden Computer",
+    "category": "pantry",
+    "price": 26.02,
+    "stock": 17,
+    "details": {
+      "brand": "Labadie - Quitzon",
+      "origin": "Germany"
+    }
+  }
+}

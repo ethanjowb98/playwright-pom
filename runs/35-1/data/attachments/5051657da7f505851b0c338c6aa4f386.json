@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "eabd0db1-3695-463b-bee0-428e33ae328d",
+      "product_id": "af47c300-9e3d-48de-b251-a563193e7f1c",
+      "product_name": "QA-1-7af6v37y Awesome Aluminum Towels",
+      "price": 40.72,
+      "category": "frozen",
+      "quantity": 3,
+      "created_at": "2026-11-05T10:04:33.694423+00:00",
+      "updated_at": "2026-11-05T10:04:33.694423+00:00"
+    }
+  ]
+}

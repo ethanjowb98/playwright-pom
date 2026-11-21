@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cjdwqo9w Ergonomic Marble Shirt",
+    "category": "fresh-produce",
+    "price": 47.11,
+    "stock": 46,
+    "details": {
+      "brand": "Tremblay - Weber",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

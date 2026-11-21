@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-odl697bp Soft Concrete Chair",
+    "price": 13.52,
+    "stock": 37,
+    "details": {
+      "brand": "Mills and Sons",
+      "origin": "Sierra Leone"
+    }
+  }
+}

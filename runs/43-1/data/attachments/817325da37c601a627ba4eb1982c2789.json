@@ -1,0 +1,15 @@
+{
+  "id": "8a9c5653-0366-47e8-803e-90d3c444aa2c",
+  "product_name": "QA-8-d07zugw0 sort Bravo",
+  "category": "household",
+  "price": 26.51,
+  "stock": 10,
+  "details": {
+    "brand": "Jerde and Sons",
+    "origin": "Marshall Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:52.774495+00:00"
+}

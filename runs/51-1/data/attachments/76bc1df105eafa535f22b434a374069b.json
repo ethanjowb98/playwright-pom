@@ -1,0 +1,19 @@
+{
+  "id": "820b0b6e-0c70-4a0c-bc25-d4ff6d882d3d",
+  "order_number": "O59842",
+  "status": "processing",
+  "total_amount": 14.06,
+  "notes": null,
+  "created_at": "2026-11-21T10:31:40.804605+00:00",
+  "updated_at": "2026-11-21T10:31:40.804605+00:00",
+  "items": [
+    {
+      "product_id": "e35abf98-69b4-41d8-becb-a3cf7b373873",
+      "product_name": "QA-1-86cr58ie Fresh Rubber Car",
+      "category": "bakery",
+      "quantity": 2,
+      "price": 7.03,
+      "temperature_zone": null
+    }
+  ]
+}

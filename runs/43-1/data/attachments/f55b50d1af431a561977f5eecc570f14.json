@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-vx6fzhmc sort Bravo",
+    "category": "frozen",
+    "price": 18.12,
+    "stock": 33,
+    "details": {
+      "brand": "Olson Group",
+      "origin": "Pakistan"
+    }
+  }
+}

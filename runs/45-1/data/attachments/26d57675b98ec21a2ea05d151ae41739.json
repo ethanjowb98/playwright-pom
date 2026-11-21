@@ -1,0 +1,15 @@
+{
+  "id": "bf289b66-9497-440a-beaa-75f851ae6889",
+  "product_name": "QA-3-o1um18j7 sort Bravo",
+  "category": "frozen",
+  "price": 5.61,
+  "stock": 25,
+  "details": {
+    "brand": "Wiegand - Wolf",
+    "origin": "Timor-Leste"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:30.551108+00:00"
+}

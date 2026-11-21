@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-203t6drf Small Aluminum Gloves",
+    "category": "bakery",
+    "price": 43.16,
+    "stock": 35,
+    "details": {
+      "brand": "Goldner LLC",
+      "origin": "Hong Kong"
+    }
+  }
+}

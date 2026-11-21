@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-lnk1pxkk Bespoke Gold Fish",
+    "category": "snacks",
+    "price": 21.23,
+    "stock": 15,
+    "details": {
+      "brand": "Ortiz Inc",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

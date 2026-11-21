@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tfwa4wj1 Rustic Aluminum Bike",
+    "category": "fresh-produce",
+    "price": 7.96,
+    "stock": 12,
+    "details": {
+      "brand": "Bartell - Hammes",
+      "origin": "Mexico"
+    }
+  }
+}

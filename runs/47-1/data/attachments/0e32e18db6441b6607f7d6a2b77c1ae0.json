@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-5bvwqmc6 Licensed Marble Tuna",
+    "category": "dairy-eggs",
+    "price": 6.07,
+    "stock": 41,
+    "details": {
+      "brand": "Smitham, Schowalter and Hoppe",
+      "origin": "Trinidad and Tobago"
+    },
+    "weighted": false
+  }
+}

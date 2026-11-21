@@ -1,0 +1,1 @@
+{"id":"b038ab1d1d26a00f513287ce4a6bcf68.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/basket.api.spec.ts › Basket API › Validation › should reject the item with 400 when the quantity exceeds stock","name":"should reject the item with 400 when the quantity exceeds stock","status":"passed","testResultsByEnv":{"default":"d32673847a8eb56d76c29bad231816c1"}}

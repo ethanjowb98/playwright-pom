@@ -1,0 +1,15 @@
+{
+  "id": "ce1d79a6-8ca5-4cec-b482-db14dd5f6d0a",
+  "product_name": "QA-1-5cxkxal1 Tasty Metal Hat",
+  "category": "bakery",
+  "price": 8.97,
+  "stock": 38,
+  "details": {
+    "brand": "Jenkins-McKenzie - Ondricka",
+    "origin": "Bahrain"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:19:58.44033+00:00"
+}

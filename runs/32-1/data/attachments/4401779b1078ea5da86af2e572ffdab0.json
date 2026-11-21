@@ -1,0 +1,15 @@
+{
+  "id": "bb787240-4ece-4202-8018-3cf237c7c086",
+  "product_name": "QA-1-jdkd23dn Handmade Bronze Gloves",
+  "category": "beverages",
+  "price": 40.21,
+  "stock": 21,
+  "details": {
+    "brand": "Blanda, Lehner and Dietrich",
+    "origin": "Iceland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:22:20.629576+00:00"
+}

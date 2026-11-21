@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ra6n5gig Bespoke Bronze Computer",
+    "category": "beverages",
+    "price": 36.04,
+    "stock": 37,
+    "details": {
+      "brand": "Fay LLC",
+      "origin": "Madagascar"
+    }
+  }
+}

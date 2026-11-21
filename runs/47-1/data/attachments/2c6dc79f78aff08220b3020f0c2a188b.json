@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uyd9g4fv Oriental Metal Mouse",
+    "category": "frozen",
+    "price": 28.34,
+    "stock": 32,
+    "details": {
+      "brand": "Wiegand, Rutherford and Trantow",
+      "origin": "Iran"
+    }
+  }
+}

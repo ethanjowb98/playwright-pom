@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "69ffef07-345b-4edd-b09e-8bbab24b2859",
+    "order_number": "O68314",
+    "status": "pending",
+    "total_amount": 104.49,
+    "created_at": "2026-11-05T08:26:58.226532+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-rfg3whp0 Luxurious Silk Chicken",
+        "category": "bakery",
+        "quantity": 3,
+        "price": 34.83,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

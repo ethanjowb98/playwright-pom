@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-wsaqevs4 Fresh Silk Cheese",
+    "category": "household",
+    "price": 35.37,
+    "stock": 16,
+    "details": {
+      "brand": "Botsford - Tremblay",
+      "origin": "Congo"
+    }
+  }
+}

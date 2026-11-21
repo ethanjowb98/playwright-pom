@@ -1,0 +1,15 @@
+{
+  "id": "d3d22cec-329f-412a-991f-898ebe75e361",
+  "product_name": "QA-1-cem2b0oh Sleek Steel Ball",
+  "category": "fresh-produce",
+  "price": 26.16,
+  "stock": 32,
+  "details": {
+    "brand": "Stoltenberg - Langworth",
+    "origin": "Monaco"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:32.603606+00:00"
+}

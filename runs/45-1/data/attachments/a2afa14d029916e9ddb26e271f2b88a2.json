@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "5805ef57-a8f9-4ddc-a58c-c84245b700fa",
+    "order_number": "O86809",
+    "status": "pending",
+    "total_amount": 17.49,
+    "created_at": "2026-11-15T10:09:45.044761+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-qlk8hoi7 Gorgeous Ceramic Tuna",
+        "category": "dairy-eggs",
+        "quantity": 1,
+        "price": 6.12,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-saoypmgj Frozen Ceramic Computer",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 3.79,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

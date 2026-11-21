@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "efc0451e-a9b6-4f8b-9b74-1041a52eeca3",
+    "order_number": "O77183",
+    "status": "pending",
+    "total_amount": 18.65,
+    "created_at": "2026-11-17T11:22:21.252383+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-s87rw5h7 Recycled Cotton Pants",
+        "category": "household",
+        "quantity": 1,
+        "price": 18.65,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

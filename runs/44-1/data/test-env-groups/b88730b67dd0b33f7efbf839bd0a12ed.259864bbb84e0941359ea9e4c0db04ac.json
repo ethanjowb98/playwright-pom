@@ -1,0 +1,1 @@
+{"id":"b88730b67dd0b33f7efbf839bd0a12ed.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › Login › should reject the login with 401 when the password is wrong","name":"should reject the login with 401 when the password is wrong","status":"passed","testResultsByEnv":{"default":"290a09fefdb54694254860ad45fd22e7"}}

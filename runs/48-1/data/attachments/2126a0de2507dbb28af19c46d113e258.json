@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ky0amtqy Electronic Rubber Soap",
+    "category": "other",
+    "price": 10.42,
+    "stock": "x",
+    "details": {
+      "brand": "Johnston Inc",
+      "origin": "Slovakia"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "0c9e5dc7-06fe-4da9-84d4-fc708f2f16b6",
+      "product_id": "879a39f2-165c-461a-81c7-e7c1e11a14a3",
+      "product_name": "QA-1-1kdlggy6 Fantastic Granite Table",
+      "price": 14.32,
+      "category": "pantry",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:58:21.145438+00:00",
+      "updated_at": "2026-11-18T10:58:21.145438+00:00"
+    },
+    {
+      "id": "0930acae-281a-49b0-9c76-3972e3def238",
+      "product_id": "b4275c88-c024-470e-9d53-7f47b33b6031",
+      "product_name": "QA-1-v4ebpnoz Refined Gold Computer",
+      "price": 5.9,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:58:21.782335+00:00",
+      "updated_at": "2026-11-18T10:58:21.782335+00:00"
+    }
+  ]
+}

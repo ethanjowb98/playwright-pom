@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-rlndzft6 Intelligent Ceramic Keyboard",
+    "category": "fresh-produce",
+    "price": 16.47,
+    "stock": 11,
+    "details": {
+      "brand": "Balistreri, Bergnaum and Johnston",
+      "origin": "Antigua and Barbuda"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

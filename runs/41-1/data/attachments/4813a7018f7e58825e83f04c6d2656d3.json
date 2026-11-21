@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pd34iezp Sleek Cotton Keyboard",
+    "category": "snacks",
+    "price": 37.61,
+    "stock": 17,
+    "details": {
+      "brand": "Waelchi, Feil and Gusikowski",
+      "origin": "Afghanistan"
+    }
+  }
+}

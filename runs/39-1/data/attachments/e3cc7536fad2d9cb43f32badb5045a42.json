@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qntcog2k Small Ceramic Table",
+    "category": "fresh-produce",
+    "price": 43.98,
+    "stock": 19,
+    "details": {
+      "brand": "Lynch Inc",
+      "origin": "Sri Lanka"
+    }
+  }
+}

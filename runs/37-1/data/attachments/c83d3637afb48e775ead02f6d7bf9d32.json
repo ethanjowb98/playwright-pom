@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kx0zhmeu Frozen Wooden Pants",
+    "category": "snacks",
+    "price": 23.44,
+    "stock": 2,
+    "details": {
+      "brand": "Brakus LLC",
+      "origin": "Azerbaijan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rx4r16k6 Awesome Metal Ball",
+    "category": "other",
+    "price": 35.24,
+    "stock": 44,
+    "details": {
+      "brand": "O'Reilly Inc",
+      "origin": "Turkmenistan"
+    }
+  }
+}

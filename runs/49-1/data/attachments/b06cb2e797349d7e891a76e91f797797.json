@@ -1,0 +1,15 @@
+{
+  "id": "8e210019-e2fa-4aa5-a2ff-44914ba3cfa8",
+  "product_name": "QA-3-92bcakcq Modern Gold Bike",
+  "category": "pantry",
+  "price": 42.35,
+  "stock": 46,
+  "details": {
+    "brand": "Hayes, Gibson and VonRueden",
+    "origin": "Turkmenistan"
+  },
+  "temperature_zone": "Dry",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:26.074519+00:00"
+}

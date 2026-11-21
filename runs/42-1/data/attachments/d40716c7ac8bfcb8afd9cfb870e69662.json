@@ -1,0 +1,15 @@
+{
+  "id": "73f8a24d-dbc9-49fa-aa05-a32bcbcf6e12",
+  "product_name": "QA-1-faqhrv4g Fresh Aluminum Soap",
+  "category": "snacks",
+  "price": 45.09,
+  "stock": 42,
+  "details": {
+    "brand": "Corwin - Robel",
+    "origin": "Armenia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:37.231992+00:00"
+}

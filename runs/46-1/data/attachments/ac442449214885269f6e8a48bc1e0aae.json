@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xth9od74 sort Charlie",
+    "category": "household",
+    "price": 48.67,
+    "stock": 36,
+    "details": {
+      "brand": "Stanton - Grady",
+      "origin": "Cayman Islands"
+    }
+  }
+}

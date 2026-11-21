@@ -1,0 +1,15 @@
+{
+  "id": "12b4a1ac-431f-4320-a658-b371ac5bdb9f",
+  "product_name": "QA-2-lsfs0at7 Sleek Ceramic Tuna",
+  "category": "beverages",
+  "price": 24.39,
+  "stock": 41,
+  "details": {
+    "brand": "Reinger, Bernier and Macejkovic",
+    "origin": "Tanzania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:49.741519+00:00"
+}

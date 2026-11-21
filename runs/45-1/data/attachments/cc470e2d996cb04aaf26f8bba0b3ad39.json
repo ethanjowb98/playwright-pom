@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1hkgo9d4 Rustic Metal Salad",
+    "category": "household",
+    "price": 44.96,
+    "stock": 44,
+    "details": {
+      "brand": "Maggio Inc",
+      "origin": "Northern Mariana Islands"
+    }
+  }
+}

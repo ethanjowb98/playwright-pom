@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "8cf3a38f-5ef2-4e57-95e6-6131822a555b",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "pending",
+    "total_amount": 59.2,
+    "notes": "updated",
+    "created_at": "2026-11-05T08:26:50.769133+00:00",
+    "updated_at": "2026-11-05T08:26:50.769133+00:00",
+    "order_number": "O99302"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x3g7ubxz Elegant Marble Chicken",
+    "category": "other",
+    "price": 3.12,
+    "stock": 24,
+    "details": {
+      "brand": "Ward, Rodriguez and Runolfsdottir",
+      "origin": "Lebanon"
+    },
+    "weighted": true
+  }
+}

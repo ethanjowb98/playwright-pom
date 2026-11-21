@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tv77t7b5 Modern Ceramic Pants",
+    "category": "meat-seafood",
+    "price": 44.84,
+    "stock": 10,
+    "details": {
+      "brand": "Stroman Group",
+      "origin": "Equatorial Guinea"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

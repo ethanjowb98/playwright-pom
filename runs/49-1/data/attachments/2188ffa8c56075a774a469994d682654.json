@@ -1,0 +1,15 @@
+{
+  "id": "ea5b0b78-b423-4941-a6cc-2e3c2516a18d",
+  "product_name": "QA-8-8sib7axc sort Charlie",
+  "category": "dairy-eggs",
+  "price": 37.67,
+  "stock": 25,
+  "details": {
+    "brand": "Weimann, Hamill and Bergnaum",
+    "origin": "Brazil"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:56:33.611349+00:00"
+}

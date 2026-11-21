@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cwogvybd Small Granite Sausages",
+    "category": "pantry",
+    "price": 37.25,
+    "stock": 19,
+    "details": {
+      "brand": "Ryan, Hane and Kulas",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

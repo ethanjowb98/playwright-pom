@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-7dessnqj Awesome Marble Sausages",
+    "category": "frozen",
+    "price": 4.64,
+    "stock": 12,
+    "details": {
+      "brand": "Emard - Hoeger",
+      "origin": "French Polynesia"
+    }
+  }
+}

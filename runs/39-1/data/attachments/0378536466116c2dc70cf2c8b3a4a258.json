@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-e80k4t0l sort Charlie",
+    "category": "household",
+    "price": 47.9,
+    "stock": 16,
+    "details": {
+      "brand": "Turcotte LLC",
+      "origin": "Latvia"
+    }
+  }
+}

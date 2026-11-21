@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-yiquk91o Awesome Wooden Sausages",
+    "category": "snacks",
+    "price": 30.85,
+    "stock": 27,
+    "details": {
+      "brand": "Walter, Koch and Krajcik",
+      "origin": "Guernsey"
+    }
+  }
+}

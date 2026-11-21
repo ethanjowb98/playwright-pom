@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q4nam9b2 Frozen Aluminum Bacon",
+    "category": "bakery",
+    "price": 48.11,
+    "stock": 48,
+    "details": {
+      "brand": "Boehm - Littel",
+      "origin": "Sierra Leone"
+    }
+  }
+}

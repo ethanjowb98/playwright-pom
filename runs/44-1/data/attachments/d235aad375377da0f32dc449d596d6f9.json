@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-d5f3y1zz sort Alpha",
+    "category": "frozen",
+    "price": 28.63,
+    "stock": 14,
+    "details": {
+      "brand": "Schultz - Osinski",
+      "origin": "Fiji"
+    }
+  }
+}

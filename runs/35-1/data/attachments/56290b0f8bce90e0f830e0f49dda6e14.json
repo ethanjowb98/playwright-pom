@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v75nxl2e Incredible Gold Chair",
+    "category": "meat-seafood",
+    "price": 4.2,
+    "stock": 38,
+    "details": {
+      "brand": "Rice LLC",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

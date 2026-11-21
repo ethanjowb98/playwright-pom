@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-8t0dovlm Handcrafted Ceramic Shoes",
+    "category": "meat-seafood",
+    "price": 37.08,
+    "stock": 41,
+    "details": {
+      "brand": "Wiza - Blanda",
+      "origin": "Uzbekistan"
+    },
+    "weighted": true
+  }
+}

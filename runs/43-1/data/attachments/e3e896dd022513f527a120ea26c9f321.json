@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "e7425bf6-6296-43d2-b518-a8cb56eb08f9",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "shipped",
+    "total_amount": 76.98,
+    "notes": null,
+    "created_at": "2026-11-13T10:20:28.683975+00:00",
+    "updated_at": "2026-11-13T10:20:28.683975+00:00",
+    "order_number": "O48443"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0yzmrah5 Bespoke Plastic Gloves",
+    "category": "pantry",
+    "price": 38.68,
+    "stock": 17,
+    "details": {
+      "brand": "Fritsch, Runolfsdottir and Hegmann",
+      "origin": "Hong Kong"
+    }
+  }
+}

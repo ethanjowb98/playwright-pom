@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e5kz59zi Licensed Wooden Pants",
+    "category": "pantry",
+    "price": 42.97,
+    "stock": 35,
+    "details": {
+      "brand": "Kub - Crona",
+      "origin": "Tajikistan"
+    }
+  }
+}

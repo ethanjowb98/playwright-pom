@@ -1,0 +1,19 @@
+{
+  "id": "fefce621-1fcc-4c7c-9b4e-d181d1e80c4b",
+  "order_number": "O40428",
+  "status": "delivered",
+  "total_amount": 47.76,
+  "notes": null,
+  "created_at": "2026-11-06T10:07:58.932148+00:00",
+  "updated_at": "2026-11-06T10:07:58.932148+00:00",
+  "items": [
+    {
+      "product_id": "996dd230-9350-4848-aa6f-58853ff95473",
+      "product_name": "QA-1-idwmyi84 Gorgeous Gold Ball",
+      "category": "household",
+      "quantity": 2,
+      "price": 23.88,
+      "temperature_zone": null
+    }
+  ]
+}

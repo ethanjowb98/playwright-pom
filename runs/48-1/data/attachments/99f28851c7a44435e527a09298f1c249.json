@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yi4qila7 Intelligent Granite Shirt",
+    "category": "bakery",
+    "price": 36.5,
+    "stock": 35,
+    "details": {
+      "brand": "Renner - Crona",
+      "origin": "Iceland"
+    }
+  }
+}

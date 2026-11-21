@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4lv9w6w9 Fresh Ceramic Chips",
+    "category": "household",
+    "price": 49.65,
+    "stock": 18,
+    "details": {
+      "brand": "Beer - Gutkowski",
+      "origin": "Dominican Republic"
+    }
+  }
+}

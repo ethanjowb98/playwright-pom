@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lstb5ugg Oriental Silk Bike",
+    "category": "dairy-eggs",
+    "price": 32.86,
+    "stock": 41,
+    "details": {
+      "brand": "Keebler, Lynch and Walsh",
+      "origin": "Bouvet Island"
+    }
+  }
+}

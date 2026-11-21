@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3mn3plvs Ergonomic Gold Keyboard",
+    "category": "frozen",
+    "price": 48.72,
+    "stock": 33,
+    "details": {
+      "brand": "O'Connell and Sons",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

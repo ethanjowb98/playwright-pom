@@ -1,0 +1,15 @@
+{
+  "id": "83997d0e-39b1-4830-bff7-62851f567b4a",
+  "product_name": "QA-7-rksdknin sort Charlie",
+  "category": "fresh-produce",
+  "price": 33.04,
+  "stock": 47,
+  "details": {
+    "brand": "Murray Inc",
+    "origin": "Niue"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:22:33.097854+00:00"
+}

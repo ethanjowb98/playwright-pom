@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "fbdd2133-c59e-4406-9b86-e51e61504816",
+    "order_number": "O75815",
+    "status": "pending",
+    "total_amount": 93.39,
+    "created_at": "2026-11-09T10:40:22.024327+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-co633vac Fresh Wooden Bike",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 31.13,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

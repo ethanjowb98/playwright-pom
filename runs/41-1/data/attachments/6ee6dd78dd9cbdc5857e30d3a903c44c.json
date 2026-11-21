@@ -1,0 +1,15 @@
+{
+  "id": "a98798e7-4307-41df-a7a8-906b4f86095f",
+  "product_name": "QA-1-0bvkvrwk Frozen Cotton Shoes",
+  "category": "dairy-eggs",
+  "price": 49.61,
+  "stock": 44,
+  "details": {
+    "brand": "Jacobs and Sons",
+    "origin": "Cuba"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:02:50.905166+00:00"
+}

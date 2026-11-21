@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zlc9680x Sleek Bamboo Tuna",
+    "category": "fresh-produce",
+    "price": 25.66,
+    "stock": 16,
+    "details": {
+      "brand": "Boyle and Sons",
+      "origin": "Hong Kong"
+    }
+  }
+}

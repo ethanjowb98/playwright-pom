@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "afd334be-998d-4b8c-888a-35f0ccad22d3",
+    "order_number": "O19284",
+    "status": "pending",
+    "total_amount": 29.02,
+    "created_at": "2026-11-09T10:37:55.214544+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-f3tcx3cc Sleek Rubber Car",
+        "category": "meat-seafood",
+        "quantity": 2,
+        "price": 14.51,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-6b2kdi5a Unbranded Concrete Pants",
+    "category": "snacks",
+    "price": 47.77,
+    "stock": 12,
+    "details": {
+      "brand": "Hirthe Inc",
+      "origin": "Chile"
+    }
+  }
+}

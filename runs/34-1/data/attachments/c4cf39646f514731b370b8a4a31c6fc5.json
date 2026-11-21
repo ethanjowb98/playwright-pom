@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qhem9ixw Rustic Concrete Shoes",
+    "category": "fresh-produce",
+    "price": 24.6,
+    "stock": 27,
+    "details": {
+      "brand": "Daniel, Heller and Stroman",
+      "origin": "Albania"
+    }
+  }
+}

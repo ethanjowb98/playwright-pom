@@ -1,0 +1,15 @@
+{
+  "id": "65fefa83-856b-4f2f-bebd-26342d4557ae",
+  "product_name": "QA-7-l4my2qp5 sort Alpha",
+  "category": "fresh-produce",
+  "price": 18.48,
+  "stock": 13,
+  "details": {
+    "brand": "Keeling and Sons",
+    "origin": "United Kingdom"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:43:58.048941+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wr57jvfw Soft Steel Cheese",
+    "category": "snacks",
+    "price": 42.93,
+    "stock": 45,
+    "details": {
+      "brand": "King, Boyer and Schaden",
+      "origin": "Cameroon"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4r3rfz28 Generic Concrete Mouse",
+    "category": "frozen",
+    "price": 29.21,
+    "stock": 18,
+    "details": {
+      "brand": "Jast - Zieme",
+      "origin": "Comoros"
+    }
+  }
+}

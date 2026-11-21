@@ -1,0 +1,15 @@
+{
+  "id": "741810cc-082f-4fbb-b898-69e42952e943",
+  "product_name": "QA-5-edkiw1ik Practical Bronze Tuna",
+  "category": "bakery",
+  "price": 28.53,
+  "stock": 46,
+  "details": {
+    "brand": "Block Inc",
+    "origin": "Northern Mariana Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:43:58.4113+00:00"
+}

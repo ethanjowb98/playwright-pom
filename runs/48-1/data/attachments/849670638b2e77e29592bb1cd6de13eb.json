@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k4fbjkhs Modern Marble Pants",
+    "category": "beverages",
+    "price": 2.46,
+    "stock": 33,
+    "details": {
+      "brand": "Dickens Inc",
+      "origin": "Dominican Republic"
+    }
+  }
+}

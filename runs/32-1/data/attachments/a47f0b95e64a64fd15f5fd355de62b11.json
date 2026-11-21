@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p0njwjgz Tasty Marble Shirt",
+    "category": "snacks",
+    "price": 9.44,
+    "stock": 40,
+    "details": {
+      "brand": "Osinski - Wolf",
+      "origin": "Canada"
+    }
+  }
+}

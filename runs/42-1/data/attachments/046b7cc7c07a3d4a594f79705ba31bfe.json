@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "fresh-produce",
+    "price": 43.38,
+    "stock": 34,
+    "details": {
+      "brand": "Ferry - Howe",
+      "origin": "Liberia"
+    }
+  }
+}

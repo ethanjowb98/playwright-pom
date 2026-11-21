@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ub381pep sort Charlie",
+    "category": "fresh-produce",
+    "price": 21.47,
+    "stock": 32,
+    "details": {
+      "brand": "Langosh, Terry-Rippin and Ullrich",
+      "origin": "Mozambique"
+    }
+  }
+}

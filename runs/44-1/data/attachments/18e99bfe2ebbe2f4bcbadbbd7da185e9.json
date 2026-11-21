@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1jsziaaa Oriental Gold Computer",
+    "category": "other",
+    "price": "abc",
+    "stock": 10,
+    "details": {
+      "brand": "Tromp, Moore and Friesen",
+      "origin": "Kuwait"
+    }
+  }
+}

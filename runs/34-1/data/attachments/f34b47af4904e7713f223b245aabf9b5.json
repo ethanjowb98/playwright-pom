@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cndgdajg Sleek Ceramic Towels",
+    "category": "household",
+    "price": 13.65,
+    "stock": 31,
+    "details": {
+      "brand": "Turner - Weimann",
+      "origin": "Malta"
+    }
+  }
+}

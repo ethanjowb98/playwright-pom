@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-5glkir9i Gorgeous Rubber Shirt",
+    "category": "dairy-eggs",
+    "price": 39.43,
+    "stock": 31,
+    "details": {
+      "brand": "Hodkiewicz Inc",
+      "origin": "Saudi Arabia"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

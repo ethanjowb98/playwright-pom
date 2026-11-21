@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-z5xznh58 Handmade Concrete Soap",
+    "category": "beverages",
+    "price": 4,
+    "stock": 47,
+    "details": {
+      "brand": "Casper - Abbott",
+      "origin": "Gabon"
+    }
+  }
+}

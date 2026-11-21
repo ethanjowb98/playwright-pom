@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-stp3ga54 Incredible Gold Table",
+    "category": "fresh-produce",
+    "price": 49.13,
+    "stock": 1.5,
+    "details": {
+      "brand": "Schamberger - Hodkiewicz",
+      "origin": "Jordan"
+    }
+  }
+}

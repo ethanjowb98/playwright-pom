@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-npgrmicw Gorgeous Wooden Gloves",
+    "category": "pantry",
+    "price": 45.47,
+    "stock": 32,
+    "details": {
+      "brand": "Koss-Paucek, Feil and Haley",
+      "origin": "Pakistan"
+    }
+  }
+}

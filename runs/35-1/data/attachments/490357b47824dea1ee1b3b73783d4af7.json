@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ap9ro1ez Handmade Plastic Towels",
+    "category": "snacks",
+    "price": 27.76,
+    "stock": 47,
+    "details": {
+      "brand": "Bogisich, VonRueden and Runolfsson",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z9nn5ei9 Unbranded Plastic Shoes",
+    "category": "meat-seafood",
+    "price": 20.52,
+    "stock": 30,
+    "details": {
+      "brand": "Quitzon-Kuvalis Inc",
+      "origin": "Monaco"
+    }
+  }
+}

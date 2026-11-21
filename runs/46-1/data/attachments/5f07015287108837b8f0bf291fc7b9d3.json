@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-f8a0xyjp sort Alpha",
+    "category": "pantry",
+    "price": 27.01,
+    "stock": 22,
+    "details": {
+      "brand": "Howell LLC",
+      "origin": "Palestine"
+    }
+  }
+}

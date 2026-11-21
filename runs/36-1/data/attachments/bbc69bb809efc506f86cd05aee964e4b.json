@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-mk80dcdm Bespoke Granite Sausages",
+    "category": "other",
+    "price": 6.08,
+    "stock": 13,
+    "details": {
+      "brand": "Herman LLC",
+      "origin": "China"
+    },
+    "weighted": true
+  }
+}

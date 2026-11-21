@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-17jfyh1r Oriental Ceramic Pizza",
+    "category": "dairy-eggs",
+    "price": 32.15,
+    "stock": 38,
+    "details": {
+      "brand": "Kerluke and Sons",
+      "origin": "Lebanon"
+    }
+  }
+}

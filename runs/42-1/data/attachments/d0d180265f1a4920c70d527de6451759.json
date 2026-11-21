@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g3mtbhcr Small Cotton Tuna",
+    "category": "dairy-eggs",
+    "price": 14.62,
+    "stock": 18,
+    "details": {
+      "brand": "Tremblay, Reichel and O'Conner",
+      "origin": "Réunion"
+    }
+  }
+}

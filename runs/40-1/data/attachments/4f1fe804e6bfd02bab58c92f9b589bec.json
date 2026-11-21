@@ -1,0 +1,27 @@
+{
+  "id": "1068d9aa-8932-4c8d-b8d6-471ab08e6abc",
+  "order_number": "O75997",
+  "status": "pending",
+  "total_amount": 100.37,
+  "notes": null,
+  "created_at": "2026-11-10T10:41:00.339631+00:00",
+  "updated_at": "2026-11-10T10:41:00.339631+00:00",
+  "items": [
+    {
+      "product_id": "92c2b16a-4268-4778-8fe0-09527377f586",
+      "product_name": "QA-1-7391wl18 Incredible Plastic Soap",
+      "category": "beverages",
+      "quantity": 3,
+      "price": 8.63,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "dee03104-508d-4228-982c-0dc66f621160",
+      "product_name": "QA-1-notnzp24 Fantastic Rubber Tuna",
+      "category": "meat-seafood",
+      "quantity": 2,
+      "price": 37.24,
+      "temperature_zone": null
+    }
+  ]
+}

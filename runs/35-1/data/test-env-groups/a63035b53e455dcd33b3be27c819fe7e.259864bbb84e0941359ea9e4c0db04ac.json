@@ -1,0 +1,1 @@
+{"id":"a63035b53e455dcd33b3be27c819fe7e.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › should reject the profile request with 401 when there is no session","name":"should reject the profile request with 401 when there is no session","status":"passed","testResultsByEnv":{"default":"1b234f9ea9ef73475fda83fe48888029"}}

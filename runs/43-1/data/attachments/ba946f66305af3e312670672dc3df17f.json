@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hs49bfgm Luxurious Bamboo Pants",
+    "category": "dairy-eggs",
+    "price": 16.5,
+    "stock": 47,
+    "details": {
+      "brand": "Gorczany, Pacocha and Hane",
+      "origin": "Timor-Leste"
+    }
+  }
+}

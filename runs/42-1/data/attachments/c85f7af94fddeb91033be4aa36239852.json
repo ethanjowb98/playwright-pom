@@ -1,0 +1,15 @@
+{
+  "id": "a67a9124-024a-4dc3-be0e-a05a6738e6aa",
+  "product_name": "QA-1-3b8uhlx6 Intelligent Rubber Car",
+  "category": "other",
+  "price": 27.13,
+  "stock": 28,
+  "details": {
+    "brand": "Rohan LLC",
+    "origin": "Vanuatu"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:33:33.060038+00:00"
+}

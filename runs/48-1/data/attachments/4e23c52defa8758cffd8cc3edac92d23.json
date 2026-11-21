@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6j4vf8s0 Fantastic Marble Fish",
+    "category": "beverages",
+    "price": 1.04,
+    "stock": 39,
+    "details": {
+      "brand": "McCullough, Lang and Mohr",
+      "origin": "Egypt"
+    }
+  }
+}

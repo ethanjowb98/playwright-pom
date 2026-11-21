@@ -1,0 +1,27 @@
+{
+  "id": "824f0f07-9d93-4e55-b6b1-5446e4cef49e",
+  "order_number": "O38450",
+  "status": "pending",
+  "total_amount": 151.66,
+  "notes": null,
+  "created_at": "2026-11-16T10:23:28.921501+00:00",
+  "updated_at": "2026-11-16T10:23:28.921501+00:00",
+  "items": [
+    {
+      "product_id": "8cd55cf2-ba15-4e04-b359-a55ad3a6de28",
+      "product_name": "QA-1-3nyq4jyg Incredible Bronze Cheese",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 17.14,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "3f642f5a-0c01-4324-8d11-1c8920966294",
+      "product_name": "QA-1-dx0rwm23 Fantastic Plastic Ball",
+      "category": "meat-seafood",
+      "quantity": 3,
+      "price": 44.84,
+      "temperature_zone": null
+    }
+  ]
+}

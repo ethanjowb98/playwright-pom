@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-am6x8hcf Recycled Cotton Shoes",
+    "category": "other",
+    "price": 36.08,
+    "stock": 44,
+    "details": {
+      "brand": "Ward LLC",
+      "origin": "Uganda"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-sqe58r1k sort Bravo",
+    "category": "fresh-produce",
+    "price": 43.1,
+    "stock": 39,
+    "details": {
+      "brand": "Cruickshank - Emard",
+      "origin": "Palau"
+    }
+  }
+}

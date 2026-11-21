@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kho25tu2 Unbranded Marble Gloves",
+    "category": "frozen",
+    "price": 25,
+    "stock": 40,
+    "details": {
+      "brand": "Marks - Schuppe",
+      "origin": "Cambodia"
+    }
+  }
+}

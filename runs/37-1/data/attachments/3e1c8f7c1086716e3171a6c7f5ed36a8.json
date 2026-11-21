@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7uzzfk8m Unbranded Cotton Ball",
+    "category": "other",
+    "price": 8.99,
+    "stock": 46,
+    "details": {
+      "brand": "Heidenreich - Koch",
+      "origin": "Bahrain"
+    }
+  }
+}

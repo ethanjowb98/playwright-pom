@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i98vg94x Licensed Silk Keyboard",
+    "category": "household",
+    "price": 35.36,
+    "stock": 41,
+    "details": {
+      "brand": "Wilderman-Kuhic Inc",
+      "origin": "Russian Federation"
+    }
+  }
+}

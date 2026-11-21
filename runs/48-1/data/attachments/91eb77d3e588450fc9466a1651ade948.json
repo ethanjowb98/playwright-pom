@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-18lkugh4 sort Bravo",
+    "category": "other",
+    "price": 40.61,
+    "stock": 29,
+    "details": {
+      "brand": "Welch-Schmidt - Heller",
+      "origin": "American Samoa"
+    }
+  }
+}

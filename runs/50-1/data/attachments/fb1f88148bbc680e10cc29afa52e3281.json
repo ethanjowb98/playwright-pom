@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qithmhf2 Refined Aluminum Fish",
+    "category": "beverages",
+    "price": 1.89,
+    "stock": 47,
+    "details": {
+      "brand": "Torphy - McKenzie",
+      "origin": "Dominica"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ixp9xrft Electronic Concrete Bike",
+    "category": "other",
+    "price": 30.87,
+    "stock": 16,
+    "details": {
+      "brand": "Smith - Bashirian",
+      "origin": "Zimbabwe"
+    },
+    "weighted": true
+  }
+}

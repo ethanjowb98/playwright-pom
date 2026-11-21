@@ -1,0 +1,15 @@
+{
+  "id": "c0382acb-dee2-491b-b1af-d9baedaf5c52",
+  "product_name": "QA-7-rksdknin sort Bravo",
+  "category": "meat-seafood",
+  "price": 7.69,
+  "stock": 10,
+  "details": {
+    "brand": "Blick Inc",
+    "origin": "Egypt"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:22:33.245531+00:00"
+}

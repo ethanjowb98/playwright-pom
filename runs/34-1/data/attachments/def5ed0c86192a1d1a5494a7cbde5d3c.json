@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-pbk3havh Practical Marble Towels",
+    "price": 46.63,
+    "stock": 10,
+    "details": {
+      "brand": "Adams - Swift",
+      "origin": "Lebanon"
+    }
+  }
+}

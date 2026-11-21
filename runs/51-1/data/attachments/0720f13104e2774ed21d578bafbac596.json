@@ -1,0 +1,15 @@
+{
+  "id": "f7c008e8-265b-4ec6-ae09-17353daf9072",
+  "product_name": "QA-2-wrmx3ax4 Luxurious Plastic Cheese",
+  "category": "frozen",
+  "price": 31.45,
+  "stock": 43,
+  "details": {
+    "brand": "Mueller, Johnson and McCullough",
+    "origin": "Hungary"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:38.743352+00:00"
+}

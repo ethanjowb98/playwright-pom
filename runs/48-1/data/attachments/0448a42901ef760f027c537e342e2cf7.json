@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-0uwktr77 Practical Rubber Keyboard",
+    "category": "beverages",
+    "price": 48.38,
+    "stock": 20,
+    "details": {
+      "brand": "Stanton Inc",
+      "origin": "Senegal"
+    },
+    "weighted": true
+  }
+}

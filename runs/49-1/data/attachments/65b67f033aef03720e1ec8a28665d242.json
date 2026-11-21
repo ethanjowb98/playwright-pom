@@ -1,0 +1,15 @@
+{
+  "id": "5121db50-ca6b-49cf-ac8c-859e6b40af26",
+  "product_name": "QA-1-x4e0xgpz Gorgeous Steel Cheese",
+  "category": "dairy-eggs",
+  "price": 22.37,
+  "stock": 25,
+  "details": {
+    "brand": "Bauch Inc",
+    "origin": "Afghanistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:55:57.89759+00:00"
+}

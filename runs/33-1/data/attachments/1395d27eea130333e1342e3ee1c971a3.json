@@ -1,0 +1,15 @@
+{
+  "id": "8abaa754-3daa-4c03-8939-92797d38aef9",
+  "product_name": "QA-2-56ya4bp1 sort Charlie",
+  "category": "beverages",
+  "price": 7.97,
+  "stock": 42,
+  "details": {
+    "brand": "Skiles and Sons",
+    "origin": "South Sudan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:49.769298+00:00"
+}

@@ -1,0 +1,11 @@
+{
+  "message": "Quantity updated",
+  "data": {
+    "id": "dc614433-9d80-4b1c-91e1-1f2f5f31d786",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "product_id": "7f588562-ba7b-4d5d-b262-d3fb7fc7902c",
+    "quantity": 5,
+    "created_at": "2026-11-07T09:25:59.860438+00:00",
+    "updated_at": "2026-11-07T09:26:00.366127+00:00"
+  }
+}

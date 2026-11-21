@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pqlgo0dw Luxurious Cotton Cheese",
+    "category": "snacks",
+    "price": 47.01,
+    "stock": 30,
+    "details": {
+      "brand": "Lowe Inc",
+      "origin": "Uzbekistan"
+    }
+  }
+}

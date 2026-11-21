@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-60i4mfk8 sort Alpha",
+    "category": "meat-seafood",
+    "price": 38.25,
+    "stock": 35,
+    "details": {
+      "brand": "Heidenreich Group",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

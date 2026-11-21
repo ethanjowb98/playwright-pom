@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-mp4iqkh9 Frozen Plastic Mouse",
+    "category": "dairy-eggs",
+    "price": 32.15,
+    "stock": 43,
+    "details": {
+      "brand": "Sporer, Leannon and Cummerata",
+      "origin": "Jersey"
+    }
+  }
+}

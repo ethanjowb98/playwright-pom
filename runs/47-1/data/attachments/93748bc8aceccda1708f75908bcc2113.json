@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p8u9p9bk Ergonomic Granite Keyboard",
+    "category": "bakery",
+    "price": 8.73,
+    "stock": 49,
+    "details": {
+      "brand": "Kshlerin, Satterfield-Hessel and Mante",
+      "origin": "Sao Tome and Principe"
+    }
+  }
+}

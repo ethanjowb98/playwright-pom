@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-dauo0s9x Ergonomic Metal Chicken",
+    "category": "dairy-eggs",
+    "price": 9.47,
+    "stock": 35,
+    "details": {
+      "brand": "Towne Group",
+      "origin": "Saudi Arabia"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

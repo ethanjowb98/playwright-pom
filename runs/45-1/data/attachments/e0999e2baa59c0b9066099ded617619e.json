@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zwwcceip Frozen Plastic Fish",
+    "category": "beverages",
+    "price": 10.5,
+    "stock": 24,
+    "details": {
+      "brand": "Hand - Jacobson",
+      "origin": "Ukraine"
+    }
+  }
+}

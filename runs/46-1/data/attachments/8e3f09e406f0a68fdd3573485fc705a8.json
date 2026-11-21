@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-7rdy9ac1 Ergonomic Wooden Keyboard",
+    "category": "household",
+    "price": 36.36,
+    "stock": 30,
+    "details": {
+      "batch": "QA-6-xlu5afws batch"
+    }
+  }
+}

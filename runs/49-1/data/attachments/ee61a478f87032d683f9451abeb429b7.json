@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-g2g5agqn Generic Plastic Ball",
+    "category": "frozen",
+    "price": 1.56,
+    "stock": 34,
+    "details": {
+      "brand": "Ankunding - Pollich",
+      "origin": "Christmas Island"
+    }
+  }
+}

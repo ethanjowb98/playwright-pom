@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9ksligyl Soft Ceramic Pants",
+    "category": "other",
+    "price": 30.06,
+    "stock": 27,
+    "details": {
+      "brand": "Casper - Schuster",
+      "origin": "Cambodia"
+    }
+  }
+}

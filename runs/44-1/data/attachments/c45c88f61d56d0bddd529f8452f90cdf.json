@@ -1,0 +1,17 @@
+[
+  {
+    "id": "c0cec897-2453-4696-a626-f541c8553fec",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-e5hwjlei Elegant Concrete Ball",
+    "category": "snacks",
+    "price": 29.36,
+    "details": {
+      "brand": "Stracke, Dooley and Cronin",
+      "origin": "Tonga"
+    },
+    "created_at": "2026-11-14T09:38:35.158773+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 39
+  }
+]

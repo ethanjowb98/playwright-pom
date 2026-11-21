@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-aq3lwkxi Refined Marble Mouse",
+    "category": "frozen",
+    "price": 20.15,
+    "stock": 35,
+    "details": {
+      "brand": "Reilly, Christiansen and Flatley",
+      "origin": "Hong Kong"
+    }
+  }
+}

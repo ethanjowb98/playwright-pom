@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-df04uw0w Awesome Metal Mouse",
+    "category": "bakery",
+    "price": 20.35,
+    "stock": 10,
+    "details": {
+      "brand": "Maggio - Ruecker",
+      "origin": "Isle of Man"
+    }
+  }
+}

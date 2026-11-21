@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-vfvkf2yx Small Ceramic Car",
+    "category": "snacks",
+    "price": 32.27,
+    "stock": "x",
+    "details": {
+      "brand": "Weimann Group",
+      "origin": "Dominica"
+    }
+  }
+}

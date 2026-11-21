@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4bsdtq68 Small Bamboo Tuna",
+    "category": "household",
+    "price": 45.99,
+    "stock": 38,
+    "details": {
+      "brand": "Kozey, Pollich and Witting",
+      "origin": "Mayotte"
+    }
+  }
+}

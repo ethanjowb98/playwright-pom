@@ -1,0 +1,19 @@
+{
+  "id": "bcaf373c-bd2a-4873-8060-d971eb9ec6a5",
+  "order_number": "O86919",
+  "status": "delivered",
+  "total_amount": 57.99,
+  "notes": null,
+  "created_at": "2026-11-07T09:26:56.735495+00:00",
+  "updated_at": "2026-11-07T09:26:56.735495+00:00",
+  "items": [
+    {
+      "product_id": "1c5617e2-75a7-4abb-b959-1f49ded0d7d8",
+      "product_name": "QA-1-ahpjij32 Handcrafted Plastic Pizza",
+      "category": "fresh-produce",
+      "quantity": 3,
+      "price": 19.33,
+      "temperature_zone": null
+    }
+  ]
+}

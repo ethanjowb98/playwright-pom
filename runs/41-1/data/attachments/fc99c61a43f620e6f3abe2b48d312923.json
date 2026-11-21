@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-me91efz7 Frozen Plastic Pizza",
+    "category": "meat-seafood",
+    "price": 45.42,
+    "stock": 36,
+    "details": {
+      "brand": "Breitenberg - Connelly",
+      "origin": "Bhutan"
+    }
+  }
+}

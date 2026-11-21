@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mx2k69s9 sort Charlie",
+    "category": "other",
+    "price": 6.63,
+    "stock": 46,
+    "details": {
+      "brand": "O'Keefe and Sons",
+      "origin": "Palestine"
+    }
+  }
+}

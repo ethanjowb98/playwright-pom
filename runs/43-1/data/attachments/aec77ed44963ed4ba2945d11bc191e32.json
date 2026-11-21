@@ -1,0 +1,27 @@
+{
+  "id": "92df1406-5d91-46a7-8a72-1f9a59b5c301",
+  "order_number": "O55019",
+  "status": "pending",
+  "total_amount": 52.41,
+  "notes": null,
+  "created_at": "2026-11-13T10:19:48.470739+00:00",
+  "updated_at": "2026-11-13T10:19:48.470739+00:00",
+  "items": [
+    {
+      "product_id": "a5240058-d39c-4dde-aea6-bcff7d183460",
+      "product_name": "QA-1-imu7fnn0 Luxurious Ceramic Fish",
+      "category": "fresh-produce",
+      "quantity": 2,
+      "price": 6.51,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "8c432d35-1da3-42ba-a6cf-460c12eecf09",
+      "product_name": "QA-1-yqbrjxpa Incredible Gold Soap",
+      "category": "other",
+      "quantity": 1,
+      "price": 39.39,
+      "temperature_zone": null
+    }
+  ]
+}

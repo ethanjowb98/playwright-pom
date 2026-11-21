@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j6irc7sw Sleek Aluminum Salad",
+    "category": "pantry",
+    "price": 1.69,
+    "stock": 43,
+    "details": {
+      "brand": "Becker-Dare - Pouros",
+      "origin": "Cook Islands"
+    }
+  }
+}

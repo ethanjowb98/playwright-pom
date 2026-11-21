@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0ohb92o4 Incredible Silk Chair",
+    "category": "fresh-produce",
+    "price": 37.19,
+    "stock": 42,
+    "details": {
+      "brand": "Breitenberg - Reichel",
+      "origin": "Italy"
+    }
+  }
+}

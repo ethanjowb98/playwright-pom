@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rpl7udnv Frozen Aluminum Ball",
+    "category": "snacks",
+    "price": 10.59,
+    "stock": 14,
+    "details": {
+      "brand": "Mueller, Wuckert and Barrows",
+      "origin": "Myanmar"
+    }
+  }
+}

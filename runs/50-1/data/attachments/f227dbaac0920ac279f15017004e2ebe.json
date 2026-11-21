@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qs4sevft Modern Gold Shirt",
+    "category": "pantry",
+    "price": 25.76,
+    "stock": 23,
+    "details": {
+      "brand": "Feil-Simonis, Greenholt and Nikolaus",
+      "origin": "Denmark"
+    }
+  }
+}

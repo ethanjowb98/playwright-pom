@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ondd8y1j Refined Gold Hat",
+    "category": "frozen",
+    "price": 23.27,
+    "stock": 12,
+    "details": {
+      "brand": "King, Hansen and Kiehn",
+      "origin": "Jersey"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

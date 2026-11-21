@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-intq7a50 Fresh Wooden Pants",
+    "category": "meat-seafood",
+    "price": 40.04,
+    "stock": 27,
+    "details": {
+      "brand": "Wyman, Kuvalis and Yost",
+      "origin": "Isle of Man"
+    }
+  }
+}

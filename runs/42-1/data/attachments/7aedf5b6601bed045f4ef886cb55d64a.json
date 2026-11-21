@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zy1ke3xz Gorgeous Metal Gloves",
+    "category": "household",
+    "price": 10.23,
+    "stock": 18,
+    "details": {
+      "brand": "Marvin - Dooley",
+      "origin": "Hong Kong"
+    }
+  }
+}

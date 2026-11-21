@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w4l7rod9 Refined Ceramic Fish",
+    "category": "meat-seafood",
+    "price": 46.03,
+    "stock": 40,
+    "details": {
+      "brand": "Gorczany Group",
+      "origin": "Montenegro"
+    }
+  }
+}

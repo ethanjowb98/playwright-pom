@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-1vj9s5bi Elegant Steel Bacon",
+    "category": "snacks",
+    "price": 49.96,
+    "stock": 25,
+    "details": {
+      "brand": "Thompson Group",
+      "origin": "Côte d'Ivoire"
+    }
+  }
+}

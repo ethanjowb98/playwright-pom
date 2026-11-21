@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-43fkkcfr Rustic Wooden Computer",
+    "category": "other",
+    "price": 36.49,
+    "stock": 18,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

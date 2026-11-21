@@ -1,0 +1,15 @@
+{
+  "id": "74a4dd44-d9bb-46f8-b967-748bba2b556c",
+  "product_name": "QA-1-2d74wlqr Small Silk Car",
+  "category": "meat-seafood",
+  "price": 43.21,
+  "stock": 26,
+  "details": {
+    "brand": "Acme",
+    "origin": "Spain"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:34.473038+00:00"
+}

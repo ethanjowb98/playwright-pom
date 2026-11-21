@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ymyk657p Luxurious Concrete Mouse",
+    "category": "frozen",
+    "price": 2.09,
+    "stock": 41,
+    "details": {
+      "brand": "Schulist and Sons",
+      "origin": "Saint Kitts and Nevis"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

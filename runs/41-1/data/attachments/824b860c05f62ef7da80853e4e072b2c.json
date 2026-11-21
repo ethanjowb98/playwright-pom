@@ -1,0 +1,169 @@
+[
+  {
+    "id": "9ea97415-6f47-4c9a-8cf7-ae23c336dffb",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Artisan Sourdough Boule",
+    "category": "bakery",
+    "price": 6.5,
+    "details": {
+      "sliced": false,
+      "starter": "Wild Yeast",
+      "fermentation_time": "48 hours"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "0e5aff95-9ba8-4da8-8cf6-906deae765d0",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Classic Cheesecake (Whole)",
+    "category": "bakery",
+    "price": 18.99,
+    "details": {
+      "size": "8 inch",
+      "crust": "Graham Cracker",
+      "flavor": "Vanilla Bean",
+      "servings": 8
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9a8cae7c-4edc-42b0-bcf2-34eb7ddef8ee",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Cozonac (Walnut Sweet Bread)",
+    "category": "bakery",
+    "price": 8.99,
+    "details": {
+      "origin": "Romania",
+      "filling": "Walnut and Cocoa",
+      "traditional": true,
+      "contains_nuts": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "11bb4d32-0830-4ef5-bb05-3bb562e0a2a9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "037d8b80-8843-4ee8-8817-d8c94ed12ea9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Double Chocolate Fudge Brownies",
+    "category": "bakery",
+    "price": 7.99,
+    "details": {
+      "texture": "Fudgy",
+      "contains_nuts": false,
+      "chocolate_type": "Dark"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "39fc5321-932c-414f-8eb0-0e1f79e706b5",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Everything Bagels (6-Pack)",
+    "category": "bakery",
+    "price": 5.49,
+    "details": {
+      "count": 6,
+      "toppings": [
+        "Sesame",
+        "Poppy",
+        "Onion",
+        "Garlic",
+        "Salt"
+      ],
+      "pre_sliced": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "109ba8e4-fc63-4a5d-8692-01f6c7d9d941",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Fresh French Baguette",
+    "category": "bakery",
+    "price": 2.99,
+    "details": {
+      "vegan": true,
+      "length": "22 inches",
+      "flour_type": "White",
+      "baked_fresh_daily": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "b0395558-bdcb-4624-b2f5-e29c62032209",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-kkhklmd2 Recycled Plastic Car",
+    "category": "snacks",
+    "price": 15.67,
+    "details": {
+      "brand": "Hackett, Lindgren and Predovic",
+      "origin": "Estonia"
+    },
+    "created_at": "2026-11-11T10:00:31.978753+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 20
+  },
+  {
+    "id": "24a60e93-f974-41fa-ba91-5d3a1859cddf",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-ldsdn5ii Modern Granite Chair",
+    "category": "bakery",
+    "price": 40.83,
+    "details": {
+      "brand": "Hahn, Macejkovic and Hudson",
+      "origin": "Cocos (Keeling) Islands"
+    },
+    "created_at": "2026-11-11T10:00:31.990951+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 12
+  },
+  {
+    "id": "b66654c1-b86c-4ef2-a830-6660e268e088",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-3cg0k070 Oriental Bronze Sausages",
+    "category": "bakery",
+    "price": 21.08,
+    "details": {
+      "brand": "Hackett, Olson and Stark",
+      "origin": "Timor-Leste"
+    },
+    "created_at": "2026-11-11T10:00:31.306194+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 35
+  }
+]

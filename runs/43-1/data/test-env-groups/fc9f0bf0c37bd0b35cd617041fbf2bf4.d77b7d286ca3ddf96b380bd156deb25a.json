@@ -1,0 +1,1 @@
+{"id":"fc9f0bf0c37bd0b35cd617041fbf2bf4.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/basket.api.spec.ts › Basket API › Create and update › should increase the quantity when the same product is added again","name":"should increase the quantity when the same product is added again","status":"passed","testResultsByEnv":{"default":"a28b438771ad5b114dcf980f13a855c2"}}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "fb820ac4-1376-41af-9c89-ab10f2f35308",
+    "order_number": "O70223",
+    "status": "pending",
+    "total_amount": 46.38,
+    "created_at": "2026-11-16T10:25:46.380503+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-zrdgm7gm Elegant Granite Cheese",
+        "category": "dairy-eggs",
+        "quantity": 1,
+        "price": 46.38,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

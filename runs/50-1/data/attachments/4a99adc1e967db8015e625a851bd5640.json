@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-exai6cgi Recycled Rubber Computer",
+    "price": 45.27,
+    "stock": 45,
+    "details": {
+      "brand": "Parisian - Smitham",
+      "origin": "El Salvador"
+    }
+  }
+}

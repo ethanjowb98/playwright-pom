@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ppe96o5p Sleek Bamboo Chair",
+    "category": "frozen",
+    "price": 19.83,
+    "stock": 33,
+    "details": {
+      "brand": "Franecki - Cole",
+      "origin": "Kyrgyz Republic"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

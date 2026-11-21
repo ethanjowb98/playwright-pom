@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-k8ge3qri Electronic Bronze Gloves",
+    "price": 48.27,
+    "stock": 25,
+    "details": {
+      "brand": "White Group",
+      "origin": "Armenia"
+    }
+  }
+}

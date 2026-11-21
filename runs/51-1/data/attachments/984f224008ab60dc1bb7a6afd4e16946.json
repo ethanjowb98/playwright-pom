@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "f1832204-b6ff-449d-a25d-efe2fabb7856",
+    "order_number": "O29040",
+    "status": "pending",
+    "total_amount": 76.02,
+    "created_at": "2026-11-21T10:29:36.093012+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-y2ztqls3 Refined Plastic Hat",
+        "category": "other",
+        "quantity": 2,
+        "price": 38.01,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-t7fok2n3 Handmade Aluminum Computer",
+    "category": "bakery",
+    "price": 29.11,
+    "stock": 29,
+    "details": {
+      "brand": "Borer, Breitenberg and Johnson",
+      "origin": "Papua New Guinea"
+    }
+  }
+}

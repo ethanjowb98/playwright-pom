@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gr77nbqy Intelligent Aluminum Table",
+    "category": "pantry",
+    "price": 49.1,
+    "stock": 19,
+    "details": {
+      "brand": "Huel-Lowe LLC",
+      "origin": "Sri Lanka"
+    }
+  }
+}

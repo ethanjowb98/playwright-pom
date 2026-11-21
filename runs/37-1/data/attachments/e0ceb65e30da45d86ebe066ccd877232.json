@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7fiog1wf Rustic Bamboo Hat",
+    "category": "pantry",
+    "price": 33.55,
+    "stock": 23,
+    "details": {
+      "brand": "Lebsack, Jakubowski and Heller",
+      "origin": "Georgia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gev3x3gm Bespoke Gold Gloves",
+    "category": "beverages",
+    "price": 13.59,
+    "stock": 38,
+    "details": {
+      "brand": "Haag and Sons",
+      "origin": "France"
+    }
+  }
+}

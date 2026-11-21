@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-t2lp13wl Frozen Bronze Cheese",
+    "category": "household",
+    "price": 1.62,
+    "stock": 36,
+    "details": {
+      "brand": "Rutherford Group",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

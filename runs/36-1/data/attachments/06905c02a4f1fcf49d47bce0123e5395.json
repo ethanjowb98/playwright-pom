@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qrrxnkoi Gorgeous Bronze Bike",
+    "category": "beverages",
+    "price": 45.09,
+    "stock": 45,
+    "details": {
+      "brand": "Crist - Oberbrunner",
+      "origin": "Italy"
+    }
+  }
+}

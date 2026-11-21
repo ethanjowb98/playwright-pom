@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-1svi8gj9 sort Charlie",
+    "category": "fresh-produce",
+    "price": 47.21,
+    "stock": 47,
+    "details": {
+      "brand": "Bins-Renner and Sons",
+      "origin": "Japan"
+    }
+  }
+}

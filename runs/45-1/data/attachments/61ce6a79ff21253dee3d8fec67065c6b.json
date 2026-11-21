@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-0vmcpbuc Handmade Bronze Table",
+    "category": "frozen",
+    "price": 1.05,
+    "stock": 26,
+    "details": {
+      "brand": "O'Kon Group",
+      "origin": "Vanuatu"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

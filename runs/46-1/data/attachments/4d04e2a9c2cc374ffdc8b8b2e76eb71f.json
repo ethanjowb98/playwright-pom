@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-99xlzyqx Elegant Granite Chicken",
+    "category": "household",
+    "price": 46.72,
+    "stock": 24,
+    "details": {
+      "brand": "Bergnaum, Waters and Runte",
+      "origin": "Senegal"
+    },
+    "weighted": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "f0f7e9cd-5829-4c6d-bb04-274d14c1d3c2",
+  "product_name": "QA-3-pr3f18m1 Oriental Wooden Bacon",
+  "category": "beverages",
+  "price": 7.51,
+  "stock": 32,
+  "details": {
+    "brand": "Ledner - McClure",
+    "origin": "Morocco"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:42.953087+00:00"
+}

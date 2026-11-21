@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jqhz5j1a Sleek Rubber Hat",
+    "category": "frozen",
+    "price": 43.87,
+    "stock": 20,
+    "details": {
+      "brand": "Rempel, Hermiston and Macejkovic",
+      "origin": "Jamaica"
+    }
+  }
+}

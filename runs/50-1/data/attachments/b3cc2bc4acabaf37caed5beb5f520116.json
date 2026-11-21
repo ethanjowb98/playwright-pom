@@ -1,0 +1,15 @@
+{
+  "id": "4fe25f9e-c137-4c4b-8912-9adcf5faa6a2",
+  "product_name": "QA-1-ephtbwq9 Oriental Ceramic Shirt",
+  "category": "beverages",
+  "price": 28.62,
+  "stock": 25,
+  "details": {
+    "brand": "Nitzsche Group",
+    "origin": "Tuvalu"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:48:30.432424+00:00"
+}

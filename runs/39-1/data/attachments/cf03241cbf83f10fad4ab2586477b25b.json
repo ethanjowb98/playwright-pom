@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "dd76f2cf-7f84-45d6-9bf9-e4c0bdc31be6",
+    "order_number": "O51371",
+    "status": "pending",
+    "total_amount": 42.67,
+    "created_at": "2026-11-09T10:40:44.162533+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-rbhysoix Tasty Granite Cheese",
+        "category": "bakery",
+        "quantity": 1,
+        "price": 42.67,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

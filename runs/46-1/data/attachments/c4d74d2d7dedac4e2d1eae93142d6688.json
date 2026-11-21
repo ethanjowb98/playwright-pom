@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-g9i2fihv Frozen Wooden Hat",
+    "category": "frozen",
+    "price": 27.7,
+    "stock": 19,
+    "details": {
+      "brand": "Abernathy Inc",
+      "origin": "Madagascar"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

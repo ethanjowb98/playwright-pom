@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-63hcow9m Recycled Marble Soap",
+    "category": "dairy-eggs",
+    "price": 7.2,
+    "stock": 11,
+    "details": {
+      "brand": "Connelly and Sons",
+      "origin": "Dominica"
+    }
+  }
+}

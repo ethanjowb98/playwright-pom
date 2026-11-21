@@ -1,0 +1,17 @@
+[
+  {
+    "id": "80917a26-ca64-443c-960e-85dc76cc32be",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-nmewo2zc Practical Marble Soap",
+    "category": "frozen",
+    "price": 8.4,
+    "details": {
+      "brand": "Kessler Inc",
+      "origin": "China"
+    },
+    "created_at": "2026-11-09T10:36:08.411186+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": true,
+    "stock": 40
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "id": "7d25aacb-c9f1-43f2-8b00-0f75a54f20a4",
+  "product_name": "QA-1-rkd3akd0 Sleek Aluminum Hat",
+  "category": "bakery",
+  "price": 2.58,
+  "stock": 14,
+  "details": {
+    "brand": "Lynch - Reinger",
+    "origin": "Mexico"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:32.697362+00:00"
+}

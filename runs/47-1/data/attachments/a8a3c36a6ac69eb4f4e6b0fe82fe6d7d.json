@@ -1,0 +1,15 @@
+{
+  "id": "e4e19b42-5afd-429b-bc78-9628f552f90b",
+  "product_name": "QA-6-q5vsy2a6 Tasty Silk Car",
+  "category": "snacks",
+  "price": 10.71,
+  "stock": 46,
+  "details": {
+    "brand": "Konopelski - Moore",
+    "origin": "Malaysia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:42.955015+00:00"
+}

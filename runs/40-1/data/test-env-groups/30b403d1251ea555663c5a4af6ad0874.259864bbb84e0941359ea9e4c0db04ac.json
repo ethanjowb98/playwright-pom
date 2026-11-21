@@ -1,0 +1,1 @@
+{"id":"30b403d1251ea555663c5a4af6ad0874.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when stock is not an integer","name":"should reject the product with 400 when stock is not an integer","status":"passed","testResultsByEnv":{"default":"db0e4e585c76fad927368e2aa7216184"}}

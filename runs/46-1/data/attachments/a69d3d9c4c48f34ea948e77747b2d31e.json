@@ -1,0 +1,15 @@
+{
+  "id": "52b8ceee-41ae-4b87-8bb5-7d0ebaf0bab5",
+  "product_name": "QA-2-rvmsrkbx Awesome Granite Sausages",
+  "category": "frozen",
+  "price": 32.6,
+  "stock": 33,
+  "details": {
+    "brand": "Mohr, MacGyver and Satterfield",
+    "origin": "Turkey"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:22:11.225932+00:00"
+}

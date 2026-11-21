@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3782msdf Handmade Gold Pants",
+    "category": "bakery",
+    "price": 26.76,
+    "stock": 42,
+    "details": {
+      "brand": "Konopelski - Stracke",
+      "origin": "Papua New Guinea"
+    }
+  }
+}

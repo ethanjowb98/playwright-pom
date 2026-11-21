@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1zhr4nqf Elegant Silk Computer",
+    "category": "bakery",
+    "price": 26.38,
+    "stock": 39,
+    "details": {
+      "brand": "Murphy - Lockman",
+      "origin": "Paraguay"
+    }
+  }
+}

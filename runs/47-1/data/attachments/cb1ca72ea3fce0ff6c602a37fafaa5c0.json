@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0g4qp4ao Elegant Bamboo Soap",
+    "category": "other",
+    "price": 1.23,
+    "stock": 50,
+    "details": {
+      "brand": "Robel, Spencer and Davis",
+      "origin": "Seychelles"
+    }
+  }
+}

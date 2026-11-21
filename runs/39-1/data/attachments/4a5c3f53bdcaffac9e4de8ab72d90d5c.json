@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-1r8bhjck Frozen Bamboo Cheese",
+    "category": "meat-seafood",
+    "price": 4.49,
+    "stock": 21,
+    "details": {
+      "brand": "Conn, Franey and Labadie",
+      "origin": "Italy"
+    }
+  }
+}

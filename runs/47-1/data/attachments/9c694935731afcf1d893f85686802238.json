@@ -1,0 +1,199 @@
+[
+  {
+    "id": "9ea97415-6f47-4c9a-8cf7-ae23c336dffb",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Artisan Sourdough Boule",
+    "category": "bakery",
+    "price": 6.5,
+    "details": {
+      "sliced": false,
+      "starter": "Wild Yeast",
+      "fermentation_time": "48 hours"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "0e5aff95-9ba8-4da8-8cf6-906deae765d0",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Classic Cheesecake (Whole)",
+    "category": "bakery",
+    "price": 18.99,
+    "details": {
+      "size": "8 inch",
+      "crust": "Graham Cracker",
+      "flavor": "Vanilla Bean",
+      "servings": 8
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9a8cae7c-4edc-42b0-bcf2-34eb7ddef8ee",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Cozonac (Walnut Sweet Bread)",
+    "category": "bakery",
+    "price": 8.99,
+    "details": {
+      "origin": "Romania",
+      "filling": "Walnut and Cocoa",
+      "traditional": true,
+      "contains_nuts": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "11bb4d32-0830-4ef5-bb05-3bb562e0a2a9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "037d8b80-8843-4ee8-8817-d8c94ed12ea9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Double Chocolate Fudge Brownies",
+    "category": "bakery",
+    "price": 7.99,
+    "details": {
+      "texture": "Fudgy",
+      "contains_nuts": false,
+      "chocolate_type": "Dark"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "39fc5321-932c-414f-8eb0-0e1f79e706b5",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Everything Bagels (6-Pack)",
+    "category": "bakery",
+    "price": 5.49,
+    "details": {
+      "count": 6,
+      "toppings": [
+        "Sesame",
+        "Poppy",
+        "Onion",
+        "Garlic",
+        "Salt"
+      ],
+      "pre_sliced": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "109ba8e4-fc63-4a5d-8692-01f6c7d9d941",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Fresh French Baguette",
+    "category": "bakery",
+    "price": 2.99,
+    "details": {
+      "vegan": true,
+      "length": "22 inches",
+      "flour_type": "White",
+      "baked_fresh_daily": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "05b32cd5-6eb2-4065-af2f-cac149c8a3dd",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-8jr6f3x9 Awesome Ceramic Keyboard",
+    "category": "snacks",
+    "price": 30.02,
+    "details": {
+      "brand": "Lueilwitz - Harris",
+      "origin": "Greece"
+    },
+    "created_at": "2026-11-17T11:20:43.792441+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 27
+  },
+  {
+    "id": "3caeb254-4af1-4951-96d2-179303fa53cf",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-zsnl2t5q Fantastic Bamboo Shirt",
+    "category": "bakery",
+    "price": 8.1,
+    "details": {
+      "brand": "Schaefer, Leuschke and Graham",
+      "origin": "Russian Federation"
+    },
+    "created_at": "2026-11-17T11:20:43.612501+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 46
+  },
+  {
+    "id": "96118896-8cab-4615-b915-130aa259308e",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-4a089krp Fantastic Aluminum Pizza",
+    "category": "snacks",
+    "price": 17.83,
+    "details": {
+      "brand": "Reichel, Lind and McCullough",
+      "origin": "Ecuador"
+    },
+    "created_at": "2026-11-17T11:20:43.596243+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 48
+  },
+  {
+    "id": "15e536b6-55de-4d5f-ac9d-b87a0c3f144a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-6-ejprie33 Gorgeous Bronze Bacon",
+    "category": "bakery",
+    "price": 42.8,
+    "details": {
+      "brand": "Altenwerth, Streich and Kirlin",
+      "origin": "Saint Pierre and Miquelon"
+    },
+    "created_at": "2026-11-17T11:20:42.990258+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 35
+  },
+  {
+    "id": "e4e19b42-5afd-429b-bc78-9628f552f90b",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-6-q5vsy2a6 Tasty Silk Car",
+    "category": "snacks",
+    "price": 10.71,
+    "details": {
+      "brand": "Konopelski - Moore",
+      "origin": "Malaysia"
+    },
+    "created_at": "2026-11-17T11:20:42.955015+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 46
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r9hvxxyi Soft Granite Fish",
+    "category": "pantry",
+    "price": 36.49,
+    "stock": 22,
+    "details": {
+      "brand": "Rutherford, Smitham and Schaden",
+      "origin": "El Salvador"
+    }
+  }
+}

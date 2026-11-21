@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xt2g7rm2 Luxurious Bamboo Ball",
+    "category": "frozen",
+    "price": 10.77,
+    "stock": 19,
+    "details": {
+      "brand": "Olson Group",
+      "origin": "Niger"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bxmaiq4o Luxurious Cotton Chair",
+    "category": "pantry",
+    "price": 13.79,
+    "stock": 11,
+    "details": {
+      "brand": "Welch Inc",
+      "origin": "Antarctica"
+    }
+  }
+}

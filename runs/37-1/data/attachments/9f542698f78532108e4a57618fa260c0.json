@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-ps8esgye sort Alpha",
+    "category": "dairy-eggs",
+    "price": 39.41,
+    "stock": 43,
+    "details": {
+      "brand": "Ebert - Ullrich",
+      "origin": "Tajikistan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i9l3nd78 Rustic Bronze Sausages",
+    "category": "household",
+    "price": 49,
+    "stock": 13,
+    "details": {
+      "brand": "Bashirian - Kemmer",
+      "origin": "Madagascar"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-of4g1spm Practical Aluminum Towels",
+    "category": "beverages",
+    "price": 7.43,
+    "stock": 18,
+    "details": {
+      "brand": "Reichert, Bashirian and Botsford",
+      "origin": "Kenya"
+    }
+  }
+}

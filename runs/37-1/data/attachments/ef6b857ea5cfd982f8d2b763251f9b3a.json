@@ -1,0 +1,15 @@
+{
+  "id": "9f161b9a-af2e-4af4-aace-762ab784728a",
+  "product_name": "QA-1-ssnztjx9 Awesome Silk Bacon",
+  "category": "meat-seafood",
+  "price": 46.71,
+  "stock": 29,
+  "details": {
+    "brand": "Lehner, Becker and Greenholt",
+    "origin": "Poland"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:24:58.857669+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y05z9znc Luxurious Silk Salad",
+    "category": "other",
+    "price": 38.86,
+    "stock": 26,
+    "details": {
+      "brand": "Rohan Inc",
+      "origin": "Tokelau"
+    }
+  }
+}

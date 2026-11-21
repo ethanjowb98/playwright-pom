@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-76jkej92 Electronic Plastic Mouse",
+    "category": "other",
+    "price": 14.35,
+    "stock": 24,
+    "details": {
+      "brand": "Ankunding - Turcotte",
+      "origin": "Angola"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-wijdbmhg Refined Rubber Chips",
+    "category": "snacks",
+    "price": 24.46,
+    "stock": 31,
+    "details": {
+      "brand": "Schiller, Strosin and Nader",
+      "origin": "Pakistan"
+    }
+  }
+}

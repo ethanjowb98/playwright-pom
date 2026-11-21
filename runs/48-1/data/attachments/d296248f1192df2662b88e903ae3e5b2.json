@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6c82qvec Recycled Concrete Car",
+    "category": "meat-seafood",
+    "price": 3.73,
+    "stock": 27,
+    "details": {
+      "brand": "Bauch, Heller and Metz",
+      "origin": "Antigua and Barbuda"
+    }
+  }
+}

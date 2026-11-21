@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d5r9d65h Practical Bronze Bike",
+    "category": "snacks",
+    "price": 25.8,
+    "stock": 2,
+    "details": {
+      "brand": "Beier, McGlynn and Schroeder",
+      "origin": "Serbia"
+    }
+  }
+}

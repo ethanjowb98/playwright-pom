@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n2e29rpm Refined Plastic Pizza",
+    "category": "snacks",
+    "price": 19.12,
+    "stock": 18,
+    "details": {
+      "brand": "Barton - Ratke",
+      "origin": "Grenada"
+    }
+  }
+}

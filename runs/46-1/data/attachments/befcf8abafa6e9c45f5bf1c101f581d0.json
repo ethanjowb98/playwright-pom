@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u4c9c9tk Refined Concrete Bike",
+    "category": "dairy-eggs",
+    "price": 44.82,
+    "stock": 27,
+    "details": {
+      "brand": "Turcotte and Sons",
+      "origin": "Vanuatu"
+    },
+    "weighted": true
+  }
+}

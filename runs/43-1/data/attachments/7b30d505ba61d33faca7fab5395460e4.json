@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mhx2m6ou Handmade Ceramic Shirt",
+    "category": "household",
+    "price": 36.14,
+    "stock": 33,
+    "details": {
+      "brand": "Howe, Johns and McGlynn",
+      "origin": "Myanmar"
+    }
+  }
+}

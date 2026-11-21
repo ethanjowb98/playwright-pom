@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fokf2xud sort Alpha",
+    "category": "other",
+    "price": 1.18,
+    "stock": 14,
+    "details": {
+      "brand": "Anderson Group",
+      "origin": "Australia"
+    }
+  }
+}

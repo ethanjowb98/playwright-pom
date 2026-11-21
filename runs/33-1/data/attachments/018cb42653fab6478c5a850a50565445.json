@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-phs7fjlp Recycled Bronze Car",
+    "category": "fresh-produce",
+    "price": 5.99,
+    "stock": 2,
+    "details": {
+      "brand": "Kreiger, White and Renner",
+      "origin": "Faroe Islands"
+    }
+  }
+}

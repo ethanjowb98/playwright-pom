@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lfakjjmq Gorgeous Concrete Towels",
+    "category": "other",
+    "price": 24.54,
+    "stock": 45,
+    "details": {
+      "brand": "Nader, Macejkovic and Sauer",
+      "origin": "Solomon Islands"
+    }
+  }
+}

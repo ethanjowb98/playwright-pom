@@ -1,0 +1,15 @@
+{
+  "id": "aee9cc31-c1e6-49ef-9f1a-d2fcace312e8",
+  "product_name": "QA-1-7j56duwv Refined Bronze Hat",
+  "category": "snacks",
+  "price": 35.2,
+  "stock": 26,
+  "details": {
+    "brand": "Rau - Funk",
+    "origin": "Macao"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:32.532052+00:00"
+}

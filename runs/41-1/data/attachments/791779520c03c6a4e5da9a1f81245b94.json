@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r6s187xl Electronic Bronze Fish",
+    "category": "pantry",
+    "price": 28.51,
+    "stock": 33,
+    "details": {
+      "brand": "Steuber, Haag and Cormier-Doyle",
+      "origin": "Belize"
+    }
+  }
+}

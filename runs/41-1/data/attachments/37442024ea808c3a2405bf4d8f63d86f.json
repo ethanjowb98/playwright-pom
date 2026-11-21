@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d5rjzhoy Modern Rubber Salad",
+    "category": "frozen",
+    "price": 17.68,
+    "stock": 28,
+    "details": {
+      "brand": "Marvin, Spinka and Hessel",
+      "origin": "Czechia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "995560ed-9439-4dd8-ad60-4bd121f7cac0",
+  "product_name": "QA-7-j8l2tdjd sort Bravo",
+  "category": "beverages",
+  "price": 2.13,
+  "stock": 34,
+  "details": {
+    "brand": "Bins, Hamill and Upton",
+    "origin": "Madagascar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:57.835137+00:00"
+}

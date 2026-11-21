@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-l4my2qp5 sort Alpha",
+    "category": "fresh-produce",
+    "price": 18.48,
+    "stock": 13,
+    "details": {
+      "brand": "Keeling and Sons",
+      "origin": "United Kingdom"
+    }
+  }
+}

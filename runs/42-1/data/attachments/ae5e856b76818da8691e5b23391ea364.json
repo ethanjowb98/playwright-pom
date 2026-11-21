@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-w1q21zbg Handcrafted Bronze Tuna",
+    "category": "fresh-produce",
+    "price": 44.06,
+    "stock": 12,
+    "details": {
+      "brand": "Sipes LLC",
+      "origin": "Ukraine"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

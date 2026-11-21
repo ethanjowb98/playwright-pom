@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-tk02ekbk Practical Bamboo Sausages",
+    "category": "bakery",
+    "price": 40.24,
+    "stock": 25,
+    "details": {
+      "brand": "Schmitt-Schneider, Cartwright and Reinger",
+      "origin": "Oman"
+    }
+  }
+}

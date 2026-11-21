@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-34g9few9 Modern Steel Chips",
+    "category": "pantry",
+    "price": 24.07,
+    "stock": 47,
+    "details": {
+      "brand": "Ryan Inc",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

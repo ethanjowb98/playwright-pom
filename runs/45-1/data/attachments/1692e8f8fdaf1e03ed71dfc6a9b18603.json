@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-8i7id1w7 Bespoke Gold Hat",
+    "category": "household",
+    "price": 29.78,
+    "stock": 29,
+    "details": {
+      "brand": "Stiedemann Group",
+      "origin": "United Arab Emirates"
+    }
+  }
+}

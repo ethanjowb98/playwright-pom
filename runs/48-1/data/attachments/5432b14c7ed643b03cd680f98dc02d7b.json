@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-ikybvbei Handcrafted Metal Table",
+    "category": "snacks",
+    "price": 9.84,
+    "stock": 40,
+    "details": {
+      "brand": "Balistreri, Hudson and Berge",
+      "origin": "Canada"
+    }
+  }
+}

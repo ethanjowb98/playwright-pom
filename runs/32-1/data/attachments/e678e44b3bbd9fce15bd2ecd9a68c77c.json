@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9o71ewt0 Recycled Cotton Chair",
+    "category": "pantry",
+    "price": 28.16,
+    "stock": 22,
+    "details": {
+      "brand": "Goyette - Lindgren",
+      "origin": "Malta"
+    }
+  }
+}

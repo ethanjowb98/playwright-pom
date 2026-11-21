@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z3s47e9x Sleek Bamboo Chicken",
+    "category": "snacks",
+    "price": 40.52,
+    "stock": 17,
+    "details": {
+      "brand": "Welch - Wisoky",
+      "origin": "Slovakia"
+    }
+  }
+}

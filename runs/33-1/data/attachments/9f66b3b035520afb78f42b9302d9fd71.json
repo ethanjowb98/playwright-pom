@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b835phxo Elegant Aluminum Bike",
+    "category": "other",
+    "price": 45.61,
+    "stock": 31,
+    "details": {
+      "brand": "Carter, Gleason and Crist",
+      "origin": "Jersey"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-6huaxzvs Practical Rubber Towels",
+    "category": "dairy-eggs",
+    "price": 40.87,
+    "stock": 44,
+    "details": {
+      "brand": "Daugherty - Rice",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sx046qfa Gorgeous Granite Gloves",
+    "category": "fresh-produce",
+    "price": 14.15,
+    "stock": 16,
+    "details": {
+      "brand": "Ondricka, Koss and Prosacco",
+      "origin": "Western Sahara"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-p5ntssvc Handcrafted Ceramic Pizza",
+    "category": "frozen",
+    "price": 11.13,
+    "stock": 32,
+    "details": {
+      "brand": "Hane - Prohaska",
+      "origin": "Congo"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

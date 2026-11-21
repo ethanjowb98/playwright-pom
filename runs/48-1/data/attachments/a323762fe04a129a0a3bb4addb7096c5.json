@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ff8kj658 Refined Metal Towels",
+    "category": "snacks",
+    "price": 3.77,
+    "stock": 31,
+    "details": {
+      "brand": "Robel, Halvorson and Satterfield",
+      "origin": "Kuwait"
+    }
+  }
+}

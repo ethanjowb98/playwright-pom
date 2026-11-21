@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gcdq5bjj Handmade Metal Ball",
+    "category": "other",
+    "price": 46.45,
+    "stock": 16,
+    "details": {
+      "brand": "Shields-Davis and Sons",
+      "origin": "South Georgia and the South Sandwich Islands"
+    }
+  }
+}

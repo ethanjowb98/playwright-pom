@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-lpjdczfz Gorgeous Wooden Bike",
+    "category": "snacks",
+    "price": 24.97,
+    "stock": 46,
+    "details": {
+      "brand": "Reichel - Berge",
+      "origin": "Honduras"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

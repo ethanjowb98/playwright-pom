@@ -1,0 +1,15 @@
+{
+  "id": "bf7e219b-fd23-43ce-b08f-85cd9645f3d6",
+  "product_name": "QA-1-ww8avgpz Handcrafted Cotton Shoes",
+  "category": "pantry",
+  "price": 21.23,
+  "stock": 24,
+  "details": {
+    "brand": "Smith, Runolfsson and Leuschke",
+    "origin": "Solomon Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:11:22.712963+00:00"
+}

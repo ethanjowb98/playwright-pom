@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-k29lct9l Elegant Granite Chair",
+    "category": "pantry",
+    "price": 27.98,
+    "stock": 11,
+    "details": {
+      "brand": "Hills, Beier and Crist",
+      "origin": "Christmas Island"
+    },
+    "weighted": false
+  }
+}

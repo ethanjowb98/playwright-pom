@@ -1,0 +1,15 @@
+{
+  "id": "7398886a-b8da-4c12-8bf6-039145b55a3e",
+  "product_name": "QA-1-ab1imv7c Elegant Bronze Sausages",
+  "category": "bakery",
+  "price": 46.86,
+  "stock": 49,
+  "details": {
+    "brand": "Tremblay-Wuckert LLC",
+    "origin": "Senegal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:49.442706+00:00"
+}

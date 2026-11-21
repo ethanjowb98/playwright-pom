@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8ok6hnem Practical Steel Towels",
+    "category": "other",
+    "price": 3.29,
+    "stock": 21,
+    "details": {
+      "brand": "Auer - Littel",
+      "origin": "Palestine"
+    }
+  }
+}

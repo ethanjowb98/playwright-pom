@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "13e2fd1d-fc50-4f5b-978b-adf8aeaba979",
+      "product_id": "fec3b285-31f6-46c9-8721-a0de0c981d9e",
+      "product_name": "QA-1-8cfm63el Modern Marble Pizza",
+      "price": 5.73,
+      "category": "beverages",
+      "quantity": 3,
+      "created_at": "2026-11-17T11:22:23.73286+00:00",
+      "updated_at": "2026-11-17T11:22:23.73286+00:00"
+    }
+  ]
+}

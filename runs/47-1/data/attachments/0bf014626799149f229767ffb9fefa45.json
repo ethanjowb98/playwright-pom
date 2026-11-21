@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6p4y8d7b Awesome Bronze Fish",
+    "category": "fresh-produce",
+    "price": 24.22,
+    "stock": 35,
+    "details": {
+      "brand": "Hickle, Lynch-Morissette and Smith",
+      "origin": "South Sudan"
+    }
+  }
+}

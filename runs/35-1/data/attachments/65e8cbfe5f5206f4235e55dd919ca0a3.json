@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-esgqrj3p Recycled Marble Hat",
+    "category": "fresh-produce",
+    "price": 30.89,
+    "stock": 25,
+    "details": {
+      "brand": "Satterfield, Farrell and Kozey",
+      "origin": "Falkland Islands (Malvinas)"
+    }
+  }
+}

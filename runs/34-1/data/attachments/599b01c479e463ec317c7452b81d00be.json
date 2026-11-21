@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "370594cc-8fc6-4b1e-acf4-4135c2e1efa1",
+    "order_number": "O68791",
+    "status": "pending",
+    "total_amount": 24.21,
+    "created_at": "2026-11-05T09:19:59.014953+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-m2dbtgr8 Luxurious Silk Computer",
+        "category": "household",
+        "quantity": 3,
+        "price": 8.07,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

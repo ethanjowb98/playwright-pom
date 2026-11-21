@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xytauq8j Bespoke Marble Bacon",
+    "category": "meat-seafood",
+    "price": 26.16,
+    "stock": 43,
+    "details": {
+      "brand": "Cartwright - Mayer",
+      "origin": "Norfolk Island"
+    }
+  }
+}

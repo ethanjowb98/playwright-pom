@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-w3sxtbgr Generic Rubber Salad",
+    "category": "beverages",
+    "price": 14.52,
+    "stock": 25,
+    "details": {
+      "brand": "Prosacco LLC",
+      "origin": "Sudan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-pgumf0qp Small Steel Pizza",
+    "category": "snacks",
+    "price": 49.96,
+    "stock": 19,
+    "details": {
+      "brand": "Dare Inc",
+      "origin": "Malaysia"
+    }
+  }
+}

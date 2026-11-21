@@ -1,0 +1,15 @@
+{
+  "id": "e5e983ac-1821-448b-ae39-087d448d6043",
+  "product_name": "QA-8-4h30f0gk Awesome Bamboo Bacon",
+  "category": "household",
+  "price": 37.54,
+  "stock": 48,
+  "details": {
+    "brand": "Dicki-Kirlin Group",
+    "origin": "Cuba"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:56.064759+00:00"
+}

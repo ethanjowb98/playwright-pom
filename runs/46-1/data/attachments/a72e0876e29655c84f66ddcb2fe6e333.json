@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-67wp91ip Bespoke Wooden Chair",
+    "category": "pantry",
+    "price": 17.9,
+    "stock": 24,
+    "details": {
+      "brand": "Parker, Kulas and Watsica",
+      "origin": "Cambodia"
+    }
+  }
+}

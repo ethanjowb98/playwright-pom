@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wwy2jxh1 Ergonomic Bamboo Mouse",
+    "category": "meat-seafood",
+    "price": 17.05,
+    "stock": 2,
+    "details": {
+      "brand": "Fadel, Bergnaum and Carter",
+      "origin": "Uruguay"
+    }
+  }
+}

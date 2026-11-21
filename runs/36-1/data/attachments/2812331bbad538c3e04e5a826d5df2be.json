@@ -1,0 +1,19 @@
+{
+  "id": "72dac1ea-eed3-48fa-8144-641de4f0db65",
+  "order_number": "O10137",
+  "status": "delivered",
+  "total_amount": 49.74,
+  "notes": null,
+  "created_at": "2026-11-06T10:07:37.721177+00:00",
+  "updated_at": "2026-11-06T10:07:37.721177+00:00",
+  "items": [
+    {
+      "product_id": "e38962f1-a363-45ec-84c5-fff3670743f2",
+      "product_name": "QA-1-je5alqby Unbranded Marble Pizza",
+      "category": "beverages",
+      "quantity": 3,
+      "price": 16.58,
+      "temperature_zone": null
+    }
+  ]
+}

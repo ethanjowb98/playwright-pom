@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qpt7ix04 Practical Marble Computer",
+    "category": "pantry",
+    "price": 40.2,
+    "stock": 26,
+    "details": {
+      "brand": "Reinger - Gibson",
+      "origin": "South Africa"
+    }
+  }
+}

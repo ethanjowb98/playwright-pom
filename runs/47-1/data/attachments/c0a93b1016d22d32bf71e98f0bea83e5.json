@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pmt3ovzy Refined Marble Hat",
+    "category": "meat-seafood",
+    "price": 41.58,
+    "stock": 20,
+    "details": {
+      "brand": "Schmeler, Greenfelder-Koelpin and Kuhic",
+      "origin": "Cape Verde"
+    }
+  }
+}

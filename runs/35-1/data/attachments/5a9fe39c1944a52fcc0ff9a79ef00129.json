@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-p01a6nfo Rustic Cotton Keyboard",
+    "category": "dairy-eggs",
+    "price": 42.65,
+    "stock": 31,
+    "details": {
+      "brand": "Oberbrunner and Sons",
+      "origin": "Curaçao"
+    }
+  }
+}

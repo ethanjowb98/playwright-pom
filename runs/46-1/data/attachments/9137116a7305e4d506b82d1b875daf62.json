@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5ep0267i Tasty Cotton Shirt",
+    "category": "pantry",
+    "price": 26.48,
+    "stock": 21,
+    "details": {
+      "brand": "Schiller, Bruen and Hyatt",
+      "origin": "Martinique"
+    }
+  }
+}

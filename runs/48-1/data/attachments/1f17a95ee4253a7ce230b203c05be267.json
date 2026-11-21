@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-18lkugh4 sort Alpha",
+    "category": "frozen",
+    "price": 13.82,
+    "stock": 34,
+    "details": {
+      "brand": "Crooks Group",
+      "origin": "Timor-Leste"
+    }
+  }
+}

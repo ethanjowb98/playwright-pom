@@ -1,0 +1,15 @@
+{
+  "id": "2cc927d0-baa3-4902-b6b4-f45461e6cdf8",
+  "product_name": "QA-1-rvpr8y6t Generic Marble Sausages",
+  "category": "pantry",
+  "price": 9.71,
+  "stock": 43,
+  "details": {
+    "brand": "Mante-Witting - Johnston-Kirlin",
+    "origin": "Eritrea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:28:25.238748+00:00"
+}

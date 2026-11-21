@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-wnc4cyq5 Licensed Plastic Pants",
+    "category": "snacks",
+    "price": 2.62,
+    "stock": 39,
+    "details": {
+      "brand": "Gibson Group",
+      "origin": "Morocco"
+    }
+  }
+}

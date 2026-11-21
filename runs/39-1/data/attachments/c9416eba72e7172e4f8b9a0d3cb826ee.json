@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-scb8gwlq Small Cotton Ball",
+    "category": "beverages",
+    "price": 42.76,
+    "stock": 43,
+    "details": {
+      "brand": "Reichert and Sons",
+      "origin": "Christmas Island"
+    },
+    "temperature_zone": "Hot"
+  }
+}

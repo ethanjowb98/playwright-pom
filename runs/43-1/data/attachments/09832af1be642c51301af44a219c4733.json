@@ -1,0 +1,11 @@
+{
+  "message": "Basket item updated",
+  "data": {
+    "id": "88729fa8-486a-41c9-8659-a549284b0a15",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "product_id": "29f581aa-c41e-466f-a3bc-36dfe77b4cc3",
+    "quantity": 3,
+    "created_at": "2026-11-13T10:18:47.951195+00:00",
+    "updated_at": "2026-11-13T10:18:48.773328+00:00"
+  }
+}

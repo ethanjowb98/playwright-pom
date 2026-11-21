@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3rktxwii Fantastic Metal Hat",
+    "category": "other",
+    "price": 37.69,
+    "stock": 15,
+    "details": {
+      "brand": "Rohan, Fadel and Leuschke",
+      "origin": "Tokelau"
+    }
+  }
+}

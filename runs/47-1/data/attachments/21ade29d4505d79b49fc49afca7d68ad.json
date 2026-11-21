@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-gdvyyoe0 Unbranded Plastic Cheese",
+    "category": "bakery",
+    "price": 15.12,
+    "stock": 20,
+    "details": {
+      "brand": "Bode, Will and Lynch-Gusikowski",
+      "origin": "South Africa"
+    },
+    "weighted": false
+  }
+}

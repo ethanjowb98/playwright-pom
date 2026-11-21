@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "44762538-0a21-448e-9a0f-9cb1116dadd3",
+    "order_number": "O57359",
+    "status": "pending",
+    "total_amount": 134.04,
+    "created_at": "2026-11-05T09:19:21.857721+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-mefcwivz Frozen Gold Table",
+        "category": "other",
+        "quantity": 3,
+        "price": 44.68,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

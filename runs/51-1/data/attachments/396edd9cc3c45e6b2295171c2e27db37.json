@@ -1,0 +1,15 @@
+{
+  "id": "b5b4012e-0542-4601-b9f9-e7f19a3909a6",
+  "product_name": "QA-6-m0yr6gz8 Oriental Steel Fish",
+  "category": "meat-seafood",
+  "price": 5.67,
+  "stock": 41,
+  "details": {
+    "brand": "Bradtke and Sons",
+    "origin": "Falkland Islands (Malvinas)"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:51.25031+00:00"
+}

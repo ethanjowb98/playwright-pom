@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-tru1x7jc Sleek Concrete Cheese",
+    "category": "bakery",
+    "price": 21.31,
+    "stock": 34,
+    "details": {
+      "brand": "Harvey - Price",
+      "origin": "Yemen"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "d3b2caa9-e4b5-4525-8455-c81c40434918",
+      "product_id": "603de7b4-6c4a-493e-9fda-5c4366ad87c2",
+      "product_name": "QA-1-kx8g36wv Refined Metal Cheese",
+      "price": 4.45,
+      "category": "household",
+      "quantity": 3,
+      "created_at": "2026-11-21T10:31:04.775739+00:00",
+      "updated_at": "2026-11-21T10:31:04.775739+00:00"
+    },
+    {
+      "id": "7a6a9844-dded-4382-a71c-a24124e63b25",
+      "product_id": "bccf60ac-faaa-4eed-923d-0e964ff09757",
+      "product_name": "QA-1-vlbntq3p Recycled Aluminum Shirt",
+      "price": 41.29,
+      "category": "snacks",
+      "quantity": 1,
+      "created_at": "2026-11-21T10:31:04.148593+00:00",
+      "updated_at": "2026-11-21T10:31:04.148593+00:00"
+    }
+  ]
+}

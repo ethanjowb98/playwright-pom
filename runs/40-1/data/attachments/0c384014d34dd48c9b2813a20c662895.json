@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mgawxyk0 Handcrafted Metal Tuna",
+    "category": "other",
+    "price": 45.88,
+    "stock": 16,
+    "details": {
+      "brand": "Boyer - Marvin",
+      "origin": "Togo"
+    }
+  }
+}

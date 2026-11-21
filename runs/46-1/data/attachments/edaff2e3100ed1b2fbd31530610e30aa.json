@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8c0plvju Elegant Silk Car",
+    "category": "fresh-produce",
+    "price": 25.5,
+    "stock": 33,
+    "details": {
+      "brand": "Tromp - Graham",
+      "origin": "Honduras"
+    }
+  }
+}

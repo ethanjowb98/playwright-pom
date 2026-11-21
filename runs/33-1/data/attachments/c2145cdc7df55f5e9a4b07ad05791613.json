@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-au6uyh3l Small Granite Keyboard",
+    "category": "fresh-produce",
+    "price": "abc",
+    "stock": 34,
+    "details": {
+      "brand": "Hoeger - Beier",
+      "origin": "Albania"
+    }
+  }
+}

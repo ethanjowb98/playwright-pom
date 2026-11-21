@@ -1,0 +1,33 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "e3c4a07b-0940-4c46-ac6c-d3bd46c5061b",
+    "order_number": "O79395",
+    "status": "pending",
+    "total_amount": 98.94,
+    "created_at": "2026-11-18T10:55:09.674958+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-uuihk2y3 Gorgeous Granite Chicken",
+        "category": "bakery",
+        "quantity": 3,
+        "price": 11.57,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-hfmreci6 Electronic Gold Ball",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 49.22,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-4l7c81xp Refined Granite Salad",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 15.01,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

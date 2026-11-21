@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-32uewyyl Incredible Plastic Keyboard",
+    "category": "household",
+    "price": 16.75,
+    "stock": 2,
+    "details": {
+      "brand": "Schuster - Hegmann-Hagenes",
+      "origin": "Mongolia"
+    }
+  }
+}

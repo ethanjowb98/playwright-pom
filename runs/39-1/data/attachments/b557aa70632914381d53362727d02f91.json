@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5qgjr90e Incredible Steel Tuna",
+    "category": "bakery",
+    "price": 33.46,
+    "stock": 26,
+    "details": {
+      "brand": "Abshire - Olson",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

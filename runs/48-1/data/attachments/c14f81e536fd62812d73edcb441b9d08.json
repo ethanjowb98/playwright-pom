@@ -1,0 +1,29 @@
+{
+  "orders": [
+    {
+      "id": "3e1c7472-3cad-47f3-b22b-7bf9c29f5bf4",
+      "order_number": "O44777",
+      "status": "pending",
+      "total_amount": 33.75,
+      "notes": null,
+      "created_at": "2026-11-18T10:57:39.938771+00:00",
+      "updated_at": "2026-11-18T10:57:39.938771+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-g5mmenyu Refined Steel Pants",
+          "category": "pantry",
+          "quantity": 1,
+          "price": 22.56,
+          "temperature_zone": null
+        },
+        {
+          "product_name": "QA-1-6c82qvec Recycled Concrete Car",
+          "category": "meat-seafood",
+          "quantity": 3,
+          "price": 3.73,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6ipck564 Generic Metal Fish",
+    "category": "bakery",
+    "price": 48.66,
+    "stock": 48,
+    "details": {
+      "brand": "Koss, Leannon and Tromp",
+      "origin": "Tuvalu"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-yv4dm4en Gorgeous Rubber Keyboard",
+    "category": "household",
+    "price": 1.39,
+    "stock": 23,
+    "details": {
+      "brand": "Gorczany - Schmitt",
+      "origin": "Timor-Leste"
+    }
+  }
+}

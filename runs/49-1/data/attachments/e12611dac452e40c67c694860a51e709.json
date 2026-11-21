@@ -1,0 +1,15 @@
+{
+  "id": "658ca2c7-fbd7-4b90-acf0-429a0f5b027c",
+  "product_name": "QA-1-kvm4u273 Fresh Steel Gloves",
+  "category": "frozen",
+  "price": 39.8,
+  "stock": 38,
+  "details": {
+    "brand": "Dicki, Kshlerin and Johnson",
+    "origin": "Chile"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:45.667276+00:00"
+}

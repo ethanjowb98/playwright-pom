@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-brssj1th Gorgeous Gold Fish",
+    "category": "pantry",
+    "price": 27.91,
+    "stock": 34,
+    "details": {
+      "brand": "Hermann Group",
+      "origin": "Ukraine"
+    }
+  }
+}

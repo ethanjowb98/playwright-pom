@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9gspphuo Incredible Ceramic Ball",
+    "category": "dairy-eggs",
+    "price": 28.28,
+    "stock": 33,
+    "details": {
+      "brand": "Donnelly - Zemlak",
+      "origin": "Guinea"
+    }
+  }
+}

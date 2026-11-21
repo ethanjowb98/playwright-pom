@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-minmj4iy Ergonomic Gold Cheese",
+    "category": "dairy-eggs",
+    "price": 34.5,
+    "stock": 18,
+    "details": {
+      "brand": "Zboncak - Cassin",
+      "origin": "Tunisia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pmxbg13q Generic Steel Bacon",
+    "category": "bakery",
+    "price": 26.46,
+    "stock": 50,
+    "details": {
+      "brand": "Bode Group",
+      "origin": "Uruguay"
+    }
+  }
+}

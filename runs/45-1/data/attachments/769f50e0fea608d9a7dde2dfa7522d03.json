@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-o1um18j7 sort Charlie",
+    "category": "bakery",
+    "price": 7.51,
+    "stock": 33,
+    "details": {
+      "brand": "Sanford Inc",
+      "origin": "Comoros"
+    }
+  }
+}

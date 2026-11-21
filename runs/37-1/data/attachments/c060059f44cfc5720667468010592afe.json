@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "dbd85fd9-bc12-49ee-ab2e-c06bf73e10bc",
+    "order_number": "O42679",
+    "status": "pending",
+    "total_amount": 123.24,
+    "created_at": "2026-11-07T09:26:18.533794+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-gbua2fqh Recycled Gold Hat",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 33.6,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-hvb5wm6y Handmade Plastic Chips",
+        "category": "other",
+        "quantity": 1,
+        "price": 22.44,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "00c5c27e-6a6a-4686-9271-39fc0f46b546",
+  "product_name": "QA-1-gwpy1ize Unbranded Rubber Bacon",
+  "category": "bakery",
+  "price": 8.29,
+  "stock": 49,
+  "details": {
+    "brand": "Hirthe, Nikolaus and Wolff",
+    "origin": "Kyrgyz Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:46:27.978735+00:00"
+}

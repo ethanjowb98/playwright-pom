@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jnophqyp Awesome Gold Computer",
+    "category": "frozen",
+    "price": 23.35,
+    "stock": -5,
+    "details": {
+      "brand": "Bernier - Kassulke",
+      "origin": "Suriname"
+    }
+  }
+}

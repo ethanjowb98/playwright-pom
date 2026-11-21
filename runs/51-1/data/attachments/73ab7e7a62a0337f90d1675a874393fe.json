@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-1ah62oyp Gorgeous Rubber Pants",
+    "category": "pantry",
+    "price": 28.73,
+    "stock": 43,
+    "details": {
+      "brand": "Fadel Group",
+      "origin": "Kazakhstan"
+    },
+    "weighted": true
+  }
+}

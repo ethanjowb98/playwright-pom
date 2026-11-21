@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c67wn0st Electronic Wooden Salad",
+    "category": "meat-seafood",
+    "price": 34.04,
+    "stock": 12,
+    "details": {
+      "brand": "Hyatt, Hickle and Beahan",
+      "origin": "Saint Martin"
+    }
+  }
+}

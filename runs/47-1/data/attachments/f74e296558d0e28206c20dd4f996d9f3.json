@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o05ukger Modern Bronze Shirt",
+    "category": "bakery",
+    "price": 20.93,
+    "stock": 14,
+    "details": {
+      "brand": "Davis - Weber",
+      "origin": "Timor-Leste"
+    }
+  }
+}

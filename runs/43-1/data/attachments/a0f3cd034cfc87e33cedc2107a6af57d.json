@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3zdr340l Electronic Aluminum Gloves",
+    "category": "dairy-eggs",
+    "price": 29.26,
+    "stock": 37,
+    "details": {
+      "brand": "Monahan, Zulauf and Hodkiewicz",
+      "origin": "Burundi"
+    }
+  }
+}

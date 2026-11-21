@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-1qyjnp1s sort Alpha",
+    "category": "bakery",
+    "price": 30.25,
+    "stock": 36,
+    "details": {
+      "brand": "Roberts LLC",
+      "origin": "Indonesia"
+    }
+  }
+}

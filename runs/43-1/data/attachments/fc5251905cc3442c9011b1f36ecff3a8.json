@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vdg53wri Handcrafted Aluminum Computer",
+    "category": "meat-seafood",
+    "price": 9.76,
+    "stock": 28,
+    "details": {
+      "brand": "Rosenbaum LLC",
+      "origin": "Brazil"
+    }
+  }
+}

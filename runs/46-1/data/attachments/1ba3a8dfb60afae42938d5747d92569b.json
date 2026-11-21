@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xkhe79se Licensed Aluminum Sausages",
+    "category": "pantry",
+    "price": 33.59,
+    "stock": 27,
+    "details": {
+      "brand": "Hansen Inc",
+      "origin": "Indonesia"
+    }
+  }
+}

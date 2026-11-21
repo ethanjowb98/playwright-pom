@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-x669zogt Tasty Gold Cheese",
+    "category": "pantry",
+    "price": 19.86,
+    "stock": 23,
+    "details": {
+      "batch": "QA-6-h4fmdqgr batch"
+    }
+  }
+}

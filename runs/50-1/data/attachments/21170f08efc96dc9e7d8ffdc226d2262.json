@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ephtbwq9 Oriental Ceramic Shirt",
+    "category": "beverages",
+    "price": 28.62,
+    "stock": 25,
+    "details": {
+      "brand": "Nitzsche Group",
+      "origin": "Tuvalu"
+    }
+  }
+}

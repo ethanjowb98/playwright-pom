@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0i4ydlc3 Handmade Bamboo Pizza",
+    "category": "dairy-eggs",
+    "price": 20.98,
+    "stock": 21,
+    "details": {
+      "brand": "Gutmann LLC",
+      "origin": "South Africa"
+    }
+  }
+}

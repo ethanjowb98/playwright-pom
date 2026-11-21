@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "3ee4be5f-e2bf-44bc-b20d-e83a4cade82e",
+      "product_id": "2daeb633-0d39-4ff9-b7d8-a2119a46c401",
+      "product_name": "QA-1-aog3z5cz Frozen Bronze Sausages",
+      "price": 38.15,
+      "category": "pantry",
+      "quantity": 3,
+      "created_at": "2026-11-17T11:21:15.224495+00:00",
+      "updated_at": "2026-11-17T11:21:16.005063+00:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4nho1mat Handmade Silk Bacon",
+    "category": "household",
+    "price": 46.47,
+    "stock": 27,
+    "details": {
+      "brand": "Dickinson and Sons",
+      "origin": "Bouvet Island"
+    }
+  }
+}

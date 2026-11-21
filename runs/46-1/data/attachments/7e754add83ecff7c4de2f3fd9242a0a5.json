@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c6fnu0gq Incredible Rubber Car",
+    "category": "fresh-produce",
+    "price": 21.23,
+    "stock": 35,
+    "details": {
+      "brand": "Marks, Jast and Dickinson",
+      "origin": "Faroe Islands"
+    }
+  }
+}

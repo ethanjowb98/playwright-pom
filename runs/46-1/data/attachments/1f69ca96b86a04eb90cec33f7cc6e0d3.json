@@ -1,0 +1,17 @@
+[
+  {
+    "id": "8fc0849d-d035-4bb2-87c2-4fc0d79410d3",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-g9i2fihv Frozen Wooden Hat",
+    "category": "frozen",
+    "price": 27.7,
+    "details": {
+      "brand": "Abernathy Inc",
+      "origin": "Madagascar"
+    },
+    "created_at": "2026-11-16T10:22:13.66874+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": true,
+    "stock": 19
+  }
+]

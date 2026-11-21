@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s69lksp6 Rustic Aluminum Tuna",
+    "category": "household",
+    "price": 38,
+    "stock": 40,
+    "details": {
+      "brand": "Erdman and Sons",
+      "origin": "Russian Federation"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "4837c3e6-618f-401a-87bd-f3781a636d76",
+  "product_name": "QA-1-lsfdg1tv Modern Bamboo Salad",
+  "category": "meat-seafood",
+  "price": 37.47,
+  "stock": 29,
+  "details": {
+    "brand": "Zieme Group",
+    "origin": "Saint Kitts and Nevis"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:24.517641+00:00"
+}

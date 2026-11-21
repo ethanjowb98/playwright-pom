@@ -1,0 +1,15 @@
+{
+  "id": "348d3c51-5bda-4ad0-a11e-f07fe5a25273",
+  "product_name": "QA-1-s0fip36z Sleek Marble Table",
+  "category": "beverages",
+  "price": 43,
+  "stock": 41,
+  "details": {
+    "brand": "Emmerich, Okuneva and Moore",
+    "origin": "Japan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:04:48.134214+00:00"
+}

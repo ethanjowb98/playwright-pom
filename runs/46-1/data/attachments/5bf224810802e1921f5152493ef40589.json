@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nok7ap8c Ergonomic Bamboo Gloves",
+    "category": "pantry",
+    "price": 16.25,
+    "stock": 19,
+    "details": {
+      "brand": "Feil and Sons",
+      "origin": "Dominica"
+    }
+  }
+}

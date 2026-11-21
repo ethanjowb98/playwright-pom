@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1kdlggy6 Fantastic Granite Table",
+    "category": "pantry",
+    "price": 14.32,
+    "stock": 28,
+    "details": {
+      "brand": "Crist, Rice and Morar",
+      "origin": "Nauru"
+    }
+  }
+}

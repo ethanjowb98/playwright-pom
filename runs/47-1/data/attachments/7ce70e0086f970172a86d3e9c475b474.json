@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8yv5uyg2 Fantastic Metal Towels",
+    "category": "household",
+    "price": 40.02,
+    "stock": 35,
+    "details": {
+      "brand": "Batz - Donnelly",
+      "origin": "Lesotho"
+    }
+  }
+}

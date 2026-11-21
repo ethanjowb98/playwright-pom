@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-16dqb8b3 Ergonomic Bamboo Hat",
+    "category": "other",
+    "price": 48.58,
+    "stock": 41,
+    "details": {
+      "brand": "Spencer Inc",
+      "origin": "Monaco"
+    }
+  }
+}

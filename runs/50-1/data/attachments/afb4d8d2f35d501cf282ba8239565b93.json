@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2bdrxd24 Modern Steel Bacon",
+    "category": "fresh-produce",
+    "price": 43.18,
+    "stock": 40,
+    "details": {
+      "brand": "Runolfsdottir and Sons",
+      "origin": "Israel"
+    }
+  }
+}

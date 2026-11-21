@@ -1,0 +1,15 @@
+{
+  "id": "bfda5423-5ade-46ec-b530-a0fe851f2dc9",
+  "product_name": "QA-1-xozbqs24 Intelligent Bronze Car",
+  "category": "household",
+  "price": 3.78,
+  "stock": 40,
+  "details": {
+    "brand": "Lemke, Rowe and Leffler",
+    "origin": "Liberia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:42:20.646705+00:00"
+}

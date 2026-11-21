@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3bbrpoz5 Fantastic Ceramic Towels",
+    "category": "beverages",
+    "price": 39.06,
+    "stock": 29,
+    "details": {
+      "brand": "Collins LLC",
+      "origin": "El Salvador"
+    }
+  }
+}

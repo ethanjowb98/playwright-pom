@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-11u7bhp6 Soft Wooden Chips",
+    "category": "bakery",
+    "price": 12.9,
+    "stock": 10,
+    "details": {
+      "brand": "Lindgren, Luettgen and Rodriguez",
+      "origin": "Jordan"
+    }
+  }
+}

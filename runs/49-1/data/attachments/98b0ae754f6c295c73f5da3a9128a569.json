@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-wue8dmon Bespoke Concrete Ball",
+    "category": "frozen",
+    "price": 42.33,
+    "stock": "x",
+    "details": {
+      "brand": "Ritchie, Kreiger and Price",
+      "origin": "Luxembourg"
+    }
+  }
+}

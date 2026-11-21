@@ -1,0 +1,15 @@
+{
+  "id": "a63790b7-9602-4237-ad12-86fd9e617f9a",
+  "product_name": "QA-1-wudto5eu Soft Plastic Pants",
+  "category": "meat-seafood",
+  "price": 40.9,
+  "stock": 32,
+  "details": {
+    "brand": "Friesen, Murazik and Langworth",
+    "origin": "Iceland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:22:25.168456+00:00"
+}

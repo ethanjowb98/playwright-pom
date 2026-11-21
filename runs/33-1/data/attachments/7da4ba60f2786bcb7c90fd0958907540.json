@@ -1,0 +1,15 @@
+{
+  "id": "82c9fa4f-06ed-40cc-aa3f-c42bbaa3aa8b",
+  "product_name": "QA-1-8rii7l73 Small Cotton Shoes",
+  "category": "bakery",
+  "price": 17.01,
+  "stock": 27,
+  "details": {
+    "brand": "Altenwerth and Sons",
+    "origin": "Nepal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:26:06.886009+00:00"
+}

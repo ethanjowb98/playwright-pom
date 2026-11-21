@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-fnp8fkx1 sort Alpha",
+    "category": "dairy-eggs",
+    "price": 19.89,
+    "stock": 37,
+    "details": {
+      "brand": "Jacobs, Upton and Kling",
+      "origin": "Norway"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-49oslr0o Small Gold Fish",
+    "category": "pantry",
+    "price": 43.07,
+    "stock": 31,
+    "details": {
+      "brand": "Russel, Dickinson and Jaskolski",
+      "origin": "Argentina"
+    }
+  }
+}

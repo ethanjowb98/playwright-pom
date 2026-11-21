@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-9pu641de Awesome Plastic Bacon",
+    "category": "bakery",
+    "price": 20.46,
+    "stock": 34,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

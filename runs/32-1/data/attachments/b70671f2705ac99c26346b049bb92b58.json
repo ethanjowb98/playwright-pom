@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "ad5f78bf-8e67-47b9-827e-d9200ed65285",
+      "order_number": "O21049",
+      "status": "pending",
+      "total_amount": 17.03,
+      "notes": null,
+      "created_at": "2026-11-05T08:22:37.369157+00:00",
+      "updated_at": "2026-11-05T08:22:37.369157+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-ie2nvsmk Fantastic Steel Mouse",
+          "category": "pantry",
+          "quantity": 1,
+          "price": 17.03,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

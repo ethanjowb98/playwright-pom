@@ -1,0 +1,15 @@
+{
+  "id": "7cdb9e6a-eded-482e-a376-5a75ed957509",
+  "product_name": "QA-1-a65g8j2z Handcrafted Concrete Chair",
+  "category": "household",
+  "price": 2.25,
+  "stock": 29,
+  "details": {
+    "brand": "Predovic, Kirlin and Greenholt",
+    "origin": "Hong Kong"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:04:17.463724+00:00"
+}

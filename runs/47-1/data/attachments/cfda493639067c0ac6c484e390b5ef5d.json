@@ -1,0 +1,15 @@
+{
+  "id": "3caeb254-4af1-4951-96d2-179303fa53cf",
+  "product_name": "QA-1-zsnl2t5q Fantastic Bamboo Shirt",
+  "category": "bakery",
+  "price": 8.1,
+  "stock": 46,
+  "details": {
+    "brand": "Schaefer, Leuschke and Graham",
+    "origin": "Russian Federation"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:43.612501+00:00"
+}

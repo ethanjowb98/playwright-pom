@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jfb7o2mp Ergonomic Rubber Fish",
+    "category": "fresh-produce",
+    "price": 47.57,
+    "stock": 38,
+    "details": {
+      "brand": "Kub - Waelchi",
+      "origin": "Palau"
+    }
+  }
+}

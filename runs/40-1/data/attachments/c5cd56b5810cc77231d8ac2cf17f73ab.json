@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qlg8wljc Modern Marble Computer",
+    "category": "household",
+    "price": 27.93,
+    "stock": 39,
+    "details": {
+      "brand": "Will and Sons",
+      "origin": "Luxembourg"
+    }
+  }
+}

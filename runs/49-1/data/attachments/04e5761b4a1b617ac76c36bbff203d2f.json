@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "f8a96249-ccb1-4dd1-a444-4fd6cc1a3b64",
+      "product_id": "adbabc08-9c13-46df-95ed-2a41f809ed48",
+      "product_name": "QA-2-ooit6dna Ergonomic Ceramic Shirt",
+      "price": 29.34,
+      "category": "meat-seafood",
+      "quantity": 1,
+      "created_at": "2026-11-19T10:58:17.403503+00:00",
+      "updated_at": "2026-11-19T10:58:17.403503+00:00"
+    },
+    {
+      "id": "40135d69-d268-493f-a3e6-fae800f64629",
+      "product_id": "8df2ec26-d90d-4a40-b731-49b4b1da604f",
+      "product_name": "QA-2-zupyx14o Elegant Steel Hat",
+      "price": 31.87,
+      "category": "frozen",
+      "quantity": 2,
+      "created_at": "2026-11-19T10:58:17.981624+00:00",
+      "updated_at": "2026-11-19T10:58:17.981624+00:00"
+    }
+  ]
+}

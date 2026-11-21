@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vl7ram5s Rustic Rubber Shirt",
+    "category": "other",
+    "price": 39.06,
+    "stock": 23,
+    "details": {
+      "brand": "O'Hara, Batz and Mueller",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

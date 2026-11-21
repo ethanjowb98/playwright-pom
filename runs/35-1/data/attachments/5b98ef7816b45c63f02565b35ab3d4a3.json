@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "3093764b-de1d-46e1-8d62-12a8aab397bb",
+      "product_id": "009ca9d9-c26c-41fa-bc68-858c544d6751",
+      "product_name": "QA-1-sz2hgzie Small Silk Car",
+      "price": 12.75,
+      "category": "fresh-produce",
+      "quantity": 1,
+      "created_at": "2026-11-05T10:04:48.629579+00:00",
+      "updated_at": "2026-11-05T10:04:48.629579+00:00"
+    },
+    {
+      "id": "965292e6-3d74-4680-b8ef-fad4647c2819",
+      "product_id": "348d3c51-5bda-4ad0-a11e-f07fe5a25273",
+      "product_name": "QA-1-s0fip36z Sleek Marble Table",
+      "price": 43,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-05T10:04:49.177279+00:00",
+      "updated_at": "2026-11-05T10:04:49.177279+00:00"
+    }
+  ]
+}

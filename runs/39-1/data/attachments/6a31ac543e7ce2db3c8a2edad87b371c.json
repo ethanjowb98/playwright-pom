@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w1d3g64r sort Charlie",
+    "category": "frozen",
+    "price": 30.15,
+    "stock": 37,
+    "details": {
+      "brand": "McDermott Inc",
+      "origin": "Cambodia"
+    }
+  }
+}

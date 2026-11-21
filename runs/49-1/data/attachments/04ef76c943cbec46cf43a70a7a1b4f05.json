@@ -1,0 +1,15 @@
+{
+  "id": "e1b2a01b-c916-4477-b7c0-ff97d8cb972a",
+  "product_name": "QA-1-uowcyqx5 Awesome Aluminum Bacon",
+  "category": "beverages",
+  "price": 5.23,
+  "stock": 30,
+  "details": {
+    "brand": "Homenick and Sons",
+    "origin": "Brazil"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:27.302498+00:00"
+}

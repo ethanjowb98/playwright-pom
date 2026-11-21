@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9pnbod5k Soft Metal Sausages",
+    "category": "frozen",
+    "price": 44.11,
+    "stock": 50,
+    "details": {
+      "brand": "Sauer, Upton and Franey",
+      "origin": "Tonga"
+    }
+  }
+}

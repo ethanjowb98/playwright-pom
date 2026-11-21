@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wql9ecyu Elegant Bamboo Bike",
+    "category": "fresh-produce",
+    "price": 33.67,
+    "stock": 35,
+    "details": {
+      "brand": "Hoppe - Schimmel",
+      "origin": "Liechtenstein"
+    }
+  }
+}

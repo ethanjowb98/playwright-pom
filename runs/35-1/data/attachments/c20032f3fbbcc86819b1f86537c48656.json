@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8c3l045y Intelligent Bamboo Chair",
+    "category": "fresh-produce",
+    "price": 40.43,
+    "stock": 20,
+    "details": {
+      "brand": "Torp, Schoen and Ankunding",
+      "origin": "Ghana"
+    }
+  }
+}

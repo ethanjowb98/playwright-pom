@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ty7e9pp Tasty Wooden Car",
+    "category": "other",
+    "price": 16.64,
+    "stock": 2,
+    "details": {
+      "brand": "Dibbert - Hayes",
+      "origin": "Saint Martin"
+    }
+  }
+}

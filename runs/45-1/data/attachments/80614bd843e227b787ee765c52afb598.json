@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tbsd6nwg Handmade Plastic Ball",
+    "category": "fresh-produce",
+    "price": 6.2,
+    "stock": 36,
+    "details": {
+      "brand": "MacGyver - Rice",
+      "origin": "Anguilla"
+    }
+  }
+}

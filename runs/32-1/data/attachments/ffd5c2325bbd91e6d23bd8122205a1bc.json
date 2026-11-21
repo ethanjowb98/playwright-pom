@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "9d77cccf-bca3-44a5-94b7-20a33dc8f2ef",
+    "order_number": "O66341",
+    "status": "pending",
+    "total_amount": 163.83,
+    "created_at": "2026-11-05T08:22:42.808268+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-3e6li6qk Ergonomic Marble Fish",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 45.69,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-4z8wmert Rustic Granite Fish",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 26.76,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "9e90723c-5fb3-4c97-8454-32217c8b4bf8",
+  "product_name": "QA-1-6ydcgptq Incredible Silk Bacon",
+  "category": "dairy-eggs",
+  "price": 3.84,
+  "stock": 30,
+  "details": {
+    "brand": "Fisher Group",
+    "origin": "Djibouti"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:37.490855+00:00"
+}

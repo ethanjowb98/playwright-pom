@@ -1,0 +1,19 @@
+{
+  "id": "cab1b8ba-11dc-40f9-9e14-c5216b4ed461",
+  "order_number": "O33147",
+  "status": "pending",
+  "total_amount": 46.45,
+  "notes": "updated",
+  "created_at": "2026-11-20T10:46:25.279951+00:00",
+  "updated_at": "2026-11-20T10:46:25.279951+00:00",
+  "items": [
+    {
+      "product_id": "df304a09-8c39-41a1-8efd-578f3f63c028",
+      "product_name": "QA-1-gcdq5bjj Handmade Metal Ball",
+      "category": "other",
+      "quantity": 1,
+      "price": 46.45,
+      "temperature_zone": null
+    }
+  ]
+}

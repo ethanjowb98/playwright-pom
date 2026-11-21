@@ -1,0 +1,15 @@
+{
+  "id": "6864991b-7e7a-4046-8a4f-39eff602b201",
+  "product_name": "QA-1-5qmx0apj Fantastic Plastic Cheese",
+  "category": "beverages",
+  "price": 11.47,
+  "stock": 12,
+  "details": {
+    "brand": "O'Hara, Ullrich-Zieme and Bruen",
+    "origin": "Netherlands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:29:18.354442+00:00"
+}

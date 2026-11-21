@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-t1sa2q8p Rustic Silk Fish",
+    "category": "bakery",
+    "price": 47.91,
+    "stock": 30,
+    "details": {
+      "brand": "Armstrong, Homenick and Quitzon",
+      "origin": "Romania"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-op27cibm Intelligent Rubber Chicken",
+    "category": "other",
+    "price": 22.19,
+    "stock": 30,
+    "details": {
+      "brand": "Casper and Sons",
+      "origin": "Sri Lanka"
+    },
+    "temperature_zone": "Dry"
+  }
+}

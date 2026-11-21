@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e394rpfs Small Plastic Towels",
+    "category": "snacks",
+    "price": 19.75,
+    "stock": 24,
+    "details": {
+      "brand": "Davis - Beahan",
+      "origin": "Montserrat"
+    }
+  }
+}

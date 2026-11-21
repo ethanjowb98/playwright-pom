@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-2tcg0fky Elegant Steel Shoes",
+    "category": "snacks",
+    "price": 21.29,
+    "stock": 23,
+    "details": {
+      "brand": "Bradtke, Renner-O'Kon and Conroy",
+      "origin": "Oman"
+    }
+  }
+}

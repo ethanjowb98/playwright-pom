@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-7ouerost sort Charlie",
+    "category": "other",
+    "price": 41.75,
+    "stock": 48,
+    "details": {
+      "brand": "Sanford, Rempel and Schoen",
+      "origin": "Cook Islands"
+    }
+  }
+}

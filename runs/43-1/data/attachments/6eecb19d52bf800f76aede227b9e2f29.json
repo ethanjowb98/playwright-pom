@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5ix4ight Fresh Cotton Table",
+    "category": "beverages",
+    "price": 29.68,
+    "stock": 16,
+    "details": {
+      "brand": "Lebsack, Heller and Stark",
+      "origin": "Lao People's Democratic Republic"
+    }
+  }
+}

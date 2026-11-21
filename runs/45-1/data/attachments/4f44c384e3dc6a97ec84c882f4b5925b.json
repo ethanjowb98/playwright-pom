@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-68anvwl3 Gorgeous Metal Cheese",
+    "category": "bakery",
+    "price": 33.69,
+    "stock": 46,
+    "details": {
+      "brand": "Jacobson, Koch and Thiel",
+      "origin": "Falkland Islands (Malvinas)"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

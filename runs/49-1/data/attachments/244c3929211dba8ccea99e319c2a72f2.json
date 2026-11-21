@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-t39d8sw5 Practical Metal Fish",
+    "category": "fresh-produce",
+    "price": 25.07,
+    "stock": 0,
+    "details": {
+      "brand": "Sporer and Sons",
+      "origin": "Zambia"
+    }
+  }
+}

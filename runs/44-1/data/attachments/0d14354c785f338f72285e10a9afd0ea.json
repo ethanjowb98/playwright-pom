@@ -1,0 +1,15 @@
+{
+  "id": "da1b29bc-3ff4-4efb-923b-b4607a8054fd",
+  "product_name": "QA-1-sdt06laa Handmade Plastic Sausages",
+  "category": "snacks",
+  "price": 18.8,
+  "stock": 23,
+  "details": {
+    "brand": "Orn and Sons",
+    "origin": "Virgin Islands, U.S."
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:37.859849+00:00"
+}

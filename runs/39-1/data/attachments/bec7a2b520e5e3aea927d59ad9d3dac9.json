@@ -1,0 +1,15 @@
+{
+  "id": "d2bab610-4e21-4bdd-bfe3-eb3184b47809",
+  "product_name": "QA-2-w1d3g64r sort Alpha",
+  "category": "pantry",
+  "price": 29.5,
+  "stock": 21,
+  "details": {
+    "brand": "Johns Group",
+    "origin": "Somalia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:04.602742+00:00"
+}

@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "9cca8d17-2c8d-40ab-a280-59b7eecd1c7a",
+    "order_number": "O78963",
+    "status": "pending",
+    "total_amount": 48.7,
+    "created_at": "2026-11-15T10:12:33.994746+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-8ok6hnem Practical Steel Towels",
+        "category": "other",
+        "quantity": 1,
+        "price": 3.29,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-245mpwx0 Modern Bamboo Chips",
+        "category": "pantry",
+        "quantity": 1,
+        "price": 45.41,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

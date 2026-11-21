@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8r5e832u Soft Plastic Pants",
+    "category": "bakery",
+    "price": 33.36,
+    "stock": 20,
+    "details": {
+      "brand": "Krajcik - Balistreri",
+      "origin": "Saint Martin"
+    }
+  }
+}

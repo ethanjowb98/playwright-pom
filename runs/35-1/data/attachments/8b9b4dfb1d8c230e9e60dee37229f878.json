@@ -1,0 +1,27 @@
+{
+  "id": "0171bee0-e445-464b-9fc6-cb88650d4054",
+  "order_number": "O83778",
+  "status": "pending",
+  "total_amount": 98.75,
+  "notes": null,
+  "created_at": "2026-11-05T10:04:49.956728+00:00",
+  "updated_at": "2026-11-05T10:04:49.956728+00:00",
+  "items": [
+    {
+      "product_id": "009ca9d9-c26c-41fa-bc68-858c544d6751",
+      "product_name": "QA-1-sz2hgzie Small Silk Car",
+      "category": "fresh-produce",
+      "quantity": 1,
+      "price": 12.75,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "348d3c51-5bda-4ad0-a11e-f07fe5a25273",
+      "product_name": "QA-1-s0fip36z Sleek Marble Table",
+      "category": "beverages",
+      "quantity": 2,
+      "price": 43,
+      "temperature_zone": null
+    }
+  ]
+}

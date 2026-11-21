@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m4tzug42 Bespoke Gold Computer",
+    "category": "bakery",
+    "price": 30.51,
+    "stock": 37,
+    "details": {
+      "brand": "Glover - Sanford",
+      "origin": "Vietnam"
+    }
+  }
+}

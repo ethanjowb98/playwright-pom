@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-903ebhtx Awesome Metal Pants",
+    "category": "fresh-produce",
+    "price": 39.18,
+    "stock": 28,
+    "details": {
+      "brand": "Sanford LLC",
+      "origin": "Myanmar"
+    }
+  }
+}

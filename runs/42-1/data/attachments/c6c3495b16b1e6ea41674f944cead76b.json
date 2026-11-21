@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "5a4487f2-4c58-4ae3-bdc7-e225181fd45c",
+      "product_id": "078c7d74-5f1d-401e-b337-fe4c1b32edc8",
+      "product_name": "QA-1-0qv7x8x2 Elegant Concrete Shirt",
+      "price": 38.71,
+      "category": "pantry",
+      "quantity": 3,
+      "created_at": "2026-11-12T10:32:53.03445+00:00",
+      "updated_at": "2026-11-12T10:32:53.03445+00:00"
+    },
+    {
+      "id": "9f5481d9-48d7-4225-8fab-5379945715e2",
+      "product_id": "f18940ac-57fb-45c0-ae19-5bb8d8015a08",
+      "product_name": "QA-1-0qauxxia Rustic Plastic Computer",
+      "price": 36.21,
+      "category": "snacks",
+      "quantity": 1,
+      "created_at": "2026-11-12T10:32:53.686251+00:00",
+      "updated_at": "2026-11-12T10:32:53.686251+00:00"
+    }
+  ]
+}

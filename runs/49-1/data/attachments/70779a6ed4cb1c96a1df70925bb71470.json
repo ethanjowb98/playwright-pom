@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-uhysh3q1 Awesome Bronze Pizza",
+    "category": "bakery",
+    "price": 1.45,
+    "stock": 38,
+    "details": {
+      "brand": "Maggio Group",
+      "origin": "Faroe Islands"
+    }
+  }
+}

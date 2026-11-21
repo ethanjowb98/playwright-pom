@@ -1,0 +1,15 @@
+{
+  "id": "e90b35cb-c09e-4dff-969b-7a2fe6e4e83a",
+  "product_name": "QA-4-9b3eey56 Unbranded Gold Bike",
+  "category": "meat-seafood",
+  "price": 30.17,
+  "stock": 25,
+  "details": {
+    "brand": "Kunde, Kreiger and Kessler",
+    "origin": "Comoros"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:09.114265+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cwxej3cq Modern Wooden Table",
+    "category": "snacks",
+    "price": 6.11,
+    "stock": 11,
+    "details": {
+      "brand": "Rice, Terry and Turcotte",
+      "origin": "Liberia"
+    }
+  }
+}

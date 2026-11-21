@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "d036202e-ae61-4d7a-9541-d62036a0bccc",
+      "product_id": "669bb0e1-213f-476b-be6e-99de8a6f8693",
+      "product_name": "QA-1-cgrbjzpq Generic Granite Salad",
+      "price": 25.56,
+      "category": "snacks",
+      "quantity": 1,
+      "created_at": "2026-11-15T10:10:40.105207+00:00",
+      "updated_at": "2026-11-15T10:10:40.105207+00:00"
+    }
+  ]
+}

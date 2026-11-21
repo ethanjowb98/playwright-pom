@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z6x00n3a Incredible Granite Table",
+    "category": "snacks",
+    "price": 1.35,
+    "stock": 13,
+    "details": {
+      "brand": "Steuber LLC",
+      "origin": "Saudi Arabia"
+    }
+  }
+}

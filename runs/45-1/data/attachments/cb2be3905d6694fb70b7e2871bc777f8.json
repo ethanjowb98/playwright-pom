@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xdz7juts Practical Aluminum Tuna",
+    "category": "snacks",
+    "price": 11.46,
+    "stock": 23,
+    "details": {
+      "brand": "Durgan, Botsford and Murazik",
+      "origin": "Vietnam"
+    }
+  }
+}

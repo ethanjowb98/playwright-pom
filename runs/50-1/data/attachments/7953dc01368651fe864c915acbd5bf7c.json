@@ -1,0 +1,15 @@
+{
+  "id": "c564fed4-3d84-4a3e-8267-84b34e626683",
+  "product_name": "QA-1-fokf2xud sort Alpha",
+  "category": "other",
+  "price": 1.18,
+  "stock": 14,
+  "details": {
+    "brand": "Anderson Group",
+    "origin": "Australia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:06.618641+00:00"
+}

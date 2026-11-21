@@ -1,0 +1,15 @@
+{
+  "id": "205f80ed-98c8-421d-a9f9-135316645d4a",
+  "product_name": "QA-1-f1if2jjl Handmade Wooden Computer",
+  "category": "snacks",
+  "price": 34.91,
+  "stock": 50,
+  "details": {
+    "brand": "Witting Inc",
+    "origin": "Saint Pierre and Miquelon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:39.500472+00:00"
+}

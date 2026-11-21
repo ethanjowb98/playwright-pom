@@ -1,0 +1,8 @@
+{
+  "method": "POST",
+  "path": "/api/login",
+  "body": {
+    "username": "efbascug",
+    "password": "***"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d3xfgiz1 Refined Bronze Pizza",
+    "category": "snacks",
+    "price": 18.77,
+    "stock": 48,
+    "details": {
+      "brand": "Witting - Hickle",
+      "origin": "Nigeria"
+    }
+  }
+}

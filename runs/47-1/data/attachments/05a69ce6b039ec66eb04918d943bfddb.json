@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "c52624b9-8063-4c0b-89ab-3e8b35ee5799",
+      "product_id": "2cd2a721-ab72-47b4-b7ea-039f2980c81f",
+      "product_name": "QA-1-ds01up0o Intelligent Steel Bike",
+      "price": 3.72,
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "created_at": "2026-11-17T11:24:09.791605+00:00",
+      "updated_at": "2026-11-17T11:24:09.791605+00:00"
+    },
+    {
+      "id": "db44f1ab-b3c4-41c2-be26-e587be6d769d",
+      "product_id": "72f07fba-c022-48a1-8c13-bb2c3f4a978f",
+      "product_name": "QA-1-rq2mdd28 Licensed Cotton Keyboard",
+      "price": 35.23,
+      "category": "bakery",
+      "quantity": 2,
+      "created_at": "2026-11-17T11:24:10.442758+00:00",
+      "updated_at": "2026-11-17T11:24:10.442758+00:00"
+    }
+  ]
+}

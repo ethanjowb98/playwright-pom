@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-d07zugw0 sort Charlie",
+    "category": "household",
+    "price": 47.91,
+    "stock": 24,
+    "details": {
+      "brand": "McDermott LLC",
+      "origin": "Costa Rica"
+    }
+  }
+}

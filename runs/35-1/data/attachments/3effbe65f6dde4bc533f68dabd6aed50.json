@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rkd3akd0 Sleek Aluminum Hat",
+    "category": "bakery",
+    "price": 2.58,
+    "stock": 14,
+    "details": {
+      "brand": "Lynch - Reinger",
+      "origin": "Mexico"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-bexcqi2h Recycled Silk Shoes",
+    "category": "household",
+    "price": 10.32,
+    "stock": 12,
+    "details": {
+      "brand": "Powlowski - McCullough",
+      "origin": "Virgin Islands, British"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "44c568c2-08a7-4a4f-b08d-bd3c1a73a6e6",
+  "product_name": "QA-1-325fq45l Luxurious Silk Computer",
+  "category": "bakery",
+  "price": 17.01,
+  "stock": 22,
+  "details": {
+    "brand": "Senger - Wisozk",
+    "origin": "Marshall Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:23:17.032778+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ftsp9ri Ergonomic Bronze Bacon",
+    "category": "household",
+    "price": 33.23,
+    "stock": 2,
+    "details": {
+      "brand": "McKenzie - Lehner",
+      "origin": "Dominica"
+    }
+  }
+}

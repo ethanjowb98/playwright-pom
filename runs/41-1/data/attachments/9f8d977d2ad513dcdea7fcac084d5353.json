@@ -1,0 +1,62 @@
+[
+  {
+    "id": "d2916cea-14d8-40e5-a8a5-9e179337e17a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-mx2k69s9 sort Bravo",
+    "category": "snacks",
+    "price": 35.53,
+    "details": {
+      "brand": "Hilll, Langosh and Kemmer",
+      "origin": "Mongolia"
+    },
+    "created_at": "2026-11-11T10:00:27.591666+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 15
+  },
+  {
+    "id": "915ccad9-81a3-43af-9bde-d42cc395a736",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-7zwdwpaf sort Bravo",
+    "category": "snacks",
+    "price": 5.13,
+    "details": {
+      "brand": "Emard - Leuschke",
+      "origin": "Samoa"
+    },
+    "created_at": "2026-11-11T10:00:27.205262+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 42
+  },
+  {
+    "id": "486968b3-d3b2-4c5d-9886-f187dfc1f4c4",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-7zwdwpaf sort Charlie",
+    "category": "snacks",
+    "price": 45.31,
+    "details": {
+      "brand": "Fay and Sons",
+      "origin": "Nicaragua"
+    },
+    "created_at": "2026-11-11T10:00:27.775684+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 26
+  },
+  {
+    "id": "cc0ab19f-bc7b-4fc5-a78d-c62bd89ba5e2",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-4-dnmocldf Oriental Granite Table",
+    "category": "snacks",
+    "price": 7.32,
+    "details": {
+      "brand": "Hackett, Prohaska and Champlin",
+      "origin": "Pakistan"
+    },
+    "created_at": "2026-11-11T10:00:27.66274+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 36
+  }
+]

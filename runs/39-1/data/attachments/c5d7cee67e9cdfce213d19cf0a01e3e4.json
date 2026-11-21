@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-9cnjhx0j Luxurious Bamboo Salad",
+    "category": "bakery",
+    "price": 13.13,
+    "stock": 29,
+    "details": {
+      "brand": "Schaden - Goyette",
+      "origin": "Palau"
+    }
+  }
+}

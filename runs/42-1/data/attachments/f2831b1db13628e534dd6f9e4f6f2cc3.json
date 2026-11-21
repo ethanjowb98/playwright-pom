@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vmaezsmh Unbranded Gold Bacon",
+    "category": "household",
+    "price": 13.27,
+    "stock": 25,
+    "details": {
+      "brand": "Roberts, Dooley and Homenick",
+      "origin": "Mali"
+    }
+  }
+}

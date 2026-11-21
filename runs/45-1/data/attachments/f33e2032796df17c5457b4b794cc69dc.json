@@ -1,0 +1,15 @@
+{
+  "id": "435bbb2c-6a49-40a4-b117-0c4e6384bcbb",
+  "product_name": "QA-1-t1pmzox6 Intelligent Gold Table",
+  "category": "bakery",
+  "price": 21.47,
+  "stock": 11,
+  "details": {
+    "brand": "Nienow - Haley",
+    "origin": "Guyana"
+  },
+  "temperature_zone": "Dry",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:36.94946+00:00"
+}

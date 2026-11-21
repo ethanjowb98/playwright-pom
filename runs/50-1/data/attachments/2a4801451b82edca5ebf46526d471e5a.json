@@ -1,0 +1,15 @@
+{
+  "id": "ef8d1800-aed6-4939-b2a7-f6787f374dde",
+  "product_name": "QA-3-4sda3a6o Modern Bronze Shoes",
+  "category": "household",
+  "price": 3.14,
+  "stock": 18,
+  "details": {
+    "brand": "Nienow - Dicki",
+    "origin": "Andorra"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:08.917696+00:00"
+}

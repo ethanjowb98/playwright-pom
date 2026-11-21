@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rbuj5amk Small Gold Computer",
+    "category": "household",
+    "price": 4.27,
+    "stock": 29,
+    "details": {
+      "brand": "King, Stehr and Wehner",
+      "origin": "Argentina"
+    }
+  }
+}

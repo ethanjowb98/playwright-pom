@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-cxdt62i9 Bespoke Cotton Sausages",
+    "category": "household",
+    "price": "abc",
+    "stock": 34,
+    "details": {
+      "brand": "Schiller - Ortiz",
+      "origin": "Anguilla"
+    }
+  }
+}

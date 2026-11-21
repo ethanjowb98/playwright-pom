@@ -1,0 +1,15 @@
+{
+  "id": "de689a9e-0dc8-4f14-b101-cae911a1a1a7",
+  "product_name": "QA-1-iny6qguw Gorgeous Bronze Fish",
+  "category": "beverages",
+  "price": 8.53,
+  "stock": 38,
+  "details": {
+    "brand": "Acme",
+    "origin": "Spain"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:36.89429+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gcvv2929 Practical Plastic Computer",
+    "category": "frozen",
+    "price": 11.23,
+    "stock": 30,
+    "details": {
+      "brand": "Rippin, Muller and Powlowski",
+      "origin": "Benin"
+    }
+  }
+}

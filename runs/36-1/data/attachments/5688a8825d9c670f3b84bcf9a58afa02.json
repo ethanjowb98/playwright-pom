@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oqeg0pnn Fresh Cotton Shirt",
+    "category": "dairy-eggs",
+    "price": 12.28,
+    "stock": 23,
+    "details": {
+      "brand": "Wuckert - Zieme",
+      "origin": "Lao People's Democratic Republic"
+    }
+  }
+}

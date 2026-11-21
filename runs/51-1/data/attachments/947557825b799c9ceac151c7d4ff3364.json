@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-vc9m6xko Fresh Bamboo Hat",
+    "price": 15.55,
+    "stock": 50,
+    "details": {
+      "brand": "Kris and Sons",
+      "origin": "Kuwait"
+    }
+  }
+}

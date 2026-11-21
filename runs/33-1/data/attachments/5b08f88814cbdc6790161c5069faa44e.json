@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-q6182ppy Practical Cotton Chicken",
+    "price": 2.63,
+    "stock": 34,
+    "details": {
+      "brand": "Kiehn - Feil",
+      "origin": "Croatia"
+    }
+  }
+}

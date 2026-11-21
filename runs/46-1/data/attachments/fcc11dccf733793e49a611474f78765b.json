@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sq7290d7 Soft Silk Keyboard",
+    "category": "pantry",
+    "price": 1.37,
+    "stock": 26,
+    "details": {
+      "brand": "Kub and Sons",
+      "origin": "Yemen"
+    }
+  }
+}

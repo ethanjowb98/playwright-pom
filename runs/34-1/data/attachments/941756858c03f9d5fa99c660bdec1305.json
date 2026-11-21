@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-nn2wkpw4 Modern Granite Soap",
+    "category": "beverages",
+    "price": 46.18,
+    "stock": 13,
+    "details": {
+      "brand": "Smith Group",
+      "origin": "Oman"
+    },
+    "weighted": false
+  }
+}

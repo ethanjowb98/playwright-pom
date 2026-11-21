@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lwah5sy8 Elegant Metal Tuna",
+    "category": "snacks",
+    "price": 29.28,
+    "stock": 32,
+    "details": {
+      "brand": "Pfannerstill-Ledner, Hettinger and Gutkowski",
+      "origin": "Bangladesh"
+    }
+  }
+}

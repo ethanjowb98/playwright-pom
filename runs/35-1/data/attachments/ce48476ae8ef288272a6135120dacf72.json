@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pe8hayji Fresh Wooden Towels",
+    "category": "other",
+    "price": 25.16,
+    "stock": 45,
+    "details": {
+      "brand": "Dibbert and Sons",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

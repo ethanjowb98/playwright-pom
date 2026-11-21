@@ -1,0 +1,15 @@
+{
+  "id": "5a2c0224-deaa-40a9-8741-8f4f089f3bb2",
+  "product_name": "QA-3-bzkhx349 Generic Rubber Car",
+  "category": "household",
+  "price": 15.31,
+  "stock": 43,
+  "details": {
+    "brand": "Hyatt, Braun and Gislason",
+    "origin": "Norway"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:48.044501+00:00"
+}

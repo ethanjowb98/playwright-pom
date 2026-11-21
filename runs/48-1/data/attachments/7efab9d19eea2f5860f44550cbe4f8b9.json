@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-g0a4ijmv Elegant Ceramic Fish",
+    "category": "beverages",
+    "price": 12.78,
+    "stock": 15,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

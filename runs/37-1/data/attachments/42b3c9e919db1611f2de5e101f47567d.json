@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b0i5f8gf Unbranded Gold Sausages",
+    "category": "beverages",
+    "price": 37.79,
+    "stock": 39,
+    "details": {
+      "brand": "Blanda - Abbott",
+      "origin": "Guam"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l3rezk1g Licensed Aluminum Car",
+    "category": "fresh-produce",
+    "price": 47.05,
+    "stock": 24,
+    "details": {
+      "brand": "Yost Group",
+      "origin": "Sint Maarten"
+    }
+  }
+}

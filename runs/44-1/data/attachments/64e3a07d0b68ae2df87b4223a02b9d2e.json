@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9nxfc1dw Gorgeous Rubber Pizza",
+    "category": "other",
+    "price": 16.47,
+    "stock": 19,
+    "details": {
+      "brand": "Sporer, Feest and Koch",
+      "origin": "Uruguay"
+    }
+  }
+}

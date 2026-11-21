@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7fa62157 Awesome Bronze Fish",
+    "category": "beverages",
+    "price": 12.67,
+    "stock": 12,
+    "details": {
+      "brand": "Nicolas, O'Connell and DuBuque",
+      "origin": "Ecuador"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nkgihloz Recycled Rubber Ball",
+    "category": "other",
+    "price": 9.67,
+    "stock": 15,
+    "details": {
+      "brand": "Jaskolski Inc",
+      "origin": "Saint Lucia"
+    }
+  }
+}

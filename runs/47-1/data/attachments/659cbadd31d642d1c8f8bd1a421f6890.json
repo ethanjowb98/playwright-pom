@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xsvxmklt Unbranded Gold Chair",
+    "category": "meat-seafood",
+    "price": 37.27,
+    "stock": 49,
+    "details": {
+      "brand": "Weissnat LLC",
+      "origin": "China"
+    }
+  }
+}

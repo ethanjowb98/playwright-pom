@@ -1,0 +1,15 @@
+{
+  "id": "bd915c25-2cd5-44d7-b0c0-eae244b96edf",
+  "product_name": "QA-7-l4my2qp5 sort Bravo",
+  "category": "pantry",
+  "price": 19.83,
+  "stock": 35,
+  "details": {
+    "brand": "Vandervort-Lindgren and Sons",
+    "origin": "Guyana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:43:58.066427+00:00"
+}

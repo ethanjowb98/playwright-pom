@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jpcns54v Fantastic Gold Table",
+    "category": "snacks",
+    "price": 31.39,
+    "stock": 24,
+    "details": {
+      "brand": "Turner LLC",
+      "origin": "Croatia"
+    }
+  }
+}

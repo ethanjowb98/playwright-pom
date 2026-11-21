@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uuqwf30q Practical Marble Fish",
+    "category": "household",
+    "price": 1.68,
+    "stock": 13,
+    "details": {
+      "brand": "Wisoky Inc",
+      "origin": "Martinique"
+    }
+  }
+}

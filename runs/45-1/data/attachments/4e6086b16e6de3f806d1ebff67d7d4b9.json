@@ -1,0 +1,15 @@
+{
+  "id": "3c3e9caf-150a-4f8d-9b28-1bfae57c8da0",
+  "product_name": "QA-1-2h1djojv Tasty Bronze Gloves",
+  "category": "frozen",
+  "price": 46.48,
+  "stock": 42,
+  "details": {
+    "brand": "Jones - Kerluke",
+    "origin": "Palestine"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:56.744467+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sd2jozb2 Intelligent Bronze Soap",
+    "category": "other",
+    "price": 12.02,
+    "stock": 31,
+    "details": {
+      "brand": "O'Hara-Moen, Jones and Schmeler",
+      "origin": "Peru"
+    }
+  }
+}

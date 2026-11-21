@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hvbsr6rp Modern Concrete Chair",
+    "category": "bakery",
+    "price": 29.4,
+    "stock": 24,
+    "details": {
+      "brand": "Marquardt LLC",
+      "origin": "Maldives"
+    }
+  }
+}

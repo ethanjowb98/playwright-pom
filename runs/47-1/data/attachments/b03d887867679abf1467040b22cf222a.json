@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fgl4rzhz Soft Cotton Pants",
+    "category": "pantry",
+    "price": 37.9,
+    "stock": 12,
+    "details": {
+      "brand": "Lehner and Sons",
+      "origin": "Lao People's Democratic Republic"
+    }
+  }
+}

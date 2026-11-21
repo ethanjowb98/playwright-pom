@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "b7698ebd-762e-438f-860e-fbd6d7cbdd18",
+    "order_number": "O18829",
+    "status": "pending",
+    "total_amount": 25.56,
+    "created_at": "2026-11-15T10:10:40.946325+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-cgrbjzpq Generic Granite Salad",
+        "category": "snacks",
+        "quantity": 1,
+        "price": 25.56,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

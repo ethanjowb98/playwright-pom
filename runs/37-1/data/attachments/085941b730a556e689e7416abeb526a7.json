@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-sqe58r1k sort Alpha",
+    "category": "dairy-eggs",
+    "price": 10.6,
+    "stock": 11,
+    "details": {
+      "brand": "Mayer-Friesen LLC",
+      "origin": "South Georgia and the South Sandwich Islands"
+    }
+  }
+}

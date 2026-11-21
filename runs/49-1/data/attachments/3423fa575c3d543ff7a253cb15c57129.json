@@ -1,0 +1,15 @@
+{
+  "id": "41d24444-25e1-46d5-9bfd-aeea6ccd7474",
+  "product_name": "QA-2-xb5rbk0s Modern Cotton Pizza",
+  "category": "snacks",
+  "price": 35.45,
+  "stock": 40,
+  "details": {
+    "brand": "Prosacco Inc",
+    "origin": "South Sudan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:24.252151+00:00"
+}

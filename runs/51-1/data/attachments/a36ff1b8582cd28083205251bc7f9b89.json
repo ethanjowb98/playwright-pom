@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tker9zd7 Incredible Rubber Table",
+    "category": "household",
+    "price": 2.28,
+    "stock": 16,
+    "details": {
+      "brand": "Waters - Doyle",
+      "origin": "North Macedonia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-0d5rdpj2 Licensed Gold Chips",
+    "category": "fresh-produce",
+    "price": 15.9,
+    "stock": 20,
+    "details": {
+      "brand": "Harvey, Balistreri and Cummerata",
+      "origin": "Guadeloupe"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

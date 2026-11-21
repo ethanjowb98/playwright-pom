@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-nxex3qce sort Bravo",
+    "category": "other",
+    "price": 9.46,
+    "stock": 25,
+    "details": {
+      "brand": "Tromp LLC",
+      "origin": "Croatia"
+    }
+  }
+}

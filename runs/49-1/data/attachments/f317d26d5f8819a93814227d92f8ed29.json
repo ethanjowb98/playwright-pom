@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-jogee1vq Gorgeous Ceramic Towels",
+    "category": "fresh-produce",
+    "price": "abc",
+    "stock": 23,
+    "details": {
+      "brand": "Walter - Boyle",
+      "origin": "Spain"
+    }
+  }
+}

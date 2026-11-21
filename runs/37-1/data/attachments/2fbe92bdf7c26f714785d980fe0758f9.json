@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "18d1f22e-90de-471b-8809-f37433241565",
+    "order_number": "O72791",
+    "status": "pending",
+    "total_amount": 3.6,
+    "created_at": "2026-11-07T09:26:52.06143+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-10vogdqq Licensed Ceramic Sausages",
+        "category": "other",
+        "quantity": 3,
+        "price": 1.2,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

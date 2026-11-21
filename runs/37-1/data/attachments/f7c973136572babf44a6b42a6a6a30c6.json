@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wuv3hr2k Electronic Concrete Tuna",
+    "category": "dairy-eggs",
+    "price": 11.3,
+    "stock": -5,
+    "details": {
+      "brand": "Simonis, Lind and Zboncak",
+      "origin": "Panama"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-rg29iuh5 Practical Aluminum Mouse",
+    "category": "frozen",
+    "price": 20.81,
+    "stock": 23,
+    "details": {
+      "brand": "VonRueden - Mitchell",
+      "origin": "Colombia"
+    },
+    "temperature_zone": "Dry"
+  }
+}

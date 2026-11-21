@@ -1,0 +1,15 @@
+{
+  "id": "85bea870-6298-4d20-866b-685015c3a7bc",
+  "product_name": "QA-1-33g5z324 Handcrafted Marble Chicken",
+  "category": "bakery",
+  "price": 9.32,
+  "stock": 41,
+  "details": {
+    "brand": "Casper, Pollich and Nolan",
+    "origin": "China"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:25:05.367483+00:00"
+}

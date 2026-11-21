@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "cf310f12-592d-46fa-9c72-6588659dc39a",
+      "product_id": "532610d1-247d-40f8-b254-1c7698b08949",
+      "product_name": "QA-1-m9rw6np0 Generic Cotton Pants",
+      "price": 13.49,
+      "category": "beverages",
+      "quantity": 1,
+      "created_at": "2026-11-16T10:25:36.329396+00:00",
+      "updated_at": "2026-11-16T10:25:36.329396+00:00"
+    },
+    {
+      "id": "1c9d265b-6cbf-47c1-8292-364d3ce94f09",
+      "product_id": "246e986e-64a1-4878-b1c3-1ac5a5d16e6f",
+      "product_name": "QA-1-2dob61mo Fresh Concrete Pizza",
+      "price": 7.55,
+      "category": "meat-seafood",
+      "quantity": 3,
+      "created_at": "2026-11-16T10:25:36.937839+00:00",
+      "updated_at": "2026-11-16T10:25:36.937839+00:00"
+    }
+  ]
+}

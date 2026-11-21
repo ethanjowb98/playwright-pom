@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e9v1hqqa Practical Plastic Salad",
+    "category": "bakery",
+    "price": 12.96,
+    "stock": 20,
+    "details": {
+      "brand": "Altenwerth - Goldner",
+      "origin": "Yemen"
+    }
+  }
+}

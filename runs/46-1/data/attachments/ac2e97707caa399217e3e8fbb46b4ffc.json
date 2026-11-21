@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-cf678co1 Incredible Plastic Pants",
+    "category": "frozen",
+    "price": 7.48,
+    "stock": 44,
+    "details": {
+      "brand": "Collins-Hintz LLC",
+      "origin": "Togo"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "a4e1ebc0-ae8d-4cbd-87fc-9befb11c93a5",
+  "product_name": "QA-1-6rum2485 Practical Wooden Tuna",
+  "category": "other",
+  "price": 49.55,
+  "stock": 23,
+  "details": {
+    "brand": "Kessler - Gottlieb",
+    "origin": "Saint Barthélemy"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:08:03.499515+00:00"
+}

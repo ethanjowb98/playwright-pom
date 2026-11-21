@@ -1,0 +1,15 @@
+{
+  "id": "5c28a3e5-4abc-44f7-a75d-1b48d540ac0d",
+  "product_name": "QA-1-z3l819vg Practical Marble Chicken",
+  "category": "bakery",
+  "price": 11.93,
+  "stock": 31,
+  "details": {
+    "brand": "Franey, Ullrich and Schiller",
+    "origin": "Saint Martin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:24.02782+00:00"
+}

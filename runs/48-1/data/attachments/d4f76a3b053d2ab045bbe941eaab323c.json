@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-9gag92od Elegant Silk Pants",
+    "category": "bakery",
+    "price": 13.51,
+    "stock": 16,
+    "details": {
+      "brand": "Hodkiewicz Group",
+      "origin": "Peru"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

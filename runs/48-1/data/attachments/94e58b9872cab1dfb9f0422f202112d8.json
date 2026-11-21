@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-x53zfoqo Generic Ceramic Shoes",
+    "category": "other",
+    "price": 20.8,
+    "stock": 33,
+    "details": {
+      "brand": "Weimann - Ebert",
+      "origin": "Israel"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

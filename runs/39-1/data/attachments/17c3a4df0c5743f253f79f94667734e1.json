@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-hytvnsl6 Modern Granite Bike",
+    "category": "meat-seafood",
+    "price": 40.46,
+    "stock": 35,
+    "details": {
+      "brand": "Rippin, Vandervort and Harber",
+      "origin": "Burundi"
+    }
+  }
+}

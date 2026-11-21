@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-5klax729 Recycled Cotton Shoes",
+    "category": "frozen",
+    "price": 9.58,
+    "stock": 20,
+    "details": {
+      "brand": "Gulgowski, Stoltenberg and Wunsch",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

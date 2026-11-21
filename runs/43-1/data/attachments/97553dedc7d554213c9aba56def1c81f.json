@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ezpp14s5 Recycled Concrete Mouse",
+    "category": "other",
+    "price": 34.33,
+    "stock": 36,
+    "details": {
+      "brand": "Gorczany - Metz",
+      "origin": "Bhutan"
+    }
+  }
+}

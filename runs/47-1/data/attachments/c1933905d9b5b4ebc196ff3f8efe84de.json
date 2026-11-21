@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-znctwd2i Modern Rubber Sausages",
+    "category": "meat-seafood",
+    "price": 41.06,
+    "stock": 43,
+    "details": {
+      "brand": "Hills Inc",
+      "origin": "Nicaragua"
+    }
+  }
+}

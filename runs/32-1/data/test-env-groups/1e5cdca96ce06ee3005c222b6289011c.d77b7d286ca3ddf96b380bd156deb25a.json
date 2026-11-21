@@ -1,0 +1,1 @@
+{"id":"1e5cdca96ce06ee3005c222b6289011c.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/auth.api.spec.ts › Auth API › Account-wide calls › should return 401 when a basket item is removed with a invalid api key","name":"should return 401 when a basket item is removed with a invalid api key","status":"passed","testResultsByEnv":{"default":"e9931cb7e06133756d6f5e53fda3e503"}}

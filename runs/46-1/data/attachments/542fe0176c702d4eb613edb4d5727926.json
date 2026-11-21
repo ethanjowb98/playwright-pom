@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ue8i5mj0 Elegant Bamboo Table",
+    "category": "meat-seafood",
+    "price": 12.37,
+    "stock": 44,
+    "details": {
+      "brand": "Dicki and Sons",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

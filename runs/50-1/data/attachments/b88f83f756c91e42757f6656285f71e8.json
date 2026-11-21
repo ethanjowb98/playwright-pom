@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-swrleofh Unbranded Bronze Shirt",
+    "category": "snacks",
+    "price": 10.06,
+    "stock": 41,
+    "details": {
+      "brand": "Stracke, Connelly-Mante and Thiel",
+      "origin": "Kenya"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

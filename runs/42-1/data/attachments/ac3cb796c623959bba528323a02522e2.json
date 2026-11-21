@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "08abe12c-20dc-4fe8-9652-a66488afecd0",
+    "order_number": "O92324",
+    "status": "pending",
+    "total_amount": 110.33,
+    "created_at": "2026-11-12T10:30:07.004296+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-stzyl718 Handmade Marble Sausages",
+        "category": "household",
+        "quantity": 2,
+        "price": 46.07,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-4qeebp0z Incredible Concrete Shirt",
+        "category": "bakery",
+        "quantity": 1,
+        "price": 18.19,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uhkjtmam Recycled Marble Cheese",
+    "category": "other",
+    "price": 25.55,
+    "stock": 10,
+    "details": {
+      "brand": "Rohan - Kiehn",
+      "origin": "Egypt"
+    }
+  }
+}

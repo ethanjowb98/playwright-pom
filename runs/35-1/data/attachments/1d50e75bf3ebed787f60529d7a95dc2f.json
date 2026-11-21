@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o6b2pi84 Licensed Concrete Bike",
+    "category": "dairy-eggs",
+    "price": 6.02,
+    "stock": 10,
+    "details": {
+      "brand": "Hauck, Hills and O'Keefe",
+      "origin": "Montenegro"
+    }
+  }
+}

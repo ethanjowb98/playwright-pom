@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u3b604a6 Soft Wooden Tuna",
+    "category": "meat-seafood",
+    "stock": 37,
+    "details": {
+      "brand": "Dicki - Huels",
+      "origin": "Cameroon"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-yomeinp5 Awesome Metal Bacon",
+    "category": "household",
+    "price": 27.74,
+    "stock": 48,
+    "details": {
+      "brand": "Hane and Sons",
+      "origin": "United Kingdom"
+    }
+  }
+}

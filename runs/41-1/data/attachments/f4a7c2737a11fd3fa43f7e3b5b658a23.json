@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-awad3a0g Rustic Marble Bacon",
+    "category": "frozen",
+    "price": 6.34,
+    "stock": 38,
+    "details": {
+      "batch": "QA-6-4tbyebfo batch"
+    }
+  }
+}

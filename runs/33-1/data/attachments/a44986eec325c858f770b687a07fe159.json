@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e20k6j20 Fantastic Rubber Pizza",
+    "category": "other",
+    "price": 34.26,
+    "stock": 37,
+    "details": {
+      "brand": "Nitzsche-Mueller LLC",
+      "origin": "Comoros"
+    }
+  }
+}

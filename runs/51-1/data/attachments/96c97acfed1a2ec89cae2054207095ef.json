@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c2p8olme Intelligent Metal Pizza",
+    "category": "bakery",
+    "price": 16.99,
+    "stock": 24,
+    "details": {
+      "brand": "Macejkovic and Sons",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

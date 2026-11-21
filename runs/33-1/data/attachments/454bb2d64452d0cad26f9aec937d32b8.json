@@ -1,0 +1,15 @@
+{
+  "id": "48b01500-8061-4788-b2ce-edbe466add36",
+  "product_name": "QA-3-w5ywv0i8 sort Alpha",
+  "category": "meat-seafood",
+  "price": 22.69,
+  "stock": 38,
+  "details": {
+    "brand": "Wolff LLC",
+    "origin": "Saint Martin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:49.454052+00:00"
+}

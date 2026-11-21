@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "c362696e-a831-445c-94f8-1a2d3bda7626",
+    "order_number": "O27289",
+    "status": "pending",
+    "total_amount": 142.86,
+    "created_at": "2026-11-05T08:25:49.327043+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-5fpb74i8 Fantastic Wooden Ball",
+        "category": "household",
+        "quantity": 3,
+        "price": 47.62,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

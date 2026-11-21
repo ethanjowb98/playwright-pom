@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-kflm8gcr Fantastic Metal Shoes",
+    "category": "household",
+    "price": 25.43,
+    "stock": 45,
+    "details": {
+      "brand": "Rath and Sons",
+      "origin": "Bosnia and Herzegovina"
+    }
+  }
+}

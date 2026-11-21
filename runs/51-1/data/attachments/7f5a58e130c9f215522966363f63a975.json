@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a2odxo56 Tasty Marble Car",
+    "category": "bakery",
+    "price": 35.7,
+    "stock": 29,
+    "details": {
+      "brand": "Roob Inc",
+      "origin": "Kenya"
+    }
+  }
+}

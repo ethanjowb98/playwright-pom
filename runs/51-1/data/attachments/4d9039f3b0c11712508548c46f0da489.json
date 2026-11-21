@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oqfnfzls Luxurious Plastic Chips",
+    "category": "household",
+    "price": 44.28,
+    "stock": 12,
+    "details": {
+      "brand": "Stehr, Daugherty and Swaniawski",
+      "origin": "Gabon"
+    }
+  }
+}

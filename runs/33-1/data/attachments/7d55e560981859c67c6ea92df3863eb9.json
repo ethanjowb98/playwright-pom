@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-jwos3jpr Frozen Granite Ball",
+    "category": "frozen",
+    "price": 42.62,
+    "stock": 10,
+    "details": {
+      "brand": "Kertzmann and Sons",
+      "origin": "Italy"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

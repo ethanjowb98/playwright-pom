@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-occcmsmb sort Charlie",
+    "category": "pantry",
+    "price": 30.7,
+    "stock": 17,
+    "details": {
+      "brand": "Kshlerin, Ortiz and Rippin",
+      "origin": "Gibraltar"
+    }
+  }
+}

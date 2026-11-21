@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "c272da0c-7b33-43e9-b5a2-1ea6a401e88b",
+      "product_id": "cf252f5f-3e14-4e6d-9ef2-b2a93dfebb81",
+      "product_name": "QA-1-3h7d634q Frozen Ceramic Salad",
+      "price": 45.06,
+      "category": "beverages",
+      "quantity": 3,
+      "created_at": "2026-11-18T10:54:25.411822+00:00",
+      "updated_at": "2026-11-18T10:54:25.925649+00:00"
+    }
+  ]
+}

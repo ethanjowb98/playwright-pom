@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-cfjv9gyt Recycled Aluminum Cheese",
+    "category": "other",
+    "price": 14.94,
+    "stock": 10,
+    "details": {
+      "brand": "Klein Inc",
+      "origin": "Jersey"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l14xpwo0 Gorgeous Wooden Chair",
+    "category": "other",
+    "price": 29.16,
+    "stock": 30,
+    "details": {
+      "brand": "Stoltenberg, Botsford and Monahan",
+      "origin": "Slovenia"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

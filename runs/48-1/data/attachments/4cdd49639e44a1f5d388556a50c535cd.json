@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hu9zsa9s Frozen Steel Tuna",
+    "category": "meat-seafood",
+    "price": 34.74,
+    "stock": 33,
+    "details": {
+      "brand": "Paucek Inc",
+      "origin": "Republic of Korea"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "d4175ebd-9025-4be5-953e-11ae2436f6e8",
+  "product_name": "QA-1-qgur0gmv Soft Plastic Mouse",
+  "category": "bakery",
+  "price": 20.9,
+  "stock": 47,
+  "details": {
+    "brand": "Thiel, Koch and Frami",
+    "origin": "Cocos (Keeling) Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:15.109788+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lj8u395i Rustic Bronze Chair",
+    "category": "frozen",
+    "price": 33.07,
+    "stock": 29,
+    "details": {
+      "brand": "Tillman, Berge and Mayer",
+      "origin": "Iraq"
+    }
+  }
+}

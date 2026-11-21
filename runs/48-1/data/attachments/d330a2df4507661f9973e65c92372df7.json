@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8yira9pt Sleek Concrete Table",
+    "category": "beverages",
+    "price": 29.12,
+    "stock": 29,
+    "details": {
+      "brand": "Haley - Leannon",
+      "origin": "Uruguay"
+    }
+  }
+}

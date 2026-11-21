@@ -1,0 +1,15 @@
+{
+  "id": "76102aab-5d8e-48db-b1ec-b2d470f2945f",
+  "product_name": "QA-1-z96d3xmf Elegant Bronze Chicken",
+  "category": "bakery",
+  "price": 18.14,
+  "stock": 26,
+  "details": {
+    "brand": "Tillman - Swaniawski",
+    "origin": "Bonaire, Sint Eustatius and Saba"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:53.078917+00:00"
+}

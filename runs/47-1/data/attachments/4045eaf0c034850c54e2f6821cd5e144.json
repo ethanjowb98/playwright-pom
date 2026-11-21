@@ -1,0 +1,15 @@
+{
+  "id": "b08bd928-ae29-4f62-a602-b789d0a7f6a7",
+  "product_name": "QA-1-znctwd2i Modern Rubber Sausages",
+  "category": "meat-seafood",
+  "price": 41.06,
+  "stock": 43,
+  "details": {
+    "brand": "Hills Inc",
+    "origin": "Nicaragua"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:21:59.799302+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w7r6r3fz Handcrafted Granite Ball",
+    "category": "dairy-eggs",
+    "price": 17.06,
+    "stock": 45,
+    "details": {
+      "brand": "Mante, Jerde and Kunze",
+      "origin": "Indonesia"
+    }
+  }
+}

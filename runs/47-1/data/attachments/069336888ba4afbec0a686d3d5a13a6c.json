@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-fvdvbo3r Modern Plastic Keyboard",
+    "category": "frozen",
+    "price": 12.93,
+    "stock": 48,
+    "details": {
+      "brand": "Ortiz - Casper-Kilback",
+      "origin": "Turkmenistan"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b3afeccd-f849-41bc-a02f-ef595f109e54",
+  "product_name": "QA-8-fnp8fkx1 sort Alpha",
+  "category": "dairy-eggs",
+  "price": 19.89,
+  "stock": 37,
+  "details": {
+    "brand": "Jacobs, Upton and Kling",
+    "origin": "Norway"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:33.126646+00:00"
+}

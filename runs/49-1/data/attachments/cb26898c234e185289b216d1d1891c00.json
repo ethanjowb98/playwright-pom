@@ -1,0 +1,15 @@
+{
+  "id": "4d06ad0e-92bd-4ed2-ae0b-2a0385283091",
+  "product_name": "QA-2-8esbnvas Handmade Granite Salad",
+  "category": "meat-seafood",
+  "price": 24.06,
+  "stock": 35,
+  "details": {
+    "brand": "Luettgen, Wiza and Torp",
+    "origin": "Paraguay"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:56:20.506983+00:00"
+}

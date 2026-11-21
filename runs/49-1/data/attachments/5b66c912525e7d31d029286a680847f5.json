@@ -1,0 +1,15 @@
+{
+  "id": "8b6ab921-2ab0-4e69-957b-49cc49d15e11",
+  "product_name": "QA-2-ydtkfp4f Modern Gold Fish",
+  "category": "frozen",
+  "price": 36.03,
+  "stock": 11,
+  "details": {
+    "brand": "Marvin LLC",
+    "origin": "Ghana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:29.823529+00:00"
+}

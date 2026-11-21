@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-uiks52g4 Incredible Marble Shirt",
+    "category": "meat-seafood",
+    "price": 44.72,
+    "stock": 26,
+    "details": {
+      "brand": "Medhurst, Powlowski and Ferry",
+      "origin": "Virgin Islands, British"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

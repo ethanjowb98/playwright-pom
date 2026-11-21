@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ojbwrir0 Small Ceramic Chips",
+    "category": "fresh-produce",
+    "price": 19.78,
+    "stock": 27,
+    "details": {
+      "brand": "Maggio, Stracke and Stanton",
+      "origin": "Saint Barthélemy"
+    },
+    "temperature_zone": "Dry"
+  }
+}

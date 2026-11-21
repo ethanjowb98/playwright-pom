@@ -1,0 +1,15 @@
+{
+  "id": "88e94c10-cc4a-4a81-a4e7-a61cb92e6165",
+  "product_name": "QA-8-a6huqgl0 Oriental Bronze Sausages",
+  "category": "other",
+  "price": 24.84,
+  "stock": 29,
+  "details": {
+    "brand": "Sanford - Mertz",
+    "origin": "Uzbekistan"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:37.537007+00:00"
+}

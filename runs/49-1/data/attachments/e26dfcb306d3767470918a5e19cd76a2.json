@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-tnx032r8 Awesome Plastic Chips",
+    "category": "frozen",
+    "price": 22.65,
+    "stock": 32,
+    "details": {
+      "brand": "Abernathy and Sons",
+      "origin": "Iran"
+    }
+  }
+}

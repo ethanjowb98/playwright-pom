@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vg9l6khg Practical Granite Computer",
+    "category": "bakery",
+    "price": 24.7,
+    "stock": 28,
+    "details": {
+      "brand": "Powlowski, Wunsch-Quitzon and Crist",
+      "origin": "Bolivia"
+    }
+  }
+}

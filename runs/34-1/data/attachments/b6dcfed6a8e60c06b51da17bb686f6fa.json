@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-945a16oq sort Alpha",
+    "category": "dairy-eggs",
+    "price": 2.64,
+    "stock": 31,
+    "details": {
+      "brand": "Block - Heidenreich",
+      "origin": "Cayman Islands"
+    }
+  }
+}

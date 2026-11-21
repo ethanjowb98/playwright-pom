@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-5zw1seop Elegant Concrete Towels",
+    "category": "other",
+    "price": 39.1,
+    "stock": 19,
+    "details": {
+      "brand": "Blick - Parker",
+      "origin": "Chad"
+    },
+    "temperature_zone": "Dry"
+  }
+}

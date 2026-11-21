@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lfzucx4a Recycled Steel Computer",
+    "category": "other",
+    "price": 45.4,
+    "stock": 42,
+    "details": {
+      "brand": "Tromp LLC",
+      "origin": "Rwanda"
+    }
+  }
+}

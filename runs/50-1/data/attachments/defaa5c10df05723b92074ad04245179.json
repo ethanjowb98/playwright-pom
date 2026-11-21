@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "8acdcbf6-6c3a-4805-84db-1bec199bf273",
+    "order_number": "O81210",
+    "status": "pending",
+    "total_amount": 16.58,
+    "created_at": "2026-11-20T10:46:29.458866+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-gwpy1ize Unbranded Rubber Bacon",
+        "category": "bakery",
+        "quantity": 2,
+        "price": 8.29,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

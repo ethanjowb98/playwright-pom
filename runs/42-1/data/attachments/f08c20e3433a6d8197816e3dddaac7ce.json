@@ -1,0 +1,15 @@
+{
+  "id": "005fca03-5f7d-4ae0-87d5-43c3f299aee6",
+  "product_name": "QA-2-txiv1f0a Fantastic Plastic Hat",
+  "category": "other",
+  "price": 31.12,
+  "stock": 49,
+  "details": {
+    "brand": "Lebsack - Renner",
+    "origin": "Liechtenstein"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:39.913165+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-1bw5ju4r Intelligent Bronze Shoes",
+    "category": "fresh-produce",
+    "price": 8.61,
+    "stock": 29,
+    "details": {
+      "brand": "Grimes Inc",
+      "origin": "Angola"
+    }
+  }
+}

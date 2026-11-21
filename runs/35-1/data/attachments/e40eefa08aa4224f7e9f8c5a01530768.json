@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "snacks",
+    "price": 46.33,
+    "stock": 30,
+    "details": {
+      "brand": "Wisoky - Pagac",
+      "origin": "Israel"
+    }
+  }
+}

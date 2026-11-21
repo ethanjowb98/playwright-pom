@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0zjso3b8 Practical Granite Towels",
+    "category": "household",
+    "price": 9.22,
+    "stock": 1.5,
+    "details": {
+      "brand": "Bradtke, Will and Treutel",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

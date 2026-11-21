@@ -1,0 +1,14 @@
+{
+  "id": "866404f6-6d3e-47b5-a65c-6e1d779ea746",
+  "product_name": "QA-6-udpbka7b Tasty Concrete Hat",
+  "category": "meat-seafood",
+  "price": 34.77,
+  "stock": 41,
+  "details": {
+    "batch": "QA-6-a0ulh4m4 batch"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:55.226594+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-id5zpe9t Frozen Granite Pizza",
+    "category": "beverages",
+    "price": 17.58,
+    "stock": 46,
+    "details": {
+      "brand": "Rosenbaum Group",
+      "origin": "Nauru"
+    }
+  }
+}

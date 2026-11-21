@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mx2k69s9 sort Bravo",
+    "category": "snacks",
+    "price": 35.53,
+    "stock": 15,
+    "details": {
+      "brand": "Hilll, Langosh and Kemmer",
+      "origin": "Mongolia"
+    }
+  }
+}

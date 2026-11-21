@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5selsvia Rustic Ceramic Shoes",
+    "category": "pantry",
+    "price": 29.31,
+    "stock": 23,
+    "details": {
+      "brand": "Bernhard - Boehm",
+      "origin": "Tunisia"
+    }
+  }
+}

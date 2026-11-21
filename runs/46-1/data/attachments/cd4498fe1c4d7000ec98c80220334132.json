@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-7a3f61n5 Fresh Bronze Towels",
+    "category": "bakery",
+    "price": 19.93,
+    "stock": 29,
+    "details": {
+      "brand": "Muller and Sons",
+      "origin": "Qatar"
+    },
+    "temperature_zone": "Hot"
+  }
+}

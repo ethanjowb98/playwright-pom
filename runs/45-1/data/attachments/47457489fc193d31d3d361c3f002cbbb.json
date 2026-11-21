@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-aymmo520 Elegant Bronze Table",
+    "category": "other",
+    "price": 29.84,
+    "stock": 33,
+    "details": {
+      "brand": "Hand - Pagac",
+      "origin": "Malawi"
+    }
+  }
+}

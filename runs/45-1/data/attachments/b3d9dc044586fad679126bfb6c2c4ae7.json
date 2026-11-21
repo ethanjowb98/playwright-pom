@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-j8l2tdjd sort Bravo",
+    "category": "beverages",
+    "price": 2.13,
+    "stock": 34,
+    "details": {
+      "brand": "Bins, Hamill and Upton",
+      "origin": "Madagascar"
+    }
+  }
+}

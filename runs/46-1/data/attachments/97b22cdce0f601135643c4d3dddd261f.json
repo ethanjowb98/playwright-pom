@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "6a474197-b3ef-4c3b-a2a0-ec5d2f5c3341",
+    "order_number": "O84100",
+    "status": "pending",
+    "total_amount": 133.62,
+    "created_at": "2026-11-16T10:24:14.573467+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-spobrcof Handcrafted Silk Cheese",
+        "category": "beverages",
+        "quantity": 3,
+        "price": 44.54,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

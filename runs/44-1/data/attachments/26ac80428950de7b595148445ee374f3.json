@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-clkn5ebw Practical Marble Towels",
+    "category": "dairy-eggs",
+    "price": 40.33,
+    "stock": 2,
+    "details": {
+      "brand": "Glover, Flatley and Purdy",
+      "origin": "Lao People's Democratic Republic"
+    }
+  }
+}

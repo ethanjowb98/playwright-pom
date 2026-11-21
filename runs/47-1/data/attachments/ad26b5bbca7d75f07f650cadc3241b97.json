@@ -1,0 +1,15 @@
+{
+  "id": "75443fb6-832b-47b2-b676-6a3796abfdc2",
+  "product_name": "QA-1-9r4ygt4b Fantastic Granite Sausages",
+  "category": "other",
+  "price": 12.01,
+  "stock": 46,
+  "details": {
+    "brand": "Dickens, Bashirian and VonRueden",
+    "origin": "Taiwan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:22:40.745618+00:00"
+}

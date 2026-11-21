@@ -1,0 +1,19 @@
+{
+  "id": "bf65b5fe-62a6-4fd3-b338-881fda1aaf7a",
+  "order_number": "O14355",
+  "status": "pending",
+  "total_amount": 96.48,
+  "notes": null,
+  "created_at": "2026-11-05T08:26:54.571914+00:00",
+  "updated_at": "2026-11-05T08:26:54.571914+00:00",
+  "items": [
+    {
+      "product_id": "5a44acf6-6cc2-421e-ae51-f85f88e78ba9",
+      "product_name": "QA-1-s90t4pzl Practical Concrete Tuna",
+      "category": "household",
+      "quantity": 2,
+      "price": 48.24,
+      "temperature_zone": null
+    }
+  ]
+}

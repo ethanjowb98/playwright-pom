@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-4ea6hn1r Modern Cotton Mouse",
+    "category": "pantry",
+    "price": 5.05,
+    "stock": 19,
+    "details": {
+      "brand": "Jast, Haag and Kunze",
+      "origin": "Uganda"
+    }
+  }
+}

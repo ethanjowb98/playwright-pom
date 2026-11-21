@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a2g8rkrs Practical Aluminum Table",
+    "category": "other",
+    "price": 39.49,
+    "stock": 11,
+    "details": {
+      "brand": "Okuneva LLC",
+      "origin": "Kenya"
+    }
+  }
+}

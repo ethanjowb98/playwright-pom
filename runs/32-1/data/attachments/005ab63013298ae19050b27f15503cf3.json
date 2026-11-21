@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-066txtav Electronic Bamboo Chicken",
+    "category": "other",
+    "price": 10.23,
+    "stock": 38,
+    "details": {
+      "brand": "Hansen Group",
+      "origin": "Bulgaria"
+    },
+    "temperature_zone": "Dry"
+  }
+}

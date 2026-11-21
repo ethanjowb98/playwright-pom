@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7j56duwv Refined Bronze Hat",
+    "category": "snacks",
+    "price": 35.2,
+    "stock": 26,
+    "details": {
+      "brand": "Rau - Funk",
+      "origin": "Macao"
+    }
+  }
+}

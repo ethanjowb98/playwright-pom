@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-hxafso1d Recycled Silk Gloves",
+    "category": "bakery",
+    "price": 48.75,
+    "stock": 50,
+    "details": {
+      "brand": "Pagac, Jast and Prosacco",
+      "origin": "Ireland"
+    }
+  }
+}

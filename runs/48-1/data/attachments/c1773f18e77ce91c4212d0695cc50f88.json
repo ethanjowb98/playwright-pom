@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r93zri4c Ergonomic Rubber Shoes",
+    "category": "pantry",
+    "price": 22.3,
+    "stock": 19,
+    "details": {
+      "brand": "Hintz - Brakus",
+      "origin": "Réunion"
+    }
+  }
+}

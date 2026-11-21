@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-09z893bu Awesome Gold Bacon",
+    "category": "snacks",
+    "price": 30.41,
+    "stock": 34,
+    "details": {
+      "brand": "Bogan, Jaskolski and Quigley",
+      "origin": "Sweden"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "eba4238b-0659-4e87-a1f9-70bbdcde05fd",
+  "product_name": "QA-6-j2fbrect Small Plastic Car",
+  "category": "pantry",
+  "price": 33.25,
+  "stock": 27,
+  "details": {
+    "brand": "Hane, Conn and O'Reilly",
+    "origin": "Virgin Islands, British"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:42.558374+00:00"
+}

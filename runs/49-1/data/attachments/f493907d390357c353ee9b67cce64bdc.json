@@ -1,0 +1,15 @@
+{
+  "id": "adbabc08-9c13-46df-95ed-2a41f809ed48",
+  "product_name": "QA-2-ooit6dna Ergonomic Ceramic Shirt",
+  "category": "meat-seafood",
+  "price": 29.34,
+  "stock": 50,
+  "details": {
+    "brand": "Rodriguez-Senger, Abshire and Huels",
+    "origin": "South Georgia and the South Sandwich Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:58:16.846067+00:00"
+}

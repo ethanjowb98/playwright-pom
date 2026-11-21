@@ -1,0 +1,15 @@
+{
+  "id": "be942d72-7e4e-4eed-8c1d-bb66fcb248b0",
+  "product_name": "QA-2-vmqhb59m Incredible Plastic Bike",
+  "category": "bakery",
+  "price": 47.58,
+  "stock": 49,
+  "details": {
+    "brand": "Abernathy LLC",
+    "origin": "Benin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:36.768216+00:00"
+}

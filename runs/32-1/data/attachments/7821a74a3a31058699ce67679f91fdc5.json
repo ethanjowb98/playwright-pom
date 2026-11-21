@@ -1,0 +1,15 @@
+{
+  "id": "e1a2c054-a259-4056-9dc5-dfe482e8f52b",
+  "product_name": "QA-1-hxfm5ohq Elegant Concrete Sausages",
+  "category": "frozen",
+  "price": 10.07,
+  "stock": 10,
+  "details": {
+    "brand": "Wyman, Kulas and Goodwin",
+    "origin": "Saint Barthélemy"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:22:03.167608+00:00"
+}

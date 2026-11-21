@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0xzu8a86 Incredible Metal Sausages",
+    "category": "bakery",
+    "price": 9.66,
+    "stock": 12,
+    "details": {
+      "brand": "Halvorson - Hansen",
+      "origin": "Hong Kong"
+    }
+  }
+}

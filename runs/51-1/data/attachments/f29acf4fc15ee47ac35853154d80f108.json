@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zvacz23i Incredible Cotton Towels",
+    "category": "snacks",
+    "price": 42.82,
+    "stock": 41,
+    "details": {
+      "brand": "Quitzon Group",
+      "origin": "Palestine"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nxhqoqnz Gorgeous Bronze Salad",
+    "category": "household",
+    "price": 23.11,
+    "stock": 2,
+    "details": {
+      "brand": "Haag, Hackett and Langworth",
+      "origin": "Eswatini"
+    }
+  }
+}

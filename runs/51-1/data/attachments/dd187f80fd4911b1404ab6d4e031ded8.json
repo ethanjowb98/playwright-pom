@@ -1,0 +1,19 @@
+{
+  "id": "24b22e20-0183-4cb5-8a08-ceb7c571e81f",
+  "order_number": "O79298",
+  "status": "cancelled",
+  "total_amount": 25.03,
+  "notes": null,
+  "created_at": "2026-11-21T10:29:30.495176+00:00",
+  "updated_at": "2026-11-21T10:29:30.495176+00:00",
+  "items": [
+    {
+      "product_id": "55be8aa0-f243-49d9-9efe-be7a90b38f2f",
+      "product_name": "QA-1-2ivk8etw Intelligent Rubber Ball",
+      "category": "fresh-produce",
+      "quantity": 1,
+      "price": 25.03,
+      "temperature_zone": null
+    }
+  ]
+}

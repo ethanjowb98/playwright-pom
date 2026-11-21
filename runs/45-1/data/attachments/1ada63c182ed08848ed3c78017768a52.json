@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r9rexo0k Recycled Aluminum Pants",
+    "category": "meat-seafood",
+    "price": 20.8,
+    "stock": 18,
+    "details": {
+      "brand": "Schuppe - Weissnat",
+      "origin": "Pakistan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-r3xg8fly Intelligent Cotton Pizza",
+    "category": "bakery",
+    "price": 34.44,
+    "stock": 44,
+    "details": {
+      "brand": "Reinger, Dicki and McClure",
+      "origin": "Myanmar"
+    }
+  }
+}

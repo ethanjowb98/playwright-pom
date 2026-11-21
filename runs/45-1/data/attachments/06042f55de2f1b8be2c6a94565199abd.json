@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qlk8hoi7 Gorgeous Ceramic Tuna",
+    "category": "dairy-eggs",
+    "price": 6.12,
+    "stock": 43,
+    "details": {
+      "brand": "Stoltenberg Group",
+      "origin": "Burundi"
+    }
+  }
+}

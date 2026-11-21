@@ -1,0 +1,15 @@
+{
+  "id": "8ebe13bc-2279-4caf-95ad-a9c7f1d45021",
+  "product_name": "QA-4-e9azyss4 Electronic Marble Table",
+  "category": "meat-seafood",
+  "price": 3.45,
+  "stock": 25,
+  "details": {
+    "brand": "Gleichner-Anderson - Weber",
+    "origin": "Namibia"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:10.623352+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-1svi8gj9 sort Alpha",
+    "category": "snacks",
+    "price": 26.31,
+    "stock": 29,
+    "details": {
+      "brand": "Walsh - Strosin",
+      "origin": "Iceland"
+    }
+  }
+}

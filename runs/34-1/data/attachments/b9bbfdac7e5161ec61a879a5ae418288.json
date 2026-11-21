@@ -1,0 +1,15 @@
+{
+  "id": "8c1df101-a461-45dd-80c4-771430bd8aca",
+  "product_name": "QA-4-tsjfcfp8 Awesome Metal Hat",
+  "category": "household",
+  "price": 1.18,
+  "stock": 50,
+  "details": {
+    "brand": "Moore - Dicki",
+    "origin": "United States of America"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:33.743703+00:00"
+}

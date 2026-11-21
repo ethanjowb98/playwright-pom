@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ltji7r3l Generic Plastic Tuna",
+    "category": "other",
+    "price": 21.95,
+    "stock": 13,
+    "details": {
+      "brand": "Lebsack Inc",
+      "origin": "Ireland"
+    }
+  }
+}

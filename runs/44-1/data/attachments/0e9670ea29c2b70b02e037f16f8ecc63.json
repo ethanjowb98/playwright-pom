@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-726o4y19 Elegant Marble Chair",
+    "category": "beverages",
+    "price": 14.14,
+    "stock": 16,
+    "details": {
+      "brand": "Tromp LLC",
+      "origin": "Qatar"
+    }
+  }
+}

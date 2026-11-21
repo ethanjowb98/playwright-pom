@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-18lkugh4 sort Charlie",
+    "category": "fresh-produce",
+    "price": 28.79,
+    "stock": 35,
+    "details": {
+      "brand": "Robel, Funk and Feil",
+      "origin": "Jamaica"
+    }
+  }
+}

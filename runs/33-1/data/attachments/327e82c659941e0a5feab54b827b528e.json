@@ -1,0 +1,15 @@
+{
+  "id": "3f0c0658-a10b-4db9-90e3-64cd8f62c8a0",
+  "product_name": "QA-1-0bcgn34h Handmade Marble Pants",
+  "category": "dairy-eggs",
+  "price": 8.51,
+  "stock": 32,
+  "details": {
+    "brand": "Hettinger and Sons",
+    "origin": "Samoa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:27:38.316742+00:00"
+}

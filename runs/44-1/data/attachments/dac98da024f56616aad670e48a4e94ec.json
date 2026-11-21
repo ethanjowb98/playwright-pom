@@ -1,0 +1,15 @@
+{
+  "id": "f56ffba9-0c1f-4922-a04e-75849c00d825",
+  "product_name": "QA-1-ebnk0024 Frozen Bronze Bike",
+  "category": "dairy-eggs",
+  "price": 6.97,
+  "stock": 17,
+  "details": {
+    "brand": "Hilpert - Pagac",
+    "origin": "Turkey"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:41:31.74917+00:00"
+}

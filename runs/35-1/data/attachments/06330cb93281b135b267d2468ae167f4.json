@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "01d4b55b-94ac-469c-8e73-a817ac8a3022",
+    "order_number": "O31249",
+    "status": "pending",
+    "total_amount": 34.01,
+    "created_at": "2026-11-05T10:06:17.820566+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-tmqh2d90 Elegant Bronze Hat",
+        "category": "bakery",
+        "quantity": 1,
+        "price": 24.29,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-xihsfydh Handcrafted Marble Table",
+        "category": "meat-seafood",
+        "quantity": 1,
+        "price": 9.72,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

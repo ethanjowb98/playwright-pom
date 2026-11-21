@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-oo25dzx1 sort Alpha",
+    "category": "beverages",
+    "price": 46.36,
+    "stock": 29,
+    "details": {
+      "brand": "Halvorson - Paucek",
+      "origin": "Qatar"
+    }
+  }
+}

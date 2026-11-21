@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-gcip6xli Modern Metal Cheese",
+    "category": "snacks",
+    "price": 18.98,
+    "stock": 32,
+    "details": {
+      "brand": "Gerlach, Kerluke and VonRueden",
+      "origin": "Liechtenstein"
+    }
+  }
+}

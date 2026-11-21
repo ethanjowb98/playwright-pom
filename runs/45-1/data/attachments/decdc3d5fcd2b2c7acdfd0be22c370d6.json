@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-u3vkt4im Electronic Bamboo Table",
+    "category": "frozen",
+    "price": 31.79,
+    "stock": 48,
+    "details": {
+      "brand": "Schinner Inc",
+      "origin": "Democratic Republic of the Congo"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

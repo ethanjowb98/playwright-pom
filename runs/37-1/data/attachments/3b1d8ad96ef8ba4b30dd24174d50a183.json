@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-35rirze3 Rustic Bamboo Shirt",
+    "category": "snacks",
+    "price": 43.36,
+    "stock": 47,
+    "details": {
+      "brand": "Tremblay and Sons",
+      "origin": "Gabon"
+    }
+  }
+}

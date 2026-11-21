@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vxa0xewq Gorgeous Plastic Bike",
+    "category": "household",
+    "price": 19.85,
+    "stock": 46,
+    "details": {
+      "brand": "Abshire, Hudson and Batz",
+      "origin": "Andorra"
+    }
+  }
+}

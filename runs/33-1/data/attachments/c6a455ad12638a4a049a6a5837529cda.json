@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jk446o4k Tasty Wooden Ball",
+    "category": "pantry",
+    "price": 19.01,
+    "stock": 27,
+    "details": {
+      "brand": "Ratke LLC",
+      "origin": "Madagascar"
+    }
+  }
+}

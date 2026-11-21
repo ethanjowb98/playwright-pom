@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xth9od74 sort Alpha",
+    "category": "snacks",
+    "price": 40.1,
+    "stock": 14,
+    "details": {
+      "brand": "Gusikowski-Hilll - Luettgen",
+      "origin": "Moldova"
+    }
+  }
+}

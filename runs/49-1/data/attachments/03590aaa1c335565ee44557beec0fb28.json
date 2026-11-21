@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-xb5rbk0s Modern Cotton Pizza",
+    "category": "snacks",
+    "price": 35.45,
+    "stock": 40,
+    "details": {
+      "brand": "Prosacco Inc",
+      "origin": "South Sudan"
+    }
+  }
+}

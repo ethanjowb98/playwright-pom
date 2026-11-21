@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-osnlp07v sort Alpha",
+    "category": "frozen",
+    "price": 2.18,
+    "stock": 23,
+    "details": {
+      "brand": "Rau Group",
+      "origin": "Taiwan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8wdrrbim Bespoke Metal Bacon",
+    "category": "other",
+    "price": 32.17,
+    "stock": 30,
+    "details": {
+      "brand": "Anderson, Bogisich and Runolfsson",
+      "origin": "Guam"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1h8c47xk Awesome Concrete Cheese",
+    "category": "beverages",
+    "price": 34.57,
+    "stock": 17,
+    "details": {
+      "brand": "Langworth LLC",
+      "origin": "El Salvador"
+    }
+  }
+}

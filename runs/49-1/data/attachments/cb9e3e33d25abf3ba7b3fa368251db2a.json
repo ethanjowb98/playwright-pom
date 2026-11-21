@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-k9xs47h6 Soft Steel Tuna",
+    "category": "snacks",
+    "price": 22.76,
+    "stock": 35,
+    "details": {
+      "brand": "Bosco, Prohaska and Klocko",
+      "origin": "Canada"
+    }
+  }
+}

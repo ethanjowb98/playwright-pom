@@ -1,0 +1,17 @@
+[
+  {
+    "id": "23d77306-f0ca-4277-81cb-1d30ace85e23",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-4ii317pp Rustic Steel Ball",
+    "category": "frozen",
+    "price": 10.82,
+    "details": {
+      "brand": "Murphy-Haag - Mertz",
+      "origin": "Honduras"
+    },
+    "created_at": "2026-11-05T10:02:26.838203+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": true,
+    "stock": 35
+  }
+]

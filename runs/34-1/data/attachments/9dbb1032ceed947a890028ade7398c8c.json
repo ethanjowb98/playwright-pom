@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-iq3ukzwa Elegant Granite Shoes",
+    "category": "beverages",
+    "price": 49.14,
+    "stock": 48,
+    "details": {
+      "brand": "Wolff, Beer and Okuneva",
+      "origin": "Denmark"
+    }
+  }
+}

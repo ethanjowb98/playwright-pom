@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-bdc2yfbj Unbranded Granite Soap",
+    "category": "other",
+    "price": 47.15,
+    "stock": 29,
+    "details": {
+      "brand": "Von - Ernser",
+      "origin": "Cook Islands"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

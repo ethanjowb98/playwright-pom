@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-l6d60rxc Recycled Bronze Bacon",
+    "category": "bakery",
+    "price": "abc",
+    "stock": 32,
+    "details": {
+      "brand": "Hand - O'Hara",
+      "origin": "Mauritius"
+    }
+  }
+}

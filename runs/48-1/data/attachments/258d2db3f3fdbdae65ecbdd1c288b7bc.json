@@ -1,0 +1,15 @@
+{
+  "id": "bb0b226d-700c-48ab-af05-f20c1dccc8b2",
+  "product_name": "QA-1-87txpbqq Bespoke Granite Chicken",
+  "category": "frozen",
+  "price": 48.61,
+  "stock": 18,
+  "details": {
+    "brand": "Conroy - Hessel",
+    "origin": "Botswana"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:12.256201+00:00"
+}

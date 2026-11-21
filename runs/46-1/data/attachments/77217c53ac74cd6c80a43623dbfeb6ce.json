@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-rksdknin sort Charlie",
+    "category": "fresh-produce",
+    "price": 33.04,
+    "stock": 47,
+    "details": {
+      "brand": "Murray Inc",
+      "origin": "Niue"
+    }
+  }
+}

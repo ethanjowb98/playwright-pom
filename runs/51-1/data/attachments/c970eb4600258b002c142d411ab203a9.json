@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-k5cws9xd Elegant Steel Salad",
+    "category": "pantry",
+    "price": 1.93,
+    "stock": 40,
+    "details": {
+      "brand": "Hudson, Strosin and Kertzmann",
+      "origin": "Bahamas"
+    }
+  }
+}

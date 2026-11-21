@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xf0lp0ky Sleek Cotton Towels",
+    "category": "fresh-produce",
+    "price": 24.28,
+    "stock": 33,
+    "details": {
+      "brand": "Steuber and Sons",
+      "origin": "Thailand"
+    }
+  }
+}

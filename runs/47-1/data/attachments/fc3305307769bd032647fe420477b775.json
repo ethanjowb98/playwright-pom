@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ew5grern Unbranded Ceramic Car",
+    "category": "frozen",
+    "price": 13.94,
+    "stock": 45,
+    "details": {
+      "brand": "Keebler-Lakin, Grady and Balistreri",
+      "origin": "Uruguay"
+    }
+  }
+}

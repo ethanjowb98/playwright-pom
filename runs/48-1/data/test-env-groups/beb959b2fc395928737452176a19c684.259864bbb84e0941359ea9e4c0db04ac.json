@@ -1,0 +1,1 @@
+{"id":"beb959b2fc395928737452176a19c684.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › Login › should reject the login with 400 when the password is missing","name":"should reject the login with 400 when the password is missing","status":"passed","testResultsByEnv":{"default":"64b7b395f6797f7555280446f6573b19"}}

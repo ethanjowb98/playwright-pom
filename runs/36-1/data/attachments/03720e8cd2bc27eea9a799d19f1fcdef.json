@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tuviikyt Elegant Gold Bacon",
+    "category": "beverages",
+    "price": 29.69,
+    "stock": 27,
+    "details": {
+      "brand": "Miller, Harber and Klein",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

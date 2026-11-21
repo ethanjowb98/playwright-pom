@@ -1,0 +1,19 @@
+{
+  "id": "b2737b7e-6de6-4792-af74-797c8530d93e",
+  "order_number": "O80295",
+  "status": "cancelled",
+  "total_amount": 16.55,
+  "notes": null,
+  "created_at": "2026-11-20T10:46:01.238263+00:00",
+  "updated_at": "2026-11-20T10:46:01.238263+00:00",
+  "items": [
+    {
+      "product_id": "37f1eafb-bb84-4c9a-869b-de10f3021eea",
+      "product_name": "QA-1-3xkz7le6 Sleek Silk Gloves",
+      "category": "other",
+      "quantity": 1,
+      "price": 16.55,
+      "temperature_zone": null
+    }
+  ]
+}

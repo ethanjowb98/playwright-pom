@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ul9662bl Incredible Gold Fish",
+    "category": "dairy-eggs",
+    "price": 20.7,
+    "stock": 47,
+    "details": {
+      "brand": "Runte, Swaniawski and VonRueden",
+      "origin": "Ireland"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w8mcwyil Soft Silk Chips",
+    "category": "other",
+    "price": 35.16,
+    "stock": 0,
+    "details": {
+      "brand": "Gerlach - Bergnaum",
+      "origin": "Palestine"
+    }
+  }
+}

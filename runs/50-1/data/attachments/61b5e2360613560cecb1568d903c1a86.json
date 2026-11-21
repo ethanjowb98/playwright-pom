@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8bgzphc1 Gorgeous Aluminum Cheese",
+    "category": "dairy-eggs",
+    "price": 44.01,
+    "stock": 49,
+    "details": {
+      "brand": "Simonis and Sons",
+      "origin": "Norfolk Island"
+    }
+  }
+}

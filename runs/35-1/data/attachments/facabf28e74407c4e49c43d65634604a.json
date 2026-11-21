@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ppc7tcm8 Elegant Wooden Sausages",
+    "category": "snacks",
+    "price": 27.79,
+    "stock": 36,
+    "details": {
+      "brand": "Mante - Jacobi",
+      "origin": "Senegal"
+    },
+    "temperature_zone": "Hot"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-6136j6uo Unbranded Wooden Keyboard",
+    "category": "frozen",
+    "price": 45.86,
+    "stock": 27,
+    "details": {
+      "brand": "Ernser and Sons",
+      "origin": "Poland"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

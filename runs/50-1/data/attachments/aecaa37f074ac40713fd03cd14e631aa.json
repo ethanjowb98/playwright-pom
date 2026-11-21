@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6hj106a3 Small Silk Bike",
+    "category": "snacks",
+    "price": 21.55,
+    "stock": 29,
+    "details": {
+      "brand": "Vandervort-Metz, Mann and Weissnat",
+      "origin": "Tuvalu"
+    }
+  }
+}

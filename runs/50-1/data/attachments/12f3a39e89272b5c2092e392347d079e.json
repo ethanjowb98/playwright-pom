@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-prbet1f5 Modern Plastic Keyboard",
+    "category": "frozen",
+    "price": 26.98,
+    "stock": 47,
+    "details": {
+      "brand": "Wilkinson, Simonis and Strosin",
+      "origin": "United Kingdom"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "17ac39d2-8927-4492-8c44-7a2e721c8468",
+  "product_name": "QA-1-bwkclwbc Licensed Steel Chips",
+  "category": "meat-seafood",
+  "price": 36,
+  "stock": 45,
+  "details": {
+    "brand": "Fadel Group",
+    "origin": "Northern Mariana Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:39:43.83616+00:00"
+}

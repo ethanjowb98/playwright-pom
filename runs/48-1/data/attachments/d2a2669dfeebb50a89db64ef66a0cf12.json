@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ymn0j8m8 Oriental Wooden Towels",
+    "category": "fresh-produce",
+    "price": 22.49,
+    "stock": 29,
+    "details": {
+      "brand": "Dicki Inc",
+      "origin": "Chad"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

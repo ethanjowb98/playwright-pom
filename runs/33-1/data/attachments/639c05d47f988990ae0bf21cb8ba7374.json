@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6ta4lk9t Tasty Ceramic Tuna",
+    "category": "other",
+    "price": 16.81,
+    "stock": 46,
+    "details": {
+      "brand": "Orn - Skiles",
+      "origin": "Bahrain"
+    },
+    "weighted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i7j49ktw sort Bravo",
+    "category": "frozen",
+    "price": 41.91,
+    "stock": 13,
+    "details": {
+      "brand": "Greenholt LLC",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

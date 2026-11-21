@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8hap4chh Incredible Granite Pizza",
+    "category": "bakery",
+    "price": 45.11,
+    "stock": 41,
+    "details": {
+      "brand": "McLaughlin Inc",
+      "origin": "Nicaragua"
+    }
+  }
+}

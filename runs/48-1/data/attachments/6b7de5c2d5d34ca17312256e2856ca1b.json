@@ -1,0 +1,15 @@
+{
+  "id": "a0c4b8a0-ffd3-48d1-ab28-caf6e30b9899",
+  "product_name": "QA-1-occcmsmb sort Charlie",
+  "category": "pantry",
+  "price": 30.7,
+  "stock": 17,
+  "details": {
+    "brand": "Kshlerin, Ortiz and Rippin",
+    "origin": "Gibraltar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:07.84931+00:00"
+}

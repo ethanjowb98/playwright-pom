@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-1wi5t299 Oriental Cotton Computer",
+    "category": "frozen",
+    "price": 13.76,
+    "stock": 25,
+    "details": {
+      "brand": "Sanford - Hoppe",
+      "origin": "Lao People's Democratic Republic"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

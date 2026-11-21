@@ -1,0 +1,15 @@
+{
+  "id": "cd7c8ec1-3864-4e9e-a60f-442f1c0717d4",
+  "product_name": "QA-3-o1um18j7 sort Alpha",
+  "category": "fresh-produce",
+  "price": 40.36,
+  "stock": 40,
+  "details": {
+    "brand": "Runolfsdottir and Sons",
+    "origin": "Samoa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:31.036702+00:00"
+}

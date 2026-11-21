@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "5771d8f0-4172-4479-9a4b-e6f22c1f2f5f",
+    "order_number": "O52422",
+    "status": "pending",
+    "total_amount": 7.53,
+    "created_at": "2026-11-12T10:33:06.626214+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-i9glzuoo Elegant Steel Chips",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 2.51,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

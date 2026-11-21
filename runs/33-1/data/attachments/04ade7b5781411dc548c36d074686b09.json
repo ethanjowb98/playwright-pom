@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6yj0xaon Bespoke Metal Chicken",
+    "category": "snacks",
+    "price": 14.05,
+    "stock": 44,
+    "details": {
+      "brand": "Purdy, Beier and Bayer",
+      "origin": "Guatemala"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "539dc97e-01fc-4238-b2a9-48e9d23f3042",
+    "order_number": "O51893",
+    "status": "pending",
+    "total_amount": 202.98,
+    "created_at": "2026-11-05T09:22:26.91388+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-texczfpd Incredible Silk Soap",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 18.91,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-ku0gfzhx Ergonomic Bamboo Towels",
+        "category": "other",
+        "quantity": 3,
+        "price": 48.75,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2fe47678-59ee-47b1-a896-8ecfb5b5445d",
+  "product_name": "QA-1-h3tee1yy Intelligent Cotton Car",
+  "category": "pantry",
+  "price": 22.7,
+  "stock": 13,
+  "details": {
+    "brand": "Swift - Boyle",
+    "origin": "Iceland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:05:53.780114+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-1qv7xvgm Gorgeous Concrete Bacon",
+    "category": "meat-seafood",
+    "price": 14.45,
+    "stock": 30,
+    "details": {
+      "brand": "Murphy, Satterfield and Raynor",
+      "origin": "Latvia"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

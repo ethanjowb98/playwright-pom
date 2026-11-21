@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uhbi1828 Soft Silk Gloves",
+    "category": "snacks",
+    "price": 33.13,
+    "stock": 2,
+    "details": {
+      "brand": "Waelchi - Donnelly",
+      "origin": "Brazil"
+    }
+  }
+}

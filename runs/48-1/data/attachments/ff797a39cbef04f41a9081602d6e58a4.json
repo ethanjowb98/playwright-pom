@@ -1,0 +1,15 @@
+{
+  "id": "feaa5eae-57d3-49af-b40f-650f8bcfc1b9",
+  "product_name": "QA-3-9qc8wkk4 Frozen Wooden Computer",
+  "category": "bakery",
+  "price": 24.14,
+  "stock": 29,
+  "details": {
+    "brand": "Ziemann, Sanford and Mueller",
+    "origin": "North Macedonia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:07.648142+00:00"
+}

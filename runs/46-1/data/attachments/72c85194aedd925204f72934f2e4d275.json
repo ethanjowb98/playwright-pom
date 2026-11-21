@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-lzy45fms Awesome Ceramic Pants",
+    "category": "snacks",
+    "price": 48.84,
+    "stock": 12,
+    "details": {
+      "brand": "Prosacco LLC",
+      "origin": "Ireland"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-uos23xgj Oriental Marble Cheese",
+    "category": "dairy-eggs",
+    "price": 18.09,
+    "stock": 10,
+    "details": {
+      "brand": "Berge, Emmerich and VonRueden",
+      "origin": "Palau"
+    }
+  }
+}

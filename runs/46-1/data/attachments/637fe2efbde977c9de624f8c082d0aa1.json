@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xth9od74 sort Bravo",
+    "category": "frozen",
+    "price": 48.71,
+    "stock": 37,
+    "details": {
+      "brand": "Herzog, Schroeder and Hegmann-Walker",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

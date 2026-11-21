@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-9b6q0i4z Unbranded Rubber Salad",
+    "category": "meat-seafood",
+    "price": 10.96,
+    "stock": 18,
+    "details": {
+      "brand": "Schroeder - Cartwright",
+      "origin": "Tonga"
+    },
+    "weighted": false
+  }
+}

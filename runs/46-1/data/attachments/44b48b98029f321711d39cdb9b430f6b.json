@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-xhq10plf Licensed Cotton Cheese",
+    "category": "snacks",
+    "price": 33.41,
+    "stock": 27,
+    "details": {
+      "brand": "Harvey - Johnston",
+      "origin": "Algeria"
+    }
+  }
+}

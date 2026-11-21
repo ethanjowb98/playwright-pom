@@ -1,0 +1,15 @@
+{
+  "id": "549dfcbe-09a0-4b36-ba44-b6ce1d25a5a5",
+  "product_name": "QA-1-w4l7rod9 Refined Ceramic Fish",
+  "category": "meat-seafood",
+  "price": 46.03,
+  "stock": 40,
+  "details": {
+    "brand": "Gorczany Group",
+    "origin": "Montenegro"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:21:51.800656+00:00"
+}

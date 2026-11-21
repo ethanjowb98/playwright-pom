@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oapl3tyh Elegant Bamboo Computer",
+    "category": "other",
+    "price": 46.32,
+    "stock": 10,
+    "details": {
+      "brand": "Hand - Franecki",
+      "origin": "Lesotho"
+    }
+  }
+}

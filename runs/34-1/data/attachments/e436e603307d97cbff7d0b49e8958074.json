@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-545q0cez Soft Bamboo Computer",
+    "category": "snacks",
+    "price": 10.65,
+    "stock": 32,
+    "details": {
+      "brand": "Bosco - Mayer",
+      "origin": "Eswatini"
+    }
+  }
+}

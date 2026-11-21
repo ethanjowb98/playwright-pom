@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-ki35mrl9 Gorgeous Ceramic Mouse",
+    "category": "snacks",
+    "price": 3.96,
+    "stock": 30,
+    "details": {
+      "batch": "QA-6-i3973j0y batch"
+    }
+  }
+}

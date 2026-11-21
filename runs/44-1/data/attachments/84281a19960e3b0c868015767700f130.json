@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-fsoz8ngt Intelligent Marble Table",
+    "category": "fresh-produce",
+    "price": 5.87,
+    "stock": 37,
+    "details": {
+      "brand": "Abshire, Macejkovic and Moen",
+      "origin": "Algeria"
+    }
+  }
+}

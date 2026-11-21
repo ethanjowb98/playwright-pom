@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6lwfpsqw Recycled Gold Computer",
+    "category": "dairy-eggs",
+    "price": 12.81,
+    "stock": 18,
+    "details": {
+      "brand": "Bechtelar - Schoen",
+      "origin": "Ghana"
+    }
+  }
+}

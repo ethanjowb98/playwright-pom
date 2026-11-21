@@ -1,0 +1,19 @@
+{
+  "id": "722c05ea-cf2c-4d85-a5bc-121cac39740d",
+  "order_number": "O15547",
+  "status": "delivered",
+  "total_amount": 80.52,
+  "notes": null,
+  "created_at": "2026-11-11T10:04:11.792613+00:00",
+  "updated_at": "2026-11-11T10:04:11.792613+00:00",
+  "items": [
+    {
+      "product_id": "3632e8a8-69f3-49a9-95d8-cf5323557950",
+      "product_name": "QA-1-i3nkihi2 Gorgeous Marble Tuna",
+      "category": "frozen",
+      "quantity": 2,
+      "price": 40.26,
+      "temperature_zone": null
+    }
+  ]
+}

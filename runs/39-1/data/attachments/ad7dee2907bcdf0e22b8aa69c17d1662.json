@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-b97n4l9t Sleek Wooden Keyboard",
+    "category": "beverages",
+    "price": 42.41,
+    "stock": 1.5,
+    "details": {
+      "brand": "Cremin - Kreiger",
+      "origin": "Iceland"
+    }
+  }
+}

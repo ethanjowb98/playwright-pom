@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "meat-seafood",
+    "price": 33.3,
+    "stock": 39,
+    "details": {
+      "brand": "Volkman - Volkman",
+      "origin": "Belarus"
+    }
+  }
+}

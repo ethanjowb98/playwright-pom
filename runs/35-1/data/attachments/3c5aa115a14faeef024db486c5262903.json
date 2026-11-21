@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k354dqu4 Handmade Ceramic Soap",
+    "category": "fresh-produce",
+    "price": 24.47,
+    "stock": 13,
+    "details": {
+      "brand": "Welch, Predovic and Schulist",
+      "origin": "Bulgaria"
+    }
+  }
+}

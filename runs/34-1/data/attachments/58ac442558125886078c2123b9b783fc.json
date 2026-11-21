@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-daj23kxe Electronic Aluminum Ball",
+    "category": "snacks",
+    "price": 30.68,
+    "stock": 39,
+    "details": {
+      "brand": "Jenkins Inc",
+      "origin": "Åland Islands"
+    }
+  }
+}

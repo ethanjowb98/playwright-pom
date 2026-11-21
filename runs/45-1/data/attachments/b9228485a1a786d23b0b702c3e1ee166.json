@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hryl6g1h Awesome Silk Shoes",
+    "category": "household",
+    "price": 11.34,
+    "stock": 2,
+    "details": {
+      "brand": "Hahn Group",
+      "origin": "Brazil"
+    }
+  }
+}

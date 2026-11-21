@@ -1,0 +1,15 @@
+{
+  "id": "fcf42a5f-ed85-48d7-bd91-930326e16091",
+  "product_name": "QA-1-6wgb852c Electronic Rubber Bacon",
+  "category": "fresh-produce",
+  "price": 22.29,
+  "stock": 36,
+  "details": {
+    "brand": "Mante-White Inc",
+    "origin": "San Marino"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:48.887361+00:00"
+}

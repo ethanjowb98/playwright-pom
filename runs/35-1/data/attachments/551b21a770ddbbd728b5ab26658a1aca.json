@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qfxyfjd7 Handcrafted Cotton Shoes",
+    "category": "household",
+    "price": 22.81,
+    "stock": 18,
+    "details": {
+      "brand": "Kutch-Schoen and Sons",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

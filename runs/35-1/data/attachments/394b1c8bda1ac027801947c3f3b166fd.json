@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-o6bbt1qq Tasty Plastic Computer",
+    "category": "snacks",
+    "price": "abc",
+    "stock": 31,
+    "details": {
+      "brand": "Marks - Mante",
+      "origin": "Syrian Arab Republic"
+    }
+  }
+}

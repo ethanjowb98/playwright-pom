@@ -1,0 +1,15 @@
+{
+  "id": "5650205b-9e83-41b1-bb6b-05ddd12644f5",
+  "product_name": "QA-1-g5mmenyu Refined Steel Pants",
+  "category": "pantry",
+  "price": 22.56,
+  "stock": 48,
+  "details": {
+    "brand": "Volkman, Blick and Torp",
+    "origin": "Bouvet Island"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:57:36.593903+00:00"
+}

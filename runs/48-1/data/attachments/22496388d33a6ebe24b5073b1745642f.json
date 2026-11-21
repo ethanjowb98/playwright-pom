@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-a3djlpz8 Generic Aluminum Gloves",
+    "category": "pantry",
+    "price": 32.07,
+    "stock": 46,
+    "details": {
+      "brand": "Ward, Gerhold-Carter and Anderson-Conroy",
+      "origin": "Virgin Islands, British"
+    }
+  }
+}

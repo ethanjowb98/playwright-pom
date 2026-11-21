@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-9f02mzmm Generic Rubber Shoes",
+    "category": "other",
+    "price": 24.84,
+    "stock": 16,
+    "details": {
+      "brand": "Stracke - Jast",
+      "origin": "South Sudan"
+    }
+  }
+}

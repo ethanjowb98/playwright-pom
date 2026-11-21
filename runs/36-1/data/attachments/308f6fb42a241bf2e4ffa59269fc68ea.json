@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z85kipnz Licensed Bronze Computer",
+    "category": "frozen",
+    "price": 47.34,
+    "stock": 42,
+    "details": {
+      "brand": "Hintz, Ondricka and Huel",
+      "origin": "Ecuador"
+    }
+  }
+}

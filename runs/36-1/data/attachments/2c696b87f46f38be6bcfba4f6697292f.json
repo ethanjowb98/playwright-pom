@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qg493qd2 Modern Granite Pizza",
+    "category": "pantry",
+    "price": 29.33,
+    "stock": 41,
+    "details": {
+      "brand": "Smith, O'Hara and Hauck",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

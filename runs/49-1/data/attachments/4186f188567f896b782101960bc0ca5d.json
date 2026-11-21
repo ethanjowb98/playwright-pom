@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-dz5imo7e Licensed Rubber Gloves",
+    "category": "meat-seafood",
+    "price": 37.06,
+    "stock": 18,
+    "details": {
+      "brand": "Reichel, Rohan and Farrell",
+      "origin": "New Zealand"
+    }
+  }
+}

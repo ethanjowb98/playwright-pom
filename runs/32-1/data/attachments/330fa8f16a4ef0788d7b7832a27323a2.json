@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-fznglkyh Frozen Concrete Hat",
+    "category": "dairy-eggs",
+    "price": 24.96,
+    "stock": 29,
+    "details": {
+      "brand": "Schmeler Inc",
+      "origin": "South Africa"
+    },
+    "temperature_zone": "Hot"
+  }
+}

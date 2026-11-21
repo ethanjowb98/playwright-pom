@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-epadxm73 Intelligent Cotton Keyboard",
+    "category": "other",
+    "price": 3.11,
+    "stock": 11,
+    "details": {
+      "brand": "Hermiston-Gislason, Stiedemann and Rosenbaum",
+      "origin": "Peru"
+    }
+  }
+}

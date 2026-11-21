@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-975fjbcr Small Ceramic Chicken",
+    "category": "meat-seafood",
+    "price": 7.52,
+    "stock": 19,
+    "details": {
+      "brand": "Bartell Group",
+      "origin": "Panama"
+    }
+  }
+}

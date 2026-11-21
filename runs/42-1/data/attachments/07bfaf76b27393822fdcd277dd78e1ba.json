@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1df3r33r Incredible Steel Bike",
+    "category": "beverages",
+    "price": 42.95,
+    "stock": 19,
+    "details": {
+      "brand": "D'Amore Inc",
+      "origin": "Cape Verde"
+    }
+  }
+}

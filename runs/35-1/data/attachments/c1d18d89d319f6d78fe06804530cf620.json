@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qi8a4tra Practical Concrete Chips",
+    "category": "dairy-eggs",
+    "price": 48.16,
+    "stock": 15,
+    "details": {
+      "brand": "Toy - Schuppe",
+      "origin": "China"
+    }
+  }
+}

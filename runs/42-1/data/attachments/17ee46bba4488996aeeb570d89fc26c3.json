@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0qv7x8x2 Elegant Concrete Shirt",
+    "category": "pantry",
+    "price": 38.71,
+    "stock": 24,
+    "details": {
+      "brand": "Herman, Williamson and Kulas",
+      "origin": "Thailand"
+    }
+  }
+}

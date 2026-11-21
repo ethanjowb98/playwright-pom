@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "eaf43d90-3e91-4b4a-bee0-5c2fb4a83110",
+      "product_id": "b7a2e95a-7eb3-4860-90ff-3a12e4a4f9a4",
+      "product_name": "QA-1-d4fh4nvv Licensed Bronze Bacon",
+      "price": 33.01,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-10T10:41:31.95103+00:00",
+      "updated_at": "2026-11-10T10:41:31.95103+00:00"
+    }
+  ]
+}

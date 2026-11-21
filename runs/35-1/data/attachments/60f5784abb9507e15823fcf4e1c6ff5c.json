@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-u9geru86 Refined Plastic Chicken",
+    "category": "other",
+    "price": 27.82,
+    "stock": 30,
+    "details": {
+      "brand": "Wuckert - Boehm",
+      "origin": "Saint Vincent and the Grenadines"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

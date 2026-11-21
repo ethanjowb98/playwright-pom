@@ -1,0 +1,15 @@
+{
+  "id": "e611ef7a-c09c-4f55-9a7c-a7146005f664",
+  "product_name": "QA-1-41oe485m Modern Aluminum Gloves",
+  "category": "beverages",
+  "price": 12.74,
+  "stock": 11,
+  "details": {
+    "brand": "Emard, Jacobi and Muller",
+    "origin": "Kenya"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:24:45.804007+00:00"
+}

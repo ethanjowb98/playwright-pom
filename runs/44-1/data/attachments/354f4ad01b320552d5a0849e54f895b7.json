@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-ym51p3ot Sleek Rubber Fish",
+    "category": "other",
+    "price": 22.62,
+    "stock": 35,
+    "details": {
+      "brand": "Bosco, Schuppe and Hodkiewicz",
+      "origin": "Paraguay"
+    },
+    "weighted": false
+  }
+}

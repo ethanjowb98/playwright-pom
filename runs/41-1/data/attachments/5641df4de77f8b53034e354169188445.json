@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "1321e4c3-4d06-4f64-b247-0a3333601e9c",
+    "order_number": "O35177",
+    "status": "pending",
+    "total_amount": 13.45,
+    "created_at": "2026-11-11T10:02:10.374587+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-xchieymz Generic Bronze Shoes",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 13.45,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

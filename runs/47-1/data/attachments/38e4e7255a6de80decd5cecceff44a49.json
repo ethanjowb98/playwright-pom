@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8jr6f3x9 Awesome Ceramic Keyboard",
+    "category": "snacks",
+    "price": 30.02,
+    "stock": 27,
+    "details": {
+      "brand": "Lueilwitz - Harris",
+      "origin": "Greece"
+    }
+  }
+}

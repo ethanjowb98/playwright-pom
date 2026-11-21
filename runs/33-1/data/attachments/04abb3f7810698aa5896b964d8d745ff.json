@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "b8ddbbad-ede9-4231-a524-7c57e1a05f9f",
+    "order_number": "O85404",
+    "status": "pending",
+    "total_amount": 43.71,
+    "created_at": "2026-11-05T08:28:16.32852+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-tmvunutb Small Steel Salad",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 14.57,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

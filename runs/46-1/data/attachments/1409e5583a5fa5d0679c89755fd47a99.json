@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-rnoiw4hj Electronic Wooden Pants",
+    "category": "bakery",
+    "price": 30.13,
+    "stock": 27,
+    "details": {
+      "brand": "Berge-Larson - Bogan",
+      "origin": "Christmas Island"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b4def481-50af-4a75-b664-c1ca8ebdf4f5",
+  "product_name": "QA-6-jqtu2iyt sort Bravo",
+  "category": "meat-seafood",
+  "price": 29.71,
+  "stock": 11,
+  "details": {
+    "brand": "Feeney Group",
+    "origin": "Slovakia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:04.943861+00:00"
+}

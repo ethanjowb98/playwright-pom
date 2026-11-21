@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-reosfpiz sort Charlie",
+    "category": "meat-seafood",
+    "price": 23.92,
+    "stock": 42,
+    "details": {
+      "brand": "Armstrong, Cummings and Carroll",
+      "origin": "Nauru"
+    }
+  }
+}

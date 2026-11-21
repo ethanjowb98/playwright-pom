@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-olrx8clj Luxurious Rubber Ball",
+    "category": "other",
+    "price": 14.35,
+    "stock": 12,
+    "details": {
+      "brand": "Corwin, Mueller and Deckow",
+      "origin": "Chad"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ff1jht02 Oriental Wooden Car",
+    "category": "frozen",
+    "price": 34.23,
+    "stock": 17,
+    "details": {
+      "brand": "Brekke - Maggio",
+      "origin": "Saint Vincent and the Grenadines"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ul6btlsp Generic Metal Keyboard",
+    "category": "snacks",
+    "price": 33.73,
+    "stock": 2,
+    "details": {
+      "brand": "Hamill, Windler and Wisoky",
+      "origin": "Venezuela"
+    }
+  }
+}

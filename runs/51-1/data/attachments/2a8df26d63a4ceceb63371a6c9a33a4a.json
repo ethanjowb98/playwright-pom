@@ -1,0 +1,15 @@
+{
+  "id": "5a06e22e-6c05-4b5e-9f7c-7ba91b98eb76",
+  "product_name": "QA-1-yw1555iw Rustic Marble Computer",
+  "category": "dairy-eggs",
+  "price": 40.26,
+  "stock": 26,
+  "details": {
+    "brand": "Mertz, Berge and Gleason",
+    "origin": "United States Minor Outlying Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:28:59.453675+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-1yx8oeiw Generic Marble Bike",
+    "category": "household",
+    "price": 45.87,
+    "stock": 40,
+    "details": {
+      "brand": "Oberbrunner-Kemmer Inc",
+      "origin": "Latvia"
+    }
+  }
+}

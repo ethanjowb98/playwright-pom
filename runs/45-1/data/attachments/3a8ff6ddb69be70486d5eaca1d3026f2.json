@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-5t9y0qpn Bespoke Rubber Car",
+    "category": "beverages",
+    "price": 11.06,
+    "stock": 35,
+    "details": {
+      "brand": "Greenholt, O'Hara and McKenzie",
+      "origin": "Philippines"
+    }
+  }
+}

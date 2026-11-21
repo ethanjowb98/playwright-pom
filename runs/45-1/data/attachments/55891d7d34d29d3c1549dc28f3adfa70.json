@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cuyefq5m Recycled Cotton Cheese",
+    "category": "household",
+    "price": 45.58,
+    "stock": 26,
+    "details": {
+      "brand": "Dare - Parisian",
+      "origin": "Rwanda"
+    }
+  }
+}

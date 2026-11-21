@@ -1,0 +1,27 @@
+{
+  "id": "71620104-660a-4eec-aeaa-5729ffe0b719",
+  "order_number": "O96176",
+  "status": "pending",
+  "total_amount": 103.44,
+  "notes": null,
+  "created_at": "2026-11-13T10:20:00.915016+00:00",
+  "updated_at": "2026-11-13T10:20:00.915016+00:00",
+  "items": [
+    {
+      "product_id": "ce1d79a6-8ca5-4cec-b482-db14dd5f6d0a",
+      "product_name": "QA-1-5cxkxal1 Tasty Metal Hat",
+      "category": "bakery",
+      "quantity": 3,
+      "price": 8.97,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "682a654a-fcb4-4e6c-9464-007cfebe783f",
+      "product_name": "QA-1-jyfoxu5e Practical Ceramic Computer",
+      "category": "snacks",
+      "quantity": 3,
+      "price": 25.51,
+      "temperature_zone": null
+    }
+  ]
+}

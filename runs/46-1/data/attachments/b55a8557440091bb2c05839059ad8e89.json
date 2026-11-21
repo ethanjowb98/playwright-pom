@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2xb7jz0u Modern Concrete Salad",
+    "category": "fresh-produce",
+    "price": 18.34,
+    "stock": 31,
+    "details": {
+      "brand": "Russel LLC",
+      "origin": "Cameroon"
+    }
+  }
+}

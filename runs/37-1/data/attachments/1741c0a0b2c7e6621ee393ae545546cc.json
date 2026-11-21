@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "dba0ce3a-212e-4311-ab25-94edb477d1c2",
+    "order_number": "O72595",
+    "status": "pending",
+    "total_amount": 96.84,
+    "created_at": "2026-11-07T09:27:02.096699+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-fxpgfjfg Elegant Silk Mouse",
+        "category": "dairy-eggs",
+        "quantity": 3,
+        "price": 32.28,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

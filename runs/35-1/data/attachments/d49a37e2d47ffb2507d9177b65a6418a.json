@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qkdryprx Practical Gold Shoes",
+    "category": "other",
+    "price": 42.05,
+    "stock": 21,
+    "details": {
+      "brand": "Osinski, Medhurst and D'Amore",
+      "origin": "Saint Martin"
+    }
+  }
+}

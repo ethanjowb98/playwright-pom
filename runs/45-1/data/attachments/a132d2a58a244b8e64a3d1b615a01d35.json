@@ -1,0 +1,15 @@
+{
+  "id": "c819cf88-962f-4934-84e4-767518447242",
+  "product_name": "QA-1-sbg9gnlj Soft Silk Fish",
+  "category": "bakery",
+  "price": 5.67,
+  "stock": 37,
+  "details": {
+    "brand": "Wilkinson Inc",
+    "origin": "Greece"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:03.916537+00:00"
+}

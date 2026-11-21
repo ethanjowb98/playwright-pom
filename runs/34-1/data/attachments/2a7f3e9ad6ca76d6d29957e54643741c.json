@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3vmbp54q Tasty Ceramic Pants",
+    "category": "fresh-produce",
+    "price": 37.8,
+    "stock": 37,
+    "details": {
+      "brand": "Raynor - Stokes",
+      "origin": "Tuvalu"
+    }
+  }
+}

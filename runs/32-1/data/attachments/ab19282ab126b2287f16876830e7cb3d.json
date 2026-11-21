@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-n35sy5bz Rustic Bronze Shirt",
+    "category": "household",
+    "price": 24.3,
+    "stock": 37,
+    "details": {
+      "brand": "Treutel LLC",
+      "origin": "Tokelau"
+    },
+    "weighted": false
+  }
+}

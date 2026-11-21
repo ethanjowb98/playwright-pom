@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "6170ae16-a3f6-4590-bcaa-7f31d479f76e",
+      "product_id": "6d0e7097-2f89-414f-ae81-29835d0e8768",
+      "product_name": "QA-1-fgl4rzhz Soft Cotton Pants",
+      "price": 37.9,
+      "category": "pantry",
+      "quantity": 1,
+      "created_at": "2026-11-17T11:24:52.434235+00:00",
+      "updated_at": "2026-11-17T11:24:52.434235+00:00"
+    },
+    {
+      "id": "5213f133-47d7-436a-84b4-890bcf0eb4cc",
+      "product_id": "54d4fccc-9bad-46c5-bbdb-8644dfa1ff59",
+      "product_name": "QA-1-dujd0jb2 Soft Cotton Fish",
+      "price": 13.26,
+      "category": "frozen",
+      "quantity": 1,
+      "created_at": "2026-11-17T11:24:53.073851+00:00",
+      "updated_at": "2026-11-17T11:24:53.073851+00:00"
+    }
+  ]
+}

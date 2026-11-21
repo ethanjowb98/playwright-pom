@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-qbbv6pc4 Licensed Metal Gloves",
+    "category": "frozen",
+    "price": 44.46,
+    "stock": 14,
+    "details": {
+      "brand": "Swift - Harber",
+      "origin": "Cyprus"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

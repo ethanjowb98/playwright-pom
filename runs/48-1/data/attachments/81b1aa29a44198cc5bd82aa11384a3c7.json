@@ -1,0 +1,15 @@
+{
+  "id": "45058c1e-6bb2-4feb-9edf-5209ff5dccf4",
+  "product_name": "QA-1-khuyndsd Tasty Silk Tuna",
+  "category": "frozen",
+  "price": 12.62,
+  "stock": 12,
+  "details": {
+    "brand": "Kertzmann Inc",
+    "origin": "Uzbekistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:57:47.451719+00:00"
+}

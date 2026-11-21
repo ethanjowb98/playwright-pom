@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-b62r4kuw sort Charlie",
+    "category": "other",
+    "price": 28.55,
+    "stock": 49,
+    "details": {
+      "brand": "Ferry, Balistreri and Turcotte",
+      "origin": "Norfolk Island"
+    }
+  }
+}

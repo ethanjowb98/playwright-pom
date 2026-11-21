@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-aw2be6na Incredible Gold Salad",
+    "category": "pantry",
+    "price": 16.11,
+    "stock": 47,
+    "details": {
+      "brand": "Beer - Maggio",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

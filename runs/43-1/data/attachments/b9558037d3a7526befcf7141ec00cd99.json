@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8vdwj0d3 Modern Bronze Tuna",
+    "category": "fresh-produce",
+    "price": 21.35,
+    "stock": 28,
+    "details": {
+      "brand": "DuBuque and Sons",
+      "origin": "Romania"
+    }
+  }
+}

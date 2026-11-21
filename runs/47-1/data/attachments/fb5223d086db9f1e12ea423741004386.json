@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ax3e7ufc Awesome Plastic Hat",
+    "category": "fresh-produce",
+    "price": 27.94,
+    "stock": 11,
+    "details": {
+      "brand": "Mann, Bergnaum and Douglas",
+      "origin": "Mozambique"
+    }
+  }
+}

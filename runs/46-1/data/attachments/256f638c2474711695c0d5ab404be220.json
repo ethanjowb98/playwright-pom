@@ -1,0 +1,82 @@
+[
+  {
+    "id": "f8fadac0-631c-4e52-bb3b-2b7780c64101",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Earl Grey Loose Leaf Tea",
+    "category": "beverages",
+    "price": 3.5,
+    "details": {
+      "origin": "India",
+      "caffeinated": true,
+      "ingredients": [
+        "Black Tea",
+        "Bergamot Oil"
+      ]
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "aaca0f31-87e2-455f-8439-c5ad20a634aa",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-a32cf01e Ergonomic Wooden Ball",
+    "category": "pantry",
+    "price": 18.96,
+    "details": {
+      "brand": "Marks-Flatley, Nienow and Ratke",
+      "origin": "Libyan Arab Jamahiriya"
+    },
+    "created_at": "2026-11-16T10:22:10.988483+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 44
+  },
+  {
+    "id": "ec7dc046-97da-4cbb-8ec4-2c9c58c7958a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-vdm38vyc Bespoke Bamboo Bike",
+    "category": "bakery",
+    "price": 43.76,
+    "details": {
+      "brand": "Rau - Abernathy",
+      "origin": "Gibraltar"
+    },
+    "created_at": "2026-11-16T10:22:11.537479+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 15
+  },
+  {
+    "id": "1dd85c75-2b4b-4e24-910a-6dee69f2fa2a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Red Onions",
+    "category": "fresh-produce",
+    "price": 1.2,
+    "details": {
+      "local": true,
+      "flavor_profile": "Sharp"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "08b5239e-9c3e-4683-94dd-afdd738cf77a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Russet Potatoes (5lb)",
+    "category": "fresh-produce",
+    "price": 5.5,
+    "details": {
+      "type": "Starchy",
+      "origin": "Idaho",
+      "bag_size": "5lb"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 10
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hum72iuc Handmade Granite Cheese",
+    "category": "fresh-produce",
+    "price": 17.01,
+    "stock": 23,
+    "details": {
+      "brand": "Reichel, Harris and Lemke",
+      "origin": "Burundi"
+    }
+  }
+}

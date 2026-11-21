@@ -1,0 +1,15 @@
+{
+  "id": "aea5503a-e5c9-4de2-8e20-faaf834e3a63",
+  "product_name": "QA-7-k4s1ifi9 Fantastic Bronze Soap",
+  "category": "bakery",
+  "price": 40.14,
+  "stock": 49,
+  "details": {
+    "brand": "Zemlak, Leffler and Orn",
+    "origin": "Japan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:09.737113+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "bd590970-de1f-4c27-b1ac-017cd6ab34bf",
+  "product_name": "QA-1-679f0jv9 Luxurious Silk Cheese",
+  "category": "snacks",
+  "price": 29.11,
+  "stock": 43,
+  "details": {
+    "brand": "Carroll Group",
+    "origin": "Falkland Islands (Malvinas)"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:28:57.4917+00:00"
+}

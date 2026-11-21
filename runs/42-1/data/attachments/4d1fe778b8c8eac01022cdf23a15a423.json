@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yi4e3hax Refined Rubber Hat",
+    "category": "pantry",
+    "price": 37.55,
+    "stock": 24,
+    "details": {
+      "brand": "Wunsch Inc",
+      "origin": "Tanzania"
+    }
+  }
+}

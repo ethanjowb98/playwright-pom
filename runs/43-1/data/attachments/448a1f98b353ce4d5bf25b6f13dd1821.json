@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xhon8fvl Modern Marble Chips",
+    "category": "dairy-eggs",
+    "price": 12.77,
+    "stock": 31,
+    "details": {
+      "brand": "Torphy Group",
+      "origin": "Tajikistan"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

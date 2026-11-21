@@ -1,0 +1,15 @@
+{
+  "id": "ed61d106-b99e-4235-9a02-c61e048ebffc",
+  "product_name": "QA-1-dz7c2mxs Electronic Marble Sausages",
+  "category": "bakery",
+  "price": 14.28,
+  "stock": 16,
+  "details": {
+    "brand": "Huels - Grant-Weissnat",
+    "origin": "Portugal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:42:26.674846+00:00"
+}

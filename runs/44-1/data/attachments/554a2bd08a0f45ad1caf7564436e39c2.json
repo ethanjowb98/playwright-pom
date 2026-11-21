@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-h08li7g7 sort Charlie",
+    "category": "pantry",
+    "price": 29.84,
+    "stock": 11,
+    "details": {
+      "brand": "D'Amore Inc",
+      "origin": "Andorra"
+    }
+  }
+}

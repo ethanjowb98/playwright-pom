@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-sscgwm02 Gorgeous Plastic Gloves",
+    "category": "other",
+    "price": 30.88,
+    "stock": 29,
+    "details": {
+      "brand": "Konopelski LLC",
+      "origin": "Egypt"
+    }
+  }
+}

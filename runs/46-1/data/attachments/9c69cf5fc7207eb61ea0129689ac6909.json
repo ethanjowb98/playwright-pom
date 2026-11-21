@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-1js4h5gm Fantastic Ceramic Towels",
+    "category": "pantry",
+    "price": 25.92,
+    "stock": 19,
+    "details": {
+      "brand": "Heller - Kuvalis",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

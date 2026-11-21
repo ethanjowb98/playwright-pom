@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-phynlfd3 Electronic Metal Bike",
+    "category": "other",
+    "price": 3.5,
+    "stock": 34,
+    "details": {
+      "brand": "Towne, Mayer and Wehner",
+      "origin": "Mexico"
+    },
+    "weighted": true
+  }
+}

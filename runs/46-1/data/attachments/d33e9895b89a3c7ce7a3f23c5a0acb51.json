@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-olakxet4 Practical Cotton Gloves",
+    "category": "bakery",
+    "price": 33.99,
+    "stock": 15,
+    "details": {
+      "brand": "Daniel, Borer and Marks",
+      "origin": "Sri Lanka"
+    }
+  }
+}

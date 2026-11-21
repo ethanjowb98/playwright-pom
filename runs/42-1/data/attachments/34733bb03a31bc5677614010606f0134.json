@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u3hmqtn6 Refined Steel Chips",
+    "category": "bakery",
+    "price": 41.72,
+    "stock": 36,
+    "details": {
+      "brand": "Konopelski - Brown",
+      "origin": "Bosnia and Herzegovina"
+    }
+  }
+}

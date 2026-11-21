@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ah4hnvwd Fantastic Granite Bacon",
+    "category": "dairy-eggs",
+    "price": 44.72,
+    "stock": 36,
+    "details": {
+      "brand": "Tillman, Leffler and Strosin",
+      "origin": "Namibia"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

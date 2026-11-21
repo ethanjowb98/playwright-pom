@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "8bb339e9-3ee5-4333-b9af-45b1b2850334",
+      "product_id": "a07a83be-66e4-4629-ae4e-9a5d3ea025c8",
+      "product_name": "QA-1-3blhmvsv Recycled Bamboo Salad",
+      "price": 17.39,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-14T09:41:57.83814+00:00",
+      "updated_at": "2026-11-14T09:41:57.83814+00:00"
+    },
+    {
+      "id": "487dd8c5-b86b-46bf-8cd8-795fa0c8bef4",
+      "product_id": "cf0e2648-8b53-4e46-8d5a-888e321a91e7",
+      "product_name": "QA-1-e34qpamz Refined Bronze Computer",
+      "price": 22.74,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-14T09:41:58.461429+00:00",
+      "updated_at": "2026-11-14T09:41:58.461429+00:00"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "e459b756-8df0-446e-992a-16638527c513",
+      "product_id": "53ba09a6-7f51-40f8-acc3-2ade64916469",
+      "product_name": "QA-1-ex6vz6yq Fantastic Ceramic Keyboard",
+      "price": 38.2,
+      "category": "other",
+      "quantity": 1,
+      "created_at": "2026-11-10T10:40:47.99466+00:00",
+      "updated_at": "2026-11-10T10:40:47.99466+00:00"
+    },
+    {
+      "id": "16c867af-201a-47d9-b47f-bdb7fae8a154",
+      "product_id": "01254e0f-1460-466d-8a32-42bae86b579c",
+      "product_name": "QA-1-z3pnsf0k Gorgeous Bronze Hat",
+      "price": 18.75,
+      "category": "other",
+      "quantity": 2,
+      "created_at": "2026-11-10T10:40:48.590695+00:00",
+      "updated_at": "2026-11-10T10:40:48.590695+00:00"
+    }
+  ]
+}

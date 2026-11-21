@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vscqzjqd Generic Bronze Bacon",
+    "category": "pantry",
+    "price": 17.68,
+    "stock": 31,
+    "details": {
+      "brand": "Collier-Kassulke, Pacocha and Kuvalis",
+      "origin": "Fiji"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-ix8vfn14 sort Alpha",
+    "category": "dairy-eggs",
+    "price": 2.88,
+    "stock": 22,
+    "details": {
+      "brand": "Heller-Roberts, Ziemann and Frami",
+      "origin": "Cyprus"
+    }
+  }
+}

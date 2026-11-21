@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cwpqr1rj Recycled Rubber Table",
+    "category": "other",
+    "price": 44.45,
+    "stock": 30,
+    "details": {
+      "brand": "Lockman Inc",
+      "origin": "San Marino"
+    }
+  }
+}

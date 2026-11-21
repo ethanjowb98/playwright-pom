@@ -1,0 +1,15 @@
+{
+  "id": "f68b9b45-4d60-488f-a5c5-f9aa8c80db2a",
+  "product_name": "QA-2-61eazf0y Modern Rubber Bike",
+  "category": "bakery",
+  "price": 10.37,
+  "stock": 46,
+  "details": {
+    "brand": "Williamson, Walsh and Lueilwitz",
+    "origin": "Réunion"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:20.794571+00:00"
+}

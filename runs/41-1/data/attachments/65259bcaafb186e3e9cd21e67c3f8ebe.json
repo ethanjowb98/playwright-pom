@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-mmy3rk0b Oriental Cotton Mouse",
+    "category": "frozen",
+    "price": 27.16,
+    "stock": 22,
+    "details": {
+      "brand": "Lehner, King and Kautzer",
+      "origin": "United Kingdom"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "c629b68d-1579-49d9-a320-6ac02e14dbd7",
+  "product_name": "QA-2-xwio1cdr Tasty Silk Bacon",
+  "category": "household",
+  "price": 48.6,
+  "stock": 19,
+  "details": {
+    "brand": "Harris Group",
+    "origin": "Eswatini"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:33.236088+00:00"
+}

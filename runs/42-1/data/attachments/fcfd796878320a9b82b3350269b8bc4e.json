@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-uw86v4rq Handcrafted Plastic Fish",
+    "category": "bakery",
+    "price": 13.26,
+    "stock": 41,
+    "details": {
+      "brand": "Sawayn and Sons",
+      "origin": "Bolivia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g3uwxc08 Handcrafted Concrete Sausages",
+    "category": "bakery",
+    "price": 38.22,
+    "stock": 31,
+    "details": {
+      "brand": "Sipes LLC",
+      "origin": "Cameroon"
+    }
+  }
+}

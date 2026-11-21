@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-n4t5y2t7 Incredible Rubber Bike",
+    "category": "bakery",
+    "price": 30.72,
+    "stock": 15,
+    "details": {
+      "brand": "Paucek LLC",
+      "origin": "Macao"
+    }
+  }
+}

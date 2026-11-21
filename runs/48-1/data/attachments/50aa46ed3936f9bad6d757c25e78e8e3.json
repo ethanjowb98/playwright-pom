@@ -1,0 +1,19 @@
+{
+  "id": "8532def4-227b-4fa3-8bc6-0c1897daecf5",
+  "order_number": "O20180",
+  "status": "delivered",
+  "total_amount": 7.18,
+  "notes": null,
+  "created_at": "2026-11-18T10:56:10.190692+00:00",
+  "updated_at": "2026-11-18T10:56:10.190692+00:00",
+  "items": [
+    {
+      "product_id": "7e994a97-af05-47ac-9ed9-6d58a10dfcc9",
+      "product_name": "QA-1-x9ikmigz Bespoke Aluminum Towels",
+      "category": "pantry",
+      "quantity": 1,
+      "price": 7.18,
+      "temperature_zone": null
+    }
+  ]
+}

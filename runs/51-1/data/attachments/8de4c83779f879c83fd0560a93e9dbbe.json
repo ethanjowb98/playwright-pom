@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-36grdkt4 Ergonomic Gold Shirt",
+    "category": "fresh-produce",
+    "price": 6.94,
+    "stock": 0,
+    "details": {
+      "brand": "Ortiz-Cronin, Cummerata and Ankunding",
+      "origin": "Georgia"
+    }
+  }
+}

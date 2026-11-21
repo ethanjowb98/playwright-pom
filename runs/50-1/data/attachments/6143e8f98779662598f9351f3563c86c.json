@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-har7h2ds Ergonomic Metal Chips",
+    "category": "dairy-eggs",
+    "price": 33.57,
+    "stock": 2,
+    "details": {
+      "brand": "Conroy Inc",
+      "origin": "Finland"
+    }
+  }
+}

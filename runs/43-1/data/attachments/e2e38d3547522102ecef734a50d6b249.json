@@ -1,0 +1,15 @@
+{
+  "id": "f30b2a77-3c41-481b-89d0-42304286feec",
+  "product_name": "QA-1-55d3gtlw Small Bronze Towels",
+  "category": "bakery",
+  "price": 5.29,
+  "stock": 35,
+  "details": {
+    "brand": "Barton - Quigley",
+    "origin": "Madagascar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:19:34.29927+00:00"
+}

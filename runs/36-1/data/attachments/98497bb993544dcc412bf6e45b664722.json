@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3vnik9cn Ergonomic Gold Pizza",
+    "category": "household",
+    "price": 8.29,
+    "stock": 39,
+    "details": {
+      "brand": "Marks LLC",
+      "origin": "Timor-Leste"
+    }
+  }
+}

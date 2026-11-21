@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-8i0lualr Refined Gold Chips",
+    "category": "frozen",
+    "price": 33.25,
+    "stock": 29,
+    "details": {
+      "brand": "Greenfelder - Torphy",
+      "origin": "Portugal"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kmlso44n Recycled Rubber Bike",
+    "category": "other",
+    "price": 3.83,
+    "stock": 33,
+    "details": {
+      "brand": "Lesch, Nolan and Hickle",
+      "origin": "El Salvador"
+    }
+  }
+}

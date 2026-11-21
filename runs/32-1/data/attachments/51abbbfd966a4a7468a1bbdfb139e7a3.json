@@ -1,0 +1,7 @@
+{
+  "method": "GET",
+  "path": "/api/products",
+  "query": {
+    "sort": "desc"
+  }
+}

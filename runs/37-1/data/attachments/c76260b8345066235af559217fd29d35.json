@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5ik8gdyf Refined Concrete Shirt",
+    "category": "pantry",
+    "price": 32.9,
+    "stock": 25,
+    "details": {
+      "brand": "Upton and Sons",
+      "origin": "Paraguay"
+    }
+  }
+}

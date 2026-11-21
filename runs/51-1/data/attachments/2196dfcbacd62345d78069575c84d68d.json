@@ -1,0 +1,15 @@
+{
+  "id": "d20ae317-1c0b-4e3b-96fc-b434dc7717e5",
+  "product_name": "QA-8-f4orancc sort Bravo",
+  "category": "bakery",
+  "price": 5.83,
+  "stock": 38,
+  "details": {
+    "brand": "Glover - Dooley",
+    "origin": "Malaysia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:49.630418+00:00"
+}

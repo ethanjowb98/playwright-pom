@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "snacks",
+    "price": 1.16,
+    "stock": 38,
+    "details": {
+      "brand": "Labadie LLC",
+      "origin": "Singapore"
+    }
+  }
+}

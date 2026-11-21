@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-d07zugw0 sort Alpha",
+    "category": "pantry",
+    "price": 34.93,
+    "stock": 50,
+    "details": {
+      "brand": "Fritsch LLC",
+      "origin": "Bangladesh"
+    }
+  }
+}

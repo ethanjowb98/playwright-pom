@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k62236lh Luxurious Metal Chips",
+    "category": "household",
+    "price": 5.65,
+    "stock": 40,
+    "details": {
+      "brand": "Morar Group",
+      "origin": "Chad"
+    }
+  }
+}

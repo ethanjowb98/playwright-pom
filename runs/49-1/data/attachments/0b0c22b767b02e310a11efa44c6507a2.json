@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "2bbec09b-857e-465a-afb8-2b9e3bf5e86b",
+    "order_number": "O62326",
+    "status": "pending",
+    "total_amount": 20.04,
+    "created_at": "2026-11-19T10:59:13.442018+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-qzwguitu Ergonomic Bamboo Soap",
+        "category": "frozen",
+        "quantity": 1,
+        "price": 20.04,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

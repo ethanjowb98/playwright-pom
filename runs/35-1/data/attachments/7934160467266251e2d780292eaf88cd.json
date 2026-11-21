@@ -1,0 +1,15 @@
+{
+  "id": "ab809f8d-4d95-43f2-b4e3-d35e73cc12f4",
+  "product_name": "QA-1-v75nxl2e Incredible Gold Chair",
+  "category": "meat-seafood",
+  "price": 4.2,
+  "stock": 38,
+  "details": {
+    "brand": "Rice LLC",
+    "origin": "United States Minor Outlying Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:05:11.697878+00:00"
+}

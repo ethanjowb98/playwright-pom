@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3kgsy9mo Soft Granite Chair",
+    "category": "snacks",
+    "price": 36.62,
+    "stock": 45,
+    "details": {
+      "brand": "Ryan, Bergnaum and Bogisich",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

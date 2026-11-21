@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lyv0so29 Modern Marble Table",
+    "category": "snacks",
+    "price": 44.24,
+    "stock": 10,
+    "details": {
+      "brand": "Bahringer, Kemmer and Konopelski",
+      "origin": "Cape Verde"
+    }
+  }
+}

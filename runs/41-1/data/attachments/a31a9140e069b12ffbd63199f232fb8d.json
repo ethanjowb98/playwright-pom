@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "0f8b50fa-b3ba-4822-97bb-901a1a5988db",
+    "order_number": "O36739",
+    "status": "pending",
+    "total_amount": 72.33,
+    "created_at": "2026-11-11T10:02:40.238964+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-h24t0kap Handcrafted Metal Chicken",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 24.11,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

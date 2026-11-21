@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3j72vd9p Gorgeous Bronze Keyboard",
+    "category": "meat-seafood",
+    "price": 30.31,
+    "stock": 18,
+    "details": {
+      "brand": "Jones, Bruen and Thiel",
+      "origin": "Argentina"
+    }
+  }
+}

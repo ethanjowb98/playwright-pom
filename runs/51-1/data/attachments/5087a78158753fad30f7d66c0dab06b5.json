@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "3a411454-9f4b-4788-ac3c-c2e4a374af05",
+      "product_id": "ab2e66ce-60df-48b7-8294-4f220666cac3",
+      "product_name": "QA-1-85o71c7k Awesome Aluminum Bike",
+      "price": 44.5,
+      "category": "fresh-produce",
+      "quantity": 3,
+      "created_at": "2026-11-21T10:29:23.897673+00:00",
+      "updated_at": "2026-11-21T10:29:23.897673+00:00"
+    }
+  ]
+}

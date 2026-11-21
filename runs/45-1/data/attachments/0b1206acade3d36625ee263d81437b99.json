@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-245mpwx0 Modern Bamboo Chips",
+    "category": "pantry",
+    "price": 45.41,
+    "stock": 16,
+    "details": {
+      "brand": "VonRueden LLC",
+      "origin": "Eswatini"
+    }
+  }
+}

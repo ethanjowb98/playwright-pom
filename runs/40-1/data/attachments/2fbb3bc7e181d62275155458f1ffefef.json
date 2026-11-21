@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tvgjelj2 Intelligent Rubber Chicken",
+    "category": "frozen",
+    "price": 49.95,
+    "stock": 37,
+    "details": {
+      "brand": "Labadie, Becker and Kunze",
+      "origin": "Tonga"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1f0a1vkp Gorgeous Concrete Pizza",
+    "category": "meat-seafood",
+    "price": 7.74,
+    "stock": 28,
+    "details": {
+      "brand": "Welch, Gorczany and Pollich",
+      "origin": "Czechia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-8esbnvas Handmade Granite Salad",
+    "category": "meat-seafood",
+    "price": 24.06,
+    "stock": 35,
+    "details": {
+      "brand": "Luettgen, Wiza and Torp",
+      "origin": "Paraguay"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "8701bcbf-35de-4aaf-8ac9-b563f5c423a6",
+  "product_name": "QA-2-h05cvp47 Handcrafted Bronze Pizza",
+  "category": "frozen",
+  "price": 16.01,
+  "stock": 28,
+  "details": {
+    "brand": "Cole and Sons",
+    "origin": "Gabon"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:50.581668+00:00"
+}

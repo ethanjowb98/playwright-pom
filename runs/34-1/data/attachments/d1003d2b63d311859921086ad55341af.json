@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wl7w9ouu Refined Metal Computer",
+    "category": "beverages",
+    "price": 23.55,
+    "stock": 43,
+    "details": {
+      "brand": "Feil LLC",
+      "origin": "Albania"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-56ya4bp1 sort Alpha",
+    "category": "meat-seafood",
+    "price": 17.63,
+    "stock": 19,
+    "details": {
+      "brand": "Bogan LLC",
+      "origin": "Martinique"
+    }
+  }
+}

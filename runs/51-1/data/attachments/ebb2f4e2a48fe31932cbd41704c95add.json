@@ -1,0 +1,19 @@
+{
+  "id": "c86538f6-35fa-4db4-b715-bde0d9cc3cad",
+  "order_number": "O21788",
+  "status": "processing",
+  "total_amount": 133.5,
+  "notes": null,
+  "created_at": "2026-11-21T10:29:24.801638+00:00",
+  "updated_at": "2026-11-21T10:29:24.801638+00:00",
+  "items": [
+    {
+      "product_id": "ab2e66ce-60df-48b7-8294-4f220666cac3",
+      "product_name": "QA-1-85o71c7k Awesome Aluminum Bike",
+      "category": "fresh-produce",
+      "quantity": 3,
+      "price": 44.5,
+      "temperature_zone": null
+    }
+  ]
+}

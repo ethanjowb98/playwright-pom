@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-w2j7j4jq Frozen Wooden Keyboard",
+    "category": "frozen",
+    "price": 34.93,
+    "stock": 44,
+    "details": {
+      "brand": "Flatley, Becker-Olson and Kerluke",
+      "origin": "Nauru"
+    },
+    "temperature_zone": "Dry"
+  }
+}

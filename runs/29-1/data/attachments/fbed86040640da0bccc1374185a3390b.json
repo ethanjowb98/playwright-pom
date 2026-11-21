@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-1of6twqh Elegant Wooden Bike",
+    "category": "bakery",
+    "price": 4.08,
+    "stock": 37,
+    "details": {
+      "brand": "Schuster Inc",
+      "origin": "British Indian Ocean Territory (Chagos Archipelago)"
+    }
+  }
+}

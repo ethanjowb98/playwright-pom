@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-yfyam6iq Handcrafted Steel Table",
+    "category": "household",
+    "price": 2.94,
+    "stock": 33,
+    "details": {
+      "brand": "O'Keefe - Little",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

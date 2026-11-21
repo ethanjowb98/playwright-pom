@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-qtnl37y7 Elegant Concrete Mouse",
+    "category": "fresh-produce",
+    "price": 20.35,
+    "stock": 31,
+    "details": {
+      "brand": "Johnson and Sons",
+      "origin": "Mozambique"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

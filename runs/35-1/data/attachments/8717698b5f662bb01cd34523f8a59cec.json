@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "fedc55cb-9d55-425c-9740-d1f683f0d5ab",
+      "product_id": "f07c4830-907e-47d2-862d-816214887468",
+      "product_name": "QA-1-tmqh2d90 Elegant Bronze Hat",
+      "price": 24.29,
+      "category": "bakery",
+      "quantity": 1,
+      "created_at": "2026-11-05T10:06:16.492578+00:00",
+      "updated_at": "2026-11-05T10:06:16.492578+00:00"
+    },
+    {
+      "id": "a91b2126-31bf-44a4-bee8-0a413795ffa9",
+      "product_id": "e7db22da-4a62-4a37-8471-09597a8e9f75",
+      "product_name": "QA-1-xihsfydh Handcrafted Marble Table",
+      "price": 9.72,
+      "category": "meat-seafood",
+      "quantity": 1,
+      "created_at": "2026-11-05T10:06:17.025719+00:00",
+      "updated_at": "2026-11-05T10:06:17.025719+00:00"
+    }
+  ]
+}

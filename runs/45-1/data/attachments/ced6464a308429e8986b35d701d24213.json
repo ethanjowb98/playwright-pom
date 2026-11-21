@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-aasihxu9 Fresh Wooden Bike",
+    "category": "bakery",
+    "price": 43.44,
+    "stock": 46,
+    "details": {
+      "brand": "Heaney - Bauch",
+      "origin": "Saudi Arabia"
+    }
+  }
+}

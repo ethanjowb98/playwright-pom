@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-119unamk sort Charlie",
+    "category": "bakery",
+    "price": 17.77,
+    "stock": 30,
+    "details": {
+      "brand": "Reinger LLC",
+      "origin": "Niue"
+    }
+  }
+}

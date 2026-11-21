@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b7wdeerg Bespoke Granite Towels",
+    "category": "meat-seafood",
+    "price": 41.43,
+    "stock": 42,
+    "details": {
+      "brand": "Walter-Auer, Cassin and Shields",
+      "origin": "Réunion"
+    }
+  }
+}

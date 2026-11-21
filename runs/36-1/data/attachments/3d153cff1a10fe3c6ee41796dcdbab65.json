@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-30rs9zq8 Gorgeous Plastic Cheese",
+    "category": "frozen",
+    "price": 2.39,
+    "stock": 15,
+    "details": {
+      "batch": "QA-6-51dfslfq batch"
+    }
+  }
+}

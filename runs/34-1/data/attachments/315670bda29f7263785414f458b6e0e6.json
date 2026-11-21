@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g88gyvbf Generic Silk Gloves",
+    "category": "frozen",
+    "price": 16.3,
+    "stock": 13,
+    "details": {
+      "brand": "Crooks and Sons",
+      "origin": "Saint Barthélemy"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-hf5qrfyq Licensed Ceramic Chips",
+    "price": 17.41,
+    "stock": 26,
+    "details": {
+      "brand": "Casper, Abshire and Dietrich-Windler",
+      "origin": "Colombia"
+    }
+  }
+}

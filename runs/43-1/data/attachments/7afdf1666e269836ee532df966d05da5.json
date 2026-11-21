@@ -1,0 +1,15 @@
+{
+  "id": "b4c70524-5736-4161-8ec1-d33c575a1828",
+  "product_name": "QA-1-nt9z1w8r Bespoke Concrete Fish",
+  "category": "beverages",
+  "price": 5.3,
+  "stock": 28,
+  "details": {
+    "brand": "Hagenes and Sons",
+    "origin": "Turks and Caicos Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:23:29.00565+00:00"
+}

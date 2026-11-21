@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-piyd0zmy Luxurious Metal Pants",
+    "category": "household",
+    "price": 48.49,
+    "stock": 46,
+    "details": {
+      "brand": "Weissnat - Donnelly",
+      "origin": "Honduras"
+    }
+  }
+}

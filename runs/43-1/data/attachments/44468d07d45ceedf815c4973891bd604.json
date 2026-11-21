@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-y60to23x sort Charlie",
+    "category": "beverages",
+    "price": 42.3,
+    "stock": 44,
+    "details": {
+      "brand": "Haley, Legros and Christiansen",
+      "origin": "United States of America"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "237fd2b9-d9cf-4153-b486-479cf234ec98",
+  "product_name": "QA-5-r8f1wm0w Recycled Bamboo Mouse",
+  "category": "dairy-eggs",
+  "price": 8.3,
+  "stock": 22,
+  "details": {
+    "brand": "Friesen-Hettinger, Stehr and Keebler",
+    "origin": "Norfolk Island"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:12.764131+00:00"
+}

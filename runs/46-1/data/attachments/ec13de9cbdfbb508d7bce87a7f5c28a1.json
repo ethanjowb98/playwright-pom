@@ -1,0 +1,33 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ef747fde-389b-46d1-a803-46f4575cbdd4",
+    "order_number": "O22622",
+    "status": "pending",
+    "total_amount": 133.44,
+    "created_at": "2026-11-16T10:23:07.556412+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-nok7ap8c Ergonomic Bamboo Gloves",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 16.25,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-zigxilng Licensed Ceramic Chips",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 1.22,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-gbmb0mhf Modern Concrete Keyboard",
+        "category": "other",
+        "quantity": 3,
+        "price": 27.01,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uqbcpqo6 Awesome Concrete Hat",
+    "category": "fresh-produce",
+    "price": 8.66,
+    "stock": 12,
+    "details": {
+      "brand": "Osinski Group",
+      "origin": "Åland Islands"
+    }
+  }
+}

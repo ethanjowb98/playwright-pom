@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-oxsm6c9m Practical Granite Hat",
+    "category": "beverages",
+    "price": 49.12,
+    "stock": 34,
+    "details": {
+      "brand": "Jacobs, Price and Kemmer",
+      "origin": "Cuba"
+    }
+  }
+}

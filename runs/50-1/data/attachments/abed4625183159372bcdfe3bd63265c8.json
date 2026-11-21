@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r3z8yg6a Incredible Marble Gloves",
+    "category": "other",
+    "price": 19.94,
+    "stock": 33,
+    "details": {
+      "brand": "Waelchi, Haag and Schmeler",
+      "origin": "Hungary"
+    }
+  }
+}

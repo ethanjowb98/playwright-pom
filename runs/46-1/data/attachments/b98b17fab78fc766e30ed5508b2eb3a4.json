@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l4vxh0o4 Refined Concrete Soap",
+    "category": "snacks",
+    "price": 1.59,
+    "stock": 22,
+    "details": {
+      "brand": "Shanahan Group",
+      "origin": "Timor-Leste"
+    }
+  }
+}

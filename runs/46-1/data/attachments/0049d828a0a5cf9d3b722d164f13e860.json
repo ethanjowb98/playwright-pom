@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-vdm38vyc Bespoke Bamboo Bike",
+    "category": "bakery",
+    "price": 43.76,
+    "stock": 15,
+    "details": {
+      "brand": "Rau - Abernathy",
+      "origin": "Gibraltar"
+    },
+    "temperature_zone": "Dry"
+  }
+}

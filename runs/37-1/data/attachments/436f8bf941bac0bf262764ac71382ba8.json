@@ -1,0 +1,32 @@
+[
+  {
+    "id": "60542cca-3d3d-48ec-98e6-9aca24f75219",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-sxxjazgj Generic Cotton Table",
+    "category": "snacks",
+    "price": 31.74,
+    "details": {
+      "brand": "Schulist - Treutel",
+      "origin": "Micronesia"
+    },
+    "created_at": "2026-11-07T09:24:57.23833+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 46
+  },
+  {
+    "id": "43086b6b-38d9-4b67-b6bc-018d6e3ef6f4",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-sqe58r1k sort Charlie",
+    "category": "snacks",
+    "price": 37.71,
+    "details": {
+      "brand": "Stehr, Parisian and Lindgren",
+      "origin": "Philippines"
+    },
+    "created_at": "2026-11-07T09:24:57.298352+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 11
+  }
+]

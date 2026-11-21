@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dinzu8ys Practical Wooden Computer",
+    "category": "frozen",
+    "price": 33.99,
+    "stock": 43,
+    "details": {
+      "brand": "Welch - Goodwin",
+      "origin": "Albania"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "9eeaea88-d956-472c-8a34-d9e0f4616a4f",
+    "order_number": "O44855",
+    "status": "pending",
+    "total_amount": 121.8,
+    "created_at": "2026-11-15T10:09:34.920314+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-cem2b0oh Sleek Steel Ball",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 26.16,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-7j56duwv Refined Bronze Hat",
+        "category": "snacks",
+        "quantity": 2,
+        "price": 35.2,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-us9plp9w Bespoke Rubber Table",
+        "category": "pantry",
+        "quantity": 1,
+        "price": 25.24,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

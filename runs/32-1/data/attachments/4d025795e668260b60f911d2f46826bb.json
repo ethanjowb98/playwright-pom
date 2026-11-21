@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-syuj9go9 Incredible Metal Pizza",
+    "category": "snacks",
+    "price": 46.72,
+    "stock": 29,
+    "details": {
+      "brand": "Veum-Harris - Adams",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

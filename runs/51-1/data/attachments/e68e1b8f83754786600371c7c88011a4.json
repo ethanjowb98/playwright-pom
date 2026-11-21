@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gavciouw Rustic Bamboo Computer",
+    "category": "frozen",
+    "price": 35.5,
+    "stock": 15,
+    "details": {
+      "brand": "Harvey - Moen",
+      "origin": "Seychelles"
+    }
+  }
+}

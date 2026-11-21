@@ -1,0 +1,15 @@
+{
+  "id": "a1743b2b-fd43-4fd1-8c8d-0a675a472507",
+  "product_name": "QA-1-umbvnju7 Fresh Metal Tuna",
+  "category": "household",
+  "price": 25.51,
+  "stock": 47,
+  "details": {
+    "brand": "Corkery - Metz",
+    "origin": "Cape Verde"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:01:11.114442+00:00"
+}

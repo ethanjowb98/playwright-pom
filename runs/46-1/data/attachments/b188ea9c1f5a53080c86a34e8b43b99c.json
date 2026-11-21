@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ys846qga Soft Marble Fish",
+    "price": 15.83,
+    "stock": 16,
+    "details": {
+      "brand": "Cronin LLC",
+      "origin": "Antigua and Barbuda"
+    }
+  }
+}

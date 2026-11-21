@@ -1,0 +1,15 @@
+{
+  "id": "d8a4b765-84f4-451b-b6cf-f954e9bb8a10",
+  "product_name": "QA-1-v3nlb9pe Awesome Gold Mouse",
+  "category": "beverages",
+  "price": 44.63,
+  "stock": 39,
+  "details": {
+    "brand": "Kunde Group",
+    "origin": "Åland Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:27:51.892203+00:00"
+}

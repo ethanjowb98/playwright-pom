@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-vze6f9or Rustic Bronze Pants",
+    "category": "bakery",
+    "price": 12.75,
+    "stock": 32,
+    "details": {
+      "brand": "Wisozk Inc",
+      "origin": "Myanmar"
+    }
+  }
+}

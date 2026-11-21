@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-929fw431 Refined Metal Gloves",
+    "category": "other",
+    "price": 8.92,
+    "stock": 42,
+    "details": {
+      "brand": "Schneider - Tromp",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

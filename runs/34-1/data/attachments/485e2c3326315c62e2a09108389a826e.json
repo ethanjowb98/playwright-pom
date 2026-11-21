@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-7z3drh0y sort Alpha",
+    "category": "other",
+    "price": 1.2,
+    "stock": 45,
+    "details": {
+      "brand": "Schneider, Stracke and Parisian",
+      "origin": "Mali"
+    }
+  }
+}

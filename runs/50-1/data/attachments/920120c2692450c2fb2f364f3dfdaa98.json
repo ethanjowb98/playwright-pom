@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g90xrzos Rustic Bamboo Chicken",
+    "category": "frozen",
+    "stock": 21,
+    "details": {
+      "brand": "Schmeler, Graham and Kling",
+      "origin": "British Indian Ocean Territory (Chagos Archipelago)"
+    }
+  }
+}

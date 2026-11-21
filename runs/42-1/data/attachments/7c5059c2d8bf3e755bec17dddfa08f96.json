@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4qeebp0z Incredible Concrete Shirt",
+    "category": "bakery",
+    "price": 18.19,
+    "stock": 41,
+    "details": {
+      "brand": "Willms, Kozey and Yundt",
+      "origin": "Mayotte"
+    }
+  }
+}

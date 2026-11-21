@@ -1,0 +1,15 @@
+{
+  "id": "bcdb123d-57fe-4a7b-912f-328dc0f4d345",
+  "product_name": "QA-1-poca74xb Sleek Cotton Chips",
+  "category": "household",
+  "price": 15.62,
+  "stock": 43,
+  "details": {
+    "brand": "Bogan, Hyatt-Koss and Goldner",
+    "origin": "Saint Lucia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:25:29.738232+00:00"
+}

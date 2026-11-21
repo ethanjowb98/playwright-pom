@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mbhuhg88 Sleek Rubber Gloves",
+    "category": "pantry",
+    "price": 2.12,
+    "stock": 27,
+    "details": {
+      "brand": "Murray, Kiehn and DuBuque",
+      "origin": "Tokelau"
+    }
+  }
+}

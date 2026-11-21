@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-m2svvcq3 Elegant Marble Pizza",
+    "category": "pantry",
+    "price": 20.36,
+    "stock": 41,
+    "details": {
+      "brand": "Schulist LLC",
+      "origin": "Guam"
+    }
+  }
+}

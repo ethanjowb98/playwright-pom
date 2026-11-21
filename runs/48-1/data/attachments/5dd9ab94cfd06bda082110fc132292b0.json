@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-nc47bmqk Refined Wooden Mouse",
+    "category": "snacks",
+    "price": 13.75,
+    "stock": 11,
+    "details": {
+      "brand": "Schmeler - Kuhlman",
+      "origin": "Peru"
+    },
+    "weighted": false
+  }
+}

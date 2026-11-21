@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-l4vynikv Electronic Silk Pants",
+    "category": "fresh-produce",
+    "price": 41.88,
+    "stock": 44,
+    "details": {
+      "brand": "Renner, Shields and Romaguera",
+      "origin": "Turkmenistan"
+    }
+  }
+}

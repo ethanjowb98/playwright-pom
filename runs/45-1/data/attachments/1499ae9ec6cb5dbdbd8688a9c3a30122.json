@@ -1,0 +1,15 @@
+{
+  "id": "328f8ef8-6962-488f-afe7-adecba1f708d",
+  "product_name": "QA-2-qgnc1oav Handmade Ceramic Mouse",
+  "category": "snacks",
+  "price": 1.23,
+  "stock": 0,
+  "details": {
+    "brand": "Bauch - Gusikowski",
+    "origin": "Svalbard & Jan Mayen Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:52.811671+00:00"
+}

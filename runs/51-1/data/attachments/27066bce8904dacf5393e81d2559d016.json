@@ -1,0 +1,19 @@
+{
+  "id": "de0b4b8e-98d2-4a71-99bc-43e54daba476",
+  "order_number": "O35379",
+  "status": "pending",
+  "total_amount": 36.52,
+  "notes": null,
+  "created_at": "2026-11-21T10:32:23.145847+00:00",
+  "updated_at": "2026-11-21T10:32:23.145847+00:00",
+  "items": [
+    {
+      "product_id": "d18d5201-57a4-4c4d-ba05-f4dfae41ee21",
+      "product_name": "QA-1-mln6i4z4 Rustic Cotton Salad",
+      "category": "frozen",
+      "quantity": 1,
+      "price": 36.52,
+      "temperature_zone": null
+    }
+  ]
+}

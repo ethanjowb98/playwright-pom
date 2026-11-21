@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y424e583 Gorgeous Granite Keyboard",
+    "category": "pantry",
+    "price": 36.94,
+    "stock": 19,
+    "details": {
+      "brand": "Ankunding - Smitham",
+      "origin": "Philippines"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "d0133804-a98c-49cc-97e5-f5a80a7ba322",
+  "product_name": "QA-1-be1pq7ua Incredible Bamboo Pizza",
+  "category": "pantry",
+  "price": 35.94,
+  "stock": 10,
+  "details": {
+    "brand": "McDermott, Bosco and Mertz",
+    "origin": "Belgium"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:11:14.950049+00:00"
+}

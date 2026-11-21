@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1p9ulylo Unbranded Bamboo Mouse",
+    "category": "pantry",
+    "price": 12.67,
+    "stock": 34,
+    "details": {
+      "brand": "Schmeler - VonRueden",
+      "origin": "Réunion"
+    }
+  }
+}

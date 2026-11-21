@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "dairy-eggs",
+    "price": 37.42,
+    "stock": 27,
+    "details": {
+      "brand": "Hand - Upton",
+      "origin": "Comoros"
+    }
+  }
+}

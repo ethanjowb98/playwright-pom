@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-7b7qam6b Bespoke Marble Bacon",
+    "category": "pantry",
+    "price": 5.86,
+    "stock": 16,
+    "details": {
+      "brand": "Herman LLC",
+      "origin": "Angola"
+    }
+  }
+}

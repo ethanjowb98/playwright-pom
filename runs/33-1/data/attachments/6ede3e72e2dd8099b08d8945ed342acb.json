@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xoy9mcz7 Frozen Marble Car",
+    "category": "snacks",
+    "price": 40.28,
+    "stock": 35,
+    "details": {
+      "brand": "Upton - McCullough",
+      "origin": "Cameroon"
+    }
+  }
+}

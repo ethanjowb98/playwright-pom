@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e3rv2p57 Handcrafted Aluminum Bike",
+    "category": "beverages",
+    "price": 21.16,
+    "stock": 40,
+    "details": {
+      "brand": "Rice, Wolff and Bernier",
+      "origin": "Venezuela"
+    }
+  }
+}

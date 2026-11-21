@@ -1,0 +1,15 @@
+{
+  "id": "4098af17-a33a-434e-9aa8-347487fa1d90",
+  "product_name": "QA-1-minmj4iy Ergonomic Gold Cheese",
+  "category": "dairy-eggs",
+  "price": 34.5,
+  "stock": 18,
+  "details": {
+    "brand": "Zboncak - Cassin",
+    "origin": "Tunisia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:58:00.283899+00:00"
+}

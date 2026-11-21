@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-26fkmn34 Licensed Wooden Chicken",
+    "category": "other",
+    "price": 20,
+    "stock": 39,
+    "details": {
+      "brand": "Nader, Wiegand and Witting",
+      "origin": "Honduras"
+    }
+  }
+}

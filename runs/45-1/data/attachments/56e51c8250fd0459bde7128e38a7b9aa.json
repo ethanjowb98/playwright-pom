@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b9o4dslz Bespoke Cotton Pants",
+    "category": "bakery",
+    "price": 9.03,
+    "stock": 25,
+    "details": {
+      "brand": "West Group",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

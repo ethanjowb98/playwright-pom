@@ -1,0 +1,15 @@
+{
+  "id": "9a05feba-25ff-47fc-bbe0-372ebcca7134",
+  "product_name": "QA-2-4hbgm0sg Small Silk Sausages",
+  "category": "bakery",
+  "price": 7.46,
+  "stock": 28,
+  "details": {
+    "brand": "Schimmel Group",
+    "origin": "Svalbard & Jan Mayen Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:53.758121+00:00"
+}

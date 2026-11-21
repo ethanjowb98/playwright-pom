@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cb8e0m7y Elegant Metal Bike",
+    "category": "frozen",
+    "price": 15.94,
+    "stock": 36,
+    "details": {
+      "brand": "Cummings-Schamberger and Sons",
+      "origin": "Puerto Rico"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sb8tlu8s Fresh Wooden Cheese",
+    "category": "pantry",
+    "price": 43.56,
+    "stock": 19,
+    "details": {
+      "brand": "Hintz LLC",
+      "origin": "Panama"
+    }
+  }
+}

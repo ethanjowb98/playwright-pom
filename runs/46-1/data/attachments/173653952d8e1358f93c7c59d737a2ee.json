@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jfh1gvcf Recycled Wooden Chair",
+    "category": "pantry",
+    "price": 20.71,
+    "stock": 29,
+    "details": {
+      "brand": "Hartmann Inc",
+      "origin": "Belarus"
+    }
+  }
+}

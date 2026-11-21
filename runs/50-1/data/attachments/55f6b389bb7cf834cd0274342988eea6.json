@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "ed00ff04-5696-4041-a3a7-e51fd4519501",
+      "product_id": "9b0f560b-cd71-46f6-9a17-fb51930fc21a",
+      "product_name": "QA-1-uhkjtmam Recycled Marble Cheese",
+      "price": 25.55,
+      "category": "other",
+      "quantity": 2,
+      "created_at": "2026-11-20T10:47:32.787463+00:00",
+      "updated_at": "2026-11-20T10:47:32.787463+00:00"
+    },
+    {
+      "id": "a01f0815-58b3-4006-a592-46651d234060",
+      "product_id": "003564e7-d292-4f94-953e-25a19f8bd1e1",
+      "product_name": "QA-1-tn9t31qd Refined Marble Towels",
+      "price": 46.94,
+      "category": "other",
+      "quantity": 2,
+      "created_at": "2026-11-20T10:47:33.343439+00:00",
+      "updated_at": "2026-11-20T10:47:33.343439+00:00"
+    }
+  ]
+}

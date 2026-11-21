@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0ioxr1ks Refined Bronze Salad",
+    "category": "other",
+    "price": 33.78,
+    "stock": 47,
+    "details": {
+      "brand": "Wyman - Lesch",
+      "origin": "Northern Mariana Islands"
+    }
+  }
+}

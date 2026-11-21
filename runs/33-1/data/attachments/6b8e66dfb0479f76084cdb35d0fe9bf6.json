@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-s2oemczd Handcrafted Gold Salad",
+    "category": "other",
+    "price": 21.28,
+    "stock": 38,
+    "details": {
+      "brand": "Franey - Stanton",
+      "origin": "Argentina"
+    }
+  }
+}

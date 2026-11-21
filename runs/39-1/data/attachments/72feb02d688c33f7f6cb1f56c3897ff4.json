@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-lrryda4b Small Concrete Keyboard",
+    "category": "household",
+    "price": 44.28,
+    "stock": 14,
+    "details": {
+      "brand": "Douglas, Haag-Thiel and Satterfield",
+      "origin": "Sint Maarten"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

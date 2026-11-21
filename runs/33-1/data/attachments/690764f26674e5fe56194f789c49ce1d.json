@@ -1,0 +1,19 @@
+{
+  "id": "933ed306-06d2-4fc7-a90c-d5c887ff3423",
+  "order_number": "O34611",
+  "status": "shipped",
+  "total_amount": 89.42,
+  "notes": null,
+  "created_at": "2026-11-05T08:26:34.173918+00:00",
+  "updated_at": "2026-11-05T08:26:34.173918+00:00",
+  "items": [
+    {
+      "product_id": "f3938b82-45cb-47b3-b589-caf5747feb5d",
+      "product_name": "QA-1-ucidt3tt Oriental Metal Salad",
+      "category": "snacks",
+      "quantity": 2,
+      "price": 44.71,
+      "temperature_zone": null
+    }
+  ]
+}

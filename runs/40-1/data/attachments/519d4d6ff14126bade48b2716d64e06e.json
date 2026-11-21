@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ex6vz6yq Fantastic Ceramic Keyboard",
+    "category": "other",
+    "price": 38.2,
+    "stock": 40,
+    "details": {
+      "brand": "Blanda - Terry",
+      "origin": "Costa Rica"
+    }
+  }
+}

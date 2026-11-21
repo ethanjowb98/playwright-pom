@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y2ztqls3 Refined Plastic Hat",
+    "category": "other",
+    "price": 38.01,
+    "stock": 43,
+    "details": {
+      "brand": "Hamill Group",
+      "origin": "Guinea-Bissau"
+    }
+  }
+}

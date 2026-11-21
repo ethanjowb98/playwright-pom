@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-f9x1jz16 Frozen Marble Ball",
+    "category": "bakery",
+    "price": 29.68,
+    "stock": 2,
+    "details": {
+      "brand": "Emmerich and Sons",
+      "origin": "Ghana"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s0fip36z Sleek Marble Table",
+    "category": "beverages",
+    "price": 43,
+    "stock": 41,
+    "details": {
+      "brand": "Emmerich, Okuneva and Moore",
+      "origin": "Japan"
+    }
+  }
+}

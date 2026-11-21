@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2wmmcvrx Recycled Plastic Chicken",
+    "category": "bakery",
+    "price": 6.41,
+    "stock": 35,
+    "details": {
+      "brand": "Ankunding Group",
+      "origin": "Burkina Faso"
+    }
+  }
+}

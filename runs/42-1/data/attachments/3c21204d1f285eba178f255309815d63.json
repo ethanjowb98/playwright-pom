@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "5a022cfa-ce45-4979-857c-4315a602b2a0",
+    "order_number": "O81045",
+    "status": "pending",
+    "total_amount": 7.92,
+    "created_at": "2026-11-12T10:33:41.356434+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-4hpo0tsy Unbranded Marble Sausages",
+        "category": "frozen",
+        "quantity": 2,
+        "price": 3.96,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-xeekcdvr Licensed Bamboo Car",
+    "category": "frozen",
+    "price": 39.42,
+    "stock": 19,
+    "details": {
+      "brand": "Farrell, Wilderman and Christiansen",
+      "origin": "Virgin Islands, U.S."
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

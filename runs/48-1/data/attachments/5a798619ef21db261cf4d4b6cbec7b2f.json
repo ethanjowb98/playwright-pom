@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-naa0sa1n Oriental Gold Pants",
+    "category": "frozen",
+    "price": 30.43,
+    "stock": 22,
+    "details": {
+      "brand": "MacGyver, Ratke and Sawayn",
+      "origin": "Togo"
+    }
+  }
+}

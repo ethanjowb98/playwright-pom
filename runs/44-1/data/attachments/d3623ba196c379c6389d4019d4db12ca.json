@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "b2184ecb-5f14-4ea8-9cb6-5d59cd56e914",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "cancelled",
+    "total_amount": 27.4,
+    "notes": null,
+    "created_at": "2026-11-14T09:40:16.510239+00:00",
+    "updated_at": "2026-11-14T09:40:16.510239+00:00",
+    "order_number": "O76447"
+  }
+}

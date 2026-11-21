@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-4cxk8hq0 Handcrafted Aluminum Ball",
+    "category": "frozen",
+    "price": 42.17,
+    "stock": 39,
+    "details": {
+      "brand": "Frami, Bailey and Blick",
+      "origin": "Serbia"
+    }
+  }
+}

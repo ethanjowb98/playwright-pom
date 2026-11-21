@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "f171f3d6-f5c0-4a85-81b1-ddf9ecea5a1d",
+    "order_number": "O33458",
+    "status": "pending",
+    "total_amount": 115.22,
+    "created_at": "2026-11-05T08:26:04.769188+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-dfbzio5o Oriental Wooden Mouse",
+        "category": "household",
+        "quantity": 3,
+        "price": 22.02,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-a8xp3oue Soft Wooden Pants",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 49.16,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

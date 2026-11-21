@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-35oz8fpe Refined Silk Mouse",
+    "category": "bakery",
+    "price": 13.94,
+    "stock": 41,
+    "details": {
+      "brand": "Schuppe - Trantow",
+      "origin": "Macao"
+    },
+    "weighted": false
+  }
+}

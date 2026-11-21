@@ -1,0 +1,15 @@
+{
+  "id": "ca4cfb78-daa9-4a0b-8a5d-4177b2bda7b4",
+  "product_name": "QA-1-oza5xbb3 Licensed Granite Salad",
+  "category": "meat-seafood",
+  "price": 13.01,
+  "stock": 11,
+  "details": {
+    "brand": "Feil - Nicolas",
+    "origin": "Burkina Faso"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:21:53.287685+00:00"
+}

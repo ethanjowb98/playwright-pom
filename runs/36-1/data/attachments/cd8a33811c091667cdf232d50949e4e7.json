@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-7wthm0uc sort Alpha",
+    "category": "beverages",
+    "price": 42.52,
+    "stock": 26,
+    "details": {
+      "brand": "Bergnaum LLC",
+      "origin": "Tanzania"
+    }
+  }
+}

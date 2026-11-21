@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "680c8deb-eef1-4c6b-abe4-6381c12aba99",
+    "order_number": "O83899",
+    "status": "pending",
+    "total_amount": 147.42,
+    "created_at": "2026-11-09T10:38:27.417785+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-2g9n2z7e Electronic Wooden Shirt",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 49.14,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

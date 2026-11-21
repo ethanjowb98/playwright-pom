@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-5y0nndcd Fresh Wooden Tuna",
+    "category": "bakery",
+    "price": 22.74,
+    "stock": 38,
+    "details": {
+      "brand": "Bruen and Sons",
+      "origin": "Netherlands"
+    }
+  }
+}

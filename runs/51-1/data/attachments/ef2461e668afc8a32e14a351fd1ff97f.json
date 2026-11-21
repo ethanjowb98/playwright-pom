@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "1f2de7eb-3ebe-43c0-ae05-27cd43f99475",
+      "order_number": "O17395",
+      "status": "pending",
+      "total_amount": 66.24,
+      "notes": null,
+      "created_at": "2026-11-21T10:31:28.996395+00:00",
+      "updated_at": "2026-11-21T10:31:28.996395+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-2an5p62l Gorgeous Granite Towels",
+          "category": "dairy-eggs",
+          "quantity": 3,
+          "price": 22.08,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

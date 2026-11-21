@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-j34xtuuj sort Bravo",
+    "category": "frozen",
+    "price": 23.9,
+    "stock": 41,
+    "details": {
+      "brand": "Green Inc",
+      "origin": "Austria"
+    }
+  }
+}

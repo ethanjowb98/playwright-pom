@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3b8uhlx6 Intelligent Rubber Car",
+    "category": "other",
+    "price": 27.13,
+    "stock": 28,
+    "details": {
+      "brand": "Rohan LLC",
+      "origin": "Vanuatu"
+    }
+  }
+}

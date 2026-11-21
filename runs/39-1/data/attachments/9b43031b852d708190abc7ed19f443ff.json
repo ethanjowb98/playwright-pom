@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-ipb5vcdv Awesome Bamboo Car",
+    "category": "dairy-eggs",
+    "price": 2.04,
+    "stock": 26,
+    "details": {
+      "brand": "Goldner, Borer and Marvin",
+      "origin": "Guernsey"
+    },
+    "weighted": true
+  }
+}

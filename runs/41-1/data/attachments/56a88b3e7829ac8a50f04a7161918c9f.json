@@ -1,0 +1,15 @@
+{
+  "id": "5f660fd8-387c-4b2d-b27c-84f3d80a5e82",
+  "product_name": "QA-8-nxex3qce sort Alpha",
+  "category": "fresh-produce",
+  "price": 21.03,
+  "stock": 10,
+  "details": {
+    "brand": "Cremin and Sons",
+    "origin": "Western Sahara"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:35.519954+00:00"
+}

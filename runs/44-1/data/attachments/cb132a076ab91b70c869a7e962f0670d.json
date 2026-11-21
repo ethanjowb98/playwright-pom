@@ -1,0 +1,15 @@
+{
+  "id": "6d2e07ce-d14f-4f96-8f0c-692aaff02ce2",
+  "product_name": "QA-3-qvzll69r Licensed Gold Salad",
+  "category": "frozen",
+  "price": 34.78,
+  "stock": 26,
+  "details": {
+    "brand": "Prosacco - Denesik",
+    "origin": "Somalia"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:37.09535+00:00"
+}

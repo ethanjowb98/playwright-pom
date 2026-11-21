@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x9yh3f9g Bespoke Ceramic Chicken",
+    "category": "snacks",
+    "price": 31.53,
+    "stock": 49,
+    "details": {
+      "brand": "Ryan Group",
+      "origin": "Slovakia"
+    }
+  }
+}

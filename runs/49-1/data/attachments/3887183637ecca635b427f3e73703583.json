@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-3hayu92a Licensed Bamboo Ball",
+    "category": "fresh-produce",
+    "price": 44.2,
+    "stock": 16,
+    "details": {
+      "brand": "Leannon, Tremblay and Harber",
+      "origin": "Dominica"
+    },
+    "temperature_zone": "Dry"
+  }
+}

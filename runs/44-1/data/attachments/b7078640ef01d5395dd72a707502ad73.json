@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u9vxjquu Luxurious Cotton Cheese",
+    "category": "household",
+    "price": 3.84,
+    "stock": 30,
+    "details": {
+      "brand": "Sanford and Sons",
+      "origin": "Turkmenistan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-meneivos Gorgeous Bronze Keyboard",
+    "category": "other",
+    "price": 32.45,
+    "stock": 27,
+    "details": {
+      "brand": "Skiles, Powlowski and Mayer",
+      "origin": "French Southern Territories"
+    }
+  }
+}

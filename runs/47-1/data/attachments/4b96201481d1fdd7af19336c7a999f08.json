@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-7ouerost sort Bravo",
+    "category": "other",
+    "price": 29.7,
+    "stock": 24,
+    "details": {
+      "brand": "Quigley Group",
+      "origin": "Malawi"
+    }
+  }
+}

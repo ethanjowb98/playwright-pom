@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tb2y798b Awesome Gold Chicken",
+    "category": "beverages",
+    "price": 16.14,
+    "stock": 47,
+    "details": {
+      "brand": "Harber - Erdman",
+      "origin": "Singapore"
+    }
+  }
+}

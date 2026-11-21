@@ -1,0 +1,15 @@
+{
+  "id": "70da5482-55fc-4b6e-a8b7-f2b7e75a5edb",
+  "product_name": "QA-1-n84r09ns Oriental Plastic Chicken",
+  "category": "household",
+  "price": 31.67,
+  "stock": 44,
+  "details": {
+    "brand": "Beer, Stiedemann and Morar",
+    "origin": "Bulgaria"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:41:10.251571+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bvstuxfc Luxurious Plastic Hat",
+    "category": "household",
+    "price": 2.39,
+    "stock": 44,
+    "details": {
+      "brand": "Lehner, Reilly and Swaniawski",
+      "origin": "Nicaragua"
+    }
+  }
+}

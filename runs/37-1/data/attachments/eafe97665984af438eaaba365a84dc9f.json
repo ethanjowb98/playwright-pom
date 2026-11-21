@@ -1,0 +1,27 @@
+{
+  "id": "51eaee74-7f95-415a-8d77-e5f5e4bd1596",
+  "order_number": "O72114",
+  "status": "pending",
+  "total_amount": 56.96,
+  "notes": null,
+  "created_at": "2026-11-07T09:26:14.147243+00:00",
+  "updated_at": "2026-11-07T09:26:14.147243+00:00",
+  "items": [
+    {
+      "product_id": "5d1a3aa6-8c40-4e01-a753-a26359515e35",
+      "product_name": "QA-1-l3etteva Handcrafted Steel Bike",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 37.62,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "ef92db15-8394-4f2f-ae54-fde4b8b44203",
+      "product_name": "QA-1-i9isqvpi Fresh Plastic Mouse",
+      "category": "beverages",
+      "quantity": 2,
+      "price": 9.67,
+      "temperature_zone": null
+    }
+  ]
+}

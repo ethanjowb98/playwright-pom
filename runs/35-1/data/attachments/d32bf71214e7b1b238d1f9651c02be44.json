@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gc7mp459 Tasty Bamboo Tuna",
+    "category": "household",
+    "price": 40.95,
+    "stock": 18,
+    "details": {
+      "brand": "Ruecker, Schmitt and Crist",
+      "origin": "New Caledonia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-cfzg08m3 Refined Aluminum Shirt",
+    "category": "snacks",
+    "price": 22.87,
+    "stock": 47,
+    "details": {
+      "brand": "Murazik - McLaughlin",
+      "origin": "Barbados"
+    }
+  }
+}

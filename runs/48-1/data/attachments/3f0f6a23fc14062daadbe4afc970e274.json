@@ -1,0 +1,15 @@
+{
+  "id": "34629670-abad-4c69-ba99-9c580fb2ad92",
+  "product_name": "QA-1-0q4xbnb8 Modern Cotton Pizza",
+  "category": "fresh-produce",
+  "price": 21.08,
+  "stock": 2,
+  "details": {
+    "brand": "Connelly Group",
+    "origin": "Netherlands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:56:58.170988+00:00"
+}

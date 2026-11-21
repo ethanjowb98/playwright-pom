@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4duyfkjr Intelligent Granite Ball",
+    "category": "frozen",
+    "price": 8.2,
+    "stock": 33,
+    "details": {
+      "brand": "Marvin Inc",
+      "origin": "Mauritius"
+    }
+  }
+}

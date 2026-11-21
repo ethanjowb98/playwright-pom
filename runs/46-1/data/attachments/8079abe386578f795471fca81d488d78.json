@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "61785743-296d-4169-b01e-ca03678e8b79",
+      "order_number": "O17205",
+      "status": "pending",
+      "total_amount": 15.62,
+      "notes": null,
+      "created_at": "2026-11-16T10:25:32.30777+00:00",
+      "updated_at": "2026-11-16T10:25:32.30777+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-poca74xb Sleek Cotton Chips",
+          "category": "household",
+          "quantity": 1,
+          "price": 15.62,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

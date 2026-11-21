@@ -1,0 +1,29 @@
+{
+  "orders": [
+    {
+      "id": "f888e910-543b-4ca6-b95d-8d6a9b6e4886",
+      "order_number": "O83281",
+      "status": "pending",
+      "total_amount": 140.12,
+      "notes": null,
+      "created_at": "2026-11-20T10:47:39.866749+00:00",
+      "updated_at": "2026-11-20T10:47:39.866749+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-lj8u395i Rustic Bronze Chair",
+          "category": "frozen",
+          "quantity": 2,
+          "price": 33.07,
+          "temperature_zone": null
+        },
+        {
+          "product_name": "QA-1-5ux40htc Elegant Cotton Table",
+          "category": "household",
+          "quantity": 2,
+          "price": 36.99,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

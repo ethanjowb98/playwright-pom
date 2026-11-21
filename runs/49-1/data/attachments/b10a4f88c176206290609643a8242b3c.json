@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-8tenhggr Unbranded Gold Salad",
+    "category": "snacks",
+    "price": 29.97,
+    "stock": 38,
+    "details": {
+      "brand": "Pacocha, Zemlak and Fahey",
+      "origin": "Vietnam"
+    }
+  }
+}

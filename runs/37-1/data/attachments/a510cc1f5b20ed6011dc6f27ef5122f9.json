@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hvb5wm6y Handmade Plastic Chips",
+    "category": "other",
+    "price": 22.44,
+    "stock": 48,
+    "details": {
+      "brand": "Adams Group",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

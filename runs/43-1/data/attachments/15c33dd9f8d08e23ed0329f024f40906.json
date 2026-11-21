@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-2wy8oqcz Sleek Concrete Towels",
+    "category": "snacks",
+    "price": 19.34,
+    "stock": 13,
+    "details": {
+      "brand": "Koelpin - Boehm",
+      "origin": "Guinea-Bissau"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

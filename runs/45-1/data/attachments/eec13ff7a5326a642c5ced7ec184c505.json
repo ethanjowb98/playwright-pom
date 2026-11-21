@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ts66mrll Practical Concrete Ball",
+    "category": "snacks",
+    "price": 22.46,
+    "stock": 47,
+    "details": {
+      "brand": "Miller, Howe and Cormier-Dickinson",
+      "origin": "Guadeloupe"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

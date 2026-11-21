@@ -1,0 +1,15 @@
+{
+  "id": "a42e4c57-b376-4704-901b-f9864773036c",
+  "product_name": "QA-1-yuvyq717 Awesome Concrete Sausages",
+  "category": "beverages",
+  "price": 32.79,
+  "stock": 49,
+  "details": {
+    "brand": "Bogan - Dooley",
+    "origin": "Virgin Islands, U.S."
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:21:24.589475+00:00"
+}

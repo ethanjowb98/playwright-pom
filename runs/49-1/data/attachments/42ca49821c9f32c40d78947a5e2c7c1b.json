@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-98vc4zj8 Fresh Ceramic Salad",
+    "category": "bakery",
+    "price": 22.72,
+    "stock": 18,
+    "details": {
+      "brand": "Daugherty Inc",
+      "origin": "Philippines"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-i1o2gmms Sleek Gold Gloves",
+    "category": "frozen",
+    "price": 37.66,
+    "stock": 22,
+    "details": {
+      "brand": "Hand - Hegmann",
+      "origin": "Portugal"
+    }
+  }
+}

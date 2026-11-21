@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zzloaldu Refined Gold Bacon",
+    "category": "dairy-eggs",
+    "price": 41.04,
+    "stock": 15,
+    "details": {
+      "brand": "Nicolas LLC",
+      "origin": "Senegal"
+    }
+  }
+}

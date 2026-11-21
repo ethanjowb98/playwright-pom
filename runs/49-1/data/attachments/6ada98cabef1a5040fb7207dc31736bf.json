@@ -1,0 +1,15 @@
+{
+  "id": "08d4dc57-56b5-476f-9c56-0b7330c0b46e",
+  "product_name": "QA-5-v9tkdzlt Licensed Bronze Bacon",
+  "category": "snacks",
+  "price": 35.11,
+  "stock": 13,
+  "details": {
+    "brand": "Bergstrom - Ernser",
+    "origin": "Grenada"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:56:33.589082+00:00"
+}

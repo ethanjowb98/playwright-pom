@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-sq3eavk2 Electronic Gold Chicken",
+    "category": "meat-seafood",
+    "price": 36.54,
+    "stock": 45,
+    "details": {
+      "brand": "Haley Inc",
+      "origin": "Sudan"
+    }
+  }
+}

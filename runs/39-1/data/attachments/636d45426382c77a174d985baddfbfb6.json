@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "a6117c66-3e41-4e81-bd3a-f68e486413be",
+    "order_number": "O75522",
+    "status": "pending",
+    "total_amount": 20.53,
+    "created_at": "2026-11-09T10:38:31.27815+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-7tufb7wx Small Ceramic Mouse",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 20.53,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

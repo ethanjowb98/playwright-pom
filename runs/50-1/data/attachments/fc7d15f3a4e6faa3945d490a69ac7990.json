@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7ju025x8 Fresh Bamboo Tuna",
+    "category": "household",
+    "price": 20.17,
+    "stock": 26,
+    "details": {
+      "brand": "O'Hara LLC",
+      "origin": "Afghanistan"
+    }
+  }
+}

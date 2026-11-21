@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-iipozn1o Refined Silk Ball",
+    "category": "other",
+    "price": 7.66,
+    "stock": 33,
+    "details": {
+      "brand": "McDermott and Sons",
+      "origin": "Tajikistan"
+    }
+  }
+}

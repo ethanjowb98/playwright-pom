@@ -1,0 +1,15 @@
+{
+  "id": "43086b6b-38d9-4b67-b6bc-018d6e3ef6f4",
+  "product_name": "QA-3-sqe58r1k sort Charlie",
+  "category": "snacks",
+  "price": 37.71,
+  "stock": 11,
+  "details": {
+    "brand": "Stehr, Parisian and Lindgren",
+    "origin": "Philippines"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:24:57.298352+00:00"
+}

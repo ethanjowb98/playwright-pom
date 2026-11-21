@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8cfm63el Modern Marble Pizza",
+    "category": "beverages",
+    "price": 5.73,
+    "stock": 41,
+    "details": {
+      "brand": "Wehner, Toy and Kautzer",
+      "origin": "Mayotte"
+    }
+  }
+}

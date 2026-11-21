@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-aukpaoql sort Bravo",
+    "category": "bakery",
+    "price": 27.39,
+    "stock": 37,
+    "details": {
+      "brand": "Schroeder - Kling",
+      "origin": "Bouvet Island"
+    }
+  }
+}

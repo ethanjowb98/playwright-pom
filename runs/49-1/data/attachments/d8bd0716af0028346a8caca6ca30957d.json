@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-r1j5bp4t Elegant Cotton Gloves",
+    "category": "household",
+    "price": 17.97,
+    "stock": 16,
+    "details": {
+      "brand": "Glover - Parker",
+      "origin": "Saint Martin"
+    }
+  }
+}

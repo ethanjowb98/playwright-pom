@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-86cr58ie Fresh Rubber Car",
+    "category": "bakery",
+    "price": 7.03,
+    "stock": 19,
+    "details": {
+      "brand": "Hermiston, Wyman and Hammes",
+      "origin": "Jordan"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "23b80bbe-b320-44c3-82f1-b75fec694d26",
+    "order_number": "O38113",
+    "status": "pending",
+    "total_amount": 46.56,
+    "created_at": "2026-11-16T10:23:49.001578+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-84m83dno Frozen Steel Mouse",
+        "category": "dairy-eggs",
+        "quantity": 1,
+        "price": 46.56,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tbr799iq Fresh Aluminum Sausages",
+    "category": "pantry",
+    "price": 31.18,
+    "stock": 49,
+    "details": {
+      "brand": "O'Reilly - Langworth",
+      "origin": "Angola"
+    }
+  }
+}

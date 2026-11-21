@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ckebvex9 Luxurious Aluminum Chicken",
+    "category": "frozen",
+    "price": 12.38,
+    "stock": 48,
+    "details": {
+      "brand": "Dooley Group",
+      "origin": "Bhutan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-smet76au Handmade Cotton Fish",
+    "category": "pantry",
+    "price": 20.27,
+    "stock": 36,
+    "details": {
+      "brand": "Lang Group",
+      "origin": "Benin"
+    }
+  }
+}

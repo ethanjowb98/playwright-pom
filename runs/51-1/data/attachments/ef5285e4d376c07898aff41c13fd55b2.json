@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-747ikfi2 Elegant Concrete Pants",
+    "category": "meat-seafood",
+    "price": 7.89,
+    "stock": 46,
+    "details": {
+      "brand": "Durgan LLC",
+      "origin": "New Caledonia"
+    }
+  }
+}

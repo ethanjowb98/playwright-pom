@@ -1,0 +1,15 @@
+{
+  "id": "aacbef26-d25d-431b-b967-72b427d70674",
+  "product_name": "QA-3-aukpaoql sort Bravo",
+  "category": "bakery",
+  "price": 27.39,
+  "stock": 37,
+  "details": {
+    "brand": "Schroeder - Kling",
+    "origin": "Bouvet Island"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:06.561496+00:00"
+}

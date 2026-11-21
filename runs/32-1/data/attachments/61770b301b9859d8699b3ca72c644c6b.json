@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-5amdn3w1 Modern Steel Tuna",
+    "category": "frozen",
+    "price": 25.21,
+    "stock": 44,
+    "details": {
+      "brand": "Hills Group",
+      "origin": "Bulgaria"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

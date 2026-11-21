@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fpdz1ckk Recycled Cotton Pants",
+    "category": "fresh-produce",
+    "price": 40.08,
+    "stock": 44,
+    "details": {
+      "brand": "Nitzsche-Crona - Funk-White",
+      "origin": "Sint Maarten"
+    }
+  }
+}

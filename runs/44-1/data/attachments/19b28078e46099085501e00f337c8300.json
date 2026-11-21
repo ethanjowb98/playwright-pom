@@ -1,0 +1,15 @@
+{
+  "id": "51a6d9eb-7e81-45b3-b0c3-c3d9a219320d",
+  "product_name": "QA-1-gvt0jih1 Practical Metal Pants",
+  "category": "pantry",
+  "price": 19.28,
+  "stock": 42,
+  "details": {
+    "brand": "Walter and Sons",
+    "origin": "Norway"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:37.059066+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h1b3z817 Fresh Aluminum Gloves",
+    "category": "meat-seafood",
+    "price": 26.76,
+    "stock": 25,
+    "details": {
+      "brand": "Crooks - O'Connell",
+      "origin": "Tanzania"
+    }
+  }
+}

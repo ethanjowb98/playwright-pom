@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zts960uk Awesome Cotton Computer",
+    "category": "beverages",
+    "price": 15.21,
+    "stock": 35,
+    "details": {
+      "brand": "Stehr - Sanford",
+      "origin": "New Caledonia"
+    }
+  }
+}

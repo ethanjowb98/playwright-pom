@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c350zi7w Electronic Rubber Chips",
+    "category": "beverages",
+    "price": 39.7,
+    "stock": 13,
+    "details": {
+      "brand": "Kub Group",
+      "origin": "Western Sahara"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-36xhdg81 Licensed Wooden Table",
+    "category": "meat-seafood",
+    "price": 4.25,
+    "stock": 17,
+    "details": {
+      "brand": "Bernier, Wilkinson and Hodkiewicz",
+      "origin": "Kuwait"
+    }
+  }
+}

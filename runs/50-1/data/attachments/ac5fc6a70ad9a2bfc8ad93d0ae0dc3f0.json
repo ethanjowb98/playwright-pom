@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-q5ygeht2 Intelligent Ceramic Salad",
+    "category": "fresh-produce",
+    "price": 44.25,
+    "stock": 44,
+    "details": {
+      "brand": "Bogan, Witting and Wunsch",
+      "origin": "Senegal"
+    },
+    "temperature_zone": "Dry"
+  }
+}

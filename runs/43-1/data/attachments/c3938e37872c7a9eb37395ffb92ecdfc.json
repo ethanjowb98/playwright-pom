@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sbbtfwm7 Fantastic Cotton Gloves",
+    "category": "pantry",
+    "price": 21.22,
+    "stock": 43,
+    "details": {
+      "brand": "Ruecker - D'Amore",
+      "origin": "Anguilla"
+    }
+  }
+}

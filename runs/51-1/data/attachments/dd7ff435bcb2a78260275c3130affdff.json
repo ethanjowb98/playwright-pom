@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-85o71c7k Awesome Aluminum Bike",
+    "category": "fresh-produce",
+    "price": 44.5,
+    "stock": 23,
+    "details": {
+      "brand": "Veum - Waelchi",
+      "origin": "Lithuania"
+    }
+  }
+}

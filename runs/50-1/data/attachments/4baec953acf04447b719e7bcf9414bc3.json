@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-2jgbztkb Unbranded Bamboo Gloves",
+    "category": "household",
+    "price": 5.33,
+    "stock": 36,
+    "details": {
+      "brand": "Purdy and Sons",
+      "origin": "Albania"
+    }
+  }
+}

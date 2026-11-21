@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-z0zklac4 Fresh Steel Keyboard",
+    "category": "snacks",
+    "price": 17.02,
+    "stock": 40,
+    "details": {
+      "brand": "Bartell, Kerluke and Watsica",
+      "origin": "Bosnia and Herzegovina"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-idwmyi84 Gorgeous Gold Ball",
+    "category": "household",
+    "price": 23.88,
+    "stock": 32,
+    "details": {
+      "brand": "Kertzmann-Rogahn Group",
+      "origin": "Afghanistan"
+    }
+  }
+}

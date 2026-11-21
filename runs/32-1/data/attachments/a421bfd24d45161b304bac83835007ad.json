@@ -1,0 +1,15 @@
+{
+  "id": "56224fa7-ede5-46a1-b491-0b25b021a14c",
+  "product_name": "QA-1-wsj0t8e1 Ergonomic Plastic Bike",
+  "category": "meat-seafood",
+  "price": 18.15,
+  "stock": 41,
+  "details": {
+    "brand": "Schulist, McDermott and Walter",
+    "origin": "Guyana"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:00.706259+00:00"
+}

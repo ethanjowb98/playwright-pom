@@ -1,0 +1,19 @@
+{
+  "id": "d84121f0-8608-40be-ace8-bbc36e8ee974",
+  "order_number": "O49247",
+  "status": "delivered",
+  "total_amount": 47.48,
+  "notes": null,
+  "created_at": "2026-11-16T10:24:02.95892+00:00",
+  "updated_at": "2026-11-16T10:24:02.95892+00:00",
+  "items": [
+    {
+      "product_id": "570b18ec-4840-46f8-b8fc-bc115e7c3e4d",
+      "product_name": "QA-1-k6ibw1ix Intelligent Steel Bike",
+      "category": "beverages",
+      "quantity": 1,
+      "price": 47.48,
+      "temperature_zone": null
+    }
+  ]
+}

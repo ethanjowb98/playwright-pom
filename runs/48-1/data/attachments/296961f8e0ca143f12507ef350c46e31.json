@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a22lu401 Awesome Steel Table",
+    "category": "meat-seafood",
+    "price": 17.04,
+    "stock": 2,
+    "details": {
+      "brand": "Feeney and Sons",
+      "origin": "Angola"
+    }
+  }
+}

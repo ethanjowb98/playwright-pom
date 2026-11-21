@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4t2hwpe9 Licensed Metal Car",
+    "category": "pantry",
+    "price": 44.15,
+    "stock": 34,
+    "details": {
+      "brand": "VonRueden and Sons",
+      "origin": "Comoros"
+    }
+  }
+}

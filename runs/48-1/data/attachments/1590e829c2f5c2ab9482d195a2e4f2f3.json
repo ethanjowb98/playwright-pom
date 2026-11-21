@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-yps2ocyi Modern Ceramic Salad",
+    "category": "other",
+    "price": 5.8,
+    "stock": 36,
+    "details": {
+      "brand": "Jacobson-Toy - Hills",
+      "origin": "Hungary"
+    }
+  }
+}

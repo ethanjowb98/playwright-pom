@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-0yc54x79 Practical Granite Shoes",
+    "category": "snacks",
+    "price": 42.21,
+    "stock": 41,
+    "details": {
+      "brand": "Wiegand-Turner Group",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

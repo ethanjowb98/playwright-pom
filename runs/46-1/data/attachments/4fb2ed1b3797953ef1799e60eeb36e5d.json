@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6tss4oyw Incredible Plastic Car",
+    "category": "household",
+    "price": 29.14,
+    "stock": 15,
+    "details": {
+      "brand": "Romaguera - Halvorson",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "5aa7f7b8-006a-4519-8d5c-4ddfae868fb9",
+  "product_name": "QA-3-cr54ui33 Incredible Bronze Bike",
+  "category": "bakery",
+  "price": 3.21,
+  "stock": 28,
+  "details": {
+    "brand": "Kuhic, Ratke and Swift",
+    "origin": "Guadeloupe"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:04.586304+00:00"
+}

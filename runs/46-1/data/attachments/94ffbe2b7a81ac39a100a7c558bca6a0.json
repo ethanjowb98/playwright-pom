@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-x4c67af5 Sleek Granite Salad",
+    "category": "snacks",
+    "price": 28.44,
+    "stock": 33,
+    "details": {
+      "brand": "Ankunding, Prohaska and Hane",
+      "origin": "Costa Rica"
+    }
+  }
+}

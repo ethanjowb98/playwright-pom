@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uv8ub3pu Modern Cotton Keyboard",
+    "category": "household",
+    "price": 25.33,
+    "stock": 23,
+    "details": {
+      "brand": "Parisian - Gleichner",
+      "origin": "Finland"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9xhh9a1h Small Steel Gloves",
+    "category": "fresh-produce",
+    "price": 22.52,
+    "stock": 36,
+    "details": {
+      "brand": "Morar, Pagac and Braun",
+      "origin": "Nicaragua"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

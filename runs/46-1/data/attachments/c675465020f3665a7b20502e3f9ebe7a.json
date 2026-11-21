@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-93l7taf4 Incredible Plastic Chicken",
+    "category": "frozen",
+    "price": 6.25,
+    "stock": 33,
+    "details": {
+      "brand": "Kling - Turcotte",
+      "origin": "Bermuda"
+    }
+  }
+}

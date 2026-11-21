@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-jqtu2iyt sort Bravo",
+    "category": "meat-seafood",
+    "price": 29.71,
+    "stock": 11,
+    "details": {
+      "brand": "Feeney Group",
+      "origin": "Slovakia"
+    }
+  }
+}

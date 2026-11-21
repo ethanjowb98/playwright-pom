@@ -1,0 +1,15 @@
+{
+  "id": "28e3471f-f830-4c96-96a0-b8433049997f",
+  "product_name": "QA-5-7m05sjka Frozen Ceramic Pizza",
+  "category": "frozen",
+  "price": 37.26,
+  "stock": 46,
+  "details": {
+    "brand": "Stark Inc",
+    "origin": "Palau"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:16.052547+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-89iqa0ws Handcrafted Aluminum Computer",
+    "category": "beverages",
+    "price": 17.82,
+    "stock": 35,
+    "details": {
+      "brand": "Gerhold-Weissnat Group",
+      "origin": "Sint Maarten"
+    }
+  }
+}

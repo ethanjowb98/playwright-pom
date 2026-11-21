@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vlbntq3p Recycled Aluminum Shirt",
+    "category": "snacks",
+    "price": 41.29,
+    "stock": 11,
+    "details": {
+      "brand": "Daugherty, Runolfsson and Hansen",
+      "origin": "Maldives"
+    }
+  }
+}

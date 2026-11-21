@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-65f6a8na Generic Marble Hat",
+    "category": "bakery",
+    "price": 48.26,
+    "stock": 48,
+    "details": {
+      "brand": "Bergstrom - Daniel-Ledner",
+      "origin": "Timor-Leste"
+    }
+  }
+}

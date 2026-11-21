@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-wo72xo5s Gorgeous Bronze Sausages",
+    "category": "pantry",
+    "price": 47.19,
+    "stock": 42,
+    "details": {
+      "brand": "Weissnat, Funk-Dietrich and Yost",
+      "origin": "Costa Rica"
+    }
+  }
+}

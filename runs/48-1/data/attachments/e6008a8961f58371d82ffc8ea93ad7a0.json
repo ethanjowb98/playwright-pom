@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hc9r98ka Practical Bamboo Car",
+    "category": "snacks",
+    "price": 6.71,
+    "stock": 35,
+    "details": {
+      "brand": "Kuvalis Group",
+      "origin": "Mexico"
+    }
+  }
+}

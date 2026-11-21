@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dgfzyzpv Refined Silk Keyboard",
+    "category": "pantry",
+    "price": 25.41,
+    "stock": 2,
+    "details": {
+      "brand": "Herzog, Farrell-Schroeder and Auer",
+      "origin": "Poland"
+    }
+  }
+}

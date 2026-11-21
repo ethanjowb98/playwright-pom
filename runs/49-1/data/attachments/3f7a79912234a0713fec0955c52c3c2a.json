@@ -1,0 +1,15 @@
+{
+  "id": "18e4ae5a-e5b0-4c00-b16f-01fd7b10c469",
+  "product_name": "QA-1-bpz88fp2 Small Metal Pants",
+  "category": "bakery",
+  "price": 26.39,
+  "stock": 39,
+  "details": {
+    "brand": "Schmidt, Klein and Pacocha",
+    "origin": "Tunisia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:55:15.082246+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-8dqt1ti4 sort Alpha",
+    "category": "pantry",
+    "price": 23.07,
+    "stock": 36,
+    "details": {
+      "brand": "Wilkinson and Sons",
+      "origin": "Costa Rica"
+    }
+  }
+}

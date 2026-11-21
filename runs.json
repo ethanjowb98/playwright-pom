@@ -1,0 +1,362 @@
+[
+  {
+    "id": "51-1",
+    "publishedAt": "2026-11-21T10:33:45.778Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/44894258106",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "50-1",
+    "publishedAt": "2026-11-20T10:49:36.591Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/44721431627",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "49-1",
+    "publishedAt": "2026-11-19T11:00:39.671Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/44509625630",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 1,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "48-1",
+    "publishedAt": "2026-11-18T10:59:41.614Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/44289334657",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "47-1",
+    "publishedAt": "2026-11-17T11:26:37.446Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/44072783791",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "46-1",
+    "publishedAt": "2026-11-16T10:27:28.441Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/43847834093",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 1,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "45-1",
+    "publishedAt": "2026-11-15T10:13:52.713Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/43702423030",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "44-1",
+    "publishedAt": "2026-11-14T09:44:17.586Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/43581359564",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "43-1",
+    "publishedAt": "2026-11-13T10:24:38.848Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/43407886290",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "42-1",
+    "publishedAt": "2026-11-12T10:35:01.366Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/43200403631",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "41-1",
+    "publishedAt": "2026-11-11T10:06:06.533Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/42999595957",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "40-1",
+    "publishedAt": "2026-11-10T10:43:21.933Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/42800433501",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "39-1",
+    "publishedAt": "2026-11-09T10:42:03.629Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/42601763344",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "37-1",
+    "publishedAt": "2026-11-07T09:30:17.983Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/42359519749",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "36-1",
+    "publishedAt": "2026-11-06T10:17:07.869Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/42199737335",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "35-1",
+    "publishedAt": "2026-11-05T10:07:47.167Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "schedule",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/42007023003",
+    "summary": {
+      "tests": 178,
+      "passed": 163,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "34-1",
+    "publishedAt": "2026-11-05T09:23:53.098Z",
+    "branch": "main",
+    "commit": "4637b86ebc166cf18a308705cf135f89fbef7fe4",
+    "event": "push",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/42001004902",
+    "summary": {
+      "tests": 174,
+      "passed": 159,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "33-1",
+    "publishedAt": "2026-11-05T08:30:00.728Z",
+    "branch": "main",
+    "commit": "b3c94f356925f355a5be05599783e26a5f8e3684",
+    "event": "workflow_dispatch",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/41993262894",
+    "summary": {
+      "tests": 174,
+      "passed": 159,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "32-1",
+    "publishedAt": "2026-11-05T08:24:39.065Z",
+    "branch": "main",
+    "commit": "b3c94f356925f355a5be05599783e26a5f8e3684",
+    "event": "push",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/41993227243",
+    "summary": {
+      "tests": 174,
+      "passed": 159,
+      "failed": 0,
+      "flaky": 0,
+      "skipped": 15,
+      "knownDefects": 15,
+      "clusters": 0
+    }
+  },
+  {
+    "id": "29-1",
+    "publishedAt": "2026-11-04T08:18:35.887Z",
+    "branch": "main",
+    "commit": "43f13f479805f80f6206616fc12ca83db3b2d4da",
+    "event": "push",
+    "suite": "all",
+    "runUrl": "https://github.com/ethanjowb98/playwright-pom/actions/runs/41798290648",
+    "summary": {
+      "tests": 131,
+      "passed": 44,
+      "failed": 2,
+      "flaky": 0,
+      "skipped": 85,
+      "knownDefects": 6,
+      "clusters": 2
+    }
+  }
+]

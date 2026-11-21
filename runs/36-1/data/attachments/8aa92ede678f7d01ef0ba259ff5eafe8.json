@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0rzljmyr Electronic Cotton Keyboard",
+    "category": "beverages",
+    "price": 25.84,
+    "stock": 41,
+    "details": {
+      "brand": "Jones, Little and Pfeffer",
+      "origin": "Mauritania"
+    }
+  }
+}

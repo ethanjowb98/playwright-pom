@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-rhv00gme Small Aluminum Tuna",
+    "category": "frozen",
+    "price": 26.51,
+    "stock": 44,
+    "details": {
+      "brand": "Grant - Rowe",
+      "origin": "Malawi"
+    },
+    "weighted": false
+  }
+}

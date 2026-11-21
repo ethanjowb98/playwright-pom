@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hxfm5ohq Elegant Concrete Sausages",
+    "category": "frozen",
+    "price": 10.07,
+    "stock": 10,
+    "details": {
+      "brand": "Wyman, Kulas and Goodwin",
+      "origin": "Saint Barthélemy"
+    }
+  }
+}

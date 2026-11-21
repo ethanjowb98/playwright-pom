@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pmbp7g4q Fantastic Silk Pants",
+    "category": "dairy-eggs",
+    "price": 9.07,
+    "stock": 10,
+    "details": {
+      "brand": "Hauck LLC",
+      "origin": "Qatar"
+    }
+  }
+}

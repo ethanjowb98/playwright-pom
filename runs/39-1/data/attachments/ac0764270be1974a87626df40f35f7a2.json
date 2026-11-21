@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-b3p1gxj4 sort Alpha",
+    "category": "pantry",
+    "price": 44.26,
+    "stock": 43,
+    "details": {
+      "brand": "Cummings - Pfannerstill",
+      "origin": "Colombia"
+    }
+  }
+}

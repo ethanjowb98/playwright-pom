@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-392sbvqy Rustic Wooden Chips",
+    "category": "fresh-produce",
+    "price": 35.38,
+    "stock": 41,
+    "details": {
+      "brand": "Green - Braun",
+      "origin": "Moldova"
+    },
+    "temperature_zone": "Hot"
+  }
+}

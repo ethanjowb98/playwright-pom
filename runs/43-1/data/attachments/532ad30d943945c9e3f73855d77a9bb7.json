@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yqihwg4g Awesome Metal Cheese",
+    "category": "fresh-produce",
+    "price": 48.26,
+    "stock": 32,
+    "details": {
+      "brand": "Kohler - Zemlak",
+      "origin": "Jordan"
+    }
+  }
+}

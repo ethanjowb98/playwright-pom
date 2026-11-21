@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e0y81hvj Licensed Wooden Bike",
+    "category": "meat-seafood",
+    "price": 37.15,
+    "stock": 46,
+    "details": {
+      "brand": "Harber - D'Amore",
+      "origin": "Botswana"
+    },
+    "weighted": true
+  }
+}

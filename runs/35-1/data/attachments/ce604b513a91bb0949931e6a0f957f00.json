@@ -1,0 +1,15 @@
+{
+  "id": "a676b76d-95f6-48e6-a0cf-99a9b4e83da1",
+  "product_name": "QA-5-3o2zpznm sort Bravo",
+  "category": "dairy-eggs",
+  "price": 6.25,
+  "stock": 16,
+  "details": {
+    "brand": "Lindgren, Howe and Pfannerstill",
+    "origin": "Gabon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:41.778723+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "92310e91-f776-40d4-bf8b-d2ac0ee22cba",
+  "product_name": "QA-1-rmavb0ja Tasty Silk Bike",
+  "category": "household",
+  "price": 16.52,
+  "stock": 11,
+  "details": {
+    "brand": "Reinger, Vandervort and Kuhn",
+    "origin": "Luxembourg"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:40:01.199624+00:00"
+}

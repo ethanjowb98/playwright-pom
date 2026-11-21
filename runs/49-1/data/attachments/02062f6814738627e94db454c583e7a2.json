@@ -1,0 +1,98 @@
+[
+  {
+    "id": "11bb4d32-0830-4ef5-bb05-3bb562e0a2a9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7bb9a0fc-be4d-4024-8c13-d79afa7bc9e8",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Margarita Concentrate",
+    "category": "beverages",
+    "price": 3.25,
+    "details": {
+      "makes": "1 pitcher",
+      "volume": "12oz",
+      "contains_alcohol": false
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7a60e1ba-0e01-45c5-9855-3cd9f66dfcf7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Tilapia Fillets",
+    "category": "meat-seafood",
+    "price": 10.5,
+    "details": {
+      "weight": "2lb",
+      "farm_raised": true,
+      "individually_wrapped": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9d629101-0d63-42dc-903c-e46267eee86b",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Jumbo Raw Shrimp (2lb)",
+    "category": "meat-seafood",
+    "price": 18.99,
+    "details": {
+      "size": "16-20 count",
+      "peeled": true,
+      "weight": "2lb",
+      "deveined": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "60f3c265-6b72-4253-8a8f-269ef353b4cf",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-n96ybwdn Recycled Cotton Table",
+    "category": "dairy-eggs",
+    "price": 5.63,
+    "details": {
+      "brand": "Okuneva Group",
+      "origin": "Japan"
+    },
+    "created_at": "2026-11-19T10:54:22.045587+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 18
+  },
+  {
+    "id": "644ce5a8-2d1a-430a-847a-72d15f1e86ab",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-1xe2ct39 Electronic Marble Bike",
+    "category": "other",
+    "price": 3.13,
+    "details": {
+      "brand": "Douglas, Schneider and Cole",
+      "origin": "Falkland Islands (Malvinas)"
+    },
+    "created_at": "2026-11-19T10:54:22.633332+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 28
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "fd3d755f-7e56-43be-8985-c894a6045271",
+    "order_number": "O88916",
+    "status": "pending",
+    "total_amount": 61.3,
+    "created_at": "2026-11-06T10:07:04.252157+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-lstoo1zu Modern Plastic Cheese",
+        "category": "beverages",
+        "quantity": 2,
+        "price": 30.65,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

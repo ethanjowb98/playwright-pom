@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-d42mwg5x Fantastic Granite Tuna",
+    "category": "dairy-eggs",
+    "price": 19.3,
+    "stock": 42,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

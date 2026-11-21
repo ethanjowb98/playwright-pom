@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "42f206c1-2a70-4c32-aee3-6228e44a2fc8",
+    "order_number": "O11087",
+    "status": "pending",
+    "total_amount": 40.55,
+    "created_at": "2026-11-19T10:59:18.03703+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-gt4c4bn4 Tasty Steel Chicken",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 40.55,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

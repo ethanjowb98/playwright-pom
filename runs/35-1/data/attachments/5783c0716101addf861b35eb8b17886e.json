@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-13irl7z8 Handcrafted Gold Pants",
+    "category": "pantry",
+    "price": 38.35,
+    "stock": 2,
+    "details": {
+      "brand": "Wehner LLC",
+      "origin": "Sint Maarten"
+    }
+  }
+}

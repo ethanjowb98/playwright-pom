@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jg4aforc Small Metal Table",
+    "category": "fresh-produce",
+    "price": 37.45,
+    "stock": 39,
+    "details": {
+      "brand": "Steuber, Kozey and Walker",
+      "origin": "Côte d'Ivoire"
+    }
+  }
+}

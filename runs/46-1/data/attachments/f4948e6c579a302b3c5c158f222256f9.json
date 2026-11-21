@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c4yktapn sort Bravo",
+    "category": "bakery",
+    "price": 44.3,
+    "stock": 13,
+    "details": {
+      "brand": "Dach - Hammes",
+      "origin": "Tanzania"
+    }
+  }
+}

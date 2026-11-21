@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "09bd3e61-e594-4132-88a5-16dd6b97640f",
+      "product_id": "13e60ffb-0fd2-4043-bea7-1ccb82a2fb9a",
+      "product_name": "QA-1-a2unuy1s Frozen Steel Car",
+      "price": 28.65,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-05T10:05:35.988416+00:00",
+      "updated_at": "2026-11-05T10:05:35.988416+00:00"
+    },
+    {
+      "id": "51eb6450-dbd1-420a-9f9d-f36f4ce9e7b3",
+      "product_id": "9d4872a8-ffd3-4f95-82ca-105d6ce12d74",
+      "product_name": "QA-1-w1jgp9vj Awesome Wooden Chicken",
+      "price": 5.33,
+      "category": "fresh-produce",
+      "quantity": 2,
+      "created_at": "2026-11-05T10:05:36.544571+00:00",
+      "updated_at": "2026-11-05T10:05:36.544571+00:00"
+    }
+  ]
+}

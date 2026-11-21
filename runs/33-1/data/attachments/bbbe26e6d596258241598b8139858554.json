@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lg3pj8gy Fresh Plastic Pizza",
+    "category": "fresh-produce",
+    "price": 18.68,
+    "stock": 16,
+    "details": {
+      "brand": "Pouros LLC",
+      "origin": "Guinea"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "a78adc1b-c610-4632-a99e-9322956b676e",
+  "product_name": "QA-1-b8gpnoc6 Bespoke Plastic Ball",
+  "category": "fresh-produce",
+  "price": 2.14,
+  "stock": 17,
+  "details": {
+    "brand": "Armstrong, Lindgren and McClure",
+    "origin": "Congo"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:28:24.253919+00:00"
+}

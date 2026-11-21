@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ouhlu6kf Frozen Silk Computer",
+    "category": "pantry",
+    "price": 29.61,
+    "stock": 41,
+    "details": {
+      "brand": "Kunze Group",
+      "origin": "Portugal"
+    }
+  }
+}

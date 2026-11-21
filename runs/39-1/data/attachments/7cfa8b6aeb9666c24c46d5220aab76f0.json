@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-909kwsz2 Sleek Cotton Hat",
+    "category": "other",
+    "price": 16.33,
+    "stock": 49,
+    "details": {
+      "brand": "Terry - Schroeder",
+      "origin": "Albania"
+    }
+  }
+}

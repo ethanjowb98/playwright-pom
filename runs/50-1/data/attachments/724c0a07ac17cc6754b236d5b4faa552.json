@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7it9cahi Rustic Steel Bacon",
+    "category": "frozen",
+    "price": 21.13,
+    "stock": 42,
+    "details": {
+      "brand": "Goyette, Rippin and Block",
+      "origin": "Belize"
+    }
+  }
+}

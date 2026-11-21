@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-d3ktyyjl sort Alpha",
+    "category": "dairy-eggs",
+    "price": 30.24,
+    "stock": 30,
+    "details": {
+      "brand": "Mueller, Quigley and Gislason",
+      "origin": "Azerbaijan"
+    }
+  }
+}

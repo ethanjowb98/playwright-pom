@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v0s4pwqd Tasty Cotton Fish",
+    "category": "other",
+    "price": 42.65,
+    "stock": 15,
+    "details": {
+      "brand": "Murazik, Schaden and O'Kon",
+      "origin": "Saint Pierre and Miquelon"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7v17dv2c Oriental Granite Shirt",
+    "category": "dairy-eggs",
+    "price": 20.66,
+    "stock": 2,
+    "details": {
+      "brand": "Goodwin, Strosin and Marvin",
+      "origin": "Serbia"
+    }
+  }
+}

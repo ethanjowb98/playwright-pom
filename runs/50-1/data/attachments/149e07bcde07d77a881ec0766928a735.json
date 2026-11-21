@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g2fklgsw Incredible Concrete Car",
+    "category": "bakery",
+    "price": 22.63,
+    "stock": 18,
+    "details": {
+      "brand": "Dicki, Corwin and McGlynn",
+      "origin": "Hungary"
+    }
+  }
+}

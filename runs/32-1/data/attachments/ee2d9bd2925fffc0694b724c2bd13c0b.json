@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "fbe00a2f-1279-43e6-af29-9adb660c3688",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "shipped",
+    "total_amount": 46.86,
+    "notes": null,
+    "created_at": "2026-11-05T08:20:36.924522+00:00",
+    "updated_at": "2026-11-05T08:20:36.924522+00:00",
+    "order_number": "O79447"
+  }
+}

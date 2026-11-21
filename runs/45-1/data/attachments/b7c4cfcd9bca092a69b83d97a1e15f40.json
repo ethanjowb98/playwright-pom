@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-256bc91n Refined Gold Pizza",
+    "category": "frozen",
+    "price": 26.83,
+    "stock": 11,
+    "details": {
+      "brand": "Dicki Inc",
+      "origin": "Iran"
+    }
+  }
+}

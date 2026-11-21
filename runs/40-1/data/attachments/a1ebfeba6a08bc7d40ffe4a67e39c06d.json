@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yvulg0zl Gorgeous Silk Fish",
+    "category": "fresh-produce",
+    "price": 46.04,
+    "stock": 15,
+    "details": {
+      "brand": "Hickle, Paucek and Goldner",
+      "origin": "Bahamas"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "b61d02e5-0bb0-426d-9196-75d027af5ce7",
+      "product_id": "7b8e7fad-3a72-4fd7-b1e6-da5138cc4a66",
+      "product_name": "QA-2-9pc7v2uw Unbranded Cotton Chair",
+      "price": 17.26,
+      "category": "beverages",
+      "quantity": 3,
+      "created_at": "2026-11-16T10:25:40.472501+00:00",
+      "updated_at": "2026-11-16T10:25:40.472501+00:00"
+    },
+    {
+      "id": "203a5ff4-fb52-466f-b0d5-1dd3e29d7ad0",
+      "product_id": "29fe71d0-b15e-4999-b682-e7f2b9bbd4f6",
+      "product_name": "QA-2-unf11c2d Luxurious Ceramic Shoes",
+      "price": 41.6,
+      "category": "frozen",
+      "quantity": 2,
+      "created_at": "2026-11-16T10:25:41.049126+00:00",
+      "updated_at": "2026-11-16T10:25:41.049126+00:00"
+    }
+  ]
+}

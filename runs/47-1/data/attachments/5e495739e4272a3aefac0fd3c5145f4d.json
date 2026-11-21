@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-5xjiqzcq Sleek Gold Mouse",
+    "category": "other",
+    "price": 14.78,
+    "stock": 41,
+    "details": {
+      "brand": "Lemke, Romaguera and Smith",
+      "origin": "Guatemala"
+    },
+    "weighted": true
+  }
+}

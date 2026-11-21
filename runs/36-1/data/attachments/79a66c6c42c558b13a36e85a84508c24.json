@@ -1,0 +1,15 @@
+{
+  "id": "c107bdd2-c7ec-4f58-b1f3-35dbb34e7a88",
+  "product_name": "QA-1-e3gz4acw Incredible Bamboo Shoes",
+  "category": "snacks",
+  "price": 49.56,
+  "stock": 44,
+  "details": {
+    "brand": "Torphy - Cartwright",
+    "origin": "Democratic Republic of the Congo"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:06:26.742016+00:00"
+}

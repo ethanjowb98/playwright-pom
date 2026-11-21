@@ -1,0 +1,15 @@
+{
+  "id": "1a36f2e5-7c64-4982-bcc6-b3d356de6439",
+  "product_name": "QA-1-ax3e7ufc Awesome Plastic Hat",
+  "category": "fresh-produce",
+  "price": 27.94,
+  "stock": 11,
+  "details": {
+    "brand": "Mann, Bergnaum and Douglas",
+    "origin": "Mozambique"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:25:04.825156+00:00"
+}

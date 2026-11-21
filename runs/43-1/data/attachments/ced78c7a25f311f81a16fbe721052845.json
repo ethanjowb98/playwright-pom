@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ij27xwyc Small Rubber Pizza",
+    "category": "pantry",
+    "price": 31.59,
+    "stock": 39,
+    "details": {
+      "brand": "Kautzer - Boehm",
+      "origin": "Iran"
+    }
+  }
+}

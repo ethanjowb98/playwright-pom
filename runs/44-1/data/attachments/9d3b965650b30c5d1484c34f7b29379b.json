@@ -1,0 +1,27 @@
+{
+  "id": "ebd904fa-b5bd-4813-aa89-3013e7bf1d23",
+  "order_number": "O64530",
+  "status": "pending",
+  "total_amount": 87.93,
+  "notes": null,
+  "created_at": "2026-11-14T09:39:39.519407+00:00",
+  "updated_at": "2026-11-14T09:39:39.519407+00:00",
+  "items": [
+    {
+      "product_id": "102a2dc4-7286-49c8-b7b9-130342579a06",
+      "product_name": "QA-1-u3tayb7e Generic Granite Shoes",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 49.57,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "d6b82ca7-afd5-477e-b475-8d3b1b2e4099",
+      "product_name": "QA-1-3hdi75bq Gorgeous Granite Soap",
+      "category": "other",
+      "quantity": 2,
+      "price": 19.18,
+      "temperature_zone": null
+    }
+  ]
+}

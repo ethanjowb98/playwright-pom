@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k4mfb7lm Generic Wooden Fish",
+    "category": "bakery",
+    "price": 12.23,
+    "stock": 29,
+    "details": {
+      "brand": "Champlin - Nader",
+      "origin": "Isle of Man"
+    }
+  }
+}

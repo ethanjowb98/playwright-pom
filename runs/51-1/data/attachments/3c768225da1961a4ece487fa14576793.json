@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w228j1c7 Licensed Steel Shoes",
+    "category": "frozen",
+    "price": 45.53,
+    "stock": 24,
+    "details": {
+      "brand": "Boehm, Rempel and Hodkiewicz",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

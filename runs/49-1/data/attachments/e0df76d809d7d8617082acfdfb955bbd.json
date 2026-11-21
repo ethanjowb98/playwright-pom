@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3xajd94e Generic Cotton Pants",
+    "category": "other",
+    "price": 34.84,
+    "stock": 27,
+    "details": {
+      "brand": "Raynor - Marks",
+      "origin": "Isle of Man"
+    }
+  }
+}

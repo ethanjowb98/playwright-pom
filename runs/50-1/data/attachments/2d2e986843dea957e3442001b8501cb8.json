@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-r55eibob Soft Plastic Keyboard",
+    "category": "frozen",
+    "price": 45.56,
+    "stock": 13,
+    "details": {
+      "brand": "Dickinson - Christiansen",
+      "origin": "United Arab Emirates"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

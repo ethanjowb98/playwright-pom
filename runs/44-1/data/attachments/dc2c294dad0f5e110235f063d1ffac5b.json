@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2fkg5fub Rustic Bronze Car",
+    "category": "pantry",
+    "price": 9.99,
+    "stock": 46,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

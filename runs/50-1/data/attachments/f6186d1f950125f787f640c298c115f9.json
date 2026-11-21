@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7f6df7uj Tasty Silk Keyboard",
+    "category": "frozen",
+    "price": 45.08,
+    "stock": 48,
+    "details": {
+      "brand": "Buckridge - Toy-Hickle",
+      "origin": "Republic of Korea"
+    }
+  }
+}

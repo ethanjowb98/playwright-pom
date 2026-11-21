@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-9esjvpyu Recycled Gold Tuna",
+    "category": "meat-seafood",
+    "price": 28.28,
+    "stock": 16,
+    "details": {
+      "brand": "Monahan Inc",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-tp5lmn3b Fantastic Wooden Salad",
+    "category": "beverages",
+    "price": 43.4,
+    "stock": 11,
+    "details": {
+      "brand": "Nitzsche - Wolff",
+      "origin": "Falkland Islands (Malvinas)"
+    }
+  }
+}

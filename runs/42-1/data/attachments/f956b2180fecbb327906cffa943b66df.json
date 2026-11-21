@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-qq4ttyzr Elegant Rubber Computer",
+    "category": "snacks",
+    "price": 39.11,
+    "stock": 22,
+    "details": {
+      "brand": "Kohler Group",
+      "origin": "Tonga"
+    }
+  }
+}

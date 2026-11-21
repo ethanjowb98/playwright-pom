@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6y7yfxvk Luxurious Aluminum Chicken",
+    "category": "meat-seafood",
+    "price": 25.55,
+    "stock": 44,
+    "details": {
+      "brand": "Stehr Group",
+      "origin": "Kiribati"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-68gh0f1r Incredible Silk Mouse",
+    "category": "fresh-produce",
+    "price": 24.65,
+    "stock": 15,
+    "details": {
+      "brand": "Rutherford - Walsh",
+      "origin": "Norway"
+    }
+  }
+}

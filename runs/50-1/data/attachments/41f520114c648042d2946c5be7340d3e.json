@@ -1,0 +1,27 @@
+{
+  "id": "b1a42cc7-58db-49fa-b92a-a65af8adbc26",
+  "order_number": "O56634",
+  "status": "pending",
+  "total_amount": 142.08,
+  "notes": "Leave at the door",
+  "created_at": "2026-11-20T10:45:28.994384+00:00",
+  "updated_at": "2026-11-20T10:45:28.994384+00:00",
+  "items": [
+    {
+      "product_id": "2cccfee2-51f0-48a6-920d-03389ea99c82",
+      "product_name": "QA-1-sr20mvxp Small Steel Car",
+      "category": "bakery",
+      "quantity": 3,
+      "price": 23.12,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "13fed34c-bc00-43df-9ef3-e7079701fb2b",
+      "product_name": "QA-1-r9fxq1y5 Handcrafted Aluminum Pizza",
+      "category": "fresh-produce",
+      "quantity": 2,
+      "price": 36.36,
+      "temperature_zone": null
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "c30dbc0c-e5e4-459d-8972-919d311f689f",
+    "order_number": "O24889",
+    "status": "pending",
+    "total_amount": 15.69,
+    "created_at": "2026-11-10T10:39:02.991127+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-cdgm7215 Incredible Gold Soap",
+        "category": "household",
+        "quantity": 1,
+        "price": 15.69,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

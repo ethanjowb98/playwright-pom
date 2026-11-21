@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ub381pep sort Bravo",
+    "category": "snacks",
+    "price": 25.49,
+    "stock": 25,
+    "details": {
+      "brand": "Hilll, White and Nienow",
+      "origin": "United Kingdom"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-417stjtj Recycled Rubber Keyboard",
+    "category": "dairy-eggs",
+    "price": 7.73,
+    "stock": 2,
+    "details": {
+      "brand": "O'Keefe - Parisian",
+      "origin": "Chad"
+    }
+  }
+}

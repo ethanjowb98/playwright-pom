@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5losa5vz Intelligent Plastic Bacon",
+    "category": "household",
+    "price": 2.15,
+    "stock": 25,
+    "details": {
+      "brand": "Huels, Monahan and Rogahn",
+      "origin": "Somalia"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

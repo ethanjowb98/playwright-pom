@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-2bnpfri4 Fresh Metal Table",
+    "category": "beverages",
+    "price": 42.03,
+    "stock": 18,
+    "details": {
+      "brand": "Green LLC",
+      "origin": "Mali"
+    }
+  }
+}

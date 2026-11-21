@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "a8267c6e-b5fa-4072-8d1c-3981acbeea06",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "processing",
+    "total_amount": 43.98,
+    "notes": null,
+    "created_at": "2026-11-16T10:23:35.83537+00:00",
+    "updated_at": "2026-11-16T10:23:35.83537+00:00",
+    "order_number": "O88323"
+  }
+}

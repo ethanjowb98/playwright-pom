@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-tf18psiq Unbranded Metal Hat",
+    "category": "bakery",
+    "price": 22.25,
+    "stock": 30,
+    "details": {
+      "brand": "Smith, Bernhard and Langosh",
+      "origin": "Saint Lucia"
+    },
+    "weighted": true
+  }
+}

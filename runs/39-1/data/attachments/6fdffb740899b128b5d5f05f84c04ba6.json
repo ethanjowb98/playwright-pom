@@ -1,0 +1,15 @@
+{
+  "id": "1bf35bd8-c4e4-40e3-8189-65eca5fafabd",
+  "product_name": "QA-1-0gklxxqb Small Bamboo Chair",
+  "category": "fresh-produce",
+  "price": 30.98,
+  "stock": 42,
+  "details": {
+    "brand": "McClure, Mills and Christiansen",
+    "origin": "Mauritania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:40:36.622858+00:00"
+}

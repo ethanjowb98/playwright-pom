@@ -1,0 +1,15 @@
+{
+  "id": "d6ccb6b2-ea18-4a7f-a243-17f514131999",
+  "product_name": "QA-1-a6ov42hg Fresh Plastic Tuna",
+  "category": "pantry",
+  "price": 9.78,
+  "stock": 23,
+  "details": {
+    "brand": "Wintheiser and Sons",
+    "origin": "Georgia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:39:40.758319+00:00"
+}

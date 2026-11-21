@@ -1,0 +1,15 @@
+{
+  "id": "605668c5-aa61-4bb8-b28b-c760a926fb5b",
+  "product_name": "QA-1-su1twnxx Small Cotton Shoes",
+  "category": "beverages",
+  "price": 44.07,
+  "stock": 35,
+  "details": {
+    "brand": "Bednar, McLaughlin and Hudson",
+    "origin": "Monaco"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:24:28.785042+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5dwfjf2o Licensed Bamboo Salad",
+    "category": "pantry",
+    "price": 29.99,
+    "stock": 14,
+    "details": {
+      "brand": "Kling - Goldner",
+      "origin": "Aruba"
+    }
+  }
+}

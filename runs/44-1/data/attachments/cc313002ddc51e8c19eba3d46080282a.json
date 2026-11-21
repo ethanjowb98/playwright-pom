@@ -1,0 +1,19 @@
+{
+  "id": "7dcb6897-5e52-4097-8d74-0f4547492cdb",
+  "order_number": "O24918",
+  "status": "shipped",
+  "total_amount": 5.08,
+  "notes": null,
+  "created_at": "2026-11-14T09:40:09.099798+00:00",
+  "updated_at": "2026-11-14T09:40:09.099798+00:00",
+  "items": [
+    {
+      "product_id": "60157d25-20c9-4051-9289-551e48bdfdcf",
+      "product_name": "QA-1-0tlkfqxy Ergonomic Plastic Keyboard",
+      "category": "snacks",
+      "quantity": 1,
+      "price": 5.08,
+      "temperature_zone": null
+    }
+  ]
+}

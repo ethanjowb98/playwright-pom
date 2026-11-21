@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-dee1tcd5 Oriental Granite Hat",
+    "category": "household",
+    "price": 47.41,
+    "stock": -5,
+    "details": {
+      "brand": "Walker, Hills and Hansen",
+      "origin": "Bangladesh"
+    }
+  }
+}

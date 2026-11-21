@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-iy6rn0yd Recycled Granite Computer",
+    "category": "snacks",
+    "price": 15.9,
+    "stock": 21,
+    "details": {
+      "brand": "Rice - Durgan",
+      "origin": "Northern Mariana Islands"
+    },
+    "temperature_zone": "Dry"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-60i4mfk8 sort Bravo",
+    "category": "other",
+    "price": 17.79,
+    "stock": 46,
+    "details": {
+      "brand": "Haag - Steuber",
+      "origin": "Cameroon"
+    }
+  }
+}

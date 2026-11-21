@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-74ebw9im Ergonomic Ceramic Pants",
+    "category": "frozen",
+    "price": 32.7,
+    "stock": 41,
+    "details": {
+      "brand": "Hand, Kihn and Cormier",
+      "origin": "Saudi Arabia"
+    }
+  }
+}

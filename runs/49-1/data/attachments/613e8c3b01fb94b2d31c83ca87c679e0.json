@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yzme0cwb Rustic Bamboo Keyboard",
+    "category": "pantry",
+    "price": 36.92,
+    "stock": 18,
+    "details": {
+      "brand": "Watsica - Green",
+      "origin": "Peru"
+    }
+  }
+}

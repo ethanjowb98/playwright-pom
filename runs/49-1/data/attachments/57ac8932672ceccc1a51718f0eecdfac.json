@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-f9wdakuw Recycled Ceramic Soap",
+    "category": "other",
+    "price": 48.93,
+    "stock": 14,
+    "details": {
+      "brand": "White, Schaden and Tromp",
+      "origin": "Åland Islands"
+    }
+  }
+}

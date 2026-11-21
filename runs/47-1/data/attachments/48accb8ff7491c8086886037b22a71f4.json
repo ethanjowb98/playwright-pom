@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hiy4ru9w Intelligent Concrete Keyboard",
+    "category": "dairy-eggs",
+    "price": 44.91,
+    "stock": 17,
+    "details": {
+      "brand": "Leuschke, Kovacek and Kulas",
+      "origin": "Qatar"
+    }
+  }
+}

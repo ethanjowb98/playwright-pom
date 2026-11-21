@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-8p0594qq Sleek Aluminum Computer",
+    "category": "snacks",
+    "price": 17.99,
+    "stock": 11,
+    "details": {
+      "brand": "Thiel - Weimann",
+      "origin": "Timor-Leste"
+    }
+  }
+}

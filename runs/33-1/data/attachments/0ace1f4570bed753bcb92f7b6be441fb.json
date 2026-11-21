@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c39n2gij Bespoke Bamboo Keyboard",
+    "category": "meat-seafood",
+    "price": 46.37,
+    "stock": 22,
+    "details": {
+      "brand": "Wuckert, Miller and Veum",
+      "origin": "French Guiana"
+    }
+  }
+}

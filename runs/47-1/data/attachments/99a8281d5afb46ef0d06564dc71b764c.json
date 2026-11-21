@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4tan7u9d Bespoke Plastic Ball",
+    "category": "household",
+    "price": 49.86,
+    "stock": 23,
+    "details": {
+      "brand": "Bogan, Erdman and Halvorson",
+      "origin": "Macao"
+    }
+  }
+}

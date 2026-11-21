@@ -1,0 +1,15 @@
+{
+  "id": "1d2a3e79-474f-4165-a1ff-d118e0b38ca1",
+  "product_name": "QA-1-k4hgb4b2 Small Bronze Mouse",
+  "category": "household",
+  "price": 27.67,
+  "stock": 17,
+  "details": {
+    "brand": "Bernier LLC",
+    "origin": "Pakistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:58:12.89197+00:00"
+}

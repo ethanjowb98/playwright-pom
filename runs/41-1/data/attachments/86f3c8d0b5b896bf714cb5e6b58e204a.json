@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8bszahvx Generic Ceramic Table",
+    "category": "meat-seafood",
+    "price": 3.63,
+    "stock": 36,
+    "details": {
+      "brand": "Farrell - Bosco",
+      "origin": "Antigua and Barbuda"
+    }
+  }
+}

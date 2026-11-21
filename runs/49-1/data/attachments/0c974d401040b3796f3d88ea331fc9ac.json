@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9jdiif50 Generic Marble Bike",
+    "category": "snacks",
+    "price": 4.27,
+    "stock": 36,
+    "details": {
+      "brand": "Sipes-Barton - Rohan",
+      "origin": "Uganda"
+    }
+  }
+}

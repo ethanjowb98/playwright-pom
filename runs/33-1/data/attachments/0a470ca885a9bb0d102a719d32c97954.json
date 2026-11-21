@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-8bg0tsgh Elegant Steel Towels",
+    "category": "snacks",
+    "price": 10.78,
+    "stock": 22,
+    "details": {
+      "brand": "Crist - Rolfson",
+      "origin": "Guam"
+    }
+  }
+}

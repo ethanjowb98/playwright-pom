@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nzoghtir Modern Wooden Shoes",
+    "category": "other",
+    "price": 13.09,
+    "stock": 26,
+    "details": {
+      "brand": "Christiansen and Sons",
+      "origin": "Germany"
+    }
+  }
+}

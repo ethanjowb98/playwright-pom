@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x4ghtvo5 Generic Bronze Fish",
+    "category": "bakery",
+    "price": 48.14,
+    "stock": 37,
+    "details": {
+      "brand": "Huels LLC",
+      "origin": "France"
+    }
+  }
+}

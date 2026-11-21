@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ry4f33sd Intelligent Metal Fish",
+    "category": "frozen",
+    "price": 11.6,
+    "stock": 11,
+    "details": {
+      "brand": "Carter - Oberbrunner",
+      "origin": "Maldives"
+    }
+  }
+}

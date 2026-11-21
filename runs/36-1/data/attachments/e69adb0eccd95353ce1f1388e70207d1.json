@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7i2eilpe Gorgeous Steel Bacon",
+    "category": "meat-seafood",
+    "price": 34.49,
+    "stock": 48,
+    "details": {
+      "brand": "Cummerata and Sons",
+      "origin": "Sudan"
+    }
+  }
+}

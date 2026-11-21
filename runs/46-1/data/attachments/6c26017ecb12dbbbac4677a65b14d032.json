@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "fresh-produce",
+    "price": 27.46,
+    "stock": 24,
+    "details": {
+      "brand": "Hegmann Group",
+      "origin": "Australia"
+    }
+  }
+}

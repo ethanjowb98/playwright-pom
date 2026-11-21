@@ -1,0 +1,184 @@
+[
+  {
+    "id": "9ea97415-6f47-4c9a-8cf7-ae23c336dffb",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Artisan Sourdough Boule",
+    "category": "bakery",
+    "price": 6.5,
+    "details": {
+      "sliced": false,
+      "starter": "Wild Yeast",
+      "fermentation_time": "48 hours"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "0e5aff95-9ba8-4da8-8cf6-906deae765d0",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Classic Cheesecake (Whole)",
+    "category": "bakery",
+    "price": 18.99,
+    "details": {
+      "size": "8 inch",
+      "crust": "Graham Cracker",
+      "flavor": "Vanilla Bean",
+      "servings": 8
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9a8cae7c-4edc-42b0-bcf2-34eb7ddef8ee",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Cozonac (Walnut Sweet Bread)",
+    "category": "bakery",
+    "price": 8.99,
+    "details": {
+      "origin": "Romania",
+      "filling": "Walnut and Cocoa",
+      "traditional": true,
+      "contains_nuts": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "11bb4d32-0830-4ef5-bb05-3bb562e0a2a9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "037d8b80-8843-4ee8-8817-d8c94ed12ea9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Double Chocolate Fudge Brownies",
+    "category": "bakery",
+    "price": 7.99,
+    "details": {
+      "texture": "Fudgy",
+      "contains_nuts": false,
+      "chocolate_type": "Dark"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "39fc5321-932c-414f-8eb0-0e1f79e706b5",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Everything Bagels (6-Pack)",
+    "category": "bakery",
+    "price": 5.49,
+    "details": {
+      "count": 6,
+      "toppings": [
+        "Sesame",
+        "Poppy",
+        "Onion",
+        "Garlic",
+        "Salt"
+      ],
+      "pre_sliced": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "109ba8e4-fc63-4a5d-8692-01f6c7d9d941",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Fresh French Baguette",
+    "category": "bakery",
+    "price": 2.99,
+    "details": {
+      "vegan": true,
+      "length": "22 inches",
+      "flour_type": "White",
+      "baked_fresh_daily": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "da1b29bc-3ff4-4efb-923b-b4607a8054fd",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-sdt06laa Handmade Plastic Sausages",
+    "category": "snacks",
+    "price": 17.8,
+    "details": {
+      "brand": "Orn and Sons",
+      "origin": "Virgin Islands, U.S."
+    },
+    "created_at": "2026-11-14T09:38:37.859849+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 22
+  },
+  {
+    "id": "4202c7f8-90df-466f-b5a8-c82840170892",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-0jnjhfsi Awesome Gold Shoes",
+    "category": "snacks",
+    "price": 11.34,
+    "details": {
+      "brand": "Rippin - Russel",
+      "origin": "Mexico"
+    },
+    "created_at": "2026-11-14T09:38:39.022682+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 43
+  },
+  {
+    "id": "a47cc3a0-fd4b-4f45-aa36-0d3f4288b5b6",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-2tcg0fky Elegant Steel Shoes",
+    "category": "snacks",
+    "price": 21.29,
+    "details": {
+      "brand": "Bradtke, Renner-O'Kon and Conroy",
+      "origin": "Oman"
+    },
+    "created_at": "2026-11-14T09:38:38.009864+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 23
+  },
+  {
+    "id": "91e3b318-0c40-48d4-84bb-9e87079a0a36",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-74w127a4 Electronic Wooden Cheese",
+    "category": "bakery",
+    "price": 27.51,
+    "details": {
+      "brand": "Weimann Group",
+      "origin": "Saint Helena"
+    },
+    "created_at": "2026-11-14T09:38:39.061032+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 38
+  }
+]

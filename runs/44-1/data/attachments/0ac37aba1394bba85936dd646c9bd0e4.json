@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-0jnjhfsi Awesome Gold Shoes",
+    "category": "snacks",
+    "price": 11.34,
+    "stock": 43,
+    "details": {
+      "brand": "Rippin - Russel",
+      "origin": "Mexico"
+    }
+  }
+}

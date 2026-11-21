@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qe2nkmt5 Ergonomic Silk Car",
+    "category": "pantry",
+    "price": 7.34,
+    "stock": 14,
+    "details": {
+      "brand": "King, Carroll and Leannon",
+      "origin": "Sao Tome and Principe"
+    }
+  }
+}

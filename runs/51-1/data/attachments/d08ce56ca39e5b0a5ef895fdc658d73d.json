@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-r8qtfnsb sort Charlie",
+    "category": "household",
+    "price": 43.4,
+    "stock": 11,
+    "details": {
+      "brand": "Lockman Inc",
+      "origin": "Malta"
+    }
+  }
+}

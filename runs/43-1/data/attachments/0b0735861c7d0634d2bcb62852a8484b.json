@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-y60to23x sort Bravo",
+    "category": "fresh-produce",
+    "price": 23.28,
+    "stock": 40,
+    "details": {
+      "brand": "Kulas and Sons",
+      "origin": "China"
+    }
+  }
+}

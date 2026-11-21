@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-94ibdri3 Fantastic Plastic Shirt",
+    "category": "frozen",
+    "price": 46.82,
+    "stock": 13,
+    "details": {
+      "brand": "Roberts Group",
+      "origin": "Sri Lanka"
+    }
+  }
+}

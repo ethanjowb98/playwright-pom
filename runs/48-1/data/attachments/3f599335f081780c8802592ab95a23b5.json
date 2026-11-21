@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lgm1x3qd Unbranded Aluminum Chips",
+    "category": "pantry",
+    "price": 45.49,
+    "stock": 2,
+    "details": {
+      "brand": "Lehner LLC",
+      "origin": "Timor-Leste"
+    }
+  }
+}

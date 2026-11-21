@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wb2akhp5 Unbranded Silk Table",
+    "category": "frozen",
+    "price": 20.89,
+    "stock": 44,
+    "details": {
+      "brand": "Keebler Group",
+      "origin": "Honduras"
+    }
+  }
+}

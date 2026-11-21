@@ -1,0 +1,15 @@
+{
+  "id": "9ffde12b-5a68-4850-938e-f747a208fb0d",
+  "product_name": "QA-3-c19lvt0q sort Alpha",
+  "category": "bakery",
+  "price": 26.83,
+  "stock": 26,
+  "details": {
+    "brand": "Prosacco, Bernier and Hudson",
+    "origin": "Burundi"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:51.064345+00:00"
+}

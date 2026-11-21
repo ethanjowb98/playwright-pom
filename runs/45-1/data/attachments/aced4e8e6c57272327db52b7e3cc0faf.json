@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cgrbjzpq Generic Granite Salad",
+    "category": "snacks",
+    "price": 25.56,
+    "stock": 17,
+    "details": {
+      "brand": "Predovic LLC",
+      "origin": "South Sudan"
+    }
+  }
+}

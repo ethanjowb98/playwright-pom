@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-xwf7m3ni Electronic Marble Bacon",
+    "category": "household",
+    "price": 11.02,
+    "stock": 31,
+    "details": {
+      "brand": "Kling, Howe-Blick and Leannon",
+      "origin": "Norfolk Island"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

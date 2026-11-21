@@ -1,0 +1,15 @@
+{
+  "id": "35b26a40-e453-41ed-a00b-f872583d7dc1",
+  "product_name": "QA-8-a4u810t3 sort Charlie",
+  "category": "household",
+  "price": 26.59,
+  "stock": 32,
+  "details": {
+    "brand": "Bashirian Inc",
+    "origin": "Virgin Islands, U.S."
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:05.61197+00:00"
+}

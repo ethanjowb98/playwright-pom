@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-r222omg4 Gorgeous Ceramic Tuna",
+    "category": "household",
+    "price": 47.91,
+    "stock": 14,
+    "details": {
+      "brand": "Hammes, Paucek and Ferry",
+      "origin": "Lao People's Democratic Republic"
+    }
+  }
+}

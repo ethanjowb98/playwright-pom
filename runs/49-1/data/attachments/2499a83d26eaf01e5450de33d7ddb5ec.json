@@ -1,0 +1,17 @@
+[
+  {
+    "id": "872739d8-861a-4255-b9fb-34daf86830fd",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-st17qcig Oriental Steel Soap",
+    "category": "frozen",
+    "price": 25.44,
+    "details": {
+      "brand": "Kohler - Mosciski",
+      "origin": "Bolivia"
+    },
+    "created_at": "2026-11-19T10:54:24.051925+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": true,
+    "stock": 44
+  }
+]

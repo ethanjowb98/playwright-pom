@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "946c03bd-364b-4638-a5a9-9f77aa67b358",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "pending",
+    "total_amount": 96.22,
+    "notes": "updated",
+    "created_at": "2026-11-13T10:21:07.755224+00:00",
+    "updated_at": "2026-11-13T10:21:07.755224+00:00",
+    "order_number": "O34076"
+  }
+}

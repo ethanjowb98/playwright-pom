@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-cwg4mym1 Tasty Gold Shirt",
+    "category": "household",
+    "stock": 29,
+    "details": {
+      "brand": "Rodriguez, Sawayn and Hudson",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

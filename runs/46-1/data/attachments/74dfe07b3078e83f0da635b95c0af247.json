@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-19ykafyx Intelligent Metal Pants",
+    "category": "snacks",
+    "price": 47.08,
+    "stock": 15,
+    "details": {
+      "brand": "Connelly and Sons",
+      "origin": "Tonga"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-53hmozbc Recycled Bamboo Pants",
+    "category": "household",
+    "price": 4.13,
+    "stock": 11,
+    "details": {
+      "brand": "Hudson, Becker and Boyle",
+      "origin": "Bermuda"
+    }
+  }
+}

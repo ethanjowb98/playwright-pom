@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mekqltny Bespoke Aluminum Towels",
+    "category": "dairy-eggs",
+    "price": 27.66,
+    "stock": 12,
+    "details": {
+      "brand": "Hauck, Blanda and Murazik",
+      "origin": "Spain"
+    }
+  }
+}

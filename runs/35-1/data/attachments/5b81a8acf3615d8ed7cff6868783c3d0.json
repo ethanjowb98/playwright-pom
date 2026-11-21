@@ -1,0 +1,15 @@
+{
+  "id": "cab18e2f-f812-41e7-b42e-db9047b7d3fe",
+  "product_name": "QA-1-8fpgqq0n Sleek Concrete Table",
+  "category": "snacks",
+  "price": 17.71,
+  "stock": 41,
+  "details": {
+    "brand": "Thiel, Wiegand and Dooley",
+    "origin": "Togo"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:05:29.938891+00:00"
+}

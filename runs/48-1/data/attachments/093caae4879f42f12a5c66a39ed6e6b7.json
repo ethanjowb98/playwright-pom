@@ -1,0 +1,15 @@
+{
+  "id": "fd364462-f3e8-4e06-a242-0a26f491fb54",
+  "product_name": "QA-2-65f6a8na Generic Marble Hat",
+  "category": "bakery",
+  "price": 48.26,
+  "stock": 48,
+  "details": {
+    "brand": "Bergstrom - Daniel-Ledner",
+    "origin": "Timor-Leste"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:12.665563+00:00"
+}

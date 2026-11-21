@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-7wthm0uc sort Bravo",
+    "category": "snacks",
+    "price": 49.1,
+    "stock": 14,
+    "details": {
+      "brand": "Osinski LLC",
+      "origin": "South Sudan"
+    }
+  }
+}

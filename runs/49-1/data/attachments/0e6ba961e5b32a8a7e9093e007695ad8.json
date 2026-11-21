@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-qzwguitu Ergonomic Bamboo Soap",
+    "category": "frozen",
+    "price": 20.04,
+    "stock": 15,
+    "details": {
+      "brand": "Rowe - Kautzer",
+      "origin": "Chad"
+    }
+  }
+}

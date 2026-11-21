@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "05c7be41-ad3b-4894-b0c4-fa4f7edc36fd",
+      "product_id": "a128faaf-f068-4fd2-9809-bf085e4ee3ff",
+      "product_name": "QA-1-kuj8qjt6 Tasty Granite Fish",
+      "price": 25.99,
+      "category": "frozen",
+      "quantity": 3,
+      "created_at": "2026-11-13T10:23:08.896702+00:00",
+      "updated_at": "2026-11-13T10:23:08.896702+00:00"
+    },
+    {
+      "id": "208cc567-464c-4111-a8a5-eebd9991feeb",
+      "product_id": "83b4b7ea-a6ae-4c10-9a77-51261858fbb8",
+      "product_name": "QA-1-gutwcuoe Ergonomic Ceramic Keyboard",
+      "price": 12.5,
+      "category": "household",
+      "quantity": 1,
+      "created_at": "2026-11-13T10:23:09.545196+00:00",
+      "updated_at": "2026-11-13T10:23:09.545196+00:00"
+    }
+  ]
+}

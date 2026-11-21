@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-5disdfii Practical Bronze Table",
+    "category": "other",
+    "price": 25.56,
+    "stock": 34,
+    "details": {
+      "brand": "Schmeler - Leffler",
+      "origin": "Hong Kong"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "4c05c78e-8e19-42bb-9ab7-dbafa9a15e04",
+      "order_number": "O27984",
+      "status": "pending",
+      "total_amount": 13.89,
+      "notes": null,
+      "created_at": "2026-11-07T09:28:21.164568+00:00",
+      "updated_at": "2026-11-07T09:28:21.164568+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-5s8msx8m Fantastic Concrete Hat",
+          "category": "bakery",
+          "quantity": 1,
+          "price": 13.89,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

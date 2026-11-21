@@ -1,0 +1,67 @@
+[
+  {
+    "id": "8866c924-0cc8-4067-b416-319590fa745a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Earl Grey Loose Leaf Tea",
+    "category": "beverages",
+    "price": 3.5,
+    "details": {
+      "origin": "India",
+      "caffeinated": true,
+      "ingredients": [
+        "Black Tea",
+        "Bergamot Oil"
+      ]
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "8d65b4f3-22c0-4582-8a6c-dfbbc35022ef",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-4-xz030p1i Frozen Steel Ball",
+    "category": "frozen",
+    "price": 16.28,
+    "details": {
+      "brand": "Abshire - Kshlerin",
+      "origin": "Virgin Islands, British"
+    },
+    "created_at": "2026-11-04T08:17:47.274973+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 11
+  },
+  {
+    "id": "bca63b1d-8e80-42d1-a60e-24b912d8a6a3",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Red Onions",
+    "category": "fresh-produce",
+    "price": 1.2,
+    "details": {
+      "local": true,
+      "flavor_profile": "Sharp"
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "3cbc9b44-d7df-40cd-8b0a-3a09fac9846a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Russet Potatoes (5lb)",
+    "category": "fresh-produce",
+    "price": 5.5,
+    "details": {
+      "type": "Starchy",
+      "origin": "Idaho",
+      "bag_size": "5lb"
+    },
+    "created_at": "2026-10-25T13:44:57.908631+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 10
+  }
+]

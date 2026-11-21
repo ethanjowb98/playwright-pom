@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jpfftoe8 Practical Gold Shoes",
+    "category": "other",
+    "price": 20.53,
+    "stock": 31,
+    "details": {
+      "brand": "Lynch, Schuppe and Frami",
+      "origin": "Switzerland"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "d14a724e-a9bc-4915-be2e-2f2043e704a7",
+  "product_name": "QA-2-3j4ey506 Generic Bamboo Bacon",
+  "category": "frozen",
+  "price": 30.07,
+  "stock": 50,
+  "details": {
+    "brand": "Olson Inc",
+    "origin": "Guam"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:26:19.401863+00:00"
+}

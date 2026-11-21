@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fj7shot3 Unbranded Aluminum Mouse",
+    "category": "dairy-eggs",
+    "price": 19.5,
+    "stock": 48,
+    "details": {
+      "brand": "Leffler - Jaskolski",
+      "origin": "Barbados"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-vujq93r3 Refined Cotton Keyboard",
+    "category": "snacks",
+    "price": 12.92,
+    "stock": 17,
+    "details": {
+      "brand": "Koelpin - Miller",
+      "origin": "Côte d'Ivoire"
+    }
+  }
+}

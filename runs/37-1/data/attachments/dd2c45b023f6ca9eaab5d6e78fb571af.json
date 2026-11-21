@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-q2s18kkl Fresh Cotton Shirt",
+    "category": "dairy-eggs",
+    "price": 22.09,
+    "stock": 23,
+    "details": {
+      "brand": "Graham Group",
+      "origin": "Ukraine"
+    }
+  }
+}

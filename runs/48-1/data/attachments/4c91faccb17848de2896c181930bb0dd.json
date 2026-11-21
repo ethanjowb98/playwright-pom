@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uuihk2y3 Gorgeous Granite Chicken",
+    "category": "bakery",
+    "price": 11.57,
+    "stock": 42,
+    "details": {
+      "brand": "Abshire - Stanton",
+      "origin": "Uzbekistan"
+    }
+  }
+}

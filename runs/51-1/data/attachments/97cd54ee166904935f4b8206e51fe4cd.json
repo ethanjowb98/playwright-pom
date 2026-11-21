@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-hpktb66g Handmade Bamboo Mouse",
+    "category": "bakery",
+    "stock": 47,
+    "details": {
+      "brand": "Daniel Group",
+      "origin": "Vietnam"
+    }
+  }
+}

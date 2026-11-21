@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "92245ac7-5880-4bef-88fe-9226733ae768",
+      "product_id": "d2d06fdd-e3ac-466b-a01f-b8b48fd78917",
+      "product_name": "QA-1-hu9zsa9s Frozen Steel Tuna",
+      "price": 34.74,
+      "category": "meat-seafood",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:55:31.531038+00:00",
+      "updated_at": "2026-11-18T10:55:31.531038+00:00"
+    },
+    {
+      "id": "595c51fd-f4e7-453d-a6b5-3976158c4262",
+      "product_id": "2a2621a9-085c-488c-b053-ccd2da37d343",
+      "product_name": "QA-1-fqnh63zk Modern Granite Bacon",
+      "price": 9.64,
+      "category": "beverages",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:55:32.170143+00:00",
+      "updated_at": "2026-11-18T10:55:32.170143+00:00"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "5b53e09d-fbdf-4e4f-ba6d-067f875a4eb8",
+  "product_name": "QA-1-texczfpd Incredible Silk Soap",
+  "category": "meat-seafood",
+  "price": 18.91,
+  "stock": 46,
+  "details": {
+    "brand": "Johns and Sons",
+    "origin": "Haiti"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:22:24.806361+00:00"
+}

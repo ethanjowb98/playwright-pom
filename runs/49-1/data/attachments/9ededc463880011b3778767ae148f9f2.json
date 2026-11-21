@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-n96ybwdn Recycled Cotton Table",
+    "category": "dairy-eggs",
+    "price": 5.63,
+    "stock": 18,
+    "details": {
+      "brand": "Okuneva Group",
+      "origin": "Japan"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

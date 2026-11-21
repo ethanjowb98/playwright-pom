@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1l7ii1jy Fantastic Rubber Chips",
+    "category": "meat-seafood",
+    "price": 12.52,
+    "stock": 40,
+    "details": {
+      "brand": "Schroeder, Jast and Kozey",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

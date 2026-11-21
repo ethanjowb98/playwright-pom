@@ -1,0 +1,15 @@
+{
+  "id": "df637884-9359-4f92-ae02-4c94a67d8d60",
+  "product_name": "QA-1-4l7c81xp Refined Granite Salad",
+  "category": "fresh-produce",
+  "price": 15.01,
+  "stock": 36,
+  "details": {
+    "brand": "Windler LLC",
+    "origin": "Réunion"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:55:06.715425+00:00"
+}

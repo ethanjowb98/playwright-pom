@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-eanviy43 Electronic Steel Soap",
+    "category": "snacks",
+    "price": 19.31,
+    "stock": 48,
+    "details": {
+      "brand": "Langworth, Runte and Hills",
+      "origin": "Gambia"
+    }
+  }
+}

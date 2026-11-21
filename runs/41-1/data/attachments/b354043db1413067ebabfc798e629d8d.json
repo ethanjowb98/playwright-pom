@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-x3tnj3eq Rustic Bamboo Chicken",
+    "category": "bakery",
+    "price": 30.41,
+    "stock": 13,
+    "details": {
+      "brand": "Green LLC",
+      "origin": "Vanuatu"
+    }
+  }
+}

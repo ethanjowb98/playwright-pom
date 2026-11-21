@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9x0iudk5 Luxurious Steel Shirt",
+    "category": "other",
+    "price": 10.34,
+    "stock": 49,
+    "details": {
+      "brand": "McClure, VonRueden and Windler",
+      "origin": "Macao"
+    }
+  }
+}

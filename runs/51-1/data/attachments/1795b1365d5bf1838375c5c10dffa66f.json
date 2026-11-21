@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-s1ab4c50 Awesome Aluminum Bike",
+    "category": "other",
+    "price": 12.91,
+    "stock": 37,
+    "details": {
+      "brand": "Funk and Sons",
+      "origin": "Canada"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

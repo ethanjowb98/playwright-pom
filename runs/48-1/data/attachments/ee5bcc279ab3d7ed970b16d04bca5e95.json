@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0p1prj2a Awesome Granite Computer",
+    "category": "fresh-produce",
+    "price": 14.94,
+    "stock": 13,
+    "details": {
+      "brand": "Leuschke, Schamberger and Thompson",
+      "origin": "Maldives"
+    }
+  }
+}

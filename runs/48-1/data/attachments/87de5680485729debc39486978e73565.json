@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "e709e038-c166-4170-bc01-8cb0c6b38fd4",
+      "product_id": "9e122f49-7ee5-495d-8145-712f8abd0ba1",
+      "product_name": "QA-1-wt0yay8e Bespoke Marble Soap",
+      "price": 43.21,
+      "category": "meat-seafood",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:55:20.606049+00:00",
+      "updated_at": "2026-11-18T10:55:20.606049+00:00"
+    },
+    {
+      "id": "ca534b9e-a7f4-43dc-ae0e-0e35d57afb8f",
+      "product_id": "18abb98f-506e-4961-8e02-b56ff4d5d31f",
+      "product_name": "QA-1-1ipvshz9 Handcrafted Metal Bike",
+      "price": 37.69,
+      "category": "other",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:55:20.011608+00:00",
+      "updated_at": "2026-11-18T10:55:20.011608+00:00"
+    }
+  ]
+}

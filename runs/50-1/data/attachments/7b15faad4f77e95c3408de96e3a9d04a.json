@@ -1,0 +1,15 @@
+{
+  "id": "3d0efba6-b0fe-4b18-b6ad-db768d8844b5",
+  "product_name": "QA-8-ij41hdsi Tasty Wooden Salad",
+  "category": "snacks",
+  "price": 30.99,
+  "stock": 27,
+  "details": {
+    "brand": "Goodwin - Klein",
+    "origin": "Guernsey"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:01.273169+00:00"
+}

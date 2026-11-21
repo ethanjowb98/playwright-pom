@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-hsnicm00 Awesome Ceramic Ball",
+    "category": "household",
+    "price": 7.07,
+    "stock": 12,
+    "details": {
+      "brand": "Fisher, Deckow and Lindgren",
+      "origin": "Faroe Islands"
+    }
+  }
+}

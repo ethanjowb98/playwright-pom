@@ -1,0 +1,15 @@
+{
+  "id": "c4a3d57a-287d-4b91-9f78-90e6b758d219",
+  "product_name": "QA-1-x2qqmy5y Small Metal Fish",
+  "category": "meat-seafood",
+  "price": 41.25,
+  "stock": 24,
+  "details": {
+    "brand": "Stark, Jaskolski and Beatty",
+    "origin": "Réunion"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:10.282322+00:00"
+}

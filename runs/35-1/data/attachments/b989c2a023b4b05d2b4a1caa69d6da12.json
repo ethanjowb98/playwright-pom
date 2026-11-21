@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-wswq6ktv Fresh Silk Bike",
+    "category": "household",
+    "price": 24.3,
+    "stock": 31,
+    "details": {
+      "brand": "Moen, Corkery and Marvin",
+      "origin": "Palestine"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

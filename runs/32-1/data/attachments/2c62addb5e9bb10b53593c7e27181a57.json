@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6cj770s1 Gorgeous Concrete Computer",
+    "category": "other",
+    "price": 36.8,
+    "stock": 44,
+    "details": {
+      "brand": "Hermann, Bechtelar and Towne",
+      "origin": "Romania"
+    }
+  }
+}

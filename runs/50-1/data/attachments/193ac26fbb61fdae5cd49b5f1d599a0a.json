@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8qcldgy4 Handmade Marble Mouse",
+    "category": "pantry",
+    "price": 45.34,
+    "stock": 49,
+    "details": {
+      "brand": "Legros - Mitchell",
+      "origin": "Cayman Islands"
+    }
+  }
+}

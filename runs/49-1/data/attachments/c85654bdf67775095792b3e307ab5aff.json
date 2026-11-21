@@ -1,0 +1,15 @@
+{
+  "id": "5e25398b-af2f-475c-ab9a-b1a768e41aff",
+  "product_name": "QA-4-esfw89e5 Handmade Cotton Chips",
+  "category": "fresh-produce",
+  "price": 34.77,
+  "stock": 48,
+  "details": {
+    "brand": "Bruen, Kovacek and Grady",
+    "origin": "United States Minor Outlying Islands"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:26.033722+00:00"
+}

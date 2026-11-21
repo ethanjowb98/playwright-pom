@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "5ea3650d-4f42-4475-8cf1-6f242310a633",
+    "order_number": "O16318",
+    "status": "pending",
+    "total_amount": 48.15,
+    "created_at": "2026-11-09T10:37:40.496679+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-opyk691d Soft Concrete Pizza",
+        "category": "other",
+        "quantity": 3,
+        "price": 16.05,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-1dhn2tez Ergonomic Cotton Gloves",
+    "category": "dairy-eggs",
+    "price": 19.3,
+    "stock": 41,
+    "details": {
+      "brand": "Rohan and Sons",
+      "origin": "Singapore"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

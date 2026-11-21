@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-f32qg3yx Gorgeous Granite Gloves",
+    "category": "other",
+    "price": 30.98,
+    "stock": 17,
+    "details": {
+      "brand": "Kshlerin - Pacocha",
+      "origin": "Malawi"
+    }
+  }
+}

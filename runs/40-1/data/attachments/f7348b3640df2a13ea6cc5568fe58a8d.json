@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-0wzc66dl Practical Bronze Towels",
+    "category": "snacks",
+    "price": 48.96,
+    "stock": 48,
+    "details": {
+      "brand": "Hegmann Inc",
+      "origin": "Central African Republic"
+    }
+  }
+}

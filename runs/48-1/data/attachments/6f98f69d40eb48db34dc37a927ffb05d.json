@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wf6unq0z Fresh Wooden Gloves",
+    "category": "snacks",
+    "price": 13.37,
+    "stock": 29,
+    "details": {
+      "brand": "Luettgen Inc",
+      "origin": "Nauru"
+    }
+  }
+}

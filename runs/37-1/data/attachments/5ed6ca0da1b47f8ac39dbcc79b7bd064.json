@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-p0qkfzlt Incredible Wooden Shirt",
+    "category": "dairy-eggs",
+    "price": 19.17,
+    "stock": 35,
+    "details": {
+      "brand": "Crist - Medhurst",
+      "origin": "Aruba"
+    },
+    "weighted": false
+  }
+}

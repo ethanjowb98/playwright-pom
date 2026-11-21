@@ -1,0 +1,15 @@
+{
+  "id": "4619dbf0-ee90-4018-9fb4-67a7854c3669",
+  "product_name": "QA-1-mm5n0z9p Oriental Gold Chair",
+  "category": "bakery",
+  "price": 26.32,
+  "stock": 35,
+  "details": {
+    "brand": "Predovic - Halvorson-Koepp",
+    "origin": "Venezuela"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:21.846259+00:00"
+}

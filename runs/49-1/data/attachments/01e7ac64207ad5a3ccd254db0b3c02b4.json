@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-grr4tcne Practical Aluminum Gloves",
+    "category": "pantry",
+    "price": 26.16,
+    "stock": 45,
+    "details": {
+      "brand": "Tremblay and Sons",
+      "origin": "Egypt"
+    }
+  }
+}

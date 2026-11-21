@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-jiay2gli Tasty Marble Gloves",
+    "category": "dairy-eggs",
+    "price": 23.65,
+    "stock": 48,
+    "details": {
+      "brand": "Dibbert, Wiza and Crona",
+      "origin": "Palestine"
+    }
+  }
+}

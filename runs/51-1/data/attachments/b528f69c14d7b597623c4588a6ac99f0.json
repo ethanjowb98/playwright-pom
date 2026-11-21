@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-eo8zzwxd Intelligent Silk Sausages",
+    "category": "pantry",
+    "price": 39.11,
+    "stock": 48,
+    "details": {
+      "brand": "Champlin-Witting, Bergstrom and Becker",
+      "origin": "Ukraine"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u3pep69r Fresh Cotton Keyboard",
+    "category": "snacks",
+    "price": 8.3,
+    "stock": 14,
+    "details": {
+      "brand": "Lehner Inc",
+      "origin": "Sri Lanka"
+    }
+  }
+}

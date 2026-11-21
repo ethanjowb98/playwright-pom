@@ -1,0 +1,5 @@
+{
+  "method": "PUT",
+  "path": "/api/orders/1c09c479-e52b-46a9-a89a-d1f75bb742a1",
+  "body": {}
+}

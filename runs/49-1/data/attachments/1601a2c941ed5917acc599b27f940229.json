@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-h6erwqik Frozen Concrete Cheese",
+    "category": "bakery",
+    "price": 4.79,
+    "stock": 25,
+    "details": {
+      "brand": "Ferry - O'Keefe",
+      "origin": "Eritrea"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

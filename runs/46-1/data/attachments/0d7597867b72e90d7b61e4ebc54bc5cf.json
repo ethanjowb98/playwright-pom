@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-9r2xyju2 Modern Silk Cheese",
+    "category": "pantry",
+    "price": 8.53,
+    "stock": 40,
+    "details": {
+      "brand": "Larkin, Gleason and Macejkovic",
+      "origin": "French Southern Territories"
+    },
+    "weighted": false
+  }
+}

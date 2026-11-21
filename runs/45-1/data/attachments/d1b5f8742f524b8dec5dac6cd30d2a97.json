@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-03r7mfrq Soft Concrete Bike",
+    "category": "bakery",
+    "price": 23.18,
+    "stock": 29,
+    "details": {
+      "brand": "Sanford, Collins and Gerhold",
+      "origin": "Nigeria"
+    }
+  }
+}

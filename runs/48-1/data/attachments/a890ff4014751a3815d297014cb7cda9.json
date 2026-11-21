@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ptve9bp3 Luxurious Aluminum Pizza",
+    "category": "household",
+    "price": 29.78,
+    "stock": 35,
+    "details": {
+      "brand": "Pacocha, Nienow and Thiel",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

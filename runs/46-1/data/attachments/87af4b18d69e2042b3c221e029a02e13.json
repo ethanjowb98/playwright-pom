@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3j4ey506 Generic Bamboo Bacon",
+    "category": "frozen",
+    "price": 30.07,
+    "stock": 50,
+    "details": {
+      "brand": "Olson Inc",
+      "origin": "Guam"
+    }
+  }
+}

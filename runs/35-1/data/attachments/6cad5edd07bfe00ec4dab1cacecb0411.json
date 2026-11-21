@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tmqh2d90 Elegant Bronze Hat",
+    "category": "bakery",
+    "price": 24.29,
+    "stock": 22,
+    "details": {
+      "brand": "Romaguera Inc",
+      "origin": "Portugal"
+    }
+  }
+}

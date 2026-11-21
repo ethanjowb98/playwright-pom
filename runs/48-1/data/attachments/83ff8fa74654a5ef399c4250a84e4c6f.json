@@ -1,0 +1,15 @@
+{
+  "id": "abbee382-a561-4600-8929-fadfa52b9ddf",
+  "product_name": "QA-1-8ipr0hyp Recycled Rubber Car",
+  "category": "snacks",
+  "price": 43.67,
+  "stock": 29,
+  "details": {
+    "brand": "Rutherford LLC",
+    "origin": "Israel"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:57:21.554507+00:00"
+}

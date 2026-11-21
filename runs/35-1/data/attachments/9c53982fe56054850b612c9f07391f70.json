@@ -1,0 +1,15 @@
+{
+  "id": "d05337c5-4db0-4313-81bf-e4c99f903a0e",
+  "product_name": "QA-1-2bk3x2i2 Handmade Aluminum Tuna",
+  "category": "frozen",
+  "price": 36.02,
+  "stock": 39,
+  "details": {
+    "brand": "Herzog and Sons",
+    "origin": "Germany"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:47.699732+00:00"
+}

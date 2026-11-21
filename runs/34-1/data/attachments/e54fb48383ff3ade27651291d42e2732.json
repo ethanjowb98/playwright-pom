@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-945a16oq sort Charlie",
+    "category": "beverages",
+    "price": 22.74,
+    "stock": 35,
+    "details": {
+      "brand": "Mueller, Spinka and Goyette",
+      "origin": "Kuwait"
+    }
+  }
+}

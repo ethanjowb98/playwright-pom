@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p9m64dec Incredible Granite Salad",
+    "category": "pantry",
+    "price": 44.08,
+    "stock": 24,
+    "details": {
+      "brand": "Farrell, Zboncak and Lockman",
+      "origin": "Uzbekistan"
+    }
+  }
+}

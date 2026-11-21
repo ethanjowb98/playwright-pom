@@ -1,0 +1,15 @@
+{
+  "id": "3f93aada-73a6-43e5-9e7e-85e8bb97940a",
+  "product_name": "QA-3-945a16oq sort Charlie",
+  "category": "beverages",
+  "price": 22.74,
+  "stock": 35,
+  "details": {
+    "brand": "Mueller, Spinka and Goyette",
+    "origin": "Kuwait"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:30.129476+00:00"
+}

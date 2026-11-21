@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-d65unpd3 Modern Cotton Soap",
+    "category": "dairy-eggs",
+    "price": 5.99,
+    "stock": 28,
+    "details": {
+      "brand": "Hahn, Wuckert and Prohaska",
+      "origin": "Saint Martin"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j61lxqdp Incredible Gold Towels",
+    "category": "frozen",
+    "price": 28.72,
+    "stock": 25,
+    "details": {
+      "brand": "Upton - Ankunding",
+      "origin": "Cameroon"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-zge20drz Modern Granite Hat",
+    "category": "bakery",
+    "price": 19.95,
+    "stock": 34,
+    "details": {
+      "brand": "Hahn - Hermiston",
+      "origin": "Malaysia"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

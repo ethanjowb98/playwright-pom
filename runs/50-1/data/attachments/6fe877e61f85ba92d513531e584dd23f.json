@@ -1,0 +1,15 @@
+{
+  "id": "879a0bbc-ac46-49e3-a82f-2d40917a29bb",
+  "product_name": "QA-1-4630oqa7 Sleek Cotton Keyboard",
+  "category": "bakery",
+  "price": 13.09,
+  "stock": 23,
+  "details": {
+    "brand": "Marks LLC",
+    "origin": "New Zealand"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:47:25.464962+00:00"
+}

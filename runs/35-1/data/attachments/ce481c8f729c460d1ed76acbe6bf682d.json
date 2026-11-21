@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "other",
+    "price": 28.51,
+    "stock": 20,
+    "details": {
+      "brand": "Skiles - Bartoletti",
+      "origin": "Solomon Islands"
+    }
+  }
+}

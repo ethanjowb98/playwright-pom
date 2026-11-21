@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-6fo2eobq Intelligent Steel Cheese",
+    "category": "fresh-produce",
+    "price": 9.11,
+    "stock": 1.5,
+    "details": {
+      "brand": "Anderson, Feest and Adams",
+      "origin": "Guam"
+    }
+  }
+}

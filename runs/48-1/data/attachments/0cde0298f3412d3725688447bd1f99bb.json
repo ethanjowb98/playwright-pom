@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-kc6uqzof Fantastic Concrete Towels",
+    "category": "dairy-eggs",
+    "price": 38.96,
+    "stock": 19,
+    "details": {
+      "brand": "Bosco Group",
+      "origin": "Afghanistan"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

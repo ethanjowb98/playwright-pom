@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ceyf76xl Gorgeous Bronze Gloves",
+    "category": "fresh-produce",
+    "price": 47.43,
+    "stock": 28,
+    "details": {
+      "brand": "Herman LLC",
+      "origin": "Maldives"
+    }
+  }
+}

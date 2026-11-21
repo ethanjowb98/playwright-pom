@@ -1,0 +1,15 @@
+{
+  "id": "de3d5cd9-d95f-4d1c-bd38-bcf7b3aa8347",
+  "product_name": "QA-3-pfsy162p sort Charlie",
+  "category": "beverages",
+  "price": 8.2,
+  "stock": 17,
+  "details": {
+    "brand": "Wisoky, Collins and Bergnaum-Crona",
+    "origin": "Netherlands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:49.554413+00:00"
+}

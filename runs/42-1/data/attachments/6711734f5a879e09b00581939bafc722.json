@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-v5p8rvxo Intelligent Steel Tuna",
+    "category": "bakery",
+    "price": 34.19,
+    "stock": 24,
+    "details": {
+      "brand": "Brekke Group",
+      "origin": "South Georgia and the South Sandwich Islands"
+    }
+  }
+}

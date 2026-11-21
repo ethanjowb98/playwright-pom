@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x4e0xgpz Gorgeous Steel Cheese",
+    "category": "dairy-eggs",
+    "price": 22.37,
+    "stock": 25,
+    "details": {
+      "brand": "Bauch Inc",
+      "origin": "Afghanistan"
+    }
+  }
+}

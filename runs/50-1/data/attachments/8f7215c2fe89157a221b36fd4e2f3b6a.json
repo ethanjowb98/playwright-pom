@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-ix8vfn14 sort Bravo",
+    "category": "snacks",
+    "price": 25.87,
+    "stock": 34,
+    "details": {
+      "brand": "Rath Inc",
+      "origin": "Solomon Islands"
+    }
+  }
+}

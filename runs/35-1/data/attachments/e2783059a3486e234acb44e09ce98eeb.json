@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-plfhiq2b Bespoke Bronze Chicken",
+    "category": "bakery",
+    "price": 8.8,
+    "stock": 13,
+    "details": {
+      "brand": "Lemke Inc",
+      "origin": "Lebanon"
+    }
+  }
+}

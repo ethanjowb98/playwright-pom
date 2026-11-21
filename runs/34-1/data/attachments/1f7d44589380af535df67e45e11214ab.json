@@ -1,0 +1,15 @@
+{
+  "id": "45fa3797-673f-4bc6-ad0a-3c4d5b33b65f",
+  "product_name": "QA-6-7z3drh0y sort Charlie",
+  "category": "meat-seafood",
+  "price": 37.78,
+  "stock": 49,
+  "details": {
+    "brand": "Fadel - Lebsack",
+    "origin": "Romania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:19:05.049343+00:00"
+}

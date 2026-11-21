@@ -1,0 +1,15 @@
+{
+  "id": "9f7e034c-1eac-49f5-bd04-c4f6f0f0f62e",
+  "product_name": "QA-1-84m83dno Frozen Steel Mouse",
+  "category": "dairy-eggs",
+  "price": 46.56,
+  "stock": 20,
+  "details": {
+    "brand": "Witting - Marquardt",
+    "origin": "Fiji"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:23:47.635451+00:00"
+}

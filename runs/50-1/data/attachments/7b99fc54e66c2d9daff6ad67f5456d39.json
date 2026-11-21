@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-oxhrz5e9 Practical Plastic Soap",
+    "category": "other",
+    "price": 27.95,
+    "stock": 46,
+    "details": {
+      "brand": "Stanton, Barton and Lowe",
+      "origin": "Bahamas"
+    }
+  }
+}

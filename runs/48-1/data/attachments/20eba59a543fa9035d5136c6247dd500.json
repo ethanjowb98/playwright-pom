@@ -1,0 +1,15 @@
+{
+  "id": "3c18151a-6b92-4b09-a7a3-856a25ee965d",
+  "product_name": "QA-2-o4k4w907 sort Bravo",
+  "category": "frozen",
+  "price": 1.99,
+  "stock": 38,
+  "details": {
+    "brand": "Doyle, Daniel and Lubowitz",
+    "origin": "Faroe Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:07.928092+00:00"
+}

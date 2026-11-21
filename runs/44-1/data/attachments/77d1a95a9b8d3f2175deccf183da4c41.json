@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-h08li7g7 sort Bravo",
+    "category": "frozen",
+    "price": 21.4,
+    "stock": 47,
+    "details": {
+      "brand": "Cormier, Braun and Bergnaum",
+      "origin": "South Sudan"
+    }
+  }
+}

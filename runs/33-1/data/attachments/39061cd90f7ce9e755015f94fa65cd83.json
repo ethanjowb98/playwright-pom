@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-w5ywv0i8 sort Charlie",
+    "category": "bakery",
+    "price": 33.05,
+    "stock": 38,
+    "details": {
+      "brand": "Stokes and Sons",
+      "origin": "Senegal"
+    }
+  }
+}

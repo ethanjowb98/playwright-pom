@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u5gd91ra Ergonomic Granite Bacon",
+    "category": "beverages",
+    "price": 31.5,
+    "stock": 45,
+    "details": {
+      "brand": "Beatty, Cummerata and Bednar",
+      "origin": "Canada"
+    }
+  }
+}

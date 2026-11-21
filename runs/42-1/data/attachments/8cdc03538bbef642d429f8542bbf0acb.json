@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-g8x9lh2e Generic Gold Shirt",
+    "category": "fresh-produce",
+    "price": 40.11,
+    "stock": 44,
+    "details": {
+      "brand": "Johnson LLC",
+      "origin": "Spain"
+    }
+  }
+}

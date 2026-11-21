@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0fiwf8q2 Soft Marble Sausages",
+    "category": "bakery",
+    "price": 42.36,
+    "stock": 2,
+    "details": {
+      "brand": "Nader Group",
+      "origin": "Gabon"
+    }
+  }
+}

@@ -1,0 +1,3 @@
+{
+  "error": "new row for relation \"products\" violates check constraint \"products_stock_check\""
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-co4g2f24 Recycled Wooden Shoes",
+    "category": "dairy-eggs",
+    "price": 43.67,
+    "stock": 42,
+    "details": {
+      "brand": "Funk - Rodriguez-Blanda",
+      "origin": "Virgin Islands, British"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h6ri2pkf Frozen Wooden Bacon",
+    "category": "dairy-eggs",
+    "price": 48.64,
+    "stock": 35,
+    "details": {
+      "brand": "Collier Inc",
+      "origin": "Sint Maarten"
+    }
+  }
+}

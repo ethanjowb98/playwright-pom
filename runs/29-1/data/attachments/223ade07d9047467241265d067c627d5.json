@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9ca2grtz Sleek Plastic Shoes",
+    "category": "beverages",
+    "price": 18.31,
+    "stock": 16,
+    "details": {
+      "brand": "Rogahn, Jacobi and Blanda",
+      "origin": "Madagascar"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

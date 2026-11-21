@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tlm6s6q7 Gorgeous Bamboo Chips",
+    "category": "dairy-eggs",
+    "price": 1.14,
+    "stock": 18,
+    "details": {
+      "brand": "Deckow, Walker and Windler",
+      "origin": "Saudi Arabia"
+    }
+  }
+}

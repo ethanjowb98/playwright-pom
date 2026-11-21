@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "beverages",
+    "price": 48.83,
+    "stock": 50,
+    "details": {
+      "brand": "Ebert and Sons",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

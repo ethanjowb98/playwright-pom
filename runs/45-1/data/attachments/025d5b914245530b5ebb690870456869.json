@@ -1,0 +1,15 @@
+{
+  "id": "9ab7c987-eb63-4dc6-a72f-6e6184be483b",
+  "product_name": "QA-1-79ujr4bn Tasty Gold Soap",
+  "category": "frozen",
+  "price": 2.97,
+  "stock": 29,
+  "details": {
+    "brand": "Romaguera - Bechtelar",
+    "origin": "Belgium"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:10:28.824959+00:00"
+}

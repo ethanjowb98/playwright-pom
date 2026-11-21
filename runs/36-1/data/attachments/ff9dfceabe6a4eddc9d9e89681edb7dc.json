@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-0m0nym5a Recycled Wooden Cheese",
+    "category": "other",
+    "price": 26.48,
+    "stock": 45,
+    "details": {
+      "brand": "Hauck - Walsh",
+      "origin": "Trinidad and Tobago"
+    },
+    "weighted": true
+  }
+}

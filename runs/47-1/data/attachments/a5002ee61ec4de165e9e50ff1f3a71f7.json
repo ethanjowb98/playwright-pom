@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5qocf9co Handmade Rubber Chips",
+    "category": "snacks",
+    "price": 28.98,
+    "stock": 15,
+    "details": {
+      "brand": "Rau - Mohr",
+      "origin": "Togo"
+    }
+  }
+}

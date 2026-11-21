@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xcb5ggc9 Gorgeous Granite Hat",
+    "category": "bakery",
+    "price": 25.23,
+    "stock": 20,
+    "details": {
+      "brand": "Padberg and Sons",
+      "origin": "Seychelles"
+    }
+  }
+}

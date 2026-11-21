@@ -1,0 +1,15 @@
+{
+  "id": "cae54b59-bdc8-41a7-bd2d-fded70dee149",
+  "product_name": "QA-1-gzt5qzrx Electronic Gold Salad",
+  "category": "bakery",
+  "price": 26.47,
+  "stock": 26,
+  "details": {
+    "brand": "Rosenbaum LLC",
+    "origin": "Haiti"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:51.512788+00:00"
+}

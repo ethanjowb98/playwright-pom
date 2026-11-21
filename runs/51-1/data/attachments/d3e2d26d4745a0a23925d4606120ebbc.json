@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-opp87hib Generic Cotton Gloves",
+    "category": "fresh-produce",
+    "price": 36.76,
+    "stock": 50,
+    "details": {
+      "brand": "Herman - Ryan",
+      "origin": "Lithuania"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

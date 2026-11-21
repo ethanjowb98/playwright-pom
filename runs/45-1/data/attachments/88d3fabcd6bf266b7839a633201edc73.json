@@ -1,0 +1,15 @@
+{
+  "id": "a4985500-643e-4f11-a4ec-cefd75cfc6d7",
+  "product_name": "QA-8-53movfr5 Bespoke Marble Shoes",
+  "category": "bakery",
+  "price": 40.23,
+  "stock": 44,
+  "details": {
+    "brand": "King, Tillman and Brown",
+    "origin": "Ghana"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:01.432844+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "431eaaf1-9169-41f8-9575-e8dc090fffc9",
+  "product_name": "QA-2-hg468d77 Awesome Concrete Pizza",
+  "category": "bakery",
+  "price": 18.1,
+  "stock": 11,
+  "details": {
+    "brand": "Roob - Romaguera",
+    "origin": "Lesotho"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:52.071986+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hfmreci6 Electronic Gold Ball",
+    "category": "fresh-produce",
+    "price": 49.22,
+    "stock": 22,
+    "details": {
+      "brand": "Bogisich, Block and Schmeler",
+      "origin": "Indonesia"
+    }
+  }
+}

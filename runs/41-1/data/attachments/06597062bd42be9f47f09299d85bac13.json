@@ -1,0 +1,15 @@
+{
+  "id": "7634bcfd-475f-440c-a941-5a051be459e4",
+  "product_name": "QA-1-l7vygz5e Luxurious Marble Table",
+  "category": "bakery",
+  "price": 45.1,
+  "stock": 48,
+  "details": {
+    "brand": "Davis and Sons",
+    "origin": "Congo"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:03:29.921984+00:00"
+}

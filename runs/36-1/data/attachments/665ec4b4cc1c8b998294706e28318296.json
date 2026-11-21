@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "a14778ed-5561-48c1-822c-0f742b0c1bc6",
+    "order_number": "O98006",
+    "status": "pending",
+    "total_amount": 116.25,
+    "created_at": "2026-11-06T10:10:34.969999+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-yfpf9auz Recycled Silk Pants",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 38.75,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

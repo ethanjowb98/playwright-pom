@@ -1,0 +1,1 @@
+{"id":"a16412543a7a0df5d79d728722f40c73.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › should return 401 when the basket is read with a missing api key","name":"should return 401 when the basket is read with a missing api key","status":"passed","testResultsByEnv":{"default":"56a3c9e42c3d6c6c6138b6b520cfa58d"}}

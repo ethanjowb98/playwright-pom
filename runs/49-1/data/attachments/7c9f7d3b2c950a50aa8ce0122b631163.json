@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-2yfmvrdu Incredible Granite Sausages",
+    "category": "snacks",
+    "price": 39.89,
+    "stock": 41,
+    "details": {
+      "brand": "O'Reilly-Kozey, Erdman and Thompson",
+      "origin": "Tonga"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

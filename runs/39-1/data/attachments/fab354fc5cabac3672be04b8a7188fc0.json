@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "769eec17-9d75-4ab1-94cb-6d2ae8462736",
+      "product_id": "41760263-4a49-45d9-8624-0a1940ca6ec7",
+      "product_name": "QA-1-oo63zlbd Unbranded Steel Pizza",
+      "price": 29.9,
+      "category": "meat-seafood",
+      "quantity": 3,
+      "created_at": "2026-11-09T10:38:39.615863+00:00",
+      "updated_at": "2026-11-09T10:38:39.615863+00:00"
+    },
+    {
+      "id": "ef835d64-6d07-4eb3-99f9-8c467fc349bf",
+      "product_id": "e30f8a30-58a4-4839-a60a-b1afabc316b0",
+      "product_name": "QA-1-wdvugmua Fantastic Bamboo Ball",
+      "price": 44.12,
+      "category": "bakery",
+      "quantity": 3,
+      "created_at": "2026-11-09T10:38:40.360631+00:00",
+      "updated_at": "2026-11-09T10:38:40.360631+00:00"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "5e244802-920d-4126-a7b4-e19c1f8f3efb",
+  "product_name": "QA-5-6ndypu0u Generic Aluminum Chicken",
+  "category": "household",
+  "price": 49.81,
+  "stock": 36,
+  "details": {
+    "brand": "Crist, Mraz and Jacobson",
+    "origin": "Cyprus"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:48.041838+00:00"
+}

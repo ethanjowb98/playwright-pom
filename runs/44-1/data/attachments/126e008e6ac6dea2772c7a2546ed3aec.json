@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-atm4dgyx Soft Cotton Gloves",
+    "category": "other",
+    "price": 20.01,
+    "stock": 18,
+    "details": {
+      "brand": "Quitzon and Sons",
+      "origin": "Cook Islands"
+    }
+  }
+}

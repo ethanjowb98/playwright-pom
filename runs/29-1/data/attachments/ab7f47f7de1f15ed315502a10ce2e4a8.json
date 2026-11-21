@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b42yh35u Unbranded Rubber Table",
+    "category": "frozen",
+    "price": 17.61,
+    "stock": 31,
+    "details": {
+      "brand": "Sanford and Sons",
+      "origin": "Nigeria"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

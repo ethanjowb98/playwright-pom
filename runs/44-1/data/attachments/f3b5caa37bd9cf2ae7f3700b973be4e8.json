@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pnadnlaf Frozen Plastic Towels",
+    "category": "frozen",
+    "price": 21.58,
+    "stock": 45,
+    "details": {
+      "brand": "Mills, Quitzon-Cole and Emmerich",
+      "origin": "Martinique"
+    }
+  }
+}

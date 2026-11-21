@@ -1,0 +1,19 @@
+{
+  "id": "6331b9a4-5d77-49d4-a2c0-81f12efd7be1",
+  "order_number": "O63194",
+  "status": "shipped",
+  "total_amount": 49.7,
+  "notes": null,
+  "created_at": "2026-11-19T10:56:52.063576+00:00",
+  "updated_at": "2026-11-19T10:56:52.063576+00:00",
+  "items": [
+    {
+      "product_id": "57375592-c083-4640-937f-090e878ac397",
+      "product_name": "QA-2-q5xg0sup Unbranded Silk Chicken",
+      "category": "household",
+      "quantity": 1,
+      "price": 49.7,
+      "temperature_zone": null
+    }
+  ]
+}

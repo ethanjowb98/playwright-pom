@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-d9jn19sf Ergonomic Bamboo Fish",
+    "category": "beverages",
+    "price": 47.34,
+    "stock": 20,
+    "details": {
+      "brand": "Auer and Sons",
+      "origin": "Honduras"
+    }
+  }
+}

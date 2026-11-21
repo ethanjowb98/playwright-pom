@@ -1,0 +1,15 @@
+{
+  "id": "5f6e1706-e817-4d9d-80ac-a9f03cfe7e61",
+  "product_name": "QA-1-cjk0fcm2 Awesome Metal Soap",
+  "category": "snacks",
+  "price": 31.82,
+  "stock": 30,
+  "details": {
+    "brand": "Renner - Doyle",
+    "origin": "Afghanistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:38.978258+00:00"
+}

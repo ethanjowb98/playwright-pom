@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-159p9xmq Gorgeous Marble Salad",
+    "category": "other",
+    "price": 21.73,
+    "stock": 43,
+    "details": {
+      "brand": "Lynch-O'Conner, Dach and Heathcote",
+      "origin": "Jamaica"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-aka0w35m Licensed Granite Keyboard",
+    "category": "meat-seafood",
+    "price": 1.81,
+    "stock": 42,
+    "details": {
+      "brand": "Bogan - Durgan",
+      "origin": "China"
+    }
+  }
+}

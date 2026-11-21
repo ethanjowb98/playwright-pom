@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "7fb3d08d-e9f8-47de-855d-83cf6fa5b1cc",
+    "order_number": "O22756",
+    "status": "pending",
+    "total_amount": 8.92,
+    "created_at": "2026-11-18T10:56:23.091781+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-929fw431 Refined Metal Gloves",
+        "category": "other",
+        "quantity": 1,
+        "price": 8.92,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-hxmc60ey Generic Silk Gloves",
+    "category": "fresh-produce",
+    "price": 22.64,
+    "stock": 19,
+    "details": {
+      "brand": "Kuhlman - Monahan",
+      "origin": "Estonia"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

@@ -1,0 +1,82 @@
+[
+  {
+    "id": "f8fadac0-631c-4e52-bb3b-2b7780c64101",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Earl Grey Loose Leaf Tea",
+    "category": "beverages",
+    "price": 3.5,
+    "details": {
+      "origin": "India",
+      "caffeinated": true,
+      "ingredients": [
+        "Black Tea",
+        "Bergamot Oil"
+      ]
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "c9a8b632-dd0c-4522-a4cd-549ba80a65b7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-tjr0nu3o Soft Plastic Ball",
+    "category": "snacks",
+    "price": 18.63,
+    "details": {
+      "brand": "Wyman - Schumm",
+      "origin": "Suriname"
+    },
+    "created_at": "2026-11-15T10:08:33.2286+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 26
+  },
+  {
+    "id": "4fe6d5e0-3d62-4688-be07-48fff9e548c2",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-2-f8j4b5oc Modern Gold Chips",
+    "category": "pantry",
+    "price": 22.7,
+    "details": {
+      "brand": "Grant, Yost and MacGyver",
+      "origin": "Myanmar"
+    },
+    "created_at": "2026-11-15T10:08:33.055998+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 30
+  },
+  {
+    "id": "1dd85c75-2b4b-4e24-910a-6dee69f2fa2a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Red Onions",
+    "category": "fresh-produce",
+    "price": 1.2,
+    "details": {
+      "local": true,
+      "flavor_profile": "Sharp"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "08b5239e-9c3e-4683-94dd-afdd738cf77a",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Russet Potatoes (5lb)",
+    "category": "fresh-produce",
+    "price": 5.5,
+    "details": {
+      "type": "Starchy",
+      "origin": "Idaho",
+      "bag_size": "5lb"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Dry",
+    "weighted": false,
+    "stock": 10
+  }
+]

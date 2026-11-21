@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4t5mjv2s Unbranded Gold Table",
+    "category": "pantry",
+    "price": 17.41,
+    "stock": 33,
+    "details": {
+      "brand": "Grady, Hoeger and Davis",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

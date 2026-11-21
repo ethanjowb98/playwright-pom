@@ -1,0 +1,15 @@
+{
+  "id": "a84d84c6-75ca-4569-8b44-fcbdd0bc685e",
+  "product_name": "QA-5-59r7qj01 Handmade Granite Salad",
+  "category": "other",
+  "price": 30.03,
+  "stock": 25,
+  "details": {
+    "brand": "Goldner Group",
+    "origin": "Italy"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:55.368549+00:00"
+}

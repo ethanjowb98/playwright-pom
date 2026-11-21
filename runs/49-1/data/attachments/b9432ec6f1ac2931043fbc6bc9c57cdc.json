@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-pbwm48o3 Refined Silk Shoes",
+    "category": "pantry",
+    "price": 35.86,
+    "stock": 33,
+    "details": {
+      "brand": "Littel and Sons",
+      "origin": "Sint Maarten"
+    }
+  }
+}

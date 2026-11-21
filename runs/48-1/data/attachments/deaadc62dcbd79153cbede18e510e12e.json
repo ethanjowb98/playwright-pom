@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k4hgb4b2 Small Bronze Mouse",
+    "category": "household",
+    "price": 27.67,
+    "stock": 17,
+    "details": {
+      "brand": "Bernier LLC",
+      "origin": "Pakistan"
+    }
+  }
+}

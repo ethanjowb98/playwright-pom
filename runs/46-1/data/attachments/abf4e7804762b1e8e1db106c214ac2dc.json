@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-c0beo41o Frozen Aluminum Bacon",
+    "category": "fresh-produce",
+    "price": "abc",
+    "stock": 47,
+    "details": {
+      "brand": "Kunde - Torp-Reichel",
+      "origin": "Saint Martin"
+    }
+  }
+}

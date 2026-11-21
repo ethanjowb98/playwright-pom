@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-czlw9ans Modern Metal Tuna",
+    "category": "beverages",
+    "price": 42.56,
+    "stock": 17,
+    "details": {
+      "brand": "McLaughlin - Corwin",
+      "origin": "Slovenia"
+    },
+    "weighted": true
+  }
+}

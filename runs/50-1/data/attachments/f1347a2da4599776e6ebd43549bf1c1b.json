@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "08ff441c-9fd8-43bf-a677-1233f7022cc6",
+    "order_number": "O97608",
+    "status": "pending",
+    "total_amount": 42.57,
+    "created_at": "2026-11-20T10:48:19.63286+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-r3z8yg6a Incredible Marble Gloves",
+        "category": "other",
+        "quantity": 1,
+        "price": 19.94,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-g2fklgsw Incredible Concrete Car",
+        "category": "bakery",
+        "quantity": 1,
+        "price": 22.63,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

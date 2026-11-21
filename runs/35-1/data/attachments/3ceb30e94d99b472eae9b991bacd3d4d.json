@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-35tarsh4 Modern Ceramic Pizza",
+    "category": "dairy-eggs",
+    "price": 22.4,
+    "stock": 11,
+    "details": {
+      "brand": "Davis Group",
+      "origin": "Angola"
+    }
+  }
+}

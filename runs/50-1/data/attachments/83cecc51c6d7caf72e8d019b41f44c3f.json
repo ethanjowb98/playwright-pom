@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-aukpaoql sort Alpha",
+    "category": "bakery",
+    "price": 21.13,
+    "stock": 22,
+    "details": {
+      "brand": "Emmerich Inc",
+      "origin": "Somalia"
+    }
+  }
+}

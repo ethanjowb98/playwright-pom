@@ -1,0 +1,1 @@
+{"id":"12132f3a402ea6dfc55ba6fa21a954bd.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/orders.api.spec.ts › Orders API › Read › should return the order with its items when it is fetched by id","name":"should return the order with its items when it is fetched by id","status":"passed","testResultsByEnv":{"default":"f4d5ecd1c9cef6692329a4a6da137fba"}}

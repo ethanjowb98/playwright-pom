@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "04acacd9-7ecb-49f2-9c28-c8b2ecdf072a",
+    "order_number": "O61572",
+    "status": "pending",
+    "total_amount": 82.08,
+    "created_at": "2026-11-12T10:30:56.462561+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-y30e0nuo Incredible Cotton Soap",
+        "category": "pantry",
+        "quantity": 3,
+        "price": 27.36,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

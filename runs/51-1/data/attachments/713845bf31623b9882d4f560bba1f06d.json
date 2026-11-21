@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-oehtwqgd Fresh Aluminum Computer",
+    "category": "frozen",
+    "price": 8.87,
+    "stock": 22,
+    "details": {
+      "brand": "Abernathy - Quigley",
+      "origin": "North Macedonia"
+    }
+  }
+}

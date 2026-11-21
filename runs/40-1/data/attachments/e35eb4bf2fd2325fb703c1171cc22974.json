@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yn7tvlhb Handmade Marble Car",
+    "category": "meat-seafood",
+    "price": 7.61,
+    "stock": 13,
+    "details": {
+      "brand": "Hermann - McCullough",
+      "origin": "Åland Islands"
+    }
+  }
+}

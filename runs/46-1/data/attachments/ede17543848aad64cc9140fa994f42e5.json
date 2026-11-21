@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m9rw6np0 Generic Cotton Pants",
+    "category": "beverages",
+    "price": 13.49,
+    "stock": 50,
+    "details": {
+      "brand": "Dietrich - Deckow",
+      "origin": "France"
+    }
+  }
+}

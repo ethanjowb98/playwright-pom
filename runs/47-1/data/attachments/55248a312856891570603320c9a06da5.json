@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7o0sryx2 Modern Cotton Chicken",
+    "category": "fresh-produce",
+    "price": 41.65,
+    "stock": 40,
+    "details": {
+      "brand": "Auer, Ernser and Crist-Doyle",
+      "origin": "Tonga"
+    }
+  }
+}

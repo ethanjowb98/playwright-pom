@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g8f4xzoz Gorgeous Granite Sausages",
+    "category": "dairy-eggs",
+    "price": "abc",
+    "stock": 42,
+    "details": {
+      "brand": "Block LLC",
+      "origin": "Iceland"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "561a64d4-82f7-4aa4-8f21-06f1ee9a7f75",
+  "product_name": "QA-3-h7cq3sdn Handmade Granite Bike",
+  "category": "fresh-produce",
+  "price": 40.2,
+  "stock": 49,
+  "details": {
+    "brand": "Bergstrom - Franey",
+    "origin": "Ethiopia"
+  },
+  "temperature_zone": "Dry",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:22:15.334846+00:00"
+}

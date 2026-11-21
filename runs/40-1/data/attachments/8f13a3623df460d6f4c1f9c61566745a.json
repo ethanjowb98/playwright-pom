@@ -1,0 +1,15 @@
+{
+  "id": "b0c16635-9c60-4a23-bd10-ba7016c0457f",
+  "product_name": "QA-7-1qyjnp1s sort Alpha",
+  "category": "bakery",
+  "price": 30.25,
+  "stock": 36,
+  "details": {
+    "brand": "Roberts LLC",
+    "origin": "Indonesia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:58.66035+00:00"
+}

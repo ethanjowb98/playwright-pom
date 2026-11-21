@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5p0lquup Small Gold Soap",
+    "category": "pantry",
+    "price": 7.04,
+    "stock": 45,
+    "details": {
+      "brand": "Wilderman Group",
+      "origin": "Morocco"
+    }
+  }
+}

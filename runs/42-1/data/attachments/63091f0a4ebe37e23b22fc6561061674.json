@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-nofidn34 Small Ceramic Hat",
+    "category": "household",
+    "price": 6.53,
+    "stock": 19,
+    "details": {
+      "brand": "Heller - Hodkiewicz",
+      "origin": "Syrian Arab Republic"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qwdo8lzd Handmade Concrete Table",
+    "category": "beverages",
+    "price": 4.37,
+    "stock": 35,
+    "details": {
+      "brand": "Dooley Inc",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

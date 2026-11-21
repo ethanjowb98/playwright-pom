@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-0szxt0dm Awesome Bronze Soap",
+    "price": 24.02,
+    "stock": 13,
+    "details": {
+      "brand": "Jacobson - Kling",
+      "origin": "Åland Islands"
+    }
+  }
+}

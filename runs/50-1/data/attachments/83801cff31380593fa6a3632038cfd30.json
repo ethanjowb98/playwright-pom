@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5zd0okr2 Frozen Marble Chips",
+    "category": "frozen",
+    "price": 43.06,
+    "stock": 45,
+    "details": {
+      "brand": "Koelpin, Schimmel and Ritchie",
+      "origin": "South Georgia and the South Sandwich Islands"
+    }
+  }
+}

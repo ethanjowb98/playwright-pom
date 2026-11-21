@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-pdy13w9n Generic Cotton Pants",
+    "category": "household",
+    "price": 34.53,
+    "stock": 17,
+    "details": {
+      "brand": "Weissnat and Sons",
+      "origin": "Switzerland"
+    }
+  }
+}

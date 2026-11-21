@@ -1,0 +1,1 @@
+{"id":"f2f507a82146fa6026806f099234cbfe.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › should return 401 when orders are listed with a invalid api key","name":"should return 401 when orders are listed with a invalid api key","status":"passed","testResultsByEnv":{"default":"94f0d480534b64ff8600cd3da3e1009e"}}

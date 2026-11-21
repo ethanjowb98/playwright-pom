@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-vn9dooad Intelligent Aluminum Shoes",
+    "category": "meat-seafood",
+    "price": 9.37,
+    "stock": 36,
+    "details": {
+      "brand": "McLaughlin and Sons",
+      "origin": "Samoa"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "deb7df41-3aee-492d-8fe3-d4e955bbb879",
+  "product_name": "QA-5-yl6p7e7q Generic Bamboo Bacon",
+  "category": "pantry",
+  "price": 3.28,
+  "stock": 17,
+  "details": {
+    "brand": "Baumbach - Kunze",
+    "origin": "Democratic Republic of the Congo"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:12.805083+00:00"
+}

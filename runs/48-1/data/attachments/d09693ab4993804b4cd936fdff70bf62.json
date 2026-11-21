@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "30e41298-56f1-4869-b744-2c53e28d2b94",
+    "order_number": "O86744",
+    "status": "pending",
+    "total_amount": 40.44,
+    "created_at": "2026-11-18T10:58:22.682223+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-1kdlggy6 Fantastic Granite Table",
+        "category": "pantry",
+        "quantity": 2,
+        "price": 14.32,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-v4ebpnoz Refined Gold Computer",
+        "category": "snacks",
+        "quantity": 2,
+        "price": 5.9,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "418f51a3-6430-4d5d-9b55-815765695a7d",
+  "product_name": "QA-1-0igihx2l Small Wooden Car",
+  "category": "snacks",
+  "price": 46.58,
+  "stock": 25,
+  "details": {
+    "brand": "Littel and Sons",
+    "origin": "El Salvador"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:10.610344+00:00"
+}

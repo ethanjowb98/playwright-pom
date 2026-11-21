@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3yhh6ivs Tasty Aluminum Gloves",
+    "category": "bakery",
+    "price": 12.66,
+    "stock": 20,
+    "details": {
+      "brand": "Metz Group",
+      "origin": "Kyrgyz Republic"
+    }
+  }
+}

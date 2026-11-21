@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u5s7orvt Tasty Gold Pizza",
+    "category": "meat-seafood",
+    "price": 9.62,
+    "stock": 35,
+    "details": {
+      "brand": "Bartell Inc",
+      "origin": "Bermuda"
+    }
+  }
+}

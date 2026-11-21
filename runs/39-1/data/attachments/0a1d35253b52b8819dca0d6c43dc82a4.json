@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "147ddbe6-2462-4883-89bd-138b08afce6a",
+    "order_number": "O27230",
+    "status": "pending",
+    "total_amount": 51.42,
+    "created_at": "2026-11-09T10:37:16.26325+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-700h3eyo Gorgeous Bronze Sausages",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 17.14,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

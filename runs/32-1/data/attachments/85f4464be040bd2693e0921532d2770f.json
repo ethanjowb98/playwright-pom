@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zn7aiytq Elegant Silk Computer",
+    "category": "meat-seafood",
+    "price": 19.78,
+    "stock": 42,
+    "details": {
+      "brand": "Kuhlman - Reinger",
+      "origin": "Venezuela"
+    }
+  }
+}

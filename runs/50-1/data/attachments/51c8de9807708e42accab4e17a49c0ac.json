@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-utuoq3mh Practical Metal Chips",
+    "category": "meat-seafood",
+    "price": 45.22,
+    "stock": 15,
+    "details": {
+      "brand": "Jaskolski and Sons",
+      "origin": "Russian Federation"
+    }
+  }
+}

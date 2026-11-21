@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sr20mvxp Small Steel Car",
+    "category": "bakery",
+    "price": 23.12,
+    "stock": 25,
+    "details": {
+      "brand": "Bogan, Hagenes and Wisozk",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

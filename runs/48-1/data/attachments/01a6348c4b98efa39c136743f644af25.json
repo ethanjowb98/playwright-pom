@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3h7d634q Frozen Ceramic Salad",
+    "category": "beverages",
+    "price": 45.06,
+    "stock": 24,
+    "details": {
+      "brand": "Adams, Yundt and Reinger",
+      "origin": "Senegal"
+    }
+  }
+}

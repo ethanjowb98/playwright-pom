@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qaqgd0dp Gorgeous Gold Towels",
+    "category": "bakery",
+    "price": 12.67,
+    "stock": 30,
+    "details": {
+      "brand": "Ledner, Hamill and Emard",
+      "origin": "Saint Barthélemy"
+    }
+  }
+}

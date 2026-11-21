@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ypksodv0 Sleek Bronze Bacon",
+    "category": "bakery",
+    "price": 24.69,
+    "stock": 47,
+    "details": {
+      "brand": "Swaniawski, Konopelski and Paucek",
+      "origin": "Eritrea"
+    }
+  }
+}

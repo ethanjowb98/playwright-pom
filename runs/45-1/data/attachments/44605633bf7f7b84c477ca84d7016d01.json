@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ukl08we7 Tasty Bronze Sausages",
+    "category": "frozen",
+    "price": 1.45,
+    "stock": 17,
+    "details": {
+      "brand": "Lindgren and Sons",
+      "origin": "Hungary"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

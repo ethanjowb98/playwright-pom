@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5pzds5ut Fantastic Plastic Salad",
+    "category": "pantry",
+    "price": 49.85,
+    "stock": 19,
+    "details": {
+      "brand": "Gislason LLC",
+      "origin": "Bouvet Island"
+    }
+  }
+}

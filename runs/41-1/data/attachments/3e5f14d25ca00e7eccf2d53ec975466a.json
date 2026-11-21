@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uqfns3af Electronic Cotton Chips",
+    "category": "frozen",
+    "price": 14.68,
+    "stock": 11,
+    "details": {
+      "brand": "Harvey LLC",
+      "origin": "Pakistan"
+    }
+  }
+}

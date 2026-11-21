@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-paeictxv Intelligent Metal Car",
+    "category": "snacks",
+    "price": 16.17,
+    "stock": 23,
+    "details": {
+      "brand": "Monahan - Schamberger",
+      "origin": "Italy"
+    }
+  }
+}

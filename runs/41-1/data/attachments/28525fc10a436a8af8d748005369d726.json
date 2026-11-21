@@ -1,0 +1,19 @@
+{
+  "id": "e924435c-3c2b-456e-aebf-1fb89af420d7",
+  "order_number": "O50017",
+  "status": "delivered",
+  "total_amount": 113.28,
+  "notes": null,
+  "created_at": "2026-11-11T10:02:05.551265+00:00",
+  "updated_at": "2026-11-11T10:02:05.551265+00:00",
+  "items": [
+    {
+      "product_id": "d8f957e1-73b7-4c81-b5cc-d30690a1a6d6",
+      "product_name": "QA-1-76yfcjh4 Fantastic Rubber Bacon",
+      "category": "frozen",
+      "quantity": 3,
+      "price": 37.76,
+      "temperature_zone": null
+    }
+  ]
+}

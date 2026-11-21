@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-bzkhx349 Generic Rubber Car",
+    "category": "household",
+    "price": 15.31,
+    "stock": 43,
+    "details": {
+      "brand": "Hyatt, Braun and Gislason",
+      "origin": "Norway"
+    }
+  }
+}

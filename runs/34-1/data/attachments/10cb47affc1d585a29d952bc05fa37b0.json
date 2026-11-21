@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wliuozto Ergonomic Granite Chips",
+    "category": "frozen",
+    "price": 47.42,
+    "stock": 25,
+    "details": {
+      "brand": "Lueilwitz - Klein",
+      "origin": "Sint Maarten"
+    }
+  }
+}

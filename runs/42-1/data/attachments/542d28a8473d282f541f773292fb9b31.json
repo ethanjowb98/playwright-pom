@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sk21gk4x Intelligent Cotton Shoes",
+    "category": "other",
+    "price": 19.38,
+    "stock": 39,
+    "details": {
+      "brand": "Dietrich-Larson - Cruickshank",
+      "origin": "French Polynesia"
+    }
+  }
+}

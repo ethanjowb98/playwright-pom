@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-2eplkz0c Awesome Concrete Gloves",
+    "category": "snacks",
+    "price": 13.92,
+    "stock": 15,
+    "details": {
+      "brand": "Mraz LLC",
+      "origin": "Eswatini"
+    }
+  }
+}

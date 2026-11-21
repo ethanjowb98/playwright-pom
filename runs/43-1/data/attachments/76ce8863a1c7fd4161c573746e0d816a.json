@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3uimvgxq Fresh Steel Soap",
+    "category": "pantry",
+    "price": 25.67,
+    "stock": 46,
+    "details": {
+      "brand": "Farrell-Considine Inc",
+      "origin": "Romania"
+    }
+  }
+}

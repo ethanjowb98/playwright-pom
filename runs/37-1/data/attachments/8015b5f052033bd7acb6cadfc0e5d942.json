@@ -1,0 +1,15 @@
+{
+  "id": "f2fa3a2e-2e89-45c5-a9b1-74d46e1fb61b",
+  "product_name": "QA-2-5ask9amb Fresh Granite Bacon",
+  "category": "frozen",
+  "price": 46.27,
+  "stock": 29,
+  "details": {
+    "brand": "Gibson LLC",
+    "origin": "Argentina"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:06.130509+00:00"
+}

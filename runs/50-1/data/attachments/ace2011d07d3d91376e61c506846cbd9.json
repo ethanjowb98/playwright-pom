@@ -1,0 +1,15 @@
+{
+  "id": "c8188910-8aba-41ca-aedc-dbb81362f3cd",
+  "product_name": "QA-1-fokf2xud sort Bravo",
+  "category": "beverages",
+  "price": 40.79,
+  "stock": 14,
+  "details": {
+    "brand": "Bechtelar and Sons",
+    "origin": "India"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:06.580735+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s90t4pzl Practical Concrete Tuna",
+    "category": "household",
+    "price": 48.24,
+    "stock": 42,
+    "details": {
+      "brand": "Beahan, Mills and Predovic",
+      "origin": "Mauritius"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "e7051e22-bf4e-4f94-b01d-b75d6daba591",
+  "product_name": "QA-4-6ghmrmi6 Frozen Plastic Chicken",
+  "category": "dairy-eggs",
+  "price": 24.23,
+  "stock": 47,
+  "details": {
+    "brand": "Schulist-Mraz Inc",
+    "origin": "Mozambique"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:49.441543+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-600v839u Generic Marble Chair",
+    "category": "other",
+    "price": 17.95,
+    "stock": 39,
+    "details": {
+      "brand": "Wuckert-Fisher Group",
+      "origin": "Åland Islands"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zpfayv6e Rustic Steel Pants",
+    "category": "household",
+    "price": 12.09,
+    "stock": 2,
+    "details": {
+      "brand": "Smith-Jacobson - Stehr",
+      "origin": "Tajikistan"
+    }
+  }
+}

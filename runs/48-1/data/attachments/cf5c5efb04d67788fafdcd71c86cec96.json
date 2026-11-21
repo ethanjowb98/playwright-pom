@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-bqgh7xzf Luxurious Granite Towels",
+    "category": "snacks",
+    "price": 40.54,
+    "stock": 29,
+    "details": {
+      "brand": "Carroll - O'Hara",
+      "origin": "Tonga"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

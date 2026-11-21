@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-rss3bebk Refined Silk Chicken",
+    "category": "household",
+    "price": 37.08,
+    "stock": 33,
+    "details": {
+      "brand": "Mueller - Streich",
+      "origin": "Norfolk Island"
+    },
+    "weighted": true
+  }
+}

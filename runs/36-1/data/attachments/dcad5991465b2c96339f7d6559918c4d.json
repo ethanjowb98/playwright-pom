@@ -1,0 +1,15 @@
+{
+  "id": "cff161ae-6a16-4318-8758-82ba377c0ad3",
+  "product_name": "QA-1-p473vjmf Soft Bronze Bike",
+  "category": "frozen",
+  "price": 14.77,
+  "stock": 12,
+  "details": {
+    "brand": "Bruen, Smith and Weber",
+    "origin": "Barbados"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:10:26.566715+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-wq99oe3x Soft Gold Gloves",
+    "category": "frozen",
+    "price": 40.73,
+    "stock": -5,
+    "details": {
+      "brand": "Carter and Sons",
+      "origin": "Ghana"
+    }
+  }
+}

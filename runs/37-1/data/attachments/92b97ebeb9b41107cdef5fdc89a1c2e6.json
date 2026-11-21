@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-uvgr9liv Frozen Marble Chicken",
+    "category": "bakery",
+    "price": 9.11,
+    "stock": 17,
+    "details": {
+      "brand": "Torp, Konopelski and Walker",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

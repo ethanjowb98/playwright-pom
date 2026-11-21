@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-t67u0k9y Rustic Aluminum Cheese",
+    "category": "beverages",
+    "price": 13.7,
+    "stock": 13,
+    "details": {
+      "brand": "Ankunding, Rolfson and Olson",
+      "origin": "Uganda"
+    }
+  }
+}

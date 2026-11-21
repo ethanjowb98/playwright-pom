@@ -1,0 +1,15 @@
+{
+  "id": "8bf8e16b-861f-434d-955d-22c8f31cbec5",
+  "product_name": "QA-3-zgmbi5wq Handcrafted Metal Pants",
+  "category": "bakery",
+  "price": 3.21,
+  "stock": 50,
+  "details": {
+    "brand": "Doyle, Funk and Feest",
+    "origin": "Ireland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:06.132647+00:00"
+}

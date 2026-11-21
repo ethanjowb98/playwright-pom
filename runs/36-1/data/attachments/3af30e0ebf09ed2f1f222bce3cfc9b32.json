@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-84pcygzr Small Wooden Chips",
+    "category": "meat-seafood",
+    "price": 11.34,
+    "stock": 46,
+    "details": {
+      "brand": "Leannon - Jaskolski",
+      "origin": "Namibia"
+    },
+    "weighted": true
+  }
+}

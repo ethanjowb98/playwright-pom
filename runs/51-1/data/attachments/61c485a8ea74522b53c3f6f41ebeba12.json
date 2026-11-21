@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-lqaij1b1 Modern Cotton Chips",
+    "category": "other",
+    "price": 13.6,
+    "stock": 21,
+    "details": {
+      "brand": "Purdy, Franey and Kuphal-Wiegand",
+      "origin": "Bolivia"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

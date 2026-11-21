@@ -1,0 +1,15 @@
+{
+  "id": "ad503e92-9b9c-446a-88d6-186188c725ff",
+  "product_name": "QA-5-ctczeu0j Tasty Metal Hat",
+  "category": "fresh-produce",
+  "price": 28.46,
+  "stock": 11,
+  "details": {
+    "brand": "Ankunding-Simonis - Hackett",
+    "origin": "Bonaire, Sint Eustatius and Saba"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:43.230618+00:00"
+}

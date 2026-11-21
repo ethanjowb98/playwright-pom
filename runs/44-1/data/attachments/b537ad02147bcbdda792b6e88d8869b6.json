@@ -1,0 +1,15 @@
+{
+  "id": "95a15339-4b91-4e90-83d6-8d042692a9f5",
+  "product_name": "QA-8-93bev2a2 sort Alpha",
+  "category": "fresh-produce",
+  "price": 13.16,
+  "stock": 18,
+  "details": {
+    "brand": "Tillman, Boyer and Hauck",
+    "origin": "Finland"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:39:04.525248+00:00"
+}

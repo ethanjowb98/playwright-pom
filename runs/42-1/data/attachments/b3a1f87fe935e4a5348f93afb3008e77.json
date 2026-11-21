@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cjy6vu5x Incredible Metal Soap",
+    "category": "snacks",
+    "price": 17.93,
+    "stock": 33,
+    "details": {
+      "brand": "Simonis - Heathcote",
+      "origin": "Somalia"
+    }
+  }
+}

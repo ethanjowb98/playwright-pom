@@ -1,0 +1,15 @@
+{
+  "id": "f71bd9ca-9b2b-4ca5-9823-a8c240c596d9",
+  "product_name": "QA-1-02l9s08o Gorgeous Silk Pizza",
+  "category": "meat-seafood",
+  "price": 10.86,
+  "stock": 17,
+  "details": {
+    "brand": "Cole, Bechtelar-Hermann and Skiles",
+    "origin": "Lebanon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:28:54.643591+00:00"
+}

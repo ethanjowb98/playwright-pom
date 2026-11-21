@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ku0gfzhx Ergonomic Bamboo Towels",
+    "category": "other",
+    "price": 48.75,
+    "stock": 33,
+    "details": {
+      "brand": "Jacobs Inc",
+      "origin": "Guatemala"
+    }
+  }
+}

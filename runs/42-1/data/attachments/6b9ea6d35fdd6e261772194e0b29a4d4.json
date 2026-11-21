@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-9xeidfjm Refined Marble Pants",
+    "category": "frozen",
+    "price": 3.96,
+    "stock": 35,
+    "details": {
+      "brand": "Abbott, Franecki and Turner",
+      "origin": "Kiribati"
+    }
+  }
+}

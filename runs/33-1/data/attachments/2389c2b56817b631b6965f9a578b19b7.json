@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-k9bz69st Gorgeous Aluminum Car",
+    "category": "pantry",
+    "price": 49.79,
+    "stock": 25,
+    "details": {
+      "brand": "Weimann - Carter",
+      "origin": "Hungary"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

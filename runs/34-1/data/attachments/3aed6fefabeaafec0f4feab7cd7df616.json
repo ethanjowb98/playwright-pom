@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-g4jsp5so Small Steel Salad",
+    "category": "dairy-eggs",
+    "price": 29.02,
+    "stock": 20,
+    "details": {
+      "brand": "Smith - Hermiston",
+      "origin": "Tanzania"
+    }
+  }
+}

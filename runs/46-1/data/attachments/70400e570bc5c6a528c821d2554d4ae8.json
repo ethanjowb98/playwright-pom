@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jocrie6b Gorgeous Metal Bacon",
+    "category": "household",
+    "price": 22.38,
+    "stock": 2,
+    "details": {
+      "brand": "Swaniawski, Reichel and Barrows",
+      "origin": "Curaçao"
+    }
+  }
+}

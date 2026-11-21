@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-fh5x63mf Soft Granite Towels",
+    "category": "bakery",
+    "price": 15.82,
+    "stock": 47,
+    "details": {
+      "brand": "Hettinger Group",
+      "origin": "Saint Vincent and the Grenadines"
+    }
+  }
+}

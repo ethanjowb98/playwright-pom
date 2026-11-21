@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-osnlp07v sort Charlie",
+    "category": "pantry",
+    "price": 34.8,
+    "stock": 39,
+    "details": {
+      "brand": "Blick - D'Amore",
+      "origin": "Dominican Republic"
+    }
+  }
+}

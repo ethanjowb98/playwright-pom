@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-t17gux2d Electronic Cotton Cheese",
+    "category": "bakery",
+    "price": 26.51,
+    "stock": 39,
+    "details": {
+      "brand": "Schmitt - Kub",
+      "origin": "Egypt"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

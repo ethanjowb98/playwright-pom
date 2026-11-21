@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-3hyi95te Bespoke Concrete Pants",
+    "category": "snacks",
+    "price": 5.69,
+    "stock": 16,
+    "details": {
+      "brand": "Harvey - Anderson",
+      "origin": "Estonia"
+    }
+  }
+}

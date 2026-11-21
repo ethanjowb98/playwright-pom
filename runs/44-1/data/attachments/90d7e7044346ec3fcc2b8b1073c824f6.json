@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-cw839na0 Generic Steel Ball",
+    "category": "pantry",
+    "price": 20.76,
+    "stock": 47,
+    "details": {
+      "brand": "Heaney - Rutherford",
+      "origin": "Hungary"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "meat-seafood",
+    "price": 12.05,
+    "stock": 49,
+    "details": {
+      "brand": "Stroman, Corkery and Mosciski",
+      "origin": "Burundi"
+    }
+  }
+}

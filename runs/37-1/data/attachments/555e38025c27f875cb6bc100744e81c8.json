@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-l23ap0px Oriental Metal Pizza",
+    "category": "beverages",
+    "price": 34.78,
+    "stock": 38,
+    "details": {
+      "brand": "Durgan, Rohan and Murazik",
+      "origin": "Saint Pierre and Miquelon"
+    }
+  }
+}

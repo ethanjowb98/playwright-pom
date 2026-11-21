@@ -1,0 +1,15 @@
+{
+  "id": "4b0e5401-f875-4b06-9f0f-bcf080805815",
+  "product_name": "QA-2-119unamk sort Bravo",
+  "category": "dairy-eggs",
+  "price": 25.68,
+  "stock": 37,
+  "details": {
+    "brand": "Sipes, Jacobs and Bartoletti",
+    "origin": "Algeria"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:22.467763+00:00"
+}

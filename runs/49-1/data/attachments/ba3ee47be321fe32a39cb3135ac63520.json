@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ldb1gtjv Luxurious Ceramic Pizza",
+    "category": "snacks",
+    "price": 36.87,
+    "stock": 11,
+    "details": {
+      "brand": "Crooks, Sauer and Harber",
+      "origin": "South Africa"
+    }
+  }
+}

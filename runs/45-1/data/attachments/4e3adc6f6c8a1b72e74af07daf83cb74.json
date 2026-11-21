@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z13rz2j4 Incredible Bamboo Chicken",
+    "category": "household",
+    "price": 43.98,
+    "stock": 10,
+    "details": {
+      "brand": "Bergnaum, Dickens and Borer",
+      "origin": "Saint Vincent and the Grenadines"
+    }
+  }
+}

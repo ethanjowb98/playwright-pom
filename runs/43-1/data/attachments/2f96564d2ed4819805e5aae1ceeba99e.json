@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-4qbrcwm3 Tasty Gold Shoes",
+    "category": "snacks",
+    "price": 7.68,
+    "stock": 29,
+    "details": {
+      "brand": "Kutch - Windler",
+      "origin": "Botswana"
+    }
+  }
+}

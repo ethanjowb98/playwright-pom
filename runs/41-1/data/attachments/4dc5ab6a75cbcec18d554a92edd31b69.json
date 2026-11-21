@@ -1,0 +1,15 @@
+{
+  "id": "fbe66349-9249-497f-8f94-623983b429bf",
+  "product_name": "QA-1-oto2zxzv Luxurious Rubber Chicken",
+  "category": "fresh-produce",
+  "price": 28.03,
+  "stock": 10,
+  "details": {
+    "brand": "Beahan - Pfannerstill",
+    "origin": "Faroe Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:04:22.420631+00:00"
+}

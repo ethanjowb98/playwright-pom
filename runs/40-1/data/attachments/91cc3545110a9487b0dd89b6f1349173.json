@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "e4a34b7b-ec47-43c4-9d5b-afe4957eb2f1",
+      "product_id": "48f26928-2540-49dc-8e09-88350916267f",
+      "product_name": "QA-1-ih4ioeqf Modern Bamboo Sausages",
+      "price": 33.99,
+      "category": "beverages",
+      "quantity": 3,
+      "created_at": "2026-11-10T10:37:50.749863+00:00",
+      "updated_at": "2026-11-10T10:37:50.749863+00:00"
+    }
+  ]
+}

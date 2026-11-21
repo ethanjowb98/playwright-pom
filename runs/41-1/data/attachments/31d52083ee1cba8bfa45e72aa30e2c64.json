@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "70f5953e-f6c9-41c8-b7ff-9b4fe746f854",
+    "order_number": "O88986",
+    "status": "pending",
+    "total_amount": 61.19,
+    "created_at": "2026-11-11T10:01:42.522073+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-cgh9wdn3 Tasty Aluminum Ball",
+        "category": "snacks",
+        "quantity": 1,
+        "price": 22.08,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-g17y3zb6 Soft Concrete Ball",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 39.11,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

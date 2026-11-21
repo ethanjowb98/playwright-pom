@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3vt2ustz Elegant Silk Keyboard",
+    "category": "meat-seafood",
+    "price": 13.44,
+    "stock": 16,
+    "details": {
+      "brand": "Morissette - Lang",
+      "origin": "Saint Pierre and Miquelon"
+    }
+  }
+}

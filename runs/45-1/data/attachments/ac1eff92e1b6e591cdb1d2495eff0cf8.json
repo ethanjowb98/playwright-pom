@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g1akwmaw Incredible Rubber Bike",
+    "category": "snacks",
+    "price": 21.07,
+    "stock": 18,
+    "details": {
+      "brand": "Hessel LLC",
+      "origin": "Mexico"
+    }
+  }
+}

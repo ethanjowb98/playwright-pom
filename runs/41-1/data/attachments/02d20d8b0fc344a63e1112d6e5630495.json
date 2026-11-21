@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ovnwns38 Licensed Steel Cheese",
+    "category": "beverages",
+    "price": 1.94,
+    "stock": 16,
+    "details": {
+      "brand": "Barrows and Sons",
+      "origin": "Ghana"
+    }
+  }
+}

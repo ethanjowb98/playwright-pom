@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-wevb6fn2 Electronic Marble Shoes",
+    "category": "meat-seafood",
+    "price": 38.72,
+    "stock": 43,
+    "details": {
+      "brand": "Pfeffer, Renner and Cronin",
+      "origin": "Kiribati"
+    }
+  }
+}

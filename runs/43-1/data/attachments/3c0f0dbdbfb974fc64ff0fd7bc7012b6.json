@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3i01wede Sleek Bamboo Sausages",
+    "category": "household",
+    "price": 20.52,
+    "stock": 16,
+    "details": {
+      "brand": "Romaguera, Altenwerth and Haag",
+      "origin": "Seychelles"
+    }
+  }
+}

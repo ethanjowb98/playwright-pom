@@ -1,0 +1,15 @@
+{
+  "id": "acda79bd-e881-451d-a944-18c64044b7d5",
+  "product_name": "QA-1-us7re17w Intelligent Silk Computer",
+  "category": "meat-seafood",
+  "price": 18.24,
+  "stock": 36,
+  "details": {
+    "brand": "Hettinger - Considine",
+    "origin": "South Sudan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:12:08.881832+00:00"
+}

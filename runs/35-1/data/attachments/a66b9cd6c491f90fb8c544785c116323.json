@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i7j49ktw sort Charlie",
+    "category": "beverages",
+    "price": 42.08,
+    "stock": 44,
+    "details": {
+      "brand": "Bahringer - White",
+      "origin": "Tokelau"
+    }
+  }
+}

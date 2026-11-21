@@ -1,0 +1,15 @@
+{
+  "id": "c26f7980-7848-4e32-ae6b-4dd02e9619cc",
+  "product_name": "QA-1-dfsr3elk Luxurious Metal Hat",
+  "category": "household",
+  "price": 26.53,
+  "stock": 39,
+  "details": {
+    "brand": "Gutkowski and Sons",
+    "origin": "Mauritania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:37:30.932794+00:00"
+}

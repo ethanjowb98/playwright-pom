@@ -1,0 +1,15 @@
+{
+  "id": "754a2a06-d0cf-4f08-9fb5-7e4087a7e403",
+  "product_name": "QA-1-4rxgrr4d Incredible Gold Sausages",
+  "category": "dairy-eggs",
+  "price": 19.13,
+  "stock": 23,
+  "details": {
+    "brand": "Gerhold and Sons",
+    "origin": "Bonaire, Sint Eustatius and Saba"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:12.24966+00:00"
+}

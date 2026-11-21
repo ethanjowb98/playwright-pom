@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "6287f086-c4a2-4e5d-9c72-6faa16215db2",
+    "order_number": "O74427",
+    "status": "pending",
+    "total_amount": 27.74,
+    "created_at": "2026-11-05T08:21:17.096257+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-tkl7hn0u Refined Marble Chips",
+        "category": "other",
+        "quantity": 1,
+        "price": 27.74,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

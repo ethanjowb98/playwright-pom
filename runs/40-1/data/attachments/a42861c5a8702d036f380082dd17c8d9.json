@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z6rj8tud Awesome Plastic Car",
+    "category": "dairy-eggs",
+    "price": 5.52,
+    "stock": 30,
+    "details": {
+      "brand": "Kling - Rogahn",
+      "origin": "Portugal"
+    }
+  }
+}

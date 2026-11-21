@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2xxtjmtj Intelligent Concrete Bike",
+    "category": "pantry",
+    "price": 28.71,
+    "stock": 11,
+    "details": {
+      "brand": "King - Ziemann",
+      "origin": "Bosnia and Herzegovina"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

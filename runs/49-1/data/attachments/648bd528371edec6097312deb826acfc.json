@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-i4z04r6v Generic Silk Table",
+    "category": "frozen",
+    "price": 36,
+    "stock": 47,
+    "details": {
+      "brand": "Hickle LLC",
+      "origin": "Kenya"
+    },
+    "temperature_zone": "Dry"
+  }
+}

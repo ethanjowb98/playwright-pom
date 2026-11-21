@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5ux40htc Elegant Cotton Table",
+    "category": "household",
+    "price": 36.99,
+    "stock": 13,
+    "details": {
+      "brand": "Prohaska, Flatley and Abshire",
+      "origin": "Liberia"
+    }
+  }
+}

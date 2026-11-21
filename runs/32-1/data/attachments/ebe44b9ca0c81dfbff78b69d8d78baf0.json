@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tmtg5eqx Ergonomic Metal Fish",
+    "category": "pantry",
+    "price": 36.06,
+    "stock": 29,
+    "details": {
+      "brand": "Johnson - Funk",
+      "origin": "Pakistan"
+    }
+  }
+}

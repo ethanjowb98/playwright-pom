@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4uew6ewe Soft Plastic Pants",
+    "category": "fresh-produce",
+    "price": 7.3,
+    "stock": 32,
+    "details": {
+      "brand": "Haley and Sons",
+      "origin": "Cayman Islands"
+    }
+  }
+}

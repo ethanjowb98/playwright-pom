@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-2q23zh9e Awesome Bamboo Shirt",
+    "category": "beverages",
+    "price": 49.95,
+    "stock": 10,
+    "details": {
+      "brand": "Langworth, Doyle and Dicki",
+      "origin": "Vietnam"
+    }
+  }
+}

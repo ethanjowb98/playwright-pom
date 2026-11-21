@@ -1,0 +1,15 @@
+{
+  "id": "ff506a60-7527-4e3e-80c1-d954a2e885d8",
+  "product_name": "QA-2-wwikk9us Fresh Steel Chair",
+  "category": "dairy-eggs",
+  "price": 21.86,
+  "stock": 40,
+  "details": {
+    "brand": "Ryan-Mraz Inc",
+    "origin": "Netherlands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:56:13.991364+00:00"
+}

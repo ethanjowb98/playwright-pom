@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uh81dzda Refined Gold Bike",
+    "category": "bakery",
+    "price": 48.44,
+    "stock": 29,
+    "details": {
+      "brand": "Stehr, Romaguera and Wolff",
+      "origin": "Saint Helena"
+    }
+  }
+}

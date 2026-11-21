@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gs9kpq1b Soft Rubber Fish",
+    "category": "frozen",
+    "price": 45.06,
+    "stock": 29,
+    "details": {
+      "brand": "Kuhic - Brekke",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

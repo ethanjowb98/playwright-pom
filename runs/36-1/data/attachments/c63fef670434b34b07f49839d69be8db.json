@@ -1,0 +1,15 @@
+{
+  "id": "a142e2a6-a3f1-4850-8a4c-1283b4afa84f",
+  "product_name": "QA-1-kovk0nba Refined Ceramic Salad",
+  "category": "bakery",
+  "price": 11.55,
+  "stock": 14,
+  "details": {
+    "brand": "Cronin, Bashirian and Fritsch",
+    "origin": "Costa Rica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:15:42.871526+00:00"
+}

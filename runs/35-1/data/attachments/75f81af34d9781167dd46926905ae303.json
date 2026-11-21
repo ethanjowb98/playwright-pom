@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-0heavmga Tasty Plastic Computer",
+    "category": "household",
+    "price": 3.59,
+    "stock": 26,
+    "details": {
+      "brand": "Roberts, McCullough and Bayer",
+      "origin": "Guinea"
+    }
+  }
+}

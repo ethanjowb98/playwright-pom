@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "46507f2e-039b-4bdd-9634-d24404e9f190",
+      "product_id": "869d83c9-ab8e-47b7-bd85-dbd6e8eecc03",
+      "product_name": "QA-1-qwdo8lzd Handmade Concrete Table",
+      "price": 4.37,
+      "category": "beverages",
+      "quantity": 3,
+      "created_at": "2026-11-15T10:11:44.663544+00:00",
+      "updated_at": "2026-11-15T10:11:44.663544+00:00"
+    },
+    {
+      "id": "2315f88c-24de-4f84-a836-42cc24767b42",
+      "product_id": "4559f3aa-dccd-4f85-b9de-746f7ad3162d",
+      "product_name": "QA-1-x9yh3f9g Bespoke Ceramic Chicken",
+      "price": 31.53,
+      "category": "snacks",
+      "quantity": 2,
+      "created_at": "2026-11-15T10:11:45.217177+00:00",
+      "updated_at": "2026-11-15T10:11:45.217177+00:00"
+    }
+  ]
+}

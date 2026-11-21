@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o5ip017q Electronic Bronze Chips",
+    "category": "household",
+    "price": 30.78,
+    "stock": 27,
+    "details": {
+      "brand": "Wunsch, Welch and Bradtke",
+      "origin": "Pakistan"
+    }
+  }
+}

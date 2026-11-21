@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cil6vryl Modern Plastic Chair",
+    "category": "household",
+    "price": 1.03,
+    "stock": 26,
+    "details": {
+      "brand": "Kreiger Inc",
+      "origin": "Mauritania"
+    }
+  }
+}

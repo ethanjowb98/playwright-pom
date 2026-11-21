@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tp8ikor7 Small Rubber Tuna",
+    "category": "fresh-produce",
+    "price": 39.38,
+    "stock": 27,
+    "details": {
+      "brand": "Keeling Group",
+      "origin": "Suriname"
+    }
+  }
+}

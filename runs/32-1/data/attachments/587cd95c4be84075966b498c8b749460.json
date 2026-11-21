@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-vus1xrsk Tasty Rubber Towels",
+    "category": "other",
+    "price": 41.53,
+    "stock": 22,
+    "details": {
+      "brand": "Hermann, Lind and Kovacek",
+      "origin": "Bolivia"
+    }
+  }
+}

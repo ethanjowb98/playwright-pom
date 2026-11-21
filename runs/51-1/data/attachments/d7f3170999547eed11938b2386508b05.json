@@ -1,0 +1,15 @@
+{
+  "id": "e65fcc28-9c95-4b93-b7a3-abb190738fbf",
+  "product_name": "QA-1-ectod2s1 Small Metal Salad",
+  "category": "household",
+  "price": 25.1,
+  "stock": 21,
+  "details": {
+    "brand": "Dooley - Bruen",
+    "origin": "Qatar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:31:33.000194+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-53movfr5 Bespoke Marble Shoes",
+    "category": "bakery",
+    "price": 40.23,
+    "stock": 44,
+    "details": {
+      "brand": "King, Tillman and Brown",
+      "origin": "Ghana"
+    },
+    "weighted": true
+  }
+}

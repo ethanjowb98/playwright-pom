@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-b8hah0jo Soft Wooden Towels",
+    "category": "fresh-produce",
+    "price": 20.56,
+    "stock": 28,
+    "details": {
+      "brand": "Ebert, Kunde and Kuphal",
+      "origin": "Germany"
+    }
+  }
+}

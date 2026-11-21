@@ -1,0 +1,15 @@
+{
+  "id": "e620465f-6116-4d41-9234-40501084f299",
+  "product_name": "QA-3-ec8y76xr Luxurious Plastic Sausages",
+  "category": "fresh-produce",
+  "price": 16.01,
+  "stock": 24,
+  "details": {
+    "brand": "Parker LLC",
+    "origin": "Malaysia"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:36:06.787571+00:00"
+}

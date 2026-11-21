@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-kl1d5efp Ergonomic Metal Computer",
+    "category": "beverages",
+    "price": 12.03,
+    "stock": 28,
+    "details": {
+      "brand": "Weimann - Beer",
+      "origin": "Pakistan"
+    }
+  }
+}

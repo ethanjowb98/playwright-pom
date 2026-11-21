@@ -1,0 +1,15 @@
+{
+  "id": "e7fae14b-27cb-4a78-b52d-484c6870fe11",
+  "product_name": "QA-1-5jra6kfu Rustic Marble Salad",
+  "category": "frozen",
+  "price": 3.39,
+  "stock": 19,
+  "details": {
+    "brand": "Hirthe, Paucek and Schaden",
+    "origin": "Luxembourg"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:23:16.202726+00:00"
+}

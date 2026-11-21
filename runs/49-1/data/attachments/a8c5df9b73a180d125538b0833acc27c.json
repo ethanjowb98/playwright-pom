@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-8y8aww25 Electronic Gold Shirt",
+    "category": "fresh-produce",
+    "price": 36.48,
+    "stock": 37,
+    "details": {
+      "brand": "Parker, Von-Ankunding and Effertz",
+      "origin": "Democratic People's Republic of Korea"
+    }
+  }
+}

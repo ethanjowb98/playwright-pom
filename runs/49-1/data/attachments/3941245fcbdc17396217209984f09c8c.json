@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4yin6hcb Recycled Concrete Salad",
+    "category": "frozen",
+    "price": 1.76,
+    "stock": 29,
+    "details": {
+      "brand": "Bauch-Heathcote - Krajcik",
+      "origin": "Kyrgyz Republic"
+    }
+  }
+}

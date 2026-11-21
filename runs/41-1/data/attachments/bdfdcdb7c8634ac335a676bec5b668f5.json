@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0x2sj79b Fantastic Marble Soap",
+    "category": "snacks",
+    "price": 21.96,
+    "stock": 44,
+    "details": {
+      "brand": "Bernier, Walter and Corkery",
+      "origin": "Micronesia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-3b1man9v Rustic Bamboo Sausages",
+    "category": "bakery",
+    "price": 27.7,
+    "stock": 45,
+    "details": {
+      "brand": "Stoltenberg - Kilback",
+      "origin": "Micronesia"
+    }
+  }
+}

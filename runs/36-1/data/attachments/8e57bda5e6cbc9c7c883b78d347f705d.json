@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jgalumtw Licensed Metal Towels",
+    "category": "meat-seafood",
+    "stock": 28,
+    "details": {
+      "brand": "Nikolaus, Pfannerstill-Collins and Bartoletti",
+      "origin": "Andorra"
+    }
+  }
+}

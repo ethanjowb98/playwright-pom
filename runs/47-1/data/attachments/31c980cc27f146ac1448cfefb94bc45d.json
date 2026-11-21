@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-oz0jzafo Practical Bamboo Car",
+    "category": "bakery",
+    "price": 14.9,
+    "stock": 10,
+    "details": {
+      "brand": "Carter Inc",
+      "origin": "Yemen"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

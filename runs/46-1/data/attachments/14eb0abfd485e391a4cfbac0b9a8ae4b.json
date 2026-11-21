@@ -1,0 +1,15 @@
+{
+  "id": "9effb2ed-d3b5-4889-aece-6520f6679ee3",
+  "product_name": "QA-1-lno24l1p Unbranded Concrete Hat",
+  "category": "fresh-produce",
+  "price": 16.45,
+  "stock": 29,
+  "details": {
+    "brand": "Cole - Schmidt",
+    "origin": "Burundi"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:23:31.02774+00:00"
+}

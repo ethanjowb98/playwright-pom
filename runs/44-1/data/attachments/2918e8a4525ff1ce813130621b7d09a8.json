@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-lnqhd7a4 Sleek Cotton Sausages",
+    "category": "frozen",
+    "price": 33.16,
+    "stock": 14,
+    "details": {
+      "brand": "Bailey Group",
+      "origin": "Sri Lanka"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s076k544 Unbranded Wooden Ball",
+    "category": "frozen",
+    "price": 19.47,
+    "stock": 18,
+    "details": {
+      "brand": "Miller-Beer Group",
+      "origin": "Ghana"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-t0bpzhps Generic Plastic Pants",
+    "category": "dairy-eggs",
+    "price": 18.38,
+    "stock": 43,
+    "details": {
+      "brand": "Larson - Johnston",
+      "origin": "Israel"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2d74wlqr Small Silk Car",
+    "category": "meat-seafood",
+    "price": 43.21,
+    "stock": 26,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

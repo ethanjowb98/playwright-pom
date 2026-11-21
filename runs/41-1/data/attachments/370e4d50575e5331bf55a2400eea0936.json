@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-7zwdwpaf sort Charlie",
+    "category": "snacks",
+    "price": 45.31,
+    "stock": 26,
+    "details": {
+      "brand": "Fay and Sons",
+      "origin": "Nicaragua"
+    }
+  }
+}

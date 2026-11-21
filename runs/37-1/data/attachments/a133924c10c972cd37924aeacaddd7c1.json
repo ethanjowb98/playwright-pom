@@ -1,0 +1,15 @@
+{
+  "id": "5d1a3aa6-8c40-4e01-a753-a26359515e35",
+  "product_name": "QA-1-l3etteva Handcrafted Steel Bike",
+  "category": "bakery",
+  "price": 37.62,
+  "stock": 49,
+  "details": {
+    "brand": "Jones - Upton",
+    "origin": "Tuvalu"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:26:12.284062+00:00"
+}

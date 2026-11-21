@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ujwg6vik Licensed Bamboo Shoes",
+    "category": "dairy-eggs",
+    "price": 37.72,
+    "stock": 20,
+    "details": {
+      "brand": "O'Kon - Rogahn",
+      "origin": "Turks and Caicos Islands"
+    }
+  }
+}

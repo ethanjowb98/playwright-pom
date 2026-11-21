@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d0ck68lh Sleek Steel Hat",
+    "category": "other",
+    "price": 46.23,
+    "stock": 49,
+    "details": {
+      "brand": "Klocko - Kozey",
+      "origin": "South Sudan"
+    }
+  }
+}

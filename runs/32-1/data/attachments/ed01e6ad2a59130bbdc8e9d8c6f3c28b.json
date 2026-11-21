@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-c19lvt0q sort Bravo",
+    "category": "snacks",
+    "price": 23.44,
+    "stock": 41,
+    "details": {
+      "brand": "Harvey - Witting",
+      "origin": "Belize"
+    }
+  }
+}

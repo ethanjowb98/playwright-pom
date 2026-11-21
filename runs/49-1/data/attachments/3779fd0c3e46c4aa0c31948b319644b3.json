@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rrotcjdg sort Alpha",
+    "category": "pantry",
+    "price": 9.42,
+    "stock": 22,
+    "details": {
+      "brand": "Walker and Sons",
+      "origin": "El Salvador"
+    }
+  }
+}

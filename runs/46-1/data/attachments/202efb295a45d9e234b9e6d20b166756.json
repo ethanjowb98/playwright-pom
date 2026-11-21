@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w579veo5 Fresh Cotton Pants",
+    "category": "snacks",
+    "price": 27.27,
+    "stock": 46,
+    "details": {
+      "brand": "Langworth and Sons",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

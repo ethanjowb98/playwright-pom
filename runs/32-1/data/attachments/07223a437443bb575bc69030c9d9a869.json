@@ -1,0 +1,15 @@
+{
+  "id": "32c8b389-0f51-46d9-b7c7-de14e510e877",
+  "product_name": "QA-1-4z8wmert Rustic Granite Fish",
+  "category": "fresh-produce",
+  "price": 26.76,
+  "stock": 48,
+  "details": {
+    "brand": "Volkman, Kassulke and Jaskolski",
+    "origin": "Costa Rica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:22:40.770731+00:00"
+}

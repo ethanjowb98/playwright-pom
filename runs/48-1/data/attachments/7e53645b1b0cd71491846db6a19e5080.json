@@ -1,0 +1,15 @@
+{
+  "id": "3739ef0b-dc76-4bff-b9cb-46112b7083cf",
+  "product_name": "QA-1-m5jdi1kr Recycled Cotton Gloves",
+  "category": "bakery",
+  "price": 4.77,
+  "stock": 23,
+  "details": {
+    "brand": "Gibson and Sons",
+    "origin": "Barbados"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:19.344583+00:00"
+}

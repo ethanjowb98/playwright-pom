@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-winr3w58 Tasty Metal Bacon",
+    "category": "frozen",
+    "price": 25.22,
+    "stock": 44,
+    "details": {
+      "brand": "Robel, Hessel and Koss",
+      "origin": "Yemen"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

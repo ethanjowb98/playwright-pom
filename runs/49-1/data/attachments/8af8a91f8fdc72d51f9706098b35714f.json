@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-xwf6awtw Incredible Concrete Salad",
+    "category": "household",
+    "price": 16.26,
+    "stock": 21,
+    "details": {
+      "brand": "Reilly Group",
+      "origin": "Indonesia"
+    }
+  }
+}

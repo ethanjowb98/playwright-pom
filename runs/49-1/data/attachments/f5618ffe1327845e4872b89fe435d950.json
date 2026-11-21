@@ -1,0 +1,15 @@
+{
+  "id": "a7926d70-8c35-4d87-a293-c0b5bfb984ec",
+  "product_name": "QA-2-49oslr0o Small Gold Fish",
+  "category": "pantry",
+  "price": 43.07,
+  "stock": 28,
+  "details": {
+    "brand": "Russel, Dickinson and Jaskolski",
+    "origin": "Argentina"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:58:25.66486+00:00"
+}

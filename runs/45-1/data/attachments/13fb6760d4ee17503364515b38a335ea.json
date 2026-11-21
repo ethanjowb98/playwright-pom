@@ -1,0 +1,15 @@
+{
+  "id": "aac54904-a655-4c48-8aa2-778e664cd7ec",
+  "product_name": "QA-1-tji03lna Refined Steel Shirt",
+  "category": "frozen",
+  "price": 24.76,
+  "stock": 48,
+  "details": {
+    "brand": "Gislason Inc",
+    "origin": "Egypt"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:39.474267+00:00"
+}

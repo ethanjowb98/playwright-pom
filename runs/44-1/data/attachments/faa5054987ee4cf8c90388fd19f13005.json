@@ -1,0 +1,15 @@
+{
+  "id": "92cdd153-95ad-4317-b892-40f3bf42f654",
+  "product_name": "QA-6-hcizl9wt Sleek Ceramic Cheese",
+  "category": "snacks",
+  "price": 43.56,
+  "stock": 27,
+  "details": {
+    "brand": "Berge - Steuber",
+    "origin": "Hungary"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:39:05.85807+00:00"
+}

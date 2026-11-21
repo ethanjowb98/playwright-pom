@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-r1cmncya Luxurious Bronze Sausages",
+    "category": "frozen",
+    "price": 18.42,
+    "stock": 22,
+    "details": {
+      "brand": "Hauck LLC",
+      "origin": "Czechia"
+    }
+  }
+}

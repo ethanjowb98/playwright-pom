@@ -1,0 +1,15 @@
+{
+  "id": "d1150aa1-dea5-4575-a7fa-03c6d6787224",
+  "product_name": "QA-2-q3bcu7qm Luxurious Metal Bike",
+  "category": "bakery",
+  "price": 3.62,
+  "stock": 36,
+  "details": {
+    "brand": "Lemke LLC",
+    "origin": "Kazakhstan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:37:28.612466+00:00"
+}

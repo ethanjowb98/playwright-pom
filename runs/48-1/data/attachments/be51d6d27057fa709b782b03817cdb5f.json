@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "02fecc86-528c-4aeb-9168-e85becd129ec",
+    "order_number": "O45516",
+    "status": "pending",
+    "total_amount": 44.82,
+    "created_at": "2026-11-18T10:55:16.369283+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-0p1prj2a Awesome Granite Computer",
+        "category": "fresh-produce",
+        "quantity": 3,
+        "price": 14.94,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

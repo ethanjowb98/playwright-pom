@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z5c194ey Intelligent Plastic Bike",
+    "category": "dairy-eggs",
+    "price": 30.16,
+    "stock": 32,
+    "details": {
+      "brand": "Kshlerin - Powlowski",
+      "origin": "El Salvador"
+    }
+  }
+}

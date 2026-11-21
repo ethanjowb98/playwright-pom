@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "c0820c3c-4853-49df-8028-6289d097c7c5",
+    "order_number": "O69996",
+    "status": "pending",
+    "total_amount": 1.44,
+    "created_at": "2026-11-14T09:40:50.79611+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-g5o10unk Licensed Steel Chicken",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 1.44,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

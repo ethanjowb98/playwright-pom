@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-f6pw60rv Soft Rubber Fish",
+    "category": "meat-seafood",
+    "price": 47.76,
+    "stock": 15,
+    "details": {
+      "brand": "Nader - Bruen",
+      "origin": "Bhutan"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

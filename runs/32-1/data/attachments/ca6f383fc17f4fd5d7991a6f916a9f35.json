@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4wg4iuaf Incredible Rubber Towels",
+    "category": "pantry",
+    "price": 46.86,
+    "stock": 27,
+    "details": {
+      "brand": "Swift, Howell and Swift",
+      "origin": "Japan"
+    }
+  }
+}

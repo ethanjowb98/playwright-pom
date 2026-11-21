@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-2olq8v3c Luxurious Granite Chair",
+    "category": "other",
+    "price": 17.93,
+    "stock": 22,
+    "details": {
+      "brand": "Grady - Wiza",
+      "origin": "Lebanon"
+    }
+  }
+}

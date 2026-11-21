@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "efc16e5c-7419-4fee-b979-aa0160775206",
+    "order_number": "O17960",
+    "status": "pending",
+    "total_amount": 6.03,
+    "created_at": "2026-11-19T10:57:10.957758+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-c9vqk3or Recycled Bronze Chips",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 6.03,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

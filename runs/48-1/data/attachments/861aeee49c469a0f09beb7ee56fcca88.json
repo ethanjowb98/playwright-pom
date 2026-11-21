@@ -1,0 +1,15 @@
+{
+  "id": "7b5b06ae-390c-433f-bfac-4dd8633f435f",
+  "product_name": "QA-1-x4ghtvo5 Generic Bronze Fish",
+  "category": "bakery",
+  "price": 48.14,
+  "stock": 37,
+  "details": {
+    "brand": "Huels LLC",
+    "origin": "France"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:31.162198+00:00"
+}

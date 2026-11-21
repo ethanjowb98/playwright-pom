@@ -1,0 +1,19 @@
+{
+  "id": "e7425bf6-6296-43d2-b518-a8cb56eb08f9",
+  "order_number": "O48443",
+  "status": "shipped",
+  "total_amount": 76.98,
+  "notes": null,
+  "created_at": "2026-11-13T10:20:28.683975+00:00",
+  "updated_at": "2026-11-13T10:20:28.683975+00:00",
+  "items": [
+    {
+      "product_id": "12e15dde-89fb-4d7e-9474-52127386fd06",
+      "product_name": "QA-1-zlc9680x Sleek Bamboo Tuna",
+      "category": "fresh-produce",
+      "quantity": 3,
+      "price": 25.66,
+      "temperature_zone": null
+    }
+  ]
+}

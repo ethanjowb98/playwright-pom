@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-bv2aykpj Refined Granite Bacon",
+    "category": "household",
+    "price": 5.39,
+    "stock": 16,
+    "details": {
+      "brand": "Jast, Ortiz and Heller",
+      "origin": "Liechtenstein"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

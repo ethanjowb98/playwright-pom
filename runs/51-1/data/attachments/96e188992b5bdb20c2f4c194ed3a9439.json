@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-dgaddqsc Handcrafted Aluminum Car",
+    "category": "snacks",
+    "price": 3.48,
+    "stock": 15,
+    "details": {
+      "brand": "Kemmer - Brakus",
+      "origin": "Tanzania"
+    }
+  }
+}

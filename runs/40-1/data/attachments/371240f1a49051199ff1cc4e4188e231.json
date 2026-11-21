@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qrqrd353 Practical Gold Table",
+    "category": "bakery",
+    "price": 40.82,
+    "stock": 38,
+    "details": {
+      "brand": "Kessler, Schroeder and Hahn-Conroy",
+      "origin": "Singapore"
+    }
+  }
+}

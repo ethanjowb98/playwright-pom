@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "8a0d48e7-9781-48dd-b842-7d0ab4f01315",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "cancelled",
+    "total_amount": 75.8,
+    "notes": null,
+    "created_at": "2026-11-11T10:02:30.381091+00:00",
+    "updated_at": "2026-11-11T10:02:30.381091+00:00",
+    "order_number": "O78560"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "f321984d-1cb7-48a7-8d5d-d1439e8711c9",
+    "order_number": "O25177",
+    "status": "pending",
+    "total_amount": 139.11,
+    "created_at": "2026-11-05T08:26:11.613003+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-c39n2gij Bespoke Bamboo Keyboard",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 46.37,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

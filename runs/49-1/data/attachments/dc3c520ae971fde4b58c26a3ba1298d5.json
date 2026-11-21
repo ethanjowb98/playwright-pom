@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ngacgjo6 Luxurious Metal Bike",
+    "category": "meat-seafood",
+    "price": 7.02,
+    "stock": 42,
+    "details": {
+      "brand": "Armstrong - Schaden",
+      "origin": "Iran"
+    }
+  }
+}

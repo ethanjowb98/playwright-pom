@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-02l9s08o Gorgeous Silk Pizza",
+    "category": "meat-seafood",
+    "price": 10.86,
+    "stock": 17,
+    "details": {
+      "brand": "Cole, Bechtelar-Hermann and Skiles",
+      "origin": "Lebanon"
+    }
+  }
+}

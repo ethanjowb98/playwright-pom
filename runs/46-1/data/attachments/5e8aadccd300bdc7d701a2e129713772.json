@@ -1,0 +1,19 @@
+{
+  "id": "b1ae8697-3787-4b48-a58d-c9134cd39ee2",
+  "order_number": "O16774",
+  "status": "pending",
+  "total_amount": 4.46,
+  "notes": null,
+  "created_at": "2026-11-16T10:24:18.469097+00:00",
+  "updated_at": "2026-11-16T10:24:18.469097+00:00",
+  "items": [
+    {
+      "product_id": "20822563-dfb3-4717-9557-022cd93b24f6",
+      "product_name": "QA-1-e6417pdj Rustic Bamboo Towels",
+      "category": "bakery",
+      "quantity": 1,
+      "price": 4.46,
+      "temperature_zone": null
+    }
+  ]
+}

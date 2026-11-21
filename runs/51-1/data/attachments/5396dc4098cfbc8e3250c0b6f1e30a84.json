@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6iy1wi02 Generic Ceramic Tuna",
+    "category": "snacks",
+    "price": 15.59,
+    "stock": 26,
+    "details": {
+      "brand": "Upton, Stoltenberg and Mills",
+      "origin": "Mozambique"
+    }
+  }
+}

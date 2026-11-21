@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ytaclydz sort Charlie",
+    "category": "dairy-eggs",
+    "price": 49.4,
+    "stock": 20,
+    "details": {
+      "brand": "Kreiger Inc",
+      "origin": "Mauritius"
+    }
+  }
+}

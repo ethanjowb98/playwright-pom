@@ -1,0 +1,15 @@
+{
+  "id": "248e86e0-187e-4e0b-a80e-13a00457aa2e",
+  "product_name": "QA-1-c350zi7w Electronic Rubber Chips",
+  "category": "beverages",
+  "price": 39.7,
+  "stock": 13,
+  "details": {
+    "brand": "Kub Group",
+    "origin": "Western Sahara"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:01:46.705976+00:00"
+}

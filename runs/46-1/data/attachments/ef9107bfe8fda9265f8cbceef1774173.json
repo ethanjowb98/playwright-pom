@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g24iej3x Oriental Ceramic Chicken",
+    "category": "other",
+    "price": 39.08,
+    "stock": 49,
+    "details": {
+      "brand": "Schmeler LLC",
+      "origin": "Mauritania"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

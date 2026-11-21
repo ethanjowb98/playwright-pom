@@ -1,0 +1,15 @@
+{
+  "id": "dbf47394-bd85-4317-8ddf-e40e8380175a",
+  "product_name": "QA-2-44fjb8mu Handmade Gold Tuna",
+  "category": "bakery",
+  "price": 22.76,
+  "stock": 45,
+  "details": {
+    "brand": "Runolfsdottir - Steuber",
+    "origin": "Oman"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:30.806473+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0pwvecce Elegant Concrete Soap",
+    "category": "pantry",
+    "price": 48.32,
+    "stock": 28,
+    "details": {
+      "brand": "Wehner and Sons",
+      "origin": "Guyana"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5j3802la Practical Aluminum Car",
+    "category": "bakery",
+    "price": 11.44,
+    "stock": 31,
+    "details": {
+      "brand": "Metz Inc",
+      "origin": "Madagascar"
+    }
+  }
+}

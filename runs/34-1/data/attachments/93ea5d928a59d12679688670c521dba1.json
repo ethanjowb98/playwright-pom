@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-7z3drh0y sort Bravo",
+    "category": "bakery",
+    "price": 20.34,
+    "stock": 24,
+    "details": {
+      "brand": "Heathcote, Paucek and DuBuque",
+      "origin": "Mali"
+    }
+  }
+}

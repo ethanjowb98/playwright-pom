@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q00n6bdu Rustic Marble Bike",
+    "category": "other",
+    "price": 32.67,
+    "stock": 49,
+    "details": {
+      "brand": "Howell, Lemke and Stiedemann",
+      "origin": "France"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3h22xhba Practical Cotton Table",
+    "category": "pantry",
+    "price": 37.09,
+    "stock": 35,
+    "details": {
+      "brand": "Moen, Stoltenberg and Boehm",
+      "origin": "Bermuda"
+    }
+  }
+}

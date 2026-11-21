@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-5rukcpyf Ergonomic Concrete Soap",
+    "category": "beverages",
+    "price": 31.98,
+    "stock": 25,
+    "details": {
+      "brand": "Koelpin Inc",
+      "origin": "Djibouti"
+    },
+    "weighted": true
+  }
+}

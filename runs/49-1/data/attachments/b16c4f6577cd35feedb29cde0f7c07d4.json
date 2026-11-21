@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-y7apjk4m Electronic Marble Fish",
+    "category": "household",
+    "price": 37.58,
+    "stock": 23,
+    "details": {
+      "brand": "Borer-Sanford - West",
+      "origin": "Singapore"
+    }
+  }
+}

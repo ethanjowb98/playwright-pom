@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-hu7k2u6r Unbranded Cotton Cheese",
+    "category": "household",
+    "price": 42.49,
+    "stock": 16,
+    "details": {
+      "brand": "Schmitt Group",
+      "origin": "Sint Maarten"
+    }
+  }
+}

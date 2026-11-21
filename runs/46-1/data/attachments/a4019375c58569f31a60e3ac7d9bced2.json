@@ -1,0 +1,19 @@
+{
+  "id": "a8267c6e-b5fa-4072-8d1c-3981acbeea06",
+  "order_number": "O88323",
+  "status": "processing",
+  "total_amount": 43.98,
+  "notes": null,
+  "created_at": "2026-11-16T10:23:35.83537+00:00",
+  "updated_at": "2026-11-16T10:23:35.83537+00:00",
+  "items": [
+    {
+      "product_id": "f78c71ed-2a3a-47db-9352-9443fcc92123",
+      "product_name": "QA-1-3saaup0k Rustic Marble Towels",
+      "category": "beverages",
+      "quantity": 3,
+      "price": 14.66,
+      "temperature_zone": null
+    }
+  ]
+}

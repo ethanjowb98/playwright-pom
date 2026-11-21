@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-fw2ly41y Refined Bamboo Shoes",
+    "category": "bakery",
+    "price": 49.16,
+    "stock": 31,
+    "details": {
+      "brand": "Stark-Blick - Hilll",
+      "origin": "Saint Barthélemy"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "8cf3a38f-5ef2-4e57-95e6-6131822a555b",
+  "order_number": "O99302",
+  "status": "pending",
+  "total_amount": 59.2,
+  "notes": "updated",
+  "created_at": "2026-11-05T08:26:50.769133+00:00",
+  "updated_at": "2026-11-05T08:26:50.769133+00:00",
+  "items": [
+    {
+      "product_id": "13600958-739c-4d3a-8236-776e0c97b3b6",
+      "product_name": "QA-1-4y7i4yw4 Elegant Granite Chicken",
+      "category": "pantry",
+      "quantity": 2,
+      "price": 29.6,
+      "temperature_zone": null
+    }
+  ]
+}

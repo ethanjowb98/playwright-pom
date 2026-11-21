@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-zgmbi5wq Handcrafted Metal Pants",
+    "category": "bakery",
+    "price": 3.21,
+    "stock": 50,
+    "details": {
+      "brand": "Doyle, Funk and Feest",
+      "origin": "Ireland"
+    }
+  }
+}

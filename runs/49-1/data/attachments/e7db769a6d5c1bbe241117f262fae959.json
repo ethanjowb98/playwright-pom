@@ -1,0 +1,29 @@
+{
+  "orders": [
+    {
+      "id": "317b6e92-9f0a-4b43-adbf-9dbf6a8fd426",
+      "order_number": "O23711",
+      "status": "pending",
+      "total_amount": 147.18,
+      "notes": null,
+      "created_at": "2026-11-19T10:58:28.149286+00:00",
+      "updated_at": "2026-11-19T10:58:28.149286+00:00",
+      "items": [
+        {
+          "product_name": "QA-2-49oslr0o Small Gold Fish",
+          "category": "pantry",
+          "quantity": 3,
+          "price": 43.07,
+          "temperature_zone": null
+        },
+        {
+          "product_name": "QA-2-r1j5bp4t Elegant Cotton Gloves",
+          "category": "household",
+          "quantity": 1,
+          "price": 17.97,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

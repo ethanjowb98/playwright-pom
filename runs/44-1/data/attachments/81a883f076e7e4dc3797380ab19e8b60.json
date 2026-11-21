@@ -1,0 +1,19 @@
+{
+  "id": "b84d4ed0-ac36-4b10-a81d-fb0281641706",
+  "order_number": "O30772",
+  "status": "delivered",
+  "total_amount": 62.92,
+  "notes": null,
+  "created_at": "2026-11-14T09:40:33.796788+00:00",
+  "updated_at": "2026-11-14T09:40:33.796788+00:00",
+  "items": [
+    {
+      "product_id": "3462ac9a-9e69-4273-b1e0-79bc8eb41bbb",
+      "product_name": "QA-1-qbxk0wkk Licensed Metal Cheese",
+      "category": "beverages",
+      "quantity": 2,
+      "price": 31.46,
+      "temperature_zone": null
+    }
+  ]
+}

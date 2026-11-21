@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c65c6gm0 Fantastic Bamboo Towels",
+    "category": "dairy-eggs",
+    "price": 23.57,
+    "stock": 26,
+    "details": {
+      "brand": "Nikolaus, Kerluke and Rowe",
+      "origin": "San Marino"
+    }
+  }
+}

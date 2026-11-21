@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-9ypyx0vz Rustic Steel Ball",
+    "category": "bakery",
+    "price": 28.67,
+    "stock": 44,
+    "details": {
+      "brand": "Crist - Considine",
+      "origin": "New Caledonia"
+    }
+  }
+}

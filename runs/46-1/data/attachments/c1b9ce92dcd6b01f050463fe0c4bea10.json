@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "4e15fb2d-fbca-42ea-86d9-af5e7fa67186",
+    "order_number": "O85124",
+    "status": "pending",
+    "total_amount": 16.14,
+    "created_at": "2026-11-16T10:23:44.422369+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-tb2y798b Awesome Gold Chicken",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 16.14,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

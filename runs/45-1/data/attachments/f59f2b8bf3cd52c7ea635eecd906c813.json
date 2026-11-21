@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gmy3l3cx Small Steel Pizza",
+    "category": "bakery",
+    "price": 7.28,
+    "stock": 13,
+    "details": {
+      "brand": "Lang, Treutel and Kunze",
+      "origin": "Yemen"
+    }
+  }
+}

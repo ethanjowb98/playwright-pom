@@ -1,0 +1,15 @@
+{
+  "id": "421b258f-999a-437a-b345-e5c2a00f25c4",
+  "product_name": "QA-1-g3uwxc08 Handcrafted Concrete Sausages",
+  "category": "bakery",
+  "price": 38.22,
+  "stock": 31,
+  "details": {
+    "brand": "Sipes LLC",
+    "origin": "Cameroon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:42.391283+00:00"
+}

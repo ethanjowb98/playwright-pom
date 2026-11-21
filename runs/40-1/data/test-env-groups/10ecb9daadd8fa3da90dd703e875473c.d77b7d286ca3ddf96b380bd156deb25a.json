@@ -1,0 +1,1 @@
+{"id":"10ecb9daadd8fa3da90dd703e875473c.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/basket.api.spec.ts › Basket API › Validation › should reject the item with 400 when product_id is missing","name":"should reject the item with 400 when product_id is missing","status":"passed","testResultsByEnv":{"default":"430f849bfe783917d598e95e27cc32e7"}}

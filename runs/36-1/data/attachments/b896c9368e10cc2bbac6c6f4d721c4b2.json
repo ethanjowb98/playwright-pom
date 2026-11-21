@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-icrqac1l Elegant Bamboo Shirt",
+    "category": "pantry",
+    "price": 3.78,
+    "stock": 44,
+    "details": {
+      "brand": "Ward, Krajcik and Weissnat-Dickinson",
+      "origin": "Panama"
+    }
+  }
+}

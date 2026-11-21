@@ -1,0 +1,15 @@
+{
+  "id": "f50e90bc-6b54-43c5-ba36-490284c6d842",
+  "product_name": "QA-1-7x5fvk31 Oriental Rubber Fish",
+  "category": "frozen",
+  "price": 33.58,
+  "stock": 31,
+  "details": {
+    "brand": "Fritsch - Roob",
+    "origin": "Tuvalu"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:19:25.80291+00:00"
+}

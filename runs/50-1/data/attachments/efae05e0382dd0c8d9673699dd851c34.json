@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "f4f01f9d-d295-4e70-bee7-dacbc1854f29",
+    "order_number": "O27532",
+    "status": "pending",
+    "total_amount": 35.27,
+    "created_at": "2026-11-20T10:48:11.869448+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-76rjqw2b Unbranded Concrete Chicken",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 35.27,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

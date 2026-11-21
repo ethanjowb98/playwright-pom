@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tosllrgf Modern Concrete Soap",
+    "category": "beverages",
+    "price": 5.3,
+    "stock": 33,
+    "details": {
+      "brand": "Langosh, Hegmann and Predovic",
+      "origin": "Bangladesh"
+    }
+  }
+}

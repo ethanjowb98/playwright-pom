@@ -1,0 +1,15 @@
+{
+  "id": "10523f59-d110-4da0-a79e-f41ef7862e70",
+  "product_name": "QA-1-u0njfbya Fresh Gold Chips",
+  "category": "bakery",
+  "price": 26.42,
+  "stock": 16,
+  "details": {
+    "brand": "Rice - Rutherford",
+    "origin": "Northern Mariana Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:39:03.417473+00:00"
+}

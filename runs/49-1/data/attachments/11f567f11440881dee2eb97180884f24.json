@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-egdxsnvn Unbranded Silk Towels",
+    "category": "snacks",
+    "price": 23.07,
+    "stock": 14,
+    "details": {
+      "brand": "MacGyver Inc",
+      "origin": "Mongolia"
+    }
+  }
+}

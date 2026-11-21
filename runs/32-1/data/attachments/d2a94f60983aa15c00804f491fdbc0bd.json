@@ -1,0 +1,15 @@
+{
+  "id": "0c858e0c-b699-4054-a7d3-81530f40abe8",
+  "product_name": "QA-2-by1ase9e sort Bravo",
+  "category": "bakery",
+  "price": 6.36,
+  "stock": 23,
+  "details": {
+    "brand": "Kutch, Bahringer and Terry",
+    "origin": "Taiwan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:51.519936+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "29e5f540-257f-4c67-aef8-d7337d9783a8",
+  "product_name": "QA-5-iicqv9tu Generic Granite Ball",
+  "category": "bakery",
+  "price": 18.07,
+  "stock": 46,
+  "details": {
+    "brand": "Jacobi, Kilback and Skiles",
+    "origin": "Monaco"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:36.532558+00:00"
+}

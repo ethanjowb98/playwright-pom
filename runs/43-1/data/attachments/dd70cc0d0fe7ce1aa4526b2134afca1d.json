@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "6c4af574-0762-430e-bf45-260509827ee5",
+    "order_number": "O53605",
+    "status": "pending",
+    "total_amount": 24.65,
+    "created_at": "2026-11-13T10:19:42.87021+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-68gh0f1r Incredible Silk Mouse",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 24.65,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

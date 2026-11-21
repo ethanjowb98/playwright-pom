@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ra9jhnku Licensed Aluminum Towels",
+    "category": "fresh-produce",
+    "price": 31.93,
+    "stock": 15,
+    "details": {
+      "brand": "Barton LLC",
+      "origin": "Cook Islands"
+    }
+  }
+}

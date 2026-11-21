@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a5nq5lbn Small Bronze Table",
+    "category": "household",
+    "price": 46.3,
+    "stock": 38,
+    "details": {
+      "brand": "O'Conner - Botsford",
+      "origin": "Monaco"
+    }
+  }
+}

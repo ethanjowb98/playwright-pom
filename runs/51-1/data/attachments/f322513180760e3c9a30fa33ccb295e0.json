@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5a41obc3 Handcrafted Gold Cheese",
+    "category": "meat-seafood",
+    "price": 34.14,
+    "stock": 25,
+    "details": {
+      "brand": "Mayer, Ruecker and Monahan",
+      "origin": "San Marino"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7k0u2anq Elegant Marble Tuna",
+    "category": "other",
+    "price": 46.54,
+    "stock": 27,
+    "details": {
+      "brand": "Koss LLC",
+      "origin": "United States of America"
+    }
+  }
+}

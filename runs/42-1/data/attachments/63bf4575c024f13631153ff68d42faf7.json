@@ -1,0 +1,15 @@
+{
+  "id": "11c7160d-9d87-4cd2-8631-0f16f2f7f27e",
+  "product_name": "QA-3-brklq31j Elegant Concrete Chair",
+  "category": "frozen",
+  "price": 22.06,
+  "stock": 44,
+  "details": {
+    "brand": "Halvorson LLC",
+    "origin": "Comoros"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:39.587743+00:00"
+}

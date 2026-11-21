@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nyu3sb0r Licensed Ceramic Cheese",
+    "category": "household",
+    "price": 39.44,
+    "stock": 29,
+    "details": {
+      "brand": "Haag Inc",
+      "origin": "Bonaire, Sint Eustatius and Saba"
+    }
+  }
+}

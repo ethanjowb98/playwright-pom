@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qi90qzru Intelligent Aluminum Chips",
+    "category": "frozen",
+    "price": 24.27,
+    "stock": 19,
+    "details": {
+      "brand": "Robel - Wiza",
+      "origin": "Finland"
+    }
+  }
+}

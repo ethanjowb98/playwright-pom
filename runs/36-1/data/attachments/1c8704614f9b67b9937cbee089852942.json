@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-pfsy162p sort Charlie",
+    "category": "beverages",
+    "price": 8.2,
+    "stock": 17,
+    "details": {
+      "brand": "Wisoky, Collins and Bergnaum-Crona",
+      "origin": "Netherlands"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qyhx7okr Ergonomic Gold Chair",
+    "category": "fresh-produce",
+    "price": 14.82,
+    "stock": 28,
+    "details": {
+      "brand": "Rutherford LLC",
+      "origin": "Micronesia"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gpni06ep Tasty Metal Towels",
+    "category": "other",
+    "price": 29.88,
+    "stock": 12,
+    "details": {
+      "brand": "Hayes LLC",
+      "origin": "Uganda"
+    }
+  }
+}

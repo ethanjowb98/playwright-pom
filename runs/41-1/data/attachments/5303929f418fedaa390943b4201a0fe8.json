@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3yygxt5y Soft Cotton Car",
+    "category": "bakery",
+    "price": 29.89,
+    "stock": 41,
+    "details": {
+      "brand": "Haag, Kshlerin and Senger",
+      "origin": "Venezuela"
+    }
+  }
+}

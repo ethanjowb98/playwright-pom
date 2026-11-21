@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "6bb102e3-bd26-4fc7-957e-93c61d44fdbf",
+    "order_number": "O83723",
+    "status": "pending",
+    "total_amount": 6.41,
+    "created_at": "2026-11-17T11:22:52.087674+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-2wmmcvrx Recycled Plastic Chicken",
+        "category": "bakery",
+        "quantity": 1,
+        "price": 6.41,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

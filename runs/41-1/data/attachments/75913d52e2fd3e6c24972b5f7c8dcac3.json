@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-3cg0k070 Oriental Bronze Sausages",
+    "category": "bakery",
+    "price": 21.08,
+    "stock": 35,
+    "details": {
+      "brand": "Hackett, Olson and Stark",
+      "origin": "Timor-Leste"
+    },
+    "weighted": false
+  }
+}

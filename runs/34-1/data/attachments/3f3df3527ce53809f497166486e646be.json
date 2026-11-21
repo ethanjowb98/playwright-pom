@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ymdx4sxv Luxurious Wooden Chips",
+    "category": "bakery",
+    "price": 42.61,
+    "stock": 22,
+    "details": {
+      "brand": "Schiller, Lubowitz and Rodriguez",
+      "origin": "Iraq"
+    }
+  }
+}

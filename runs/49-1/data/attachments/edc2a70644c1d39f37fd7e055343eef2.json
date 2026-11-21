@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ec5a7694-26e9-4836-9367-4b20cbe6646f",
+    "order_number": "O88122",
+    "status": "pending",
+    "total_amount": 42.75,
+    "created_at": "2026-11-19T10:57:16.635+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-66jyfu2x Gorgeous Marble Shoes",
+        "category": "snacks",
+        "quantity": 3,
+        "price": 14.25,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

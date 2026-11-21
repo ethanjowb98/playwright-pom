@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-rfzv32e4 Elegant Wooden Chicken",
+    "category": "pantry",
+    "price": 32.65,
+    "stock": 15,
+    "details": {
+      "brand": "Jerde LLC",
+      "origin": "Bolivia"
+    }
+  }
+}

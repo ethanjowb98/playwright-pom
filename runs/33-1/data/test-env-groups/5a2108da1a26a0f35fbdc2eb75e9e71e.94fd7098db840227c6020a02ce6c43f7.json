@@ -1,0 +1,1 @@
+{"id":"5a2108da1a26a0f35fbdc2eb75e9e71e.94fd7098db840227c6020a02ce6c43f7","fullName":"e2e/login.spec.ts › Login › should block the submit and stay on the home page when the login form is empty","name":"should block the submit and stay on the home page when the login form is empty","status":"passed","testResultsByEnv":{"default":"907ce9d4a1ba8cbadaadfd5ef65a0216"}}

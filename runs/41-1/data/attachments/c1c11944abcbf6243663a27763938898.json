@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-kb6fddea Practical Ceramic Chips",
+    "category": "bakery",
+    "price": 24.69,
+    "stock": "x",
+    "details": {
+      "brand": "Wilderman - Buckridge",
+      "origin": "Puerto Rico"
+    }
+  }
+}

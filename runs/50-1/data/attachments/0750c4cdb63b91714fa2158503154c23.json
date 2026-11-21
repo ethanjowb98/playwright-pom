@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "e5a0f0ad-ba27-44c6-b7f7-56db153ad21a",
+    "order_number": "O95733",
+    "status": "pending",
+    "total_amount": 32.6,
+    "created_at": "2026-11-20T10:48:05.398081+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-zb02u8du Small Granite Towels",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 32.6,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

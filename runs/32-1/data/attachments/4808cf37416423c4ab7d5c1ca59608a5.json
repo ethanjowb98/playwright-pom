@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-770x4d4s Modern Steel Keyboard",
+    "category": "meat-seafood",
+    "price": 39.79,
+    "stock": 20,
+    "details": {
+      "brand": "Thompson Inc",
+      "origin": "Zimbabwe"
+    }
+  }
+}

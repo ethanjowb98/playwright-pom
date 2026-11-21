@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-iizzyd2n Modern Wooden Hat",
+    "category": "household",
+    "price": 34.95,
+    "stock": 0,
+    "details": {
+      "brand": "Bailey, Kunde and Rodriguez",
+      "origin": "Iraq"
+    }
+  }
+}

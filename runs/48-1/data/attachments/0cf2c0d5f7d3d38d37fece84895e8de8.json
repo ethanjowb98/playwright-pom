@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-fzmydkwt Electronic Plastic Salad",
+    "category": "snacks",
+    "price": 19.53,
+    "stock": 15,
+    "details": {
+      "brand": "Steuber and Sons",
+      "origin": "Latvia"
+    },
+    "weighted": true
+  }
+}

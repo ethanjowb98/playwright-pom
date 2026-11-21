@@ -1,0 +1,15 @@
+{
+  "id": "00bef466-b17f-46f9-bb1e-48c38ec37d47",
+  "product_name": "QA-1-z6gkqt6y Tasty Cotton Chair",
+  "category": "fresh-produce",
+  "price": 18.81,
+  "stock": 2,
+  "details": {
+    "brand": "Pollich - Harris-Auer",
+    "origin": "Hungary"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:01:01.912254+00:00"
+}

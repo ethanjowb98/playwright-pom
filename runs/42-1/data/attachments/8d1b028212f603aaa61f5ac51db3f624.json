@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zsu6huhz Fantastic Bronze Ball",
+    "category": "beverages",
+    "price": 34,
+    "stock": 38,
+    "details": {
+      "brand": "Langosh, Zulauf and Lubowitz",
+      "origin": "Nicaragua"
+    }
+  }
+}

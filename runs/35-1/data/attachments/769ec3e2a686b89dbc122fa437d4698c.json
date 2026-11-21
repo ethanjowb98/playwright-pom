@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-purmjll4 Handcrafted Cotton Gloves",
+    "category": "household",
+    "price": 27.36,
+    "stock": 45,
+    "details": {
+      "brand": "Pouros and Sons",
+      "origin": "Burundi"
+    }
+  }
+}

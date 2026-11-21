@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-vx6fzhmc sort Charlie",
+    "category": "meat-seafood",
+    "price": 31.16,
+    "stock": 16,
+    "details": {
+      "brand": "Fadel LLC",
+      "origin": "Mongolia"
+    }
+  }
+}

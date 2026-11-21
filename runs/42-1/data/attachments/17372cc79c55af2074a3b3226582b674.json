@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dzqgipte Small Granite Fish",
+    "category": "dairy-eggs",
+    "price": 35.12,
+    "stock": 27,
+    "details": {
+      "brand": "Mayert - McClure",
+      "origin": "Poland"
+    }
+  }
+}

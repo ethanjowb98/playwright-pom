@@ -1,0 +1,19 @@
+{
+  "id": "38c57ba5-c892-4405-8416-1542b6c78597",
+  "order_number": "O80774",
+  "status": "cancelled",
+  "total_amount": 76.11,
+  "notes": null,
+  "created_at": "2026-11-18T10:55:58.816305+00:00",
+  "updated_at": "2026-11-18T10:55:58.816305+00:00",
+  "items": [
+    {
+      "product_id": "40caf5ad-046a-40ea-a4a9-ef030ed77c69",
+      "product_name": "QA-1-zhz147w8 Sleek Rubber Shirt",
+      "category": "household",
+      "quantity": 3,
+      "price": 25.37,
+      "temperature_zone": null
+    }
+  ]
+}

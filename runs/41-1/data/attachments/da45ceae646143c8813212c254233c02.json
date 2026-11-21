@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e2s3cttw Refined Gold Car",
+    "category": "other",
+    "price": 22.4,
+    "stock": 47,
+    "details": {
+      "brand": "Konopelski, Blick and Erdman",
+      "origin": "Luxembourg"
+    }
+  }
+}

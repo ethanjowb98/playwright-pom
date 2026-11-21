@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-igv5xfln Handcrafted Plastic Shirt",
+    "category": "bakery",
+    "price": 35.53,
+    "stock": 39,
+    "details": {
+      "brand": "Dach, Roob and Breitenberg",
+      "origin": "United States of America"
+    }
+  }
+}

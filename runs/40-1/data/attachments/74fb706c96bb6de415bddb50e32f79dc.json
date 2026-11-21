@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-4xdage68 Licensed Metal Gloves",
+    "category": "bakery",
+    "price": 5.16,
+    "stock": 22,
+    "details": {
+      "brand": "Bartell - Johnston",
+      "origin": "Burkina Faso"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

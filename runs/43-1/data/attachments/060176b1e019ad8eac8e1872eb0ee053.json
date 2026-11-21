@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-apz7qbrz Licensed Bamboo Table",
+    "category": "meat-seafood",
+    "price": 48.79,
+    "stock": 10,
+    "details": {
+      "brand": "Olson Inc",
+      "origin": "Israel"
+    }
+  }
+}

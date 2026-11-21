@@ -1,0 +1,15 @@
+{
+  "id": "d90c1239-ed7c-41d3-847c-f30ab24a68f3",
+  "product_name": "QA-1-9coye5l7 Intelligent Gold Car",
+  "category": "frozen",
+  "price": 38.15,
+  "stock": 45,
+  "details": {
+    "brand": "Wolff, Boyle and Cassin",
+    "origin": "Northern Mariana Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:11:49.56061+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yu5fkehl Tasty Cotton Shirt",
+    "category": "fresh-produce",
+    "price": 33.68,
+    "stock": 14,
+    "details": {
+      "brand": "Stamm, O'Hara-Veum and Dickinson",
+      "origin": "Austria"
+    }
+  }
+}

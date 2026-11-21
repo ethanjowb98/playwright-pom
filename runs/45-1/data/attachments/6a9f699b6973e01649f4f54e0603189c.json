@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-b62r4kuw sort Bravo",
+    "category": "pantry",
+    "price": 15.96,
+    "stock": 44,
+    "details": {
+      "brand": "Treutel - Rogahn",
+      "origin": "Guadeloupe"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v43y9ewu Oriental Rubber Towels",
+    "category": "beverages",
+    "price": 3.76,
+    "stock": 29,
+    "details": {
+      "brand": "Kuhic Group",
+      "origin": "Bosnia and Herzegovina"
+    }
+  }
+}

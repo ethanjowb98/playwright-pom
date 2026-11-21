@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fokf2xud sort Charlie",
+    "category": "dairy-eggs",
+    "price": 47.46,
+    "stock": 48,
+    "details": {
+      "brand": "Wintheiser Group",
+      "origin": "Turks and Caicos Islands"
+    }
+  }
+}

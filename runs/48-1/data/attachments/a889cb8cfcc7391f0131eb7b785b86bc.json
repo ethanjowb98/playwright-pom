@@ -1,0 +1,15 @@
+{
+  "id": "71c0a4c6-3d2f-430a-bbbd-82d46c21a2f4",
+  "product_name": "QA-1-q975g4gz Elegant Metal Tuna",
+  "category": "fresh-produce",
+  "price": 1.23,
+  "stock": 15,
+  "details": {
+    "brand": "Harvey - Aufderhar",
+    "origin": "Guinea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:58.021662+00:00"
+}

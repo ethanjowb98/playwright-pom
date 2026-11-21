@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "household",
+    "price": 27.87,
+    "stock": 38,
+    "details": {
+      "brand": "Roob - Runolfsson",
+      "origin": "Germany"
+    }
+  }
+}

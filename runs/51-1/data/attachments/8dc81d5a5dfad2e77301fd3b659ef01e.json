@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j8751dhq Refined Bamboo Car",
+    "category": "other",
+    "price": 17.71,
+    "stock": 46,
+    "details": {
+      "brand": "Jacobi, Smitham and Goldner",
+      "origin": "Rwanda"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "snacks",
+    "price": 26.87,
+    "stock": 20,
+    "details": {
+      "brand": "Toy, Mraz and Dickens",
+      "origin": "Tonga"
+    }
+  }
+}

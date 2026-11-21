@@ -1,0 +1,15 @@
+{
+  "id": "89a626da-d4ac-4ac0-ad77-5217ef019efa",
+  "product_name": "QA-8-8dqt1ti4 sort Charlie",
+  "category": "household",
+  "price": 18.89,
+  "stock": 39,
+  "details": {
+    "brand": "Davis Group",
+    "origin": "Guinea-Bissau"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:41.409573+00:00"
+}

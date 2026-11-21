@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mfv7eh3h Handcrafted Plastic Chicken",
+    "category": "fresh-produce",
+    "price": 8.31,
+    "stock": 35,
+    "details": {
+      "brand": "Schultz, Huel and Price",
+      "origin": "Belarus"
+    }
+  }
+}

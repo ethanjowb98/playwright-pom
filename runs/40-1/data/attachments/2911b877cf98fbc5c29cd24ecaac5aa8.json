@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-8trj71yi sort Bravo",
+    "category": "beverages",
+    "price": 8.4,
+    "stock": 42,
+    "details": {
+      "brand": "Grady - Labadie",
+      "origin": "Antarctica"
+    }
+  }
+}

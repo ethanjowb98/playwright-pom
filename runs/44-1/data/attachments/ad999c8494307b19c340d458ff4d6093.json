@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c8thi128 Luxurious Bronze Sausages",
+    "category": "household",
+    "price": 40.67,
+    "stock": 50,
+    "details": {
+      "brand": "Maggio LLC",
+      "origin": "Puerto Rico"
+    }
+  }
+}

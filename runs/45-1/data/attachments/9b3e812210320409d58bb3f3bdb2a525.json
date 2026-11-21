@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-ifs5l9fj Licensed Aluminum Cheese",
+    "category": "snacks",
+    "price": 36.17,
+    "stock": 41,
+    "details": {
+      "brand": "Rau LLC",
+      "origin": "Tokelau"
+    },
+    "weighted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pboseh3y Sleek Concrete Fish",
+    "category": "dairy-eggs",
+    "price": 17.22,
+    "stock": 48,
+    "details": {
+      "brand": "Cassin LLC",
+      "origin": "French Southern Territories"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4e33rh26 Generic Concrete Pants",
+    "category": "household",
+    "price": 14.31,
+    "stock": 39,
+    "details": {
+      "brand": "Nitzsche Group",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

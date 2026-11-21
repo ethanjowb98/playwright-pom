@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-44o087si Practical Bronze Chips",
+    "category": "fresh-produce",
+    "price": 40.98,
+    "stock": 44,
+    "details": {
+      "brand": "Heaney - Runolfsdottir",
+      "origin": "Belize"
+    }
+  }
+}

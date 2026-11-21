@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y1buyph7 Handmade Granite Table",
+    "category": "snacks",
+    "price": 13.41,
+    "stock": 24,
+    "details": {
+      "brand": "Turner - Swaniawski",
+      "origin": "Uruguay"
+    }
+  }
+}

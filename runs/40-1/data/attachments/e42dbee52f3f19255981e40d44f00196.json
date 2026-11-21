@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ed97t4n Tasty Steel Bacon",
+    "category": "pantry",
+    "price": 42.11,
+    "stock": 37,
+    "details": {
+      "brand": "Gutmann - Torp",
+      "origin": "Uganda"
+    }
+  }
+}

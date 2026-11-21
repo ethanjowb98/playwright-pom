@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tji03lna Refined Steel Shirt",
+    "category": "frozen",
+    "price": 24.76,
+    "stock": 48,
+    "details": {
+      "brand": "Gislason Inc",
+      "origin": "Egypt"
+    }
+  }
+}

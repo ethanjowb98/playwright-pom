@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kosted0y Practical Metal Computer",
+    "category": "dairy-eggs",
+    "price": 15.37,
+    "stock": 37,
+    "details": {
+      "brand": "Beahan - Kuhic",
+      "origin": "Ethiopia"
+    }
+  }
+}

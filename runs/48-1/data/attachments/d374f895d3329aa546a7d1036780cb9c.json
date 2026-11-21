@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dxppl6bz Recycled Marble Bike",
+    "category": "dairy-eggs",
+    "price": 3.18,
+    "stock": 2,
+    "details": {
+      "brand": "Reinger, Johnston and Hegmann",
+      "origin": "Haiti"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "f07dd7b9-e372-4326-a3e3-819fc76343fa",
+  "order_number": "O18555",
+  "status": "processing",
+  "total_amount": 44.8,
+  "notes": null,
+  "created_at": "2026-11-05T10:03:56.737568+00:00",
+  "updated_at": "2026-11-05T10:03:56.737568+00:00",
+  "items": [
+    {
+      "product_id": "c7548611-bd18-4335-b11a-e62310350e46",
+      "product_name": "QA-1-35tarsh4 Modern Ceramic Pizza",
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "price": 22.4,
+      "temperature_zone": null
+    }
+  ]
+}

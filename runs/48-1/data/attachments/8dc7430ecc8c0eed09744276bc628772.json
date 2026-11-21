@@ -1,0 +1,15 @@
+{
+  "id": "76f00704-3993-4b9f-82b0-792f841ed95c",
+  "product_name": "QA-8-60i4mfk8 sort Charlie",
+  "category": "household",
+  "price": 42.15,
+  "stock": 23,
+  "details": {
+    "brand": "Boyle, Huels and Reinger",
+    "origin": "Wallis and Futuna"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:11.911647+00:00"
+}

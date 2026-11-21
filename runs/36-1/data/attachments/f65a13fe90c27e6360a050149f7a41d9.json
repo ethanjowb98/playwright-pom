@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-t3sd2fuy Incredible Aluminum Chair",
+    "category": "dairy-eggs",
+    "price": 45.21,
+    "stock": 1.5,
+    "details": {
+      "brand": "Koch - Lakin",
+      "origin": "South Sudan"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zhh1unro Tasty Ceramic Chicken",
+    "category": "meat-seafood",
+    "price": 30.74,
+    "stock": 2,
+    "details": {
+      "brand": "Hickle - Orn",
+      "origin": "Chad"
+    }
+  }
+}

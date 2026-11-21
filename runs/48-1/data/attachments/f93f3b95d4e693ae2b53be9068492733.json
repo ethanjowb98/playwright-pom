@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-si74fr12 Handcrafted Concrete Chair",
+    "category": "frozen",
+    "price": 5.59,
+    "stock": 10,
+    "details": {
+      "brand": "Paucek, Rice and Brown",
+      "origin": "Gabon"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

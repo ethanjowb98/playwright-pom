@@ -1,0 +1,15 @@
+{
+  "id": "657cb110-96ee-4a2a-9447-9ae3b867a0c3",
+  "product_name": "QA-3-1svi8gj9 sort Charlie",
+  "category": "fresh-produce",
+  "price": 47.21,
+  "stock": 47,
+  "details": {
+    "brand": "Bins-Renner and Sons",
+    "origin": "Japan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:17.042691+00:00"
+}

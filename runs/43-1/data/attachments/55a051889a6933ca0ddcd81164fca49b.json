@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wm90bzzg Bespoke Cotton Cheese",
+    "category": "household",
+    "price": 8.05,
+    "stock": 27,
+    "details": {
+      "brand": "Graham - Morar",
+      "origin": "India"
+    }
+  }
+}

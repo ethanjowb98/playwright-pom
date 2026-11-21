@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rt9v0059 Rustic Bronze Computer",
+    "category": "beverages",
+    "price": 22.1,
+    "stock": 25,
+    "details": {
+      "brand": "Dietrich - Littel",
+      "origin": "Nauru"
+    }
+  }
+}

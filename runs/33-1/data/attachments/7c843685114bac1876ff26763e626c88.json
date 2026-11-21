@@ -1,0 +1,15 @@
+{
+  "id": "cf4c8481-d83d-4e71-abf0-dce8a482db99",
+  "product_name": "QA-1-rfg3whp0 Luxurious Silk Chicken",
+  "category": "bakery",
+  "price": 34.83,
+  "stock": 45,
+  "details": {
+    "brand": "Strosin, Gutkowski and Glover",
+    "origin": "Sierra Leone"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:26:56.761616+00:00"
+}

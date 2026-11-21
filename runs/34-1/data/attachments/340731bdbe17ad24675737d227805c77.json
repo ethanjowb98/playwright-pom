@@ -1,0 +1,15 @@
+{
+  "id": "a1f5c44c-e6ec-4ccf-ab82-a31b3135c070",
+  "product_name": "QA-2-i2i99s7w Awesome Silk Mouse",
+  "category": "meat-seafood",
+  "price": 38.09,
+  "stock": 33,
+  "details": {
+    "brand": "Weissnat, Dickens and Schulist",
+    "origin": "Cambodia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:57.607954+00:00"
+}

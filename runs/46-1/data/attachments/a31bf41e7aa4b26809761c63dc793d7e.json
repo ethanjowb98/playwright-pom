@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dx0rwm23 Fantastic Plastic Ball",
+    "category": "meat-seafood",
+    "price": 44.84,
+    "stock": 16,
+    "details": {
+      "brand": "West and Sons",
+      "origin": "Cameroon"
+    }
+  }
+}

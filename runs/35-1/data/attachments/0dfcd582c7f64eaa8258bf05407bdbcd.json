@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-49jwm41b Rustic Wooden Pants",
+    "category": "bakery",
+    "price": 29.87,
+    "stock": 13,
+    "details": {
+      "brand": "Schumm, Hickle and Bergstrom",
+      "origin": "Sri Lanka"
+    }
+  }
+}

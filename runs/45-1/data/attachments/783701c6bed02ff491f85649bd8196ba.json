@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-sccmffff Unbranded Granite Tuna",
+    "category": "meat-seafood",
+    "price": 34.14,
+    "stock": 13,
+    "details": {
+      "brand": "Krajcik Inc",
+      "origin": "Montserrat"
+    }
+  }
+}

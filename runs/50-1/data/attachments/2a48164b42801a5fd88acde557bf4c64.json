@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mb3dx1io Bespoke Cotton Tuna",
+    "category": "household",
+    "price": 1.08,
+    "stock": 29,
+    "details": {
+      "brand": "Hane - Klein",
+      "origin": "Anguilla"
+    }
+  }
+}

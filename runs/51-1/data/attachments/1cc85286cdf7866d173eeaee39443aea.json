@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2an5p62l Gorgeous Granite Towels",
+    "category": "dairy-eggs",
+    "price": 22.08,
+    "stock": 23,
+    "details": {
+      "brand": "Ward - Halvorson",
+      "origin": "Åland Islands"
+    }
+  }
+}

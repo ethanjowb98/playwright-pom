@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kjtq1jw8 Soft Plastic Chips",
+    "category": "bakery",
+    "price": 27.16,
+    "stock": 28,
+    "details": {
+      "brand": "Greenholt and Sons",
+      "origin": "Australia"
+    }
+  }
+}

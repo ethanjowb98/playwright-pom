@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zigxilng Licensed Ceramic Chips",
+    "category": "meat-seafood",
+    "price": 1.22,
+    "stock": 14,
+    "details": {
+      "brand": "Hintz - Murphy",
+      "origin": "Norfolk Island"
+    }
+  }
+}

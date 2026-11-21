@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zjd7cs9n Rustic Cotton Tuna",
+    "category": "frozen",
+    "price": 49.81,
+    "stock": 31,
+    "details": {
+      "brand": "Price - Bogisich",
+      "origin": "Saint Martin"
+    }
+  }
+}

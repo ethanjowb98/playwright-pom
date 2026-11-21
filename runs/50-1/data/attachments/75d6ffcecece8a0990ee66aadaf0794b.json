@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "39a573ca-7b2d-40e1-9a4c-864edbb8913a",
+    "order_number": "O47337",
+    "status": "pending",
+    "total_amount": 28.72,
+    "created_at": "2026-11-20T10:46:33.259362+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-j61lxqdp Incredible Gold Towels",
+        "category": "frozen",
+        "quantity": 1,
+        "price": 28.72,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

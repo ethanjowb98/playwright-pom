@@ -1,0 +1,15 @@
+{
+  "id": "5a052daf-601e-437c-97cb-4faab96bdb34",
+  "product_name": "QA-1-2q3z5n6p Modern Silk Tuna",
+  "category": "meat-seafood",
+  "price": 16.61,
+  "stock": 14,
+  "details": {
+    "brand": "Cartwright and Sons",
+    "origin": "Pitcairn Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:30:29.141433+00:00"
+}

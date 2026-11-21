@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-86ol30di Handcrafted Steel Soap",
+    "category": "fresh-produce",
+    "price": 14.41,
+    "stock": 36,
+    "details": {
+      "brand": "Hudson, MacGyver and Sauer",
+      "origin": "Sint Maarten"
+    }
+  }
+}

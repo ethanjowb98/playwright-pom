@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-5ef1nxg7 Recycled Bamboo Gloves",
+    "category": "bakery",
+    "price": 43.97,
+    "stock": 50,
+    "details": {
+      "brand": "Hoeger, Berge and Gibson",
+      "origin": "Faroe Islands"
+    },
+    "weighted": false
+  }
+}

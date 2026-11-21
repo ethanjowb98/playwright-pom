@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q3sg1x5z Handmade Cotton Salad",
+    "category": "beverages",
+    "price": 18.56,
+    "stock": 42,
+    "details": {
+      "brand": "Parker - Hilll",
+      "origin": "Albania"
+    }
+  }
+}

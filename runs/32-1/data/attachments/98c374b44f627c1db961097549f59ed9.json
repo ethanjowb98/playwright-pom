@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-iyw0pdnf Handcrafted Steel Keyboard",
+    "category": "household",
+    "price": 35.9,
+    "stock": 40,
+    "details": {
+      "brand": "Gutkowski - Greenfelder",
+      "origin": "Croatia"
+    }
+  }
+}

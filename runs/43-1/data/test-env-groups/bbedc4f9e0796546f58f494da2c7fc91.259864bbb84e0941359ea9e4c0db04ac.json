@@ -1,0 +1,1 @@
+{"id":"bbedc4f9e0796546f58f494da2c7fc91.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/products.api.spec.ts › Products API › Create › should reject the product with 400 when price is negative","name":"should reject the product with 400 when price is negative","status":"skipped","testResultsByEnv":{"default":"d4a45c574a00c08a56578efacae64a73"}}

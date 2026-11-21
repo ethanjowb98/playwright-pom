@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rjya1cdw Fantastic Marble Shirt",
+    "category": "beverages",
+    "price": 5.61,
+    "stock": 13,
+    "details": {
+      "brand": "Tromp LLC",
+      "origin": "Luxembourg"
+    }
+  }
+}

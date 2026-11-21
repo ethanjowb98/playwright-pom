@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8fpgqq0n Sleek Concrete Table",
+    "category": "snacks",
+    "price": 17.71,
+    "stock": 41,
+    "details": {
+      "brand": "Thiel, Wiegand and Dooley",
+      "origin": "Togo"
+    }
+  }
+}

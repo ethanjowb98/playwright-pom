@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gbua2fqh Recycled Gold Hat",
+    "category": "frozen",
+    "price": 33.6,
+    "stock": 10,
+    "details": {
+      "brand": "Grady-Schneider and Sons",
+      "origin": "Guadeloupe"
+    }
+  }
+}

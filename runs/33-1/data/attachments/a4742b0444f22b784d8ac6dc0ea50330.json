@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zhax2xx5 Refined Plastic Ball",
+    "category": "household",
+    "price": 5.27,
+    "stock": 31,
+    "details": {
+      "brand": "Hammes, Gibson and Gislason-Kris",
+      "origin": "Virgin Islands, British"
+    }
+  }
+}

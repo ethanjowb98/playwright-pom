@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-3a3weydd Modern Plastic Chicken",
+    "category": "bakery",
+    "price": 13.45,
+    "stock": 10,
+    "details": {
+      "brand": "Von - Harris",
+      "origin": "French Southern Territories"
+    }
+  }
+}

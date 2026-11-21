@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ut03vu4b Electronic Concrete Chips",
+    "category": "beverages",
+    "price": 47.32,
+    "stock": 2,
+    "details": {
+      "brand": "Larson, Corkery and Raynor",
+      "origin": "Bangladesh"
+    }
+  }
+}

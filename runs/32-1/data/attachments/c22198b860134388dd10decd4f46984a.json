@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s1148k0b Ergonomic Bronze Fish",
+    "category": "frozen",
+    "price": 46.45,
+    "stock": 21,
+    "details": {
+      "brand": "Mayer, Larkin and Marvin",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

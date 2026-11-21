@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "7e2dc3ec-c8f4-4e79-9323-c685fa44fbc2",
+      "product_id": "9d0fe1ba-914c-46b4-ad8f-855d68695147",
+      "product_name": "QA-1-t7qdcks5 Tasty Aluminum Gloves",
+      "price": 7.58,
+      "category": "bakery",
+      "quantity": 2,
+      "created_at": "2026-11-05T08:20:23.347238+00:00",
+      "updated_at": "2026-11-05T08:20:23.347238+00:00"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "a66d7b7a-13fd-4ab0-99de-4681c154280c",
+  "product_name": "QA-1-wf6unq0z Fresh Wooden Gloves",
+  "category": "snacks",
+  "price": 13.37,
+  "stock": 29,
+  "details": {
+    "brand": "Luettgen Inc",
+    "origin": "Nauru"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:55:43.16886+00:00"
+}

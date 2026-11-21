@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-u3pl0t8r Handcrafted Metal Soap",
+    "category": "meat-seafood",
+    "price": 43.26,
+    "stock": 41,
+    "details": {
+      "brand": "Bartell, Lynch-Greenfelder and Hoppe",
+      "origin": "Algeria"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-fpzdkybs Gorgeous Gold Keyboard",
+    "category": "bakery",
+    "price": 3.29,
+    "stock": 48,
+    "details": {
+      "brand": "Kunze - Yost",
+      "origin": "Democratic Republic of the Congo"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-z0n6spfa Refined Gold Cheese",
+    "category": "other",
+    "price": 28.86,
+    "stock": 19,
+    "details": {
+      "brand": "Larson, Cruickshank and Bauch",
+      "origin": "Tuvalu"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ecd9sdwg Licensed Ceramic Car",
+    "category": "bakery",
+    "price": 27.03,
+    "stock": 20,
+    "details": {
+      "brand": "Wisoky Group",
+      "origin": "Uganda"
+    }
+  }
+}

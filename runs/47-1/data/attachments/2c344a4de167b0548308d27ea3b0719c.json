@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "6bb102e3-bd26-4fc7-957e-93c61d44fdbf",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "delivered",
+    "total_amount": 6.41,
+    "notes": null,
+    "created_at": "2026-11-17T11:22:52.087674+00:00",
+    "updated_at": "2026-11-17T11:22:52.087674+00:00",
+    "order_number": "O83723"
+  }
+}

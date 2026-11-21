@@ -1,0 +1,15 @@
+{
+  "id": "d5cc68df-d680-418c-baa7-f0e16b0f681b",
+  "product_name": "QA-2-235oa03j Fresh Cotton Gloves",
+  "category": "meat-seafood",
+  "price": 44.91,
+  "stock": 0,
+  "details": {
+    "brand": "Rohan, Pouros and D'Amore",
+    "origin": "Australia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:33.613331+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s6x95duh Generic Bronze Chips",
+    "category": "household",
+    "price": 49.14,
+    "stock": 16,
+    "details": {
+      "brand": "Dooley Group",
+      "origin": "Cook Islands"
+    }
+  }
+}

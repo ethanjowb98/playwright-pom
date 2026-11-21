@@ -1,0 +1,19 @@
+{
+  "id": "70d2c7b4-0779-4a36-8f61-d848d635c33f",
+  "order_number": "O15885",
+  "status": "pending",
+  "total_amount": 122.16,
+  "notes": "updated",
+  "created_at": "2026-11-05T10:04:34.482343+00:00",
+  "updated_at": "2026-11-05T10:04:34.482343+00:00",
+  "items": [
+    {
+      "product_id": "af47c300-9e3d-48de-b251-a563193e7f1c",
+      "product_name": "QA-1-7af6v37y Awesome Aluminum Towels",
+      "category": "frozen",
+      "quantity": 3,
+      "price": 40.72,
+      "temperature_zone": null
+    }
+  ]
+}

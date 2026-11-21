@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-r7d7ja60 Awesome Bronze Towels",
+    "category": "frozen",
+    "price": 24.84,
+    "stock": 16,
+    "details": {
+      "brand": "Romaguera Inc",
+      "origin": "Ukraine"
+    }
+  }
+}

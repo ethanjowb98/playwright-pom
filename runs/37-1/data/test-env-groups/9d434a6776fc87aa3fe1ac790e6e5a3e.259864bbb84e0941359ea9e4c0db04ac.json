@@ -1,0 +1,1 @@
+{"id":"9d434a6776fc87aa3fe1ac790e6e5a3e.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › should return 401 when a product is updated with a invalid api key","name":"should return 401 when a product is updated with a invalid api key","status":"passed","testResultsByEnv":{"default":"1de3adf54ce3561e003d099f7a8f2a8a"}}

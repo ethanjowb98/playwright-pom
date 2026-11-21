@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hos8hycn Rustic Ceramic Shoes",
+    "category": "meat-seafood",
+    "price": 44.5,
+    "stock": 47,
+    "details": {
+      "brand": "Wisozk Inc",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-5d2p4x5c Small Silk Soap",
+    "price": 8.7,
+    "stock": 20,
+    "details": {
+      "brand": "Keeling, Blanda and Beahan",
+      "origin": "Norway"
+    }
+  }
+}

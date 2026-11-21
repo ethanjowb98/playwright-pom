@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y1xnlhtm Tasty Gold Table",
+    "category": "household",
+    "price": 35.27,
+    "stock": 22,
+    "details": {
+      "brand": "Yost - Krajcik",
+      "origin": "Tonga"
+    }
+  }
+}

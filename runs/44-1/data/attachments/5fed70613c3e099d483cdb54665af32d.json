@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3olxztsk Practical Gold Tuna",
+    "category": "household",
+    "price": 45.85,
+    "stock": 44,
+    "details": {
+      "brand": "Kohler Group",
+      "origin": "French Southern Territories"
+    }
+  }
+}

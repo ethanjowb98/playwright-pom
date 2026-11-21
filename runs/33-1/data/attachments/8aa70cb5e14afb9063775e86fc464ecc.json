@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-nicoyd38 Generic Silk Bike",
+    "category": "meat-seafood",
+    "price": 24.32,
+    "stock": 18,
+    "details": {
+      "batch": "QA-4-qe7t0acl batch"
+    }
+  }
+}

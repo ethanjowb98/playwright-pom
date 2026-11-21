@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-6sbgjc4s Unbranded Granite Chair",
+    "category": "dairy-eggs",
+    "price": 24.07,
+    "stock": 40,
+    "details": {
+      "brand": "Hodkiewicz - Will",
+      "origin": "Kenya"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "4acf9781-4ea2-48f2-b1fb-da75bf783168",
+  "product_name": "QA-1-vz14pywc Fantastic Silk Mouse",
+  "category": "dairy-eggs",
+  "price": 10.23,
+  "stock": 37,
+  "details": {
+    "brand": "Mante Inc",
+    "origin": "Timor-Leste"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:25:00.744752+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "4842fc44-2fbb-4872-a645-42af0b2375c8",
+  "product_name": "QA-1-f75jxr9u Luxurious Silk Pizza",
+  "category": "frozen",
+  "price": 40.1,
+  "stock": 34,
+  "details": {
+    "brand": "Johnston - Okuneva",
+    "origin": "Central African Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:30:16.339564+00:00"
+}

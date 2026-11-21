@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "bc4167aa-fc8e-4f82-80e4-2cd0deffee56",
+      "product_id": "4fcdea92-d34b-474a-b0ea-8011ffedfdf5",
+      "product_name": "QA-1-0ugx2lw8 Elegant Ceramic Ball",
+      "price": 10.35,
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:57:33.096364+00:00",
+      "updated_at": "2026-11-18T10:57:33.096364+00:00"
+    },
+    {
+      "id": "0f9c8a9e-7eb7-4e2e-97e6-cd176b58a4bf",
+      "product_id": "ca7a826d-ed7f-4ce9-a794-f342ca979ede",
+      "product_name": "QA-1-qpt7ix04 Practical Marble Computer",
+      "price": 40.2,
+      "category": "pantry",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:57:33.844019+00:00",
+      "updated_at": "2026-11-18T10:57:33.844019+00:00"
+    }
+  ]
+}

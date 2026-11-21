@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-ckk3x757 Generic Gold Chips",
+    "category": "fresh-produce",
+    "price": 9.89,
+    "stock": 10,
+    "details": {
+      "brand": "Kirlin-Schultz Group",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6n2z9mfg Handcrafted Steel Bike",
+    "category": "bakery",
+    "price": 46.13,
+    "stock": 39,
+    "details": {
+      "brand": "Johns-Schulist Inc",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

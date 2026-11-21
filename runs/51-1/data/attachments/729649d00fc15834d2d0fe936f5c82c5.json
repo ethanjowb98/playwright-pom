@@ -1,0 +1,15 @@
+{
+  "id": "ca296836-45ac-4eed-ba2c-15eb3118c2e4",
+  "product_name": "QA-2-5disdfii Practical Bronze Table",
+  "category": "other",
+  "price": 25.56,
+  "stock": 34,
+  "details": {
+    "brand": "Schmeler - Leffler",
+    "origin": "Hong Kong"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:42.342525+00:00"
+}

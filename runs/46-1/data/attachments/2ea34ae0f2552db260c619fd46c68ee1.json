@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g8e1z3tk Refined Marble Keyboard",
+    "category": "bakery",
+    "price": 15.1,
+    "stock": 11,
+    "details": {
+      "brand": "Russel, Volkman and Carroll",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

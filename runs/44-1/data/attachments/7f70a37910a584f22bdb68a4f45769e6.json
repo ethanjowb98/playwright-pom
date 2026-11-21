@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-e5hwjlei Elegant Concrete Ball",
+    "category": "snacks",
+    "price": 29.36,
+    "stock": 39,
+    "details": {
+      "brand": "Stracke, Dooley and Cronin",
+      "origin": "Tonga"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "40f29b5f-0a6d-4b3c-a23c-06d1c785b388",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "shipped",
+    "total_amount": 13.74,
+    "notes": null,
+    "created_at": "2026-11-18T10:56:04.333557+00:00",
+    "updated_at": "2026-11-18T10:56:04.333557+00:00",
+    "order_number": "O21462"
+  }
+}

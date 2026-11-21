@@ -1,0 +1,15 @@
+{
+  "id": "3fb90178-054e-443b-a706-5bef47436d77",
+  "product_name": "QA-5-neyep8a7 sort Alpha",
+  "category": "dairy-eggs",
+  "price": 6.98,
+  "stock": 28,
+  "details": {
+    "brand": "Padberg Group",
+    "origin": "Costa Rica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:45.723959+00:00"
+}

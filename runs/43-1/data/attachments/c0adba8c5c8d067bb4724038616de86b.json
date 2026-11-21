@@ -1,0 +1,15 @@
+{
+  "id": "7f72b9da-92d8-4494-b080-1e260250b648",
+  "product_name": "QA-3-sa6d9qfc Elegant Wooden Sausages",
+  "category": "meat-seafood",
+  "price": 4.58,
+  "stock": 38,
+  "details": {
+    "brand": "Schmeler - Denesik",
+    "origin": "Nicaragua"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:42.766848+00:00"
+}

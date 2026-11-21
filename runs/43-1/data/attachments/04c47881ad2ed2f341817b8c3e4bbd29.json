@@ -1,0 +1,15 @@
+{
+  "id": "23f99fd7-8ee5-4a36-869a-f72d19b24e32",
+  "product_name": "QA-1-px7uh11y Small Wooden Tuna",
+  "category": "dairy-eggs",
+  "price": 30.42,
+  "stock": 49,
+  "details": {
+    "brand": "Bode - Bartell",
+    "origin": "Eritrea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:21:31.884833+00:00"
+}

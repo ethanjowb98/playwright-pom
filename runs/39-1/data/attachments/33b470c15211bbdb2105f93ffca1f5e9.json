@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-hze9iqg9 Generic Silk Bike",
+    "category": "household",
+    "price": 15.06,
+    "stock": 23,
+    "details": {
+      "brand": "Balistreri, Konopelski and Kemmer",
+      "origin": "Jersey"
+    }
+  }
+}

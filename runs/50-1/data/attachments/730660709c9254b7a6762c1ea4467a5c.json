@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bmoc6953 Handmade Ceramic Hat",
+    "category": "snacks",
+    "price": 5.82,
+    "stock": 17,
+    "details": {
+      "brand": "Reinger - Toy",
+      "origin": "Guernsey"
+    }
+  }
+}

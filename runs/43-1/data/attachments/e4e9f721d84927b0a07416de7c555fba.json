@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-ir738uqh Modern Metal Keyboard",
+    "category": "snacks",
+    "price": 21.52,
+    "stock": 38,
+    "details": {
+      "brand": "Lynch Group",
+      "origin": "Indonesia"
+    }
+  }
+}

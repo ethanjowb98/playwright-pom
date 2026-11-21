@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sbg9gnlj Soft Silk Fish",
+    "category": "bakery",
+    "price": 5.67,
+    "stock": 37,
+    "details": {
+      "brand": "Wilkinson Inc",
+      "origin": "Greece"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-vmkzjx5j Unbranded Wooden Cheese",
+    "category": "snacks",
+    "price": 17.99,
+    "stock": 38,
+    "details": {
+      "brand": "VonRueden - Schultz",
+      "origin": "Georgia"
+    },
+    "weighted": false
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "frozen",
+    "price": 36.87,
+    "stock": 17,
+    "details": {
+      "brand": "Ortiz-Orn, Greenfelder and Mayert",
+      "origin": "Tuvalu"
+    }
+  }
+}

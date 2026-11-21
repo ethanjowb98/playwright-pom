@@ -1,0 +1,98 @@
+[
+  {
+    "id": "11bb4d32-0830-4ef5-bb05-3bb562e0a2a9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7bb9a0fc-be4d-4024-8c13-d79afa7bc9e8",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Margarita Concentrate",
+    "category": "beverages",
+    "price": 3.25,
+    "details": {
+      "makes": "1 pitcher",
+      "volume": "12oz",
+      "contains_alcohol": false
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7a60e1ba-0e01-45c5-9855-3cd9f66dfcf7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Tilapia Fillets",
+    "category": "meat-seafood",
+    "price": 10.5,
+    "details": {
+      "weight": "2lb",
+      "farm_raised": true,
+      "individually_wrapped": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9d629101-0d63-42dc-903c-e46267eee86b",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Jumbo Raw Shrimp (2lb)",
+    "category": "meat-seafood",
+    "price": 18.99,
+    "details": {
+      "size": "16-20 count",
+      "peeled": true,
+      "weight": "2lb",
+      "deveined": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "c46fd5c0-21c4-4b44-90b4-d7ca2e5de33e",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-opp87hib Generic Cotton Gloves",
+    "category": "fresh-produce",
+    "price": 36.76,
+    "details": {
+      "brand": "Herman - Ryan",
+      "origin": "Lithuania"
+    },
+    "created_at": "2026-11-21T10:27:37.071227+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 50
+  },
+  {
+    "id": "5d281b47-3c07-4d43-9d41-d95304f3e325",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-hz708bmt Tasty Wooden Ball",
+    "category": "beverages",
+    "price": 22.83,
+    "details": {
+      "brand": "Williamson, Nader and Gleichner",
+      "origin": "Uruguay"
+    },
+    "created_at": "2026-11-21T10:27:36.915948+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 15
+  }
+]

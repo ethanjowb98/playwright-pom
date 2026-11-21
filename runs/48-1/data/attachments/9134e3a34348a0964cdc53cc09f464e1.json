@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3ghl2ekq Fantastic Concrete Computer",
+    "category": "meat-seafood",
+    "price": 21.3,
+    "stock": 42,
+    "details": {
+      "brand": "Larson Group",
+      "origin": "Gabon"
+    }
+  }
+}

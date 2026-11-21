@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-jc8hbakh sort Alpha",
+    "category": "frozen",
+    "price": 16.94,
+    "stock": 23,
+    "details": {
+      "brand": "Runolfsdottir, Fadel and Klein",
+      "origin": "Cambodia"
+    }
+  }
+}

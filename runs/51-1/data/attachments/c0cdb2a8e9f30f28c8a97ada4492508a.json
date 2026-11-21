@@ -1,0 +1,15 @@
+{
+  "id": "d5e5dc9c-397e-4390-94ae-8c34bac921a7",
+  "product_name": "QA-7-5tkxmz27 Elegant Steel Bacon",
+  "category": "bakery",
+  "price": 48.9,
+  "stock": 35,
+  "details": {
+    "brand": "Gislason - Balistreri",
+    "origin": "Gibraltar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:50.728379+00:00"
+}

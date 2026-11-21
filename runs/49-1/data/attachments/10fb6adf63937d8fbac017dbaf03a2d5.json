@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "5c3efe4c-fa03-4a8a-a659-b48d45007522",
+    "order_number": "O29089",
+    "status": "pending",
+    "total_amount": 12.39,
+    "created_at": "2026-11-19T10:57:29.699898+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-53hmozbc Recycled Bamboo Pants",
+        "category": "household",
+        "quantity": 3,
+        "price": 4.13,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

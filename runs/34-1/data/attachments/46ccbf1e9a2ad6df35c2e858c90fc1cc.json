@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mefcwivz Frozen Gold Table",
+    "category": "other",
+    "price": 44.68,
+    "stock": 27,
+    "details": {
+      "brand": "Okuneva, Simonis and Schaefer",
+      "origin": "Somalia"
+    }
+  }
+}

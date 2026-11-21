@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-v29fwjey Oriental Bamboo Table",
+    "category": "bakery",
+    "price": 26.49,
+    "stock": 10,
+    "details": {
+      "brand": "Wolf, Stehr and Harvey",
+      "origin": "American Samoa"
+    }
+  }
+}

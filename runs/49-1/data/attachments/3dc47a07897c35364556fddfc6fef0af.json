@@ -1,0 +1,15 @@
+{
+  "id": "66517d0d-5b07-456b-872e-c1da018b8dbb",
+  "product_name": "QA-2-r6ef2jgn Electronic Plastic Fish",
+  "category": "bakery",
+  "price": 3.46,
+  "stock": 24,
+  "details": {
+    "brand": "Stroman - Stanton",
+    "origin": "Slovakia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:24.418059+00:00"
+}

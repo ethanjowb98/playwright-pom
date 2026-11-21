@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ua1or16i Awesome Wooden Soap",
+    "category": "pantry",
+    "price": 40.67,
+    "stock": 46,
+    "details": {
+      "brand": "Zieme - Kuhic",
+      "origin": "Côte d'Ivoire"
+    }
+  }
+}

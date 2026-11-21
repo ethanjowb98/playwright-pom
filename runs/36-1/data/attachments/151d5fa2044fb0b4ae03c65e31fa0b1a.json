@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ew7a4q8e Tasty Concrete Bike",
+    "category": "frozen",
+    "price": 31.32,
+    "stock": 14,
+    "details": {
+      "brand": "Turner - Dach",
+      "origin": "Sint Maarten"
+    }
+  }
+}

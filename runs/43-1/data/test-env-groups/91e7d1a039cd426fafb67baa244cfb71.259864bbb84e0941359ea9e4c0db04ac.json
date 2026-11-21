@@ -1,0 +1,1 @@
+{"id":"91e7d1a039cd426fafb67baa244cfb71.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/auth.api.spec.ts › Auth API › should return 401 when products are listed with a invalid api key","name":"should return 401 when products are listed with a invalid api key","status":"passed","testResultsByEnv":{"default":"e5e2e1d192aa84680c1adc016f061cbb"}}

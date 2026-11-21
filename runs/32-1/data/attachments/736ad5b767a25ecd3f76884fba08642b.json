@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6u6hj7jj Fantastic Silk Salad",
+    "category": "beverages",
+    "price": 12.41,
+    "stock": 42,
+    "details": {
+      "brand": "Mohr and Sons",
+      "origin": "Chile"
+    }
+  }
+}

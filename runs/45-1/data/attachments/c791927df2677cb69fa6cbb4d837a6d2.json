@@ -1,0 +1,15 @@
+{
+  "id": "869d83c9-ab8e-47b7-bd85-dbd6e8eecc03",
+  "product_name": "QA-1-qwdo8lzd Handmade Concrete Table",
+  "category": "beverages",
+  "price": 4.37,
+  "stock": 35,
+  "details": {
+    "brand": "Dooley Inc",
+    "origin": "Cocos (Keeling) Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:11:44.107649+00:00"
+}

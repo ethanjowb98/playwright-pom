@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ebf2c7ee-c843-4579-ae32-ccfd37c95fb1",
+    "order_number": "O14128",
+    "status": "pending",
+    "total_amount": 7.43,
+    "created_at": "2026-11-15T10:10:57.393793+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-of4g1spm Practical Aluminum Towels",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 7.43,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

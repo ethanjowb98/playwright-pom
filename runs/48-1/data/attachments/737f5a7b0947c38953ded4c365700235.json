@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fdzmpuy2 Tasty Bamboo Towels",
+    "category": "bakery",
+    "price": 11.36,
+    "stock": 37,
+    "details": {
+      "brand": "Goodwin - Marks",
+      "origin": "Romania"
+    }
+  }
+}

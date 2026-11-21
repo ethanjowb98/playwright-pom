@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-qh7ybe57 Refined Metal Chicken",
+    "category": "other",
+    "price": 12.21,
+    "stock": 30,
+    "details": {
+      "brand": "Schultz - Kuvalis",
+      "origin": "Guatemala"
+    }
+  }
+}

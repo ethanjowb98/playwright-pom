@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-8dqt1ti4 sort Bravo",
+    "category": "beverages",
+    "price": 8.03,
+    "stock": 21,
+    "details": {
+      "brand": "Torphy, Schiller and Jakubowski",
+      "origin": "Somalia"
+    }
+  }
+}

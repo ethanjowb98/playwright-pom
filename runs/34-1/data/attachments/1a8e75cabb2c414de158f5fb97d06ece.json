@@ -1,0 +1,15 @@
+{
+  "id": "0e95fbca-2371-4545-b960-b30ac3fb8d4f",
+  "product_name": "QA-1-sldhxttr Refined Rubber Soap",
+  "category": "dairy-eggs",
+  "price": 1.35,
+  "stock": 23,
+  "details": {
+    "brand": "Hoppe and Sons",
+    "origin": "Curaçao"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:20:07.197525+00:00"
+}

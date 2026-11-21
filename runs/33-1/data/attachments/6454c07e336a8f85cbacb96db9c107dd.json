@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-vhr2gzae Intelligent Granite Hat",
+    "category": "other",
+    "price": 38.86,
+    "stock": 13,
+    "details": {
+      "brand": "Wunsch Inc",
+      "origin": "Kyrgyz Republic"
+    },
+    "weighted": true
+  }
+}

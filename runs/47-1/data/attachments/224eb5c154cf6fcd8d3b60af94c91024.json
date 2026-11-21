@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vjj9nckv Soft Silk Sausages",
+    "category": "fresh-produce",
+    "price": 6.96,
+    "stock": 19,
+    "details": {
+      "brand": "Maggio, Auer and Jacobs",
+      "origin": "Norfolk Island"
+    }
+  }
+}

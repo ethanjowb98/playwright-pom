@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-q8i583o0 Small Concrete Mouse",
+    "category": "other",
+    "price": 2.02,
+    "stock": 39,
+    "details": {
+      "brand": "Rutherford - Hickle-O'Reilly",
+      "origin": "Iraq"
+    }
+  }
+}

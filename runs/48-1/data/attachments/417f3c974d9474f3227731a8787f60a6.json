@@ -1,0 +1,15 @@
+{
+  "id": "fe7bf1c6-1be2-4077-9897-c3a58f728efd",
+  "product_name": "QA-1-3ghl2ekq Fantastic Concrete Computer",
+  "category": "meat-seafood",
+  "price": 21.3,
+  "stock": 42,
+  "details": {
+    "brand": "Larson Group",
+    "origin": "Gabon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:57:21.537918+00:00"
+}

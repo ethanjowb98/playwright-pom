@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-14piq6s6 Incredible Concrete Chair",
+    "price": 29.06,
+    "stock": 28,
+    "details": {
+      "brand": "Konopelski, Stroman-Barton and Halvorson",
+      "origin": "Bermuda"
+    }
+  }
+}

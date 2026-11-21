@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "4aac2fc7-0397-4823-beed-a91ee5893942",
+      "product_id": "50d48748-3466-487c-a200-eebd2907749f",
+      "product_name": "QA-2-dp7w8puq Bespoke Gold Soap",
+      "price": 37.88,
+      "category": "frozen",
+      "quantity": 2,
+      "created_at": "2026-11-19T10:59:05.442002+00:00",
+      "updated_at": "2026-11-19T10:59:05.442002+00:00"
+    },
+    {
+      "id": "b5445342-7ae3-42ab-88dc-9584b11e07df",
+      "product_id": "2af4e80f-a300-4f05-a206-916406bb255a",
+      "product_name": "QA-2-ul9662bl Incredible Gold Fish",
+      "price": 20.7,
+      "category": "dairy-eggs",
+      "quantity": 1,
+      "created_at": "2026-11-19T10:59:05.982432+00:00",
+      "updated_at": "2026-11-19T10:59:05.982432+00:00"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kg9gw264 Fresh Plastic Chicken",
+    "category": "meat-seafood",
+    "price": 40.45,
+    "stock": 37,
+    "details": {
+      "brand": "Crona and Sons",
+      "origin": "Qatar"
+    }
+  }
+}

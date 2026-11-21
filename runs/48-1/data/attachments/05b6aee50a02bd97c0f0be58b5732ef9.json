@@ -1,0 +1,15 @@
+{
+  "id": "7448ef73-cbf4-4ad4-b8f0-0bbf791e397a",
+  "product_name": "QA-8-60i4mfk8 sort Alpha",
+  "category": "meat-seafood",
+  "price": 38.25,
+  "stock": 35,
+  "details": {
+    "brand": "Heidenreich Group",
+    "origin": "Brunei Darussalam"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:12.177663+00:00"
+}

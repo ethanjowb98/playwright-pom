@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y5jgolr6 Oriental Steel Table",
+    "category": "dairy-eggs",
+    "price": 49.49,
+    "stock": 13,
+    "details": {
+      "brand": "Beatty-Thompson, Johnston and Corwin",
+      "origin": "Singapore"
+    }
+  }
+}

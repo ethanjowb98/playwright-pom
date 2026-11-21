@@ -1,0 +1,15 @@
+{
+  "id": "34a4c7b1-e3f0-4e19-bea8-a7cbf41ac1cf",
+  "product_name": "QA-2-534nfqbr Modern Bronze Table",
+  "category": "frozen",
+  "price": 46.12,
+  "stock": 47,
+  "details": {
+    "brand": "Homenick, Kuphal and VonRueden",
+    "origin": "Niger"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:33.125226+00:00"
+}

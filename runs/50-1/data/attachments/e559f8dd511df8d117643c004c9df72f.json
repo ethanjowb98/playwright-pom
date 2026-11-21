@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-9b3eey56 Unbranded Gold Bike",
+    "category": "meat-seafood",
+    "price": 30.17,
+    "stock": 25,
+    "details": {
+      "brand": "Kunde, Kreiger and Kessler",
+      "origin": "Comoros"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

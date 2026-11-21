@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0nju2bhm Recycled Concrete Soap",
+    "category": "bakery",
+    "price": 43.49,
+    "stock": 17,
+    "details": {
+      "brand": "Sanford-Beahan Inc",
+      "origin": "Kenya"
+    }
+  }
+}

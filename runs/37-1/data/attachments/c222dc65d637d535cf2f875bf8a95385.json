@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-39oscwwz Sleek Bronze Sausages",
+    "category": "beverages",
+    "price": 41.42,
+    "stock": 29,
+    "details": {
+      "brand": "Berge, Kohler and Romaguera",
+      "origin": "Tuvalu"
+    }
+  }
+}

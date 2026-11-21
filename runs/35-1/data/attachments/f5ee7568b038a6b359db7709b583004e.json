@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vxs9tz2m Unbranded Bronze Sausages",
+    "category": "fresh-produce",
+    "price": 40.84,
+    "stock": 35,
+    "details": {
+      "brand": "Grady-O'Keefe and Sons",
+      "origin": "France"
+    }
+  }
+}

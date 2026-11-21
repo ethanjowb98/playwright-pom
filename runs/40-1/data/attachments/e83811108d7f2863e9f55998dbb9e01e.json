@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-59r7qj01 Handmade Granite Salad",
+    "category": "other",
+    "price": 30.03,
+    "stock": 25,
+    "details": {
+      "brand": "Goldner Group",
+      "origin": "Italy"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-nxex3qce sort Charlie",
+    "category": "snacks",
+    "price": 3.42,
+    "stock": 34,
+    "details": {
+      "brand": "Feeney Group",
+      "origin": "Germany"
+    }
+  }
+}

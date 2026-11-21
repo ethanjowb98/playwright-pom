@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u7zeudqd Sleek Steel Keyboard",
+    "category": "pantry",
+    "price": 38.88,
+    "stock": 46,
+    "details": {
+      "brand": "Huel, Lueilwitz and Johns",
+      "origin": "Guam"
+    }
+  }
+}

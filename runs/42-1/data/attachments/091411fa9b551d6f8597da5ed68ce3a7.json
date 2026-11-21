@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rznuf8gg Handmade Cotton Fish",
+    "category": "pantry",
+    "price": 12.88,
+    "stock": 20,
+    "details": {
+      "brand": "Ruecker - Schulist",
+      "origin": "Taiwan"
+    }
+  }
+}

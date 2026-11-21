@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-qq0cllum Electronic Marble Mouse",
+    "category": "dairy-eggs",
+    "price": 25.7,
+    "stock": 32,
+    "details": {
+      "brand": "Skiles - Green",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

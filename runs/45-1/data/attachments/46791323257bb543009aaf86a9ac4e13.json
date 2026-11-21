@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7dyv323z Soft Silk Keyboard",
+    "category": "snacks",
+    "price": 35.28,
+    "stock": 44,
+    "details": {
+      "brand": "King Group",
+      "origin": "Liechtenstein"
+    }
+  }
+}

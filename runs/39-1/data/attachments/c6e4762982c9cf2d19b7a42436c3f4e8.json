@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mmi2h0ck Tasty Granite Cheese",
+    "category": "bakery",
+    "price": 24.39,
+    "stock": 39,
+    "details": {
+      "brand": "Reichel and Sons",
+      "origin": "Vanuatu"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-pjb84mtw Awesome Wooden Car",
+    "category": "other",
+    "price": 31.64,
+    "stock": 48,
+    "details": {
+      "brand": "Blick Group",
+      "origin": "Burundi"
+    }
+  }
+}

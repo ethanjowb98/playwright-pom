@@ -1,0 +1,33 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "331bcfb1-f0c4-4012-94e8-fe39eaa1d848",
+    "order_number": "O85287",
+    "status": "pending",
+    "total_amount": 204.51,
+    "created_at": "2026-11-14T09:39:28.265766+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-m7ewl0ch Gorgeous Cotton Tuna",
+        "category": "beverages",
+        "quantity": 2,
+        "price": 29.21,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-eisnomql Handmade Concrete Hat",
+        "category": "household",
+        "quantity": 1,
+        "price": 29.51,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-y05z9znc Luxurious Silk Salad",
+        "category": "other",
+        "quantity": 3,
+        "price": 38.86,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

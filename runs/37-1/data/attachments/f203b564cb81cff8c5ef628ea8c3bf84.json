@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-90w0vgk1 Frozen Aluminum Gloves",
+    "category": "beverages",
+    "price": 29.13,
+    "stock": 47,
+    "details": {
+      "brand": "Kessler, Lemke-Kuhn and Daugherty",
+      "origin": "Bermuda"
+    }
+  }
+}

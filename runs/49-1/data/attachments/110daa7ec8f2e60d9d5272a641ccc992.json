@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-y7wtzy7z Elegant Aluminum Tuna",
+    "category": "pantry",
+    "price": 35.8,
+    "stock": 34,
+    "details": {
+      "brand": "Gerlach, Hilll and Nicolas",
+      "origin": "Benin"
+    }
+  }
+}

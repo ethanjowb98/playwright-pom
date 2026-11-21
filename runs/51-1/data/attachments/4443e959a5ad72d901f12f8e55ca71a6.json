@@ -1,0 +1,15 @@
+{
+  "id": "412ddce6-4dec-4a87-9ce5-2e422a9af5a3",
+  "product_name": "QA-3-faom3jjk Practical Rubber Gloves",
+  "category": "beverages",
+  "price": 46.95,
+  "stock": 49,
+  "details": {
+    "brand": "Beer - Rippin",
+    "origin": "Sweden"
+  },
+  "temperature_zone": "Dry",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:40.734989+00:00"
+}

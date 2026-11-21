@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-df5jlv4u Bespoke Gold Gloves",
+    "category": "snacks",
+    "price": 22.25,
+    "stock": 18,
+    "details": {
+      "brand": "West - Homenick",
+      "origin": "Nicaragua"
+    }
+  }
+}

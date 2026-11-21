@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-i2i99s7w Awesome Silk Mouse",
+    "category": "meat-seafood",
+    "price": 38.09,
+    "stock": 33,
+    "details": {
+      "brand": "Weissnat, Dickens and Schulist",
+      "origin": "Cambodia"
+    }
+  }
+}

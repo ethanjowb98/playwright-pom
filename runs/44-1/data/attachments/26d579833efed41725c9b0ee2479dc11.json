@@ -1,0 +1,15 @@
+{
+  "id": "eef5e475-c654-4273-a1d9-8c46c468fbc4",
+  "product_name": "QA-1-5p0lquup Small Gold Soap",
+  "category": "pantry",
+  "price": 7.04,
+  "stock": 45,
+  "details": {
+    "brand": "Wilderman Group",
+    "origin": "Morocco"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:43:13.248461+00:00"
+}

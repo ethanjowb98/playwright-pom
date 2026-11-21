@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-28awvgho Unbranded Cotton Table",
+    "category": "frozen",
+    "price": 49.59,
+    "stock": 25,
+    "details": {
+      "brand": "Murray LLC",
+      "origin": "Finland"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "2517c049-d63c-459f-b3a8-51145ea170c1",
+  "product_name": "QA-2-sciixni5 Incredible Marble Computer",
+  "category": "bakery",
+  "price": 31.41,
+  "stock": 31,
+  "details": {
+    "brand": "Donnelly and Sons",
+    "origin": "Cocos (Keeling) Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:21.006711+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-1n72tyap Elegant Silk Keyboard",
+    "category": "bakery",
+    "price": 39.04,
+    "stock": 29,
+    "details": {
+      "brand": "Will, Kris and West",
+      "origin": "Belgium"
+    }
+  }
+}

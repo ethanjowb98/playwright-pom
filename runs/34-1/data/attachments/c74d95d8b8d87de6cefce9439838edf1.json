@@ -1,0 +1,15 @@
+{
+  "id": "a454faf2-ac9e-47aa-9997-b05805ae1b4c",
+  "product_name": "QA-2-ao7cmcy8 Practical Granite Computer",
+  "category": "snacks",
+  "price": 1.1,
+  "stock": 50,
+  "details": {
+    "brand": "Prohaska Group",
+    "origin": "New Caledonia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:30.249711+00:00"
+}

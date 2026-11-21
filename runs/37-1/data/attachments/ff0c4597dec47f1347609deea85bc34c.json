@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i6tamtff Gorgeous Concrete Sausages",
+    "category": "frozen",
+    "price": 38.03,
+    "stock": 47,
+    "details": {
+      "brand": "Corkery, Paucek and McKenzie",
+      "origin": "Cyprus"
+    }
+  }
+}

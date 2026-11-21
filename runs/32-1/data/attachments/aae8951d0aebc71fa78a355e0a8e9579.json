@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-z6p3a3p7 Sleek Aluminum Gloves",
+    "category": "bakery",
+    "price": 11.43,
+    "stock": 38,
+    "details": {
+      "brand": "Shields Inc",
+      "origin": "Mauritius"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

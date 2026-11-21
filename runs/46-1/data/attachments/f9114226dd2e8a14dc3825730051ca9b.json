@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fxfby5me Incredible Ceramic Hat",
+    "category": "fresh-produce",
+    "price": 17.48,
+    "stock": 2,
+    "details": {
+      "brand": "Ankunding Group",
+      "origin": "Sweden"
+    }
+  }
+}

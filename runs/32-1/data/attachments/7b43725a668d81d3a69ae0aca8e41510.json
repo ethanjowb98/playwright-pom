@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4sldsakc Electronic Steel Salad",
+    "category": "household",
+    "stock": 44,
+    "details": {
+      "brand": "Lynch - O'Keefe",
+      "origin": "Ethiopia"
+    }
+  }
+}

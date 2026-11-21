@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-i240lr44 Practical Concrete Salad",
+    "category": "bakery",
+    "price": 42.16,
+    "stock": 15,
+    "details": {
+      "brand": "Cremin, Botsford and Haley",
+      "origin": "South Africa"
+    }
+  }
+}

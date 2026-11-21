@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-19bascs0 Bespoke Ceramic Bacon",
+    "category": "bakery",
+    "price": 4.21,
+    "stock": 24,
+    "details": {
+      "brand": "Bergstrom, Johnson and Bogan-Homenick",
+      "origin": "Bosnia and Herzegovina"
+    }
+  }
+}

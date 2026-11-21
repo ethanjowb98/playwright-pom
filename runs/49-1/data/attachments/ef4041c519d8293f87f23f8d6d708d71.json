@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-x2qlynvu Rustic Marble Tuna",
+    "category": "household",
+    "price": 18.12,
+    "stock": 10,
+    "details": {
+      "brand": "Reilly, Mitchell and Farrell",
+      "origin": "Eritrea"
+    }
+  }
+}

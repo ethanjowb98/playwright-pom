@@ -1,0 +1,19 @@
+{
+  "id": "d8a203f8-0f9e-4c80-af9f-8c081dc23fa7",
+  "order_number": "O79864",
+  "status": "pending",
+  "total_amount": 66.3,
+  "notes": null,
+  "created_at": "2026-11-05T10:04:38.001293+00:00",
+  "updated_at": "2026-11-05T10:04:38.001293+00:00",
+  "items": [
+    {
+      "product_id": "f343b228-1da5-4ae8-b954-ea8be544c0f8",
+      "product_name": "QA-1-vym2p1ck Soft Ceramic Sausages",
+      "category": "beverages",
+      "quantity": 3,
+      "price": 22.1,
+      "temperature_zone": null
+    }
+  ]
+}

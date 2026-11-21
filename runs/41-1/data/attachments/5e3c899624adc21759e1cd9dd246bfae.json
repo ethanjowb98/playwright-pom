@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8e0bqf5b Gorgeous Plastic Mouse",
+    "category": "meat-seafood",
+    "price": 2.26,
+    "stock": 47,
+    "details": {
+      "brand": "Kautzer, Casper and Walter",
+      "origin": "Congo"
+    }
+  }
+}

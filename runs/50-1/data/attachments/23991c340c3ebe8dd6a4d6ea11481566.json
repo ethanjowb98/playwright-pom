@@ -1,0 +1,15 @@
+{
+  "id": "d1079d37-aab9-49c9-a731-1fc24603c3e0",
+  "product_name": "QA-1-xcb5ggc9 Gorgeous Granite Hat",
+  "category": "bakery",
+  "price": 25.23,
+  "stock": 20,
+  "details": {
+    "brand": "Padberg and Sons",
+    "origin": "Seychelles"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:25.39724+00:00"
+}

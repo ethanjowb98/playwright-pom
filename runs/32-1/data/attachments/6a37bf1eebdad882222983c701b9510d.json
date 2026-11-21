@@ -1,0 +1,19 @@
+{
+  "id": "7cf3d506-94f3-45f1-ad65-5b6327004860",
+  "order_number": "O98633",
+  "status": "shipped",
+  "total_amount": 132,
+  "notes": null,
+  "created_at": "2026-11-05T08:20:51.430565+00:00",
+  "updated_at": "2026-11-05T08:20:51.430565+00:00",
+  "items": [
+    {
+      "product_id": "866081a8-1bb5-4c29-a64f-6d0f396ecc01",
+      "product_name": "QA-1-8mw3hj0l Practical Bronze Ball",
+      "category": "other",
+      "quantity": 3,
+      "price": 44,
+      "temperature_zone": null
+    }
+  ]
+}

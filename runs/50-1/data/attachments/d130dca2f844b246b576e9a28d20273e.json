@@ -1,0 +1,15 @@
+{
+  "id": "b5f60b52-21af-4526-84e2-0fc54bdaf5ac",
+  "product_name": "QA-1-2ph46g6y Sleek Aluminum Car",
+  "category": "snacks",
+  "price": 9.97,
+  "stock": 42,
+  "details": {
+    "brand": "Toy - Muller-Rippin",
+    "origin": "Australia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:55.795856+00:00"
+}

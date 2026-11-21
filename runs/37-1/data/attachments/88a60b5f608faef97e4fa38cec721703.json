@@ -1,0 +1,15 @@
+{
+  "id": "9c80b9f9-1201-4496-a8d6-1fb70f92bcc1",
+  "product_name": "QA-6-5wfd7bga Soft Plastic Soap",
+  "category": "meat-seafood",
+  "price": 6.48,
+  "stock": 28,
+  "details": {
+    "brand": "Stroman - Blanda",
+    "origin": "Micronesia"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:07.414443+00:00"
+}

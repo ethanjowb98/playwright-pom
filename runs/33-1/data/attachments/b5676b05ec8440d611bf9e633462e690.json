@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-rphyyhvg Gorgeous Wooden Hat",
+    "category": "snacks",
+    "price": 19.68,
+    "stock": 40,
+    "details": {
+      "brand": "Gibson - Batz",
+      "origin": "El Salvador"
+    },
+    "weighted": false
+  }
+}

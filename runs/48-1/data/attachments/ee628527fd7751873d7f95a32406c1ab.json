@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-kw4nyjdo Intelligent Plastic Chicken",
+    "category": "bakery",
+    "price": 2.84,
+    "stock": 39,
+    "details": {
+      "brand": "Sipes - Waelchi",
+      "origin": "Libyan Arab Jamahiriya"
+    }
+  }
+}

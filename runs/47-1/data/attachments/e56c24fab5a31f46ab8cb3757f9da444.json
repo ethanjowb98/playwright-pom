@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ao1fjp0z Soft Bamboo Shirt",
+    "category": "pantry",
+    "price": 8.25,
+    "stock": 15,
+    "details": {
+      "brand": "Schuster, Frami and Hyatt",
+      "origin": "Kiribati"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gaix6y63 Incredible Bronze Bike",
+    "category": "snacks",
+    "price": 29.44,
+    "stock": 13,
+    "details": {
+      "brand": "Reynolds, Sanford and Berge",
+      "origin": "El Salvador"
+    }
+  }
+}

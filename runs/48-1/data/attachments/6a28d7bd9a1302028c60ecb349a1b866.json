@@ -1,0 +1,19 @@
+{
+  "id": "d5b6b8dc-f3cb-487f-a473-68165237205d",
+  "order_number": "O87935",
+  "status": "cancelled",
+  "total_amount": 17.58,
+  "notes": null,
+  "created_at": "2026-11-18T10:55:54.450665+00:00",
+  "updated_at": "2026-11-18T10:55:54.450665+00:00",
+  "items": [
+    {
+      "product_id": "9901c92a-70fd-4c1f-8951-fa459b6f5510",
+      "product_name": "QA-1-id5zpe9t Frozen Granite Pizza",
+      "category": "beverages",
+      "quantity": 1,
+      "price": 17.58,
+      "temperature_zone": null
+    }
+  ]
+}

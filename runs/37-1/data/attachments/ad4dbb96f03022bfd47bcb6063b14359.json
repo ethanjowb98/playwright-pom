@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-s65s84mb Licensed Granite Pants",
+    "category": "beverages",
+    "price": 32.6,
+    "stock": 24,
+    "details": {
+      "brand": "Walter - McClure",
+      "origin": "Mexico"
+    }
+  }
+}

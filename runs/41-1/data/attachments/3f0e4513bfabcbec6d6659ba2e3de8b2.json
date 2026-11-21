@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ex4ilajh Practical Gold Salad",
+    "category": "frozen",
+    "price": 41.76,
+    "stock": 15,
+    "details": {
+      "brand": "Ullrich - Lebsack",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

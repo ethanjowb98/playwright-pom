@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-iijh1qk5 Refined Aluminum Towels",
+    "category": "beverages",
+    "price": 24.2,
+    "stock": 34,
+    "details": {
+      "brand": "Stiedemann Inc",
+      "origin": "Vietnam"
+    }
+  }
+}

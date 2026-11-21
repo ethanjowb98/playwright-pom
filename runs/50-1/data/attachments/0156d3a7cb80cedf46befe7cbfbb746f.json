@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "household",
+    "price": 48.7,
+    "stock": 28,
+    "details": {
+      "brand": "Rogahn - Murray",
+      "origin": "Mauritius"
+    }
+  }
+}

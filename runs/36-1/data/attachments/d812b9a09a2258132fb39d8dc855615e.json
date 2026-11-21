@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hx7f1v4b Incredible Aluminum Bacon",
+    "category": "other",
+    "price": 11.24,
+    "stock": 12,
+    "details": {
+      "brand": "Cummerata, Welch and Champlin",
+      "origin": "Saint Helena"
+    }
+  }
+}

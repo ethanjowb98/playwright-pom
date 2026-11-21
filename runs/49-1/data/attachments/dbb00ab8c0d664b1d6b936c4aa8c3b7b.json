@@ -1,0 +1,15 @@
+{
+  "id": "5d27261d-6011-4600-85c1-438b60b684f1",
+  "product_name": "QA-2-qot6sy0c Fantastic Bronze Salad",
+  "category": "frozen",
+  "price": 38.18,
+  "stock": 39,
+  "details": {
+    "brand": "Kunze - Bernhard",
+    "origin": "Lesotho"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:57:31.663168+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-5otng3os Ergonomic Marble Shoes",
+    "category": "fresh-produce",
+    "price": 23.72,
+    "stock": 39,
+    "details": {
+      "brand": "Crist, Kuvalis and Thompson",
+      "origin": "Maldives"
+    }
+  }
+}

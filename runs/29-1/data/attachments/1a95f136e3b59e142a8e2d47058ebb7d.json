@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-neyep8a7 sort Bravo",
+    "category": "household",
+    "price": 21.71,
+    "stock": 46,
+    "details": {
+      "brand": "Metz, Adams and Aufderhar",
+      "origin": "Brazil"
+    }
+  }
+}

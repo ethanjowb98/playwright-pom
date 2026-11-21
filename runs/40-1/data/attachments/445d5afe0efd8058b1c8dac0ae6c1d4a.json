@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-puukvhfp Frozen Rubber Shirt",
+    "category": "bakery",
+    "price": 37.59,
+    "stock": 29,
+    "details": {
+      "brand": "Upton - Strosin",
+      "origin": "Democratic Republic of the Congo"
+    }
+  }
+}

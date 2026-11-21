@@ -1,0 +1,15 @@
+{
+  "id": "20cf434a-bb4f-4251-95c4-b38c7f10a10a",
+  "product_name": "QA-1-wo8d5k0d Awesome Cotton Tuna",
+  "category": "bakery",
+  "price": 13.28,
+  "stock": 31,
+  "details": {
+    "brand": "O'Connell Group",
+    "origin": "Liberia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:53.702906+00:00"
+}

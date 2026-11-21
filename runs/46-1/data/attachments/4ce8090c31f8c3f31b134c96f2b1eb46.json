@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-unf11c2d Luxurious Ceramic Shoes",
+    "category": "frozen",
+    "price": 41.6,
+    "stock": 20,
+    "details": {
+      "brand": "Daugherty - Hegmann-Watsica",
+      "origin": "Togo"
+    }
+  }
+}

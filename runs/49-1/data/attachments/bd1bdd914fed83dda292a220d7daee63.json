@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-703db6h8 Ergonomic Bamboo Cheese",
+    "category": "pantry",
+    "price": 22.68,
+    "stock": 20,
+    "details": {
+      "brand": "Larkin-Ratke, MacGyver and Tromp-Schamberger",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

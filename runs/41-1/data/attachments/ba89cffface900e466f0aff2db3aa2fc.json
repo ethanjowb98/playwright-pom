@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2tqnnryg Small Plastic Cheese",
+    "category": "meat-seafood",
+    "price": 49.42,
+    "stock": 25,
+    "details": {
+      "brand": "Ondricka Group",
+      "origin": "United Kingdom"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

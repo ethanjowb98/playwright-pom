@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vbohaiy6 Handcrafted Ceramic Chicken",
+    "category": "frozen",
+    "price": 27.32,
+    "stock": 38,
+    "details": {
+      "brand": "Orn Inc",
+      "origin": "Haiti"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

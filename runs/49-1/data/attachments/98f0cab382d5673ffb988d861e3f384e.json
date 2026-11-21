@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sx8q06t8 Bespoke Rubber Chair",
+    "category": "snacks",
+    "price": 4.08,
+    "stock": 13,
+    "details": {
+      "brand": "Shanahan Group",
+      "origin": "Indonesia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "d9307779-9c8b-4415-a5dd-24a3e40f6bff",
+  "product_name": "QA-7-lnk1pxkk Bespoke Gold Fish",
+  "category": "snacks",
+  "price": 21.23,
+  "stock": 15,
+  "details": {
+    "brand": "Ortiz Inc",
+    "origin": "Svalbard & Jan Mayen Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:01.572257+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-46bcg52x Unbranded Rubber Tuna",
+    "category": "pantry",
+    "price": 20.11,
+    "stock": 43,
+    "details": {
+      "brand": "Kassulke and Sons",
+      "origin": "Singapore"
+    },
+    "weighted": true
+  }
+}

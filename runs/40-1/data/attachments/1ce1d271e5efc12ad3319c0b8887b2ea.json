@@ -1,0 +1,19 @@
+{
+  "id": "62eab15b-6488-41d9-8da5-6f6011ab1513",
+  "order_number": "O60827",
+  "status": "processing",
+  "total_amount": 148.8,
+  "notes": null,
+  "created_at": "2026-11-10T10:41:20.664148+00:00",
+  "updated_at": "2026-11-10T10:41:20.664148+00:00",
+  "items": [
+    {
+      "product_id": "4b044777-0161-47df-a52d-e2ebc373743e",
+      "product_name": "QA-1-vdcjcvru Elegant Bronze Tuna",
+      "category": "dairy-eggs",
+      "quantity": 3,
+      "price": 49.6,
+      "temperature_zone": null
+    }
+  ]
+}

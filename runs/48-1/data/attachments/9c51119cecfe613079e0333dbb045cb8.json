@@ -1,0 +1,15 @@
+{
+  "id": "cfb3c73a-c0ff-4d85-9b5d-468f7c81a6d2",
+  "product_name": "QA-1-x4ye22vr Elegant Steel Cheese",
+  "category": "fresh-produce",
+  "price": 5.16,
+  "stock": 23,
+  "details": {
+    "brand": "Stracke, Hickle and Mertz",
+    "origin": "Moldova"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:55:24.716769+00:00"
+}

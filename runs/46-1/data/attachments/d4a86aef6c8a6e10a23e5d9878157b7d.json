@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "6a474197-b3ef-4c3b-a2a0-ec5d2f5c3341",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "pending",
+    "total_amount": 133.62,
+    "notes": "updated",
+    "created_at": "2026-11-16T10:24:14.573467+00:00",
+    "updated_at": "2026-11-16T10:24:14.573467+00:00",
+    "order_number": "O84100"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-3ibmcd8q Bespoke Steel Pizza",
+    "category": "other",
+    "price": 27.76,
+    "stock": 20,
+    "details": {
+      "brand": "Bergstrom - Emard",
+      "origin": "Montserrat"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "8ad40756-4315-442a-8f55-4f7621b731ce",
+  "product_name": "QA-1-a050rcfh Fresh Concrete Ball",
+  "category": "household",
+  "price": 1.92,
+  "stock": 48,
+  "details": {
+    "brand": "Spencer - Bartell",
+    "origin": "Montserrat"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:52.950712+00:00"
+}

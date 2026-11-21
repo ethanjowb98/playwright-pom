@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yt8i91h1 Small Silk Soap",
+    "category": "pantry",
+    "price": 17.76,
+    "stock": 43,
+    "details": {
+      "brand": "Romaguera and Sons",
+      "origin": "Mongolia"
+    }
+  }
+}

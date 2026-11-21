@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mbxruf58 Modern Gold Pants",
+    "category": "frozen",
+    "price": 7.08,
+    "stock": 17,
+    "details": {
+      "brand": "Von and Sons",
+      "origin": "Tanzania"
+    }
+  }
+}

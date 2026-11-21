@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-z11toyit Unbranded Metal Pizza",
+    "category": "pantry",
+    "price": 41.74,
+    "stock": 47,
+    "details": {
+      "brand": "Anderson - Leannon",
+      "origin": "French Guiana"
+    }
+  }
+}

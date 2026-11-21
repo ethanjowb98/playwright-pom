@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-utrbqdna Luxurious Silk Towels",
+    "category": "frozen",
+    "price": 44.9,
+    "stock": 22,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

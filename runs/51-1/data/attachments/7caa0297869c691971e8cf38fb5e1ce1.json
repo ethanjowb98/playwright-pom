@@ -1,0 +1,15 @@
+{
+  "id": "2bfbee08-fe11-4a99-bcdb-f244fae56e6a",
+  "product_name": "QA-5-lbtd362h sort Bravo",
+  "category": "dairy-eggs",
+  "price": 23.33,
+  "stock": 10,
+  "details": {
+    "brand": "Schroeder, Grimes and Kuhn",
+    "origin": "Pakistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:50.173015+00:00"
+}

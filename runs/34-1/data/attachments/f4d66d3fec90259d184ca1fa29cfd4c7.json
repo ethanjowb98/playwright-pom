@@ -1,0 +1,15 @@
+{
+  "id": "1ab1577b-648a-436d-a0ad-003eeb384a1e",
+  "product_name": "QA-1-t51t2qwb Generic Gold Sausages",
+  "category": "pantry",
+  "price": 33.51,
+  "stock": 14,
+  "details": {
+    "brand": "McDermott, Christiansen and Olson",
+    "origin": "Maldives"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:22:43.551797+00:00"
+}

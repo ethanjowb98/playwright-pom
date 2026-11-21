@@ -1,0 +1,27 @@
+{
+  "id": "16dcf3a5-ab45-4dc8-b491-9c8e8a281106",
+  "order_number": "O55000",
+  "status": "pending",
+  "total_amount": 118.91,
+  "notes": "Leave at the door",
+  "created_at": "2026-11-14T09:39:44.597079+00:00",
+  "updated_at": "2026-11-14T09:39:44.597079+00:00",
+  "items": [
+    {
+      "product_id": "de071f81-7a03-4b85-b085-16a1719a4a25",
+      "product_name": "QA-1-hbd1njvs Elegant Bamboo Chips",
+      "category": "meat-seafood",
+      "quantity": 1,
+      "price": 31.07,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "d083039f-31af-4998-8d33-1c4fcda95754",
+      "product_name": "QA-1-lwah5sy8 Elegant Metal Tuna",
+      "category": "snacks",
+      "quantity": 3,
+      "price": 29.28,
+      "temperature_zone": null
+    }
+  ]
+}

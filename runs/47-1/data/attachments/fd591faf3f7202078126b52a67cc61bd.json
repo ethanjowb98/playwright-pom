@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uz7may3r Soft Concrete Bike",
+    "category": "household",
+    "price": 24.58,
+    "stock": 31,
+    "details": {
+      "brand": "Hackett - Treutel",
+      "origin": "Ireland"
+    }
+  }
+}

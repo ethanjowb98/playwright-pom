@@ -1,0 +1,22 @@
+{
+  "orders": [
+    {
+      "id": "ad700afb-4106-494b-8954-9b55b7f07dd7",
+      "order_number": "O21355",
+      "status": "pending",
+      "total_amount": 40.84,
+      "notes": null,
+      "created_at": "2026-11-05T10:05:50.514624+00:00",
+      "updated_at": "2026-11-05T10:05:50.514624+00:00",
+      "items": [
+        {
+          "product_name": "QA-1-vxs9tz2m Unbranded Bronze Sausages",
+          "category": "fresh-produce",
+          "quantity": 1,
+          "price": 40.84,
+          "temperature_zone": null
+        }
+      ]
+    }
+  ]
+}

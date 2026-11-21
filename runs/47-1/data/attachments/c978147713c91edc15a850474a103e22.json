@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m6pjan9g Practical Marble Chips",
+    "category": "pantry",
+    "price": 49.07,
+    "stock": 49,
+    "details": {
+      "brand": "Kassulke Inc",
+      "origin": "Costa Rica"
+    }
+  }
+}

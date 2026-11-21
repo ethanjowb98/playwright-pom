@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kl0mhaea Refined Bronze Pizza",
+    "category": "meat-seafood",
+    "price": 6.79,
+    "stock": 44,
+    "details": {
+      "brand": "Leuschke - Langworth",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

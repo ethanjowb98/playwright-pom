@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-m7ewl0ch Gorgeous Cotton Tuna",
+    "category": "beverages",
+    "price": 29.21,
+    "stock": 48,
+    "details": {
+      "brand": "Botsford - Dickens",
+      "origin": "United States Minor Outlying Islands"
+    }
+  }
+}

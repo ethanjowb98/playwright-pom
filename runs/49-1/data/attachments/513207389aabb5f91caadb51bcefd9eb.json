@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-zupyx14o Elegant Steel Hat",
+    "category": "frozen",
+    "price": 31.87,
+    "stock": 38,
+    "details": {
+      "brand": "Leuschke, Bartell and Orn",
+      "origin": "Norway"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-847cojri Generic Rubber Hat",
+    "category": "household",
+    "price": 34.05,
+    "stock": 32,
+    "details": {
+      "brand": "Hammes - Langworth",
+      "origin": "Malawi"
+    }
+  }
+}

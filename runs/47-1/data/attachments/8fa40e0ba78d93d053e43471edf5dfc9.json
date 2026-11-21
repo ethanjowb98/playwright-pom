@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-es5bfbwt Handcrafted Steel Gloves",
+    "category": "frozen",
+    "price": 8.93,
+    "stock": 50,
+    "details": {
+      "brand": "Schmidt Group",
+      "origin": "Guinea-Bissau"
+    },
+    "weighted": true
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "20a6758b-375f-463b-bf70-e15ba6e05d40",
+  "product_name": "QA-1-rlhzjs84 Small Rubber Computer",
+  "category": "bakery",
+  "price": 15.36,
+  "stock": 31,
+  "details": {
+    "brand": "Wilderman-Glover LLC",
+    "origin": "Denmark"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:07:19.264362+00:00"
+}

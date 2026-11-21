@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-hmqgx2f7 Soft Wooden Bacon",
+    "category": "beverages",
+    "price": 3.24,
+    "stock": 37,
+    "details": {
+      "brand": "Jenkins Group",
+      "origin": "New Zealand"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

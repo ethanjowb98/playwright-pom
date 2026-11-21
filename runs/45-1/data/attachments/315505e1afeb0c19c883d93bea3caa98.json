@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-bebsnmsg Soft Bronze Car",
+    "category": "fresh-produce",
+    "price": 10.13,
+    "stock": "x",
+    "details": {
+      "brand": "Wunsch - Pfannerstill",
+      "origin": "Ukraine"
+    }
+  }
+}

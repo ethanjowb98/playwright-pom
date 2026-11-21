@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j7qfy51z Intelligent Steel Salad",
+    "category": "household",
+    "price": 14.56,
+    "stock": 2,
+    "details": {
+      "brand": "Corwin, Crona and Wilkinson-Smitham",
+      "origin": "Suriname"
+    }
+  }
+}

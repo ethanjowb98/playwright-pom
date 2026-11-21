@@ -1,0 +1,15 @@
+{
+  "id": "395ce745-b736-419c-a366-9bfd867bff08",
+  "product_name": "QA-1-rj7zbgql Awesome Granite Pizza",
+  "category": "frozen",
+  "price": 42.65,
+  "stock": 43,
+  "details": {
+    "brand": "Larkin, Bogan and Ernser",
+    "origin": "Equatorial Guinea"
+  },
+  "temperature_zone": "Frozen",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:01.215469+00:00"
+}

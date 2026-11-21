@@ -1,0 +1,15 @@
+{
+  "id": "2c553f92-4891-48a8-a4ee-7eab6aeefffa",
+  "product_name": "QA-3-93l7taf4 Incredible Plastic Chicken",
+  "category": "frozen",
+  "price": 6.25,
+  "stock": 33,
+  "details": {
+    "brand": "Kling - Turcotte",
+    "origin": "Bermuda"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:22:19.549407+00:00"
+}

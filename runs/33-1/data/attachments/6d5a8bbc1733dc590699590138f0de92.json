@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-n1lv7862 Licensed Metal Salad",
+    "category": "frozen",
+    "price": 32.7,
+    "stock": 13,
+    "details": {
+      "brand": "Dare, Weber and Ullrich",
+      "origin": "Canada"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

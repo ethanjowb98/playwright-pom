@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-945a16oq sort Bravo",
+    "category": "snacks",
+    "price": 36.6,
+    "stock": 38,
+    "details": {
+      "brand": "Ullrich and Sons",
+      "origin": "Myanmar"
+    }
+  }
+}

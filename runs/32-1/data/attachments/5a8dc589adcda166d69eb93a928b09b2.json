@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-t7nt6439 Licensed Silk Cheese",
+    "category": "other",
+    "price": 27.05,
+    "stock": 39,
+    "details": {
+      "brand": "Hansen - Purdy",
+      "origin": "Dominican Republic"
+    }
+  }
+}

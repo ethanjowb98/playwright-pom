@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-vo1p8fyv Rustic Concrete Salad",
+    "category": "snacks",
+    "price": 7.5,
+    "stock": 14,
+    "details": {
+      "brand": "Fisher, Walsh and Ortiz",
+      "origin": "Eritrea"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-14swgxcz Oriental Silk Keyboard",
+    "category": "pantry",
+    "price": 17.09,
+    "stock": 1.5,
+    "details": {
+      "brand": "Gulgowski, Bartoletti and Rowe",
+      "origin": "Macao"
+    }
+  }
+}

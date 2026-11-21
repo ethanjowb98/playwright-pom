@@ -1,0 +1,15 @@
+{
+  "id": "a859b53a-0b76-481d-b39e-d768a75838f7",
+  "product_name": "QA-1-bbp4mf0c Fantastic Rubber Salad",
+  "category": "frozen",
+  "price": 27.61,
+  "stock": 18,
+  "details": {
+    "brand": "Shields - Hegmann",
+    "origin": "Sudan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:30:27.808038+00:00"
+}

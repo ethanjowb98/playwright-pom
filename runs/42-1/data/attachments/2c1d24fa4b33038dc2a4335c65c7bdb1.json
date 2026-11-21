@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-pxf6twqy Generic Silk Towels",
+    "category": "dairy-eggs",
+    "price": "abc",
+    "stock": 12,
+    "details": {
+      "brand": "Dickens LLC",
+      "origin": "Pakistan"
+    }
+  }
+}

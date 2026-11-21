@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "361726fb-b793-4904-8349-705b20e0c784",
+    "order_number": "O35225",
+    "status": "pending",
+    "total_amount": 60.94,
+    "created_at": "2026-11-19T10:58:41.717907+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-3gvnn6j8 Generic Wooden Gloves",
+        "category": "beverages",
+        "quantity": 2,
+        "price": 16.6,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-2-yomeinp5 Awesome Metal Bacon",
+        "category": "household",
+        "quantity": 1,
+        "price": 27.74,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "beverages",
+    "price": 3.33,
+    "stock": 30,
+    "details": {
+      "brand": "Dickinson - Farrell",
+      "origin": "Monaco"
+    }
+  }
+}

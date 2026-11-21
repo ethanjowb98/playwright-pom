@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "01ce5fe9-5719-4b0d-bec8-9f20910c2841",
+      "product_id": "2887330a-ca04-49d7-8484-db8d2b85f95e",
+      "product_name": "QA-1-ndoicj0p Licensed Marble Sausages",
+      "price": 28.75,
+      "category": "meat-seafood",
+      "quantity": 2,
+      "created_at": "2026-11-16T10:25:17.011643+00:00",
+      "updated_at": "2026-11-16T10:25:17.011643+00:00"
+    },
+    {
+      "id": "228e96bd-b115-419d-af50-973ca4df4de8",
+      "product_id": "112730f9-cf25-479e-b1d1-5574cef4075e",
+      "product_name": "QA-1-p986e6eg Recycled Aluminum Mouse",
+      "price": 23.08,
+      "category": "fresh-produce",
+      "quantity": 2,
+      "created_at": "2026-11-16T10:25:17.620594+00:00",
+      "updated_at": "2026-11-16T10:25:17.620594+00:00"
+    }
+  ]
+}

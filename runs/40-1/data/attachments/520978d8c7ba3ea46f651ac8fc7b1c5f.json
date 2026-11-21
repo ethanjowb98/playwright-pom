@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yagqq3kn Awesome Bronze Computer",
+    "category": "snacks",
+    "price": 6.38,
+    "stock": 25,
+    "details": {
+      "brand": "Greenholt - Hamill",
+      "origin": "Turkey"
+    }
+  }
+}

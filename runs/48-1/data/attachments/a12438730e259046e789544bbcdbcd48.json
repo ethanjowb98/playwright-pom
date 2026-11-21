@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-bd95471p Sleek Granite Bike",
+    "category": "household",
+    "price": 4.51,
+    "stock": 45,
+    "details": {
+      "brand": "O'Reilly Group",
+      "origin": "Belgium"
+    },
+    "weighted": true
+  }
+}

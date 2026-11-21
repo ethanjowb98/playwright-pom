@@ -1,0 +1,15 @@
+{
+  "id": "896f98d3-257b-4406-81af-ce97c6a6680f",
+  "product_name": "QA-1-8eq5q1k9 Oriental Gold Chair",
+  "category": "fresh-produce",
+  "price": 17.87,
+  "stock": 20,
+  "details": {
+    "brand": "Hills LLC",
+    "origin": "Nicaragua"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:58.440467+00:00"
+}

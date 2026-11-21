@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tn9t31qd Refined Marble Towels",
+    "category": "other",
+    "price": 46.94,
+    "stock": 37,
+    "details": {
+      "brand": "Altenwerth, Walsh and Wolff",
+      "origin": "Singapore"
+    }
+  }
+}

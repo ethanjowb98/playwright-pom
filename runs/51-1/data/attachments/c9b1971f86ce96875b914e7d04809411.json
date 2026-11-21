@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bhnd9dz8 Fresh Ceramic Hat",
+    "category": "dairy-eggs",
+    "price": 47.71,
+    "stock": 20,
+    "details": {
+      "brand": "Towne Group",
+      "origin": "Aruba"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

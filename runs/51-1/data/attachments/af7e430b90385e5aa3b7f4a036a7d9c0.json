@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1f1tpycp Recycled Steel Ball",
+    "category": "household",
+    "price": 25.03,
+    "stock": 44,
+    "details": {
+      "brand": "Borer - Bednar",
+      "origin": "Paraguay"
+    }
+  }
+}

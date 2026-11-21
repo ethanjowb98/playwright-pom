@@ -1,0 +1,15 @@
+{
+  "id": "41915120-fd5a-4267-940f-d650d76ec088",
+  "product_name": "QA-1-5a41obc3 Handcrafted Gold Cheese",
+  "category": "meat-seafood",
+  "price": 34.14,
+  "stock": 25,
+  "details": {
+    "brand": "Mayer, Ruecker and Monahan",
+    "origin": "San Marino"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:28:21.564604+00:00"
+}

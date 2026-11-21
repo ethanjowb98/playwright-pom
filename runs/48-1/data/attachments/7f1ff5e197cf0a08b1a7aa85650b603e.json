@@ -1,0 +1,15 @@
+{
+  "id": "7fbf47ab-1fc5-4aac-a810-211bd4078127",
+  "product_name": "QA-1-wq5p7p8e Rustic Aluminum Pizza",
+  "category": "dairy-eggs",
+  "price": 30.02,
+  "stock": 16,
+  "details": {
+    "brand": "Bartell Group",
+    "origin": "New Zealand"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:57:26.866611+00:00"
+}

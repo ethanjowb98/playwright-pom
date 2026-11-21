@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "",
+    "category": "other",
+    "price": 11.15,
+    "stock": 20,
+    "details": {
+      "brand": "Dicki, Leuschke and Ferry",
+      "origin": "Cook Islands"
+    }
+  }
+}

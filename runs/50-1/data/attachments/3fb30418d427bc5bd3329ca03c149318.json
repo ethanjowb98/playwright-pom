@@ -1,0 +1,15 @@
+{
+  "id": "ae2be541-f0cb-4395-84bc-b186d67981e5",
+  "product_name": "QA-5-neo3tzt5 Practical Metal Pants",
+  "category": "bakery",
+  "price": 4.97,
+  "stock": 28,
+  "details": {
+    "brand": "Homenick, Ledner and Hammes",
+    "origin": "Gambia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:43:55.383272+00:00"
+}

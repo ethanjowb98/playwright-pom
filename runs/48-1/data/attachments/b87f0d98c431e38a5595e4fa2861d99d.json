@@ -1,0 +1,15 @@
+{
+  "id": "1c9adf5b-913c-40c3-9298-3cdbcaccc955",
+  "product_name": "QA-7-18lkugh4 sort Charlie",
+  "category": "fresh-produce",
+  "price": 28.79,
+  "stock": 35,
+  "details": {
+    "brand": "Robel, Funk and Feil",
+    "origin": "Jamaica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:12.505048+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xhfdvc6l Generic Rubber Pants",
+    "category": "frozen",
+    "price": 10.14,
+    "stock": 24,
+    "details": {
+      "brand": "Schmitt and Sons",
+      "origin": "Solomon Islands"
+    }
+  }
+}

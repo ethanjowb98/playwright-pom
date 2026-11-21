@@ -1,0 +1,7 @@
+{
+  "method": "PUT",
+  "path": "/api/orders/afd334be-998d-4b8c-888a-35f0ccad22d3",
+  "body": {
+    "status": "cancelled"
+  }
+}

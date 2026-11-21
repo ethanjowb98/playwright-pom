@@ -1,0 +1,15 @@
+{
+  "id": "1e5568e4-1bca-4175-8c5f-7846e2f39c7b",
+  "product_name": "QA-1-us9plp9w Bespoke Rubber Table",
+  "category": "pantry",
+  "price": 25.24,
+  "stock": 35,
+  "details": {
+    "brand": "Bahringer - Nader",
+    "origin": "Lesotho"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:32.632434+00:00"
+}

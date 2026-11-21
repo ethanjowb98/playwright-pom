@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-m5aezrl4 Oriental Silk Shirt",
+    "category": "other",
+    "price": 38.24,
+    "stock": 15,
+    "details": {
+      "brand": "Kirlin, Ortiz and Balistreri",
+      "origin": "New Zealand"
+    },
+    "temperature_zone": "Dry"
+  }
+}

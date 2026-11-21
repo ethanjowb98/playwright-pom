@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-kqetg8qb Generic Metal Computer",
+    "category": "household",
+    "price": 14.8,
+    "stock": 26,
+    "details": {
+      "brand": "Lockman Group",
+      "origin": "Kazakhstan"
+    }
+  }
+}

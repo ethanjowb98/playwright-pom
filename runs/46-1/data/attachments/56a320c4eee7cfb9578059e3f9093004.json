@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-9pc7v2uw Unbranded Cotton Chair",
+    "category": "beverages",
+    "price": 17.26,
+    "stock": 16,
+    "details": {
+      "brand": "Prosacco - Berge",
+      "origin": "China"
+    }
+  }
+}

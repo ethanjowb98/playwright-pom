@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-fp7mb3ba Gorgeous Marble Shoes",
+    "category": "household",
+    "price": 33.99,
+    "stock": 11,
+    "details": {
+      "brand": "Emard LLC",
+      "origin": "Saint Martin"
+    }
+  }
+}

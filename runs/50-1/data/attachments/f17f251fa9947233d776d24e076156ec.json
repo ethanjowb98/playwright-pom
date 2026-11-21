@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zb02u8du Small Granite Towels",
+    "category": "beverages",
+    "price": 32.6,
+    "stock": 31,
+    "details": {
+      "brand": "Strosin Inc",
+      "origin": "Lao People's Democratic Republic"
+    }
+  }
+}

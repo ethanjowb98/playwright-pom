@@ -1,0 +1,15 @@
+{
+  "id": "d4b9816b-11a6-4eb9-9747-d436c39b1939",
+  "product_name": "QA-3-2gpjxi63 Bespoke Steel Shoes",
+  "category": "pantry",
+  "price": 29.69,
+  "stock": 32,
+  "details": {
+    "brand": "Grady, Lynch and Kshlerin",
+    "origin": "Trinidad and Tobago"
+  },
+  "temperature_zone": "Chilled",
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:35.277174+00:00"
+}

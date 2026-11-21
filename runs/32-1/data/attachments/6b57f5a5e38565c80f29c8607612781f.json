@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-0o7dt83s Ergonomic Metal Shoes",
+    "category": "frozen",
+    "price": 11.7,
+    "stock": 1.5,
+    "details": {
+      "brand": "Swaniawski, Rohan and Collins",
+      "origin": "Gabon"
+    }
+  }
+}

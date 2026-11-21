@@ -1,0 +1,15 @@
+{
+  "id": "5e2c1669-a3b0-4655-8804-73856ff4e45b",
+  "product_name": "QA-1-653su9wn Generic Aluminum Bacon",
+  "category": "meat-seafood",
+  "price": 42.3,
+  "stock": 43,
+  "details": {
+    "brand": "Harber LLC",
+    "origin": "Taiwan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:49.432987+00:00"
+}

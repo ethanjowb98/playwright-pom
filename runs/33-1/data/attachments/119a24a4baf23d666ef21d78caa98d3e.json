@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-t2n6enlt Practical Marble Hat",
+    "category": "meat-seafood",
+    "price": 11.53,
+    "stock": 22,
+    "details": {
+      "brand": "Weber - Sanford",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

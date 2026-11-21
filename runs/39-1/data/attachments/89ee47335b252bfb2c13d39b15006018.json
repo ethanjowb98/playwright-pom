@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-y2z48omm Awesome Bronze Computer",
+    "category": "pantry",
+    "price": 16.96,
+    "stock": 10,
+    "details": {
+      "brand": "Lemke LLC",
+      "origin": "Faroe Islands"
+    }
+  }
+}

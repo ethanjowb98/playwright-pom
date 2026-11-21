@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-f4orancc sort Alpha",
+    "category": "household",
+    "price": 5.52,
+    "stock": 19,
+    "details": {
+      "brand": "DuBuque - Braun",
+      "origin": "Portugal"
+    }
+  }
+}

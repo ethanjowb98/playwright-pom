@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h3qk136x Refined Gold Fish",
+    "category": "other",
+    "price": 20.98,
+    "stock": 2,
+    "details": {
+      "brand": "Strosin, Goldner and Ruecker",
+      "origin": "Tonga"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gy1f706z Fantastic Granite Tuna",
+    "category": "meat-seafood",
+    "price": 5.14,
+    "stock": 35,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

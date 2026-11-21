@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-un65cs14 Intelligent Bronze Gloves",
+    "category": "household",
+    "price": 27.3,
+    "stock": 37,
+    "details": {
+      "brand": "Romaguera Group",
+      "origin": "Burkina Faso"
+    }
+  }
+}

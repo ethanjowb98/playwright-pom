@@ -1,0 +1,154 @@
+[
+  {
+    "id": "9ea97415-6f47-4c9a-8cf7-ae23c336dffb",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Artisan Sourdough Boule",
+    "category": "bakery",
+    "price": 6.5,
+    "details": {
+      "sliced": false,
+      "starter": "Wild Yeast",
+      "fermentation_time": "48 hours"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "0e5aff95-9ba8-4da8-8cf6-906deae765d0",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Classic Cheesecake (Whole)",
+    "category": "bakery",
+    "price": 18.99,
+    "details": {
+      "size": "8 inch",
+      "crust": "Graham Cracker",
+      "flavor": "Vanilla Bean",
+      "servings": 8
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Chilled",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9a8cae7c-4edc-42b0-bcf2-34eb7ddef8ee",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Cozonac (Walnut Sweet Bread)",
+    "category": "bakery",
+    "price": 8.99,
+    "details": {
+      "origin": "Romania",
+      "filling": "Walnut and Cocoa",
+      "traditional": true,
+      "contains_nuts": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "11bb4d32-0830-4ef5-bb05-3bb562e0a2a9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "037d8b80-8843-4ee8-8817-d8c94ed12ea9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Double Chocolate Fudge Brownies",
+    "category": "bakery",
+    "price": 7.99,
+    "details": {
+      "texture": "Fudgy",
+      "contains_nuts": false,
+      "chocolate_type": "Dark"
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": true,
+    "stock": 10
+  },
+  {
+    "id": "39fc5321-932c-414f-8eb0-0e1f79e706b5",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Everything Bagels (6-Pack)",
+    "category": "bakery",
+    "price": 5.49,
+    "details": {
+      "count": 6,
+      "toppings": [
+        "Sesame",
+        "Poppy",
+        "Onion",
+        "Garlic",
+        "Salt"
+      ],
+      "pre_sliced": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "109ba8e4-fc63-4a5d-8692-01f6c7d9d941",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Fresh French Baguette",
+    "category": "bakery",
+    "price": 2.99,
+    "details": {
+      "vegan": true,
+      "length": "22 inches",
+      "flour_type": "White",
+      "baked_fresh_daily": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Room Temperature",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9c4826b6-e680-474c-8b5e-d1e4f5170f26",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-q1cz2i7k Handcrafted Bamboo Table",
+    "category": "snacks",
+    "price": 30.16,
+    "details": {
+      "brand": "Johnston and Sons",
+      "origin": "Spain"
+    },
+    "created_at": "2026-11-05T08:18:55.082438+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 33
+  },
+  {
+    "id": "eab0efb5-d9ac-4c50-9ce0-2241703705c0",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-tdn7dqn0 Rustic Bronze Shirt",
+    "category": "bakery",
+    "price": 41.6,
+    "details": {
+      "brand": "Schroeder - Dach",
+      "origin": "Bhutan"
+    },
+    "created_at": "2026-11-05T08:18:54.767888+00:00",
+    "temperature_zone": null,
+    "weighted": false,
+    "stock": 14
+  }
+]

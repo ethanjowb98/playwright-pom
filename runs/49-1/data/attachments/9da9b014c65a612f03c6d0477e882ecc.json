@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-g812rs9u Rustic Metal Bacon",
+    "category": "dairy-eggs",
+    "price": 21.4,
+    "stock": 44,
+    "details": {
+      "brand": "Heller, Considine and Dibbert",
+      "origin": "Democratic Republic of the Congo"
+    }
+  }
+}

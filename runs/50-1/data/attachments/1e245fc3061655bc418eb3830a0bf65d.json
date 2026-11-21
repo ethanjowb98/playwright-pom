@@ -1,0 +1,15 @@
+{
+  "id": "6c70e9e4-0fe3-4b61-a589-8da3599568bf",
+  "product_name": "QA-5-m9ip00d1 Bespoke Cotton Bike",
+  "category": "snacks",
+  "price": 7.6,
+  "stock": 22,
+  "details": {
+    "brand": "Ullrich, Wintheiser and Carroll",
+    "origin": "Uzbekistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:01.582225+00:00"
+}

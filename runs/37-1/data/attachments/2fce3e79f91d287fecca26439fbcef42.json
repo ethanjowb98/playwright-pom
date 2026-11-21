@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2bu749bc Intelligent Silk Pants",
+    "category": "other",
+    "price": 1.91,
+    "stock": 2,
+    "details": {
+      "brand": "Ziemann, Spinka and Nitzsche",
+      "origin": "Sao Tome and Principe"
+    }
+  }
+}

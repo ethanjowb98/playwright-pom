@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-4c3k5e63 Practical Wooden Fish",
+    "category": "bakery",
+    "stock": 20,
+    "details": {
+      "brand": "Stark LLC",
+      "origin": "French Guiana"
+    }
+  }
+}

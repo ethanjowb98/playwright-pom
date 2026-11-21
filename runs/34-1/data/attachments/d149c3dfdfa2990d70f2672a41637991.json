@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v2y1xpsy Generic Marble Ball",
+    "category": "other",
+    "price": 31.1,
+    "stock": 31,
+    "details": {
+      "brand": "Pagac - Reinger",
+      "origin": "Hungary"
+    },
+    "weighted": true
+  }
+}

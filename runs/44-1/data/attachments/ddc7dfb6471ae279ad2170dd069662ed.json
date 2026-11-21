@@ -1,0 +1,15 @@
+{
+  "id": "91e3b318-0c40-48d4-84bb-9e87079a0a36",
+  "product_name": "QA-3-74w127a4 Electronic Wooden Cheese",
+  "category": "bakery",
+  "price": 27.51,
+  "stock": 38,
+  "details": {
+    "brand": "Weimann Group",
+    "origin": "Saint Helena"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:39.061032+00:00"
+}

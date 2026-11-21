@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-xw9l2u5h Handcrafted Aluminum Fish",
+    "category": "fresh-produce",
+    "price": 10.86,
+    "stock": 41,
+    "details": {
+      "brand": "Ebert, Reichert-Wolf and Spinka",
+      "origin": "Guinea-Bissau"
+    }
+  }
+}

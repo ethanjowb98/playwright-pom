@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3wx8g5mn Electronic Bamboo Bacon",
+    "category": "beverages",
+    "price": 42.27,
+    "stock": 48,
+    "details": {
+      "brand": "Satterfield, Miller and Cummerata",
+      "origin": "Fiji"
+    }
+  }
+}

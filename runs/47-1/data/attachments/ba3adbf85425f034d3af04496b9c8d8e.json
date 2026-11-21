@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-j5orvi12 Gorgeous Ceramic Fish",
+    "category": "pantry",
+    "price": 18.22,
+    "stock": 31,
+    "details": {
+      "brand": "Gulgowski-McGlynn - Mayert",
+      "origin": "Svalbard & Jan Mayen Islands"
+    },
+    "temperature_zone": "Dry"
+  }
+}

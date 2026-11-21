@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "pantry",
+    "price": 35.97,
+    "stock": 29,
+    "details": {
+      "brand": "Dickinson Inc",
+      "origin": "Central African Republic"
+    }
+  }
+}

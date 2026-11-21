@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "627fa07b-f265-49f9-857e-b213cd4afba5",
+    "order_number": "O28562",
+    "status": "pending",
+    "total_amount": 35.7,
+    "created_at": "2026-11-21T10:29:49.018047+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-a2odxo56 Tasty Marble Car",
+        "category": "bakery",
+        "quantity": 1,
+        "price": 35.7,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

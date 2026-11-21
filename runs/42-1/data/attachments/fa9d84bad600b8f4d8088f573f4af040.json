@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c6eb9dya Awesome Granite Towels",
+    "category": "other",
+    "price": 6.8,
+    "stock": 34,
+    "details": {
+      "brand": "Koepp and Sons",
+      "origin": "Singapore"
+    }
+  }
+}

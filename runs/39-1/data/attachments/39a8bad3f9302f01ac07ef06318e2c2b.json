@@ -1,0 +1,15 @@
+{
+  "id": "de4149e9-6acd-49c8-b6dd-bb0d5159cbb5",
+  "product_name": "QA-1-mmi2h0ck Tasty Granite Cheese",
+  "category": "bakery",
+  "price": 24.39,
+  "stock": 39,
+  "details": {
+    "brand": "Reichel and Sons",
+    "origin": "Vanuatu"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-09T10:38:15.328701+00:00"
+}

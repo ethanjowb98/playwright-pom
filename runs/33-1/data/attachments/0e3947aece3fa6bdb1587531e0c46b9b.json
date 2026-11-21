@@ -1,0 +1,15 @@
+{
+  "id": "8e545ffd-d98f-43ea-8d10-ca840f58daf3",
+  "product_name": "QA-1-90rlvlqq Awesome Cotton Hat",
+  "category": "fresh-produce",
+  "price": 25.17,
+  "stock": 26,
+  "details": {
+    "brand": "Harber - Gerhold",
+    "origin": "Senegal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:25:29.876273+00:00"
+}

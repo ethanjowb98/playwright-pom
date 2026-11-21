@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ygk2zk4t Luxurious Aluminum Hat",
+    "category": "household",
+    "price": 2.61,
+    "stock": 31,
+    "details": {
+      "brand": "Jerde - Abernathy",
+      "origin": "Cape Verde"
+    }
+  }
+}

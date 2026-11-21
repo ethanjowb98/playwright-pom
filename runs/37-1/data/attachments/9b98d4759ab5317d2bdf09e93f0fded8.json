@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-85nka4h2 Rustic Silk Keyboard",
+    "category": "dairy-eggs",
+    "price": 9.09,
+    "stock": 23,
+    "details": {
+      "brand": "Klocko, Effertz and Bode",
+      "origin": "French Polynesia"
+    }
+  }
+}

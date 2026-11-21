@@ -1,0 +1,15 @@
+{
+  "id": "4d86d38b-cc90-453f-b4fd-27eef70b803b",
+  "product_name": "QA-2-ytaclydz sort Alpha",
+  "category": "beverages",
+  "price": 18.72,
+  "stock": 25,
+  "details": {
+    "brand": "Maggio, Marvin and Gislason",
+    "origin": "Saint Martin"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:50.156617+00:00"
+}

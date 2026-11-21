@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2uzitm72 Gorgeous Gold Tuna",
+    "category": "other",
+    "price": 12.23,
+    "stock": 10,
+    "details": {
+      "brand": "Casper - Ledner",
+      "origin": "Greece"
+    }
+  }
+}

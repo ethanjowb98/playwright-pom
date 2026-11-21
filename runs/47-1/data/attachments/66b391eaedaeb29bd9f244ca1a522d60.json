@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-8dqt1ti4 sort Charlie",
+    "category": "household",
+    "price": 18.89,
+    "stock": 39,
+    "details": {
+      "brand": "Davis Group",
+      "origin": "Guinea-Bissau"
+    }
+  }
+}

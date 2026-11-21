@@ -1,0 +1,19 @@
+{
+  "id": "d5b4fe8b-fcbb-40a0-ae46-633acd48ef8d",
+  "order_number": "O14374",
+  "status": "shipped",
+  "total_amount": 28.2,
+  "notes": null,
+  "created_at": "2026-11-11T10:02:00.547926+00:00",
+  "updated_at": "2026-11-11T10:02:00.547926+00:00",
+  "items": [
+    {
+      "product_id": "aa7f6b29-dfb4-40ca-bd93-eefffafc4ab8",
+      "product_name": "QA-1-3jfnl0wo Small Gold Bacon",
+      "category": "other",
+      "quantity": 1,
+      "price": 28.2,
+      "temperature_zone": null
+    }
+  ]
+}

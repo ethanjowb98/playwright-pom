@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-iiv05m60 Incredible Marble Fish",
+    "category": "dairy-eggs",
+    "price": 47.29,
+    "stock": 15,
+    "details": {
+      "brand": "Daniel - Reynolds",
+      "origin": "Antarctica"
+    }
+  }
+}

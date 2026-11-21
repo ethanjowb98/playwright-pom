@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-us3fdjx5 Sleek Metal Chips",
+    "category": "household",
+    "price": 34.95,
+    "stock": 16,
+    "details": {
+      "brand": "Howell Group",
+      "origin": "Cocos (Keeling) Islands"
+    },
+    "temperature_zone": "Dry"
+  }
+}

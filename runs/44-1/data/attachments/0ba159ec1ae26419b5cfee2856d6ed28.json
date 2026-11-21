@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-em9f4sgt Handcrafted Cotton Mouse",
+    "category": "fresh-produce",
+    "price": 37.49,
+    "stock": 43,
+    "details": {
+      "brand": "Bechtelar Inc",
+      "origin": "Åland Islands"
+    }
+  }
+}

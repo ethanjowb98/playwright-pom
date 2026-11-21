@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-05saltej Intelligent Wooden Table",
+    "category": "snacks",
+    "price": 17.14,
+    "stock": 42,
+    "details": {
+      "brand": "Hegmann, McClure-Kilback and Anderson",
+      "origin": "Bahamas"
+    }
+  }
+}

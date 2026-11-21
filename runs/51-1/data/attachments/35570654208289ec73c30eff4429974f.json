@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ytr3jejl Oriental Bamboo Chicken",
+    "category": "household",
+    "price": 10.09,
+    "stock": 46,
+    "details": {
+      "brand": "Farrell - Rohan",
+      "origin": "Costa Rica"
+    }
+  }
+}

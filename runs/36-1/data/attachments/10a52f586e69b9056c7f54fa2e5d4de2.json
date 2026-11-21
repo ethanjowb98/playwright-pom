@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-gk2h70d9 Handmade Bronze Shirt",
+    "category": "other",
+    "price": 34.37,
+    "stock": 41,
+    "details": {
+      "brand": "Hettinger, Bashirian and Renner",
+      "origin": "Eswatini"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

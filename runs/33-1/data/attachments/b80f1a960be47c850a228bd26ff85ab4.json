@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uvfotmv3 Handcrafted Marble Pants",
+    "category": "snacks",
+    "price": 23.65,
+    "stock": 12,
+    "details": {
+      "brand": "Zemlak and Sons",
+      "origin": "French Southern Territories"
+    }
+  }
+}

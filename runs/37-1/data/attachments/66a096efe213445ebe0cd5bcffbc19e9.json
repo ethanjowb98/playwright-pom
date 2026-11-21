@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ca7dffe6-3259-4e78-9498-a2b52dde86ae",
+    "order_number": "O77280",
+    "status": "pending",
+    "total_amount": 3.04,
+    "created_at": "2026-11-07T09:26:27.484971+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-y578yg82 Recycled Plastic Bacon",
+        "category": "snacks",
+        "quantity": 2,
+        "price": 1.52,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

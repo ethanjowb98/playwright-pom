@@ -1,0 +1,15 @@
+{
+  "id": "dc6e0e71-cc40-443e-a0a8-13531f9a7abb",
+  "product_name": "QA-1-a4ee4b85 Luxurious Rubber Towels",
+  "category": "pantry",
+  "price": 30.31,
+  "stock": 24,
+  "details": {
+    "brand": "Nolan - Purdy",
+    "origin": "New Zealand"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:20:38.510116+00:00"
+}

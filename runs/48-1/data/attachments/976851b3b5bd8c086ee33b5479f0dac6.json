@@ -1,0 +1,15 @@
+{
+  "id": "3e6a823f-31c8-4924-8341-9b4c229dc1b1",
+  "product_name": "QA-2-gke4ssqg Modern Concrete Computer",
+  "category": "snacks",
+  "price": 14.11,
+  "stock": 29,
+  "details": {
+    "brand": "Connelly Inc",
+    "origin": "Austria"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:12.857954+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-90rlvlqq Awesome Cotton Hat",
+    "category": "fresh-produce",
+    "price": 25.17,
+    "stock": 26,
+    "details": {
+      "brand": "Harber - Gerhold",
+      "origin": "Senegal"
+    }
+  }
+}

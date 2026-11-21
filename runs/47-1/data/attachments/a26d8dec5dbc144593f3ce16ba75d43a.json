@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d75def6c-0604-40ab-9e07-1a035e17234e",
+    "order_number": "O25134",
+    "status": "pending",
+    "total_amount": 115.8,
+    "created_at": "2026-11-17T11:24:35.878735+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-i7jk99nj Incredible Aluminum Shirt",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 38.6,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-cxw956u4 Soft Ceramic Table",
+    "category": "pantry",
+    "price": 34.29,
+    "stock": 47,
+    "details": {
+      "brand": "Stamm, Nolan and Dickinson",
+      "origin": "Nepal"
+    }
+  }
+}

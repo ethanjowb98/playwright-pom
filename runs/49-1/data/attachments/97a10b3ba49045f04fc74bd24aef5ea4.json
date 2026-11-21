@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-fkelmsa5 Gorgeous Steel Gloves",
+    "category": "frozen",
+    "price": 31.36,
+    "stock": 42,
+    "details": {
+      "brand": "Fay, Renner and Abbott",
+      "origin": "Angola"
+    },
+    "weighted": true
+  }
+}

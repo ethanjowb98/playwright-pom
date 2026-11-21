@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lmpyxkel Electronic Ceramic Keyboard",
+    "category": "pantry",
+    "price": 30.25,
+    "stock": 38,
+    "details": {
+      "brand": "Gislason - Schimmel",
+      "origin": "Sierra Leone"
+    }
+  }
+}

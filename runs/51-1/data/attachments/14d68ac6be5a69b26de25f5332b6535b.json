@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mln6i4z4 Rustic Cotton Salad",
+    "category": "frozen",
+    "price": 36.52,
+    "stock": 25,
+    "details": {
+      "brand": "Wuckert and Sons",
+      "origin": "Nauru"
+    }
+  }
+}

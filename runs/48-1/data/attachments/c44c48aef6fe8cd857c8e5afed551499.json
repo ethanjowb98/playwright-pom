@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9xusmpb3 Gorgeous Granite Tuna",
+    "category": "frozen",
+    "price": 7.97,
+    "stock": 17,
+    "details": {
+      "brand": "Blanda LLC",
+      "origin": "Bangladesh"
+    }
+  }
+}

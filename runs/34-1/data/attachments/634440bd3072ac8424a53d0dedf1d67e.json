@@ -1,0 +1,15 @@
+{
+  "id": "989150a4-d886-43a5-bb3c-6f37159265b0",
+  "product_name": "QA-3-945a16oq sort Bravo",
+  "category": "snacks",
+  "price": 36.6,
+  "stock": 38,
+  "details": {
+    "brand": "Ullrich and Sons",
+    "origin": "Myanmar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:30.078325+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ew1h9ct1 Elegant Ceramic Table",
+    "category": "household",
+    "price": 28.39,
+    "stock": 12,
+    "details": {
+      "brand": "Friesen - Lynch",
+      "origin": "Costa Rica"
+    }
+  }
+}

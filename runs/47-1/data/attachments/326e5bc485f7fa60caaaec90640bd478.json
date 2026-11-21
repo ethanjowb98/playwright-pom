@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "9534f5b9-c857-484e-a592-bc8b8a4f5786",
+    "order_number": "O42426",
+    "status": "pending",
+    "total_amount": 146.19,
+    "created_at": "2026-11-17T11:25:01.329451+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-90nv6k8e Licensed Plastic Ball",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 48.73,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zm65j4ay Awesome Marble Gloves",
+    "category": "household",
+    "price": 47.81,
+    "stock": 19,
+    "details": {
+      "brand": "Kohler - Volkman",
+      "origin": "Micronesia"
+    }
+  }
+}

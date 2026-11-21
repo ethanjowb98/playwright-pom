@@ -1,0 +1,15 @@
+{
+  "id": "2887330a-ca04-49d7-8484-db8d2b85f95e",
+  "product_name": "QA-1-ndoicj0p Licensed Marble Sausages",
+  "category": "meat-seafood",
+  "price": 28.75,
+  "stock": 35,
+  "details": {
+    "brand": "MacGyver, Will and Lueilwitz",
+    "origin": "Nigeria"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:25:16.418639+00:00"
+}

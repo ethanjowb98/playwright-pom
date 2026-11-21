@@ -1,0 +1,15 @@
+{
+  "id": "7f96fda1-2bfb-47a6-9fa5-fb7622eb834a",
+  "product_name": "QA-1-87ytkkon Fresh Wooden Bacon",
+  "category": "beverages",
+  "price": 34.3,
+  "stock": 23,
+  "details": {
+    "brand": "Mraz Group",
+    "origin": "Niger"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:28.064432+00:00"
+}

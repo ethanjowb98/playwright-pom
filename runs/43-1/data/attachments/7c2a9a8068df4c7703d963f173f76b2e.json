@@ -1,0 +1,15 @@
+{
+  "id": "29f581aa-c41e-466f-a3bc-36dfe77b4cc3",
+  "product_name": "QA-1-8vdwj0d3 Modern Bronze Tuna",
+  "category": "fresh-produce",
+  "price": 21.35,
+  "stock": 28,
+  "details": {
+    "brand": "DuBuque and Sons",
+    "origin": "Romania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:47.339604+00:00"
+}

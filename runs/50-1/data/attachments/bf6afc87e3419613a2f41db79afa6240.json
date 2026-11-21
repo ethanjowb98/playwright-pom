@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-76rjqw2b Unbranded Concrete Chicken",
+    "category": "beverages",
+    "price": 35.27,
+    "stock": 15,
+    "details": {
+      "brand": "Rosenbaum, Schimmel and O'Keefe",
+      "origin": "Mexico"
+    }
+  }
+}

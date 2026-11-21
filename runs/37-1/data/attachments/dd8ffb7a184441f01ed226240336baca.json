@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-x6qekevn Fresh Silk Sausages",
+    "category": "snacks",
+    "price": 11.22,
+    "stock": 10,
+    "details": {
+      "brand": "Hamill - Kutch",
+      "origin": "South Georgia and the South Sandwich Islands"
+    }
+  }
+}

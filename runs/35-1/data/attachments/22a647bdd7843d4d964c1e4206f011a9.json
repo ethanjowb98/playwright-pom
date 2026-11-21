@@ -1,0 +1,15 @@
+{
+  "id": "a0481623-1766-41e7-a625-4fc0594fd45c",
+  "product_name": "QA-1-pboseh3y Sleek Concrete Fish",
+  "category": "dairy-eggs",
+  "price": 17.22,
+  "stock": 48,
+  "details": {
+    "brand": "Cassin LLC",
+    "origin": "French Southern Territories"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:05:25.824155+00:00"
+}

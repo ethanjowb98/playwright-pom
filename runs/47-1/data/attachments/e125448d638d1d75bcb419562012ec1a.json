@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "2f276c18-90a5-4adb-a270-3a63e0a467de",
+    "order_number": "O93722",
+    "status": "pending",
+    "total_amount": 57.86,
+    "created_at": "2026-11-17T11:24:30.82834+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-bxmaiq4o Luxurious Cotton Chair",
+        "category": "pantry",
+        "quantity": 1,
+        "price": 13.79,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-su1twnxx Small Cotton Shoes",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 44.07,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

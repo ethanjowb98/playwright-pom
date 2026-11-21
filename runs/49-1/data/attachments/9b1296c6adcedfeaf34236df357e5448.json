@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-8sib7axc sort Bravo",
+    "category": "frozen",
+    "price": 11.3,
+    "stock": 45,
+    "details": {
+      "brand": "Padberg, Conroy and Witting",
+      "origin": "Bangladesh"
+    }
+  }
+}

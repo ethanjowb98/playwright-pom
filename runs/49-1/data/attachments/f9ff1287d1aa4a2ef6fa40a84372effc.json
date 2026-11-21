@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-dp7w8puq Bespoke Gold Soap",
+    "category": "frozen",
+    "price": 37.88,
+    "stock": 21,
+    "details": {
+      "brand": "Mills and Sons",
+      "origin": "Northern Mariana Islands"
+    }
+  }
+}

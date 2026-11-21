@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-66jyfu2x Gorgeous Marble Shoes",
+    "category": "snacks",
+    "price": 14.25,
+    "stock": 21,
+    "details": {
+      "brand": "Sanford - Ryan",
+      "origin": "Hong Kong"
+    }
+  }
+}

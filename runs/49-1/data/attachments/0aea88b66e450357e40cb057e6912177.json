@@ -1,0 +1,15 @@
+{
+  "id": "e60fe789-3d75-4380-8e84-f2482c04e3ac",
+  "product_name": "QA-2-ptl1sasc Recycled Aluminum Sausages",
+  "category": "fresh-produce",
+  "price": 21.68,
+  "stock": 47,
+  "details": {
+    "brand": "Kirlin - Volkman",
+    "origin": "Trinidad and Tobago"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:56:59.241748+00:00"
+}

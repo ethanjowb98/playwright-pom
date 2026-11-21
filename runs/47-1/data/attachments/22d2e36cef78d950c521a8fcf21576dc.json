@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7wq3644y Recycled Wooden Keyboard",
+    "category": "pantry",
+    "price": 10.24,
+    "stock": 24,
+    "details": {
+      "brand": "Tremblay, Keeling and Marvin",
+      "origin": "Kyrgyz Republic"
+    }
+  }
+}

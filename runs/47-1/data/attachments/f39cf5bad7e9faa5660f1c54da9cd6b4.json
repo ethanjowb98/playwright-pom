@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fqhtz8qo Luxurious Rubber Car",
+    "category": "snacks",
+    "price": 34.85,
+    "stock": 30,
+    "details": {
+      "brand": "Sporer - Erdman",
+      "origin": "British Indian Ocean Territory (Chagos Archipelago)"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "e6669998-bd9b-4451-ad9a-f6906e5292e0",
+  "product_name": "QA-4-0uwktr77 Practical Rubber Keyboard",
+  "category": "beverages",
+  "price": 48.38,
+  "stock": 20,
+  "details": {
+    "brand": "Stanton Inc",
+    "origin": "Senegal"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:12.202341+00:00"
+}

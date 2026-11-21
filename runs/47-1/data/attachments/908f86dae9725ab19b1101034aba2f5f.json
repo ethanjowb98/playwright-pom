@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-t00hvwwk Small Metal Pants",
+    "category": "bakery",
+    "price": 6.96,
+    "stock": 21,
+    "details": {
+      "brand": "Wintheiser, Bartoletti and Lakin",
+      "origin": "Togo"
+    },
+    "temperature_zone": "Room Temperature"
+  }
+}

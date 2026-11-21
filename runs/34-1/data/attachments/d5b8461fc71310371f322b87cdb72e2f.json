@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-861le4he Sleek Bamboo Pizza",
+    "category": "snacks",
+    "price": 21.14,
+    "stock": 50,
+    "details": {
+      "brand": "Baumbach - Runolfsson",
+      "origin": "Nauru"
+    }
+  }
+}

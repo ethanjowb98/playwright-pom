@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dpqb7s7v Fresh Cotton Shirt",
+    "category": "snacks",
+    "price": 8.26,
+    "stock": 17,
+    "details": {
+      "brand": "King LLC",
+      "origin": "Mexico"
+    }
+  }
+}

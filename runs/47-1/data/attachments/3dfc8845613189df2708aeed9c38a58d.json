@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-04l7y14g Soft Steel Salad",
+    "category": "pantry",
+    "price": "abc",
+    "stock": 11,
+    "details": {
+      "brand": "Grady, Walker and Anderson",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-5ndchdzs Intelligent Wooden Chips",
+    "category": "household",
+    "price": 13.55,
+    "stock": 33,
+    "details": {
+      "brand": "Buckridge and Sons",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

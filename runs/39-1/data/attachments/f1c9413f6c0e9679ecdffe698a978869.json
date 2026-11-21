@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l2mkh74z Awesome Ceramic Computer",
+    "category": "beverages",
+    "price": 18.28,
+    "stock": 13,
+    "details": {
+      "brand": "Ruecker - Hand",
+      "origin": "Uzbekistan"
+    }
+  }
+}

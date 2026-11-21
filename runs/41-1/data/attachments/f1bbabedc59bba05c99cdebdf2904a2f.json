@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-r9j5p0sk Awesome Bamboo Computer",
+    "category": "fresh-produce",
+    "price": 27.85,
+    "stock": 32,
+    "details": {
+      "brand": "Thiel - McClure",
+      "origin": "Réunion"
+    }
+  }
+}

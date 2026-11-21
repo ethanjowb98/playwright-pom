@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-wg8ralie Gorgeous Concrete Pants",
+    "category": "dairy-eggs",
+    "price": 36.21,
+    "stock": 23,
+    "details": {
+      "brand": "Spinka, Homenick and Corkery",
+      "origin": "Iraq"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h66p8llp Handmade Wooden Mouse",
+    "category": "other",
+    "price": 2.9,
+    "stock": 12,
+    "details": {
+      "brand": "Greenfelder Group",
+      "origin": "Antigua and Barbuda"
+    }
+  }
+}

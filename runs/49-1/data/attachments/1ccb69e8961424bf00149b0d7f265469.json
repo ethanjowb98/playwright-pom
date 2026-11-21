@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "19142a37-d60e-4b28-9cd9-2e8cf3122c22",
+    "order_number": "O64580",
+    "status": "pending",
+    "total_amount": 48.12,
+    "created_at": "2026-11-19T10:56:21.917233+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-8esbnvas Handmade Granite Salad",
+        "category": "meat-seafood",
+        "quantity": 2,
+        "price": 24.06,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

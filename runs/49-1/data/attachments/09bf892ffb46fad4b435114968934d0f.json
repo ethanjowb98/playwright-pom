@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rrotcjdg sort Bravo",
+    "category": "other",
+    "price": 26.99,
+    "stock": 41,
+    "details": {
+      "brand": "Cruickshank, Schamberger and Toy-MacGyver",
+      "origin": "Yemen"
+    }
+  }
+}

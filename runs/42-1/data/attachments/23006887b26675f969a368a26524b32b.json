@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-25mfts6z Fresh Ceramic Hat",
+    "category": "bakery",
+    "price": 13.83,
+    "stock": 48,
+    "details": {
+      "brand": "Leuschke, Emard and Johnson",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

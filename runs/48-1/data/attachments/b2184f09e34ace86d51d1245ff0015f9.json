@@ -1,0 +1,15 @@
+{
+  "id": "a68cf726-90b4-4b21-8892-998bf3179c21",
+  "product_name": "QA-1-b98pufzp Elegant Metal Pizza",
+  "category": "pantry",
+  "price": 6.87,
+  "stock": 43,
+  "details": {
+    "brand": "Feest Group",
+    "origin": "Marshall Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:56:02.772433+00:00"
+}

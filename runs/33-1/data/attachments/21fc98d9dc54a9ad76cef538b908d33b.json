@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cemqpvcc Unbranded Aluminum Towels",
+    "category": "dairy-eggs",
+    "price": 17.96,
+    "stock": 2,
+    "details": {
+      "brand": "Swaniawski, Feil and Botsford",
+      "origin": "Bonaire, Sint Eustatius and Saba"
+    }
+  }
+}

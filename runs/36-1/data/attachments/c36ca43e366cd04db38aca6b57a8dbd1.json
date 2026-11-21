@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gmg23y9g Gorgeous Silk Car",
+    "category": "beverages",
+    "price": 9.04,
+    "stock": 33,
+    "details": {
+      "brand": "Goyette, Schumm and Mann",
+      "origin": "Afghanistan"
+    }
+  }
+}

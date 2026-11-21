@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-87fyiq60 Incredible Plastic Pants",
+    "category": "dairy-eggs",
+    "price": 38.28,
+    "stock": 46,
+    "details": {
+      "brand": "Raynor, Schroeder and Ratke",
+      "origin": "San Marino"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

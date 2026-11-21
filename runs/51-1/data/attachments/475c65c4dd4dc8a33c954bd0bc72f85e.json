@@ -1,0 +1,15 @@
+{
+  "id": "4d684719-47c2-46eb-b4df-c8822bf4f513",
+  "product_name": "QA-1-rjya1cdw Fantastic Marble Shirt",
+  "category": "beverages",
+  "price": 5.61,
+  "stock": 12,
+  "details": {
+    "brand": "Tromp LLC",
+    "origin": "Luxembourg"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:28:30.502482+00:00"
+}

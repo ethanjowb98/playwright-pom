@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-2fzi2y3z Practical Bronze Gloves",
+    "category": "bakery",
+    "price": 38.78,
+    "stock": 50,
+    "details": {
+      "brand": "Terry-Rowe LLC",
+      "origin": "Sudan"
+    }
+  }
+}

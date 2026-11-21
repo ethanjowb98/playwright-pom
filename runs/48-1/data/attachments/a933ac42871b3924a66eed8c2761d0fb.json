@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "c06dbacc-5bdd-4916-a4d8-dd78a4374920",
+    "order_number": "O35693",
+    "status": "pending",
+    "total_amount": 5.22,
+    "created_at": "2026-11-18T10:56:16.611523+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-m7tqor3q Intelligent Wooden Chips",
+        "category": "other",
+        "quantity": 1,
+        "price": 5.22,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

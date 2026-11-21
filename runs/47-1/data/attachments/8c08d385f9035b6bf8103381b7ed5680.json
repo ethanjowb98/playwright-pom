@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-h0lu3mlh Handmade Granite Bacon",
+    "category": "fresh-produce",
+    "price": 8.86,
+    "stock": 42,
+    "details": {
+      "brand": "Toy - Daugherty",
+      "origin": "China"
+    },
+    "weighted": true
+  }
+}

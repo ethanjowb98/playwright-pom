@@ -1,0 +1,15 @@
+{
+  "id": "63ca39cb-a1f2-47e0-98a6-afd5bb527923",
+  "product_name": "QA-1-ih7ltc8z Modern Aluminum Soap",
+  "category": "bakery",
+  "price": 36.7,
+  "stock": 30,
+  "details": {
+    "brand": "Yundt, Kautzer and Stanton",
+    "origin": "South Africa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:03:44.075501+00:00"
+}

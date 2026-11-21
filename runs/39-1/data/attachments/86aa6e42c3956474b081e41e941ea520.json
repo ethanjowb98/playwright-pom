@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-yuuj4qty Gorgeous Steel Pants",
+    "category": "snacks",
+    "price": 1.8,
+    "stock": 38,
+    "details": {
+      "brand": "Sporer Inc",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-zkvo8sw7 sort Alpha",
+    "category": "household",
+    "price": 28.56,
+    "stock": 38,
+    "details": {
+      "brand": "Macejkovic, Gottlieb and Brekke",
+      "origin": "Micronesia"
+    }
+  }
+}

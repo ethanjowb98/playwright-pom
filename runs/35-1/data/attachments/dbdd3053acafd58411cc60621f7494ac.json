@@ -1,0 +1,15 @@
+{
+  "id": "62cbf0e0-795d-4abd-8287-f452bddb1a0c",
+  "product_name": "QA-5-3o2zpznm sort Charlie",
+  "category": "beverages",
+  "price": 22.8,
+  "stock": 46,
+  "details": {
+    "brand": "Herman - D'Amore",
+    "origin": "French Southern Territories"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:41.758364+00:00"
+}

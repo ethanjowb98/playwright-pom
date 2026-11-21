@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-20hqocb8 Tasty Aluminum Table",
+    "category": "meat-seafood",
+    "price": 27.67,
+    "stock": 10,
+    "details": {
+      "brand": "Hirthe LLC",
+      "origin": "Jersey"
+    }
+  }
+}

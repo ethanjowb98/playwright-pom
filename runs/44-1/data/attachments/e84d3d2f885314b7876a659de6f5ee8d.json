@@ -1,0 +1,15 @@
+{
+  "id": "7e83a417-af29-4d4c-827b-3c68268c8b52",
+  "product_name": "QA-4-1fha5lx8 Generic Silk Chips",
+  "category": "beverages",
+  "price": 7.04,
+  "stock": 19,
+  "details": {
+    "brand": "Crooks, Stiedemann and Vandervort-Predovic",
+    "origin": "Bermuda"
+  },
+  "temperature_zone": null,
+  "weighted": true,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:38:38.830501+00:00"
+}

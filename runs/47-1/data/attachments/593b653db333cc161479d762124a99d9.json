@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "1c09c479-e52b-46a9-a89a-d1f75bb742a1",
+    "order_number": "O85235",
+    "status": "pending",
+    "total_amount": 129.09,
+    "created_at": "2026-11-17T11:23:11.748405+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-sklot9g7 Generic Granite Gloves",
+        "category": "meat-seafood",
+        "quantity": 3,
+        "price": 43.03,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

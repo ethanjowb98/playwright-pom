@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-67n4kjp9 Tasty Metal Pizza",
+    "category": "bakery",
+    "price": 34.11,
+    "stock": 41,
+    "details": {
+      "brand": "Beatty LLC",
+      "origin": "Mauritius"
+    }
+  }
+}

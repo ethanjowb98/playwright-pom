@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xx3yxxh3 Awesome Concrete Sausages",
+    "category": "pantry",
+    "price": 16.17,
+    "stock": 2,
+    "details": {
+      "brand": "Swaniawski, Haag and Wilkinson",
+      "origin": "Zambia"
+    }
+  }
+}

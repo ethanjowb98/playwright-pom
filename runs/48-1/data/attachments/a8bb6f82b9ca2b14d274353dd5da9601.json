@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-gke4ssqg Modern Concrete Computer",
+    "category": "snacks",
+    "price": 14.11,
+    "stock": 29,
+    "details": {
+      "brand": "Connelly Inc",
+      "origin": "Austria"
+    }
+  }
+}

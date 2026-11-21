@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-43q07h4g Awesome Cotton Keyboard",
+    "category": "snacks",
+    "price": 18.49,
+    "stock": 13,
+    "details": {
+      "brand": "Keebler Group",
+      "origin": "Anguilla"
+    }
+  }
+}

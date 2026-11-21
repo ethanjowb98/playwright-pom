@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a41an584 Modern Steel Keyboard",
+    "category": "beverages",
+    "price": 45.68,
+    "stock": 42,
+    "details": {
+      "brand": "Bednar - Veum",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

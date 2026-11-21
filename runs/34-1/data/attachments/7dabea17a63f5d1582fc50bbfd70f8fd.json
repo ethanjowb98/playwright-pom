@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "0554c41d-da51-491d-a12d-49ee11688561",
+    "order_number": "O34339",
+    "status": "pending",
+    "total_amount": 133.71,
+    "created_at": "2026-11-05T09:20:26.062758+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-3niun6l9 Handcrafted Bronze Salad",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 44.57,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

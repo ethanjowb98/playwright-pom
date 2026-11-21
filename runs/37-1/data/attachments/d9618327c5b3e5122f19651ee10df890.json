@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sxxjazgj Generic Cotton Table",
+    "category": "snacks",
+    "price": 31.74,
+    "stock": 46,
+    "details": {
+      "brand": "Schulist - Treutel",
+      "origin": "Micronesia"
+    }
+  }
+}

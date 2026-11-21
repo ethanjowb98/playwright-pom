@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ytaclydz sort Bravo",
+    "category": "meat-seafood",
+    "price": 24.26,
+    "stock": 50,
+    "details": {
+      "brand": "Muller, Fisher and Glover",
+      "origin": "Cook Islands"
+    }
+  }
+}

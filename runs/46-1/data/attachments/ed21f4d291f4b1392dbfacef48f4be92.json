@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-c4yktapn sort Charlie",
+    "category": "household",
+    "price": 15.36,
+    "stock": 19,
+    "details": {
+      "brand": "Paucek Group",
+      "origin": "Montenegro"
+    }
+  }
+}

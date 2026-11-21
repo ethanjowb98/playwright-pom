@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jgfgc0vb Gorgeous Granite Cheese",
+    "category": "household",
+    "price": 20.6,
+    "stock": 35,
+    "details": {
+      "brand": "Ullrich - Fritsch",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

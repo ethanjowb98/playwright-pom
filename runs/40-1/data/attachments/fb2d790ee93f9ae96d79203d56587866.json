@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ysa4qjf9 Handmade Wooden Pants",
+    "category": "dairy-eggs",
+    "price": 43.54,
+    "stock": 47,
+    "details": {
+      "brand": "DuBuque, Beatty and Rohan",
+      "origin": "Australia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "b57c378c-db96-4295-8d3f-4b877cf0b8d7",
+  "product_name": "QA-4-9omgvpag Fresh Metal Shoes",
+  "category": "beverages",
+  "price": 2.89,
+  "stock": 18,
+  "details": {
+    "brand": "Bartell, Brakus and Cartwright",
+    "origin": "Guatemala"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:10.333212+00:00"
+}

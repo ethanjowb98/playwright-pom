@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xentuvtu Soft Concrete Shirt",
+    "category": "other",
+    "price": 25.11,
+    "stock": 2,
+    "details": {
+      "brand": "Jast, Torp and Raynor",
+      "origin": "Palestine"
+    }
+  }
+}

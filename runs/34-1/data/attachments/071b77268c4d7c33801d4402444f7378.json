@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-725azk3h Fantastic Metal Chair",
+    "category": "other",
+    "price": 36.22,
+    "stock": 47,
+    "details": {
+      "brand": "Franey Inc",
+      "origin": "Grenada"
+    }
+  }
+}

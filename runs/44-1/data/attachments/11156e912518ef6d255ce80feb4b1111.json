@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-3iyc836i Gorgeous Silk Table",
+    "category": "household",
+    "price": 7.8,
+    "stock": 15,
+    "details": {
+      "brand": "Crooks and Sons",
+      "origin": "Taiwan"
+    },
+    "weighted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-cywvbxof sort Charlie",
+    "category": "household",
+    "price": 23.1,
+    "stock": 24,
+    "details": {
+      "brand": "Gorczany Inc",
+      "origin": "Norfolk Island"
+    }
+  }
+}

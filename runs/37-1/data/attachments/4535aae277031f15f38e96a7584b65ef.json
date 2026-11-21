@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5s8msx8m Fantastic Concrete Hat",
+    "category": "bakery",
+    "price": 13.89,
+    "stock": 46,
+    "details": {
+      "brand": "Koepp - Balistreri",
+      "origin": "Tajikistan"
+    }
+  }
+}

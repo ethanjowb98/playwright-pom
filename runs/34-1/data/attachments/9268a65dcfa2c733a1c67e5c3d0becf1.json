@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fxyhd22s Fantastic Bamboo Chips",
+    "category": "beverages",
+    "price": 11.6,
+    "stock": 22,
+    "details": {
+      "brand": "Ortiz, Kilback and Weimann",
+      "origin": "French Guiana"
+    }
+  }
+}

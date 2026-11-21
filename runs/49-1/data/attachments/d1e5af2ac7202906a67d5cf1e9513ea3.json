@@ -1,0 +1,15 @@
+{
+  "id": "c7fc9282-1b94-407f-bed0-e2fae1f606db",
+  "product_name": "QA-2-1wln83pg Tasty Aluminum Pants",
+  "category": "frozen",
+  "price": 5.84,
+  "stock": 36,
+  "details": {
+    "brand": "Johnson - Fahey",
+    "origin": "American Samoa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:58:02.853855+00:00"
+}

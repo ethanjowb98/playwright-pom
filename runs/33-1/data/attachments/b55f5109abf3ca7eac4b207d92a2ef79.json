@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-qybvi43r Soft Granite Sausages",
+    "category": "household",
+    "price": 37.05,
+    "stock": 41,
+    "details": {
+      "brand": "Weissnat - Jacobson",
+      "origin": "Bermuda"
+    },
+    "weighted": false
+  }
+}

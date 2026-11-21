@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "b9183971-4101-40a7-a835-b2a43678130d",
+    "order_number": "O75177",
+    "status": "pending",
+    "total_amount": 35.63,
+    "created_at": "2026-11-17T11:25:14.175604+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-ud8f6b8a Intelligent Bronze Towels",
+        "category": "dairy-eggs",
+        "quantity": 1,
+        "price": 35.63,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

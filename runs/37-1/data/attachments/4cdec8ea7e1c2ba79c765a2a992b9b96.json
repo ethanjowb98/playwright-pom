@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-jx0aoz9z Fantastic Marble Bacon",
+    "category": "household",
+    "price": 26.16,
+    "stock": 23,
+    "details": {
+      "brand": "Rolfson - Connelly",
+      "origin": "Eritrea"
+    }
+  }
+}

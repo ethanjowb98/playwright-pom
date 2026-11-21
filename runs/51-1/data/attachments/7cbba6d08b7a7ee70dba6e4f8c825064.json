@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-f4orancc sort Charlie",
+    "category": "household",
+    "price": 9.52,
+    "stock": 36,
+    "details": {
+      "brand": "Bosco and Sons",
+      "origin": "Saudi Arabia"
+    }
+  }
+}

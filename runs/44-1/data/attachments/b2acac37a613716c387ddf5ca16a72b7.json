@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u3tayb7e Generic Granite Shoes",
+    "category": "bakery",
+    "price": 49.57,
+    "stock": 41,
+    "details": {
+      "brand": "Wuckert Inc",
+      "origin": "Kazakhstan"
+    }
+  }
+}

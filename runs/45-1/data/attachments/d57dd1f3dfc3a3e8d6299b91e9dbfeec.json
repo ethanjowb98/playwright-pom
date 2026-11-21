@@ -1,0 +1,15 @@
+{
+  "id": "4fe6d5e0-3d62-4688-be07-48fff9e548c2",
+  "product_name": "QA-2-f8j4b5oc Modern Gold Chips",
+  "category": "pantry",
+  "price": 22.7,
+  "stock": 30,
+  "details": {
+    "brand": "Grant, Yost and MacGyver",
+    "origin": "Myanmar"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:33.055998+00:00"
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-i4ywlp5i Ergonomic Marble Mouse",
+    "category": "household",
+    "price": 20.18,
+    "stock": 41,
+    "details": {
+      "brand": "Anderson - Koch",
+      "origin": "New Zealand"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

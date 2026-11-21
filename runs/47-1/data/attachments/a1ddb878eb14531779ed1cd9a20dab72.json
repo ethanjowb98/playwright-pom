@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dlb2m04p Handcrafted Ceramic Bike",
+    "category": "fresh-produce",
+    "price": 15.52,
+    "stock": 29,
+    "details": {
+      "brand": "MacGyver - O'Reilly",
+      "origin": "Qatar"
+    }
+  }
+}

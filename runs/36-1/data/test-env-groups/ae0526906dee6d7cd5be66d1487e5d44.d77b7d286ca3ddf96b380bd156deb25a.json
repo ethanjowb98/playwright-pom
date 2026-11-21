@@ -1,0 +1,1 @@
+{"id":"ae0526906dee6d7cd5be66d1487e5d44.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/orders.api.spec.ts › Orders API › Create › should place a pending order from the basket when the basket has items","name":"should place a pending order from the basket when the basket has items","status":"passed","testResultsByEnv":{"default":"e22f1f62dde22fe327a95243b1689d4d"}}

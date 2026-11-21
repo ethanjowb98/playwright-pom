@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-gbv9xqd8 Fresh Plastic Computer",
+    "category": "pantry",
+    "price": 26.31,
+    "stock": 25,
+    "details": {
+      "brand": "Sauer, Balistreri and Leannon",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-osnlp07v sort Bravo",
+    "category": "fresh-produce",
+    "price": 32.83,
+    "stock": 44,
+    "details": {
+      "brand": "DuBuque - Balistreri",
+      "origin": "Chad"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3uykerw3 Soft Silk Ball",
+    "category": "household",
+    "price": 38.06,
+    "stock": 11,
+    "details": {
+      "brand": "Predovic - Kohler",
+      "origin": "Kazakhstan"
+    }
+  }
+}

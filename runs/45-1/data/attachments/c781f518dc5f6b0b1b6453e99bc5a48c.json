@@ -1,0 +1,15 @@
+{
+  "id": "34395b03-4020-4de8-be12-5fa012c37d2b",
+  "product_name": "QA-1-0xzu8a86 Incredible Metal Sausages",
+  "category": "bakery",
+  "price": 9.66,
+  "stock": 12,
+  "details": {
+    "brand": "Halvorson - Hansen",
+    "origin": "Hong Kong"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:16.558242+00:00"
+}

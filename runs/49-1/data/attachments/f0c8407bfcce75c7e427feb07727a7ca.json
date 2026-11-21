@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-wvei1fw3 Modern Concrete Bacon",
+    "category": "household",
+    "price": 33.59,
+    "stock": 18,
+    "details": {
+      "brand": "Mante and Sons",
+      "origin": "South Sudan"
+    }
+  }
+}

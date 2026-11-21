@@ -1,0 +1,15 @@
+{
+  "id": "563d90a5-055a-4149-840b-944745595c4f",
+  "product_name": "QA-1-c6eb9dya Awesome Granite Towels",
+  "category": "other",
+  "price": 6.8,
+  "stock": 34,
+  "details": {
+    "brand": "Koepp and Sons",
+    "origin": "Singapore"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:32:18.790784+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-s10wc45m Gorgeous Granite Hat",
+    "category": "snacks",
+    "price": 35.97,
+    "stock": 16,
+    "details": {
+      "brand": "Reichert - Franecki",
+      "origin": "Cook Islands"
+    }
+  }
+}

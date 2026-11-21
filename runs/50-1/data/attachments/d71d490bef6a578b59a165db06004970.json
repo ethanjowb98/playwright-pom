@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7hugvwgw Soft Marble Computer",
+    "category": "fresh-produce",
+    "price": 14.86,
+    "stock": 49,
+    "details": {
+      "brand": "Kulas LLC",
+      "origin": "Netherlands"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kmcm8zkf Ergonomic Silk Keyboard",
+    "category": "bakery",
+    "price": 18.57,
+    "stock": 33,
+    "details": {
+      "brand": "Weissnat - Hoppe",
+      "origin": "Åland Islands"
+    }
+  }
+}

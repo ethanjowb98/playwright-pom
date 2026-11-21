@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2jbvjeac Small Rubber Ball",
+    "category": "meat-seafood",
+    "price": 37.42,
+    "stock": 31,
+    "details": {
+      "brand": "Ward Inc",
+      "origin": "Mayotte"
+    }
+  }
+}

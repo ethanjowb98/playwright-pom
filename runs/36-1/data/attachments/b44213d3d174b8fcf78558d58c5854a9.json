@@ -1,0 +1,15 @@
+{
+  "id": "f3692b50-aec7-4c27-a015-3eaed6d643ac",
+  "product_name": "QA-1-rjr46mez Elegant Rubber Chair",
+  "category": "fresh-produce",
+  "price": 1.42,
+  "stock": 43,
+  "details": {
+    "brand": "Jacobi, Simonis-Hudson and Roob",
+    "origin": "Nauru"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:52.054011+00:00"
+}

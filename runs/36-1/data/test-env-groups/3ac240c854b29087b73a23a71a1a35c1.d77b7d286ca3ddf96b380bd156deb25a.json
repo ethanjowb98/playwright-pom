@@ -1,0 +1,1 @@
+{"id":"3ac240c854b29087b73a23a71a1a35c1.d77b7d286ca3ddf96b380bd156deb25a","fullName":"api/basket.api.spec.ts › Basket API › Validation › should return 404 when a product that is not in the basket is removed","name":"should return 404 when a product that is not in the basket is removed","status":"passed","testResultsByEnv":{"default":"b3367d736beef345dd50372b0c39d70a"}}

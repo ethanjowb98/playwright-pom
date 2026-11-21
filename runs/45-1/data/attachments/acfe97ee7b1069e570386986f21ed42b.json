@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-534hafyz Incredible Metal Chicken",
+    "category": "bakery",
+    "price": 22.77,
+    "stock": 42,
+    "details": {
+      "brand": "Kihn, Rutherford and Jaskolski",
+      "origin": "Israel"
+    }
+  }
+}

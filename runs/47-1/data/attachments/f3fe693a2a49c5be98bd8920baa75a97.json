@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "d9a42dfd-6a1e-42da-b371-9d162974e761",
+    "order_number": "O35776",
+    "status": "pending",
+    "total_amount": 17.19,
+    "created_at": "2026-11-17T11:22:24.635186+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-8cfm63el Modern Marble Pizza",
+        "category": "beverages",
+        "quantity": 3,
+        "price": 5.73,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

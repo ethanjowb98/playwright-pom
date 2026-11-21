@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ldk6ejt Soft Silk Chips",
+    "category": "fresh-produce",
+    "price": 16.96,
+    "stock": 19,
+    "details": {
+      "brand": "Ferry and Sons",
+      "origin": "Botswana"
+    }
+  }
+}

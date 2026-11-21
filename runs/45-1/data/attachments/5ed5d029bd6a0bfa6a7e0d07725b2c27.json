@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-cndsyhf3 Luxurious Gold Soap",
+    "category": "bakery",
+    "price": "abc",
+    "stock": 25,
+    "details": {
+      "brand": "VonRueden, Stroman and Walsh",
+      "origin": "Philippines"
+    }
+  }
+}

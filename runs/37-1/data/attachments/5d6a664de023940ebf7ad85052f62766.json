@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-j69saygf Handmade Marble Salad",
+    "category": "other",
+    "price": 49.89,
+    "stock": 15,
+    "details": {
+      "brand": "Kessler Group",
+      "origin": "Cyprus"
+    }
+  }
+}

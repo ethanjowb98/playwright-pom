@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-a2e395o1 Elegant Metal Bacon",
+    "category": "frozen",
+    "price": 21.86,
+    "stock": 43,
+    "details": {
+      "brand": "Runolfsson, Tremblay and Schuppe",
+      "origin": "Iceland"
+    },
+    "weighted": true
+  }
+}

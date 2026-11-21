@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jv58l0t4 Recycled Silk Table",
+    "category": "other",
+    "price": 19.41,
+    "stock": 10,
+    "details": {
+      "brand": "Jacobson - Crist",
+      "origin": "Belgium"
+    },
+    "weighted": true
+  }
+}

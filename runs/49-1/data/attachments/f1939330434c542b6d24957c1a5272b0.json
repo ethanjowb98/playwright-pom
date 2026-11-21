@@ -1,0 +1,15 @@
+{
+  "id": "25fe8c95-9feb-410c-8dfa-a599f8e8fc9c",
+  "product_name": "QA-1-13b83oa5 Unbranded Aluminum Car",
+  "category": "bakery",
+  "price": 42.28,
+  "stock": 16,
+  "details": {
+    "brand": "Casper-Schroeder Group",
+    "origin": "Guinea"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:32.325931+00:00"
+}

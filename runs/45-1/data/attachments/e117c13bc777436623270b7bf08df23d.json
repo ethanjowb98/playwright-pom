@@ -1,0 +1,15 @@
+{
+  "id": "9b5a7b88-6b9d-464a-bd99-09281951b835",
+  "product_name": "QA-1-cmihio54 Ergonomic Concrete Tuna",
+  "category": "other",
+  "price": 4.99,
+  "stock": 45,
+  "details": {
+    "brand": "Dickinson, Armstrong and Skiles",
+    "origin": "Guadeloupe"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:12:44.578006+00:00"
+}

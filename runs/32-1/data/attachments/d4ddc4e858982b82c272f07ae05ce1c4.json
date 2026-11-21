@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8mw3hj0l Practical Bronze Ball",
+    "category": "other",
+    "price": 44,
+    "stock": 27,
+    "details": {
+      "brand": "Hodkiewicz Group",
+      "origin": "Saint Martin"
+    }
+  }
+}

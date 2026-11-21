@@ -1,0 +1,19 @@
+{
+  "id": "ab23c1d0-90c4-479b-b5d7-e0d8c1cb3840",
+  "order_number": "O31669",
+  "status": "cancelled",
+  "total_amount": 74.42,
+  "notes": null,
+  "created_at": "2026-11-06T10:07:43.393552+00:00",
+  "updated_at": "2026-11-06T10:07:43.393552+00:00",
+  "items": [
+    {
+      "product_id": "54b67180-9213-4f70-b45a-157b7ca188d4",
+      "product_name": "QA-1-ym13dpvy Licensed Bamboo Car",
+      "category": "frozen",
+      "quantity": 2,
+      "price": 37.21,
+      "temperature_zone": null
+    }
+  ]
+}

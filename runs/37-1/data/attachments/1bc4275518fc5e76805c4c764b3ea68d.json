@@ -1,0 +1,15 @@
+{
+  "id": "ef92db15-8394-4f2f-ae54-fde4b8b44203",
+  "product_name": "QA-1-i9isqvpi Fresh Plastic Mouse",
+  "category": "beverages",
+  "price": 9.67,
+  "stock": 11,
+  "details": {
+    "brand": "Barton, Rowe and Mann",
+    "origin": "Hungary"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:26:12.268568+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-dbxzg8g2 Luxurious Ceramic Chair",
+    "category": "bakery",
+    "price": 3.54,
+    "stock": 23,
+    "details": {
+      "brand": "Johns, Rau and Bayer",
+      "origin": "Mauritania"
+    }
+  }
+}

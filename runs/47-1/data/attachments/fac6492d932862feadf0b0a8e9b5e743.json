@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3h2rfkup Generic Silk Hat",
+    "category": "meat-seafood",
+    "price": 44.45,
+    "stock": 32,
+    "details": {
+      "brand": "Hand Inc",
+      "origin": "Bermuda"
+    }
+  }
+}

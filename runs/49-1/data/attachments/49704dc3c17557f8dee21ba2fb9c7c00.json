@@ -1,0 +1,15 @@
+{
+  "id": "8cc2ff67-8f28-4d48-96f8-ef87ddcd7a3d",
+  "product_name": "QA-2-t0bq7dfz Licensed Aluminum Shoes",
+  "category": "frozen",
+  "price": 21.25,
+  "stock": 36,
+  "details": {
+    "brand": "Connelly - Kessler",
+    "origin": "Montenegro"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:58:21.6151+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-hqq0yfm8 Small Ceramic Pants",
+    "category": "pantry",
+    "price": 21.15,
+    "stock": 10,
+    "details": {
+      "brand": "Pfannerstill and Sons",
+      "origin": "Montserrat"
+    }
+  }
+}

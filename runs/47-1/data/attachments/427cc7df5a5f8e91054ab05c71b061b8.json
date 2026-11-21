@@ -1,0 +1,15 @@
+{
+  "id": "912ec245-5c0c-4661-801b-4192ec1fcf83",
+  "product_name": "QA-3-cc3z55o4 Small Silk Shoes",
+  "category": "household",
+  "price": 40.86,
+  "stock": 20,
+  "details": {
+    "brand": "Heathcote, Herzog and Balistreri",
+    "origin": "Sweden"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:41.01291+00:00"
+}

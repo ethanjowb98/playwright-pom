@@ -1,0 +1,27 @@
+{
+  "id": "7ca6e847-ef2d-4c39-8f28-014b6e318306",
+  "order_number": "O10247",
+  "status": "pending",
+  "total_amount": 51.59,
+  "notes": null,
+  "created_at": "2026-11-16T10:23:18.233961+00:00",
+  "updated_at": "2026-11-16T10:23:18.233961+00:00",
+  "items": [
+    {
+      "product_id": "cba3cfce-280e-4570-be6d-c6de617b47e2",
+      "product_name": "QA-1-jfh1gvcf Recycled Wooden Chair",
+      "category": "pantry",
+      "quantity": 2,
+      "price": 20.71,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "e7fae14b-27cb-4a78-b52d-484c6870fe11",
+      "product_name": "QA-1-5jra6kfu Rustic Marble Salad",
+      "category": "frozen",
+      "quantity": 3,
+      "price": 3.39,
+      "temperature_zone": null
+    }
+  ]
+}

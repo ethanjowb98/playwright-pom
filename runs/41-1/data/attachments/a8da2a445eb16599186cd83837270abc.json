@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h24t0kap Handcrafted Metal Chicken",
+    "category": "meat-seafood",
+    "price": 24.11,
+    "stock": 48,
+    "details": {
+      "brand": "Volkman and Sons",
+      "origin": "Philippines"
+    }
+  }
+}

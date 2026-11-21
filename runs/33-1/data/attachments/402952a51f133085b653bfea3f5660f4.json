@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-deygdlzl Luxurious Gold Hat",
+    "category": "other",
+    "price": 35.47,
+    "stock": 40,
+    "details": {
+      "brand": "Bogisich - Koch",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

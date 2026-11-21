@@ -1,0 +1,15 @@
+{
+  "id": "315b1896-00aa-4c69-a8a3-f02f6c122b59",
+  "product_name": "QA-1-z3s47e9x Sleek Bamboo Chicken",
+  "category": "snacks",
+  "price": 40.52,
+  "stock": 17,
+  "details": {
+    "brand": "Welch - Wisoky",
+    "origin": "Slovakia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:56:32.982937+00:00"
+}

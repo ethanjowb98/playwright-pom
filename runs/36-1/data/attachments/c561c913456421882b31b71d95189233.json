@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-je5alqby Unbranded Marble Pizza",
+    "category": "beverages",
+    "price": 16.58,
+    "stock": 41,
+    "details": {
+      "brand": "Boyle - Cassin",
+      "origin": "Marshall Islands"
+    }
+  }
+}

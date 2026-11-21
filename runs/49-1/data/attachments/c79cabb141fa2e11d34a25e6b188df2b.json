@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-c9vqk3or Recycled Bronze Chips",
+    "category": "beverages",
+    "price": 6.03,
+    "stock": 49,
+    "details": {
+      "brand": "Lehner LLC",
+      "origin": "Cocos (Keeling) Islands"
+    }
+  }
+}

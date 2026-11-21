@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-feumyjmm Ergonomic Cotton Bike",
+    "category": "dairy-eggs",
+    "price": 38.95,
+    "stock": 40,
+    "details": {
+      "brand": "Klocko Group",
+      "origin": "United Arab Emirates"
+    },
+    "temperature_zone": "Dry"
+  }
+}

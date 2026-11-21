@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "e855a920-5b35-48c7-8630-d95e3f19ee6a",
+      "product_id": "dcc55731-8031-4361-8901-8e406aa6fa8e",
+      "product_name": "QA-1-jgfgc0vb Gorgeous Granite Cheese",
+      "price": 20.6,
+      "category": "household",
+      "quantity": 2,
+      "created_at": "2026-11-16T10:25:11.010852+00:00",
+      "updated_at": "2026-11-16T10:25:11.010852+00:00"
+    },
+    {
+      "id": "ce7c81ee-be91-450c-bf07-96b78cd655f8",
+      "product_id": "110c223d-940c-4863-a93f-4c383ea9c359",
+      "product_name": "QA-1-9gspphuo Incredible Ceramic Ball",
+      "price": 28.28,
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "created_at": "2026-11-16T10:25:11.5643+00:00",
+      "updated_at": "2026-11-16T10:25:11.5643+00:00"
+    }
+  ]
+}

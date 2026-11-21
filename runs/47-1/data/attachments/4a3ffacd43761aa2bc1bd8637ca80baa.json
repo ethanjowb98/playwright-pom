@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ds01up0o Intelligent Steel Bike",
+    "category": "dairy-eggs",
+    "price": 3.72,
+    "stock": 17,
+    "details": {
+      "brand": "Stamm-Dietrich, Lehner and Prosacco",
+      "origin": "Georgia"
+    }
+  }
+}

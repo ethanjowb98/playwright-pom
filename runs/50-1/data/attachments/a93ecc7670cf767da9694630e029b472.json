@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-j5kv9ka1 Intelligent Aluminum Keyboard",
+    "category": "household",
+    "price": 41.14,
+    "stock": 13,
+    "details": {
+      "brand": "Boyle Group",
+      "origin": "Australia"
+    }
+  }
+}

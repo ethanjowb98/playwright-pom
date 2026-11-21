@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fn9woa4c Handmade Bronze Tuna",
+    "category": "meat-seafood",
+    "price": 10.38,
+    "stock": 31,
+    "details": {
+      "brand": "Armstrong - Adams",
+      "origin": "Marshall Islands"
+    }
+  }
+}

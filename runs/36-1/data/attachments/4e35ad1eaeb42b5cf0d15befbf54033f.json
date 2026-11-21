@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-d324545t Elegant Steel Ball",
+    "category": "household",
+    "price": 30.96,
+    "stock": 40,
+    "details": {
+      "brand": "Dickens, Mosciski and Mante",
+      "origin": "Germany"
+    }
+  }
+}

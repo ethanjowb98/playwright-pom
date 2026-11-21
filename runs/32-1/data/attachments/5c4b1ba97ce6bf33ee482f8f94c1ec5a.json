@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-q1cz2i7k Handcrafted Bamboo Table",
+    "category": "snacks",
+    "price": 30.16,
+    "stock": 33,
+    "details": {
+      "brand": "Johnston and Sons",
+      "origin": "Spain"
+    }
+  }
+}

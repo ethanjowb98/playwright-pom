@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u4md84b5 Gorgeous Rubber Chicken",
+    "category": "bakery",
+    "price": 11.86,
+    "stock": 47,
+    "details": {
+      "brand": "Davis Inc",
+      "origin": "Niue"
+    }
+  }
+}

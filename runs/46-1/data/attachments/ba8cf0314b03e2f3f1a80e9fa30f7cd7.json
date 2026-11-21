@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-rksdknin sort Bravo",
+    "category": "meat-seafood",
+    "price": 7.69,
+    "stock": 10,
+    "details": {
+      "brand": "Blick Inc",
+      "origin": "Egypt"
+    }
+  }
+}

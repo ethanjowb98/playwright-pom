@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-znofzt7x Small Aluminum Tuna",
+    "category": "meat-seafood",
+    "price": 27.4,
+    "stock": 25,
+    "details": {
+      "brand": "Crooks Inc",
+      "origin": "Venezuela"
+    }
+  }
+}

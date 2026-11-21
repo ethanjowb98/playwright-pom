@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "dc095b81-5769-4daa-b10a-cfa9db358bce",
+      "product_id": "7fbf47ab-1fc5-4aac-a810-211bd4078127",
+      "product_name": "QA-1-wq5p7p8e Rustic Aluminum Pizza",
+      "price": 30.02,
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "created_at": "2026-11-18T10:57:27.536057+00:00",
+      "updated_at": "2026-11-18T10:57:27.536057+00:00"
+    },
+    {
+      "id": "b41519b1-d685-4752-b704-bf75f1644c99",
+      "product_id": "7c07f847-c273-4293-83f7-dba5ab974a8c",
+      "product_name": "QA-1-sw7slxby Tasty Ceramic Shoes",
+      "price": 25.19,
+      "category": "bakery",
+      "quantity": 3,
+      "created_at": "2026-11-18T10:57:28.16804+00:00",
+      "updated_at": "2026-11-18T10:57:28.16804+00:00"
+    }
+  ]
+}

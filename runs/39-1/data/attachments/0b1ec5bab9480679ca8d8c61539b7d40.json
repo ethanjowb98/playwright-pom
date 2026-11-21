@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qqbd2zjy Tasty Granite Computer",
+    "category": "snacks",
+    "price": 11.89,
+    "stock": 19,
+    "details": {
+      "brand": "Tremblay, Konopelski and Kub",
+      "origin": "Israel"
+    }
+  }
+}

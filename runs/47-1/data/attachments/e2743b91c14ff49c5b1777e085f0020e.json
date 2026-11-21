@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-mr18o3gb Fresh Concrete Chicken",
+    "category": "bakery",
+    "price": 47.58,
+    "stock": 45,
+    "details": {
+      "brand": "Wisoky - Bergstrom",
+      "origin": "Tunisia"
+    }
+  }
+}

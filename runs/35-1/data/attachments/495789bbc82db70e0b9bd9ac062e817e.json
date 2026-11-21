@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-4hzfsq5v Electronic Gold Chicken",
+    "category": "snacks",
+    "price": 12.17,
+    "stock": 12,
+    "details": {
+      "brand": "Will, Bergnaum and Sauer",
+      "origin": "Lesotho"
+    }
+  }
+}

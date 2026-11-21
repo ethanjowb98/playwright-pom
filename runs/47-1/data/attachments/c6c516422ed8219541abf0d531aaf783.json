@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-x3eypf4h Incredible Cotton Chair",
+    "price": 9.82,
+    "stock": 13,
+    "details": {
+      "brand": "Wilderman, Daugherty and Stehr",
+      "origin": "Denmark"
+    }
+  }
+}

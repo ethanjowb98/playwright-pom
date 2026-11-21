@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ikg9mvbr Handcrafted Bamboo Bacon",
+    "category": "other",
+    "price": 37.11,
+    "stock": 36,
+    "details": {
+      "brand": "Swaniawski, Pagac and Dooley",
+      "origin": "Guinea-Bissau"
+    }
+  }
+}

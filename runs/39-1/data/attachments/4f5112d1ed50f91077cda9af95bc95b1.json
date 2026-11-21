@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ambgl130 Sleek Silk Towels",
+    "category": "fresh-produce",
+    "price": 25.77,
+    "stock": 46,
+    "details": {
+      "brand": "Lemke - Carroll",
+      "origin": "Isle of Man"
+    },
+    "temperature_zone": "Dry",
+    "weighted": true
+  }
+}

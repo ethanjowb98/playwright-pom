@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ys3h8wqi Practical Cotton Pants",
+    "category": "snacks",
+    "price": 16.98,
+    "stock": 28,
+    "details": {
+      "brand": "Purdy, Ebert and Ernser",
+      "origin": "Portugal"
+    }
+  }
+}

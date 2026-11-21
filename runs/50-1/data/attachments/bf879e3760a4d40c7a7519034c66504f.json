@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rlwr6caq Frozen Bamboo Mouse",
+    "category": "beverages",
+    "price": 1.16,
+    "stock": 48,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

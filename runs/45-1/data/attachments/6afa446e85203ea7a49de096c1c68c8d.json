@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "c64e2427-97ca-4caf-835a-623e73292754",
+      "product_id": "6b034f59-2fb9-46c9-9982-d56d3111120e",
+      "product_name": "QA-1-ei4vtu2j Oriental Marble Gloves",
+      "price": 37.63,
+      "category": "frozen",
+      "quantity": 3,
+      "created_at": "2026-11-15T10:11:01.758159+00:00",
+      "updated_at": "2026-11-15T10:11:01.758159+00:00"
+    },
+    {
+      "id": "bd3e3719-cf36-4953-9cef-86e38a5911dd",
+      "product_id": "cca6a449-a943-48b4-9bd9-4bfdc1b86524",
+      "product_name": "QA-1-vmxa6fv3 Fresh Metal Hat",
+      "price": 33.92,
+      "category": "household",
+      "quantity": 2,
+      "created_at": "2026-11-15T10:11:02.35578+00:00",
+      "updated_at": "2026-11-15T10:11:02.35578+00:00"
+    }
+  ]
+}

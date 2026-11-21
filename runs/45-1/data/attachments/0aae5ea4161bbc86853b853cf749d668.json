@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-owgqe9qt sort Charlie",
+    "category": "beverages",
+    "price": 1.54,
+    "stock": 31,
+    "details": {
+      "brand": "Berge, Jones and Thiel",
+      "origin": "Gambia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-g89zmxat Fresh Rubber Cheese",
+    "category": "beverages",
+    "price": 39.11,
+    "stock": 28,
+    "details": {
+      "brand": "Kunze, Collier and Rogahn",
+      "origin": "Kuwait"
+    }
+  }
+}

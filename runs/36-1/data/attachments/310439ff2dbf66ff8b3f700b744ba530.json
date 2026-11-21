@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yfpf9auz Recycled Silk Pants",
+    "category": "frozen",
+    "price": 38.75,
+    "stock": 13,
+    "details": {
+      "brand": "Kilback and Sons",
+      "origin": "Micronesia"
+    }
+  }
+}

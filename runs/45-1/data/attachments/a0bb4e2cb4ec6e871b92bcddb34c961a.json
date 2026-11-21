@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q75a7axe Modern Aluminum Towels",
+    "category": "frozen",
+    "price": 18.49,
+    "stock": 44,
+    "details": {
+      "brand": "Brakus, Adams and Block",
+      "origin": "Belize"
+    }
+  }
+}

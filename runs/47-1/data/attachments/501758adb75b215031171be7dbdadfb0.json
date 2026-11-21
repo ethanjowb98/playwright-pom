@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-9ga08hpv Tasty Wooden Table",
+    "category": "snacks",
+    "price": 29.38,
+    "stock": 50,
+    "details": {
+      "brand": "Bechtelar, Quigley and Pagac",
+      "origin": "Panama"
+    }
+  }
+}

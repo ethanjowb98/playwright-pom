@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-93bev2a2 sort Alpha",
+    "category": "fresh-produce",
+    "price": 13.16,
+    "stock": 18,
+    "details": {
+      "brand": "Tillman, Boyer and Hauck",
+      "origin": "Finland"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-yb33lb1c Small Plastic Chips",
+    "category": "dairy-eggs",
+    "price": 38.85,
+    "stock": 12,
+    "details": {
+      "brand": "Jacobs - Parker",
+      "origin": "United States of America"
+    }
+  }
+}

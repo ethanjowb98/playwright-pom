@@ -1,0 +1,11 @@
+{
+  "message": "Item added to basket",
+  "data": {
+    "id": "c100aa15-4222-4678-a81d-fbeb937dec97",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "product_id": "d3712734-90bf-4e7a-b99e-7fff27f1b898",
+    "quantity": 1,
+    "created_at": "2026-11-05T09:18:36.829429+00:00",
+    "updated_at": "2026-11-05T09:18:36.829429+00:00"
+  }
+}

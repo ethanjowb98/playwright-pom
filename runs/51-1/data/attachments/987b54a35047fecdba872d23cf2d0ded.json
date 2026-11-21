@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ec2bc66b-468e-459b-aaa0-ca9555c0af9a",
+    "order_number": "O36654",
+    "status": "pending",
+    "total_amount": 31.5,
+    "created_at": "2026-11-21T10:29:53.289242+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-u5gd91ra Ergonomic Granite Bacon",
+        "category": "beverages",
+        "quantity": 1,
+        "price": 31.5,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

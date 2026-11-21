@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-6znqd9yn Unbranded Concrete Gloves",
+    "category": "household",
+    "price": 47.92,
+    "stock": 45,
+    "details": {
+      "brand": "Treutel, Beer and Gleason",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

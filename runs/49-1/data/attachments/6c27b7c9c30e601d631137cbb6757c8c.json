@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-8sib7axc sort Alpha",
+    "category": "household",
+    "price": 14.78,
+    "stock": 24,
+    "details": {
+      "brand": "Rippin - Wolf",
+      "origin": "Liberia"
+    }
+  }
+}

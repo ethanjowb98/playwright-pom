@@ -1,0 +1,19 @@
+{
+  "id": "df1e56e0-e731-430b-a767-ba42f8427cfd",
+  "order_number": "O79905",
+  "status": "delivered",
+  "total_amount": 123.3,
+  "notes": null,
+  "created_at": "2026-11-15T10:12:21.744521+00:00",
+  "updated_at": "2026-11-15T10:12:21.744521+00:00",
+  "items": [
+    {
+      "product_id": "aa71af51-6e17-499b-ad2e-2f63fe561348",
+      "product_name": "QA-1-ng94b6cp Luxurious Marble Ball",
+      "category": "beverages",
+      "quantity": 3,
+      "price": 41.1,
+      "temperature_zone": null
+    }
+  ]
+}

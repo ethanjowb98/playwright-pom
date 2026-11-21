@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6lm49ozj Practical Granite Pizza",
+    "category": "beverages",
+    "price": 19.78,
+    "stock": 27,
+    "details": {
+      "brand": "Bahringer, Kuhn and Weissnat",
+      "origin": "Holy See (Vatican City State)"
+    }
+  }
+}

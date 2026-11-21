@@ -1,0 +1,15 @@
+{
+  "id": "246e986e-64a1-4878-b1c3-1ac5a5d16e6f",
+  "product_name": "QA-1-2dob61mo Fresh Concrete Pizza",
+  "category": "meat-seafood",
+  "price": 7.55,
+  "stock": 32,
+  "details": {
+    "brand": "Fisher, Nikolaus and Bauch",
+    "origin": "Bhutan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:25:35.744798+00:00"
+}

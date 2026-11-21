@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gm9uo3nw Modern Granite Chair",
+    "category": "other",
+    "price": 29.72,
+    "stock": 23,
+    "details": {
+      "brand": "Huels, Bergstrom and Pfeffer",
+      "origin": "Saudi Arabia"
+    }
+  }
+}

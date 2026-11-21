@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-o6s3a503 Frozen Marble Shirt",
+    "category": "bakery",
+    "price": 41.16,
+    "stock": 43,
+    "details": {
+      "brand": "Schowalter - Bartell",
+      "origin": "Russian Federation"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-2vqkp7hb Recycled Granite Ball",
+    "category": "fresh-produce",
+    "price": 19.79,
+    "stock": -5,
+    "details": {
+      "brand": "Cummerata Group",
+      "origin": "Puerto Rico"
+    }
+  }
+}

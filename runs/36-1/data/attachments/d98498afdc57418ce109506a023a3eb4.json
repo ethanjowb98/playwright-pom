@@ -1,0 +1,15 @@
+{
+  "id": "724cc734-7c08-4d28-82fb-1c2cc92489e3",
+  "product_name": "QA-3-3kpnj5bu Fresh Silk Chips",
+  "category": "beverages",
+  "price": 28.41,
+  "stock": 43,
+  "details": {
+    "brand": "Schultz, Kilback and O'Kon",
+    "origin": "Sierra Leone"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:05:59.352062+00:00"
+}

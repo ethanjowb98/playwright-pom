@@ -1,0 +1,15 @@
+{
+  "id": "15e536b6-55de-4d5f-ac9d-b87a0c3f144a",
+  "product_name": "QA-6-ejprie33 Gorgeous Bronze Bacon",
+  "category": "bakery",
+  "price": 42.8,
+  "stock": 35,
+  "details": {
+    "brand": "Altenwerth, Streich and Kirlin",
+    "origin": "Saint Pierre and Miquelon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:42.990258+00:00"
+}

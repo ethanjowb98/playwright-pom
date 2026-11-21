@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-23q4f3a1 Oriental Rubber Fish",
+    "category": "other",
+    "price": 26.05,
+    "stock": 12,
+    "details": {
+      "brand": "Schoen, Effertz and Hermann",
+      "origin": "Sint Maarten"
+    }
+  }
+}

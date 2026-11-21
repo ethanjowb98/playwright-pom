@@ -1,0 +1,15 @@
+{
+  "id": "0d186597-064a-49be-b3d7-11cf9b135aab",
+  "product_name": "QA-2-by1ase9e sort Charlie",
+  "category": "fresh-produce",
+  "price": 35.24,
+  "stock": 29,
+  "details": {
+    "brand": "Mosciski-Frami Group",
+    "origin": "Micronesia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:51.149464+00:00"
+}

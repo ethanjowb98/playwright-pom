@@ -1,0 +1,15 @@
+{
+  "id": "603de7b4-6c4a-493e-9fda-5c4366ad87c2",
+  "product_name": "QA-1-kx8g36wv Refined Metal Cheese",
+  "category": "household",
+  "price": 4.45,
+  "stock": 30,
+  "details": {
+    "brand": "Considine, Murphy and Olson",
+    "origin": "Svalbard & Jan Mayen Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:31:03.488975+00:00"
+}

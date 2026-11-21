@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-f8a0xyjp sort Bravo",
+    "category": "dairy-eggs",
+    "price": 23.85,
+    "stock": 27,
+    "details": {
+      "brand": "Johnston, Feeney and Collins",
+      "origin": "Ethiopia"
+    }
+  }
+}

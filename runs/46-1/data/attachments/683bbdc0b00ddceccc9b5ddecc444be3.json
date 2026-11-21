@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-rzbia4u9 Small Silk Salad",
+    "category": "frozen",
+    "price": 18.73,
+    "stock": 32,
+    "details": {
+      "brand": "Runolfsson - Brekke",
+      "origin": "Portugal"
+    },
+    "temperature_zone": "Chilled"
+  }
+}

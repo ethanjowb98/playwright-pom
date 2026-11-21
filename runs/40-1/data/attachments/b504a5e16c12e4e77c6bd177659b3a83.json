@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4xhimqhf Handmade Bamboo Table",
+    "category": "beverages",
+    "price": 15.98,
+    "stock": 16,
+    "details": {
+      "brand": "Hane and Sons",
+      "origin": "Uganda"
+    }
+  }
+}

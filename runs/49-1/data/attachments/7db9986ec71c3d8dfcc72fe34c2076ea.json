@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-st17qcig Oriental Steel Soap",
+    "category": "frozen",
+    "price": 25.44,
+    "stock": 44,
+    "details": {
+      "brand": "Kohler - Mosciski",
+      "origin": "Bolivia"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": true
+  }
+}

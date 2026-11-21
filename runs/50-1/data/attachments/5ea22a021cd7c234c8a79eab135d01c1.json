@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-fou12v86 Incredible Cotton Chicken",
+    "category": "pantry",
+    "price": 14.39,
+    "stock": "x",
+    "details": {
+      "brand": "Torp - Mills",
+      "origin": "Algeria"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lhcf3nax Gorgeous Wooden Salad",
+    "category": "meat-seafood",
+    "price": 17.11,
+    "stock": 2,
+    "details": {
+      "brand": "Smith-Lang - Barrows",
+      "origin": "Angola"
+    }
+  }
+}

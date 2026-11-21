@@ -1,0 +1,15 @@
+{
+  "id": "54103572-de17-4bd1-97e9-fe37e111f3bf",
+  "product_name": "QA-3-w5ywv0i8 sort Charlie",
+  "category": "bakery",
+  "price": 33.05,
+  "stock": 38,
+  "details": {
+    "brand": "Stokes and Sons",
+    "origin": "Senegal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:18:49.655333+00:00"
+}

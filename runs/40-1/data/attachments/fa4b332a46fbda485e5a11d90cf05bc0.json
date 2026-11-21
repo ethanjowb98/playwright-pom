@@ -1,0 +1,15 @@
+{
+  "id": "2887d8b0-9397-4036-baec-28c784440f02",
+  "product_name": "QA-1-bfsadf8a Frozen Bronze Computer",
+  "category": "household",
+  "price": 20.23,
+  "stock": 47,
+  "details": {
+    "brand": "Graham - Heller",
+    "origin": "Eswatini"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-10T10:40:03.603534+00:00"
+}

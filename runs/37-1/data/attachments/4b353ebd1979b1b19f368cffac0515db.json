@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3y3akkzj Ergonomic Metal Bacon",
+    "category": "snacks",
+    "price": 3.64,
+    "stock": 24,
+    "details": {
+      "brand": "Ledner and Sons",
+      "origin": "New Caledonia"
+    }
+  }
+}

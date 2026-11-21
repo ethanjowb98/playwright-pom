@@ -1,0 +1,15 @@
+{
+  "id": "33185e1c-2ec2-4b7c-a1ee-c156fb22fb35",
+  "product_name": "QA-2-d3ktyyjl sort Alpha",
+  "category": "dairy-eggs",
+  "price": 30.24,
+  "stock": 30,
+  "details": {
+    "brand": "Mueller, Quigley and Gislason",
+    "origin": "Azerbaijan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:34.578128+00:00"
+}

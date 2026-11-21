@@ -1,0 +1,15 @@
+{
+  "id": "7ffea34e-8264-41cd-8ac0-162852db68aa",
+  "product_name": "QA-1-bcvjyjbu Licensed Steel Bike",
+  "category": "dairy-eggs",
+  "price": 40.72,
+  "stock": 30,
+  "details": {
+    "brand": "Stark-McGlynn - Greenholt",
+    "origin": "Tokelau"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:24:01.88684+00:00"
+}

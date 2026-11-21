@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-vcp9x2hl Sleek Metal Cheese",
+    "category": "dairy-eggs",
+    "price": 38.43,
+    "stock": 41,
+    "details": {
+      "brand": "Flatley - Baumbach",
+      "origin": "Poland"
+    }
+  }
+}

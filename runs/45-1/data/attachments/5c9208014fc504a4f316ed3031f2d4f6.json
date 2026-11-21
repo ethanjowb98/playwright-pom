@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ew1q7dpx Modern Plastic Cheese",
+    "category": "pantry",
+    "price": 2.84,
+    "stock": 29,
+    "details": {
+      "brand": "Kshlerin, Stokes and O'Hara",
+      "origin": "Sweden"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

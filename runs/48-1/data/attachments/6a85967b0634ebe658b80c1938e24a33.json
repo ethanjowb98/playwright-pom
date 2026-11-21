@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7r7zb0qt Sleek Plastic Fish",
+    "category": "other",
+    "price": 3.94,
+    "stock": 12,
+    "details": {
+      "brand": "Streich, Torphy and Hudson",
+      "origin": "Belarus"
+    }
+  }
+}

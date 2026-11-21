@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-zlxl4bvw Generic Plastic Shirt",
+    "category": "snacks",
+    "price": 24.04,
+    "stock": 47,
+    "details": {
+      "brand": "Rutherford, Hoeger and Price-Hoppe",
+      "origin": "Namibia"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "24bca5ee-cb21-4350-ab99-852f297aa6ee",
+  "product_name": "QA-1-o3uuyweb Awesome Bronze Shoes",
+  "category": "bakery",
+  "price": 38.76,
+  "stock": 10,
+  "details": {
+    "brand": "Balistreri Group",
+    "origin": "Palau"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:38.799696+00:00"
+}

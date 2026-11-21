@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "category": "snacks",
+    "price": 37.98,
+    "stock": 25,
+    "details": {
+      "brand": "Sipes and Sons",
+      "origin": "Georgia"
+    }
+  }
+}

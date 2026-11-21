@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w3lh5zr4 Sleek Gold Chicken",
+    "category": "fresh-produce",
+    "price": 31.38,
+    "stock": 37,
+    "details": {
+      "brand": "Towne Group",
+      "origin": "Malta"
+    }
+  }
+}

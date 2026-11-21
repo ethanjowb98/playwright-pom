@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-40phsfjm Practical Ceramic Soap",
+    "category": "pantry",
+    "price": 27.22,
+    "stock": 49,
+    "details": {
+      "brand": "Runte, Block and Terry",
+      "origin": "Bosnia and Herzegovina"
+    }
+  }
+}

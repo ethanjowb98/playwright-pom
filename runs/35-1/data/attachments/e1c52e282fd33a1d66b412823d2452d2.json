@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-t0ry44iu sort Bravo",
+    "category": "dairy-eggs",
+    "price": 1.3,
+    "stock": 32,
+    "details": {
+      "brand": "Kirlin Group",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

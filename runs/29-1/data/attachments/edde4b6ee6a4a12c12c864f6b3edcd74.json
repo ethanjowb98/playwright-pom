@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-lfda13g8 Practical Concrete Chicken",
+    "category": "bakery",
+    "price": 50,
+    "stock": 33,
+    "details": {
+      "brand": "Stanton Inc",
+      "origin": "Kyrgyz Republic"
+    }
+  }
+}

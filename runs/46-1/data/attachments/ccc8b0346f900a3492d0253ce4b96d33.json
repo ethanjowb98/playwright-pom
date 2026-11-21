@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-zmbd3nr2 Handmade Bronze Tuna",
+    "category": "fresh-produce",
+    "price": 35.3,
+    "stock": 37,
+    "details": {
+      "brand": "Hammes, Ledner-Haag and Nikolaus",
+      "origin": "Dominican Republic"
+    }
+  }
+}

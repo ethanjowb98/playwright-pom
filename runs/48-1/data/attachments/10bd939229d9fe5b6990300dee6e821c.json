@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-pvljbege Frozen Plastic Mouse",
+    "category": "frozen",
+    "price": 38.38,
+    "stock": 26,
+    "details": {
+      "brand": "Donnelly, Skiles and Bogisich",
+      "origin": "Antarctica"
+    },
+    "temperature_zone": "Frozen",
+    "weighted": false
+  }
+}

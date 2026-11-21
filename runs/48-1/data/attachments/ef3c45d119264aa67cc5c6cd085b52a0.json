@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-640jwdn5 Incredible Bronze Ball",
+    "category": "bakery",
+    "price": 33.05,
+    "stock": 45,
+    "details": {
+      "brand": "Haley, Lowe and Feil",
+      "origin": "Botswana"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "289d56b0-73e9-4196-921d-28a35f56ec93",
+  "product_name": "QA-1-6aqy56bj Small Ceramic Chicken",
+  "category": "household",
+  "price": 26.28,
+  "stock": 22,
+  "details": {
+    "brand": "Schaefer - Bogisich",
+    "origin": "Virgin Islands, British"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:09.17227+00:00"
+}

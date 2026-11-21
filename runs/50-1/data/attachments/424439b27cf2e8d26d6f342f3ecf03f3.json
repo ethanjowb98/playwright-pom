@@ -1,0 +1,15 @@
+{
+  "id": "19c8fd31-312a-4e79-9522-f33070cf0ac7",
+  "product_name": "QA-1-u3vfjehn Handcrafted Metal Tuna",
+  "category": "household",
+  "price": 24.45,
+  "stock": 15,
+  "details": {
+    "brand": "Wilkinson - McKenzie",
+    "origin": "United States Minor Outlying Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:28.868835+00:00"
+}

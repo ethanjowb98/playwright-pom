@@ -1,0 +1,15 @@
+{
+  "id": "8bfc796a-f431-4c87-8368-42a2e7d36daa",
+  "product_name": "QA-3-imcmal10 Electronic Metal Chicken",
+  "category": "frozen",
+  "price": 4.84,
+  "stock": 15,
+  "details": {
+    "brand": "D'Amore and Sons",
+    "origin": "Belize"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:41.040722+00:00"
+}

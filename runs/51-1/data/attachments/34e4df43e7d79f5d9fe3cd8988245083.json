@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1qjpa0cw Incredible Cotton Shirt",
+    "category": "other",
+    "price": 17.02,
+    "stock": 50,
+    "details": {
+      "brand": "Cassin LLC",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

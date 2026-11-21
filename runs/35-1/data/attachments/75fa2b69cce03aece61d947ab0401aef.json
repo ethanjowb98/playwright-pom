@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-k9xpkt7p Incredible Gold Keyboard",
+    "category": "household",
+    "price": 3.05,
+    "stock": 19,
+    "details": {
+      "brand": "McGlynn - Hilll",
+      "origin": "Nauru"
+    }
+  }
+}

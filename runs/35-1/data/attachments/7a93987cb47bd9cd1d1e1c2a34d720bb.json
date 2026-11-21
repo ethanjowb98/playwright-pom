@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-i7j49ktw sort Alpha",
+    "category": "fresh-produce",
+    "price": 11.17,
+    "stock": 43,
+    "details": {
+      "brand": "Schumm-Kerluke - Haley",
+      "origin": "Bosnia and Herzegovina"
+    }
+  }
+}

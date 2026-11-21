@@ -1,0 +1,15 @@
+{
+  "id": "95394ba4-c7ec-40c6-aab3-2d05735093e8",
+  "product_name": "QA-1-ua5qfeed Small Cotton Shirt",
+  "category": "household",
+  "price": 45.46,
+  "stock": 48,
+  "details": {
+    "brand": "Collins and Sons",
+    "origin": "Sri Lanka"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:21:36.686581+00:00"
+}

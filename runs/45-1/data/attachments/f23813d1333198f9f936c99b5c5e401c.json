@@ -1,0 +1,15 @@
+{
+  "id": "ad495f0e-43f2-4692-9972-7718fc732872",
+  "product_name": "QA-1-c26fag9j Soft Gold Car",
+  "category": "beverages",
+  "price": 10.87,
+  "stock": 32,
+  "details": {
+    "brand": "Roob, Boyle and Hane",
+    "origin": "El Salvador"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:11:39.685606+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "5e20d1b5-5d3d-466a-9fe5-d281c745b33b",
+  "product_name": "QA-1-u4md84b5 Gorgeous Rubber Chicken",
+  "category": "bakery",
+  "price": 11.86,
+  "stock": 47,
+  "details": {
+    "brand": "Davis Inc",
+    "origin": "Niue"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:18:30.062076+00:00"
+}

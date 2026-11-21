@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ob78tuo3 Gorgeous Granite Tuna",
+    "category": "bakery",
+    "price": 23.03,
+    "stock": 45,
+    "details": {
+      "brand": "Roberts, Ritchie-Buckridge and Homenick",
+      "origin": "Ethiopia"
+    }
+  }
+}

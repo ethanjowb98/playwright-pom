@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-6jvapype Recycled Gold Mouse",
+    "category": "bakery",
+    "price": 12.95,
+    "stock": 50,
+    "details": {
+      "brand": "Barton - Nitzsche",
+      "origin": "Germany"
+    }
+  }
+}

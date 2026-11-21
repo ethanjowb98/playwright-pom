@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-v8dcv87p Frozen Gold Shirt",
+    "category": "frozen",
+    "price": 30.53,
+    "stock": 21,
+    "details": {
+      "brand": "Grant, Leuschke and Nitzsche",
+      "origin": "Hungary"
+    }
+  }
+}

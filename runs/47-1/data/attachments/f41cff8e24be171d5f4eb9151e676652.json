@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "a07f1827-bdd7-4bdf-9bf8-b6ab2842217f",
+    "order_number": "O37628",
+    "status": "pending",
+    "total_amount": 15.52,
+    "created_at": "2026-11-17T11:22:28.444078+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-dlb2m04p Handcrafted Ceramic Bike",
+        "category": "fresh-produce",
+        "quantity": 1,
+        "price": 15.52,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

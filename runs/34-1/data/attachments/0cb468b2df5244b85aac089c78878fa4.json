@@ -1,0 +1,15 @@
+{
+  "id": "93662f31-0a79-4c2c-ab5d-2236132760d9",
+  "product_name": "QA-6-7z3drh0y sort Bravo",
+  "category": "bakery",
+  "price": 20.34,
+  "stock": 24,
+  "details": {
+    "brand": "Heathcote, Paucek and DuBuque",
+    "origin": "Mali"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:19:05.071091+00:00"
+}

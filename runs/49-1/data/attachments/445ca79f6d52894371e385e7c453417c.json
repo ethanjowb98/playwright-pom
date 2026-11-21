@@ -1,0 +1,19 @@
+{
+  "id": "ec5a7694-26e9-4836-9367-4b20cbe6646f",
+  "order_number": "O88122",
+  "status": "cancelled",
+  "total_amount": 42.75,
+  "notes": null,
+  "created_at": "2026-11-19T10:57:16.635+00:00",
+  "updated_at": "2026-11-19T10:57:16.635+00:00",
+  "items": [
+    {
+      "product_id": "ad2d4c94-21ee-456e-99a4-eb71464b819e",
+      "product_name": "QA-2-66jyfu2x Gorgeous Marble Shoes",
+      "category": "snacks",
+      "quantity": 3,
+      "price": 14.25,
+      "temperature_zone": null
+    }
+  ]
+}

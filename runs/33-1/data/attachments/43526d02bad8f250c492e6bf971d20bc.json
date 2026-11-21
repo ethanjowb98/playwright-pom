@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-vese90jc Gorgeous Silk Shoes",
+    "category": "bakery",
+    "price": 23.78,
+    "stock": 14,
+    "details": {
+      "brand": "Sanford LLC",
+      "origin": "Gibraltar"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2aup9rey Intelligent Aluminum Tuna",
+    "category": "fresh-produce",
+    "price": 43.75,
+    "stock": 40,
+    "details": {
+      "brand": "Boyle - Heaney",
+      "origin": "Cook Islands"
+    }
+  }
+}

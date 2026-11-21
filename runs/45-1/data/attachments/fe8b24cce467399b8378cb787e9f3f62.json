@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-o7x2xb96 Handcrafted Silk Shoes",
+    "category": "frozen",
+    "price": 11.44,
+    "stock": 13,
+    "details": {
+      "brand": "Pfannerstill, Harber and Boyer",
+      "origin": "Greenland"
+    },
+    "weighted": true
+  }
+}

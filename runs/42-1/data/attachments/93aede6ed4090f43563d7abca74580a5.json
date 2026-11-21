@@ -1,0 +1,15 @@
+{
+  "id": "38b79437-f18f-4888-b0ca-3b763205c900",
+  "product_name": "QA-1-mtpg0guh Awesome Gold Bike",
+  "category": "pantry",
+  "price": 5.33,
+  "stock": 35,
+  "details": {
+    "brand": "Pacocha, Grant and Gutkowski",
+    "origin": "Antarctica"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:29:14.716922+00:00"
+}

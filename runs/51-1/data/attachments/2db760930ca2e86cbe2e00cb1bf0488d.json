@@ -1,0 +1,15 @@
+{
+  "id": "ae743eaf-ba5f-4a75-b773-d5325224914e",
+  "product_name": "QA-1-jl4nhev1 Licensed Steel Bike",
+  "category": "household",
+  "price": 1.84,
+  "stock": 23,
+  "details": {
+    "brand": "Dickinson, Padberg and Veum",
+    "origin": "Montserrat"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:52.940218+00:00"
+}

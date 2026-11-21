@@ -1,0 +1,15 @@
+{
+  "id": "3219fb6d-ac98-4ea8-852b-ce8df1de79f7",
+  "product_name": "QA-1-ycna36pl Rustic Metal Hat",
+  "category": "dairy-eggs",
+  "price": 6.51,
+  "stock": 12,
+  "details": {
+    "brand": "Pfeffer, McDermott and Pfeffer",
+    "origin": "Liberia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:15.155694+00:00"
+}

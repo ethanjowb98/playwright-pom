@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-t1txvzne Intelligent Steel Pizza",
+    "category": "pantry",
+    "price": 11.31,
+    "stock": 43,
+    "details": {
+      "brand": "Volkman - Adams",
+      "origin": "China"
+    }
+  }
+}

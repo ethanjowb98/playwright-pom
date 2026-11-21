@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fatq6mus Luxurious Metal Table",
+    "category": "frozen",
+    "price": 2.31,
+    "stock": "x",
+    "details": {
+      "brand": "Dicki Group",
+      "origin": "France"
+    }
+  }
+}

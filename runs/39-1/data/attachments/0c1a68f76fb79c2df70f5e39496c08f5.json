@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-82a23oyj Unbranded Bronze Towels",
+    "category": "bakery",
+    "price": 34.17,
+    "stock": 13,
+    "details": {
+      "brand": "Osinski and Sons",
+      "origin": "Armenia"
+    }
+  }
+}

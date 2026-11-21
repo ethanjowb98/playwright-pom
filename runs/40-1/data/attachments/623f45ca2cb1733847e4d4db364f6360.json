@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-05b4u21q Handcrafted Rubber Bike",
+    "category": "beverages",
+    "price": 2.93,
+    "stock": 26,
+    "details": {
+      "brand": "Legros - Ondricka-Trantow",
+      "origin": "Nicaragua"
+    }
+  }
+}

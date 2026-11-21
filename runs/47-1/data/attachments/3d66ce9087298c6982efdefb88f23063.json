@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-v7u4kodu Incredible Ceramic Pants",
+    "category": "dairy-eggs",
+    "price": 44.27,
+    "stock": 47,
+    "details": {
+      "brand": "Schuppe, Tremblay and Hessel",
+      "origin": "Indonesia"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

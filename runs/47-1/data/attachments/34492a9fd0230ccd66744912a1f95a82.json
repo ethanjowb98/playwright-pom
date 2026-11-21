@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mv42naf2 Unbranded Cotton Car",
+    "category": "snacks",
+    "price": 37.76,
+    "stock": 11,
+    "details": {
+      "brand": "Bins - Hills",
+      "origin": "Spain"
+    }
+  }
+}

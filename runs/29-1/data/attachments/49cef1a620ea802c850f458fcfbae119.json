@@ -1,0 +1,15 @@
+{
+  "id": "8d65b4f3-22c0-4582-8a6c-dfbbc35022ef",
+  "product_name": "QA-4-xz030p1i Frozen Steel Ball",
+  "category": "frozen",
+  "price": 16.28,
+  "stock": 11,
+  "details": {
+    "brand": "Abshire - Kshlerin",
+    "origin": "Virgin Islands, British"
+  },
+  "temperature_zone": "Dry",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-04T08:17:47.274973+00:00"
+}

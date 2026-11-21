@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jq76dwbo Licensed Wooden Gloves",
+    "category": "frozen",
+    "price": 9.49,
+    "stock": 38,
+    "details": {
+      "brand": "Muller Inc",
+      "origin": "Azerbaijan"
+    }
+  }
+}

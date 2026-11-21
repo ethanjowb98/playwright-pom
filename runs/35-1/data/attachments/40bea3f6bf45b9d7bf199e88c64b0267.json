@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-azgbhp7y Handmade Steel Pants",
+    "category": "dairy-eggs",
+    "price": 20.31,
+    "stock": 42,
+    "details": {
+      "brand": "Heller, Goyette and Paucek",
+      "origin": "Belgium"
+    }
+  }
+}

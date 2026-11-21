@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-6gf8n7xu Luxurious Metal Computer",
+    "category": "snacks",
+    "price": 42.62,
+    "stock": 50,
+    "details": {
+      "brand": "Stark Group",
+      "origin": "Egypt"
+    }
+  }
+}

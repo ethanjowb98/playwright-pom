@@ -1,0 +1,15 @@
+{
+  "id": "64c98dcf-2fcf-4af7-b2ab-0f94f66077bc",
+  "product_name": "QA-1-utuoq3mh Practical Metal Chips",
+  "category": "meat-seafood",
+  "price": 45.22,
+  "stock": 15,
+  "details": {
+    "brand": "Jaskolski and Sons",
+    "origin": "Russian Federation"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:15.619084+00:00"
+}

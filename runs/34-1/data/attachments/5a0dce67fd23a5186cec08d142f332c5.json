@@ -1,0 +1,15 @@
+{
+  "id": "5be19855-3b37-4645-aac1-1f09260ffba2",
+  "product_name": "QA-1-ahin5omn Sleek Steel Computer",
+  "category": "fresh-produce",
+  "price": 42.81,
+  "stock": 37,
+  "details": {
+    "brand": "Abernathy - Padberg",
+    "origin": "Egypt"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:20:28.606215+00:00"
+}

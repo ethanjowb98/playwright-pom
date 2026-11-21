@@ -1,0 +1,19 @@
+{
+  "id": "a9855b19-3c07-403e-8c57-c3d6c09fd775",
+  "order_number": "O71819",
+  "status": "pending",
+  "total_amount": 42.21,
+  "notes": null,
+  "created_at": "2026-11-05T08:23:16.038556+00:00",
+  "updated_at": "2026-11-05T08:23:16.038556+00:00",
+  "items": [
+    {
+      "product_id": "500e785c-f2ef-422f-b1ea-42bcabc81df3",
+      "product_name": "QA-1-bso01ody Rustic Bronze Ball",
+      "category": "other",
+      "quantity": 1,
+      "price": 42.21,
+      "temperature_zone": null
+    }
+  ]
+}

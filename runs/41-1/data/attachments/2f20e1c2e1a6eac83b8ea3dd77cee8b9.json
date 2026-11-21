@@ -1,0 +1,15 @@
+{
+  "id": "5fc646f4-3dbd-4968-88a3-398a6f23f7d7",
+  "product_name": "QA-8-nxex3qce sort Charlie",
+  "category": "snacks",
+  "price": 3.42,
+  "stock": 34,
+  "details": {
+    "brand": "Feeney Group",
+    "origin": "Germany"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-11T10:00:35.498227+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-jm9r9mij Recycled Bamboo Bacon",
+    "category": "snacks",
+    "price": 33.99,
+    "stock": 13,
+    "details": {
+      "brand": "Bergnaum - O'Reilly",
+      "origin": "Samoa"
+    }
+  }
+}

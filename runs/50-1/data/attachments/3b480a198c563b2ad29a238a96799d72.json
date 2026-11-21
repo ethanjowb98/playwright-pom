@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-0baaap5w Ergonomic Cotton Bike",
+    "category": "fresh-produce",
+    "price": 6.81,
+    "stock": 2,
+    "details": {
+      "brand": "VonRueden - Dooley",
+      "origin": "Central African Republic"
+    }
+  }
+}

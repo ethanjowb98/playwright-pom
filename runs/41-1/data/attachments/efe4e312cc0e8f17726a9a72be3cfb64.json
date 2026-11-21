@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-niuktchx Refined Rubber Salad",
+    "category": "bakery",
+    "price": 8.14,
+    "stock": 12,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "method": "PUT",
+  "path": "/api/products/bbbc33de-b9b7-46b9-adb1-f97c52a1622d",
+  "body": {
+    "price": 23.45,
+    "stock": 11
+  }
+}

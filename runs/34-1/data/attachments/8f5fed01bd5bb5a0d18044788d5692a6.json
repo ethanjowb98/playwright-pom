@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4ms4vpak Fantastic Bronze Ball",
+    "category": "other",
+    "price": 41.14,
+    "stock": 38,
+    "details": {
+      "brand": "Nicolas-Volkman Group",
+      "origin": "Trinidad and Tobago"
+    }
+  }
+}

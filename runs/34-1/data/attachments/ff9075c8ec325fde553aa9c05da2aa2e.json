@@ -1,0 +1,15 @@
+{
+  "id": "cd1de286-ef9e-4497-9585-f1f6a41d8f33",
+  "product_name": "QA-1-5t65ug35 Frozen Aluminum Sausages",
+  "category": "snacks",
+  "price": 33.24,
+  "stock": 40,
+  "details": {
+    "brand": "McLaughlin - Veum",
+    "origin": "Latvia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T09:21:18.183088+00:00"
+}

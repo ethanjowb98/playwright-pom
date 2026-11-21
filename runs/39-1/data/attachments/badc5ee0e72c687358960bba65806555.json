@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-2g9n2z7e Electronic Wooden Shirt",
+    "category": "frozen",
+    "price": 49.14,
+    "stock": 16,
+    "details": {
+      "brand": "Abshire LLC",
+      "origin": "Anguilla"
+    }
+  }
+}

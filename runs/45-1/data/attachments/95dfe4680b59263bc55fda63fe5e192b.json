@@ -1,0 +1,15 @@
+{
+  "id": "046449d8-ca2b-46d6-aa49-35cd110787f4",
+  "product_name": "QA-1-0ce9vao7 Generic Aluminum Salad",
+  "category": "household",
+  "price": 2.81,
+  "stock": 2,
+  "details": {
+    "brand": "Bahringer, Kirlin and Swaniawski",
+    "origin": "Philippines"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:09.441336+00:00"
+}

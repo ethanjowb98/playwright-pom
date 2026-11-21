@@ -1,0 +1,15 @@
+{
+  "id": "c3889c78-f9ff-4358-8948-50f1096d261a",
+  "product_name": "QA-1-ra6n5gig Bespoke Bronze Computer",
+  "category": "beverages",
+  "price": 36.04,
+  "stock": 37,
+  "details": {
+    "brand": "Fay LLC",
+    "origin": "Madagascar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:30:36.89559+00:00"
+}

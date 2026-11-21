@@ -1,0 +1,15 @@
+{
+  "id": "dba26414-a807-424d-9297-2aa8ef8a5836",
+  "product_name": "QA-7-q8rw2xlq sort Bravo",
+  "category": "pantry",
+  "price": 24.81,
+  "stock": 28,
+  "details": {
+    "brand": "Mosciski - Mitchell",
+    "origin": "Dominican Republic"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:56:33.488937+00:00"
+}

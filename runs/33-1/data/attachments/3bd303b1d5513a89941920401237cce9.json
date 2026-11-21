@@ -1,0 +1,15 @@
+{
+  "id": "ed96e03b-cc90-4b07-8b47-499ee413c3a6",
+  "product_name": "QA-1-gev3x3gm Bespoke Gold Gloves",
+  "category": "beverages",
+  "price": 13.59,
+  "stock": 38,
+  "details": {
+    "brand": "Haag and Sons",
+    "origin": "France"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:25:24.63612+00:00"
+}

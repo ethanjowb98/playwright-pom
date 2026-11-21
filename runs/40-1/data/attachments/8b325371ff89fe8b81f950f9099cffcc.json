@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-x3446hzp Intelligent Granite Mouse",
+    "category": "bakery",
+    "price": 40.06,
+    "stock": 34,
+    "details": {
+      "brand": "Harris - Brekke",
+      "origin": "Nepal"
+    }
+  }
+}

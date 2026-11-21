@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-ytirniyh Practical Bamboo Sausages",
+    "category": "snacks",
+    "price": 49.26,
+    "stock": 45,
+    "details": {
+      "batch": "QA-6-cxh7px7a batch"
+    }
+  }
+}

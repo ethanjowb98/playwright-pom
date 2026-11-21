@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-uufvqhyv Sleek Cotton Table",
+    "category": "bakery",
+    "price": 35.14,
+    "stock": 41,
+    "details": {
+      "brand": "Senger - Metz",
+      "origin": "Namibia"
+    }
+  }
+}

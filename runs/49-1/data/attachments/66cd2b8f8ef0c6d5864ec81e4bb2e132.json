@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-o3uuyweb Awesome Bronze Shoes",
+    "category": "bakery",
+    "price": 38.76,
+    "stock": 10,
+    "details": {
+      "brand": "Balistreri Group",
+      "origin": "Palau"
+    }
+  }
+}

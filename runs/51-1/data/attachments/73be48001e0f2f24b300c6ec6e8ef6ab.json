@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "ac000f60-a826-42aa-a2fa-7e01b735082d",
+      "product_id": "e722da16-223b-4ae4-bf93-6b6d9b4e1c4d",
+      "product_name": "QA-1-1f1tpycp Recycled Steel Ball",
+      "price": 25.03,
+      "category": "household",
+      "quantity": 2,
+      "created_at": "2026-11-21T10:31:10.846267+00:00",
+      "updated_at": "2026-11-21T10:31:10.846267+00:00"
+    },
+    {
+      "id": "1a52452e-e555-4a0f-b88d-a1df06ffa52a",
+      "product_id": "17a4f8a1-f99e-48d1-a75a-b481f7b916e4",
+      "product_name": "QA-1-3h22xhba Practical Cotton Table",
+      "price": 37.09,
+      "category": "pantry",
+      "quantity": 2,
+      "created_at": "2026-11-21T10:31:11.490404+00:00",
+      "updated_at": "2026-11-21T10:31:11.490404+00:00"
+    }
+  ]
+}

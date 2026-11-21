@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-xuul0rpr Awesome Rubber Chicken",
+    "category": "fresh-produce",
+    "price": 27.44,
+    "stock": 18,
+    "details": {
+      "brand": "Graham - Spencer",
+      "origin": "Norfolk Island"
+    }
+  }
+}

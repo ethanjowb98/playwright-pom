@@ -1,0 +1,15 @@
+{
+  "id": "5f2b14c5-9459-44f5-9d26-333d753461a6",
+  "product_name": "QA-1-jm9r9mij Recycled Bamboo Bacon",
+  "category": "snacks",
+  "price": 33.99,
+  "stock": 13,
+  "details": {
+    "brand": "Bergnaum - O'Reilly",
+    "origin": "Samoa"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:42.322286+00:00"
+}

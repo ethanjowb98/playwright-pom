@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-fokf2xud sort Bravo",
+    "category": "beverages",
+    "price": 40.79,
+    "stock": 14,
+    "details": {
+      "brand": "Bechtelar and Sons",
+      "origin": "India"
+    }
+  }
+}

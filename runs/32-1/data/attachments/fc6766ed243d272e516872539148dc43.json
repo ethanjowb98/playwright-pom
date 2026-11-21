@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-kvk8u3gy Electronic Bronze Ball",
+    "category": "household",
+    "price": 17.39,
+    "stock": 35,
+    "details": {
+      "brand": "Wunsch - Emmerich-Zemlak",
+      "origin": "Montserrat"
+    }
+  }
+}

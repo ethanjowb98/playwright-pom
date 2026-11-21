@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-reosfpiz sort Alpha",
+    "category": "household",
+    "price": 35.52,
+    "stock": 11,
+    "details": {
+      "brand": "Marquardt Group",
+      "origin": "Dominican Republic"
+    }
+  }
+}

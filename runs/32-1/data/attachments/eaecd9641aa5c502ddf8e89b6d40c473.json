@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "8aa28900-b4b1-4230-8933-6079289d3d31",
+    "order_number": "O91273",
+    "status": "pending",
+    "total_amount": 10.05,
+    "created_at": "2026-11-05T08:20:46.170099+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-jj5itpux Electronic Concrete Fish",
+        "category": "pantry",
+        "quantity": 1,
+        "price": 10.05,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

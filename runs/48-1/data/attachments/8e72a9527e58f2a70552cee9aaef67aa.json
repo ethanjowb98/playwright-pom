@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-occcmsmb sort Bravo",
+    "category": "other",
+    "price": 49.99,
+    "stock": 43,
+    "details": {
+      "brand": "Schmidt, Medhurst and Doyle",
+      "origin": "France"
+    }
+  }
+}

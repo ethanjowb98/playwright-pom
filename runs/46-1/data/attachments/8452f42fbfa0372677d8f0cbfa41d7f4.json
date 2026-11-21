@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-bvbt183i Bespoke Gold Salad",
+    "category": "frozen",
+    "price": 2.03,
+    "stock": 42,
+    "details": {
+      "brand": "Schumm Group",
+      "origin": "Bouvet Island"
+    }
+  }
+}

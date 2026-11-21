@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ed169c68-9626-433c-851a-2c1475f2f686",
+    "order_number": "O81731",
+    "status": "pending",
+    "total_amount": 72.24,
+    "created_at": "2026-11-21T10:29:57.660648+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-nvhesff5 Incredible Bamboo Gloves",
+        "category": "other",
+        "quantity": 3,
+        "price": 24.08,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

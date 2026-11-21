@@ -1,0 +1,15 @@
+{
+  "id": "b125e366-a50b-40c8-ac4a-2386702b5ad8",
+  "product_name": "QA-1-egkol67g Electronic Gold Tuna",
+  "category": "beverages",
+  "price": 32.05,
+  "stock": 28,
+  "details": {
+    "brand": "Roberts, Kautzer and Boehm",
+    "origin": "Hungary"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:40.005388+00:00"
+}

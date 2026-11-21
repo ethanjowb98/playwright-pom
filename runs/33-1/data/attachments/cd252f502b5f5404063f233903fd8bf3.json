@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-15y4lzs2 Soft Concrete Table",
+    "category": "fresh-produce",
+    "price": 31.17,
+    "stock": 26,
+    "details": {
+      "brand": "Wiegand, Borer and Kiehn",
+      "origin": "Sudan"
+    }
+  }
+}

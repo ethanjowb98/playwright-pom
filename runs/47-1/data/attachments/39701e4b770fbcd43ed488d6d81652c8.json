@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5fff3hwd Recycled Silk Ball",
+    "category": "household",
+    "price": 36.39,
+    "stock": 50,
+    "details": {
+      "brand": "Roberts - Senger",
+      "origin": "Uruguay"
+    }
+  }
+}

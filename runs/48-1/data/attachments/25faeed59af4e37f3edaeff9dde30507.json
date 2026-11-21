@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wt0yay8e Bespoke Marble Soap",
+    "category": "meat-seafood",
+    "price": 43.21,
+    "stock": 21,
+    "details": {
+      "brand": "Gorczany - Lindgren",
+      "origin": "Syrian Arab Republic"
+    }
+  }
+}

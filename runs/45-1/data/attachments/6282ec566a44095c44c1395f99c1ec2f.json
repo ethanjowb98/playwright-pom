@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-vfll4wy0 Bespoke Gold Ball",
+    "category": "dairy-eggs",
+    "price": 37.07,
+    "stock": 26,
+    "details": {
+      "brand": "Strosin, Purdy and Friesen",
+      "origin": "Yemen"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

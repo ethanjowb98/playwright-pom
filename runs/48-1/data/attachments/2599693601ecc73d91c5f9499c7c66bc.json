@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4l7c81xp Refined Granite Salad",
+    "category": "fresh-produce",
+    "price": 15.01,
+    "stock": 36,
+    "details": {
+      "brand": "Windler LLC",
+      "origin": "Réunion"
+    }
+  }
+}

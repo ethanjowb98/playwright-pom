@@ -1,0 +1,15 @@
+{
+  "id": "b7e76b42-7d1f-4649-82b5-e6219acad759",
+  "product_name": "QA-1-kkgro24o Frozen Granite Ball",
+  "category": "frozen",
+  "price": 46.26,
+  "stock": 24,
+  "details": {
+    "brand": "Heller, Kihn-Berge and O'Reilly",
+    "origin": "Czechia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:57.820258+00:00"
+}

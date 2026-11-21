@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-r1k0kzri Fantastic Gold Towels",
+    "category": "beverages",
+    "price": 27.47,
+    "stock": 43,
+    "details": {
+      "brand": "Grimes and Sons",
+      "origin": "Algeria"
+    }
+  }
+}

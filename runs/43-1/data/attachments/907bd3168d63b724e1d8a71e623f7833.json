@@ -1,0 +1,15 @@
+{
+  "id": "06c74105-d5ec-4518-8d14-6c6c0a179a60",
+  "product_name": "QA-2-clao7n6o Modern Concrete Fish",
+  "category": "snacks",
+  "price": 15.07,
+  "stock": 33,
+  "details": {
+    "brand": "McLaughlin - Anderson",
+    "origin": "El Salvador"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:38.907409+00:00"
+}

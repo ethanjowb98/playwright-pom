@@ -1,0 +1,27 @@
+{
+  "id": "4a2fe809-56bd-4668-9cd7-b56938f3dc07",
+  "order_number": "O95257",
+  "status": "pending",
+  "total_amount": 15.97,
+  "notes": "Leave at the door",
+  "created_at": "2026-11-21T10:28:50.091611+00:00",
+  "updated_at": "2026-11-21T10:28:50.091611+00:00",
+  "items": [
+    {
+      "product_id": "8ec4967e-c4dd-47e8-aa7e-e3b0ce15f6b7",
+      "product_name": "QA-1-d14y5do7 Ergonomic Aluminum Pants",
+      "category": "snacks",
+      "quantity": 1,
+      "price": 12.86,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "111dd4ae-5c3c-4396-9a99-83078937c010",
+      "product_name": "QA-1-epadxm73 Intelligent Cotton Keyboard",
+      "category": "other",
+      "quantity": 1,
+      "price": 3.11,
+      "temperature_zone": null
+    }
+  ]
+}

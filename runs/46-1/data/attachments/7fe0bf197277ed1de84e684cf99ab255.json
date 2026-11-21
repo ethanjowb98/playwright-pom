@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-3ull15ea Intelligent Silk Chair",
+    "category": "bakery",
+    "price": 25.34,
+    "stock": 41,
+    "details": {
+      "brand": "Rath - Jaskolski",
+      "origin": "Rwanda"
+    }
+  }
+}

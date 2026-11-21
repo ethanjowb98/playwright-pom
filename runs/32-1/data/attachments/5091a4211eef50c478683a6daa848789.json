@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gzt5qzrx Electronic Gold Salad",
+    "category": "bakery",
+    "price": 26.47,
+    "stock": 26,
+    "details": {
+      "brand": "Rosenbaum LLC",
+      "origin": "Haiti"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-82th7x60 Oriental Steel Fish",
+    "category": "household",
+    "price": 16.79,
+    "stock": 17,
+    "details": {
+      "brand": "Dietrich LLC",
+      "origin": "Latvia"
+    }
+  }
+}

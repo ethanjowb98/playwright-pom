@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-82hseysd Elegant Marble Keyboard",
+    "category": "bakery",
+    "price": 3.73,
+    "stock": 42,
+    "details": {
+      "brand": "Windler-Kozey - McDermott",
+      "origin": "Palau"
+    }
+  }
+}

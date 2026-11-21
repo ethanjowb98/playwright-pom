@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-mgp2wju0 Incredible Concrete Towels",
+    "category": "bakery",
+    "price": 24.89,
+    "stock": 33,
+    "details": {
+      "brand": "Rosenbaum - Hoeger",
+      "origin": "Tuvalu"
+    }
+  }
+}

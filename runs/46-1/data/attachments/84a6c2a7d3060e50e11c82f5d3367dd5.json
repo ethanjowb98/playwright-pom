@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-jwlr3gdc Refined Wooden Soap",
+    "category": "beverages",
+    "price": 21.05,
+    "stock": 42,
+    "details": {
+      "brand": "Ondricka - Tremblay",
+      "origin": "Tonga"
+    },
+    "weighted": true
+  }
+}

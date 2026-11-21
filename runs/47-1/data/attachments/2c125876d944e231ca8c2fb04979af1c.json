@@ -1,0 +1,15 @@
+{
+  "id": "19ce5068-6920-4d6e-99c3-af6c986f940f",
+  "product_name": "QA-1-jpcns54v Fantastic Gold Table",
+  "category": "snacks",
+  "price": 31.39,
+  "stock": 24,
+  "details": {
+    "brand": "Turner LLC",
+    "origin": "Croatia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:22:56.453359+00:00"
+}

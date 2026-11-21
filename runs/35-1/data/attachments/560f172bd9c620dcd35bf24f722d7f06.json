@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-a2unuy1s Frozen Steel Car",
+    "category": "snacks",
+    "price": 28.65,
+    "stock": 10,
+    "details": {
+      "brand": "Weber Inc",
+      "origin": "Switzerland"
+    }
+  }
+}

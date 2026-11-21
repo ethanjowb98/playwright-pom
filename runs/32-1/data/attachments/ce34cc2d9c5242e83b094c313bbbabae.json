@@ -1,0 +1,14 @@
+{
+  "id": "50c35675-b328-423d-9b58-02df95893b53",
+  "product_name": "QA-4-fclnlmhc Fantastic Cotton Chair",
+  "category": "dairy-eggs",
+  "price": 44.49,
+  "stock": 29,
+  "details": {
+    "batch": "QA-4-wacov6t0 batch"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:02.085848+00:00"
+}

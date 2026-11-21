@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qan5br2y Fantastic Cotton Shirt",
+    "category": "beverages",
+    "price": 28.75,
+    "stock": 22,
+    "details": {
+      "brand": "Champlin - Halvorson",
+      "origin": "Senegal"
+    }
+  }
+}

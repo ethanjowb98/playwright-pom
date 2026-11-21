@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-sjgs249r Rustic Gold Salad",
+    "category": "bakery",
+    "price": 17.94,
+    "stock": 13,
+    "details": {
+      "brand": "Bartell LLC",
+      "origin": "Andorra"
+    }
+  }
+}

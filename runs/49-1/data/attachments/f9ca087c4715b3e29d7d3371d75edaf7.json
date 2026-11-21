@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-6iz709hl Licensed Rubber Chair",
+    "category": "household",
+    "price": 38.32,
+    "stock": 37,
+    "details": {
+      "brand": "Hintz - D'Amore",
+      "origin": "Heard Island and McDonald Islands"
+    }
+  }
+}

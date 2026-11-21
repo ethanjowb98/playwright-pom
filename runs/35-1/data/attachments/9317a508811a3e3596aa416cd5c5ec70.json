@@ -1,0 +1,15 @@
+{
+  "id": "eeed47c0-f124-4e50-a3e1-b50ebfc46caf",
+  "product_name": "QA-1-r61q25op Recycled Gold Fish",
+  "category": "meat-seafood",
+  "price": 19.39,
+  "stock": 46,
+  "details": {
+    "brand": "Leannon, Bailey and Kuvalis",
+    "origin": "Grenada"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T10:02:58.071214+00:00"
+}

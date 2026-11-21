@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-2o1chez3 Small Silk Cheese",
+    "category": "snacks",
+    "price": 49.27,
+    "stock": 35,
+    "details": {
+      "brand": "Wilkinson Group",
+      "origin": "Seychelles"
+    }
+  }
+}

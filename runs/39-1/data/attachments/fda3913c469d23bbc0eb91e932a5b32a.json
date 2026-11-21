@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-cr54ui33 Incredible Bronze Bike",
+    "category": "bakery",
+    "price": 3.21,
+    "stock": 28,
+    "details": {
+      "brand": "Kuhic, Ratke and Swift",
+      "origin": "Guadeloupe"
+    }
+  }
+}

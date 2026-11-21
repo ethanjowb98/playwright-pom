@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8r3s1hf2 Fresh Granite Gloves",
+    "category": "bakery",
+    "price": 27.84,
+    "stock": 49,
+    "details": {
+      "brand": "Kuhlman Group",
+      "origin": "San Marino"
+    }
+  }
+}

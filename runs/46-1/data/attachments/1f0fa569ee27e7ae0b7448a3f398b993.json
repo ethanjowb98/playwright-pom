@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-93sxtuf3 Recycled Gold Towels",
+    "category": "frozen",
+    "price": 36.39,
+    "stock": 41,
+    "details": {
+      "brand": "Cremin, Steuber and Turner",
+      "origin": "Gambia"
+    }
+  }
+}

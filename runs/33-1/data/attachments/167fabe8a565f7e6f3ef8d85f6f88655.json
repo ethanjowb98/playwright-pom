@@ -1,0 +1,15 @@
+{
+  "id": "3c36c851-e656-408d-af2b-8c39ee9e8f2b",
+  "product_name": "QA-4-xoy9mcz7 Frozen Marble Car",
+  "category": "snacks",
+  "price": 40.28,
+  "stock": 35,
+  "details": {
+    "brand": "Upton - McCullough",
+    "origin": "Cameroon"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:20.153881+00:00"
+}

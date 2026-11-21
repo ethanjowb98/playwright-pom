@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-s83hmz4j Small Granite Tuna",
+    "category": "pantry",
+    "price": 36.82,
+    "stock": 14,
+    "details": {
+      "brand": "Donnelly - Keebler",
+      "origin": "Cameroon"
+    }
+  }
+}

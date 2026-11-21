@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "913c2f54-3283-40dc-9e1d-c535ded51d57",
+      "product_id": "a8656c52-0aca-4f6c-b09c-4e1fa9c932b6",
+      "product_name": "QA-1-ymut2v3a Generic Aluminum Chips",
+      "price": 7.12,
+      "category": "meat-seafood",
+      "quantity": 3,
+      "created_at": "2026-11-09T10:39:30.096126+00:00",
+      "updated_at": "2026-11-09T10:39:30.096126+00:00"
+    },
+    {
+      "id": "fed96bcc-a394-4dfe-ad11-1c34ca3bacf6",
+      "product_id": "78d09628-9a72-4e0b-946b-a6ececc4f7c1",
+      "product_name": "QA-1-dyqpk3we Intelligent Aluminum Shirt",
+      "price": 6.45,
+      "category": "bakery",
+      "quantity": 2,
+      "created_at": "2026-11-09T10:39:30.700176+00:00",
+      "updated_at": "2026-11-09T10:39:30.700176+00:00"
+    }
+  ]
+}

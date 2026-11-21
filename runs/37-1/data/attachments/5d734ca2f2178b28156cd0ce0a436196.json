@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-z96abwmi Incredible Plastic Pants",
+    "category": "dairy-eggs",
+    "price": 38.89,
+    "stock": 32,
+    "details": {
+      "brand": "Okuneva, Grady and Herzog-Reinger",
+      "origin": "Canada"
+    },
+    "weighted": true
+  }
+}

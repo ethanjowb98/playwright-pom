@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-23kvkx7n Tasty Aluminum Keyboard",
+    "category": "bakery",
+    "price": 6.57,
+    "stock": 49,
+    "details": {
+      "brand": "Daniel LLC",
+      "origin": "Montserrat"
+    }
+  }
+}

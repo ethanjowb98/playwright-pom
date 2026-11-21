@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-e438kiqs Oriental Plastic Ball",
+    "category": "pantry",
+    "price": 17.62,
+    "stock": 28,
+    "details": {
+      "brand": "Keebler - Schroeder",
+      "origin": "Tokelau"
+    }
+  }
+}

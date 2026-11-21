@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-cafsdzms Elegant Steel Pizza",
+    "category": "fresh-produce",
+    "price": 47.36,
+    "stock": 46,
+    "details": {
+      "brand": "Cole - Hamill",
+      "origin": "British Indian Ocean Territory (Chagos Archipelago)"
+    }
+  }
+}

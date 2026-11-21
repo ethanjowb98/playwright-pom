@@ -1,0 +1,15 @@
+{
+  "id": "4ac34995-c0c0-4e4d-96cc-41d23a6bc0dc",
+  "product_name": "QA-7-2nqx4eea Luxurious Wooden Tuna",
+  "category": "snacks",
+  "price": 36.17,
+  "stock": 20,
+  "details": {
+    "brand": "Torphy, Veum and Bauch",
+    "origin": "Svalbard & Jan Mayen Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:09:01.697761+00:00"
+}

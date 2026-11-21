@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-l4my2qp5 sort Charlie",
+    "category": "other",
+    "price": 37.44,
+    "stock": 45,
+    "details": {
+      "brand": "Green - Glover",
+      "origin": "French Southern Territories"
+    }
+  }
+}

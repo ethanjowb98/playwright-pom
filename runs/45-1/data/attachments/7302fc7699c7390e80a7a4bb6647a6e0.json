@@ -1,0 +1,15 @@
+{
+  "id": "14794542-f46a-4588-a1ea-62a29dabf004",
+  "product_name": "QA-2-b62r4kuw sort Alpha",
+  "category": "dairy-eggs",
+  "price": 32.28,
+  "stock": 29,
+  "details": {
+    "brand": "Tillman and Sons",
+    "origin": "Cape Verde"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-15T10:08:30.541254+00:00"
+}

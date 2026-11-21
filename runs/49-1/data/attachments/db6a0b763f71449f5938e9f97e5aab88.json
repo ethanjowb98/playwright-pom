@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "dc07e099-1074-4a24-ae66-4b609a56f286",
+    "order_number": "O97857",
+    "status": "pending",
+    "total_amount": 38.18,
+    "created_at": "2026-11-19T10:57:33.226298+00:00",
+    "items": [
+      {
+        "product_name": "QA-2-qot6sy0c Fantastic Bronze Salad",
+        "category": "frozen",
+        "quantity": 1,
+        "price": 38.18,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

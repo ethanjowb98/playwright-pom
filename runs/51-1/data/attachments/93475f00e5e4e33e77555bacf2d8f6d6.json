@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-nvhesff5 Incredible Bamboo Gloves",
+    "category": "other",
+    "price": 24.08,
+    "stock": 24,
+    "details": {
+      "brand": "Bradtke-Yundt, Willms and Huel",
+      "origin": "Montserrat"
+    }
+  }
+}

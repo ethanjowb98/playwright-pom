@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-hv9xkqni Rustic Granite Car",
+    "category": "snacks",
+    "price": 35.06,
+    "stock": 19,
+    "details": {
+      "brand": "Runolfsson, Wyman and Graham",
+      "origin": "Sweden"
+    },
+    "temperature_zone": "Room Temperature",
+    "weighted": false
+  }
+}

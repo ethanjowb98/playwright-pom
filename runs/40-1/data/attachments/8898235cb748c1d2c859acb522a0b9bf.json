@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-hfkgva2t Generic Silk Sausages",
+    "category": "household",
+    "price": 2.26,
+    "stock": 40,
+    "details": {
+      "brand": "Cormier - Nicolas",
+      "origin": "Sweden"
+    }
+  }
+}

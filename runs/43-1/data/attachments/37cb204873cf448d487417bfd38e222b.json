@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1jhm78be Sleek Gold Keyboard",
+    "category": "fresh-produce",
+    "price": 17.18,
+    "stock": 16,
+    "details": {
+      "brand": "Trantow LLC",
+      "origin": "Virgin Islands, U.S."
+    }
+  }
+}

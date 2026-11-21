@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-3wf9m2f0 Awesome Wooden Pants",
+    "category": "bakery",
+    "price": 8.58,
+    "stock": 22,
+    "details": {
+      "brand": "Pfeffer, Schmidt and Kuphal",
+      "origin": "Taiwan"
+    }
+  }
+}

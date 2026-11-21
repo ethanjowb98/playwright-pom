@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-3ivx9c7j Modern Aluminum Chair",
+    "category": "meat-seafood",
+    "price": 15.34,
+    "stock": 41,
+    "details": {
+      "brand": "Schmitt, Fritsch and Schimmel",
+      "origin": "Northern Mariana Islands"
+    }
+  }
+}

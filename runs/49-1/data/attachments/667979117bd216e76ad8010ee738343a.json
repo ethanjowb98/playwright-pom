@@ -1,0 +1,15 @@
+{
+  "id": "2c9e42b4-24d4-465a-ae07-ec887d0a45b8",
+  "product_name": "QA-1-d5r9d65h Practical Bronze Bike",
+  "category": "snacks",
+  "price": 25.8,
+  "stock": 2,
+  "details": {
+    "brand": "Beier, McGlynn and Schroeder",
+    "origin": "Serbia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:55:33.252158+00:00"
+}

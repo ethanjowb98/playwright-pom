@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-3gvnn6j8 Generic Wooden Gloves",
+    "category": "beverages",
+    "price": 16.6,
+    "stock": 16,
+    "details": {
+      "brand": "Beer, McCullough and Hane",
+      "origin": "Myanmar"
+    }
+  }
+}

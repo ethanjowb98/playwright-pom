@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-6-udpbka7b Tasty Concrete Hat",
+    "category": "meat-seafood",
+    "price": 34.77,
+    "stock": 41,
+    "details": {
+      "batch": "QA-6-a0ulh4m4 batch"
+    }
+  }
+}

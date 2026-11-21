@@ -1,0 +1,15 @@
+{
+  "id": "ee81464a-6a82-4a95-b456-eb81e1f2ce8c",
+  "product_name": "QA-7-q8rw2xlq sort Charlie",
+  "category": "dairy-eggs",
+  "price": 21.79,
+  "stock": 36,
+  "details": {
+    "brand": "Klein - Kshlerin",
+    "origin": "Gibraltar"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:56:33.636394+00:00"
+}

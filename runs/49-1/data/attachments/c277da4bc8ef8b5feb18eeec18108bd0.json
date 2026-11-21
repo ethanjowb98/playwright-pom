@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-q8rw2xlq sort Charlie",
+    "category": "dairy-eggs",
+    "price": 21.79,
+    "stock": 36,
+    "details": {
+      "brand": "Klein - Kshlerin",
+      "origin": "Gibraltar"
+    }
+  }
+}

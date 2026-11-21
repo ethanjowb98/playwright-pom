@@ -1,0 +1,15 @@
+{
+  "id": "75961f6c-7e01-4182-bc8b-af6cd46c8d5e",
+  "product_name": "QA-3-ub381pep sort Bravo",
+  "category": "snacks",
+  "price": 25.49,
+  "stock": 25,
+  "details": {
+    "brand": "Hilll, White and Nienow",
+    "origin": "United Kingdom"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:38.486248+00:00"
+}

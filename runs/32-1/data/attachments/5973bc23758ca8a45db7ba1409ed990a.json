@@ -1,0 +1,15 @@
+{
+  "id": "9b6de21d-fdb6-42ec-9bee-b267bd92a316",
+  "product_name": "QA-1-jj5itpux Electronic Concrete Fish",
+  "category": "pantry",
+  "price": 10.05,
+  "stock": 19,
+  "details": {
+    "brand": "Durgan - Leannon",
+    "origin": "Bangladesh"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:20:44.706027+00:00"
+}

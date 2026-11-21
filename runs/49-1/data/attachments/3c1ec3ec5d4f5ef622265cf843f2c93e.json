@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-bfa8blwm Rustic Cotton Chicken",
+    "category": "bakery",
+    "price": 45.07,
+    "stock": 23,
+    "details": {
+      "brand": "Gislason - Mohr",
+      "origin": "Sao Tome and Principe"
+    }
+  }
+}

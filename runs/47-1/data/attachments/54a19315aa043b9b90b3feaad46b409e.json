@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-p8pr7hzv Tasty Bronze Keyboard",
+    "category": "pantry",
+    "price": 22.45,
+    "stock": 10,
+    "details": {
+      "brand": "Kessler Group",
+      "origin": "Morocco"
+    }
+  }
+}

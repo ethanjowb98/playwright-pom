@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-opzqycvd Modern Concrete Mouse",
+    "category": "pantry",
+    "price": 31.32,
+    "stock": 19,
+    "details": {
+      "brand": "O'Hara, Schaefer and Strosin",
+      "origin": "Eswatini"
+    }
+  }
+}

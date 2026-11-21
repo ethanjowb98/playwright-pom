@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "id": "f90da171-c24e-40e9-85f3-df54ab922069",
+      "product_id": "9e464489-7064-4012-b172-74086ae1bacf",
+      "product_name": "QA-2-g812rs9u Rustic Metal Bacon",
+      "price": 21.4,
+      "category": "dairy-eggs",
+      "quantity": 2,
+      "created_at": "2026-11-19T10:56:25.712307+00:00",
+      "updated_at": "2026-11-19T10:56:25.712307+00:00"
+    },
+    {
+      "id": "bffa6d8c-817c-493a-9e6e-bb609192915c",
+      "product_id": "b142ef7c-1f7f-4f0e-b558-e80c5792a260",
+      "product_name": "QA-2-x2qlynvu Rustic Marble Tuna",
+      "price": 18.12,
+      "category": "household",
+      "quantity": 2,
+      "created_at": "2026-11-19T10:56:25.160462+00:00",
+      "updated_at": "2026-11-19T10:56:25.160462+00:00"
+    }
+  ]
+}

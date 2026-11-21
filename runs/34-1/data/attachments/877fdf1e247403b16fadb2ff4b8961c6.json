@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-80mnt75l Gorgeous Bamboo Cheese",
+    "category": "frozen",
+    "price": 43.39,
+    "stock": 22,
+    "details": {
+      "brand": "Howell, Powlowski and Price",
+      "origin": "Suriname"
+    }
+  }
+}

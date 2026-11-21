@@ -1,0 +1,15 @@
+{
+  "id": "2be72c5e-3186-4295-a0ad-9f462c3a47a5",
+  "product_name": "QA-1-ud8f6b8a Intelligent Bronze Towels",
+  "category": "dairy-eggs",
+  "price": 35.63,
+  "stock": 43,
+  "details": {
+    "brand": "Bruen Inc",
+    "origin": "Holy See (Vatican City State)"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:25:11.845475+00:00"
+}

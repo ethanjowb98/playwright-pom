@@ -1,0 +1,15 @@
+{
+  "id": "77ddb357-806c-49eb-9971-6c6fcf4b8f08",
+  "product_name": "QA-1-xx3yxxh3 Awesome Concrete Sausages",
+  "category": "pantry",
+  "price": 16.17,
+  "stock": 2,
+  "details": {
+    "brand": "Swaniawski, Haag and Wilkinson",
+    "origin": "Zambia"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:28:02.188826+00:00"
+}

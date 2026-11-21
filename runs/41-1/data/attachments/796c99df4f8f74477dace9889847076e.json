@@ -1,0 +1,19 @@
+{
+  "id": "032e8016-ef3a-4ff2-8e16-7dc00fcc7695",
+  "order_number": "O38039",
+  "status": "pending",
+  "total_amount": 52.1,
+  "notes": "updated",
+  "created_at": "2026-11-11T10:02:36.400589+00:00",
+  "updated_at": "2026-11-11T10:02:36.400589+00:00",
+  "items": [
+    {
+      "product_id": "abc3b175-4809-4bfa-a116-b4bddc5de247",
+      "product_name": "QA-1-23q4f3a1 Oriental Rubber Fish",
+      "category": "other",
+      "quantity": 2,
+      "price": 26.05,
+      "temperature_zone": null
+    }
+  ]
+}

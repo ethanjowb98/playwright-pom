@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4dbkpwxs Fantastic Aluminum Car",
+    "category": "pantry",
+    "price": 48.62,
+    "stock": 47,
+    "details": {
+      "brand": "Jakubowski, Walker and Conroy",
+      "origin": "Thailand"
+    }
+  }
+}

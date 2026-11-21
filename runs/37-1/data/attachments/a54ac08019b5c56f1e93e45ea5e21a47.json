@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-l3etteva Handcrafted Steel Bike",
+    "category": "bakery",
+    "price": 37.62,
+    "stock": 50,
+    "details": {
+      "brand": "Jones - Upton",
+      "origin": "Tuvalu"
+    }
+  }
+}

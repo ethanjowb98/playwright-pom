@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-nvj2j93l Oriental Plastic Tuna",
+    "category": "beverages",
+    "price": 9.87,
+    "stock": 0,
+    "details": {
+      "brand": "Farrell Group",
+      "origin": "Eritrea"
+    }
+  }
+}

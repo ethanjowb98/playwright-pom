@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-daz4c2m2 Practical Rubber Gloves",
+    "category": "pantry",
+    "price": 15.33,
+    "stock": 2,
+    "details": {
+      "brand": "Wiza - Kiehn",
+      "origin": "Republic of Korea"
+    }
+  }
+}

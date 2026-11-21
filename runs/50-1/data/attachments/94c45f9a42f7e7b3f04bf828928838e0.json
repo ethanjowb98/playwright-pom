@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-25r2ek8b Modern Rubber Fish",
+    "category": "dairy-eggs",
+    "price": 32.65,
+    "stock": 14,
+    "details": {
+      "brand": "Wiza, Feeney and Carter",
+      "origin": "Panama"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-5pdfknnl Ergonomic Silk Shoes",
+    "category": "frozen",
+    "price": 13.49,
+    "stock": 12,
+    "details": {
+      "brand": "Blanda-Grant, Kshlerin and Hauck",
+      "origin": "Estonia"
+    }
+  }
+}

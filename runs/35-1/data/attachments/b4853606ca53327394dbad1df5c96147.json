@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7af6v37y Awesome Aluminum Towels",
+    "category": "frozen",
+    "price": 40.72,
+    "stock": 42,
+    "details": {
+      "brand": "Kunde, O'Hara-Lubowitz and Skiles",
+      "origin": "Christmas Island"
+    }
+  }
+}

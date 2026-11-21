@@ -1,0 +1,15 @@
+{
+  "id": "822ca466-340a-41c2-a869-dbc4f02aea17",
+  "product_name": "QA-1-zb45cccr Ergonomic Steel Bike",
+  "category": "fresh-produce",
+  "price": 6.56,
+  "stock": 42,
+  "details": {
+    "brand": "Romaguera Inc",
+    "origin": "Belize"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-14T09:43:05.7941+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-1ipvshz9 Handcrafted Metal Bike",
+    "category": "other",
+    "price": 37.69,
+    "stock": 38,
+    "details": {
+      "brand": "Rempel Inc",
+      "origin": "Spain"
+    }
+  }
+}

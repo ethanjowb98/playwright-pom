@@ -1,0 +1,15 @@
+{
+  "id": "786a8426-a73b-430a-a233-40431fb6fa74",
+  "product_name": "QA-8-d07zugw0 sort Alpha",
+  "category": "pantry",
+  "price": 34.93,
+  "stock": 50,
+  "details": {
+    "brand": "Fritsch LLC",
+    "origin": "Bangladesh"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:52.602253+00:00"
+}

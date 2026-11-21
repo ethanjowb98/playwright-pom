@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "3ac5b6aa-45b6-4d4a-b6b4-0cf0069cc746",
+      "product_id": "876274e1-879b-4621-84d7-e5f78c11fe97",
+      "product_name": "QA-1-oof0li60 Elegant Steel Pizza",
+      "price": 23.42,
+      "category": "snacks",
+      "quantity": 3,
+      "created_at": "2026-11-07T09:27:44.427556+00:00",
+      "updated_at": "2026-11-07T09:27:46.338055+00:00"
+    }
+  ]
+}

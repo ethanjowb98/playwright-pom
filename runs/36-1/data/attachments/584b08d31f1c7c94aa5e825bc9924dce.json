@@ -1,0 +1,15 @@
+{
+  "id": "c7d5f4d2-3160-4f55-80f2-f8f5e4bcc309",
+  "product_name": "QA-1-lstoo1zu Modern Plastic Cheese",
+  "category": "beverages",
+  "price": 30.65,
+  "stock": 15,
+  "details": {
+    "brand": "Dibbert, Hane and Little",
+    "origin": "Netherlands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-06T10:07:02.700777+00:00"
+}

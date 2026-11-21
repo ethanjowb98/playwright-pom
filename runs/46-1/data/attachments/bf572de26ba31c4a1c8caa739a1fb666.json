@@ -1,0 +1,27 @@
+{
+  "id": "f66b0e92-9447-4e6b-95ae-084f844efcb8",
+  "order_number": "O79747",
+  "status": "pending",
+  "total_amount": 15.59,
+  "notes": null,
+  "created_at": "2026-11-16T10:25:23.477513+00:00",
+  "updated_at": "2026-11-16T10:25:23.477513+00:00",
+  "items": [
+    {
+      "product_id": "ce92c869-f90d-4209-9974-4bdc0b5d4cf5",
+      "product_name": "QA-1-9aq9e3g9 Oriental Granite Mouse",
+      "category": "snacks",
+      "quantity": 2,
+      "price": 4.21,
+      "temperature_zone": null
+    },
+    {
+      "product_id": "b5b0216e-4e19-47c1-807a-79e87980fccf",
+      "product_name": "QA-1-bvstuxfc Luxurious Plastic Hat",
+      "category": "household",
+      "quantity": 3,
+      "price": 2.39,
+      "temperature_zone": null
+    }
+  ]
+}

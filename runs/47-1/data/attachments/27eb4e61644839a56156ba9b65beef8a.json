@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "7c42b6df-a283-4dd3-a577-4637525822ab",
+    "order_number": "O16334",
+    "status": "pending",
+    "total_amount": 41.06,
+    "created_at": "2026-11-17T11:22:01.225139+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-znctwd2i Modern Rubber Sausages",
+        "category": "meat-seafood",
+        "quantity": 1,
+        "price": 41.06,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ng94b6cp Luxurious Marble Ball",
+    "category": "beverages",
+    "price": 41.1,
+    "stock": 39,
+    "details": {
+      "brand": "Weber, Jones and Zemlak",
+      "origin": "Wallis and Futuna"
+    }
+  }
+}

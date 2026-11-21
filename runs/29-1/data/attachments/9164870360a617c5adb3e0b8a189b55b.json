@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-19fy5ueh sort Bravo",
+    "category": "fresh-produce",
+    "price": 45.56,
+    "stock": 47,
+    "details": {
+      "brand": "Abshire - Kshlerin",
+      "origin": "Jordan"
+    }
+  }
+}

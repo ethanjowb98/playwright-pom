@@ -1,0 +1,15 @@
+{
+  "id": "49ce1e0c-a0b2-4868-9f2c-31bb144f73e5",
+  "product_name": "QA-8-ix8vfn14 sort Bravo",
+  "category": "snacks",
+  "price": 25.87,
+  "stock": 34,
+  "details": {
+    "brand": "Rath Inc",
+    "origin": "Solomon Islands"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:43:58.441581+00:00"
+}

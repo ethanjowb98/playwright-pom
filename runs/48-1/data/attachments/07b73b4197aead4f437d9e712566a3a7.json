@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-99v79p82 Fantastic Aluminum Tuna",
+    "category": "meat-seafood",
+    "price": "abc",
+    "stock": 40,
+    "details": {
+      "brand": "Keebler, Abernathy and Padberg",
+      "origin": "Svalbard & Jan Mayen Islands"
+    }
+  }
+}

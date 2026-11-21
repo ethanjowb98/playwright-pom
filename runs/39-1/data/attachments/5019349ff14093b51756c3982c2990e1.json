@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-omugieur Fantastic Rubber Fish",
+    "category": "bakery",
+    "price": 39.88,
+    "stock": 32,
+    "details": {
+      "brand": "Schimmel and Sons",
+      "origin": "Iran"
+    },
+    "weighted": false
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-w1s17t0y Recycled Wooden Towels",
+    "category": "pantry",
+    "price": 29.67,
+    "stock": 39,
+    "details": {
+      "brand": "Hane Group",
+      "origin": "Republic of Korea"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ynzv0nyz Generic Marble Shoes",
+    "category": "frozen",
+    "price": 42.19,
+    "stock": 31,
+    "details": {
+      "brand": "Ziemann - Feeney",
+      "origin": "South Sudan"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

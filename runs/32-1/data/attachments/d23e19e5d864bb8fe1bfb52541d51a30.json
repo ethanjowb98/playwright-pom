@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "ff6a2d14-c194-4fea-b5ad-536d4add6a34",
+    "order_number": "O95102",
+    "status": "pending",
+    "total_amount": 5.88,
+    "created_at": "2026-11-05T08:22:47.758006+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-w957jan1 Practical Ceramic Shoes",
+        "category": "other",
+        "quantity": 3,
+        "price": 1.96,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

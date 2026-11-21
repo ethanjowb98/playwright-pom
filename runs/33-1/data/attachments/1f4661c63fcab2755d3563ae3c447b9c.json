@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8rii7l73 Small Cotton Shoes",
+    "category": "bakery",
+    "price": 17.01,
+    "stock": 27,
+    "details": {
+      "brand": "Altenwerth and Sons",
+      "origin": "Nepal"
+    }
+  }
+}

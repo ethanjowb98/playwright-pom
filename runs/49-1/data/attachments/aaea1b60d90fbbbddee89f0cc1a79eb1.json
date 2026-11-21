@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-nym8a7gd Licensed Wooden Bacon",
+    "category": "fresh-produce",
+    "price": 20.97,
+    "stock": 43,
+    "details": {
+      "brand": "Fadel - Johnston",
+      "origin": "Brunei Darussalam"
+    }
+  }
+}

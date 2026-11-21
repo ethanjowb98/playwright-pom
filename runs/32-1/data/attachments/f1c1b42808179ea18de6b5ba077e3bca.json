@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-wm6dsd50 Ergonomic Plastic Sausages",
+    "category": "pantry",
+    "price": 17.64,
+    "stock": 27,
+    "details": {
+      "brand": "Friesen Inc",
+      "origin": "Papua New Guinea"
+    }
+  }
+}

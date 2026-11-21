@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-pp2xo945 Handmade Metal Ball",
+    "category": "household",
+    "price": 5,
+    "stock": 28,
+    "details": {
+      "brand": "Goyette - Walsh",
+      "origin": "Norway"
+    },
+    "weighted": true
+  }
+}

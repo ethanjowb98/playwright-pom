@@ -1,0 +1,15 @@
+{
+  "id": "279682b6-93b7-4412-b7e8-a28d25fda5d2",
+  "product_name": "QA-2-kusf0bek Small Bamboo Sausages",
+  "category": "meat-seafood",
+  "price": 25.78,
+  "stock": 16,
+  "details": {
+    "brand": "Schmeler, Hamill and Walsh",
+    "origin": "Cape Verde"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-20T10:44:06.236862+00:00"
+}

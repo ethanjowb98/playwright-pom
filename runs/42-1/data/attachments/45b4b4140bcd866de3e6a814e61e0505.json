@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tl2n7xmw Ergonomic Metal Chips",
+    "category": "meat-seafood",
+    "price": 40.04,
+    "stock": 22,
+    "details": {
+      "brand": "Crist, Corwin and Jerde",
+      "origin": "Senegal"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-kh8tyssi Handcrafted Ceramic Bacon",
+    "category": "frozen",
+    "price": 8.7,
+    "stock": 22,
+    "details": {
+      "origin": "Spain",
+      "brand": "Acme"
+    }
+  }
+}

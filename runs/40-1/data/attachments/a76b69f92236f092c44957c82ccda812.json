@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-587y24yx Oriental Ceramic Chair",
+    "category": "fresh-produce",
+    "price": 27.25,
+    "stock": 40,
+    "details": {
+      "brand": "Walker, Ziemann and Wiza",
+      "origin": "Andorra"
+    }
+  }
+}

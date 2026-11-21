@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-aecf2tq3 Tasty Cotton Car",
+    "category": "pantry",
+    "price": 2.6,
+    "stock": 40,
+    "details": {
+      "brand": "Robel, Lemke and Homenick",
+      "origin": "Jordan"
+    },
+    "temperature_zone": "Dry"
+  }
+}

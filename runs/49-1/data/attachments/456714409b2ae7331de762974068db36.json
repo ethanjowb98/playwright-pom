@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-9fcx2pg6 Tasty Granite Shoes",
+    "category": "snacks",
+    "price": 6.82,
+    "stock": 43,
+    "details": {
+      "brand": "Howell, Blick and Schroeder",
+      "origin": "Equatorial Guinea"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "de081989-b300-426e-be4c-b0e449d16527",
+  "product_name": "QA-2-h6erwqik Frozen Concrete Cheese",
+  "category": "bakery",
+  "price": 4.79,
+  "stock": 25,
+  "details": {
+    "brand": "Ferry - O'Keefe",
+    "origin": "Eritrea"
+  },
+  "temperature_zone": "Room Temperature",
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:22.791272+00:00"
+}

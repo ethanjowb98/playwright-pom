@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ahin5omn Sleek Steel Computer",
+    "category": "fresh-produce",
+    "price": 42.81,
+    "stock": 37,
+    "details": {
+      "brand": "Abernathy - Padberg",
+      "origin": "Egypt"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "870633a4-10db-455b-b727-51684c09ac20",
+    "order_number": "O92152",
+    "status": "pending",
+    "total_amount": 90.47,
+    "created_at": "2026-11-13T10:23:10.460276+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-kuj8qjt6 Tasty Granite Fish",
+        "category": "frozen",
+        "quantity": 3,
+        "price": 25.99,
+        "temperature_zone": null
+      },
+      {
+        "product_name": "QA-1-gutwcuoe Ergonomic Ceramic Keyboard",
+        "category": "household",
+        "quantity": 1,
+        "price": 12.5,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

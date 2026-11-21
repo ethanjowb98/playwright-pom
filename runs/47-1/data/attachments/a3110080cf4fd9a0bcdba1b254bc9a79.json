@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tsjzz9cx Generic Concrete Sausages",
+    "category": "bakery",
+    "price": 49.14,
+    "stock": 27,
+    "details": {
+      "brand": "Weber - Hansen",
+      "origin": "Georgia"
+    }
+  }
+}

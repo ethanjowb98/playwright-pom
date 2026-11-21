@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-efihd2xi Ergonomic Marble Keyboard",
+    "category": "snacks",
+    "price": 10.51,
+    "stock": 34,
+    "details": {
+      "brand": "Conroy-Crist, Mertz and Waters",
+      "origin": "Greenland"
+    }
+  }
+}

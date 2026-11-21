@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tnac5txr Incredible Plastic Chips",
+    "category": "bakery",
+    "price": 31.48,
+    "stock": 12,
+    "details": {
+      "brand": "Medhurst LLC",
+      "origin": "Brunei Darussalam"
+    },
+    "weighted": true
+  }
+}

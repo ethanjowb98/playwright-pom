@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-6glj5ms0 Intelligent Steel Pizza",
+    "category": "bakery",
+    "price": 32.27,
+    "stock": 10,
+    "details": {
+      "brand": "Halvorson Inc",
+      "origin": "Sint Maarten"
+    }
+  }
+}

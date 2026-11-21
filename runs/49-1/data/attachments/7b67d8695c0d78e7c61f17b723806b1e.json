@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-pwy1f5yf Intelligent Rubber Shirt",
+    "category": "bakery",
+    "price": 2.29,
+    "stock": 41,
+    "details": {
+      "brand": "Windler, Bernhard and Mills",
+      "origin": "Ghana"
+    }
+  }
+}

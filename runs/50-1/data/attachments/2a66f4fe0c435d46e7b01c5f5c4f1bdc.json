@@ -1,0 +1,15 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-4sda3a6o Modern Bronze Shoes",
+    "category": "household",
+    "price": 3.14,
+    "stock": 18,
+    "details": {
+      "brand": "Nienow - Dicki",
+      "origin": "Andorra"
+    },
+    "temperature_zone": "Frozen"
+  }
+}

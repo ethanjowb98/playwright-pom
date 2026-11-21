@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-tj85vuxo Fresh Aluminum Fish",
+    "category": "bakery",
+    "price": 23.61,
+    "stock": 11,
+    "details": {
+      "brand": "Daugherty and Sons",
+      "origin": "Saint Vincent and the Grenadines"
+    }
+  }
+}

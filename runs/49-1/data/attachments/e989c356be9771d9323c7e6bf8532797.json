@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rrotcjdg sort Charlie",
+    "category": "other",
+    "price": 22.2,
+    "stock": 47,
+    "details": {
+      "brand": "Hermiston - D'Amore-Konopelski",
+      "origin": "South Africa"
+    }
+  }
+}

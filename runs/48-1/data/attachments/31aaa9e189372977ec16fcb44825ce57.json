@@ -1,0 +1,15 @@
+{
+  "id": "a8db6eec-aded-4a61-97a4-3eac3ed6e7ff",
+  "product_name": "QA-8-clhrr3bg Sleek Bronze Gloves",
+  "category": "frozen",
+  "price": 28.49,
+  "stock": 17,
+  "details": {
+    "brand": "Willms - Mayer",
+    "origin": "Saint Barthélemy"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:15.402449+00:00"
+}

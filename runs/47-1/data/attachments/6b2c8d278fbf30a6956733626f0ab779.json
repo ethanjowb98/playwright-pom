@@ -1,0 +1,15 @@
+{
+  "id": "3964bedd-098a-4923-92ab-68d313fc3a45",
+  "product_name": "QA-7-7ouerost sort Alpha",
+  "category": "household",
+  "price": 35.59,
+  "stock": 35,
+  "details": {
+    "brand": "Will-Pacocha, O'Connell and Schiller",
+    "origin": "Luxembourg"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:20:41.986534+00:00"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "6e132b8c-e3b5-4519-bab9-6c4ffbf7ddf2",
+  "product_name": "QA-3-vvzvml7o Intelligent Concrete Chicken",
+  "category": "bakery",
+  "price": 27.2,
+  "stock": 29,
+  "details": {
+    "brand": "Moen, Bogan and Kirlin",
+    "origin": "Maldives"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:18:27.960709+00:00"
+}

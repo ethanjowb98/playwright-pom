@@ -1,0 +1,15 @@
+{
+  "id": "2daeb633-0d39-4ff9-b7d8-a2119a46c401",
+  "product_name": "QA-1-aog3z5cz Frozen Bronze Sausages",
+  "category": "pantry",
+  "price": 38.15,
+  "stock": 14,
+  "details": {
+    "brand": "Hammes, O'Conner and Streich",
+    "origin": "Pakistan"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-17T11:21:14.571168+00:00"
+}

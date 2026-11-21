@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-ozzp8yx9 Rustic Metal Cheese",
+    "category": "other",
+    "price": 34.48,
+    "stock": 26,
+    "details": {
+      "brand": "Roob Inc",
+      "origin": "Democratic People's Republic of Korea"
+    }
+  }
+}

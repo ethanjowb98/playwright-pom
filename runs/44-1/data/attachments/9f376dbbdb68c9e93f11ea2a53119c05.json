@@ -1,0 +1,98 @@
+[
+  {
+    "id": "11bb4d32-0830-4ef5-bb05-3bb562e0a2a9",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Deep Dish Pie Crusts (2-Pack)",
+    "category": "bakery",
+    "price": 4.5,
+    "details": {
+      "count": 2,
+      "diameter": "9 inch",
+      "butter_based": true,
+      "ready_to_bake": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7bb9a0fc-be4d-4024-8c13-d79afa7bc9e8",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Margarita Concentrate",
+    "category": "beverages",
+    "price": 3.25,
+    "details": {
+      "makes": "1 pitcher",
+      "volume": "12oz",
+      "contains_alcohol": false
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "7a60e1ba-0e01-45c5-9855-3cd9f66dfcf7",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Frozen Tilapia Fillets",
+    "category": "meat-seafood",
+    "price": 10.5,
+    "details": {
+      "weight": "2lb",
+      "farm_raised": true,
+      "individually_wrapped": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "9d629101-0d63-42dc-903c-e46267eee86b",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "Jumbo Raw Shrimp (2lb)",
+    "category": "meat-seafood",
+    "price": 18.99,
+    "details": {
+      "size": "16-20 count",
+      "peeled": true,
+      "weight": "2lb",
+      "deveined": true
+    },
+    "created_at": "2026-11-05T02:25:55.340742+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 10
+  },
+  {
+    "id": "51a6d9eb-7e81-45b3-b0c3-c3d9a219320d",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-1-gvt0jih1 Practical Metal Pants",
+    "category": "pantry",
+    "price": 19.28,
+    "details": {
+      "brand": "Walter and Sons",
+      "origin": "Norway"
+    },
+    "created_at": "2026-11-14T09:38:37.059066+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 42
+  },
+  {
+    "id": "31128490-ab8e-4191-b493-a02cb8b62e2e",
+    "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "name": "QA-3-iwxajmb2 Rustic Bamboo Chair",
+    "category": "snacks",
+    "price": 3.37,
+    "details": {
+      "brand": "Schmitt-Towne - Schroeder",
+      "origin": "Iran"
+    },
+    "created_at": "2026-11-14T09:38:37.104557+00:00",
+    "temperature_zone": "Frozen",
+    "weighted": false,
+    "stock": 36
+  }
+]

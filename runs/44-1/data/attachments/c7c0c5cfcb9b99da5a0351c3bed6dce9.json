@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-mjcu35pq Bespoke Wooden Fish",
+    "category": "household",
+    "price": 14.57,
+    "stock": 30,
+    "details": {
+      "brand": "Bauch - Cronin",
+      "origin": "Saint Kitts and Nevis"
+    }
+  }
+}

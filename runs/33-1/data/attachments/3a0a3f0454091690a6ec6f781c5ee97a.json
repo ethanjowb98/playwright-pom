@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "3a79dceb-e600-4ec2-bf28-7067806d68b6",
+    "order_number": "O13219",
+    "status": "pending",
+    "total_amount": 43.49,
+    "created_at": "2026-11-05T08:26:44.859762+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-0nju2bhm Recycled Concrete Soap",
+        "category": "bakery",
+        "quantity": 1,
+        "price": 43.49,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

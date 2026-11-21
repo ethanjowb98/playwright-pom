@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-7deiy245 sort Bravo",
+    "category": "frozen",
+    "price": 41.22,
+    "stock": 42,
+    "details": {
+      "brand": "Huel and Sons",
+      "origin": "Slovakia"
+    }
+  }
+}

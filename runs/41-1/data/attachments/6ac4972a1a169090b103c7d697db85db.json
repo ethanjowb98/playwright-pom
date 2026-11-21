@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-sv86cu27 Tasty Gold Pants",
+    "category": "snacks",
+    "price": 34.73,
+    "stock": 39,
+    "details": {
+      "brand": "Spinka, Hirthe and Fisher",
+      "origin": "Slovenia"
+    }
+  }
+}

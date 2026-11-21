@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-13b83oa5 Unbranded Aluminum Car",
+    "category": "bakery",
+    "price": 42.28,
+    "stock": 16,
+    "details": {
+      "brand": "Casper-Schroeder Group",
+      "origin": "Guinea"
+    }
+  }
+}

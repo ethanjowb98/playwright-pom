@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-sqcpo7gy Handcrafted Gold Shoes",
+    "category": "household",
+    "price": 47,
+    "stock": 44,
+    "details": {
+      "brand": "Barton and Sons",
+      "origin": "Zimbabwe"
+    }
+  }
+}

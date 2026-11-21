@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-w3urqv8b Soft Aluminum Bike",
+    "category": "meat-seafood",
+    "price": 17.56,
+    "stock": 41,
+    "details": {
+      "brand": "Labadie, King and Hettinger",
+      "origin": "Democratic Republic of the Congo"
+    }
+  }
+}

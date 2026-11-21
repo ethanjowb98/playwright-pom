@@ -1,0 +1,14 @@
+{
+  "items": [
+    {
+      "id": "f4fa9f54-36f7-4569-b36d-028634bbbe6a",
+      "product_id": "86f9f31b-1ae9-42f3-9d0e-e0679b0169ab",
+      "product_name": "QA-1-zhh1unro Tasty Ceramic Chicken",
+      "price": 30.74,
+      "category": "meat-seafood",
+      "quantity": 1,
+      "created_at": "2026-11-15T10:09:12.662582+00:00",
+      "updated_at": "2026-11-15T10:09:12.662582+00:00"
+    }
+  ]
+}

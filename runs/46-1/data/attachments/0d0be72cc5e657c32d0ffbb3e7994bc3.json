@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-f8a0xyjp sort Charlie",
+    "category": "snacks",
+    "price": 17.9,
+    "stock": 19,
+    "details": {
+      "brand": "Moen, Padberg and Langosh",
+      "origin": "Tuvalu"
+    }
+  }
+}

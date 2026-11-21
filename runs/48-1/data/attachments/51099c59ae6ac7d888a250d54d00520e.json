@@ -1,0 +1,13 @@
+{
+  "message": "Order updated",
+  "order": {
+    "id": "38c57ba5-c892-4405-8416-1542b6c78597",
+    "user_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+    "status": "processing",
+    "total_amount": 76.11,
+    "notes": null,
+    "created_at": "2026-11-18T10:55:58.816305+00:00",
+    "updated_at": "2026-11-18T10:55:58.816305+00:00",
+    "order_number": "O80774"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "55842bb1-85e8-4266-a042-d617f8e27cbb",
+  "product_name": "QA-2-6mmt7ed9 Bespoke Aluminum Tuna",
+  "category": "frozen",
+  "price": 49.1,
+  "stock": 18,
+  "details": {
+    "brand": "Ratke - Flatley",
+    "origin": "Yemen"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-12T10:28:46.620697+00:00"
+}

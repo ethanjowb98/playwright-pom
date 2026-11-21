@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-8-reosfpiz sort Bravo",
+    "category": "beverages",
+    "price": 37.4,
+    "stock": 36,
+    "details": {
+      "brand": "Bartoletti Group",
+      "origin": "Yemen"
+    }
+  }
+}

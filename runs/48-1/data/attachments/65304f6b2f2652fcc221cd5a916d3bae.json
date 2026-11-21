@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-s495vbl6 Oriental Wooden Chicken",
+    "category": "snacks",
+    "stock": 42,
+    "details": {
+      "brand": "Langworth-Jones LLC",
+      "origin": "Bonaire, Sint Eustatius and Saba"
+    }
+  }
+}

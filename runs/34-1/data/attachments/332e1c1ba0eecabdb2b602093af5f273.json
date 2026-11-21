@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-zzg7d18k Handmade Bamboo Pants",
+    "category": "fresh-produce",
+    "price": 28.97,
+    "stock": 50,
+    "details": {
+      "brand": "Kutch Group",
+      "origin": "South Sudan"
+    }
+  }
+}

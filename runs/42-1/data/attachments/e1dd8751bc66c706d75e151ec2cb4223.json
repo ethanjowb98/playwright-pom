@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-klrdx9we Rustic Marble Gloves",
+    "category": "other",
+    "price": 36.39,
+    "stock": 2,
+    "details": {
+      "brand": "DuBuque, Morar and Balistreri",
+      "origin": "Pakistan"
+    }
+  }
+}

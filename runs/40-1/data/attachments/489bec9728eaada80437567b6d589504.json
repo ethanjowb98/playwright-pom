@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-cdgm7215 Incredible Gold Soap",
+    "category": "household",
+    "price": 15.69,
+    "stock": 18,
+    "details": {
+      "brand": "Douglas Group",
+      "origin": "Romania"
+    }
+  }
+}

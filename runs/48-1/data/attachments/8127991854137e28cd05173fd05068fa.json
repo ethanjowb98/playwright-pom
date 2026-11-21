@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-v4ebpnoz Refined Gold Computer",
+    "category": "snacks",
+    "price": 5.9,
+    "stock": 49,
+    "details": {
+      "brand": "Bahringer - Ledner",
+      "origin": "Saint Helena"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q23xveat Modern Concrete Bike",
+    "category": "fresh-produce",
+    "price": 21.87,
+    "stock": 44,
+    "details": {
+      "brand": "Kulas Inc",
+      "origin": "Sao Tome and Principe"
+    }
+  }
+}

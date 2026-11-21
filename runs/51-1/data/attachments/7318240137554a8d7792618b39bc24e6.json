@@ -1,0 +1,15 @@
+{
+  "id": "d10972e6-f2b8-44e2-9cfe-9c4a2803ffb1",
+  "product_name": "QA-8-f4orancc sort Alpha",
+  "category": "household",
+  "price": 5.52,
+  "stock": 19,
+  "details": {
+    "brand": "DuBuque - Braun",
+    "origin": "Portugal"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-21T10:27:49.647236+00:00"
+}

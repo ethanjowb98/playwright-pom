@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-6exejtid sort Bravo",
+    "category": "beverages",
+    "price": 28.46,
+    "stock": 37,
+    "details": {
+      "brand": "Christiansen - Murazik",
+      "origin": "Chad"
+    }
+  }
+}

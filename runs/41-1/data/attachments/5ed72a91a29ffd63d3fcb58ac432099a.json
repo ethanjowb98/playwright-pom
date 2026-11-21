@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-xd4orz93 Soft Cotton Pizza",
+    "category": "frozen",
+    "price": 35.17,
+    "stock": 38,
+    "details": {
+      "brand": "Tillman - Durgan",
+      "origin": "Portugal"
+    }
+  }
+}

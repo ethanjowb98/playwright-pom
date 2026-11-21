@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-u0njfbya Fresh Gold Chips",
+    "category": "bakery",
+    "price": 26.42,
+    "stock": 16,
+    "details": {
+      "brand": "Rice - Rutherford",
+      "origin": "Northern Mariana Islands"
+    }
+  }
+}

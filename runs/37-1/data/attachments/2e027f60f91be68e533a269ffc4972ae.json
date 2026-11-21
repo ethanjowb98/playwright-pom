@@ -1,0 +1,15 @@
+{
+  "id": "a51bf667-482f-4854-849e-8e7b2c72e399",
+  "product_name": "QA-7-ps8esgye sort Charlie",
+  "category": "meat-seafood",
+  "price": 20.11,
+  "stock": 32,
+  "details": {
+    "brand": "Johns Group",
+    "origin": "Tonga"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-07T09:25:06.574553+00:00"
+}

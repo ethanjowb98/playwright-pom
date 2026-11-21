@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-yzlxavq5 Unbranded Rubber Sausages",
+    "category": "other",
+    "price": 14.77,
+    "stock": 34,
+    "details": {
+      "brand": "Balistreri Group",
+      "origin": "Pitcairn Islands"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

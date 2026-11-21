@@ -1,0 +1,15 @@
+{
+  "id": "8d9387a3-3ea0-4d9a-8abe-34bcf607d3b9",
+  "product_name": "QA-2-osnlp07v sort Bravo",
+  "category": "fresh-produce",
+  "price": 32.83,
+  "stock": 44,
+  "details": {
+    "brand": "DuBuque - Balistreri",
+    "origin": "Chad"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-19T10:54:19.62145+00:00"
+}

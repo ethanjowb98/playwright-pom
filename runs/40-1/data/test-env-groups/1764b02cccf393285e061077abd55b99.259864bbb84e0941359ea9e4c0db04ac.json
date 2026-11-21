@@ -1,0 +1,1 @@
+{"id":"1764b02cccf393285e061077abd55b99.259864bbb84e0941359ea9e4c0db04ac","fullName":"api/product-search.api.spec.ts › Product search API › should reject the filter with 400 when weighted is not true or false","name":"should reject the filter with 400 when weighted is not true or false","status":"passed","testResultsByEnv":{"default":"f4ca9124b6ac8691a65138d31c20aeb7"}}

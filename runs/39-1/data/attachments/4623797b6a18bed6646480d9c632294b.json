@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-q4q2otyb Sleek Rubber Hat",
+    "category": "frozen",
+    "price": 3.93,
+    "stock": 35,
+    "details": {
+      "brand": "McCullough - Lakin",
+      "origin": "Christmas Island"
+    }
+  }
+}

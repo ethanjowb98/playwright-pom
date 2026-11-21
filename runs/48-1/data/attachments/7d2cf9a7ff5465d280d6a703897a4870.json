@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-p5q0toao Soft Ceramic Cheese",
+    "category": "frozen",
+    "price": 49.46,
+    "stock": -5,
+    "details": {
+      "brand": "Swaniawski - Stanton",
+      "origin": "American Samoa"
+    }
+  }
+}

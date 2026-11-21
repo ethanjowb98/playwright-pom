@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-dfbzio5o Oriental Wooden Mouse",
+    "category": "household",
+    "price": 22.02,
+    "stock": 21,
+    "details": {
+      "brand": "Schoen, Smith and Strosin",
+      "origin": "Monaco"
+    }
+  }
+}

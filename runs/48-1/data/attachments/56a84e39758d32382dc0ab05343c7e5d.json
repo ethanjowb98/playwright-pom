@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-8bnpnx20 Fresh Ceramic Keyboard",
+    "category": "household",
+    "price": 26.75,
+    "stock": 10,
+    "details": {
+      "brand": "Luettgen, Schultz and Rowe",
+      "origin": "Malawi"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ae6cb28e-415b-4acd-9e48-553416d7fc2c",
+  "order_number": "O57420",
+  "status": "delivered",
+  "total_amount": 16.5,
+  "notes": null,
+  "created_at": "2026-11-13T10:20:53.186893+00:00",
+  "updated_at": "2026-11-13T10:20:53.186893+00:00",
+  "items": [
+    {
+      "product_id": "d6482203-78bc-4a7c-8711-4b83cea76a54",
+      "product_name": "QA-1-hs49bfgm Luxurious Bamboo Pants",
+      "category": "dairy-eggs",
+      "quantity": 1,
+      "price": 16.5,
+      "temperature_zone": null
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-h0987m9l Practical Plastic Hat",
+    "category": "bakery",
+    "price": 12.34,
+    "stock": 49,
+    "details": {
+      "brand": "Leuschke - Wolff",
+      "origin": "Norfolk Island"
+    }
+  }
+}

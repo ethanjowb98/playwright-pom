@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-nsqqul8i Luxurious Aluminum Ball",
+    "category": "pantry",
+    "price": 17.96,
+    "stock": "x",
+    "details": {
+      "brand": "Ullrich, Steuber and Marks",
+      "origin": "Dominica"
+    }
+  }
+}

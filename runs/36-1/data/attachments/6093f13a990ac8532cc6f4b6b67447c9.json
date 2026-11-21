@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-gk05oj8v Bespoke Gold Sausages",
+    "category": "dairy-eggs",
+    "price": 3.62,
+    "stock": 43,
+    "details": {
+      "brand": "Emard and Sons",
+      "origin": "Taiwan"
+    }
+  }
+}

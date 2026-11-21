@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-f75jxr9u Luxurious Silk Pizza",
+    "category": "frozen",
+    "price": 40.1,
+    "stock": 34,
+    "details": {
+      "brand": "Johnston - Okuneva",
+      "origin": "Central African Republic"
+    }
+  }
+}

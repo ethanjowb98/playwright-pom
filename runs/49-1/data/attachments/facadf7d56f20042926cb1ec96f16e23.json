@@ -1,0 +1,19 @@
+{
+  "id": "3b8a9d4a-1859-4064-824f-e2da02a864d5",
+  "order_number": "O74796",
+  "status": "processing",
+  "total_amount": 74.12,
+  "notes": null,
+  "created_at": "2026-11-19T10:58:48.280998+00:00",
+  "updated_at": "2026-11-19T10:58:48.280998+00:00",
+  "items": [
+    {
+      "product_id": "a3e27a13-64fc-4ece-9f0a-1558e29c35f1",
+      "product_name": "QA-2-dz5imo7e Licensed Rubber Gloves",
+      "category": "meat-seafood",
+      "quantity": 2,
+      "price": 37.06,
+      "temperature_zone": null
+    }
+  ]
+}

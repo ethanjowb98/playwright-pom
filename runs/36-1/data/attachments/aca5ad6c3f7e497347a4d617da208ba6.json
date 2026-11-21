@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-9l2re6p7 Unbranded Silk Shoes",
+    "category": "other",
+    "price": 48.57,
+    "stock": 2,
+    "details": {
+      "brand": "Mann, Roberts and Crist-Herzog",
+      "origin": "Botswana"
+    }
+  }
+}

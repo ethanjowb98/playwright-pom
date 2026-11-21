@@ -1,0 +1,15 @@
+{
+  "id": "13525a45-9125-4686-830e-25084f323717",
+  "product_name": "QA-1-6sptr7wa Incredible Silk Cheese",
+  "category": "dairy-eggs",
+  "price": 27.96,
+  "stock": 21,
+  "details": {
+    "brand": "Turner - Heathcote",
+    "origin": "Tuvalu"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-18T10:54:21.983272+00:00"
+}

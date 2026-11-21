@@ -1,0 +1,15 @@
+{
+  "id": "a6129259-6ece-4c4a-a089-d71f710479c7",
+  "product_name": "QA-1-h8e1cjdg Incredible Bamboo Fish",
+  "category": "meat-seafood",
+  "price": 33.9,
+  "stock": 50,
+  "details": {
+    "brand": "Turcotte, Haley and Pfannerstill",
+    "origin": "El Salvador"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-13T10:19:34.245863+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7x5fvk31 Oriental Rubber Fish",
+    "category": "frozen",
+    "price": 33.58,
+    "stock": 31,
+    "details": {
+      "brand": "Fritsch - Roob",
+      "origin": "Tuvalu"
+    }
+  }
+}

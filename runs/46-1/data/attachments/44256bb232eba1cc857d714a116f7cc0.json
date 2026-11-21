@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-2-brp4ja6e Bespoke Wooden Table",
+    "category": "pantry",
+    "price": 25.36,
+    "stock": 0,
+    "details": {
+      "brand": "Oberbrunner and Sons",
+      "origin": "Pitcairn Islands"
+    }
+  }
+}

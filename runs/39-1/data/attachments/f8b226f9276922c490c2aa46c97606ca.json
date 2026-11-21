@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rsptd7wg Gorgeous Plastic Gloves",
+    "category": "pantry",
+    "price": 38.58,
+    "stock": 16,
+    "details": {
+      "brand": "Block - Steuber",
+      "origin": "French Guiana"
+    }
+  }
+}

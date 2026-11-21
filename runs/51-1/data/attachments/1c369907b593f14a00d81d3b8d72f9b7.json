@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-h09mw6p7 Elegant Gold Gloves",
+    "category": "bakery",
+    "price": 31.59,
+    "stock": 31,
+    "details": {
+      "brand": "Borer, Dickens and Feeney",
+      "origin": "Latvia"
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-7-rksdknin sort Alpha",
+    "category": "pantry",
+    "price": 1.84,
+    "stock": 34,
+    "details": {
+      "brand": "Lubowitz Group",
+      "origin": "Sri Lanka"
+    }
+  }
+}

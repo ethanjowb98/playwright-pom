@@ -1,0 +1,15 @@
+{
+  "id": "4e9888a8-7093-42bf-9642-9e9fd8d4761c",
+  "product_name": "QA-1-c4yktapn sort Bravo",
+  "category": "bakery",
+  "price": 44.3,
+  "stock": 13,
+  "details": {
+    "brand": "Dach - Hammes",
+    "origin": "Tanzania"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-16T10:22:08.795683+00:00"
+}

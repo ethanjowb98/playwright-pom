@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-ogjcoodp Practical Plastic Shirt",
+    "category": "bakery",
+    "price": 19.99,
+    "stock": 46,
+    "details": {
+      "brand": "Lind, Wunsch and Hamill",
+      "origin": "Belgium"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-ong1hhw2 Unbranded Aluminum Cheese",
+    "category": "beverages",
+    "price": 33.13,
+    "stock": 37,
+    "details": {
+      "brand": "Labadie, Schumm and Hilll",
+      "origin": "Malawi"
+    },
+    "temperature_zone": "Chilled",
+    "weighted": true
+  }
+}

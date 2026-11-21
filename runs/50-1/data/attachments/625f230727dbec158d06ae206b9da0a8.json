@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-4630oqa7 Sleek Cotton Keyboard",
+    "category": "bakery",
+    "price": 13.09,
+    "stock": 23,
+    "details": {
+      "brand": "Marks LLC",
+      "origin": "New Zealand"
+    }
+  }
+}

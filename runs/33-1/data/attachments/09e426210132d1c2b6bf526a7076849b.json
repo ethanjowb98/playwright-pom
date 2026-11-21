@@ -1,0 +1,15 @@
+{
+  "id": "c6a1df89-cf67-4e35-a1bd-7760b3904bfb",
+  "product_name": "QA-1-q4q8ui5f Elegant Bronze Chicken",
+  "category": "dairy-eggs",
+  "price": 12.45,
+  "stock": 28,
+  "details": {
+    "brand": "Satterfield, Senger and Pagac",
+    "origin": "Kenya"
+  },
+  "temperature_zone": null,
+  "weighted": false,
+  "owner_id": "5ba9c178-e565-4c58-9137-c78cb98d54ce",
+  "created_at": "2026-11-05T08:19:08.186222+00:00"
+}

@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-rq2mdd28 Licensed Cotton Keyboard",
+    "category": "bakery",
+    "price": 35.23,
+    "stock": 32,
+    "details": {
+      "brand": "Breitenberg, Hoppe and Kunze",
+      "origin": "Mongolia"
+    }
+  }
+}

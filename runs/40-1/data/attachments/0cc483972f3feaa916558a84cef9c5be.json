@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-qqhdmyjz Small Rubber Bike",
+    "category": "beverages",
+    "price": 4.6,
+    "stock": 50,
+    "details": {
+      "brand": "Bruen, Stehr and Cormier",
+      "origin": "Solomon Islands"
+    }
+  }
+}

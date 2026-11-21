@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-ccgw5s2d Luxurious Silk Pizza",
+    "category": "beverages",
+    "price": 31.72,
+    "stock": 10,
+    "details": {
+      "brand": "Hahn - Goyette",
+      "origin": "Bulgaria"
+    }
+  }
+}

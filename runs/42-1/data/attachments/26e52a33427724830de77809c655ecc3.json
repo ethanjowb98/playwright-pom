@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-7mx3prg3 Refined Ceramic Salad",
+    "category": "bakery",
+    "price": 13.24,
+    "stock": 35,
+    "details": {
+      "brand": "Jast Group",
+      "origin": "Greenland"
+    }
+  }
+}

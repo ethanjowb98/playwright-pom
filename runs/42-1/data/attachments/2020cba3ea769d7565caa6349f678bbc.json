@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-5-31k7zwn6 Sleek Granite Pants",
+    "category": "snacks",
+    "price": 35.91,
+    "stock": 29,
+    "details": {
+      "brand": "Dietrich - Raynor",
+      "origin": "Tuvalu"
+    }
+  }
+}

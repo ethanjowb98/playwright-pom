@@ -1,0 +1,13 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-4-wlhjtokj Ergonomic Rubber Chips",
+    "price": 33.39,
+    "stock": 45,
+    "details": {
+      "brand": "Parisian - Bode",
+      "origin": "Tajikistan"
+    }
+  }
+}

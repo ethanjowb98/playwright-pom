@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-3-0xbio0lb Handmade Ceramic Ball",
+    "category": "household",
+    "price": 8.9,
+    "stock": 0,
+    "details": {
+      "brand": "Cummings - Haag",
+      "origin": "Turkey"
+    }
+  }
+}

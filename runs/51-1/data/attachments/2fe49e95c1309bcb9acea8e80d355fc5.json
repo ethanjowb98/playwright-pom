@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-p7v4kjt1 Awesome Gold Pizza",
+    "category": "frozen",
+    "price": 33.36,
+    "stock": 29,
+    "details": {
+      "brand": "Beer - Simonis",
+      "origin": "Slovenia"
+    }
+  }
+}

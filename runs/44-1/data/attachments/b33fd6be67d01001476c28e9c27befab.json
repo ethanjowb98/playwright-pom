@@ -1,0 +1,19 @@
+{
+  "message": "Order placed successfully",
+  "order": {
+    "id": "9885a5cc-8bf1-41d4-bb40-5cb08adabcee",
+    "order_number": "O51783",
+    "status": "pending",
+    "total_amount": 15.55,
+    "created_at": "2026-11-14T09:43:01.189863+00:00",
+    "items": [
+      {
+        "product_name": "QA-1-0s3k7wpx Refined Bronze Bike",
+        "category": "snacks",
+        "quantity": 1,
+        "price": 15.55,
+        "temperature_zone": null
+      }
+    ]
+  }
+}

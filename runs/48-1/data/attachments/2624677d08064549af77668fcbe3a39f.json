@@ -1,0 +1,14 @@
+{
+  "method": "POST",
+  "path": "/api/products",
+  "body": {
+    "product_name": "QA-1-lthf7q75 Licensed Bamboo Hat",
+    "category": "snacks",
+    "price": 6.06,
+    "stock": 42,
+    "details": {
+      "brand": "Cummings, Fay and Leffler",
+      "origin": "Malaysia"
+    }
+  }
+}
